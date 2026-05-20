@@ -34,12 +34,17 @@
 - [ ] generatePdf.js 구현
 - [ ] Markdown 또는 HTML 기반 PDF 생성
 
-## Phase 7. 웹페이지 게시
+## Phase 7. 데이터 내보내기 및 웹페이지 게시
 
-- [ ] 웹 리포트 템플릿(HTML/CSS) 작성
+- [ ] 뉴스 데이터를 JSON 형식으로 저장 (data.json)
+- [ ] 웹 리포트 템플릿(Vanilla HTML/CSS) 작성
 - [ ] 결과물 웹 호스팅 연동 (GitHub Pages)
 
-## Phase 8. 통합 실행
+## Phase 8. (Optional) 리액트 대시보드 확장
+
+- [ ] React를 사용하여 data.json을 시각화하는 대시보드 구축
+
+## Phase 9. 통합 실행
 
 - [ ] index.js에서 전체 파이프라인 연결
 
