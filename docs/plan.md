@@ -8,9 +8,9 @@
 
 ## Phase 2. Discord Webhook
 
-- [ ] sendDiscord.js 구현
-- [ ] 텍스트 메시지 전송 테스트
-- [ ] 실패 메시지 처리
+- [x] sendDiscord.js 구현
+- [x] 텍스트 메시지 전송 테스트
+- [x] 실패 메시지 처리
 
 ## Phase 3. 뉴스 수집
 
