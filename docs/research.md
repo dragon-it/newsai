@@ -2,11 +2,11 @@
 
 ## 프로젝트 목표
 
-NewSai는 매일 AI 뉴스를 수집하고 LLM으로 요약한 뒤 Markdown/PDF 리포트를 생성하여 Discord로 전송하는 자동화 파이프라인이다.
+NewSai는 매일 AI 뉴스를 수집하고 LLM으로 요약한 뒤 Markdown/PDF 리포트를 생성하여 웹페이지로 시각화하고, 최종적으로 Discord로 전송하는 자동화 파이프라인이다.
 
 ## 목표 파이프라인
 
-뉴스 수집 → LLM 요약 → Markdown 생성 → PDF 변환 → Discord Webhook 전송
+뉴스 수집 → LLM 요약 → Markdown/PDF 생성 → 웹페이지 게시 → Discord Webhook 전송
 
 ## 스택 선정 이유
 
@@ -17,7 +17,7 @@ NewSai는 매일 AI 뉴스를 수집하고 LLM으로 요약한 뒤 Markdown/PDF 
 - OpenAI API: 우수한 자연어 처리 능력을 통해 원문 뉴스의 핵심을 정확하게 한국어로 요약하기 위해 채택.
 - puppeteer: 생성된 Markdown/HTML 리포트를 렌더링하여 깔끔한 포맷의 PDF로 출력하기 위한 헤드리스 브라우저 제어 도구.
 - Discord Webhook: 별도의 봇 서버 구축이나 복잡한 인증 없이, 단순 REST API 호출만으로 간편하게 알림 및 리포트를 전송할 수 있음.
-- GitHub Actions: 서버 유지비 없이 Cron 기반 스케줄링이 가능하며, 코드 관리와 파이프라인 자동화를 한 곳에서 처리할 수 있음.
+- GitHub Actions: 서버 유지비 없이 Cron 기반 스케줄링이 가능하며, 코드 관리, 파이프라인 자동화, 웹페이지 배포(GitHub Pages)를 한 곳에서 처리할 수 있음.
 
 ## 데이터 수집 전략
 
@@ -45,5 +45,6 @@ HTML 크롤링은 구조 변경과 정책 리스크가 있어 제외한다.
 - 한국어 요약
 - Markdown 생성
 - PDF 생성
+- 웹페이지 표시
 - Discord 전송
 - 실패 알림

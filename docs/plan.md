@@ -34,11 +34,16 @@
 - [ ] generatePdf.js 구현
 - [ ] Markdown 또는 HTML 기반 PDF 생성
 
-## Phase 7. 통합 실행
+## Phase 7. 웹페이지 게시
+
+- [ ] 웹 리포트 템플릿(HTML/CSS) 작성
+- [ ] 결과물 웹 호스팅 연동 (GitHub Pages)
+
+## Phase 8. 통합 실행
 
 - [ ] index.js에서 전체 파이프라인 연결
 
-## Phase 8. GitHub Actions
+## Phase 9. GitHub Actions
 
 - [ ] 매일 오전 7시 실행
 - [ ] 수동 실행 workflow_dispatch 추가

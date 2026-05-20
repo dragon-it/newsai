@@ -1,10 +1,10 @@
 # NewSai
 
-NewSai는 매일 AI 뉴스를 수집하고 LLM으로 요약한 뒤 Markdown/PDF 리포트를 생성하여 Discord로 전송하는 자동화 파이프라인입니다.
+NewSai는 매일 AI 뉴스를 수집하고 LLM으로 요약한 뒤 Markdown/PDF 리포트를 생성하여 웹페이지로 나타내고, 이를 Discord로 전송하는 자동화 파이프라인입니다.
 
 ## Pipeline
 
-News Fetching → LLM Summary → Markdown Report → PDF Export → Discord Webhook
+News Fetching → LLM Summary → Markdown/PDF Generation → Web Display → Discord Webhook
 
 ## Tech Stack
 
