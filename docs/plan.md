@@ -37,7 +37,7 @@
 ## Phase 7. 데이터 내보내기 및 웹페이지 게시
 
 - [ ] 뉴스 데이터를 JSON 형식으로 저장 (data.json)
-- [ ] 웹 리포트 템플릿(Vanilla HTML/CSS) 작성
+- [x] 웹 리포트 템플릿(Vanilla HTML/CSS) 작성
 - [ ] 결과물 웹 호스팅 연동 (GitHub Pages)
 
 ## Phase 8. (Optional) 리액트 대시보드 확장

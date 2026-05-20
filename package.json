@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "node --watch src/index.js"
+    "dev": "node --watch src/index.js",
+    "serve": "live-server docs"
   },
   "dependencies": {
     "axios": "^1.6.8",
@@ -15,5 +16,8 @@
     "openai": "^4.40.0",
     "puppeteer": "^22.7.1",
     "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }
