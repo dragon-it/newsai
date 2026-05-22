@@ -14,9 +14,9 @@
 
 ## Phase 3. 뉴스 수집
 
-- [ ] fetchNews.js 구현
-- [ ] Google News RSS에서 AI 뉴스 5개 수집
-- [ ] title, link, pubDate 정규화
+- [x] fetchNews.js 구현
+- [x] Google News RSS에서 AI 뉴스 5개 수집
+- [x] title, link, pubDate 정규화
 
 ## Phase 4. LLM 요약
 
