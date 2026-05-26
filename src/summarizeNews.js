@@ -8,8 +8,10 @@ dotenv.config();
 
 // Google Generative AI 클라이언트를 초기화합니다.
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-// 사용할 모델을 선택합니다. (gemini-1.5-flash는 빠르고 효율적입니다)
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+// 사용할 모델을 선택합니다.
+// [중요] '이름'이 아닌 'ID'를 적어야 합니다.
+// checkModels.js 결과 리스트 중 무료 할당량이 가장 안정적인 'gemini-3.1-flash-lite'를 선택했습니다.
+const model = genAI.getGenerativeModel({ model: "gemini-3.1-flash-lite" });
 
 /**
  * 수집된 뉴스 목록을 바탕으로 Google Gemini를 사용하여 한국어 요약을 생성합니다.
@@ -18,6 +20,11 @@ const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
  * @returns {Promise<string>} 요약된 텍스트
  */
 export async function summarizeNews(newsList) {
+  // API 키가 로드되었는지 확인 (보안을 위해 앞 4자리만 출력)
+  console.log(
+    `🔑 사용 중인 API 키 확인: ${process.env.GEMINI_API_KEY?.substring(0, 4)}...`,
+  );
+
   if (!process.env.GEMINI_API_KEY) {
     throw new Error("❌ GEMINI_API_KEY가 .env 파일에 설정되지 않았습니다.");
   }
