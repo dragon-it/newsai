@@ -20,9 +20,9 @@
 
 ## Phase 4. LLM 요약
 
-- [ ] summarizeNews.js 구현
-- [ ] 뉴스 목록 기반 프롬프트 생성
-- [ ] 한국어 요약 결과 반환
+- [x] summarizeNews.js 구현
+- [x] 뉴스 목록 기반 프롬프트 생성
+- [x] 한국어 요약 결과 반환
 
 ## Phase 5. Markdown 생성
 
