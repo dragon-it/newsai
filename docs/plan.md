@@ -26,8 +26,9 @@
 
 ## Phase 5. Markdown 생성
 
-- [ ] generateMarkdown.js 구현
-- [ ] 날짜, 요약, 뉴스 목록 포함
+- [x] generateMarkdown.js 구현
+- [x] 날짜, 요약, 뉴스 목록 포함
+- [x] 마크다운 파일 저장 (아카이빙) 로직 추가
 
 ## Phase 6. PDF 생성
 

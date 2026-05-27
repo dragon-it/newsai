@@ -24,6 +24,48 @@
 
 > **작성 가이드**: 새로운 기능이 구현될 때마다 상단에 새 기록을 추가하여 누적 관리합니다.
 
+### 2026-05-27 마크다운 파일 저장 및 아카이빙 로직 구현
+
+- **검토 대상**: `test-pipeline.js`
+- **구현 내용**:
+  - 생성된 마크다운 리포트를 `reports/report-YYYY-MM-DD.md` 형태로 저장하는 로직 추가
+  - `fs` 모듈을 사용하여 폴더 자동 생성 및 파일 쓰기 프로세스 구현
+- **이슈 및 트러블슈팅**:
+  - 파일 시스템 접근 시 절대 경로를 확보하기 위해 `path.join`과 `process.cwd()` 활용
+- **체크리스트**:
+  - [x] `reports/` 디렉토리가 없을 경우 정상적으로 자동 생성되는가
+  - [x] 파일 내용이 깨지지 않고 UTF-8 형식으로 잘 저장되는가
+
+---
+
+### 2026-05-27 Phase 5 마무리: 파이프라인 통합 테스트 완료
+
+- **검토 대상**: `test-pipeline.js`, `src/generateMarkdown.js`
+- **구현 내용**:
+  - `fetchAINews` -> `summarizeNews` -> `generateMarkdown`으로 이어지는 데이터 흐름 연결
+  - `generateMarkdown.js`를 ESM 모듈로 변경하여 프로젝트 전체의 모듈 시스템 일관성 확보
+- **이슈 및 트러블슈팅**:
+  - 기존 `module.exports` 방식이 ESM의 `import`와 충돌하는 문제를 발견하여 `export` 방식으로 수정함
+- **체크리스트**:
+  - [x] 뉴스 데이터가 요약 함수로 정상 전달되는가
+  - [x] 요약된 텍스트가 마크다운 템플릿에 올바르게 삽입되는가
+
+---
+
+### 2026-05-27 Phase 5: Markdown 생성 (generateMarkdown.js) 구현
+
+- **검토 대상**: `src/generateMarkdown.js`
+- **구현 내용**:
+  - 수집된 뉴스 목록(title, link, pubDate)과 LLM 요약본을 결합하여 구조화된 Markdown 문서를 생성하는 로직 구현
+  - 리포트 상단에 생성 날짜(YYYY-MM-DD)를 포함하여 문서 식별 용이성 확보
+- **이슈 및 트러블슈팅**:
+  - 뉴스 목록이 배열이므로 `map`과 `join`을 활용하여 선언적으로 리스트를 구성함
+- **체크리스트**:
+  - [x] Markdown 문법(Heading, Link, List) 준수 확인
+  - [x] 뉴스 링크 및 제목 정상 바인딩 확인
+
+---
+
 ### 2026-05-26 최종 모델 확정 및 요약 기능 검증 완료 (gemini-3.1-flash)
 
 - **검토 대상**: `src/summarizeNews.js`
