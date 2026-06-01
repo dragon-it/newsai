@@ -1,4 +1,4 @@
-import { sendDiscordMessage } from "./sendDiscord.js";
+import { sendDiscordMessage } from "../src/sendDiscord.js";
 
 async function runTest() {
   console.log("🚀 Discord Webhook 전송 테스트를 시작합니다...");
