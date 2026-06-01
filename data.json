@@ -1,0 +1,32 @@
+{
+  "lastUpdated": "2026-06-01T09:55:52.652Z",
+  "reportDate": "2026. 6. 1.",
+  "summary": "오늘 수집된 AI 관련 뉴스 요약입니다.\n\n*   **산업 현장 및 교육의 AI 내재화:** 제약업계의 AI 활용 사례가 일상화되고, KAIST를 중심으로 한 AI 특화 인재 양성 프로그램이 본격화되는 등 실무 적용과 전문 인력 확보가 가속화되고 있습니다.\n*   **인프라 및 기술 효율화:** AI 서버 구축 전 성능을 검증하는 LLM 시뮬레이터 개발과 디지털 트윈을 고도화하는 ‘피지컬 AI’ 추진 등 기술적 안정성과 물리적 실현 가능성을 높이는 연구가 주목받고 있습니다.\n*   **군사적 활용의 윤리적 논의:** 미군의 'AI 킬체인' 가속화에 따른 군사적 AI 도입이 활발해지는 한편, 이에 대한 안전성과 윤리적 책임에 대한 신중론도 함께 제기되고 있습니다.",
+  "news": [
+    {
+      "title": "“누구 쏠지 AI가 고른다”… 미군 ‘AI 킬체인’ 가속에 신중론 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQXpIZ19xR3VfSUxXY1AwMXdlRDB2OWNtbkwwcWV1RktvUW5iTGJTQWhFV2pBWDhZaC1abFIwaWVSOEo4djU1Q2pjbzVCUlN5cFdxa0w0Wk9tNE5mMVZQMW05cDR1NFVBNG83RDRfemVkUVRiaHV1MHZyNVJScHJndW55Q2xyWW1LRlJIUGl3bWFqeElzb1c0V0QzU3BHd9IBsgFBVV95cUxPVXgzdDZzaHpiX29CT0RMN3RIZVRZRk0xSWN3R2MwSm1YRGhrOU1mWWdzT3dQdGtmZEVDcDRpQjRHZlFMTFJSSTF1NlFkTFc0UTNaN28xbVJ5NUFRd1JPRWlRbzBtTENPS2QxRXlRWWNnSjYwWkxLekx5RU0zTWdUWm01VF81MV9xV24wQWUtUFFkOFR6WFcyWGZuTzBqUVZ6TkJXS1o0TnlYT0Z4amVESk13?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 06:07:00 GMT"
+    },
+    {
+      "title": "제약직원 59% \"AI 매일 활용\"…마케팅·학술 특급 도우미 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zeUJsZ0RGUnVTaDUzNVhCR3pqTV9VZUlxNjI4Sl9JWUpuSnRWOG1YdFhoeHZLdC1CcS1aRmxLUk5qQ0EwVEoyYnI5WV9Ybmc2?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 02:11:26 GMT"
+    },
+    {
+      "title": "“AI 서버 구축 전 미리 성능 검증”…KAIST, LLM 인프라 시뮬레이터 개발 - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mZ0ZqS0F0bTNEYWs3MVZMNHZsbmFtX3ByQkJjZkV2ZnFTYU1mb1lIV2JuSjNRSnp0MnRfRXp0ajJ6S3BaemVTWmo2eGl0NmwyZkg5LTBjbTVjMlpKSG1wVWdua05EdXNETlE?oc=5",
+      "pubDate": "Sun, 31 May 2026 10:00:00 GMT"
+    },
+    {
+      "title": "카이스트, AI 핵심분야 50개 특화교육… 산업형 인재 키운다 [AI 인사이트] - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDbTZOVTVkbTg1TG8zRjFHV2h0bm9jdm5zUjBkcXAtUjNnMFdtUFlCUXJES2h4ZzlWRVVGR05iV3VnSEVmSF8yOEN3b0xIb3M?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 09:34:12 GMT"
+    },
+    {
+      "title": "배경훈 부총리, 피지컬 AI트윈에 방점…\"현재 준비중\" - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SUlkzNlBwUXBFcU9TMG1sWnlJdDhqUHpZMTBKcjVENU1xUXBoUm1HWEhPUFZkVmozRjBQbFVTWjZBRm1BMlV2WXYyQWlyZzVGZDdRQ3pB?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 07:12:03 GMT"
+    }
+  ]
+}
