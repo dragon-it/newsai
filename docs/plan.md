@@ -32,8 +32,8 @@
 
 ## Phase 6. PDF 생성
 
-- [ ] generatePdf.js 구현
-- [ ] Markdown 또는 HTML 기반 PDF 생성
+- [x] generatePdf.js 구현
+- [x] Markdown 또는 HTML 기반 PDF 생성
 
 ## Phase 7. 데이터 내보내기 및 웹페이지 게시
 
