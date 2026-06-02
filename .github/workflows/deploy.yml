@@ -1,0 +1,48 @@
+name: Deploy NewsAI to GitHub Pages
+
+on:
+  schedule:
+    # 매일 한국 시간 오전 7시 (UTC 22:00)에 실행되도록 설정
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install Pipeline Dependencies
+        run: npm install
+
+      - name: Run Pipeline (Fetch, Summarize, Gen PDF/JSON)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: node src/index.js || echo "Pipeline failed or missing env vars, continuing for build..."
+
+      - name: Build React Dashboard
+        run: |
+          cd dashboard
+          npm install
+          npm run build
+          # 루트에서 생성된 data.json을 배포될 dist 폴더로 복사합니다.
+          # 만약 파이프라인이 실패해서 data.json이 없으면 빈 JSON을 제공하거나 무시합니다.
+          cp ../data.json dist/data.json || echo "[]" > dist/data.json
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dashboard/dist
+          publish_branch: gh-pages
