@@ -19,7 +19,6 @@ export async function sendDiscordMessage(content) {
   try {
     const response = await axios.post(DISCORD_WEBHOOK_URL, {
       content: content,
-      // 취준생 팁: Embed 기능을 사용하면 더 깔끔한 UI를 만들 수 있습니다.
       username: "NewSai Bot 🤖",
       avatar_url:
         "https://raw.githubusercontent.com/dragon-it/newsai/main/docs/logo.png", // 예시 로고

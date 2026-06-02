@@ -1,0 +1,55 @@
+name: Deploy NewsAI to GitHub Pages
+
+on:
+  schedule:
+    # 매일 한국 시간 오전 9시 (UTC 00:00)에 실행되도록 설정 (plan.md 기준)
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    # 권한 설정: gh-pages 브랜치에 쓰기 권한 부여
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        # src/index.js가 생성된 후 정상 작동합니다.
+        run: node src/index.js
+
+      - name: Prepare for deployment
+        # docs/ 폴더의 정적 파일을 루트로 복사하여 웹 호스팅 경로를 최적화합니다.
+        run: |
+          cp docs/index.html ./index.html
+          cp docs/style.css ./style.css || true
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 배포에 필요한 정적 자산들만 포함
+          publish_dir: ./
+          publish_branch: gh-pages
+          # 소스 코드 및 테스트 코드는 배포 브랜치에서 제외
+          exclude_assets: |
+            node_modules/
+            src/
+            tests/
+            .github/
+            docs/

@@ -39,7 +39,7 @@
 
 - [x] 뉴스 데이터를 JSON 형식으로 저장 (data.json)
 - [x] 웹 리포트 템플릿(Vanilla HTML/CSS) 작성
-- [ ] 결과물 웹 호스팅 연동 (GitHub Pages)
+- [x] 결과물 웹 호스팅 연동 (GitHub Pages)
 
 ## Phase 8. (Optional) 리액트 대시보드 확장
 
@@ -51,8 +51,8 @@
 
 ## Phase 9. GitHub Actions
 
-- [ ] 매일 오전 7시 실행
-- [ ] 수동 실행 workflow_dispatch 추가
+- [x] 매일 오전 7시 실행
+- [x] 수동 실행 workflow_dispatch 추가
 
 ## 테스트 체크리스트
 

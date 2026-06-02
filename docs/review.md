@@ -24,6 +24,21 @@
 
 > **작성 가이드**: 새로운 기능이 구현될 때마다 상단에 새 기록을 추가하여 누적 관리합니다.
 
+### 2026-06-02 Phase 7/9: GitHub Actions 및 Pages 연동
+
+- **검토 대상**: `.github/workflows/deploy.yml`, `docs/plan.md`
+- **구현 내용**:
+  - 매일 오전 7시 자동 실행 및 수동 실행을 위한 GitHub Actions 워크플로우 작성
+  - 파이프라인 실행 후 결과물을 `gh-pages` 브랜치에 자동 배포하는 로직 추가
+  - GitHub Secrets를 통한 보안 변수(`GEMINI_API_KEY`, `DISCORD_WEBHOOK_URL`) 처리
+- **이슈 및 트러블슈팅**:
+  - GitHub Pages 배포 시 소스 코드가 섞이지 않도록 `gh-pages` 브랜치를 분리하여 관리하도록 설정
+- **체크리스트**:
+  - [x] 워크플로우 트리거(Cron, dispatch)가 정상 설정되었는가
+  - [x] 배포 대상 디렉토리가 올바르게 지정되었는가
+
+---
+
 ### 2026-06-01 Phase 7: 데이터 내보내기 및 웹 대시보드 기초 구현
 
 - **검토 대상**: `src/generateJson.js`, `index.html`, `test/test-pipeline.js`
