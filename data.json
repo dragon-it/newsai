@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-06-01T09:55:52.652Z",
-  "reportDate": "2026. 6. 1.",
-  "summary": "오늘 수집된 AI 관련 뉴스 요약입니다.\n\n*   **산업 현장 및 교육의 AI 내재화:** 제약업계의 AI 활용 사례가 일상화되고, KAIST를 중심으로 한 AI 특화 인재 양성 프로그램이 본격화되는 등 실무 적용과 전문 인력 확보가 가속화되고 있습니다.\n*   **인프라 및 기술 효율화:** AI 서버 구축 전 성능을 검증하는 LLM 시뮬레이터 개발과 디지털 트윈을 고도화하는 ‘피지컬 AI’ 추진 등 기술적 안정성과 물리적 실현 가능성을 높이는 연구가 주목받고 있습니다.\n*   **군사적 활용의 윤리적 논의:** 미군의 'AI 킬체인' 가속화에 따른 군사적 AI 도입이 활발해지는 한편, 이에 대한 안전성과 윤리적 책임에 대한 신중론도 함께 제기되고 있습니다.",
+  "lastUpdated": "2026-06-02T07:53:21.372Z",
+  "reportDate": "2026. 6. 2.",
+  "summary": "오늘의 주요 AI 관련 뉴스 요약입니다.\n\n* **글로벌 AI 기업의 상장 경쟁 가속화**: 앤트로픽이 미국 증시 상장을 위한 비공개 절차에 착수하며, 오픈AI와 ‘AI 기업 상장 1호’ 타이틀을 두고 본격적인 경쟁 체제에 돌입했습니다.\n* **산업계 AI 인프라 고도화**: 네이버클라우드가 엔비디아와 협력하여 ‘AI 팩토리’ 구축을 추진하는 등 기업 맞춤형 AI 솔루션 및 인프라 확충이 활발히 진행되고 있습니다.\n* **AI 개발 대중화 및 생산성 향상**: 비전공자도 AI 도구를 활용해 단시간 내 실용적인 애플리케이션을 개발하는 사례가 늘어나는 등 AI 기술이 일반 사용자의 생산성과 창의성을 높이는 핵심 도구로 자리 잡고 있습니다.",
   "news": [
     {
-      "title": "“누구 쏠지 AI가 고른다”… 미군 ‘AI 킬체인’ 가속에 신중론 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQXpIZ19xR3VfSUxXY1AwMXdlRDB2OWNtbkwwcWV1RktvUW5iTGJTQWhFV2pBWDhZaC1abFIwaWVSOEo4djU1Q2pjbzVCUlN5cFdxa0w0Wk9tNE5mMVZQMW05cDR1NFVBNG83RDRfemVkUVRiaHV1MHZyNVJScHJndW55Q2xyWW1LRlJIUGl3bWFqeElzb1c0V0QzU3BHd9IBsgFBVV95cUxPVXgzdDZzaHpiX29CT0RMN3RIZVRZRk0xSWN3R2MwSm1YRGhrOU1mWWdzT3dQdGtmZEVDcDRpQjRHZlFMTFJSSTF1NlFkTFc0UTNaN28xbVJ5NUFRd1JPRWlRbzBtTENPS2QxRXlRWWNnSjYwWkxLekx5RU0zTWdUWm01VF81MV9xV24wQWUtUFFkOFR6WFcyWGZuTzBqUVZ6TkJXS1o0TnlYT0Z4amVESk13?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 06:07:00 GMT"
+      "title": "네이버클라우드, 엔비디아와 AI 팩토리 구축한다 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mTTB2T3kwMzBjQ3poR2dNbFZtV0RuSm91Q1Nmb3hoMEpwRWhUdHV1NkRuMU1GcmZXNXdSM1RvZDN0Z1h5cnctM21YVTJOOHlIRXpBU0d3?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 04:43:40 GMT"
     },
     {
-      "title": "제약직원 59% \"AI 매일 활용\"…마케팅·학술 특급 도우미 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5zeUJsZ0RGUnVTaDUzNVhCR3pqTV9VZUlxNjI4Sl9JWUpuSnRWOG1YdFhoeHZLdC1CcS1aRmxLUk5qQ0EwVEoyYnI5WV9Ybmc2?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 02:11:26 GMT"
+      "title": "앤트로픽, 美상장 절차착수도 오픈AI보다 빨라…비공개서류 제출 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5aVGpqaVpIVVdDcXBVZlA0NEd4aHpmcG5XejJrbnladHlXR3BWY0hRVWJzVVRtX2RiakdsZm9YdVZtM0tLaFlHNUdyVk5yYnRUaXFyaTUzNXc0aFHSAWBBVV95cUxNNXk4c3dLZ2ZZX0NBUWlnNjZsRUtkc0JtZVZXSjlCWDYwdTd0ZG9OakI1QmRxSGpwZC1TLWtIQ003UW4zbDZvRm9ZU3Z6Sy1fQnVJSnByZFFBdlVLN3pBdHk?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 18:08:17 GMT"
     },
     {
-      "title": "“AI 서버 구축 전 미리 성능 검증”…KAIST, LLM 인프라 시뮬레이터 개발 - AI타임스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mZ0ZqS0F0bTNEYWs3MVZMNHZsbmFtX3ByQkJjZkV2ZnFTYU1mb1lIV2JuSjNRSnp0MnRfRXp0ajJ6S3BaemVTWmo2eGl0NmwyZkg5LTBjbTVjMlpKSG1wVWdua05EdXNETlE?oc=5",
-      "pubDate": "Sun, 31 May 2026 10:00:00 GMT"
+      "title": "앤트로픽, 오픈AI보다 먼저 상장 절차…비공개 IPO 신청 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5kdWdUNzVzblh1SlNNS29kS2lNVVhfMHpjbHhDbklxTklYX1N4X1daZVBFR2xkdkl5TDBQWlBzcGhUaGM3d29rVE1iU2hCYzhCT1ZXLWNyQkk3a1lHWHZTeEpiQnVjNWNy0gFuQVVfeXFMUHJXUjdQS3hUVTc0WlNmUmZfdXZRdDV0OG1jbWtpYmp2WE9OSVlqUldCZl95dnVrbzlNbnp3MXJ2WHRTamMzS1VnTGR1bXZxLXVZaHZ5VC1TRWJUMGdycHlvM0NxZWxJcEhuRkNlM1E?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 02:06:24 GMT"
     },
     {
-      "title": "카이스트, AI 핵심분야 50개 특화교육… 산업형 인재 키운다 [AI 인사이트] - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBDbTZOVTVkbTg1TG8zRjFHV2h0bm9jdm5zUjBkcXAtUjNnMFdtUFlCUXJES2h4ZzlWRVVGR05iV3VnSEVmSF8yOEN3b0xIb3M?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 09:34:12 GMT"
+      "title": "앤트로픽, 美 상장절차 착수…오픈AI와 'AI 상장 1호' 경쟁 본격화 - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qMEQ0V3A0eEdubG1oS2dYSThfYjJpUXZpM2Q2NkI0WF9Hbm15blpJejhuMkRnd3FGUV9Ibi02eXRUbUxSbjZkVVh2bTJ3b1E1ZTNhUW93?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 07:12:35 GMT"
     },
     {
-      "title": "배경훈 부총리, 피지컬 AI트윈에 방점…\"현재 준비중\" - 지디넷코리아",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SUlkzNlBwUXBFcU9TMG1sWnlJdDhqUHpZMTBKcjVENU1xUXBoUm1HWEhPUFZkVmozRjBQbFVTWjZBRm1BMlV2WXYyQWlyZzVGZDdRQ3pB?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 07:12:03 GMT"
+      "title": "4시간 만에 ‘뚝딱’···지하철 빈자리 앱 만든 27세 문과생 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CMHpEVjdodHZSOW94d0N1RGczZ0otZ2dOUTJ2TTdPSkJaR1BtY1N5eDM5Q1VpYTM1aW0wamRBMWZMSVdWS3JUckNrTXQwdE03bXRIOWw2Zm44d9IBX0FVX3lxTE0tcURvZ2dkVXRZbk9VSHBJNV9DTUhLRE8xaW1RcXVPbTh6WFNpZXRTaWptSUktRGNCS25uN3NZMW42UEtoTWIwb1Q3QTl0cHdwTU81a2RyVW9JMEFld2FN?oc=5",
+      "pubDate": "Tue, 02 Jun 2026 07:14:00 GMT"
     }
   ]
 }

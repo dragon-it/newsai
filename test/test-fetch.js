@@ -1,4 +1,4 @@
-import { fetchAINews } from "../src/fetchNews.js";
+import { fetchAINews } from "../src/services/fetchNews.js";
 
 async function runTest() {
   console.log("🔍 AI 뉴스 수집 테스트를 시작합니다...\n");

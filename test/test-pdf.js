@@ -1,5 +1,5 @@
 import path from "path";
-import { generatePdf } from "../src/generatePdf.js";
+import { generatePdf } from "../src/formatters/generatePdf.js";
 
 async function runPdfTest() {
   console.log("🚀 PDF 생성 테스트를 시작합니다...");

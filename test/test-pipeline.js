@@ -1,9 +1,9 @@
 import path from "path";
-import { fetchAINews } from "../src/fetchNews.js";
-import { summarizeNews } from "../src/summarizeNews.js";
-import { generateMarkdown } from "../src/generateMarkdown.js";
+import { fetchAINews } from "../src/services/fetchNews.js";
+import { summarizeNews } from "../src/services/summarizeNews.js";
+import { generateMarkdown } from "../src/formatters/generateMarkdown.js";
 import { saveToFile } from "../src/utils/fileSystem.js";
-import { generateJson } from "../src/generateJson.js";
+import { generateJson } from "../src/formatters/generateJson.js";
 
 /**
  * 수집, 요약, 마크다운 생성을 하나로 연결하는 통합 테스트 함수입니다.

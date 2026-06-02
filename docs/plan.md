@@ -43,11 +43,11 @@
 
 ## Phase 8. (Optional) 리액트 대시보드 확장
 
-- [ ] React를 사용하여 data.json을 시각화하는 대시보드 구축
+- [x] dashboard/ 폴더에 React 프로젝트 구조 분리 및 대시보드 구축
 
 ## Phase 9. 통합 실행
 
-- [ ] index.js에서 전체 파이프라인 연결
+- [x] index.js에서 전체 파이프라인 연결
 
 ## Phase 9. GitHub Actions
 
