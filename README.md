@@ -4,7 +4,7 @@ NewSai는 매일 AI 뉴스를 수집하고 LLM으로 요약한 뒤 Markdown/PDF 
 
 ## Pipeline
 
-News Fetching (RSS) → LLM Summary (Gemini 1.5 Flash) → Markdown, JSON, PDF Generation → React Web Display → Discord Webhook
+News Fetching (RSS) → LLM Summary (gemini-3.1-flash-lite) → Markdown, JSON, PDF Generation → React Web Display → Discord Webhook
 
 ## Tech Stack
 
@@ -54,17 +54,21 @@ DISCORD_WEBHOOK_URL=your_discord_webhook_url_here
 ### Running Locally
 
 **1. 데이터 파이프라인 실행 (뉴스 수집 및 요약, 파일 생성)**
+
 ```bash
 # 프로젝트 루트 디렉토리에서 실행
 npm start
 # 또는 node src/index.js
 ```
+
 실행이 완료되면 루트에 `data.json`이 생성되고, `reports/` 폴더에 Markdown 및 PDF 리포트가 저장됩니다.
 
 **2. React 대시보드 실행**
+
 ```bash
 # dashboard 디렉토리에서 실행
 cd dashboard
 npm run dev
 ```
+
 파이프라인이 생성한 `data.json` 기반으로 브라우저에서 대시보드를 확인할 수 있습니다.
