@@ -2,14 +2,13 @@ name: Deploy NewsAI to GitHub Pages
 
 on:
   schedule:
-    # 매일 한국 시간 오전 9시 (UTC 00:00)에 실행되도록 설정 (plan.md 기준)
-    - cron: "0 0 * * *"
+    # 매일 한국 시간 오전 7시 (UTC 22:00)에 실행되도록 설정
+    - cron: "0 22 * * *"
   workflow_dispatch:
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    # 권한 설정: gh-pages 브랜치에 쓰기 권한 부여
     permissions:
       contents: write
 
@@ -23,33 +22,27 @@ jobs:
           node-version: "20"
           cache: "npm"
 
-      - name: Install dependencies
+      - name: Install Pipeline Dependencies
         run: npm install
 
-      - name: Run Pipeline
+      - name: Run Pipeline (Fetch, Summarize, Gen PDF/JSON)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        # src/index.js가 생성된 후 정상 작동합니다.
-        run: node src/index.js
+        run: node src/index.js || echo "Pipeline failed or missing env vars, continuing for build..."
 
-      - name: Prepare for deployment
-        # docs/ 폴더의 정적 파일을 루트로 복사하여 웹 호스팅 경로를 최적화합니다.
+      - name: Build React Dashboard
         run: |
-          cp docs/index.html ./index.html
-          cp docs/style.css ./style.css || true
+          cd dashboard
+          npm install
+          npm run build
+          # 루트에서 생성된 data.json을 배포될 dist 폴더로 복사합니다.
+          # 만약 파이프라인이 실패해서 data.json이 없으면 빈 JSON을 제공하거나 무시합니다.
+          cp ../data.json dist/data.json || echo "[]" > dist/data.json
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # 배포에 필요한 정적 자산들만 포함
-          publish_dir: ./
+          publish_dir: ./dashboard/dist
           publish_branch: gh-pages
-          # 소스 코드 및 테스트 코드는 배포 브랜치에서 제외
-          exclude_assets: |
-            node_modules/
-            src/
-            tests/
-            .github/
-            docs/

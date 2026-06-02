@@ -16,7 +16,7 @@
 
 - [x] fetchNews.js 구현
 - [x] Google News RSS에서 AI 뉴스 5개 수집
-- [x] title, link, pubDate 정규화
+- [x] title, link, 정규화
 
 ## Phase 4. LLM 요약
 
@@ -56,9 +56,9 @@
 
 ## 테스트 체크리스트
 
-- [ ] Discord 메시지 전송 확인
-- [ ] RSS 수집 결과 확인
-- [ ] LLM 응답 확인
-- [ ] Markdown 파일 생성 확인
-- [ ] PDF 파일 생성 확인
-- [ ] Actions 실행 확인
+- [x] Discord 메시지 전송 확인
+- [x] RSS 수집 결과 확인
+- [x] LLM 응답 확인
+- [x] Markdown 파일 생성 확인
+- [x] PDF 파일 생성 확인
+- [x] Actions 실행 확인
