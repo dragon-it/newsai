@@ -31,6 +31,14 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: node src/index.js || echo "Pipeline failed or missing env vars, continuing for build..."
 
+      - name: Commit newly fetched data to main branch
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json reports/ || echo "Files not found to add"
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto-update news data and reports"
+          git push origin main || echo "No changes to push or push failed"
+
       - name: Build React Dashboard
         run: |
           cd dashboard
