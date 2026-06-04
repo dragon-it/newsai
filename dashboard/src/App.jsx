@@ -7,9 +7,22 @@ function App() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    // Fetch data.json dynamically
-    // GitHub Pages will serve from /newsai/data.json
-    // Dev server will serve from /data.json if in public, but let's try relative and root.
+    if (import.meta.env.DEV) {
+      // 로컬 개발 환경에서는 상위 폴더의 data.json을 직접 불러옵니다.
+      import('../../data.json')
+        .then((module) => {
+          setData(module.default)
+          setLoading(false)
+        })
+        .catch((err) => {
+          console.error(err)
+          setError('로컬 데이터를 불러오지 못했습니다. 백엔드 파이프라인을 먼저 실행해주세요.')
+          setLoading(false)
+        })
+      return
+    }
+
+    // 깃허브 배포(운영) 환경에서는 URL 기반으로 fetch 합니다.
     const fetchUrl = import.meta.env.BASE_URL + 'data.json';
     
     fetch(fetchUrl)
@@ -23,17 +36,8 @@ function App() {
       })
       .catch((err) => {
         console.error(err)
-        // Fallback for dev environment
-        fetch('/data.json')
-            .then(res => res.json())
-            .then(json => {
-                setData(json);
-                setLoading(false);
-            })
-            .catch(e => {
-                setError(err.message)
-                setLoading(false)
-            });
+        setError(err.message)
+        setLoading(false)
       })
   }, [])
 

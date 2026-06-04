@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-04T09:13:56.262Z",
+  "lastUpdated": "2026-06-04T09:22:27.625Z",
   "reportDate": "2026. 6. 4.",
-  "summary": "오늘 수집된 AI 관련 주요 소식 요약입니다.\n\n* **메타의 AI 글래스 국내 출시:** 메타가 실시간 통·번역, 정보 검색, 코디 제안 등 일상적인 AI 비서 기능을 탑재한 스마트 글래스를 국내에 선보이며 온디바이스 AI 시장을 공략합니다.\n* **네이버-앤스로픽 협력 강화:** 네이버가 글로벌 AI 기업 앤스로픽의 임원진과 회동하여 차세대 AI 기술 협력 및 전략적 파트너십 논의를 본격화합니다.\n* **기업용 AI 서비스 고도화:** 채널톡 등 기업용 솔루션 업체들이 'AI 비서실장'과 같은 실무형 AI 도구를 잇달아 출시하며 B2B AI 시장의 경쟁이 치열해지고 있습니다.",
+  "summary": "제시해주신 뉴스 목록을 바탕으로 정리한 현재 AI 기술 트렌드 및 주요 소식 요약입니다.\n\n* **웨어러블 AI 시장 본격화**: 메타가 실시간 번역, 코디 제안 등 다기능을 탑재한 'AI 글래스'를 국내에 출시하며 일상 속 AI 비서 시대의 서막을 열었습니다.\n* **업무 효율화를 위한 AI 도입 가속**: 채널톡 등 기업용 서비스들이 업무 자동화를 지원하는 'AI 비서실장' 기능을 도입하며 기업 생산성 혁신을 위한 AI 솔루션 경쟁이 심화되고 있습니다.\n* **AI의 영향력과 윤리적 논쟁 확산**: AI가 수학적 연구와 학문적 가치를 위협할 수 있다는 우려 속에 전 세계 수학자들이 '라이덴 선언'을 발표하는 등 AI 발전에 따른 윤리적·학술적 가이드라인 제정의 필요성이 대두되고 있습니다.",
   "news": [
     {
       "title": "\"3초면 답변 뚝딱\"…韓 상륙 메타 ‘AI 글래스’ 써보니 - 지디넷코리아",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RWnVuZDF4QjFKVkRwSnpTY2stMGlUX2k0bUtWckl5QUc5Vnh3MXMyZXZIZEdUZ0t1WGxwYTlHbU1pX3Fkb1FZX0YtbENfSFNqWm9yTnB3?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 08:07:10 GMT"
+      "pubDate": "Thu, 04 Jun 2026 04:50:54 GMT"
     },
     {
       "title": "안경쓰면 AI가 답해주는 시대왔다…메타, AI안경 韓 출시 - v.daum.net",
@@ -14,14 +14,14 @@
       "pubDate": "Thu, 04 Jun 2026 07:51:38 GMT"
     },
     {
-      "title": "\"헤이 메타\" 부르자 번역·코디 척척…메타표 `AI 글래스` 써보니 - 디지털데일리",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10dnYwNjR3Yy1DMU5zUWFmeXFtbE1jbVBZLXRNT3IwVlc5aUIxSkx4el9TQTRVV25mM05iT1h0eTZGOEVtYmZiV29KdmdGSkZfRE9GaWluVHNaVW9aV3ZlYVhn?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 07:42:06 GMT"
+      "title": "말 한마디에 번역·코디…메타 AI 안경 韓 상륙 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VaURNVFg5YnMxbmpzS210WFd3dW9VYXdWNVRqbmlDN2FUUTVNZHpYbEpma256QVlrLWhEYkVweUNDU3Nvd0NjaUU4dkJaTVFiclgxSGhPNGZ5d9IBVEFVX3lxTE9GckwtTzdXb0ttV3hwM3E5b1l0Q21wVUstQ3VxVFlERGdic1Z1ZTY4bnVTdW5XeVVEdXFURUN5bm9WMjlucXlwbjdzdm9UQ3JsNXE5UQ?oc=5",
+      "pubDate": "Thu, 04 Jun 2026 08:28:32 GMT"
     },
     {
-      "title": "[단독]앤스로픽 AI 기술 임원, 16일 네이버 본사 찾는다 - 동아일보",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1icmc0Zzd0TEJ0emFQRzlHaUxyVlRpR2hoZ200R3lSVDJxaGxCVTRILXZYNmYyT2Q3Z2NwbnExSlFPNUlJSkhTQ1lnYVlhekFxemRuaGpseXdjUGdhU2FkcGVnQ0I3QW1IZ3VyTkpzRHBFU2p2TXfSAWZBVV95cUxNWU9LcXJ3ZXdmLVg1Z3RNZWkwcHhXaGRwa05iU3ZfOGowUEtIczRTWXVPOFUyVjVBMVdkUDF2VEdmaUZ3UzlVb29vaVh5TU5ycUR6Y1diMVFfZDdYWTh6QU5ibnEwbVE?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 04:52:00 GMT"
+      "title": "“AI, 수학의 핵심 가치 위협”… 세계 수학자들 ‘라이덴 선언’ 발표 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWtWSk5TZTVoaDdWd1BQQnRzV25HYWpWeGJfNVByRlpRQThwQ1ZVZEFrX2tWTVpqUlVHTmlJZi1IVkVhcVdYVS1FREZUVGZ1TXV6M0dNUVlsc0FzY1RIMmdLdkNLX0JUQkVXVTdSYmp1OTJ6MGR4N0dwalF2WVZrM1hOTQ?oc=5",
+      "pubDate": "Wed, 03 Jun 2026 06:21:00 GMT"
     },
     {
       "title": "일본 공략 2막 돌입한 채널톡…다음 승부수 'AI 비서실장' 첫 공개 - 머니투데이 - 머니투데이",
