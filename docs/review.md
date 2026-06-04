@@ -24,6 +24,24 @@
 
 > **작성 가이드**: 새로운 기능이 구현될 때마다 상단에 새 기록을 추가하여 누적 관리합니다.
 
+### 2026-06-04 React 대시보드 마이그레이션 및 GitHub Actions 설정 개선
+
+- **검토 대상**: `dashboard/src/App.jsx`, `dashboard/src/App.css`, `dashboard/src/index.css`, `.github/workflows/deploy.yml`, `docs/`
+- **구현 내용**:
+  - 기존 Vanilla HTML/JS UI(`docs/index.html`, `docs/style.css`)를 React/Vite 기반 앱(`dashboard/src/App.jsx`)으로 완벽하게 마이그레이션.
+  - 깃허브 액션 `deploy.yml` 파일에서 파이프라인이 수집한 `data.json` 및 `reports/` 데이터를 매번 `main` 브랜치에 자동 커밋 및 푸시하도록 스크립트 추가 (데이터 보존용).
+  - 깃허브 페이지 호스팅 시 경로 오류 방지를 위해 `dashboard/vite.config.js`에 `base: '/newsai/'` 설정 추가.
+  - 마이그레이션 후 불필요해진 구버전 바닐라 JS 관련 파일(`docs/index.html`, `docs/style.css`, 루트 `index.html`) 정리.
+- **이슈 및 트러블슈팅**:
+  - 기존 구버전 파일 정리 과정에서, AI의 주요 행동 지침 파일인 `docs/` 폴더 내 마크다운 파일들(`gemini.md`, `plan.md`, `research.md`, `review.md`)까지 일괄 삭제되는 사고 발생.
+  - 즉각적으로 `git restore` 명령어를 통해 삭제된 `docs/` 폴더 전체를 복구하고, 타겟팅된 파일만 삭제하는 방향으로 롤백 조치.
+- **체크리스트**:
+  - [x] 프론트엔드 UI가 React로 정상 이식되었는가
+  - [x] 배포 시 생성된 데이터들이 `main` 브랜치에 자동 저장되는가
+  - [x] `docs/` 내부의 마크다운 지침 문서들이 안전하게 보존되었는가
+
+---
+
 ### 2026-06-02 Phase 8 & 9: 소스코드 구조 리팩토링 및 대시보드 셋업, 통합 파이프라인 구축
 
 - **검토 대상**: `src/`, `dashboard/`, `src/index.js`, `test/`
