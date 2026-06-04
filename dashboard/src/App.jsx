@@ -1,121 +1,95 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+﻿import { useState, useEffect } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [data, setData] = useState(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
+
+  useEffect(() => {
+    if (import.meta.env.DEV) {
+      // 로컬 개발 환경에서는 상위 폴더의 data.json을 직접 불러옵니다.
+      import('../../data.json')
+        .then((module) => {
+          setData(module.default)
+          setLoading(false)
+        })
+        .catch((err) => {
+          console.error(err)
+          setError('로컬 데이터를 불러오지 못했습니다. 백엔드 파이프라인을 먼저 실행해주세요.')
+          setLoading(false)
+        })
+      return
+    }
+
+    // 깃허브 배포(운영) 환경에서는 URL 기반으로 fetch 합니다.
+    const fetchUrl = import.meta.env.BASE_URL + 'data.json';
+    
+    fetch(fetchUrl)
+      .then((res) => {
+        if (!res.ok) throw new Error('데이터를 불러오는데 실패했습니다.')
+        return res.json()
+      })
+      .then((json) => {
+        setData(json)
+        setLoading(false)
+      })
+      .catch((err) => {
+        console.error(err)
+        setError(err.message)
+        setLoading(false)
+      })
+  }, [])
+
+  if (loading) {
+    return <div className="loading-container">데이터를 불러오는 중...</div>
+  }
+
+  if (error) {
+    return <div className="error-container">에러: {error}</div>
+  }
+
+  if (!data || !data.news) {
+    return <div className="error-container">데이터가 없습니다.</div>
+  }
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+    <div className="container">
+      <header>
+        <div className="logo">NewSai 🤖</div>
+        <h1>AI 데일리 리포트</h1>
+        <p className="date">발행일: <span id="report-date">{data.reportDate}</span></p>
+        <div className="actions">
+          <a href={import.meta.env.BASE_URL + 'report.pdf'} className="btn-download" download>PDF 리포트 다운로드</a>
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+      </header>
 
-      <div className="ticks"></div>
+      <main>
+        <section className="summary-section">
+          <h2>오늘의 요약</h2>
+          <div className="summary-content">{data.summary}</div>
+        </section>
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        <section className="news-section">
+          <h2>주요 뉴스 목록</h2>
+          <div className="news-list">
+            {data.news.map((item, index) => (
+              <div className="news-card" key={index}>
+                <span className="pub-date">{new Date(item.pubDate).toLocaleDateString()}</span>
+                <h3><a href={item.link} target="_blank" rel="noopener noreferrer">{item.title}</a></h3>
+              </div>
+            ))}
+          </div>
+        </section>
+      </main>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+      <footer>
+        <p>&copy; 2026 NewSai Automation. Generated by LLM.</p>
+        <p>
+          <a href="https://github.com/dragon-it/newsai">GitHub Repository</a>
+        </p>
+      </footer>
+    </div>
   )
 }
 
