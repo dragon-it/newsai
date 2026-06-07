@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-06-04T09:22:27.625Z",
-  "reportDate": "2026. 6. 4.",
-  "summary": "제시해주신 뉴스 목록을 바탕으로 정리한 현재 AI 기술 트렌드 및 주요 소식 요약입니다.\n\n* **웨어러블 AI 시장 본격화**: 메타가 실시간 번역, 코디 제안 등 다기능을 탑재한 'AI 글래스'를 국내에 출시하며 일상 속 AI 비서 시대의 서막을 열었습니다.\n* **업무 효율화를 위한 AI 도입 가속**: 채널톡 등 기업용 서비스들이 업무 자동화를 지원하는 'AI 비서실장' 기능을 도입하며 기업 생산성 혁신을 위한 AI 솔루션 경쟁이 심화되고 있습니다.\n* **AI의 영향력과 윤리적 논쟁 확산**: AI가 수학적 연구와 학문적 가치를 위협할 수 있다는 우려 속에 전 세계 수학자들이 '라이덴 선언'을 발표하는 등 AI 발전에 따른 윤리적·학술적 가이드라인 제정의 필요성이 대두되고 있습니다.",
+  "lastUpdated": "2026-06-07T15:08:56.894Z",
+  "reportDate": "2026. 6. 7.",
+  "summary": "오늘 수집된 AI 분야 주요 뉴스 요약입니다.\n\n* 오픈AI가 챗GPT를 코딩과 AI 에이전트 기능을 통합한 ‘슈퍼앱’ 중심으로 전면 개편하며, 기업 가치 제고를 위한 기술 고도화에 박차를 가하고 있습니다.\n* AI의 자동화 수준이 높아짐에 따라 개발 효율성과 편의성이 증대되는 ‘바이브 코딩’ 시대가 열리고 있으나, 기술 의존도 심화 등 부작용에 대한 논의도 병행되고 있습니다.\n* 정부가 공공 부문의 AI 신속 개발을 위해 민간 중심의 전담 조직을 신설하고, 재활·돌봄 등 실생활 밀착형 AI 서비스 확산을 지원하는 등 산업 생태계 강화에 나서고 있습니다.",
   "news": [
     {
-      "title": "\"3초면 답변 뚝딱\"…韓 상륙 메타 ‘AI 글래스’ 써보니 - 지디넷코리아",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RWnVuZDF4QjFKVkRwSnpTY2stMGlUX2k0bUtWckl5QUc5Vnh3MXMyZXZIZEdUZ0t1WGxwYTlHbU1pX3Fkb1FZX0YtbENfSFNqWm9yTnB3?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 04:50:54 GMT"
+      "title": "오픈AI, IPO 앞두고 챗GPT 대수술…\"코딩·AI에이전트 합친 '슈퍼앱' 선보여\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CMlFkUVVYV29hdWswM196bjA5elJTRTJTY2hZRVZLY2I5bHdMd3NCd1FYOUdKcVV1ckJrczh6YWRGZ1YxR3d4clFpdUsxZ0pUR3g1ZFpRZkJJRTFtSVVUbdIBeEFVX3lxTE9Nb215RG85dmxRRTFkQVgzdVVDa3M2MFNVdlJkYjdfVEg0X0xiOWdsYUstZjFIRXJOTGwwQ1NlaXFPM2NSQ2diUFV2X21vN0pQaU9UZ2pnT19mMDJfcmRjVHN4RzEwQjdybzQ2R3lDQXdMNlZvdzdHMQ?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 13:46:07 GMT"
     },
     {
-      "title": "안경쓰면 AI가 답해주는 시대왔다…메타, AI안경 韓 출시 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PU090djY4RXVZT19DMnUtZFdna0JxelFXb2kxVXVpaXBQWFE0VVVqTW9YM21Qbks5TTFUWE9SdDZGN25obkRXWDVyczB4eVU?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 07:51:38 GMT"
+      "title": "“AI가 알아서 다 해줬어요”…‘바이브 코딩’의 두 얼굴 - KBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBSVpldFJCNWZ2NDFhZHRVVXAtSFFvT1JyNGZkRzRJNDJVRGZUZXRvaURUMlVVbWYwSWlLZW5MT0RwV0NZb0VnY2FaTkxFQzEzOEpPWWs5RFRkRmM?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 02:07:00 GMT"
     },
     {
-      "title": "말 한마디에 번역·코디…메타 AI 안경 韓 상륙 - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VaURNVFg5YnMxbmpzS210WFd3dW9VYXdWNVRqbmlDN2FUUTVNZHpYbEpma256QVlrLWhEYkVweUNDU3Nvd0NjaUU4dkJaTVFiclgxSGhPNGZ5d9IBVEFVX3lxTE9GckwtTzdXb0ttV3hwM3E5b1l0Q21wVUstQ3VxVFlERGdic1Z1ZTY4bnVTdW5XeVVEdXFURUN5bm9WMjlucXlwbjdzdm9UQ3JsNXE5UQ?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 08:28:32 GMT"
+      "title": "오픈AI, 제품라인 전면개편…챗GPT→코덱스로 중심이동 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94Qi1rMXNDaFBhZVRXcWpUN0NYaUstaHk4SXlPNzdVUm5fR0NxbDYxOHA5N2ZGMVYxLTduWjM3LTU1M0Y2Z1Q3dkM5QUpCVHFidkk0NTVaU2RiS2PSAWBBVV95cUxNSzJEbHo5cmZPbmFWcV9JVHpVTHQzQkVkTlNWQllZZ2otdXpoNTR3NzJSMktSWnZfUjFBeUFnV0VCem13ckgwT1E5Wjd1ZzBUcWlaeVRaSzdvMDRsMVdVaXA?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 06:11:08 GMT"
     },
     {
-      "title": "“AI, 수학의 핵심 가치 위협”… 세계 수학자들 ‘라이덴 선언’ 발표 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWtWSk5TZTVoaDdWd1BQQnRzV25HYWpWeGJfNVByRlpRQThwQ1ZVZEFrX2tWTVpqUlVHTmlJZi1IVkVhcVdYVS1FREZUVGZ1TXV6M0dNUVlsc0FzY1RIMmdLdkNLX0JUQkVXVTdSYmp1OTJ6MGR4N0dwalF2WVZrM1hOTQ?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 06:21:00 GMT"
+      "title": "[단독] '공공AI 신속개발' 민간중심 정부조직 만든다 - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1XZmdZUGtoTnVXVHdaVkFfbFJTZjFhQmhLN3pieWMtdXBJTDd2TlJMOWVKT2stZXA4UjNFMUVPbUxOWFJ6a1VtbFhmNkk2dw?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT"
     },
     {
-      "title": "일본 공략 2막 돌입한 채널톡…다음 승부수 'AI 비서실장' 첫 공개 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0ya0lLejY4andiUk1nODRhNlowUlNCSWJYRUxJZ2pYOFZIeVBITUxXS2NQaERqMXBiZW1EQ2JKMHRXMTFKZHZxd2xsME0tV0cwcWk3LTRaSWhoSHRGeC1ZRi11b21jQkQ2clHSAW9BVV95cUxNT1pJQUJhdXBybWE0aHNnMFVYQWozam41bXptQU96WDJXcF9UeG5QZV80blFuN1BXbkxGUVdWY2RCVEFfR1BsQnduamRxV0lGUm5saE5ybWdjTGU5bkJ5b3JKOVZoMUtYTXhybE9ZSDQ?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 09:00:00 GMT"
+      "title": "\"AI가 재활·돌봄·자립 돕는다\"...한국AI서비스학회 10일 행사 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzcEFjcmFaSldyNnd3aEFhdGNoNm16bXdUUmVXbEdMT3FEclRqSnFXcUZjZlBrR20xejVjNWt0RDU2M2E0Q29ZdVFkUloxVkU?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 13:53:53 GMT"
     }
   ]
 }
