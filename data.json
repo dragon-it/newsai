@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-06-07T15:19:12.327Z",
+  "lastUpdated": "2026-06-07T22:59:38.986Z",
   "reportDate": "2026. 6. 7.",
-  "summary": "오늘의 AI 주요 뉴스 요약입니다.\n\n* **오픈AI의 전략적 전환:** 오픈AI가 IPO를 대비해 챗GPT를 코딩과 AI 에이전트 기능을 통합한 '슈퍼앱(코덱스 중심)'으로 개편하며 서비스 체질 개선에 나섰습니다.\n* **AI 도입의 명암:** '바이브 코딩' 등 AI 기반 개발 도구의 확산으로 생산성이 크게 향상되었으나, 이에 따른 기술 의존도와 개발 역량 저하 등 부작용에 대한 우려도 공존하고 있습니다.\n* **공공 및 복지 분야 확산:** 정부가 민간 주도의 공공 AI 신속 개발 조직을 신설하고, 재활·돌봄 등 취약계층 자립을 지원하는 등 AI 기술의 사회적 활용 범위가 확대되고 있습니다.",
+  "summary": "오늘 수집된 AI 주요 뉴스 요약입니다.\n\n* **오픈AI의 전략적 피벗(Pivot):** 오픈AI가 챗봇 중심의 기존 서비스에서 벗어나 AI 코딩 에이전트와 생산성 향상 중심의 '슈퍼앱'으로 제품 라인을 전면 개편하며 IPO를 대비한 체질 개선에 나섰습니다.\n* **피지컬 AI 및 로보틱스 부상:** 엔비디아의 젠슨 황 CEO가 한국의 차기 핵심 산업으로 로보틱스를 지목함에 따라, 삼성과 LG 등 국내 기업들이 물리적 세계와 상호작용하는 '피지컬 AI' 개발에 박차를 가하고 있습니다.\n* **공공 AI 거버넌스 강화:** 정부가 민간 주도의 공공 AI 기술 신속 개발을 목표로 새로운 정부 조직 구성을 추진하며, 국가 차원의 AI 인프라 확충 및 기술 경쟁력 확보를 본격화하고 있습니다.",
   "news": [
-    {
-      "title": "오픈AI, IPO 앞두고 챗GPT 대수술…\"코딩·AI에이전트 합친 '슈퍼앱' 선보여\" - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1CMlFkUVVYV29hdWswM196bjA5elJTRTJTY2hZRVZLY2I5bHdMd3NCd1FYOUdKcVV1ckJrczh6YWRGZ1YxR3d4clFpdUsxZ0pUR3g1ZFpRZkJJRTFtSVVUbdIBeEFVX3lxTE9Nb215RG85dmxRRTFkQVgzdVVDa3M2MFNVdlJkYjdfVEg0X0xiOWdsYUstZjFIRXJOTGwwQ1NlaXFPM2NSQ2diUFV2X21vN0pQaU9UZ2pnT19mMDJfcmRjVHN4RzEwQjdybzQ2R3lDQXdMNlZvdzdHMQ?oc=5",
-      "pubDate": "Sun, 07 Jun 2026 13:46:07 GMT"
-    },
-    {
-      "title": "“AI가 알아서 다 해줬어요”…‘바이브 코딩’의 두 얼굴 - KBS 뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBSVpldFJCNWZ2NDFhZHRVVXAtSFFvT1JyNGZkRzRJNDJVRGZUZXRvaURUMlVVbWYwSWlLZW5MT0RwV0NZb0VnY2FaTkxFQzEzOEpPWWs5RFRkRmM?oc=5",
-      "pubDate": "Sun, 07 Jun 2026 02:07:00 GMT"
-    },
     {
       "title": "오픈AI, 제품라인 전면개편…챗GPT→코덱스로 중심이동 - 연합뉴스",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94Qi1rMXNDaFBhZVRXcWpUN0NYaUstaHk4SXlPNzdVUm5fR0NxbDYxOHA5N2ZGMVYxLTduWjM3LTU1M0Y2Z1Q3dkM5QUpCVHFidkk0NTVaU2RiS2PSAWBBVV95cUxNSzJEbHo5cmZPbmFWcV9JVHpVTHQzQkVkTlNWQllZZ2otdXpoNTR3NzJSMktSWnZfUjFBeUFnV0VCem13ckgwT1E5Wjd1ZzBUcWlaeVRaSzdvMDRsMVdVaXA?oc=5",
       "pubDate": "Sun, 07 Jun 2026 06:11:08 GMT"
+    },
+    {
+      "title": "오픈AI “챗봇은 죽었다”…AI 코딩 에이전트 중심 전환, 소라는 종료 - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RZXFsR1NNNmxFVlR6X0tUSWNkYkF1SjZMT1p2Wmh5S0lMVVpCOEtEZGJvMHRlZmlZSmFDLU1XYjNEOFVzRDVxN0F1T0VObmxRUmfSAVNBVV95cUxNdzR4b05IUHR5aklTWGh2Y3Foc25IZHdtMG12RVFuQVhVM0xJci1FMk5Nc2ZkTFNlV01DSVQyM1YxejJ0OXhqWlYzeXNIUHFRUE4zYw?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 22:16:09 GMT"
+    },
+    {
+      "title": "오픈AI, IPO 앞두고 챗GPT 대개편...'슈퍼앱' 변신 승부수 - SBSBiz",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01djJ5UGlVZEs5bEdDRXVxYXd5VThWemZTcDE4UUcwbHpkNDUtV2hPTVZENkQ5dm9VbkhVTWtfYWl2RjNSQk1sdFM1NXY4VDRYSm05eFV0NEw?oc=5",
+      "pubDate": "Sun, 07 Jun 2026 19:32:00 GMT"
     },
     {
       "title": "[단독] '공공AI 신속개발' 민간중심 정부조직 만든다 - 전자신문",
@@ -24,9 +24,9 @@
       "pubDate": "Sun, 07 Jun 2026 07:00:00 GMT"
     },
     {
-      "title": "\"AI가 재활·돌봄·자립 돕는다\"...한국AI서비스학회 10일 행사 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBzcEFjcmFaSldyNnd3aEFhdGNoNm16bXdUUmVXbEdMT3FEclRqSnFXcUZjZlBrR20xejVjNWt0RDU2M2E0Q29ZdVFkUloxVkU?oc=5",
-      "pubDate": "Sun, 07 Jun 2026 13:53:53 GMT"
+      "title": "젠슨 황 \"로보틱스, 韓 다음 핵심 산업\"…삼성·LG 피지컬AI 속도 - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KWjRHeUpEN1hha0xuVzBEaFZrZHJxRElRWVdYdlVSVGpldC1SR3JBeU9UdkhQNTNUYWNFbmUxZXE1UGJ0RVEtTndNNHVuVkswUms2WDZLNGNRcUVDTGNCbtIBeEFVX3lxTE5WdVpfS0ZuaGdMeUkyU1ZYQ1Q4UkRUejdJOERFS3hoN3lfNTlCZTVPQkotNjRWSjdjSWE2V1hrX0dKUnFiaS1qZGd1TVFyaTk5RVZtQU5IYlJpOGtXOVNZQV9aV0FIdTM3Smp4YTN3emEycmRGX0tiYw?oc=5",
+      "pubDate": "Sat, 06 Jun 2026 05:37:01 GMT"
     }
   ]
 }
