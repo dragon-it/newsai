@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-06-04T09:22:27.625Z",
-  "reportDate": "2026. 6. 4.",
-  "summary": "제시해주신 뉴스 목록을 바탕으로 정리한 현재 AI 기술 트렌드 및 주요 소식 요약입니다.\n\n* **웨어러블 AI 시장 본격화**: 메타가 실시간 번역, 코디 제안 등 다기능을 탑재한 'AI 글래스'를 국내에 출시하며 일상 속 AI 비서 시대의 서막을 열었습니다.\n* **업무 효율화를 위한 AI 도입 가속**: 채널톡 등 기업용 서비스들이 업무 자동화를 지원하는 'AI 비서실장' 기능을 도입하며 기업 생산성 혁신을 위한 AI 솔루션 경쟁이 심화되고 있습니다.\n* **AI의 영향력과 윤리적 논쟁 확산**: AI가 수학적 연구와 학문적 가치를 위협할 수 있다는 우려 속에 전 세계 수학자들이 '라이덴 선언'을 발표하는 등 AI 발전에 따른 윤리적·학술적 가이드라인 제정의 필요성이 대두되고 있습니다.",
+  "lastUpdated": "2026-06-08T05:51:45.307Z",
+  "reportDate": "2026. 6. 8.",
+  "summary": "오늘의 주요 AI 기술 트렌드 및 소식을 요약해 드립니다.\n\n* **엔비디아 중심의 글로벌 AI 생태계 확장:** SK, LG, 네이버 등 국내 주요 기업들이 엔비디아와 전략적 협력을 강화하며 AI 인프라와 피지컬 AI 등 차세대 기술 분야로 협력을 넓히고 있습니다.\n* **AI 산업의 견고한 성장세 지속:** 젠슨 황 엔비디아 CEO는 현재의 AI 시장이 거품이라는 우려를 일축했으며, 문샷AI가 막대한 투자를 유치하는 등 업계의 성장 동력이 여전히 유효함을 입증하고 있습니다.\n* **기업 내 AI 도입 및 거버넌스 가속화:** EY한영과 같은 글로벌 기업들이 전사 차원의 AI 컨트롤타워를 출범시키는 등, 기업 실무 현장에서 AI 기술의 내재화와 조직적인 대응 체계 구축이 본격화되고 있습니다.",
   "news": [
     {
-      "title": "\"3초면 답변 뚝딱\"…韓 상륙 메타 ‘AI 글래스’ 써보니 - 지디넷코리아",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RWnVuZDF4QjFKVkRwSnpTY2stMGlUX2k0bUtWckl5QUc5Vnh3MXMyZXZIZEdUZ0t1WGxwYTlHbU1pX3Fkb1FZX0YtbENfSFNqWm9yTnB3?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 04:50:54 GMT"
+      "title": "SK-엔비디아, 'AI팩토리' 혈맹 구축...피지컬AI까지 맞손 - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrZ0hPYzNUZ3dibEpGbE9Odjd2UElrNEZRTHlWN3YxUWpjN0xUcm9oN0p6NnlLbElsQjVMeV9JYnl1WWxOWnVfRWx2TTJHNU91NjBDNHJ3?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 04:42:57 GMT"
     },
     {
-      "title": "안경쓰면 AI가 답해주는 시대왔다…메타, AI안경 韓 출시 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PU090djY4RXVZT19DMnUtZFdna0JxelFXb2kxVXVpaXBQWFE0VVVqTW9YM21Qbks5TTFUWE9SdDZGN25obkRXWDVyczB4eVU?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 07:51:38 GMT"
+      "title": "젠슨 황 \"LG와 한팀처럼\"…AI 버블? \"동의 안해\" 일축 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Qbm1fbFRITW5KZmFUR3lWNm0wUUNPWXpsdXJ4dGQwUGRJUzlwci1teDZ6VTNjNHZFTFNxc3BZUXVBZHFGWmNwUDJFMUtlVllHU1NxQ1kxckxvRG9YaF9oeXQzSUY0MFZSeFVkVtIBckFVX3lxTE1NQmhLOXZ0U1pKR0xta3VOZE45b09OdnNwbmVLR2kyRmx6TFBwVzhsbUFLcnk4RkNyUWtrNDBjS1RpaFk2bkFsbkplM25DRG55MldYekJtOEFKOGJ3OHRPaC1rV0x2VGlQbzhrOXNtc2NGUQ?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 03:25:39 GMT"
     },
     {
-      "title": "말 한마디에 번역·코디…메타 AI 안경 韓 상륙 - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VaURNVFg5YnMxbmpzS210WFd3dW9VYXdWNVRqbmlDN2FUUTVNZHpYbEpma256QVlrLWhEYkVweUNDU3Nvd0NjaUU4dkJaTVFiclgxSGhPNGZ5d9IBVEFVX3lxTE9GckwtTzdXb0ttV3hwM3E5b1l0Q21wVUstQ3VxVFlERGdic1Z1ZTY4bnVTdW5XeVVEdXFURUN5bm9WMjlucXlwbjdzdm9UQ3JsNXE5UQ?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 08:28:32 GMT"
+      "title": "NVIDIA와 네이버, AI 인프라 확장으로 글로벌 수요에 대응하다 - NVIDIA Blog Korea",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CaTBYYlFydUNvMFdUX0E2N2RFd1ktOW5fNEFhbUt0VUxIRTNGWnZSaG9tN1NuUjNHN3VKRm5Sc2xDR2U0YldORW9GcklzSndpaV9RT1FxTmV6R016elVLUUpMb2paZU0?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 05:36:08 GMT"
     },
     {
-      "title": "“AI, 수학의 핵심 가치 위협”… 세계 수학자들 ‘라이덴 선언’ 발표 - 조선일보",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWtWSk5TZTVoaDdWd1BQQnRzV25HYWpWeGJfNVByRlpRQThwQ1ZVZEFrX2tWTVpqUlVHTmlJZi1IVkVhcVdYVS1FREZUVGZ1TXV6M0dNUVlsc0FzY1RIMmdLdkNLX0JUQkVXVTdSYmp1OTJ6MGR4N0dwalF2WVZrM1hOTQ?oc=5",
-      "pubDate": "Wed, 03 Jun 2026 06:21:00 GMT"
+      "title": "문샷AI, 300억달러 가치로 최대 20억달러 조달 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5POFRYaEZ1RFdPbk14MUZxOURlUTB3UlM4MXNKYnJSSUlKbVVQcTg2SVloa0psMXJ3cmZOWUtGemFOV0p3c21vd2lBSVpFUW8?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 05:38:47 GMT"
     },
     {
-      "title": "일본 공략 2막 돌입한 채널톡…다음 승부수 'AI 비서실장' 첫 공개 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0ya0lLejY4andiUk1nODRhNlowUlNCSWJYRUxJZ2pYOFZIeVBITUxXS2NQaERqMXBiZW1EQ2JKMHRXMTFKZHZxd2xsME0tV0cwcWk3LTRaSWhoSHRGeC1ZRi11b21jQkQ2clHSAW9BVV95cUxNT1pJQUJhdXBybWE0aHNnMFVYQWozam41bXptQU96WDJXcF9UeG5QZV80blFuN1BXbkxGUVdWY2RCVEFfR1BsQnduamRxV0lGUm5saE5ybWdjTGU5bkJ5b3JKOVZoMUtYTXhybE9ZSDQ?oc=5",
-      "pubDate": "Thu, 04 Jun 2026 09:00:00 GMT"
+      "title": "EY한영, 전사 AI 컨트롤타워 'EY AI센터' 출범 - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXeXZDRVFpU01WNmRXLUh3R1BHZ0FpMDFXUXFZeVlBNFRxdnNGaFdWSnZ3eC04N0lTVFU5b3JqRnJtWmFaRklHcEpqcEtxOVpxU3gyc3ZFSklLcUNNYV9aVdIBeEFVX3lxTE1zaTZfOGFZazN0NWVVSFFrWXpYM2xTTUd5aWZGOXpRbm5McmFVQUt0bUlpSlBaa0VZWVhrSlFVV3hhY3lpRlNfZmtnTjllY1NqWFowLTdnVDBWOG9WeFc1b3JxcHl5eDZVbXlJWFdkZDhnYVZCRG9paw?oc=5",
+      "pubDate": "Mon, 08 Jun 2026 05:10:48 GMT"
     }
   ]
 }
