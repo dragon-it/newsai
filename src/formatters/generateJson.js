@@ -1,19 +1,40 @@
-/**
- * 뉴스 데이터와 요약본을 웹에서 사용하기 쉬운 JSON 형식으로 변환합니다.
- * 왜 하는가? 정적인 마크다운이나 PDF와 달리 JSON은 웹 대시보드에서 동적으로 데이터를 다루기에 최적화된 포맷이기 때문입니다.
- *
- * @param {Array} newsList - 수집된 뉴스 배열
- * @param {string} summary - AI 요약 결과
- * @returns {string} JSON 문자열
- */
+﻿import fs from "fs";
+import path from "path";
+
 export function generateJson(newsList, summary) {
-  const data = {
+  const newData = {
     lastUpdated: new Date().toISOString(),
     reportDate: new Date().toLocaleDateString("ko-KR"),
     summary: summary,
     news: newsList,
   };
 
-  // 가독성을 위해 2칸 들여쓰기를 적용하여 반환합니다.
-  return JSON.stringify(data, null, 2);
+  const dataPath = path.join(process.cwd(), "data.json");
+  let history = [];
+
+  if (fs.existsSync(dataPath)) {
+    try {
+      const existingData = JSON.parse(fs.readFileSync(dataPath, "utf8"));
+      if (Array.isArray(existingData)) {
+        history = existingData;
+      } else if (existingData && existingData.lastUpdated) {
+        history = [existingData];
+      }
+    } catch (e) {
+      console.error("기존 data.json을 읽을 수 없습니다. 새로 생성합니다.");
+    }
+  }
+
+  const existingIndex = history.findIndex(item => item.reportDate === newData.reportDate);
+  if (existingIndex !== -1) {
+    history[existingIndex] = newData;
+  } else {
+    history.unshift(newData);
+  }
+
+  if (history.length > 10) {
+    history = history.slice(0, 10);
+  }
+
+  return JSON.stringify(history, null, 2);
 }
