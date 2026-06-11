@@ -1,4 +1,4 @@
-# NewSai
+# [NewSai](https://dragon-it.github.io/newsai/)
 
 NewSai는 매일 AI 뉴스를 수집하고 LLM으로 요약한 뒤 Markdown/PDF 리포트를 생성하고, React 기반 대시보드 웹페이지로 나타내며, 최종 리포트를 Discord로 전송하는 자동화 파이프라인 프로젝트입니다.
 
