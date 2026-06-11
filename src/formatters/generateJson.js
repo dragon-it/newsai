@@ -4,7 +4,9 @@ import path from "path";
 export function generateJson(newsList, summary) {
   const newData = {
     lastUpdated: new Date().toISOString(),
-    reportDate: new Date().toLocaleDateString("ko-KR"),
+    reportDate: new Date().toLocaleDateString("ko-KR", {
+      timeZone: "Asia/Seoul",
+    }),
     summary: summary,
     news: newsList,
   };
@@ -25,7 +27,9 @@ export function generateJson(newsList, summary) {
     }
   }
 
-  const existingIndex = history.findIndex(item => item.reportDate === newData.reportDate);
+  const existingIndex = history.findIndex(
+    (item) => item.reportDate === newData.reportDate,
+  );
   if (existingIndex !== -1) {
     history[existingIndex] = newData;
   } else {
