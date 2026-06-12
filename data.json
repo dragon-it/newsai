@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-12T23:12:20.333Z",
+    "reportDate": "2026. 6. 13.",
+    "summary": "- 글로벌 AI 리더십 및 협력 모색: 오픈AI 샘 알트먼의 방한 추진을 통해 한국의 주요 IT 기업들과의 AI 동맹 및 생태계 확장 가능성이 지속적으로 논의되고 있음.\n\n- 기술 고도화: 오픈AI의 차세대 모델인 'GPT-5.6' 개발 및 출시 기대감이 고조되며 AI 기술의 성능 개선에 대한 시장의 관심이 집중됨.\n\n- AI 산업의 구조적 변화: AI 기술 도입에 따른 업무 자동화 영향으로 특정 지역 및 산업에서 인력 재배치나 사업 철수와 같은 구조조정 사례가 발생하고 있음.",
+    "news": [
+      {
+        "title": "샘 알트먼, 네이버·카카오 연쇄 회동…AI 협력 모색 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iTW4talFLQlA2Y05uZFdVYS1obVlkQzJXY3J0a2xKYmZHSkpQS2ZDUUtpdGtVblAtQTFfZkM4QTdzZXhaZVRIbHZGNGdlMUlOaEVmNjd3?oc=5",
+        "pubDate": "Thu, 11 Jun 2026 06:07:30 GMT",
+        "summary": "오픈AI의 샘 알트먼 CEO가 네이버와 카카오 등 국내 주요 IT 기업 경영진과 만나 글로벌 AI 생태계 협력 방안을 모색한다. 양측은 AI 기술 연구 및 비즈니스 접점 확대에 대해 심도 있는 논의를 진행할 것으로 보인다."
+      },
+      {
+        "title": "오픈AI 샘 올트먼, 14~15일 방한…삼성·카카오 만난다(종합) - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9tTkFORklFZjRqWTJNVktDenBIc0F6NkNBdkRmUzFMa0lPUjNIVDVULWtxVk4yZkdSTGxBU2FIbDlveExxS3h0MEhnaVd2YlJ3WndGclBaOTlQUTTSAWBBVV95cUxQWHFGV1VPTHJyQjVuTzZiZlFEWGJmVXRIZUxJdnRTREh3TUx3ckxRa3FpcjBwYVNxaHUwUHNGVkY1NWp4R2tfZWRhYVE3aUNfaUh3MTRWS1kxcXN4UDJMZGk?oc=5",
+        "pubDate": "Thu, 11 Jun 2026 00:50:56 GMT",
+        "summary": "샘 알트먼이 방한하여 삼성전자와 카카오 등 국내 대기업 경영진과 회동할 예정이다. 이번 만남은 AI 반도체 공급망 확보와 서비스 협력 등 다각적인 전략적 파트너십 구축을 위한 행보로 분석된다."
+      },
+      {
+        "title": "알트먼, 개인 사정으로 방한 연기...\"한국 협력은 계획대로\" - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qTjFqMGFDcVUxek5ZMElGeVFTeHN4Um03ajRXdHkxWjhyM1Q2d3VwVl9FNS1BcGw5eEhyd1BFSUVLSWxCbjh3MW9wSGNtRHFuMkg3NlpubDJnSDI3cjA5cFNzUnRMYTNtY1E?oc=5",
+        "pubDate": "Fri, 12 Jun 2026 20:10:22 GMT",
+        "summary": "샘 알트먼의 당초 방한 일정이 개인적인 사정으로 인해 연기되었다. 다만 오픈AI 측은 이번 일정 변경이 한국 기업들과의 협력 계획에 영향을 주지는 않을 것이라고 강조했다."
+      },
+      {
+        "title": "\"의미 있는 성능 개선\"…오픈AI 'GPT-5.6' 출시 카운트다운 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pLWpQWnFkN1Bvcjd4UnRBWFZjZm1fRmZBSFgzM3JhX3IxUTlOYUpHQ2c3NkV2SlZ3V0NwNUFzT3BURm5VYkxmOVZfNWVFNVNfZkdheHZDVEYyWlhfcGVrSlpyNC1veEd2QXc?oc=5",
+        "pubDate": "Thu, 11 Jun 2026 09:00:00 GMT",
+        "summary": "오픈AI가 이전 모델보다 성능이 대폭 향상된 차세대 모델 'GPT-5.6' 출시를 준비하고 있다. 업계에서는 이번 모델이 기존 AI의 한계를 넘는 혁신적인 변화를 가져올지 주목하고 있다."
+      },
+      {
+        "title": "\"AI가 인도 밥그릇 뺏나\"…오픈도어 인도 사업 전면 철수 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IVk9KYWRCNTV3RjY2ZDc5bU9UUDBVYTAtRXNxVWZoNzJOZ0NqdXhuc3J1QkhCZ2FHVERqYkx4eFo0UXZoT1NjNHlxaXJabWhxQW9uVTVNbS1MNnlDMWRyUktBVTNYV1NLOVHSAW9BVV95cUxONk9BVXF2WmNsWTU2QTZUOHoyYzE0dzdEeXhEemxJdy1QaVZxaGxrSTlHT1ZMa2h1dElULWkySVYyY3VKMUFYY3FoTDUxSEs3YUVBWWN3dy1HRXh6Tk9VekRqMzk0Ql9YZHlaaTF4bWc?oc=5",
+        "pubDate": "Fri, 12 Jun 2026 20:00:00 GMT",
+        "summary": "AI 기술의 고도화로 인한 업무 자동화 영향으로 오픈도어가 인도 내 사업을 전면 철수하기로 결정했다. 이는 AI 도입이 글로벌 노동 시장, 특히 인적 자원 의존도가 높은 산업에 미치는 실질적인 충격을 보여주는 사례다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-11T23:17:43.407Z",
     "reportDate": "2026. 6. 12.",
     "summary": "- AI 인프라 및 협력 생태계 구축: 오픈AI 샘 올트먼의 방한을 통해 삼성전자, 네이버, 카카오 등 국내 주요 기업과의 AI 인프라 및 AX(AI 전환) 협력 체계가 구체화되고 있음.\n\n- 서비스 접근성 및 시장 경쟁력 강화: 서울시의 공공 AI 서비스 지원 확대와 오픈AI의 요금 인하 검토 등 사용자 저변 확대를 위한 가격 및 서비스 전략이 추진 중임.\n\n- 보안 및 신뢰성 이슈 대응: 챗GPT 결제 도용 문제와 같은 보안 사고에 대해 오픈AI가 적극적으로 환불 및 보상 조치를 취하며 사용자 신뢰 회복에 주력하고 있음.",
