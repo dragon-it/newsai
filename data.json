@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-13T22:59:22.231Z",
+    "reportDate": "2026. 6. 14.",
+    "summary": "- AI 거버넌스 및 안보 강화: AI 모델에 대한 접근 권한 제어와 국가 안보를 고려한 수출 통제 정책이 본격화되고 있음.\n\n- AI 규제와 기술 생태계의 갈등: 고성능 AI 모델의 외국인 접근을 제한하는 등 기술의 개방성과 보안 사이의 균형을 맞추려는 움직임이 관찰됨.\n\n- 산업 현장의 AI 활용 다각화: 스포츠 경기 분석 및 판정 등 전문적인 데이터 해석이 필요한 분야에 AI가 도입되며 기술적 진화가 가속화됨.",
+    "news": [
+      {
+        "title": "[AI픽] AI도 허가받아야 쓴다…'미토스'가 연 접근권 시대 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FWEFMeUFFdlE0b1NRRFVFRnkybS1seHJ3MDBLSFAyU2otOVBNSGpFaXItdC1SZWZHa0lwNUxRSGR4T0lzVWhOazFpWExEQkU?oc=5",
+        "pubDate": "Sat, 13 Jun 2026 21:34:51 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "미 행정부, 앤스로픽 AI 모델 차단... ‘국가안보’ 내세워 외국인 접근 금지 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aUWZVTXFsV19LN3I2cHFmd1hWdk02RnhKMGhrWk5ROVJLWUlIWmZOeTdldWc5SWtsTHBmNEZmN05veTR1Yno3eWdIam1RRGc?oc=5",
+        "pubDate": "Sat, 13 Jun 2026 22:12:00 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "美정부, 앤트로픽 AI 수출통제 오픈AI 등으로 확대 안해(종합) - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TZ05DS3A1S2dkN3psQ1pjb2pWV09HV1UyU2huWEpaUVlmZXluOEpWY1EtNmduRVNjWHNteHk4NjcxTjlrdTh4ejNRY1BPemNDX1ZIREtpMGRsVVXSAWBBVV95cUxQTlVyd0JnLUNpY20tTTBtMjhiRDFKdUlhNDZ3N2VRalFDd2NpcERsLURSdmN0THo4bHh1VWFnZTR5QzhDN1AxT3lzS3JiYUl6VW5BUF83MFpTbVNBNXNSdWc?oc=5",
+        "pubDate": "Sat, 13 Jun 2026 21:57:46 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "골라인·VAR 넘어 AI까지…월드컵 '테크의 진화' [트민자] - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BT2tXWG9NTFJ3WE5NcjA4cFF2b25oaFFZT3BMLTd1Y1lGMU5xSWdHTDdpelh1MDI4X3VPOGRPWWI4NHlodVhmQ2c2NFk0WWtjbzNDdXRvM1ZMbXhJVXBfanRuaW1lZGZq0gFuQVVfeXFMT3NxTXQwSEdEOU1qYzFuRHlhS2J0VFIwNUZOMU12dkk4RFluUEd2dVNjNFVILV9JS3RFQmpvOWZfN1NMUzZCTWFxYnlvd2pEbzN0MndzZWs0Ulo3N3ZWMHlsOGhPV29kdGc0X0h3cVE?oc=5",
+        "pubDate": "Sat, 13 Jun 2026 21:30:01 GMT",
+        "summary": "월드컵에서 골라인 판독 기술과 VAR에 이어 AI 기술이 스포츠 판정에 본격적으로 도입되고 있다. AI는 실시간 데이터 분석을 통해 경기 결과의 정확성과 공정성을 높이는 핵심 요소로 자리 잡았다."
+      },
+      {
+        "title": "“메시도 AI가 분석한다” 월드컵에 등장한 ‘로봇 심판 군단’[나우,어스] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBST2tkN0JhQjQ0Y2JDWXhaaDFQVFJlYV9KUEFoaERDTU9QZ3Vma0s0djJGRHZXOFlWWGtwcHptWDVmQnBxYjM2Ql9CR1IzZDQ?oc=5",
+        "pubDate": "Sat, 13 Jun 2026 08:44:07 GMT",
+        "summary": "요약 없음"
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-12T23:12:20.333Z",
     "reportDate": "2026. 6. 13.",
     "summary": "- 글로벌 AI 리더십 및 협력 모색: 오픈AI 샘 알트먼의 방한 추진을 통해 한국의 주요 IT 기업들과의 AI 동맹 및 생태계 확장 가능성이 지속적으로 논의되고 있음.\n\n- 기술 고도화: 오픈AI의 차세대 모델인 'GPT-5.6' 개발 및 출시 기대감이 고조되며 AI 기술의 성능 개선에 대한 시장의 관심이 집중됨.\n\n- AI 산업의 구조적 변화: AI 기술 도입에 따른 업무 자동화 영향으로 특정 지역 및 산업에서 인력 재배치나 사업 철수와 같은 구조조정 사례가 발생하고 있음.",
