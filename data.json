@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-14T23:03:44.032Z",
+    "reportDate": "2026. 6. 15.",
+    "summary": "- AI 기술 주권 및 안보 강화: 미국 정부의 최첨단 AI 모델 수출 통제 기조가 강화됨에 따라, 각국이 자국만의 독자적인 AI 기술력을 확보하는 '소버린 AI(Sovereign AI)' 구축의 중요성이 급격히 대두되고 있음.\n\n- 인프라 및 기술 생태계 확장: 데이터 처리 효율성과 속도를 높이기 위한 엣지 데이터센터 기술이 활발히 도입되고 있으며, 기업들이 AI 인프라 시장 주도권 확보를 위해 경쟁 중임.\n\n- 지역 맞춤형 디지털 교육 확산: 공공 부문에서는 디지털 격차를 해소하고 AI 전문 인력을 양성하기 위해 지역 거점 중심의 AI 교육 인프라를 확충하는 움직임이 나타나고 있음.",
+    "news": [
+      {
+        "title": "美, 앤트로픽 최신 모델 전면 차단…'소버린 AI' 논의 다시 불붙나 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tNjhkbmtjQlB0S2R3QWNXNmxpenBQd3dsQVRZR0h6Z2pzYUJiSTV6dzZsemxSRGIyeFpRVlR5b0tzYzNuVEZiOG12bkNHUjZtc2xyLWNB?oc=5",
+        "pubDate": "Sun, 14 Jun 2026 06:00:01 GMT",
+        "summary": "미국 정부가 앤트로픽의 최신 AI 모델 수출을 차단하면서 글로벌 AI 기술 안보가 강화되고 있다. 이러한 흐름은 각국이 외부 기술에 의존하기보다 자체적인 AI 역량을 갖춰야 한다는 '소버린 AI' 논의를 재점화하는 계기가 되었다."
+      },
+      {
+        "title": "미 앤트로픽 AI 수출통제에 한국 ‘글래스윙 참여’도 제동…소버린 AI 과제로[뉴스분석] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jeC05RmVneXVibkh1NVBhWjZLNWR1ZV9faERUdjVOUXlmZGRjYUhHQlFTeTY2XzA1WmI5VDFtYkpFMGFQUlVBUHQ3bDFOVGc?oc=5",
+        "pubDate": "Sun, 14 Jun 2026 07:13:01 GMT",
+        "summary": "미국의 고도화된 AI 기술 통제로 인해 한국의 관련 프로젝트 참여에도 제동이 걸리고 있다. 이는 외부 기술 수급의 불확실성을 높이고 있어, 국내 독자적인 AI 기술 생태계 조성과 소버린 AI 실현이 국가적 과제로 떠올랐다."
+      },
+      {
+        "title": "최상위 성능 AI 빗장 거는 美 정부…'소버린 AI' 중요성 부각 - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KbFhqbEFzQ2doMEpEQ0hMWjJMVEVWMWtVS2k4dWJzYkQwbldxdEZvQnRvaFhtOUl6MmdJZXpZcFNueFY0R0hSOWJrTlJ4OVJhMHBBVHBPeFhTNmpaVTA5RW1ucmdDbGhz?oc=5",
+        "pubDate": "Sun, 14 Jun 2026 21:00:00 GMT",
+        "summary": "미국이 핵심 AI 기술의 외부 유출을 엄격히 제한함에 따라 전 세계적으로 기술 주권 확보가 우선순위로 부상했다. 국가별로 데이터와 인프라를 자국 환경에 맞춰 최적화하는 소버린 AI의 중요성이 갈수록 커지고 있다."
+      },
+      {
+        "title": "울산시, AI·디지털 교육 확대…거점센터 3곳으로 증설 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBFazNERFlfME5pWU1vN19GSzVKTkQ5cTVHWHd0MFpPN2JMSTlWZVJQdWFZSGlGbnlKemQtRktQQlNYTkdrQ0ZKRWxOMXQzYWc?oc=5",
+        "pubDate": "Sun, 14 Jun 2026 21:16:53 GMT",
+        "summary": "울산시는 시민들의 디지털 역량 강화와 AI 인재 양성을 위해 디지털 교육 거점센터를 기존 1곳에서 3곳으로 확대 운영한다. 이를 통해 지역 내 AI 교육 접근성을 높이고 디지털 전환 기반을 공고히 하겠다는 계획이다."
+      },
+      {
+        "title": "벡트·AID·심플랫폼, 엣지데이터센터 시장 공략…“AI 인프라 선도” - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1wbkZ2VTdWTFVQcS02UEdva2xvNVhBRWhjOUdtOFNWOU1sZEZ6ajAwNzhHZlZXQUtfSkxjUXpzMTNISmljRXBXNG0tdGROYVdWaXc?oc=5",
+        "pubDate": "Sun, 14 Jun 2026 22:35:38 GMT",
+        "summary": "벡트, AID, 심플랫폼 등 기술 기업들이 실시간 데이터 처리가 가능한 엣지 데이터센터 시장 선점에 나서고 있다. AI 성능 극대화를 위한 효율적인 인프라 구축 수요가 늘어남에 따라 이들의 시장 경쟁은 더욱 치열해질 전망이다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-13T22:59:22.231Z",
     "reportDate": "2026. 6. 14.",
     "summary": "- AI 거버넌스 및 안보 강화: AI 모델에 대한 접근 권한 제어와 국가 안보를 고려한 수출 통제 정책이 본격화되고 있음.\n\n- AI 규제와 기술 생태계의 갈등: 고성능 AI 모델의 외국인 접근을 제한하는 등 기술의 개방성과 보안 사이의 균형을 맞추려는 움직임이 관찰됨.\n\n- 산업 현장의 AI 활용 다각화: 스포츠 경기 분석 및 판정 등 전문적인 데이터 해석이 필요한 분야에 AI가 도입되며 기술적 진화가 가속화됨.",
