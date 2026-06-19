@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-19T22:50:51.848Z",
+    "reportDate": "2026. 6. 20.",
+    "summary": "- 정책 거버넌스 재편: 정부의 AI G3 도약을 위해 민간 전문가를 영입하는 등 국가 AI 위원회 및 수석 체계를 재정비하고 있으나, 인선 방식을 둘러싼 정치적 논란이 지속되고 있음.\n\n- 인적 자원 및 정주 여건 문제: AI 산업 성장을 뒷받침할 핵심 전문 인력 확보가 중요해졌으나, 지방 소재 연구소의 열악한 인프라와 정주 여건으로 인해 채용 난항을 겪는 등 격차가 드러나고 있음.\n\n- 국방 및 안보 분야 적용: 전쟁 등 안보 위기 상황에서 AI의 역할이 확대되면서, AI 기술이 현대전의 판도를 바꾸는 핵심 전략 자산으로 부상하고 있음.",
+    "news": [
+      {
+        "title": "하정우, 국가AI전략위 부위원장 유력…與서도 “회전문 인사” - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwUmFiSTVHSGtYeGpqZGxsWWpicDEtWWN4Sy02QmhkWlJ3QTdNZE1KTDNYMVRpTHFaN05CNVRpSlAwajFSdGR6Y2Z5aDd3RjNhTzZob1pB?oc=5",
+        "pubDate": "Fri, 19 Jun 2026 03:00:00 GMT",
+        "summary": "하정우 네이버클라우드 센터장이 대통령 직속 국가AI전략위원회 부위원장으로 유력하게 거론되고 있습니다. 그러나 여당 내부에서도 낙선 인사를 기용하는 것에 대해 '회전문 인사'라는 비판이 제기되고 있습니다."
+      },
+      {
+        "title": "선거 떨어진 하정우, 대통령직속 AI委로?… 野 \"돌려막기 인사\" - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX2dXSURiXzY3RHpmbVdJSHNSbzlmTDAzMkNSX2lCOTc3LURmd2hqSWZWSE9RQnRhb0tkY3hWTGwtM1U2WXRIN0xLQk14ZkcxNklDMndLekNMYmdpam5MN2hBcjZWSDVfdFBJeDU2TG5RWUJFTVZsZFJqdjFHb0VpMFJOam9EZw?oc=5",
+        "pubDate": "Fri, 19 Jun 2026 15:51:00 GMT",
+        "summary": "총선 낙선 인사인 하정우 센터장의 AI위원회 부위원장 기용설을 두고 야당이 '돌려막기 인사'라며 강하게 반발하고 있습니다. 전문성과는 별개로 인선 과정을 둘러싼 정치권의 갈등이 격화되는 모습입니다."
+      },
+      {
+        "title": "[단독] AI 수석에 AWS 이기혁 내정…李정부 'AI G3' 새 판 짠다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03bEFQOGQ2Q2VUWVFMQ3FjQUR1ZmtLRGdzaUFqaG10elM3UF9ycTA5TG9XdUJJS05JdXA0V0psUVc4UkdJN2phQ1NUY2RWQm9QNlZUUTNR?oc=5",
+        "pubDate": "Wed, 17 Jun 2026 06:43:53 GMT",
+        "summary": "윤석열 정부가 'AI G3' 국가 도약을 목표로 대통령실 AI 비서관(AI 수석)에 이기혁 AWS 상무를 내정했습니다. 민간 분야의 글로벌 전문가를 영입하여 AI 국가 전략의 실행력을 높이려는 의도로 풀이됩니다."
+      },
+      {
+        "title": "“주변 카페 하나 없어”… AI 인력 모집에 지원자 ‘0’ - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zTnBpV09oRzJxV3p2d0ZOUnRmNjA4Mlpza2R3QWpCU2VVR2xXQUsta1ZMVktHeTNRd09TaHRxVWJ3RjR2blp3elU4dV9yVUJkWnRzNXRyRlB4bkNhOFZxWmwtOU1GMERiYXRESjZMdUd6NjFSVXfSAWZBVV95cUxNMjdXLUs1dmJ6RThra0xVNHc3eW40ZnRuV3VEM2wtSkhreDZMUTBKWWthR2RrUHlXRjZmQjExcHVqaTBzaUtjWkdZR3E3OFZNNmZzQjYwaVczZjg5VUZLSnM5RmhSWVE?oc=5",
+        "pubDate": "Thu, 18 Jun 2026 15:30:00 GMT",
+        "summary": "지방에 위치한 AI 연구 기관들이 인프라 부족과 정주 여건 미비로 인해 인재 채용에 큰 어려움을 겪고 있습니다. 업무 환경 개선 없이는 고급 인력 유치가 불가능하다는 지적이 나오고 있습니다."
+      },
+      {
+        "title": "[AI돋보기] \"사람 대신 AI가 싸웠다\"…미·이란 전쟁의 교훈 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01cXdDUDllWVJJTzctb0JvMlUwNWRfSXV2eV9RRXNuMzNIdm9IQlRsWWN1Z1JQa2tHOWZMcjZsWHQ5cXNnQUJXbUI1TXVXOVk?oc=5",
+        "pubDate": "Fri, 19 Jun 2026 21:35:08 GMT",
+        "summary": "미·이란 등 최근의 지정학적 갈등 상황에서 AI가 정찰 및 공격 등 군사 작전에 핵심적인 역할을 수행하고 있습니다. 현대전에서 AI 기술이 전쟁의 승패와 전략적 유연성을 결정짓는 주요 요소로 자리 잡았습니다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-18T23:41:13.773Z",
     "reportDate": "2026. 6. 19.",
     "summary": "- AI 기술 통제 및 규제 강화: 미·유럽 등 주요국 간의 AI 기술 수출 및 접근 제한을 둘러싼 갈등과 동맹국 간 협력 논의가 지속됨.\n\n- 전문 인력 및 생태계 확장: AI 기업들이 기술 영업 인력을 대거 확충하며 수익 모델 고도화에 집중하고 있음.\n\n- 반도체 및 인프라 고도화: AI 성능 향상을 위한 반도체 패키징 기술 혁신(대면적화, 발열관리)이 필수 과제로 부상.\n\n- 공공 및 안보 활용 확대: 사이버 안보를 넘어 위성 교란 방어 등 국가 우주 안보 영역까지 AI 적용 범위가 빠르게 확대되는 추세임.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0OU1QcmtMSXdBb1M1eU9ITTBqV0ZrNXdick9TbEtFWFZSeHN4NFU1QXdid3NNTHFFWDh2T3BXMDRVNy1xdUVwdndsM1NwRG94SnRFZl9WbEFoaWNneEx0Tw?oc=5",
         "pubDate": "Wed, 10 Jun 2026 21:30:00 GMT",
         "summary": "단순히 AI 관련 학과를 늘리는 양적 팽창보다, AI를 깊이 이해하고 실질적인 연구를 수행할 수 있는 기초 과학 및 공학적 역량 강화가 선행되어야 한다고 지적한다. 교육 현장의 질적 내실화를 위한 근본적인 고민이 필요한 시점이다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-09T23:15:20.961Z",
-    "reportDate": "2026. 6. 9.",
-    "summary": "- AI 기반 업무 효율화 확산: 삼성전자를 비롯한 글로벌 기업들이 생성형 AI를 사내 업무 프로세스 전반에 도입하며 조직 운영의 디지털 전환(DX)을 가속화하고 있음.\n\n- 반도체 공급망 및 전략적 협력 강화: 엔비디아와 삼성전자 등 주요 테크 기업들이 AI 반도체 시장에서의 주도권 확보를 위해 긴밀한 협력 관계를 구축하며 산업 생태계를 견인하고 있음.\n\n- 시장 변동성 및 투자 환경 변화: 오픈AI의 행보와 같은 주요 AI 기업의 전략 변화가 글로벌 기술주 시장에 직접적인 영향을 미치며, 투자 심리와 파트너십 재편이 활발하게 이루어지고 있음.",
-    "news": [
-      {
-        "title": "삼성, 모든 업무에 AI 도입... 조직 DNA 송두리째 바꾼다 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNM0hLSjE5MEZRWHpXZVhtZG03Q1VBNVhqU0lic1lmVkpsQk9aWGNhcE5WY3FWamk5OVAzQWpjbWc5OWJTR0RtSW9aWnB5NEhvRDhSa1FLN2FQbUdtSVp5R0NFdEtmUU1aRTZPVlg1V1E3QjlSTXk3aW1DczNrZTBmSV8tLWRROGQwek5KajJkdw?oc=5",
-        "pubDate": "Tue, 09 Jun 2026 09:51:00 GMT",
-        "summary": "삼성전자가 업무 전반에 생성형 AI를 도입하며 대대적인 조직 혁신을 예고했다. 단순 반복 업무를 AI로 대체해 업무 효율성을 극대화하고, 임직원들의 일하는 방식을 근본적으로 개선하겠다는 전략이다."
-      },
-      {
-        "title": "삼성, ‘AI 대전환’ 선언...챗GPT·클로드 등 업무에 본격 도입 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41c0VtRTZiemtPVTRIVUZfZE92RGVzd3pjYWNMcVU3UXJZR0Q3MkZJMFk1V0JST3FSeklqeklqdGEzdmx4LWt5aTM3STRxeTJKUzFTSDhlTDZnVXpHeUg3Ym5Eb0VMajM4Ync?oc=5",
-        "pubDate": "Tue, 09 Jun 2026 21:58:54 GMT",
-        "summary": "삼성이 챗GPT와 클로드 등 외부 생성형 AI 서비스를 사내 업무에 공식 도입하며 본격적인 AI 대전환을 시작했다. 보안 가이드라인 내에서 최신 AI 도구를 활용해 실무 생산성을 대폭 높일 계획이다."
-      },
-      {
-        "title": "삼성 투자전문 사장도 ‘고점 매수’…삼성전자-엔비디아 ‘AI 랠리’ - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kY1dRTzhQb3pHb1JfUmkzWWEyUjRsbElYMU4zOEw2ejlheTZOQlliNDhwZFdubDMtb3lRYjNfdmlwNUhxWDZCY2QxQnNnbU0?oc=5",
-        "pubDate": "Tue, 09 Jun 2026 05:37:02 GMT",
-        "summary": "삼성전자 경영진이 자사주를 매입하는 등 적극적인 행보를 보이면서 엔비디아와의 협력을 통한 AI 반도체 랠리에 대한 기대감이 높아지고 있다. 양사의 파트너십이 시장의 강력한 성장 동력으로 작용하고 있다."
-      },
-      {
-        "title": "젠슨 황, 닷새 일정 마치고 출국…\"한국과 AI 미래 만들 것\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBDNkowVm40MzN6V05uYlBrempiVndYaE90clBJU2Q2UktlNG01MjM1NUdUR3RaYURpQ1RSVGRJQk0ybW5zYVd0VVhQNXp6ZGtSVnVuMmxKam5kNFXSAWBBVV95cUxNdWgtUWt4ZXNCVVJkSEVmNFBsX2l2VUVOWmhzbGxLdHZkREl1bUNpZU95and6NmZ1NE5lczZESldBcjlpcGQya1UwLTlvRVBNcUJPUnE2bTBOVHBRTGtkX3k?oc=5",
-        "pubDate": "Tue, 09 Jun 2026 00:25:53 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "오라클, 오픈AI 비공개 상장 신청에 따른 파트너십 재조정 우려에 주가 3%↓ - 마켓인",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xRS05ZFpRTXU0b2N6aVl1aXl1VGFkd1RjanVEMjAxMlVrbDhlbXFyeTZRaVNER0I5VmhFdkhUQlgtQmhmWG1sNGVFT0o0cXFILThkemFPR05kc2ltNjdPT25sLTVCVDA5WTFHczFMVmRuVkk?oc=5",
-        "pubDate": "Tue, 09 Jun 2026 19:47:38 GMT",
-        "summary": "오픈AI의 비공개 상장 추진설로 인해 클라우드 파트너사인 오라클과의 전략적 관계 변화 가능성이 제기되며 오라클 주가가 하락했다. AI 시장 내 파트너십 재편이 기업 가치와 주가에 직접적인 변수로 작용하고 있다."
       }
     ]
   }
