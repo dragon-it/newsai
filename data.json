@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-20T23:02:25.934Z",
+    "reportDate": "2026. 6. 21.",
+    "summary": "- 기술 표준화 및 플랫폼 확장: 구글과 MS가 AI 에이전트 연동 표준을 제시하며 생태계 주도권 경쟁을 본격화하고 있으며, 네이버는 AI 검색 서비스 고도화를 통해 플랫폼 점유율을 확대하고 있음.\n\n- AI 기술의 산업적 현장 적용: 의료, 스포츠 등 전문 분야에서 AI가 진단 처방 및 판독 등 정밀한 업무를 수행하며 실질적인 효율성을 입증하고 있음.\n\n- AI 주권과 독자 모델의 중요성: 특정 국가나 기업의 기술 종속을 방지하기 위한 각국의 독자적 AI 모델 개발 필요성이 대두되며 AI 주권 확보가 핵심 과제로 부상함.",
+    "news": [
+      {
+        "title": "“의사 대신 AI가 약 처방?”…미국 의료계 발칵 뒤집은 실험 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIUzJJeWg1UFJlTVh1OW9mbnFEa1ZPVGMzSXYwSl9TLUVyOWdySTVkVlc1em1Xd0lncHY4V2JDTzloN0FabUpQUWdWNjdRR1BMVlE?oc=5",
+        "pubDate": "Sat, 20 Jun 2026 06:46:45 GMT",
+        "summary": "미국 의료계에서 AI가 의사를 대신해 약 처방을 내리는 실험이 진행되어 큰 파장을 일으키고 있음. AI의 정밀한 진단과 처방 능력이 입증되면서 의료 서비스의 효율성을 높일 것으로 기대되나, 안전성과 윤리적 책임에 대한 논의가 활발함."
+      },
+      {
+        "title": "구글·MS, AI 에이전트 연결 표준 'ARD' 발표…오픈AI·앤트로픽 견제 나서 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SU3RFbmJRR3Y5Y3hCVGtYd2VoX1lHNk5JTnVsb0hMQVJZYVpucVhxQ1A3Q1FoTm1oNEx5bnZXLWJmV1BkZm0zT1p1SVgzTWluQ3RTb014MmszeTBGaVI4TjZOaXJsRmRBMFE?oc=5",
+        "pubDate": "Sat, 20 Jun 2026 04:23:16 GMT",
+        "summary": "구글과 MS가 AI 에이전트 간의 연결을 위한 표준인 'ARD'를 발표하며 생태계 표준화를 시도함. 이는 시장 독주 체제를 구축하려는 오픈AI와 앤트로픽 등 주요 경쟁사들을 견제하기 위한 전략적 행보로 해석됨."
+      },
+      {
+        "title": "네이버 검색 80% 찍었다…AI탭 출시 후 점유율 '껑충' - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qZ3Z5ZG82MUU3VjItQlFneWpLcTlYb1lQbWxhWHZRbXh3WUJxdEZEVHlUWVpjMl95WFlDMXM5T2doY2JTSDBDMmFtZFRWV1E?oc=5",
+        "pubDate": "Sat, 20 Jun 2026 21:47:03 GMT",
+        "summary": "네이버가 서비스 내 AI 탭을 도입한 이후 이용자 편의성과 검색 결과의 질이 향상되며 검색 서비스 점유율이 80%를 기록함. AI 기반의 검색 경험 혁신이 사용자 유입과 체류 시간 증가에 긍정적인 영향을 미친 것으로 보임."
+      },
+      {
+        "title": "[AI주권] ② 미토스 사태가 던진 질문…독자 AI 왜 필요한가 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmRkFNaTUtaTBxSFNxNTc2YTlQVXBIZEZfMF9hTlJ3V09tTzBRdF95bXNBUEVQNnltdjNHcDl0dEJhTmNxXzZRQndvaXdLajV6ZzMwTXRFVFBhQ2_SAWBBVV95cUxPVlZlYVctM0NvTGd5M3dDbS04Q25SOHMwaHJNRnJOdi00UVNnN29yODF0OUpmOHZZckNVRlZrb01lTnAxblg2YV8ta2F3Qm1HYXUyXzQtekVtZHhMbW1PTFg?oc=5",
+        "pubDate": "Sat, 20 Jun 2026 21:16:02 GMT",
+        "summary": "미토스 등 글로벌 AI 서비스의 편향성 및 오류 문제가 대두되면서 특정 국가나 기업에 의존하지 않는 독자적인 AI 기술 확보의 중요성이 강조됨. 국가별 문화와 맥락을 반영한 AI 주권 확보가 미래 경쟁력을 좌우할 전망임."
+      },
+      {
+        "title": "[테크톡톡] 부심 귀에 ‘오프사이드’ 알림 쏜다… 월드컵 경기장서 뛰는 AI 심판 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNFpTbWpwYlRUckFESk9ZeEg1WjRhdi01a2NuVnQzN0Vob3I4TWhkMzZmWWloZUxFM0UzYW5RWFBFQm5YUHM5UFcxV2ZBMVFWalhCY2Vjc1pKaUdzUk9WaWo5Z2Jac3lrcmt4S2FHWTZ6UFFxZEJGRjU1T1BmWWt0YWp30gGWAUFVX3lxTFBvNTZVamY1dk1lSFU5cWphVDhqTzhoNndvMG9ySkFYX1BCWmVVWnh1WlhrbDRYRVVZVmgzX25PYldMMjN0ZWZURGVtaE1IXzZOdXZQWFVPVWRINDdRTFJRQWI2a2dvQzB2YzJ0UVV5ZWZyR3R5WWo5c1drU3dlaWR0bE9uSUt1Q055MDdlNU5FYVBxZXkzdw?oc=5",
+        "pubDate": "Sat, 20 Jun 2026 21:00:00 GMT",
+        "summary": "스포츠 경기장에 AI 판독 기술이 도입되어 오프사이드 등을 실시간으로 감지하고 심판에게 전달함. 사람의 눈으로 파악하기 힘든 미세한 움직임까지 AI가 정밀하게 분석함으로써 경기 운영의 공정성과 정확도가 크게 개선됨."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-19T22:50:51.848Z",
     "reportDate": "2026. 6. 20.",
     "summary": "- 정책 거버넌스 재편: 정부의 AI G3 도약을 위해 민간 전문가를 영입하는 등 국가 AI 위원회 및 수석 체계를 재정비하고 있으나, 인선 방식을 둘러싼 정치적 논란이 지속되고 있음.\n\n- 인적 자원 및 정주 여건 문제: AI 산업 성장을 뒷받침할 핵심 전문 인력 확보가 중요해졌으나, 지방 소재 연구소의 열악한 인프라와 정주 여건으로 인해 채용 난항을 겪는 등 격차가 드러나고 있음.\n\n- 국방 및 안보 분야 적용: 전쟁 등 안보 위기 상황에서 AI의 역할이 확대되면서, AI 기술이 현대전의 판도를 바꾸는 핵심 전략 자산으로 부상하고 있음.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiQnVSdzhxVlV3UW5aZjlOS293bHlPMzhLTlc4bDk1eERoVWFxc2lxcDZ5M3ZHMTBTOE1tclRaSzJ0RThnMmNrdHFvd0pYLWc?oc=5",
         "pubDate": "Thu, 11 Jun 2026 05:55:03 GMT",
         "summary": "샘 올트먼이 삼성전자, 네이버, 카카오와 연쇄 회동하며 한국 기업들과의 AI 인프라 및 AX 협력 방안을 논의했다. AI 모델 개발부터 반도체 인프라까지 포괄적인 파트너십 확장이 기대된다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-10T23:22:14.160Z",
-    "reportDate": "2026. 6. 10.",
-    "summary": "- AI 보편화 및 정책적 지원: 정부 차원의 취약계층 AI 바우처 지원 검토 등 기술 격차 해소를 위한 정책적 시도가 논의되고 있음.\n\n- 시장 경쟁 및 효율성 추구: 저가 공세를 앞세운 중국산 AI 모델의 글로벌 사용량 급증과 유통업계의 AI 기반 가격·재고 관리 최적화가 활발히 진행 중임.\n\n- 기술 활용의 다양성과 한계: 마케팅 캠페인에 AI 기술이 창의적으로 도입되는 반면, 산업 현장의 기술 격차 문제와 전문 교육 인프라에 대한 구조적 고민이 제기됨.",
-    "news": [
-      {
-        "title": "[단독] 정부, 취약계층에 챗GPT 구독료 지원하는 ‘AI 바우처’ 검토 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUHRhSEJySW5vV3lFUjJXVGxuWWZUWDVxSXhGZFNOYmdiWUFFZVJidF8tZWVqWWQ5UUtqTkdaVHlWX2ZDLXI2N3NzUmN2cFlIUHRLUHM1VFFCSjNJbjF0TkdzWWdueEtfLUdhdXVSbDNyY2g4bm93UWZiRUNFZXdVTDQ1aFBMZ9IBmgFBVV95cUxQNVpldWRwVFpfOGwxSER0VzRZT2hwTjd4Wl9PODFhdUphQmM5NjhVaG5GUG1pZW56a0toSTgxb3JoZ1M1emJkaVBSNGJqR2pKWVdGX1NqWHJiUUp4SE8tLVNFOURHUTVtNVZNSWx3cDI1SDd1SEhFZU1EWDVfMmFkVjY2S19lWlh3Wk10RFJOYjlRdzRUV040VHdR?oc=5",
-        "pubDate": "Wed, 10 Jun 2026 02:12:00 GMT",
-        "summary": "정부가 정보 격차 해소를 위해 취약계층에게 챗GPT와 같은 유료 AI 서비스 구독료를 지원하는 'AI 바우처' 제도를 검토하고 있다. 이는 디지털 소외계층이 최신 AI 기술을 활용할 수 있도록 돕는 실질적인 지원책이 될 전망이다."
-      },
-      {
-        "title": "“중국 AI 왜 써?” 하더니 사용량 1위…‘99% 할인’ 앞에는 국경없다 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9EZjNnbkJtTEtJNGlvRHV2UF81RTRVcFJ0SElGczdFM1VsNHVJMlpmT1lVQkNZVGZxVTA0VHFfRXN1X3lES0U1WGl4RjMwUQ?oc=5",
-        "pubDate": "Tue, 09 Jun 2026 21:02:29 GMT",
-        "summary": "중국 기업들이 자사 AI 모델 사용료를 파격적으로 할인하며 글로벌 시장 점유율을 공격적으로 확대하고 있다. 미중 갈등 속에서도 압도적인 가격 경쟁력을 앞세운 중국 AI가 실무 현장에서 폭넓게 활용되고 있는 상황이다."
-      },
-      {
-        "title": "42년 '숲 캠페인'의 화려한 귀환…AI 동물들로 젊은 층 사로잡아 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5UaVd4Y2FqR2hpeXQya3pwcWdXVEs2Ty1zNUh4NGVfeTJERlQ5eURncDcyVDN1Um1jRElVREkzZi1NUk9XZWpKNHVwLUlaNklPVm45RDJ1M0hnTEHSAWBBVV95cUxQTXQwanVZcnpsQk8tSnd3LUU1dVIwYjFPWld5d1p6UUo4bnhQWkFHbEhkMnREeE5jOWRsVjZ5TjR1bVhURnlyRFR0SEwzWjdoVUxDMUhZR043bjhYZUZGeGY?oc=5",
-        "pubDate": "Wed, 10 Jun 2026 21:31:00 GMT",
-        "summary": "장수 캠페인인 '숲 캠페인'이 생성형 AI 기술을 활용해 동물 캐릭터를 구현하며 젊은 세대의 큰 호응을 얻고 있다. AI를 활용한 창의적인 마케팅이 브랜드 이미지 제고와 세대 교감의 핵심 요소로 자리 잡고 있다."
-      },
-      {
-        "title": "[유통가 AI 혁신] 대기업은 가격·재고도 AI로 관리…중소업체는 출발선도 못 섰다 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBURklqVUpnRUdfUDRTQUdHVmFnVWtNY25ieldBV2xqVHlpTDFsb1p2TEFzd1gxeWxnLTY5YzBUSzdseVZjQVpCLW5PWjk4WlE?oc=5",
-        "pubDate": "Wed, 10 Jun 2026 22:48:51 GMT",
-        "summary": "유통 대기업들이 AI를 통해 가격과 재고를 정밀하게 관리하며 효율성을 극대화하고 있으나, 중소업체들은 비용 및 기술적 한계로 도입에 어려움을 겪고 있다. 유통 현장의 디지털 양극화 문제가 심화되고 있어 이에 대한 대응이 요구된다."
-      },
-      {
-        "title": "[과학을읽다]AI학과를 만들기 전에 - 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0OU1QcmtMSXdBb1M1eU9ITTBqV0ZrNXdick9TbEtFWFZSeHN4NFU1QXdid3NNTHFFWDh2T3BXMDRVNy1xdUVwdndsM1NwRG94SnRFZl9WbEFoaWNneEx0Tw?oc=5",
-        "pubDate": "Wed, 10 Jun 2026 21:30:00 GMT",
-        "summary": "단순히 AI 관련 학과를 늘리는 양적 팽창보다, AI를 깊이 이해하고 실질적인 연구를 수행할 수 있는 기초 과학 및 공학적 역량 강화가 선행되어야 한다고 지적한다. 교육 현장의 질적 내실화를 위한 근본적인 고민이 필요한 시점이다."
       }
     ]
   }
