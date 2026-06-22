@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-22T23:15:21.891Z",
+    "reportDate": "2026. 6. 23.",
+    "summary": "- AI 기술 경쟁력 및 수익화 전략: 네이버가 차세대 모델 개발을 통해 글로벌 시장 주도권을 확보하고, AI 검색 서비스에 광고를 도입하며 본격적인 수익화 모델을 구축하고 있음.\n\n- 서비스 점유율 확대: 네이버는 'AI 탭' 등 사용자 친화적 기능을 앞세워 국내 검색 시장에서의 지배력을 강화하며 글로벌 빅테크인 구글 대비 우위를 점하고 있음.\n\n- 빅테크 인재 확보 경쟁: AI 시장의 핵심 동력인 고급 인재를 확보하기 위한 기술 기업 간의 경쟁이 치열해지고 있으며, 인재 이탈이 기업 주가 등 시장에 즉각적인 영향을 미치는 양상을 보임.",
+    "news": [
+      {
+        "title": "[단독]네이버 차세대 AI 모델, '사용량 1위' 中 넘어 글로벌 주도권 잡는다 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HZ2lxeklmeUpTUlRNWEhfcDJIZDM4dWlGX29ZUjlLTXVZdUcxczNtQ0NxaXFzMFRfaUVKRTd5RFlRcS1SOXFjR2JXOEVydw?oc=5",
+        "pubDate": "Mon, 22 Jun 2026 07:00:00 GMT",
+        "summary": "네이버가 글로벌 경쟁력을 강화하기 위해 차세대 AI 모델 개발에 박차를 가하고 있다. 중국의 높은 AI 사용량을 뛰어넘고 기술 주도권을 확보하여 글로벌 시장에서의 영향력을 확대하는 것이 목표다."
+      },
+      {
+        "title": "네이버 AI 브리핑, 검색에 광고 띄운다…하반기 'AI 수익화' 시동 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zYV9xWWl2MFJnWjdRTjNJN2JRYkxvY3g0aWoxS19aSnNsbTR6WHdUZi1HY3o2LTUwdWNuUGg1QkFTM21sRDVPR3Nha3MybWc?oc=5",
+        "pubDate": "Mon, 22 Jun 2026 21:02:29 GMT",
+        "summary": "네이버가 AI 검색 서비스인 'AI 브리핑'에 광고를 도입하며 하반기부터 본격적인 수익화에 나선다. 기술 고도화를 넘어 실질적인 비즈니스 모델 창출을 통해 지속 가능한 AI 생태계를 구축하려는 전략이다."
+      },
+      {
+        "title": "‘AI탭’ 앞세운 네이버, 검색 점유율 80%…구글 압도 - dt.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0zSnc0Z1AzaGlIRkx6d1RfeDgxZUhZQ1ZPOEN5QzJDRG1abURRS0tmWmNDX2VwSUtTY1Bnc2Fxa0VsQ0VUWnRVSndST0FPZw?oc=5",
+        "pubDate": "Sun, 21 Jun 2026 06:22:53 GMT",
+        "summary": "네이버가 'AI 탭'과 같은 혁신적인 검색 기능을 통해 국내 시장에서 80% 이상의 점유율을 기록하며 구글을 압도하고 있다. 사용자 맞춤형 AI 서비스가 기존 검색 시장의 강력한 경쟁력으로 작용하고 있음을 보여준다."
+      },
+      {
+        "title": "구글 떠난 노벨상 수상자, 앤트로픽 이직…AI발 빅테크 인재전쟁 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DblJCMl91Wm4tT3FZQU5uNzJRMDd4OTgtQWJETlRzWVhtem96TEtmaGs0a2hSemFVLWdHRzZiSEgyMUdod0hibGlnNVpyZzg?oc=5",
+        "pubDate": "Sun, 21 Jun 2026 15:04:38 GMT",
+        "summary": "구글의 핵심 인재였던 노벨상 수상자가 앤트로픽으로 이직하면서 AI 업계의 인재 영입 경쟁이 격화되고 있다. 우수 인력이 기업 간 이동을 거듭하며 AI 기술 생태계의 판도를 흔들고 있다."
+      },
+      {
+        "title": "구글 AI 인재 유출 비상…노벨상 수상자도 앤트로픽行, 알파벳 5% 급락 - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZOUVMZGJQRllQczB4TEVSeTlpLURMOWtxdnRqZFpuSGx5T3BrREpCRlpnYUdfMkIyTkhHSjdGMFEwQzdVeGJGbEVXTFc3X25VWUktMjhiNnl6a1ZsMVltRWZlTVZnRzg?oc=5",
+        "pubDate": "Mon, 22 Jun 2026 21:10:17 GMT",
+        "summary": "구글 내 주요 AI 인재들의 이탈 소식이 이어지면서 기업 경쟁력에 대한 우려로 알파벳 주가가 급락했다. AI 시장에서 인적 자원의 가치가 기업 가치에 직결되는 인재 전쟁의 단면을 극명하게 보여준다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-21T23:07:09.449Z",
     "reportDate": "2026. 6. 22.",
     "summary": "- AI 인재 유출 및 조직 변화: 구글 등 빅테크 기업에서 핵심 인재의 이탈이 가속화되며 기술 경쟁력이 시험대에 올랐음.\n\n- 검색 시장의 변화와 AI 서비스 확장: 네이버의 'AI탭' 도입을 통한 검색 점유율 상승과 구글의 제미나이 기반 하드웨어 출시 등 AI를 활용한 플랫폼 및 디바이스 경쟁이 치열함.\n\n- AI와 금융 자산의 결합: AI 기술 발전에 필요한 막대한 인프라 및 에너지 수요와 맞물려 비트코인 등 디지털 자산의 가치가 재평가받는 추세임.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBST2tkN0JhQjQ0Y2JDWXhaaDFQVFJlYV9KUEFoaERDTU9QZ3Vma0s0djJGRHZXOFlWWGtwcHptWDVmQnBxYjM2Ql9CR1IzZDQ?oc=5",
         "pubDate": "Sat, 13 Jun 2026 08:44:07 GMT",
         "summary": "요약 없음"
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-12T23:12:20.333Z",
-    "reportDate": "2026. 6. 13.",
-    "summary": "- 글로벌 AI 리더십 및 협력 모색: 오픈AI 샘 알트먼의 방한 추진을 통해 한국의 주요 IT 기업들과의 AI 동맹 및 생태계 확장 가능성이 지속적으로 논의되고 있음.\n\n- 기술 고도화: 오픈AI의 차세대 모델인 'GPT-5.6' 개발 및 출시 기대감이 고조되며 AI 기술의 성능 개선에 대한 시장의 관심이 집중됨.\n\n- AI 산업의 구조적 변화: AI 기술 도입에 따른 업무 자동화 영향으로 특정 지역 및 산업에서 인력 재배치나 사업 철수와 같은 구조조정 사례가 발생하고 있음.",
-    "news": [
-      {
-        "title": "샘 알트먼, 네이버·카카오 연쇄 회동…AI 협력 모색 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9iTW4talFLQlA2Y05uZFdVYS1obVlkQzJXY3J0a2xKYmZHSkpQS2ZDUUtpdGtVblAtQTFfZkM4QTdzZXhaZVRIbHZGNGdlMUlOaEVmNjd3?oc=5",
-        "pubDate": "Thu, 11 Jun 2026 06:07:30 GMT",
-        "summary": "오픈AI의 샘 알트먼 CEO가 네이버와 카카오 등 국내 주요 IT 기업 경영진과 만나 글로벌 AI 생태계 협력 방안을 모색한다. 양측은 AI 기술 연구 및 비즈니스 접점 확대에 대해 심도 있는 논의를 진행할 것으로 보인다."
-      },
-      {
-        "title": "오픈AI 샘 올트먼, 14~15일 방한…삼성·카카오 만난다(종합) - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9tTkFORklFZjRqWTJNVktDenBIc0F6NkNBdkRmUzFMa0lPUjNIVDVULWtxVk4yZkdSTGxBU2FIbDlveExxS3h0MEhnaVd2YlJ3WndGclBaOTlQUTTSAWBBVV95cUxQWHFGV1VPTHJyQjVuTzZiZlFEWGJmVXRIZUxJdnRTREh3TUx3ckxRa3FpcjBwYVNxaHUwUHNGVkY1NWp4R2tfZWRhYVE3aUNfaUh3MTRWS1kxcXN4UDJMZGk?oc=5",
-        "pubDate": "Thu, 11 Jun 2026 00:50:56 GMT",
-        "summary": "샘 알트먼이 방한하여 삼성전자와 카카오 등 국내 대기업 경영진과 회동할 예정이다. 이번 만남은 AI 반도체 공급망 확보와 서비스 협력 등 다각적인 전략적 파트너십 구축을 위한 행보로 분석된다."
-      },
-      {
-        "title": "알트먼, 개인 사정으로 방한 연기...\"한국 협력은 계획대로\" - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qTjFqMGFDcVUxek5ZMElGeVFTeHN4Um03ajRXdHkxWjhyM1Q2d3VwVl9FNS1BcGw5eEhyd1BFSUVLSWxCbjh3MW9wSGNtRHFuMkg3NlpubDJnSDI3cjA5cFNzUnRMYTNtY1E?oc=5",
-        "pubDate": "Fri, 12 Jun 2026 20:10:22 GMT",
-        "summary": "샘 알트먼의 당초 방한 일정이 개인적인 사정으로 인해 연기되었다. 다만 오픈AI 측은 이번 일정 변경이 한국 기업들과의 협력 계획에 영향을 주지는 않을 것이라고 강조했다."
-      },
-      {
-        "title": "\"의미 있는 성능 개선\"…오픈AI 'GPT-5.6' 출시 카운트다운 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pLWpQWnFkN1Bvcjd4UnRBWFZjZm1fRmZBSFgzM3JhX3IxUTlOYUpHQ2c3NkV2SlZ3V0NwNUFzT3BURm5VYkxmOVZfNWVFNVNfZkdheHZDVEYyWlhfcGVrSlpyNC1veEd2QXc?oc=5",
-        "pubDate": "Thu, 11 Jun 2026 09:00:00 GMT",
-        "summary": "오픈AI가 이전 모델보다 성능이 대폭 향상된 차세대 모델 'GPT-5.6' 출시를 준비하고 있다. 업계에서는 이번 모델이 기존 AI의 한계를 넘는 혁신적인 변화를 가져올지 주목하고 있다."
-      },
-      {
-        "title": "\"AI가 인도 밥그릇 뺏나\"…오픈도어 인도 사업 전면 철수 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IVk9KYWRCNTV3RjY2ZDc5bU9UUDBVYTAtRXNxVWZoNzJOZ0NqdXhuc3J1QkhCZ2FHVERqYkx4eFo0UXZoT1NjNHlxaXJabWhxQW9uVTVNbS1MNnlDMWRyUktBVTNYV1NLOVHSAW9BVV95cUxONk9BVXF2WmNsWTU2QTZUOHoyYzE0dzdEeXhEemxJdy1QaVZxaGxrSTlHT1ZMa2h1dElULWkySVYyY3VKMUFYY3FoTDUxSEs3YUVBWWN3dy1HRXh6Tk9VekRqMzk0Ql9YZHlaaTF4bWc?oc=5",
-        "pubDate": "Fri, 12 Jun 2026 20:00:00 GMT",
-        "summary": "AI 기술의 고도화로 인한 업무 자동화 영향으로 오픈도어가 인도 내 사업을 전면 철수하기로 결정했다. 이는 AI 도입이 글로벌 노동 시장, 특히 인적 자원 의존도가 높은 산업에 미치는 실질적인 충격을 보여주는 사례다."
       }
     ]
   }
