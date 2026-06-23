@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-23T23:04:30.114Z",
+    "reportDate": "2026. 6. 24.",
+    "summary": "- 차세대 AI 모델의 도약: 기존 성능을 압도하는 고성능 모델의 잇따른 출시와 자율적인 규칙 수정 기능을 갖춘 모델이 등장하며 AI 기술 진화 속도가 가속화되고 있음.\n\n- AI 주권의 중요성 증대: AI 기술이 국가 경쟁력의 핵심으로 자리 잡음에 따라 독자적인 AI 생태계 구축 및 AI 자립의 필요성이 강조됨.\n\n- 실무 현장의 AI 도입 가속화: 공공기관 및 서비스 현장에서 업무 효율성을 높이고 민원 처리를 고도화하기 위해 AI 기반 실무 도입이 본격화되고 있음.",
+    "news": [
+      {
+        "title": "\"몇 달 내 초강력 AI 등장\"‥'차원이 다르다' 파괴력 경악 - MBC 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zbzRFb011VnlmeVNqMFlGdTBNWE1MYTFoS0h1bU5CajFsTUhtVWJfbEhaN3RpbV9Oc0RtY0o2MFhzTERJZTFGbG9nX01fQlY3ZTdkQVp3TFl1Q3JMWlhxWXc1SEtCS3VyOU5ncWJrRzFEeTUw0gF0QVVfeXFMTXNHUzFaWFRpVVdtaG1FTnpVbzNqd2RKcUV0WG45SEYxLTlSaEdVczQ0Yk5YcFlxYkszVTVjenRxT2lKc1BGMlRZMU1RNzFSX1FCTEhpMUhJa1lwZmNYSFdPUWFJVjEwcTVqVE5FYUN1aENMTHA?oc=5",
+        "pubDate": "Tue, 23 Jun 2026 07:31:37 GMT",
+        "summary": "향후 몇 달 내에 기존 AI와 차원이 다른 성능을 갖춘 초강력 AI가 등장할 것으로 예상된다. 해당 모델들은 기존의 기술적 한계를 뛰어넘는 파괴력을 지닌 것으로 평가받고 있다."
+      },
+      {
+        "title": "오픈AI, ‘GPT-5.5-사이버’ 정식 출시...'미소스 5' 성능 능가 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95NGpseWE3V3pSSEk0UkMwdWpkcXptRnNNWml1UkZTTVV1SlNmejJSdGdrSlg3di1GejRXbk1CLURpWnJRQlVjQlFSTzh3dzI0ZExjWEtROTl4Z3o5azY4ckNoZXBrZnJyS3c?oc=5",
+        "pubDate": "Tue, 23 Jun 2026 04:35:21 GMT",
+        "summary": "오픈AI가 미소스 5의 성능을 상회하는 'GPT-5.5-사이버'를 정식 출시했다. 이는 고도화된 연산 능력과 처리 효율성을 통해 AI 모델 성능 경쟁을 더욱 치열하게 만들고 있다."
+      },
+      {
+        "title": "[이광형의 퍼스펙티브] 미토스가 던진 경고, AI 자립이 곧 국가 자립이다 - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NbThwUEZmTm9GT01xeUxXZnNyeHZsZ2h4OHpGdEhTNXQyRGZiUnVXM2FNR3ZiRnNXclN5enYyRThUdkltbmhsM0FmLXFhTHc5bmVuU0t3?oc=5",
+        "pubDate": "Mon, 22 Jun 2026 15:14:00 GMT",
+        "summary": "AI 기술이 국가 핵심 역량으로 부상하면서, 외부 의존도를 낮추고 자체적인 AI 생태계를 보유하는 것이 국가 생존의 필수 조건이 되었다. 독자적인 AI 기술 자립이 국가 경쟁력 유지의 핵심임을 강조한다."
+      },
+      {
+        "title": "\"AI가 스스로 규칙 고친다\"…모델 성능 60% 끌어올린 '셀프-하네스' 등장 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ocDRoZ0haaU5yT004aDdYdEFMTWh3UzN6VkN0LWZTOVp1SGpYcmstckFhTThBQUFzUkN4Wlc0a1BHZEwxSHZ0ODF4TTY0ZlhzYUxKelA5bUNLM0dSR3VOQnFPYWNER3NLcEE?oc=5",
+        "pubDate": "Tue, 23 Jun 2026 09:22:33 GMT",
+        "summary": "AI가 스스로 학습 규칙을 수정 및 보완하는 '셀프-하네스(Self-Harness)' 기술이 등장했다. 이를 통해 AI 모델 성능을 최대 60%까지 대폭 향상시키는 성과를 거두었다."
+      },
+      {
+        "title": "\"가짜 판례까지\" AI발 민원 폭탄에…금감원, 9월 '민원담당 AI 직원' 첫 투입 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvcDNtNWZxNnhTOU0tby1XTE9OdDFBSW1nYXZ6T3AwaFNsOXd5RkpFUFQ3UFhHUHRHX3pHdFlMR1NZTmRpUWxuckpSbzJ5UDg?oc=5",
+        "pubDate": "Tue, 23 Jun 2026 22:39:02 GMT",
+        "summary": "최근 AI를 이용한 가짜 판례 생성 등 악성 민원이 증가함에 따라, 금융감독원이 대응책으로 9월부터 AI 기반 민원 담당 직원을 도입한다. 업무 효율화와 정확한 민원 대응을 목표로 현장 적용이 확대되고 있다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-22T23:15:21.891Z",
     "reportDate": "2026. 6. 23.",
     "summary": "- AI 기술 경쟁력 및 수익화 전략: 네이버가 차세대 모델 개발을 통해 글로벌 시장 주도권을 확보하고, AI 검색 서비스에 광고를 도입하며 본격적인 수익화 모델을 구축하고 있음.\n\n- 서비스 점유율 확대: 네이버는 'AI 탭' 등 사용자 친화적 기능을 앞세워 국내 검색 시장에서의 지배력을 강화하며 글로벌 빅테크인 구글 대비 우위를 점하고 있음.\n\n- 빅테크 인재 확보 경쟁: AI 시장의 핵심 동력인 고급 인재를 확보하기 위한 기술 기업 간의 경쟁이 치열해지고 있으며, 인재 이탈이 기업 주가 등 시장에 즉각적인 영향을 미치는 양상을 보임.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1wbkZ2VTdWTFVQcS02UEdva2xvNVhBRWhjOUdtOFNWOU1sZEZ6ajAwNzhHZlZXQUtfSkxjUXpzMTNISmljRXBXNG0tdGROYVdWaXc?oc=5",
         "pubDate": "Sun, 14 Jun 2026 22:35:38 GMT",
         "summary": "벡트, AID, 심플랫폼 등 기술 기업들이 실시간 데이터 처리가 가능한 엣지 데이터센터 시장 선점에 나서고 있다. AI 성능 극대화를 위한 효율적인 인프라 구축 수요가 늘어남에 따라 이들의 시장 경쟁은 더욱 치열해질 전망이다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-13T22:59:22.231Z",
-    "reportDate": "2026. 6. 14.",
-    "summary": "- AI 거버넌스 및 안보 강화: AI 모델에 대한 접근 권한 제어와 국가 안보를 고려한 수출 통제 정책이 본격화되고 있음.\n\n- AI 규제와 기술 생태계의 갈등: 고성능 AI 모델의 외국인 접근을 제한하는 등 기술의 개방성과 보안 사이의 균형을 맞추려는 움직임이 관찰됨.\n\n- 산업 현장의 AI 활용 다각화: 스포츠 경기 분석 및 판정 등 전문적인 데이터 해석이 필요한 분야에 AI가 도입되며 기술적 진화가 가속화됨.",
-    "news": [
-      {
-        "title": "[AI픽] AI도 허가받아야 쓴다…'미토스'가 연 접근권 시대 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FWEFMeUFFdlE0b1NRRFVFRnkybS1seHJ3MDBLSFAyU2otOVBNSGpFaXItdC1SZWZHa0lwNUxRSGR4T0lzVWhOazFpWExEQkU?oc=5",
-        "pubDate": "Sat, 13 Jun 2026 21:34:51 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "미 행정부, 앤스로픽 AI 모델 차단... ‘국가안보’ 내세워 외국인 접근 금지 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aUWZVTXFsV19LN3I2cHFmd1hWdk02RnhKMGhrWk5ROVJLWUlIWmZOeTdldWc5SWtsTHBmNEZmN05veTR1Yno3eWdIam1RRGc?oc=5",
-        "pubDate": "Sat, 13 Jun 2026 22:12:00 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "美정부, 앤트로픽 AI 수출통제 오픈AI 등으로 확대 안해(종합) - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TZ05DS3A1S2dkN3psQ1pjb2pWV09HV1UyU2huWEpaUVlmZXluOEpWY1EtNmduRVNjWHNteHk4NjcxTjlrdTh4ejNRY1BPemNDX1ZIREtpMGRsVVXSAWBBVV95cUxQTlVyd0JnLUNpY20tTTBtMjhiRDFKdUlhNDZ3N2VRalFDd2NpcERsLURSdmN0THo4bHh1VWFnZTR5QzhDN1AxT3lzS3JiYUl6VW5BUF83MFpTbVNBNXNSdWc?oc=5",
-        "pubDate": "Sat, 13 Jun 2026 21:57:46 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "골라인·VAR 넘어 AI까지…월드컵 '테크의 진화' [트민자] - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5BT2tXWG9NTFJ3WE5NcjA4cFF2b25oaFFZT3BMLTd1Y1lGMU5xSWdHTDdpelh1MDI4X3VPOGRPWWI4NHlodVhmQ2c2NFk0WWtjbzNDdXRvM1ZMbXhJVXBfanRuaW1lZGZq0gFuQVVfeXFMT3NxTXQwSEdEOU1qYzFuRHlhS2J0VFIwNUZOMU12dkk4RFluUEd2dVNjNFVILV9JS3RFQmpvOWZfN1NMUzZCTWFxYnlvd2pEbzN0MndzZWs0Ulo3N3ZWMHlsOGhPV29kdGc0X0h3cVE?oc=5",
-        "pubDate": "Sat, 13 Jun 2026 21:30:01 GMT",
-        "summary": "월드컵에서 골라인 판독 기술과 VAR에 이어 AI 기술이 스포츠 판정에 본격적으로 도입되고 있다. AI는 실시간 데이터 분석을 통해 경기 결과의 정확성과 공정성을 높이는 핵심 요소로 자리 잡았다."
-      },
-      {
-        "title": "“메시도 AI가 분석한다” 월드컵에 등장한 ‘로봇 심판 군단’[나우,어스] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBST2tkN0JhQjQ0Y2JDWXhaaDFQVFJlYV9KUEFoaERDTU9QZ3Vma0s0djJGRHZXOFlWWGtwcHptWDVmQnBxYjM2Ql9CR1IzZDQ?oc=5",
-        "pubDate": "Sat, 13 Jun 2026 08:44:07 GMT",
-        "summary": "요약 없음"
       }
     ]
   }
