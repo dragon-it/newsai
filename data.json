@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-25T23:12:50.446Z",
+    "reportDate": "2026. 6. 26.",
+    "summary": "- AI 시장의 자본 흐름과 투자 전략 변화: 오픈AI의 1조 달러 기업가치 목표와 상장(IPO) 시기 조절 등 AI 기업들의 재무적 건전성에 대한 시장의 감시가 강화되고 있음.\n\n- 로봇 산업으로의 투자 확장: AI 기술이 소프트웨어 영역을 넘어 로봇 공학 등 물리적 산업 현장으로 빠르게 전이되며 대규모 투자가 유입되는 추세임.\n\n- 기술 생태계의 다변화: 미국 중심의 AI 패권 경쟁 속에서 우수한 성능을 가진 중국 AI 모델이 개발자들 사이에서 주목받는 등 기술 채택의 유연성과 경쟁이 심화됨.",
+    "news": [
+      {
+        "title": "“앤트로픽 버렸다” 미국 개발자들이 중국 AI로 갈아타는 이유[딥다이브] - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PWU1iV2FfclVfdUZydmFwSFBuaVpNSi1lOUlCMC1LTmJCczB0ZGFhcldkUUdubG9QaXZVZnBPWVBSaldua2JuNTFFamVtcVE0QXp3c280bjV2OHdScUV0MjRUV01peWJMSnFNR0hqRjJvSEVOWmfSAWZBVV95cUxPNnRaeHBWOFhRVGEtYUZJdExXclA1UUJZTjVMQml0T1Z6RE1EWjJGR0t2OFNzVWVzelpwa0R0bVRZcWk1XzBsWDlxei1keU9saE81emlkc1ZUQUZPQzFnZWh1Z0dzcEE?oc=5",
+        "pubDate": "Thu, 25 Jun 2026 01:00:00 GMT",
+        "summary": "미국 내 일부 개발자들이 폐쇄적인 미 AI 기업 대신, 높은 성능과 접근성을 갖춘 중국의 최신 AI 모델로 눈길을 돌리고 있음. 규제와 제약 속에서도 빠르게 발전하는 중국 AI의 기술적 경쟁력이 생태계 점유율을 넓히는 원인으로 분석됨."
+      },
+      {
+        "title": "\"월가 거대한 돈, AI 다음 여기로\"...'300조' 판 커지는 로봇시장 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kWmFKLUpBbDdQZ0lORExwYi1JVXJ5UnpaQVo1TDBBd184Z0ZUTjJqSk5Ob0hXMVFucnFnLWVXOHdEUnJZVzRpQm4xQTJHUG82UVMzVHAyNmlPYVE4Y2FGZWRBaUdHVkZDQk50VNIBckFVX3lxTE1UbE5JcXJRc0N0QWVkRUI3MXJOLTNvQmlKalB3bmM4NHJOMWhYY0tjRi0xMDhkX2NFRFgzU3hPN2dLV3Q5UWtaeEFXcDlhSktoRFRKemRpZGQ0NnZJcGFKNDc1NnBlSXdrUTBpaUk5RTdiUQ?oc=5",
+        "pubDate": "Wed, 24 Jun 2026 22:00:00 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "\"1조달러 아니면 안 해\" 오픈AI IPO 내년으로 연기 검토 - 마켓인",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43MW1KMlNTcllIN2VaanRUbzRCbFNoNHMyYlEwc3hFMFZRbWZ5Tl9BSDYzN2g0OGcwcGp2eTlWaGctYWNJZkxVeWtaeDhaMDhzR3FjOVFRWWFSaHl4UlJkVXdIdlJMS1h4elRteXp1VmFwVGc?oc=5",
+        "pubDate": "Thu, 25 Jun 2026 22:43:23 GMT",
+        "summary": "오픈AI가 1조 달러 규모의 기업가치를 인정받기 위해 당초 계획했던 IPO 일정을 내년 이후로 연기하는 방안을 검토 중임. 높은 밸류에이션을 유지하기 위한 경영진의 전략적 선택으로 풀이됨."
+      },
+      {
+        "title": "IPO 앞둔 오픈AI, 재무 상태 폭로 문서 나와…\"완전 난장판\" - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRk5Wdk4xSzlQTDRCRThhTjBmRWxwcWI3RHNhRHlTNnJwVnI5azRaVWNRTGQtLTg4WkdVMTYzTVNmZzZzdENOSWdhMDZlbXlYZUlLbWttSXN0dkJ3aXhuYlFIdjh1QTdEVk8tWUtSUUbSAXRBVV95cUxPZnB6MUlxYWEzYS1jQXlkdGRlZkxULW9NM2FWeHQ1cEZuTWxpcE1sUDRjSDJ2YUZ1RXd0bTItRjZtOW5hNEZ5X0xkSm1IY2ZTQUpkZHlFZElQQXlhRUhlcmFxX04yN09IQWl3ZEU0OTJ4UU9BVw?oc=5",
+        "pubDate": "Thu, 25 Jun 2026 22:37:17 GMT",
+        "summary": "최근 공개된 내부 문서를 통해 오픈AI의 재무 구조가 상당한 혼란 상태라는 비판이 제기됨. 수익성 확보와 천문학적인 운영 비용 사이의 불균형이 기업공개(IPO)를 앞둔 회사에 리스크로 작용할 가능성이 커짐."
+      },
+      {
+        "title": "오픈AI, IPO 내년 이후로 미룰 가능성…\"1조달러 밸류 고수 속 속도 조절\" - 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lbTFYSk5tZTV5RU9MbGtpUHluVDg0dUI5RENwaHFyRGFIU2c2MEtod2tSVXBiSnNGMTBrWlBpZEVLTm5YUWlGS05wcnM4SXNkaWFFWkR2LW1Penlo?oc=5",
+        "pubDate": "Thu, 25 Jun 2026 22:40:00 GMT",
+        "summary": "오픈AI가 IPO 속도 조절에 나선 것은 무리한 상장보다는 시장에서 1조 달러의 기업가치를 확고히 인정받기 위한 과정으로 보임. 급격한 성장에 따른 재무적 부담을 해소하고 시장의 신뢰를 구축하려는 행보임."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-24T23:00:52.650Z",
     "reportDate": "2026. 6. 25.",
     "summary": "- AI 산업 생태계 확장 및 투자: 글로벌 시장에서 AI 경쟁력 확보를 위한 기업 간 지분 투자 및 전략적 제휴가 활발히 진행 중이며, 국내 지자체 또한 피지컬 AI 실증 거점 구축 등 산업 현장 적용에 박차를 가하고 있음.\n\n- 반도체 공급망 및 시장 변동성: AI 반도체 수요가 시장의 핵심 동력으로 작용하는 가운데, 투자 축소 우려와 금리 정책 등의 거시 경제 요인이 반도체 산업에 잠재적 리스크로 작용하며 시장 민감도를 높이고 있음.\n\n- 기술 리더십의 불확실성: 선두 기업 내 핵심 인력 이탈과 모델 출시 지연 사례가 발생하면서, 글로벌 AI 기술 패권 경쟁의 지속 가능성과 리더십 교체 가능성에 대한 우려가 제기됨.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jLWhULVgxLVA5NDItWTkxWkliTWdMU3ZqTjhQOUdhcnVUeWN4NnhNU1RtdzBBa2ZpZTdaaXFMQWpFTmNxUkQ4SDd2NWEyV3d6X2pZZEt5RkZSeW9sNjVSSENfNk5vVnPSAWxBVV95cUxPT3RhMTN1cC01WHp6ak9WTDZzdXFBblpGSXNRQlh5NkQtOERnTUctYVU0dkNvdE1ySFNxSHNKZWxiVEFCc2xEYTk4ZEdjdTg0YWRZLUM5RmFxdTBhcUt2eWdrajRlTXpZVDIxNjM?oc=5",
         "pubDate": "Tue, 16 Jun 2026 23:00:00 GMT",
         "summary": "AI 산업 확산과 반도체 미세공정 고도화에 따라 제조 현장에서의 초정밀 제어 기술 수요가 급증하고 있다. 엡손은 이러한 흐름에 맞춰 로봇 및 센서 기술을 활용한 정밀 제어 솔루션을 공급하며 기술 시장에서의 영향력을 확대하고 있다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-15T23:43:03.521Z",
-    "reportDate": "2026. 6. 16.",
-    "summary": "- 대중국 AI 기술 봉쇄 강화: 미국 정부가 고성능 AI 반도체 및 기술에 대한 수출 통제를 더욱 강력하게 시행하며 글로벌 AI 공급망의 분절화가 심화되고 있음.\n\n- 전략적 기술 주권 확보: AI 기술을 국가 안보의 핵심으로 간주하여 기술 유출을 방지하고 자국 우선주의 정책을 펼치는 'AI 버전 맥마흔법'과 같은 규제 환경이 조성됨.\n\n- 글로벌 협력 및 낙오 우려: AI 산업의 선두 주자인 엔비디아와 협력하기 위한 국가 간 경쟁이 치열해지는 가운데, 기술 협력에서 제외된 국가들은 AI 혁명에서 낙오할 수 있다는 위기론이 확산됨.",
-    "news": [
-      {
-        "title": "\"미국인 아니면 접근금지\"‥'핵무기급' 수출 통제에 'AI 종속' 우려 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1FSlBpSy03VnFnR2J1eVh3NTZnSnJXV19Ib3MyTFBDWF9OU0s3d1NRSDVmc1BYellUNWMxc04walpHMVVYNjhTREJ6a29tbUE?oc=5",
-        "pubDate": "Mon, 15 Jun 2026 11:54:00 GMT",
-        "summary": "미국 정부가 고성능 AI 반도체에 대한 수출 통제 조치를 강화하며, 미국인 인력의 AI 기업 접근까지 제한하는 등 초강경 정책을 펼치고 있습니다. 이러한 규제는 글로벌 AI 시장의 기술 격차를 키우고 특정 국가에 대한 AI 기술 종속을 심화시킬 것이라는 우려를 낳고 있습니다."
-      },
-      {
-        "title": "\"미국인 아니면 접근금지\"‥'핵무기급' 수출 통제에 'AI 종속' 우려 - MBC 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94TGYyZnlrMjBvN1VZdEd3TmJfeUR0M3dfRWItRHBCcnFiUmlHSkxneDlZTzFneTBfdmtjMV94UzU0RnRRWDdrSGRKakt0Qm1GQjNTbXU4VWZPR0o2OFhmcFZfMW1NMVNiTm9XRThvZXp6bU1RaGJxYQ?oc=5",
-        "pubDate": "Mon, 15 Jun 2026 11:41:04 GMT",
-        "summary": "미국이 AI 기술을 안보 전략의 핵심으로 규정하고 수출 통제를 핵무기급으로 격상했습니다. 이에 따라 관련 분야의 인적 교류와 기술 협력이 차단되면서 글로벌 공급망 재편과 함께 기술 블록화 현상이 더욱 뚜렷해지고 있습니다."
-      },
-      {
-        "title": "[글로벌 포커스]맥마흔법 'AI 버전'?…'세계 1등 AI 스타트업' 막은 美정부 - 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ENEZGSndfcXpjNEpNODg2WmdUQmxJdTNpNjRBNTl4LWd5WXl0cE0yY2JMVk05LUg3STk5YnVmckRreUZMYVFjZGdFdVRvSmY4T1ZadGFWNUlEUl9lc2NOVQ?oc=5",
-        "pubDate": "Mon, 15 Jun 2026 22:15:07 GMT",
-        "summary": "미국 정부가 과거 핵 기술 공유를 금지한 맥마흔법처럼 AI 기술 유출을 원천 봉쇄하기 위한 강력한 규제를 도입하고 있습니다. 이는 자국의 AI 패권 유지를 위해 외국 스타트업과의 협력이나 투자까지 선별적으로 차단하려는 의도로 풀이됩니다."
-      },
-      {
-        "title": "\"젠슨 황이 매력 느낄 기업 없다\"… 日, 한국 삼겹살 회동에 'AI 위기론' - 한국일보",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KbDgyNFFWVWVnZFlvalh5ejdsVHhsX3BMcVE2dkpTMy04ck12ek9nai1IUUhaQnNjUUo1SXlpaXN4b3dEUXZKU2JlZ3JjMFBjX0xLQjdkT3pLYUF4a2RQMWZGYk1OelMtWHJWeHpn0gFzQVVfeXFMTnhEcUJybTVDMmVxR3hvTTQxTjJXaGxWZ3VLMWNMSERxRzZBUmRtaHdqV1lINkd4WGZzTEJkeWNpTUQyOUJMdlJrT0JrVXFFTkQ4MTg0UGZyUWhpYWVOeWQ2cENrZ3RseHNWWEZBb3FGR1NSQQ?oc=5",
-        "pubDate": "Mon, 15 Jun 2026 03:17:00 GMT",
-        "summary": "엔비디아의 젠슨 황 CEO가 최근 방한해 국내 기업들과 긴밀히 교류한 반면, 일본은 패싱당하면서 일본 내에서 AI 경쟁력 낙오에 대한 위기감이 고조되고 있습니다. 일본 언론은 이를 두고 자국 내 AI 생태계가 글로벌 흐름에서 소외되고 있음을 지적하고 있습니다."
-      },
-      {
-        "title": "젠슨 황, 韓·中·대만 돌고 일본은 '패싱'… 닛케이 \"AI혁명 낙오 우려\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NMHg3LWZGMy15MHJpYmJsVFprU3JsNnlBMFBDcFVYN1JhMUlxV25JRndGdTJ3eTV1QnpzV2dEOTd3SmVoQlRuSUVCX28tOVU?oc=5",
-        "pubDate": "Mon, 15 Jun 2026 04:38:58 GMT",
-        "summary": "젠슨 황 엔비디아 CEO가 한국, 중국, 대만을 방문해 기술 협력 행보를 보였으나 일본을 방문하지 않으면서 일본 정부와 기업들에 큰 충격을 주고 있습니다. 현지 언론은 이를 계기로 글로벌 AI 공급망에서 일본이 주도권을 잃고 AI 혁명에서 뒤처질 수 있다는 우려를 표명하고 있습니다."
       }
     ]
   }
