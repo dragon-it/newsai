@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-27T22:58:43.243Z",
+    "reportDate": "2026. 6. 28.",
+    "summary": "- AI 기술 경쟁 심화 및 모델 고도화: 오픈AI의 차세대 모델 'GPT-5.6' 공개와 앤트로픽 '미토스5' 등 최신 AI 모델이 잇따라 등장하며 기술적 성능 경쟁이 가속화되고 있음.\n\n- 규제 기반의 단계적 배포 전략: AI 기술의 안전성과 보안을 확보하기 위해 각국 정부의 승인을 거쳐 모델을 제한적으로 출시하거나, 자국 기업에 우선 접근권을 부여하는 등 지정학적 영향력이 강화됨.\n\n- 반도체 시장의 다변화: 엔비디아의 독점적 시장 지위가 견제를 받으며 삼성전자와 SK하이닉스 등 HBM(고대역폭 메모리)을 포함한 메모리 반도체 공급 기업들의 입지가 더욱 중요해짐.\n\n- 실생활 및 산업 현장으로의 기술 확산: AI 가전과 모듈러 주택의 결합처럼 AI 기술이 단순 소프트웨어를 넘어 일상적인 주거 및 산업 현장에 실질적으로 접목되는 경향이 뚜렷해짐.",
+    "news": [
+      {
+        "title": "삼성·하이닉스 몸값 더 뛴다…엔비디아 독점 깨지는 AI 칩 시장[칩톡] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zZWstNnItZEl2Mk5mbmdLeW0yNUJqQ0hhZmh6RDZXdkw3ZUl0VEplOEVoTmVWVHpzcW4wV3JRSlV6UnYtUG43SHJ4QlNVSlU?oc=5",
+        "pubDate": "Fri, 26 Jun 2026 23:02:05 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "중국 치고 올라오는데...오픈AI, 美 정부 허락맡고 GPT-5.6 단계적 출시 - 서울경제",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80amkwa1YtdTVWdjlmM2IyRmFHS0ZMMWx3WE51cjlCWUNBY1kxSm1XVlB2cm1mVE9Uek42MFBjS3dRUzZUZjlFU3d2bXlzVTNCS0HSAVNBVV95cUxOQllZSFptN0hWTkJFU1dDRmdqcmJ2MkhzNEd0T0ItbXZubUg1bTZRNzlzTnh0XzJYbng1X2RqWVVBM21XeGRERDA5eTE2R1RWeUdTQQ?oc=5",
+        "pubDate": "Fri, 26 Jun 2026 21:20:00 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "오픈AI, 최고 성능 ‘GPT-5.6’ 3종 공개...\"정부 요청으로 제한적 출시\" - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yRzhpRWJfUDdyZC1obUpYOENLbXNZQTlGb3gzQ3AtVTlseUNDU2NuTXpKUEE2ckRTTVNEZnZNVk9TTGRMRy0yZElJbzBITzBCUUxLTXJMOWRIQWp3S21mOE40M2hsTm1ITVE?oc=5",
+        "pubDate": "Fri, 26 Jun 2026 20:25:24 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "美, 앤트로픽 '미토스5' 사용제한 자국기업만 우선 풀어줘(종합) - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zeEUwNkswSGFnV1J3cnhlUGpfbE9CeldNXzJQaWF6OFhhS0NrYnVKdUZ5MVZlNmY4SVR0YldMVnBLOGNXRVVHR1ZReFlkRlE?oc=5",
+        "pubDate": "Sat, 27 Jun 2026 11:18:01 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "주택 설계부터 맞춤형...모듈러 주택에 녹아든 'AI 가전' - YTN",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8ycHJsVGZsM3FnUEFxUkNuS3VpeG5BTXRCdFZERlluZTJzX2ExUXBlTENJMTFxSTNlb1BYX2ptaUt6UGdWYzRUWkx6WV9iZFVoSHZWNUNUOU8weE42YUw0ZC1qWlY1NjFpb1ZEUm8zR1cyaHo2dFE?oc=5",
+        "pubDate": "Sat, 27 Jun 2026 22:25:00 GMT",
+        "summary": "요약 없음"
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-26T23:00:53.315Z",
     "reportDate": "2026. 6. 27.",
     "summary": "- AI 산업의 불확실성 증대: 오픈AI의 IPO 연기 가능성과 재무 구조에 대한 우려가 제기되면서 시장 전반의 투자 심리가 위축되고 기술주 변동성이 확대됨.\n\n- 하드웨어 및 인프라 협력 가속화: LG전자가 엔비디아와 협업하여 차세대 '피지컬 AI' 생태계 구축을 선언하는 등 소프트웨어를 넘어 물리적 환경과의 결합이 주요 기술 트렌드로 부상.\n\n- 인재 영입을 통한 경쟁 심화: 애플 비전프로 핵심 인력이 오픈AI로 합류하는 등 주요 빅테크 기업 간 AI 하드웨어 및 소프트웨어 통합을 위한 인재 영입 경쟁이 본격화됨.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53NHFIR3ZPcS05ak50NWotVHJRMkc2Wlp3elhXWlNnb0Z0dEw1MjVqNnZTbWFUazRxQnZUUDFLOEFxSUx2alZjbFU0bjcxalU?oc=5",
         "pubDate": "Thu, 18 Jun 2026 21:02:32 GMT",
         "summary": "요약 없음"
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-17T23:19:26.611Z",
-    "reportDate": "2026. 6. 18.",
-    "summary": "- 인프라 및 생태계 확장: AI 산업 성장에 따라 데이터센터 운영을 위한 전력 공급 등 에너지 인프라의 중요성이 부각되고 있으며, 삼성전자는 파운드리 협력을 통해 생태계를 넓히고 있음.\n\n- 반도체 공급망 강화: AI 반도체 수요 급증에 맞춰 삼성전자는 전력관리 반도체 등 관련 제품군을 확대하고, DX 부문의 체질 개선을 통해 AI 전환에 속도를 내고 있음.\n\n- 산업 현장 및 공공 적용: AI 도입을 통한 생산성 제고와 비용 절감이 기업의 핵심 과제로 부상했으며, 정부 역시 AI 수석 비서관을 신설하는 등 'AI G3' 도약을 위한 국가적 역량 결집에 나섬.",
-    "news": [
-      {
-        "title": "[단독] AI가 몇 명 대체했나…삼성전자, 혁신보다 가성비 따지나 - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NeVhaendaRFQtQ09xNmJuZHppa1E1Q2hnaXhELTNpeGtoTzhwaXdOVjVHaDNBajc1SkVMMWxMQ0RBdWxRYWowMC0ySENzMklkak9pMFlLNnJoMDREYURpR0RTQUJKeGhtU3c?oc=5",
-        "pubDate": "Wed, 17 Jun 2026 22:40:00 GMT",
-        "summary": "삼성전자가 생성형 AI 도입을 통해 업무 생산성 향상과 비용 절감을 동시에 모색하고 있음. 기술 혁신뿐만 아니라 AI를 활용한 인력 효율화 등 실질적인 경영 가성비 확보가 기업의 중요한 전략으로 자리 잡음."
-      },
-      {
-        "title": "삼성 파운드리, 전력관리 반도체도 수주…AI 생태계 넓힌다 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBMTXZqZDZYTTIxUExUemE0TXBPLXVEZm9xUnlMNjc0ZGlXaDMyYW5Ndk1tSXNsVjVjRVJjRmZZZm1oU1k2SjJDX3FXTlRhSVhsT0M5YVVBQTdoMGhLRDEzRDBWTlR0Ykk2M1NkT9IBckFVX3lxTFBCdjZPNTRsQ2NZNnJCWktvZGhIcWxxekVfNkJENk5zNkZWOFByV3NXcnJ2V2plRzBjcXNHbVpNemZicjFMZS1aZ3RhTVVZc1lKS1lERk1yZGhLbFJDNkpRZ2tBSThUalk0MFIzeHdfMkZXdw?oc=5",
-        "pubDate": "Wed, 17 Jun 2026 21:40:00 GMT",
-        "summary": "삼성전자 파운드리 사업부가 AI용 전력관리 반도체(PMIC)를 수주하며 관련 생태계를 확장하고 있음. AI 고성능 컴퓨팅에 필수적인 효율적인 전력 관리 역량을 바탕으로 글로벌 시장 공략을 강화하고 있음."
-      },
-      {
-        "title": "\"반도체 호황 속 완제품 위기\"…삼성전자 DX, 'AI 전환'으로 체질 바꾼다 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9HVjdMMVk0dkNtOWl0MWwxd0QwWk5IcFRaRlhWNGo2VVpHcUR0Ul8wdWRhYlU4YkpEZEx4VWN1UXY0LUNvSXVCUi1WRHByaUE?oc=5",
-        "pubDate": "Wed, 17 Jun 2026 06:37:02 GMT",
-        "summary": "반도체 시장 호황과 달리 완제품 사업의 경쟁 심화에 대응하기 위해 삼성전자 DX 부문이 전사적 AI 전환을 추진함. 기기 내 AI 기술을 내재화하여 차별화된 사용자 경험과 새로운 수익 모델 창출에 집중하고 있음."
-      },
-      {
-        "title": "[단독] AI 수석에 AWS 이기혁 내정…李정부 'AI G3' 새 판 짠다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03bEFQOGQ2Q2VUWVFMQ3FjQUR1ZmtLRGdzaUFqaG10elM3UF9ycTA5TG9XdUJJS05JdXA0V0psUVc4UkdJN2phQ1NUY2RWQm9QNlZUUTNR?oc=5",
-        "pubDate": "Wed, 17 Jun 2026 06:43:53 GMT",
-        "summary": "정부가 대통령실 산하에 AI 수석비서관직을 신설하고 전문가를 내정하며 'AI G3' 전략을 본격화함. 국가 차원의 AI 산업 경쟁력 확보와 생태계 조성을 위한 범정부적 정책 추진 의지를 드러냄."
-      },
-      {
-        "title": "AI 시대, 새로운 골드러시는 에너지 [크립토인사이트] - 헤럴드경제",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3MUxqMkpvaktFZmNlZ0JVbnB5OFNXdElBYVAyd2ZRcXQxbTZZMDNUSUk2amFqNzNCckNseFpFLUloLUpwM3B2cHRDcWRkZUlTeGJYaGV3?oc=5",
-        "pubDate": "Wed, 17 Jun 2026 22:00:00 GMT",
-        "summary": "AI 모델 고도화에 따른 막대한 전력 소모가 전력망 인프라의 가치를 높이고 있음. 데이터센터 가동을 위한 안정적인 에너지 수급이 AI 시대의 핵심 인프라 경쟁력으로 부상하고 있음."
       }
     ]
   }
