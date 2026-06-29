@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-29T22:51:16.946Z",
+    "reportDate": "2026. 6. 30.",
+    "summary": "- 인프라 및 생태계 확장: AI 데이터센터 구축을 위한 대규모 투자가 논의되는 가운데, 국내외 AI 기술 교류를 위한 엑스포 개최 등 산업 생태계가 활발히 확장되고 있음.\n\n- 반도체 공급망 및 AI 인프라: 막대한 자본 투입을 통해 안정적인 AI 인프라를 확보하고, 지속 가능한 AI 경쟁력을 유지하기 위한 인프라 구축 전략이 강조됨.\n\n- 산업 현장 및 공공 적용: 제조, 서비스 등 다양한 산업 현장에 AI를 접목하는 '피지컬 AI'와 'RX(로봇 전환)' 사업이 본격화되며, 2030년까지 세계 1강 도약을 목표로 한 국가적 지원이 추진됨.",
+    "news": [
+      {
+        "title": "[3대 메가] AI로 제조업 대전환…20조 투자해 100조 경제 만든다 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SNXMzWnRpV19BZ2JMTlVRYkkydTJ4UmhVcm04NklHVVJqTWxIdUFsdllKNXl2OUViMHFiQVo2a2pNbGFmY0VRM3JHbndzN21ZR2xoRDdKR0M4cVnSAWBBVV95cUxPbG5reURhLXVrNkROV1FRRDhmamtlSDhLR1JmWkdIdjJSR1IxMGdyZ05LeEt4WEZFMGNydDhMZTV1dnc2TjM1Ulc3VEtkdEdKbjFDRWZxb1l3MVF6dzV2aWg?oc=5",
+        "pubDate": "Mon, 29 Jun 2026 07:56:21 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "배경훈 “AI 데이터센터 구축에 1000조원 투자” - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9TT0lqWGZoT1MtcC01TmxsbTBWbU9sVFJaaExHaWRZMHdhQUJSdTVlckhBeFhNY2FUcjYtRTlkWndwREJqLVZnaEdyLThGdzdBVERfclZZbmpINnlZSmRjbFkwcGlUaGxEdHd3?oc=5",
+        "pubDate": "Mon, 29 Jun 2026 06:51:00 GMT",
+        "summary": "배경훈 LG AI연구원장은 AI 경쟁력 확보를 위해 데이터센터 인프라 구축에 천문학적인 비용인 1000조 원 규모의 투자가 필요하다고 언급했다. 대규모 인프라 확보가 AI 주도권을 잡기 위한 핵심 요소임을 강조한 것이다."
+      },
+      {
+        "title": "과기부총리 “2030년까지 피지컬AI ‘세계 1강’ 목표” - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4taV9Sd0JhOEx0cjdmLVBJWllWOVNNV3FSbXVra1cxTHpCVm1PLTFXcE1jWHZRaGo2NlZ4NGhyUzlsZS1LS2g1WExOY3haZ2M?oc=5",
+        "pubDate": "Mon, 29 Jun 2026 21:32:09 GMT",
+        "summary": "과학기술정보통신부는 2030년까지 물리적 공간에서 AI가 직접 작업을 수행하는 '피지컬 AI' 분야에서 세계 1위 수준의 기술력을 확보하겠다는 목표를 발표했다. 이를 위해 국가적 역량을 집중해 기술적 우위를 점할 계획이다."
+      },
+      {
+        "title": "‘피지컬 AI’ 현장 투입해 RX 사업 확대 - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BcXBoLXRYZURhbVFzQUlhNXB6OGFwaUZzZU5ob3U3eGRPWGd2SzlrQWpzU0hYblpqYmd6NGRBWkZlSDdjSWxWMU5BX3JhXzJscVdNMlBGYUJhcmVYb2hxUVZrcUl4aURYVVZhbzhhdmFfc09CM3fSAWZBVV95cUxOOHlvX0cybEthbVhhR0czejhmTC00NkRDaldDd2lMdkZHUVV0V0UxZzZTLVRTWUtKTW9vY0xyMEFkWl9IbDlsTU5lNlRCdG5kSjM2eGNaVzgwSkpqVzUwaXQ5TEYwcVE?oc=5",
+        "pubDate": "Mon, 29 Jun 2026 19:30:00 GMT",
+        "summary": "산업 현장에 피지컬 AI를 도입해 로봇 전환(RX) 사업을 가속화하려는 움직임이 활발하다. 노동력 부족 해결 및 생산성 향상을 위해 실무 환경에 AI 기술을 밀착 적용하고 있다."
+      },
+      {
+        "title": "카이스(KAIS), 코엑스서 열리는 'AI 서밋 서울 & 엑스포' 참가 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAwazg1YjNqbmpnbTFQZ2FCcTk1SWNocllRWjl4MGJialNtak1DOXVpRHNmWEh5eXl2WXJFWUdPVURzaGhhYVRfdk9hb2lVOW8?oc=5",
+        "pubDate": "Mon, 29 Jun 2026 21:30:30 GMT",
+        "summary": "카이스(KAIS)가 코엑스에서 개최되는 'AI 서밋 서울 & 엑스포'에 참가하여 최신 기술 트렌드를 공유하고 네트워킹을 진행한다. 이번 행사는 국내 AI 기업들의 기술력을 선보이고 생태계를 강화하는 계기가 될 전망이다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-28T22:58:26.666Z",
     "reportDate": "2026. 6. 29.",
     "summary": "- 기술적 효율성 제고: AI 연산의 전력 효율을 극적으로 개선하기 위한 새로운 아키텍처 연구가 활발히 진행되고 있음.\n\n- 산업 현장 최적화: 모듈러 주택 설계, 통신망 장애 관리 등 AI가 실무자의 노하우를 학습하여 효율성을 높이는 현장 적용 사례가 증가함.\n\n- 시장 리스크 및 고용 변화: AI 투자 대비 수익성에 대한 의구심이 시장 하락세로 나타나는 한편, 인간 고유의 소통 역량이 중요한 직무가 AI 시대의 핵심 인력으로 부상함.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNFpTbWpwYlRUckFESk9ZeEg1WjRhdi01a2NuVnQzN0Vob3I4TWhkMzZmWWloZUxFM0UzYW5RWFBFQm5YUHM5UFcxV2ZBMVFWalhCY2Vjc1pKaUdzUk9WaWo5Z2Jac3lrcmt4S2FHWTZ6UFFxZEJGRjU1T1BmWWt0YWp30gGWAUFVX3lxTFBvNTZVamY1dk1lSFU5cWphVDhqTzhoNndvMG9ySkFYX1BCWmVVWnh1WlhrbDRYRVVZVmgzX25PYldMMjN0ZWZURGVtaE1IXzZOdXZQWFVPVWRINDdRTFJRQWI2a2dvQzB2YzJ0UVV5ZWZyR3R5WWo5c1drU3dlaWR0bE9uSUt1Q055MDdlNU5FYVBxZXkzdw?oc=5",
         "pubDate": "Sat, 20 Jun 2026 21:00:00 GMT",
         "summary": "스포츠 경기장에 AI 판독 기술이 도입되어 오프사이드 등을 실시간으로 감지하고 심판에게 전달함. 사람의 눈으로 파악하기 힘든 미세한 움직임까지 AI가 정밀하게 분석함으로써 경기 운영의 공정성과 정확도가 크게 개선됨."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-19T22:50:51.848Z",
-    "reportDate": "2026. 6. 20.",
-    "summary": "- 정책 거버넌스 재편: 정부의 AI G3 도약을 위해 민간 전문가를 영입하는 등 국가 AI 위원회 및 수석 체계를 재정비하고 있으나, 인선 방식을 둘러싼 정치적 논란이 지속되고 있음.\n\n- 인적 자원 및 정주 여건 문제: AI 산업 성장을 뒷받침할 핵심 전문 인력 확보가 중요해졌으나, 지방 소재 연구소의 열악한 인프라와 정주 여건으로 인해 채용 난항을 겪는 등 격차가 드러나고 있음.\n\n- 국방 및 안보 분야 적용: 전쟁 등 안보 위기 상황에서 AI의 역할이 확대되면서, AI 기술이 현대전의 판도를 바꾸는 핵심 전략 자산으로 부상하고 있음.",
-    "news": [
-      {
-        "title": "하정우, 국가AI전략위 부위원장 유력…與서도 “회전문 인사” - 중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwUmFiSTVHSGtYeGpqZGxsWWpicDEtWWN4Sy02QmhkWlJ3QTdNZE1KTDNYMVRpTHFaN05CNVRpSlAwajFSdGR6Y2Z5aDd3RjNhTzZob1pB?oc=5",
-        "pubDate": "Fri, 19 Jun 2026 03:00:00 GMT",
-        "summary": "하정우 네이버클라우드 센터장이 대통령 직속 국가AI전략위원회 부위원장으로 유력하게 거론되고 있습니다. 그러나 여당 내부에서도 낙선 인사를 기용하는 것에 대해 '회전문 인사'라는 비판이 제기되고 있습니다."
-      },
-      {
-        "title": "선거 떨어진 하정우, 대통령직속 AI委로?… 野 \"돌려막기 인사\" - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX2dXSURiXzY3RHpmbVdJSHNSbzlmTDAzMkNSX2lCOTc3LURmd2hqSWZWSE9RQnRhb0tkY3hWTGwtM1U2WXRIN0xLQk14ZkcxNklDMndLekNMYmdpam5MN2hBcjZWSDVfdFBJeDU2TG5RWUJFTVZsZFJqdjFHb0VpMFJOam9EZw?oc=5",
-        "pubDate": "Fri, 19 Jun 2026 15:51:00 GMT",
-        "summary": "총선 낙선 인사인 하정우 센터장의 AI위원회 부위원장 기용설을 두고 야당이 '돌려막기 인사'라며 강하게 반발하고 있습니다. 전문성과는 별개로 인선 과정을 둘러싼 정치권의 갈등이 격화되는 모습입니다."
-      },
-      {
-        "title": "[단독] AI 수석에 AWS 이기혁 내정…李정부 'AI G3' 새 판 짠다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03bEFQOGQ2Q2VUWVFMQ3FjQUR1ZmtLRGdzaUFqaG10elM3UF9ycTA5TG9XdUJJS05JdXA0V0psUVc4UkdJN2phQ1NUY2RWQm9QNlZUUTNR?oc=5",
-        "pubDate": "Wed, 17 Jun 2026 06:43:53 GMT",
-        "summary": "윤석열 정부가 'AI G3' 국가 도약을 목표로 대통령실 AI 비서관(AI 수석)에 이기혁 AWS 상무를 내정했습니다. 민간 분야의 글로벌 전문가를 영입하여 AI 국가 전략의 실행력을 높이려는 의도로 풀이됩니다."
-      },
-      {
-        "title": "“주변 카페 하나 없어”… AI 인력 모집에 지원자 ‘0’ - 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zTnBpV09oRzJxV3p2d0ZOUnRmNjA4Mlpza2R3QWpCU2VVR2xXQUsta1ZMVktHeTNRd09TaHRxVWJ3RjR2blp3elU4dV9yVUJkWnRzNXRyRlB4bkNhOFZxWmwtOU1GMERiYXRESjZMdUd6NjFSVXfSAWZBVV95cUxNMjdXLUs1dmJ6RThra0xVNHc3eW40ZnRuV3VEM2wtSkhreDZMUTBKWWthR2RrUHlXRjZmQjExcHVqaTBzaUtjWkdZR3E3OFZNNmZzQjYwaVczZjg5VUZLSnM5RmhSWVE?oc=5",
-        "pubDate": "Thu, 18 Jun 2026 15:30:00 GMT",
-        "summary": "지방에 위치한 AI 연구 기관들이 인프라 부족과 정주 여건 미비로 인해 인재 채용에 큰 어려움을 겪고 있습니다. 업무 환경 개선 없이는 고급 인력 유치가 불가능하다는 지적이 나오고 있습니다."
-      },
-      {
-        "title": "[AI돋보기] \"사람 대신 AI가 싸웠다\"…미·이란 전쟁의 교훈 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01cXdDUDllWVJJTzctb0JvMlUwNWRfSXV2eV9RRXNuMzNIdm9IQlRsWWN1Z1JQa2tHOWZMcjZsWHQ5cXNnQUJXbUI1TXVXOVk?oc=5",
-        "pubDate": "Fri, 19 Jun 2026 21:35:08 GMT",
-        "summary": "미·이란 등 최근의 지정학적 갈등 상황에서 AI가 정찰 및 공격 등 군사 작전에 핵심적인 역할을 수행하고 있습니다. 현대전에서 AI 기술이 전쟁의 승패와 전략적 유연성을 결정짓는 주요 요소로 자리 잡았습니다."
       }
     ]
   }
