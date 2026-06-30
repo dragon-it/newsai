@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-06-30T23:05:56.228Z",
+    "reportDate": "2026. 7. 1.",
+    "summary": "- 산업 현장 효율화: 제조 분야에서 AI 에이전트를 도입해 부품 탐색 및 업무 처리 시간을 획기적으로 단축하는 등 실질적인 생산성 향상 사례가 증가하고 있습니다.\n\n- 인프라 및 생태계 확장: AI 데이터센터 확산에 따른 전력 수요 급증으로 에너지 저장 장치(ESS) 및 지능형 전력 솔루션 시장이 새로운 성장 동력으로 부상하고 있습니다.\n\n- 정책 및 윤리 표준화: 한국의 AI 개인정보 보호 정책이 국제적 주목을 받으며 글로벌 규범 논의를 주도하고 있으며, 생성형 AI의 확산에 따른 콘텐츠 변조 및 편집 문제에 대한 경각심도 높아지고 있습니다.",
+    "news": [
+      {
+        "title": "[단독] LG전자, 가전 부품 탐색 AI 에이전트 개발… 수일→30분으로 시간 단축 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSVFZbERoZVh5SFdDeHJQRW9mLUJzNFFVUmprV2dLWHFmV0NrYUFXbUZvWFJMTXduZDZtV1lTVmY4R21TdHBLeGFPcml6dW81XzlCZm5sVnlfdFIwUFpYZWkybnFtbmpQS1k1bmZCdkFKWkc1amR0bTQ5QkJERmZIY2NR0gGWAUFVX3lxTFB0Ynhyak56ck5tVE1zSkI2Rks2VEJqTS1sR1lUdkVuQWhtTS05bVNlaWJfMENDdUVXWllFX1FzTDZta3B5aERFYlo4UlRZeDFvOHNPb2RRMER1M0xKRUxoZ092SzJ4UFRKMEg4SGNvaEVDSzNoX2xaR1dFQ3RLZVZGUFhYN1RMdDc5N3VJRXdtTUpraGcxUQ?oc=5",
+        "pubDate": "Mon, 29 Jun 2026 21:01:34 GMT",
+        "summary": "LG전자가 가전 부품 검색과 분석을 지원하는 AI 에이전트를 개발하여 기존 수일이 걸리던 업무 시간을 30분 내외로 단축했습니다. 이번 기술 도입으로 설계 및 유지보수 과정의 효율성이 크게 개선될 것으로 기대됩니다."
+      },
+      {
+        "title": "AI 시대 전력 인프라 총력전…ESS·전력솔루션 시장 커진다 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UNWZFNWFILTV5dzMtb0czOVZIaGFjOWpFYjBKLTVzc05YdzFwQmRCVkxZR0F3Mk9QRGhSQlZiNG1tbWwyUlM0eFhpaHVZdkt2bVhLS2Z5NGxFSmxqcG1mWtIBeEFVX3lxTE1lREd5dFRUeDI4ejBueU1ZaDNLR2V2SFRnUzFjSjdrTFk5RUR2RzFEMklOd0hNaEhJTjhoTE5TdmdMZVZhVVJwclphbXQ3dHpCZVVrb3lTUVdDSnRhVmxMdzFfMEJYeGRldzNSMzk2d0JFRU1sSEZGeA?oc=5",
+        "pubDate": "Mon, 29 Jun 2026 20:00:00 GMT",
+        "summary": "AI 산업 확대로 데이터센터의 전력 소비가 급증함에 따라 안정적인 전력 공급을 위한 ESS와 스마트 전력망 솔루션의 중요성이 커지고 있습니다. 기업들은 미래 전력 인프라 시장을 선점하기 위해 기술 개발과 투자를 확대하는 추세입니다."
+      },
+      {
+        "title": "[C컷] 우중 그란폰도 사진의 이상한 흔적… 알고 보니 생성형 AI 편집 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGNzNpUGh2SWFRZUstaHdvOXNHWWNnbl9mUEtpdTJrUENRcnlwRzF0bnU0VWh4OE44NkczekZnM3ZMRlgtZzVVSFcyX1dXMk0?oc=5",
+        "pubDate": "Tue, 30 Jun 2026 21:01:52 GMT",
+        "summary": "최근 스포츠 행사 사진에서 생성형 AI를 활용한 이미지 편집 흔적이 발견되어 기술 오남용에 대한 우려가 제기되었습니다. 사진의 진위 여부와 AI 기술의 윤리적 사용에 대한 사회적 담론이 활발해지고 있습니다."
+      },
+      {
+        "title": "韓 AI 개인정보 정책, 글로벌 표준 되나…국제 규범 논의 주도 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaNkVFVzF4YmRxMWxlXzktenVWQmZ0Qm1SZ3NZaFFpaFVBVDJPT2U4eUl4aUVmMzVPQUtXVEtJSnRYYWhpS0czaVlRSUFBN2N0WnBjZDAxNlNrYW5FdFdhYQ?oc=5",
+        "pubDate": "Tue, 30 Jun 2026 22:30:00 GMT",
+        "summary": "대한민국의 AI 개인정보 보호 정책이 글로벌 표준 모델로 급부상하며 국제 사회에서 긍정적인 평가를 받고 있습니다. 한국은 AI 기술 발전과 데이터 보호 사이의 균형을 맞추는 국제 규범 수립 논의를 선도하고 있습니다."
+      },
+      {
+        "title": "개인정보위, GPA 회원국에 한국 AI 프라이버시 정책 소개 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XWEZFT3FqYzFtVi1ycy16N3prOEJNRDREZFJ3N19pSnNKSnVJXzFVMkVWcy1HdDNDeVJRQkw1RFlmX05HUkVYbllvTjY4WEFtRmZDbVFjdnN5V2_SAWBBVV95cUxPeFlpbXdmbXI0YzVvalk3VEFOR0pqZ09teTBXY21JZklmSnVKMDlhbWxqNmxkUU1wR0tXdUZXVkNWMHctVU56QnhFYy1fd3RtOGJjU3ZINHA5ZElOaW0yLTE?oc=5",
+        "pubDate": "Tue, 30 Jun 2026 22:30:01 GMT",
+        "summary": "개인정보보호위원회가 글로벌 개인정보보호협의체(GPA) 회원국을 대상으로 한국의 선진적인 AI 프라이버시 정책을 공유했습니다. 이를 통해 AI 관련 데이터 보호 및 활용에 관한 국가 간 협력과 기준 수립이 가속화될 전망입니다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-06-29T22:51:16.946Z",
     "reportDate": "2026. 6. 30.",
     "summary": "- 인프라 및 생태계 확장: AI 데이터센터 구축을 위한 대규모 투자가 논의되는 가운데, 국내외 AI 기술 교류를 위한 엑스포 개최 등 산업 생태계가 활발히 확장되고 있음.\n\n- 반도체 공급망 및 AI 인프라: 막대한 자본 투입을 통해 안정적인 AI 인프라를 확보하고, 지속 가능한 AI 경쟁력을 유지하기 위한 인프라 구축 전략이 강조됨.\n\n- 산업 현장 및 공공 적용: 제조, 서비스 등 다양한 산업 현장에 AI를 접목하는 '피지컬 AI'와 'RX(로봇 전환)' 사업이 본격화되며, 2030년까지 세계 1강 도약을 목표로 한 국가적 지원이 추진됨.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WZWg3NWNlMEpLQzRFNkhIYzRSbzh6S2tfeXJMWG5nX2VvQWlXRzJfWUVvMks4Vm5SdFppSkkwa2lPNzV0M0ZCQkdlVEp6d1E?oc=5",
         "pubDate": "Sun, 21 Jun 2026 22:03:08 GMT",
         "summary": "비트코인이 AI 데이터센터 운영에 필요한 에너지 확보 및 인프라 구축과 밀접하게 연관된 자산으로 주목받고 있습니다. AI 시대의 필수 인프라와 연결되어 자산 가치를 재조명받으려는 흐름이 나타나고 있습니다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-20T23:02:25.934Z",
-    "reportDate": "2026. 6. 21.",
-    "summary": "- 기술 표준화 및 플랫폼 확장: 구글과 MS가 AI 에이전트 연동 표준을 제시하며 생태계 주도권 경쟁을 본격화하고 있으며, 네이버는 AI 검색 서비스 고도화를 통해 플랫폼 점유율을 확대하고 있음.\n\n- AI 기술의 산업적 현장 적용: 의료, 스포츠 등 전문 분야에서 AI가 진단 처방 및 판독 등 정밀한 업무를 수행하며 실질적인 효율성을 입증하고 있음.\n\n- AI 주권과 독자 모델의 중요성: 특정 국가나 기업의 기술 종속을 방지하기 위한 각국의 독자적 AI 모델 개발 필요성이 대두되며 AI 주권 확보가 핵심 과제로 부상함.",
-    "news": [
-      {
-        "title": "“의사 대신 AI가 약 처방?”…미국 의료계 발칵 뒤집은 실험 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIUzJJeWg1UFJlTVh1OW9mbnFEa1ZPVGMzSXYwSl9TLUVyOWdySTVkVlc1em1Xd0lncHY4V2JDTzloN0FabUpQUWdWNjdRR1BMVlE?oc=5",
-        "pubDate": "Sat, 20 Jun 2026 06:46:45 GMT",
-        "summary": "미국 의료계에서 AI가 의사를 대신해 약 처방을 내리는 실험이 진행되어 큰 파장을 일으키고 있음. AI의 정밀한 진단과 처방 능력이 입증되면서 의료 서비스의 효율성을 높일 것으로 기대되나, 안전성과 윤리적 책임에 대한 논의가 활발함."
-      },
-      {
-        "title": "구글·MS, AI 에이전트 연결 표준 'ARD' 발표…오픈AI·앤트로픽 견제 나서 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SU3RFbmJRR3Y5Y3hCVGtYd2VoX1lHNk5JTnVsb0hMQVJZYVpucVhxQ1A3Q1FoTm1oNEx5bnZXLWJmV1BkZm0zT1p1SVgzTWluQ3RTb014MmszeTBGaVI4TjZOaXJsRmRBMFE?oc=5",
-        "pubDate": "Sat, 20 Jun 2026 04:23:16 GMT",
-        "summary": "구글과 MS가 AI 에이전트 간의 연결을 위한 표준인 'ARD'를 발표하며 생태계 표준화를 시도함. 이는 시장 독주 체제를 구축하려는 오픈AI와 앤트로픽 등 주요 경쟁사들을 견제하기 위한 전략적 행보로 해석됨."
-      },
-      {
-        "title": "네이버 검색 80% 찍었다…AI탭 출시 후 점유율 '껑충' - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qZ3Z5ZG82MUU3VjItQlFneWpLcTlYb1lQbWxhWHZRbXh3WUJxdEZEVHlUWVpjMl95WFlDMXM5T2doY2JTSDBDMmFtZFRWV1E?oc=5",
-        "pubDate": "Sat, 20 Jun 2026 21:47:03 GMT",
-        "summary": "네이버가 서비스 내 AI 탭을 도입한 이후 이용자 편의성과 검색 결과의 질이 향상되며 검색 서비스 점유율이 80%를 기록함. AI 기반의 검색 경험 혁신이 사용자 유입과 체류 시간 증가에 긍정적인 영향을 미친 것으로 보임."
-      },
-      {
-        "title": "[AI주권] ② 미토스 사태가 던진 질문…독자 AI 왜 필요한가 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmRkFNaTUtaTBxSFNxNTc2YTlQVXBIZEZfMF9hTlJ3V09tTzBRdF95bXNBUEVQNnltdjNHcDl0dEJhTmNxXzZRQndvaXdLajV6ZzMwTXRFVFBhQ2_SAWBBVV95cUxPVlZlYVctM0NvTGd5M3dDbS04Q25SOHMwaHJNRnJOdi00UVNnN29yODF0OUpmOHZZckNVRlZrb01lTnAxblg2YV8ta2F3Qm1HYXUyXzQtekVtZHhMbW1PTFg?oc=5",
-        "pubDate": "Sat, 20 Jun 2026 21:16:02 GMT",
-        "summary": "미토스 등 글로벌 AI 서비스의 편향성 및 오류 문제가 대두되면서 특정 국가나 기업에 의존하지 않는 독자적인 AI 기술 확보의 중요성이 강조됨. 국가별 문화와 맥락을 반영한 AI 주권 확보가 미래 경쟁력을 좌우할 전망임."
-      },
-      {
-        "title": "[테크톡톡] 부심 귀에 ‘오프사이드’ 알림 쏜다… 월드컵 경기장서 뛰는 AI 심판 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNFpTbWpwYlRUckFESk9ZeEg1WjRhdi01a2NuVnQzN0Vob3I4TWhkMzZmWWloZUxFM0UzYW5RWFBFQm5YUHM5UFcxV2ZBMVFWalhCY2Vjc1pKaUdzUk9WaWo5Z2Jac3lrcmt4S2FHWTZ6UFFxZEJGRjU1T1BmWWt0YWp30gGWAUFVX3lxTFBvNTZVamY1dk1lSFU5cWphVDhqTzhoNndvMG9ySkFYX1BCWmVVWnh1WlhrbDRYRVVZVmgzX25PYldMMjN0ZWZURGVtaE1IXzZOdXZQWFVPVWRINDdRTFJRQWI2a2dvQzB2YzJ0UVV5ZWZyR3R5WWo5c1drU3dlaWR0bE9uSUt1Q055MDdlNU5FYVBxZXkzdw?oc=5",
-        "pubDate": "Sat, 20 Jun 2026 21:00:00 GMT",
-        "summary": "스포츠 경기장에 AI 판독 기술이 도입되어 오프사이드 등을 실시간으로 감지하고 심판에게 전달함. 사람의 눈으로 파악하기 힘든 미세한 움직임까지 AI가 정밀하게 분석함으로써 경기 운영의 공정성과 정확도가 크게 개선됨."
       }
     ]
   }
