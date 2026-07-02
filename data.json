@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-02T22:59:40.976Z",
+    "reportDate": "2026. 7. 3.",
+    "summary": "- 기술 효율성 및 경제성 개선: 추론 비용 절감을 위한 연산 최적화 기술이 도입되면서 AI 서비스의 경제적 지속가능성이 확보되고 있음.\n\n- 실생활 및 공공 서비스의 AI 전환: 민원 행정, 보행 보조 등 일상 영역에 AI가 깊숙이 침투하며 공공 편의성과 사용자 경험을 혁신하고 있음.\n\n- 제조 및 산업 현장의 정밀화: 페인트, 화장품 등 정밀한 배합이 필요한 분야에 AI가 도입되어 기존의 경험 의존적 방식을 데이터 기반의 정량적 방식으로 전환 중임.",
+    "news": [
+      {
+        "title": "수성알파시티서 AI-로봇 ‘스마트 도시’ 실험 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55SW1STU0tMTEzazFXZTNxSTluNUhmcmljMXFJX2o5aXVUb3luZTdPNlVBR2lUWjRiY0xULXp1RmY0WVhsVm9hTUVQRkJUaGM?oc=5",
+        "pubDate": "Thu, 02 Jul 2026 19:35:58 GMT",
+        "summary": "수성알파시티가 AI와 로봇 기술을 도심 인프라에 결합하는 스마트 도시 테스트베드로 활용되고 있다. 지역 내 실증 사업을 통해 AI 기반 로봇 기술의 실생활 적용 가능성을 검증하고 미래형 도시 모델을 구축하고 있다."
+      },
+      {
+        "title": "“감으로 맞추던 걸 정확하게”…페인트·화장품도 AI 바람 - KBS 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wanJNblFXRm9vRHJjalhjUWc0M0tOeU93RzhWRHVIdzl0VDRHVUZFTmg4Qk1hemxPMTJZVWVFeV8tLWZNLThQMG5JYmM2LWxDVWNRSGNyQmFhTUU?oc=5",
+        "pubDate": "Thu, 02 Jul 2026 12:40:00 GMT",
+        "summary": "제조 현장에서 숙련공의 경험에 의존하던 페인트 조색 및 화장품 배합 공정에 AI가 도입되고 있다. AI를 통해 정밀한 수치 데이터 기반의 배합이 가능해지면서 생산 효율성과 품질의 균일성이 크게 향상되었다."
+      },
+      {
+        "title": "걷기만 하면 AI가 학습한다…발목형 보행 보조 로봇 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPc2JpTFotbHBLQ0VCQXRsb0tqUmVtRl9Kb2dNMlMxU29QMDZCY2dNQU5KNXdwZ2FGSUUxVFp5UlNrdm9TVmVfREhSMzJldw?oc=5",
+        "pubDate": "Thu, 02 Jul 2026 21:00:00 GMT",
+        "summary": "사용자의 보행 습관을 실시간으로 학습하고 최적화된 보조력을 제공하는 발목형 웨어러블 로봇이 개발되었다. 개별 사용자의 보행 패턴 데이터를 AI가 분석하여 맞춤형 이동 지원 서비스를 제공하는 것이 핵심이다."
+      },
+      {
+        "title": "오픈AI, '컴퓨트 멀티플라이어’로 추론 비용 절반으로 줄여 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZdXZSX3JVOVgzTDdod3JXN0N6R2gtdzJleS1JRk9PMjVfMElLNERhREY3VjRHdFJZbkphYXNueVBoNW1oSncyMUpUaDNVOWJxSVl6cEh4S0ZGVzcxTk1SVEJDamc0OEE0alE?oc=5",
+        "pubDate": "Wed, 01 Jul 2026 09:15:16 GMT",
+        "summary": "오픈AI가 추론 비용을 기존 대비 50% 절감할 수 있는 새로운 연산 최적화 기술을 도입했다. 인프라 효율성을 높이는 컴퓨트 멀티플라이어 기술을 통해 고비용 구조를 개선하고 AI 서비스의 가격 경쟁력을 확보하고자 한다."
+      },
+      {
+        "title": "[써보니]\"동사무소 안가도 됩니다\"...증명서 발급부터 제출까지 다 되는 AI 국민비서 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwMWtpMVE1NUtmRGxiN2VEMjRjZVJ6ZHFLUHdpMUZwdE5tTGtGSU1Yd2NkNzZpcVJ3Sm43VEVDNFBWZWR4MkFiOFVFYVBDRFU?oc=5",
+        "pubDate": "Thu, 02 Jul 2026 21:32:01 GMT",
+        "summary": "AI 국민비서 서비스가 행정 서류 발급과 제출 절차를 자동화하며 디지털 공공 서비스를 구현하고 있다. 사용자는 복잡한 서류 절차 없이 AI를 통해 간편하게 민원 업무를 처리하며 행정 접근성이 대폭 향상되었다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-01T23:08:09.699Z",
     "reportDate": "2026. 7. 2.",
     "summary": "- AI 인프라 및 전력 확보 경쟁: AI 모델 연산 수요 급증에 따라 안정적인 전력 공급이 데이터센터 운영의 핵심 과제로 부상하며, 관련 인프라 확보를 위한 글로벌 경쟁이 심화되고 있습니다.\n\n- 기술 활용 및 성능 한계 돌파: 바둑 등 고도의 지능이 필요한 분야에서 AI와 인간의 협업 및 성능 비교를 통해 모델의 한계를 극복하려는 연구와 시도가 계속되고 있습니다.\n\n- 수출 규제 및 서비스 정책 변화: 국가 안보 및 전략적 판단에 따른 AI 기술 수출 통제 정책이 유연하게 변화하고 있으며, 이는 기업들의 서비스 제공 방식과 글로벌 시장 접근성에 직접적인 영향을 미치고 있습니다.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvcDNtNWZxNnhTOU0tby1XTE9OdDFBSW1nYXZ6T3AwaFNsOXd5RkpFUFQ3UFhHUHRHX3pHdFlMR1NZTmRpUWxuckpSbzJ5UDg?oc=5",
         "pubDate": "Tue, 23 Jun 2026 22:39:02 GMT",
         "summary": "최근 AI를 이용한 가짜 판례 생성 등 악성 민원이 증가함에 따라, 금융감독원이 대응책으로 9월부터 AI 기반 민원 담당 직원을 도입한다. 업무 효율화와 정확한 민원 대응을 목표로 현장 적용이 확대되고 있다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-22T23:15:21.891Z",
-    "reportDate": "2026. 6. 23.",
-    "summary": "- AI 기술 경쟁력 및 수익화 전략: 네이버가 차세대 모델 개발을 통해 글로벌 시장 주도권을 확보하고, AI 검색 서비스에 광고를 도입하며 본격적인 수익화 모델을 구축하고 있음.\n\n- 서비스 점유율 확대: 네이버는 'AI 탭' 등 사용자 친화적 기능을 앞세워 국내 검색 시장에서의 지배력을 강화하며 글로벌 빅테크인 구글 대비 우위를 점하고 있음.\n\n- 빅테크 인재 확보 경쟁: AI 시장의 핵심 동력인 고급 인재를 확보하기 위한 기술 기업 간의 경쟁이 치열해지고 있으며, 인재 이탈이 기업 주가 등 시장에 즉각적인 영향을 미치는 양상을 보임.",
-    "news": [
-      {
-        "title": "[단독]네이버 차세대 AI 모델, '사용량 1위' 中 넘어 글로벌 주도권 잡는다 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HZ2lxeklmeUpTUlRNWEhfcDJIZDM4dWlGX29ZUjlLTXVZdUcxczNtQ0NxaXFzMFRfaUVKRTd5RFlRcS1SOXFjR2JXOEVydw?oc=5",
-        "pubDate": "Mon, 22 Jun 2026 07:00:00 GMT",
-        "summary": "네이버가 글로벌 경쟁력을 강화하기 위해 차세대 AI 모델 개발에 박차를 가하고 있다. 중국의 높은 AI 사용량을 뛰어넘고 기술 주도권을 확보하여 글로벌 시장에서의 영향력을 확대하는 것이 목표다."
-      },
-      {
-        "title": "네이버 AI 브리핑, 검색에 광고 띄운다…하반기 'AI 수익화' 시동 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zYV9xWWl2MFJnWjdRTjNJN2JRYkxvY3g0aWoxS19aSnNsbTR6WHdUZi1HY3o2LTUwdWNuUGg1QkFTM21sRDVPR3Nha3MybWc?oc=5",
-        "pubDate": "Mon, 22 Jun 2026 21:02:29 GMT",
-        "summary": "네이버가 AI 검색 서비스인 'AI 브리핑'에 광고를 도입하며 하반기부터 본격적인 수익화에 나선다. 기술 고도화를 넘어 실질적인 비즈니스 모델 창출을 통해 지속 가능한 AI 생태계를 구축하려는 전략이다."
-      },
-      {
-        "title": "‘AI탭’ 앞세운 네이버, 검색 점유율 80%…구글 압도 - dt.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0zSnc0Z1AzaGlIRkx6d1RfeDgxZUhZQ1ZPOEN5QzJDRG1abURRS0tmWmNDX2VwSUtTY1Bnc2Fxa0VsQ0VUWnRVSndST0FPZw?oc=5",
-        "pubDate": "Sun, 21 Jun 2026 06:22:53 GMT",
-        "summary": "네이버가 'AI 탭'과 같은 혁신적인 검색 기능을 통해 국내 시장에서 80% 이상의 점유율을 기록하며 구글을 압도하고 있다. 사용자 맞춤형 AI 서비스가 기존 검색 시장의 강력한 경쟁력으로 작용하고 있음을 보여준다."
-      },
-      {
-        "title": "구글 떠난 노벨상 수상자, 앤트로픽 이직…AI발 빅테크 인재전쟁 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DblJCMl91Wm4tT3FZQU5uNzJRMDd4OTgtQWJETlRzWVhtem96TEtmaGs0a2hSemFVLWdHRzZiSEgyMUdod0hibGlnNVpyZzg?oc=5",
-        "pubDate": "Sun, 21 Jun 2026 15:04:38 GMT",
-        "summary": "구글의 핵심 인재였던 노벨상 수상자가 앤트로픽으로 이직하면서 AI 업계의 인재 영입 경쟁이 격화되고 있다. 우수 인력이 기업 간 이동을 거듭하며 AI 기술 생태계의 판도를 흔들고 있다."
-      },
-      {
-        "title": "구글 AI 인재 유출 비상…노벨상 수상자도 앤트로픽行, 알파벳 5% 급락 - 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZOUVMZGJQRllQczB4TEVSeTlpLURMOWtxdnRqZFpuSGx5T3BrREpCRlpnYUdfMkIyTkhHSjdGMFEwQzdVeGJGbEVXTFc3X25VWUktMjhiNnl6a1ZsMVltRWZlTVZnRzg?oc=5",
-        "pubDate": "Mon, 22 Jun 2026 21:10:17 GMT",
-        "summary": "구글 내 주요 AI 인재들의 이탈 소식이 이어지면서 기업 경쟁력에 대한 우려로 알파벳 주가가 급락했다. AI 시장에서 인적 자원의 가치가 기업 가치에 직결되는 인재 전쟁의 단면을 극명하게 보여준다."
       }
     ]
   }
