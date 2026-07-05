@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-05T22:57:20.296Z",
+    "reportDate": "2026. 7. 6.",
+    "summary": "- AI 인프라 확장 및 전환: AI 데이터센터에 대한 수요가 급증함에 따라 기존 암호화폐 채굴 기업들이 데이터센터로 업종을 전환하거나, 통신사 및 IT 기업들이 대규모 인프라 구축에 속도를 내고 있음.\n\n- 자원 효율성 및 지속가능성 이슈: AI 학습 및 운영에 막대한 전력과 용수가 소비되는 문제가 대두되면서 효율적인 데이터센터 운영에 대한 관심과 논의가 강화되고 있음.\n\n- AI 활용 역량 및 사회적 담론: AI 에이전트를 통한 주식 자동매매 등 실질적인 산업 활용 사례가 증가하는 한편, AI 시대에 인간의 창의성과 주체적인 업무 역량의 중요성에 대한 사회적 성찰이 활발히 이루어짐.",
+    "news": [
+      {
+        "title": "이세돌 \"당신은 왜 시키는 일만 하면서 AI에 대체될까 두려워 하나\" - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd1UxYk9mNjc5YnZxai1ubC1ucmlJSm1YM3ZlN01BV0RwSWRYRkJaREJWLWdyUE1RWmJqZVFsVXQyY19KQUVfUDhfeUFPcGxDaUVBVGZDNEp5LThDM0JpZlpGaEFYbGQ1eUhRZGVkZVUtQ29sdnp3MkpISk5Oc1pxdg?oc=5",
+        "pubDate": "Sun, 05 Jul 2026 20:20:00 GMT",
+        "summary": "이세돌 9단은 AI가 단순 반복 업무를 대체하는 시대에 인간이 고유한 창의성을 발휘해야 한다고 강조했다. AI를 두려워하기보다 도구로 활용하며 스스로 사고하는 역량을 키우는 것이 미래 생존의 핵심임을 시사했다."
+      },
+      {
+        "title": "'전기 먹는 하마' AI 데이터센터, 물도 많이 먹는다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51Zm1CaFBrS1BjQnkwSzAtWU42a1pEOGdOQV9EZm42TXo3dlFZX3Atc0NQd1lfQVdYajFwWEpuMF8xQmw4aEVIcHdsMVppcWYxdGtMQjNB?oc=5",
+        "pubDate": "Sun, 05 Jul 2026 02:44:22 GMT",
+        "summary": "AI 데이터센터 운영 과정에서 발생하는 막대한 발열을 식히기 위해 사용되는 냉각수 소모 문제가 새로운 환경적 과제로 떠올랐다. 전력뿐만 아니라 수자원 소비 효율화가 지속 가능한 AI 인프라 구축의 필수 요소로 지목된다."
+      },
+      {
+        "title": "암호화폐 채굴업체들, AI 데이터센터로 변신한다는데 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNamVjSjBRaXlob05yUTZXSVdRLTNFUUFIeXZtTmphS1RadWpxQjVYUjhWZ3V1Z2ZaMG1ZNlVFZ0l1eFNVeWRtUkt2cmpza0xRV2JTdGpiQ1BweTBUTUhiZ09MWUtmNjNxRGU3clpkUXVVdTJKQmtpbDdsMng2S3RTV1d0a01zZw?oc=5",
+        "pubDate": "Sat, 04 Jul 2026 20:53:00 GMT",
+        "summary": "암호화폐 채굴업체들이 보유한 고성능 연산 인프라를 활용해 AI 데이터센터로 사업 구조를 전환하고 있다. 이는 수익 다변화와 함께 늘어나는 AI 인프라 수요를 충족하려는 전략적 움직임으로 풀이된다."
+      },
+      {
+        "title": "SKT, 1000조 AI 데이터센터 '속도전' - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FWG9ORnFUTTNqSFc0dERXX3poOEhQZ3ZKclVTcmNpT2JPMDdOcUFGUDJNTThDVWVKZkpaTGJLSUthSkxkQ3dmTDhjVEY4SW42MmlESzRPU2xWUdIBVEFVX3lxTE5LcHMxa3NjOFNqSWNhWXVRaU1yOE9PZ2xPOXJnZnBIQ2VGaWRTVDVXbjhubk9mZUM1bHJXczQ5d3RoYXE3NnlvN3AtVDRZbFE1UjFRVg?oc=5",
+        "pubDate": "Sun, 05 Jul 2026 08:36:21 GMT",
+        "summary": "SK텔레콤이 거대 AI 데이터센터(AIDC) 구축 사업에 속도를 내며 국가적 AI 인프라 경쟁력 확보에 나서고 있다. 통신 네트워크와 결합한 고효율 데이터센터를 통해 글로벌 AI 시장에서의 입지를 다지려는 전략이다."
+      },
+      {
+        "title": "KAIST 석사과정 AI에이전트로 주식 자동매매…수익률은? - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NYm11UDl1RW5aQzVZeHBIQzJrRlB4TkV2SkoyaDVqMUE0UjNmTVJFNjlGaGNma0piZUx3SC02bHhUQ2lud2pfNk9Ka010VmM?oc=5",
+        "pubDate": "Sun, 05 Jul 2026 21:01:51 GMT",
+        "summary": "KAIST 연구팀이 개발한 AI 에이전트가 주식 시장에서 자동매매를 수행하며 기술적 실효성을 입증했다. AI가 단순히 정보를 분석하는 단계를 넘어 경제 활동에 직접 참여하는 사례가 늘어나고 있음을 보여준다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-04T22:53:01.701Z",
     "reportDate": "2026. 7. 5.",
     "summary": "- 인프라 및 생태계 확장: SK그룹의 영남권 AI 허브 구축 등 대규모 투자를 통해 AI 산업의 물리적 거점이 확대되고 있으며, 건설 현장 등 전통적인 산업 현장으로 AI 기술의 활용 범위가 빠르게 넓어지고 있음.\n\n- 기술 활용의 질적 변화: 단순 검색 보조 도구를 넘어 실무 생산성을 실질적으로 혁신하는 AI 활용 역량이 중요해지고 있으며, 사회적 담론 분석 및 정서적 교감을 지원하는 등 AI의 적용 분야가 인문·사회 영역까지 심화됨.\n\n- 산업 현장 및 공공 적용: AI 기술이 노동 집약적인 산업과 결합하여 효율성을 제고하는 사례가 늘고 있으나, 기술 의존도에 대한 비판적 시각과 AI의 정서적 기능에 대한 윤리적 논쟁도 동시에 나타나고 있음.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8temRiVWgwZEt3cG9UQ1hvM3FqMW9lMk80NGtFX3NWaVM0VEZ5d1lWUzJiQjFxSXEtOElkX2pZNHp2b0s2RWk0Nm5weEJrS0E?oc=5",
         "pubDate": "Fri, 26 Jun 2026 21:42:52 GMT",
         "summary": "요약 없음"
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-25T23:12:50.446Z",
-    "reportDate": "2026. 6. 26.",
-    "summary": "- AI 시장의 자본 흐름과 투자 전략 변화: 오픈AI의 1조 달러 기업가치 목표와 상장(IPO) 시기 조절 등 AI 기업들의 재무적 건전성에 대한 시장의 감시가 강화되고 있음.\n\n- 로봇 산업으로의 투자 확장: AI 기술이 소프트웨어 영역을 넘어 로봇 공학 등 물리적 산업 현장으로 빠르게 전이되며 대규모 투자가 유입되는 추세임.\n\n- 기술 생태계의 다변화: 미국 중심의 AI 패권 경쟁 속에서 우수한 성능을 가진 중국 AI 모델이 개발자들 사이에서 주목받는 등 기술 채택의 유연성과 경쟁이 심화됨.",
-    "news": [
-      {
-        "title": "“앤트로픽 버렸다” 미국 개발자들이 중국 AI로 갈아타는 이유[딥다이브] - 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PWU1iV2FfclVfdUZydmFwSFBuaVpNSi1lOUlCMC1LTmJCczB0ZGFhcldkUUdubG9QaXZVZnBPWVBSaldua2JuNTFFamVtcVE0QXp3c280bjV2OHdScUV0MjRUV01peWJMSnFNR0hqRjJvSEVOWmfSAWZBVV95cUxPNnRaeHBWOFhRVGEtYUZJdExXclA1UUJZTjVMQml0T1Z6RE1EWjJGR0t2OFNzVWVzelpwa0R0bVRZcWk1XzBsWDlxei1keU9saE81emlkc1ZUQUZPQzFnZWh1Z0dzcEE?oc=5",
-        "pubDate": "Thu, 25 Jun 2026 01:00:00 GMT",
-        "summary": "미국 내 일부 개발자들이 폐쇄적인 미 AI 기업 대신, 높은 성능과 접근성을 갖춘 중국의 최신 AI 모델로 눈길을 돌리고 있음. 규제와 제약 속에서도 빠르게 발전하는 중국 AI의 기술적 경쟁력이 생태계 점유율을 넓히는 원인으로 분석됨."
-      },
-      {
-        "title": "\"월가 거대한 돈, AI 다음 여기로\"...'300조' 판 커지는 로봇시장 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kWmFKLUpBbDdQZ0lORExwYi1JVXJ5UnpaQVo1TDBBd184Z0ZUTjJqSk5Ob0hXMVFucnFnLWVXOHdEUnJZVzRpQm4xQTJHUG82UVMzVHAyNmlPYVE4Y2FGZWRBaUdHVkZDQk50VNIBckFVX3lxTE1UbE5JcXJRc0N0QWVkRUI3MXJOLTNvQmlKalB3bmM4NHJOMWhYY0tjRi0xMDhkX2NFRFgzU3hPN2dLV3Q5UWtaeEFXcDlhSktoRFRKemRpZGQ0NnZJcGFKNDc1NnBlSXdrUTBpaUk5RTdiUQ?oc=5",
-        "pubDate": "Wed, 24 Jun 2026 22:00:00 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "\"1조달러 아니면 안 해\" 오픈AI IPO 내년으로 연기 검토 - 마켓인",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE43MW1KMlNTcllIN2VaanRUbzRCbFNoNHMyYlEwc3hFMFZRbWZ5Tl9BSDYzN2g0OGcwcGp2eTlWaGctYWNJZkxVeWtaeDhaMDhzR3FjOVFRWWFSaHl4UlJkVXdIdlJMS1h4elRteXp1VmFwVGc?oc=5",
-        "pubDate": "Thu, 25 Jun 2026 22:43:23 GMT",
-        "summary": "오픈AI가 1조 달러 규모의 기업가치를 인정받기 위해 당초 계획했던 IPO 일정을 내년 이후로 연기하는 방안을 검토 중임. 높은 밸류에이션을 유지하기 위한 경영진의 전략적 선택으로 풀이됨."
-      },
-      {
-        "title": "IPO 앞둔 오픈AI, 재무 상태 폭로 문서 나와…\"완전 난장판\" - 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRk5Wdk4xSzlQTDRCRThhTjBmRWxwcWI3RHNhRHlTNnJwVnI5azRaVWNRTGQtLTg4WkdVMTYzTVNmZzZzdENOSWdhMDZlbXlYZUlLbWttSXN0dkJ3aXhuYlFIdjh1QTdEVk8tWUtSUUbSAXRBVV95cUxPZnB6MUlxYWEzYS1jQXlkdGRlZkxULW9NM2FWeHQ1cEZuTWxpcE1sUDRjSDJ2YUZ1RXd0bTItRjZtOW5hNEZ5X0xkSm1IY2ZTQUpkZHlFZElQQXlhRUhlcmFxX04yN09IQWl3ZEU0OTJ4UU9BVw?oc=5",
-        "pubDate": "Thu, 25 Jun 2026 22:37:17 GMT",
-        "summary": "최근 공개된 내부 문서를 통해 오픈AI의 재무 구조가 상당한 혼란 상태라는 비판이 제기됨. 수익성 확보와 천문학적인 운영 비용 사이의 불균형이 기업공개(IPO)를 앞둔 회사에 리스크로 작용할 가능성이 커짐."
-      },
-      {
-        "title": "오픈AI, IPO 내년 이후로 미룰 가능성…\"1조달러 밸류 고수 속 속도 조절\" - 뉴스핌",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lbTFYSk5tZTV5RU9MbGtpUHluVDg0dUI5RENwaHFyRGFIU2c2MEtod2tSVXBiSnNGMTBrWlBpZEVLTm5YUWlGS05wcnM4SXNkaWFFWkR2LW1Penlo?oc=5",
-        "pubDate": "Thu, 25 Jun 2026 22:40:00 GMT",
-        "summary": "오픈AI가 IPO 속도 조절에 나선 것은 무리한 상장보다는 시장에서 1조 달러의 기업가치를 확고히 인정받기 위한 과정으로 보임. 급격한 성장에 따른 재무적 부담을 해소하고 시장의 신뢰를 구축하려는 행보임."
       }
     ]
   }
