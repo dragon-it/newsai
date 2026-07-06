@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-06T23:02:06.033Z",
+    "reportDate": "2026. 7. 7.",
+    "summary": "- 글로벌 인재 확보 및 연구 경쟁: 세계적 석학의 중국행 등 주요국과 기업들이 AI 원천 기술 확보를 위해 핵심 인재 영입과 연구 인프라 구축에 박차를 가하고 있음.\n\n- AI 하드웨어 및 인프라 시장 확대: SK하이닉스와 같은 반도체 기업에 대한 글로벌 투자가 집중되며 AI 인프라 공급망이 강화되고 있으며, 메타의 AI 안경 출시 등 하드웨어 기기의 실생활 적용이 가속화됨.\n\n- AI 윤리 및 공공 활용: 생성형 AI의 부작용인 가짜 의학 정보 확산 등 디지털 리터러시 문제가 대두되는 한편, 지자체와 대학 협력을 통해 미래 세대를 위한 AI 창의성 교육이 공공 영역에서 활발히 추진됨.",
+    "news": [
+      {
+        "title": "노벨화학상 석학도 중국행… 야기 교수, 칭화대서 AI 소재 연구 지휘 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYTF1X3M0UUFxU0RFa3R1dVlRNjcyV1NfWjYyalBlckNTbHJXY1ZiUC1aemNfTk52WllZaGpreDIxMklIaDNRMU9iTy1KVUtzUlBwZFhmOXprd0J5Vi1qOFhJZHo3MzdneHB3eG85UHhHUzQ5YU1CODk2M011SWVJSElEVk1kS1ozMVV3bmRHMmJ6ODctY2pUVnQ0OGhJUQ?oc=5",
+        "pubDate": "Mon, 06 Jul 2026 04:57:23 GMT",
+        "summary": "노벨화학상 수상자인 야기 교수가 중국 칭화대로 자리를 옮겨 AI 기반 소재 연구를 이끌게 됨. 이는 중국이 AI 원천 기술과 기초 과학 분야에서 글로벌 석학 영입을 통해 기술 패권 확보에 적극적으로 나서고 있음을 보여줌."
+      },
+      {
+        "title": "메타, AI 안경 한국어 실시간 번역 지원...통신 3사 판매 돌입 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuOHJla0hwLVk1akVRNGZpQTY3SkNJcURuQUtzcVMtMkF0RXNSTThlc2lqb3poSGFRdE5VSS1yY1NBUXhGX1lPMFBldmtaTXVoOHFEbGhBZVVBWWJsYmFaUE5pdkRKb1BiLWc?oc=5",
+        "pubDate": "Mon, 06 Jul 2026 02:37:11 GMT",
+        "summary": "메타가 자사의 스마트 글라스에 한국어 실시간 번역 기능을 도입하고 국내 통신 3사를 통해 정식 판매를 시작함. 웨어러블 디바이스와 AI 결합이 실제 소비자 시장으로 확장되며 일상 속 AI 서비스 체감이 커질 것으로 전망됨."
+      },
+      {
+        "title": "\"전 10조 갑니다\" SK하이닉스에 전 오픈AI 연구원도 '통 큰 베팅'…나스닥 상장 흥행 조짐 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hb2ZiNmJDblVaVTN0cV9YNzBaX05iTnRhYnVZRFNhTDdINkJFM1dIVTMzZ1pESkxUeUNHWkRmczNZVnhZaFZncHhjUmFpY3M?oc=5",
+        "pubDate": "Mon, 06 Jul 2026 19:40:00 GMT",
+        "summary": "AI 시장 성장에 따라 고대역폭 메모리(HBM) 수요가 폭증하면서 SK하이닉스 등 관련 반도체 기업에 대한 글로벌 투자자들의 관심이 급증함. 전직 오픈AI 연구원까지 대규모 투자를 단행하며 AI 반도체 생태계의 가치가 지속적으로 재평가받고 있음."
+      },
+      {
+        "title": "[단독] “밤에 소변 안 누는 법”…유튜브 속 AI 가짜 의사, 왜 못 잡나 - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5URDBSSUlIQ3JtMFFXSlFPVzQxYVQtOTI0MG9vYm02d1FGZ0x5eUsyX0VDRDc2ZElYQ1JvdTgweGhSVWR6ZVZnOU1nOWQ5dThOTUlReGJR?oc=5",
+        "pubDate": "Mon, 06 Jul 2026 20:00:02 GMT",
+        "summary": "생성형 AI를 악용한 가짜 의학 정보 콘텐츠가 유튜브 등 플랫폼에서 무분별하게 확산되어 국민 건강을 위협하고 있음. 기술 발전에 따른 정보 왜곡과 허위 조작 정보에 대한 규제 방안 및 플랫폼 차원의 관리 책임 강화가 시급한 과제로 떠오름."
+      },
+      {
+        "title": "강남구, 서울대와 함께 'AI창작·창의성 캠프' 운영 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjUGpqUUY2M0ZQNW9XTFhMaUNuajdvUnluR2dsU0N2eHM1ZVhFekgxS29pbXkzNVFVdW5YS3N5amtLc3l6WjVaaUtMbUtqX1UzdjNJeDB6TUFKWHPSAWBBVV95cUxNV3FhTGNFV0tjV2IzajhvbGZLYnJkN0pXUlM3MGtGWWpzcjVHeTF2bzNJMUNrd24wT2NlQkhrUHBJRkhMSUt0Sm1KVk0tN21kQl9KNkZBS01fVnJNbDJSU1Y?oc=5",
+        "pubDate": "Mon, 06 Jul 2026 22:08:55 GMT",
+        "summary": "강남구가 서울대학교와 협력하여 청소년 대상 AI 창작 캠프를 운영하며 공공 차원의 디지털 역량 교육을 강화함. 단순 기술 활용을 넘어 AI를 창의적 도구로 활용할 수 있는 미래 인재 양성 모델이 지역 사회로 확산되고 있음."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-05T22:57:20.296Z",
     "reportDate": "2026. 7. 6.",
     "summary": "- AI 인프라 확장 및 전환: AI 데이터센터에 대한 수요가 급증함에 따라 기존 암호화폐 채굴 기업들이 데이터센터로 업종을 전환하거나, 통신사 및 IT 기업들이 대규모 인프라 구축에 속도를 내고 있음.\n\n- 자원 효율성 및 지속가능성 이슈: AI 학습 및 운영에 막대한 전력과 용수가 소비되는 문제가 대두되면서 효율적인 데이터센터 운영에 대한 관심과 논의가 강화되고 있음.\n\n- AI 활용 역량 및 사회적 담론: AI 에이전트를 통한 주식 자동매매 등 실질적인 산업 활용 사례가 증가하는 한편, AI 시대에 인간의 창의성과 주체적인 업무 역량의 중요성에 대한 사회적 성찰이 활발히 이루어짐.",
@@ -328,43 +365,6 @@
         "title": "주택 설계부터 맞춤형...모듈러 주택에 녹아든 'AI 가전' - YTN",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8ycHJsVGZsM3FnUEFxUkNuS3VpeG5BTXRCdFZERlluZTJzX2ExUXBlTENJMTFxSTNlb1BYX2ptaUt6UGdWYzRUWkx6WV9iZFVoSHZWNUNUOU8weE42YUw0ZC1qWlY1NjFpb1ZEUm8zR1cyaHo2dFE?oc=5",
         "pubDate": "Sat, 27 Jun 2026 22:25:00 GMT",
-        "summary": "요약 없음"
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-26T23:00:53.315Z",
-    "reportDate": "2026. 6. 27.",
-    "summary": "- AI 산업의 불확실성 증대: 오픈AI의 IPO 연기 가능성과 재무 구조에 대한 우려가 제기되면서 시장 전반의 투자 심리가 위축되고 기술주 변동성이 확대됨.\n\n- 하드웨어 및 인프라 협력 가속화: LG전자가 엔비디아와 협업하여 차세대 '피지컬 AI' 생태계 구축을 선언하는 등 소프트웨어를 넘어 물리적 환경과의 결합이 주요 기술 트렌드로 부상.\n\n- 인재 영입을 통한 경쟁 심화: 애플 비전프로 핵심 인력이 오픈AI로 합류하는 등 주요 빅테크 기업 간 AI 하드웨어 및 소프트웨어 통합을 위한 인재 영입 경쟁이 본격화됨.",
-    "news": [
-      {
-        "title": "IPO 앞둔 오픈AI, 재무 상태 폭로 문서 나와…\"완전 난장판\" - 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lRk5Wdk4xSzlQTDRCRThhTjBmRWxwcWI3RHNhRHlTNnJwVnI5azRaVWNRTGQtLTg4WkdVMTYzTVNmZzZzdENOSWdhMDZlbXlYZUlLbWttSXN0dkJ3aXhuYlFIdjh1QTdEVk8tWUtSUUY?oc=5",
-        "pubDate": "Thu, 25 Jun 2026 22:37:07 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "오픈AI IPO 연기설에 기술주 흔들… 뉴욕증시 하락 출발 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNjhVdXFCR1IxMG16a1E2eHpzRXdRRzZ0bTJJV09uSlZNdnpkSHJ1cDdVR1NkSVNJbGQ0UWtzSGRHVVVsdFdRLWxMcEowR1d5NmI5R0I2MFVMOC1LYzBFbGdlbDF3UEpqX2FPX3NkSzdKbG1xSU1NMUt1b2RwZDFzWGp1SU9LODN3WVN5WmstNUFvTGVCNlVUaEJsYmFvZ9IBsgFBVV95cUxOSERrYW5SbXB0TEVKTGxuRWtZQk5PamdicVVESFQtN0pLMWh5QTVOenRFMUJMc3FGZmljUWdjVDRvZWVWNUtEbmhmVzJmUkJENnNIWnRNYWoyUE1taE5PT19KUGdTb0Vfd0ZKak1yaHpXbnpQelZxS3E0Vjd2eUVrOWxLQlliNmo1ZHVTRkx0ZDNTemZzZEJXNVAwcjh1VjVxY2lGbWNwdC1LTVdWdy1PZGdn?oc=5",
-        "pubDate": "Fri, 26 Jun 2026 14:21:00 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "\"오픈AI IPO 내년 연기 검토\"…반도체주 급락[뉴욕증시] - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9DRE5oSU5mVUJYTmd1LU94MWxLTlVwcWNSQnB0Q2lwX2tMOU9YaVZ6LVk5NEJ5MUFtcXJNMWtBVjNNSWxuRHZhQlEtdXJRZXAzQW92cjU3SFhxd3lJNVVQTUZWdnh3dTRi0gFuQVVfeXFMUDF5dFRya0dUbDBLalFRZ3UtWVJENFJJc2RGdnRNNFZIQkk4M3hURTVrcjdkTUVlWjVUTmZvTzJpdWhCSFU3N0E5ZHNhc2RhdDhxQnlCN0h4WHJ0dDZ4bUtlTjE3Y0w3SGJ5WVFiSVE?oc=5",
-        "pubDate": "Fri, 26 Jun 2026 21:28:48 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "류재철 LG전자 사장 \"엔비디아와 차세대 피지컬 AI 생태계 기반 마련\" - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WdEJ3MzZRalotaW9TNFI1V1pta29qYWJqOEdtWHRTbDlzamdnLVRqVUNEcndtWUJzN0t6d3lBUmhHUzN5MEd2b0lzdjRNNUlCMW5lLS1FcUFIZTg5UV9nSNIBeEFVX3lxTFA2ZnNuT3NSU2JDZXUyT2NtS0NtZk1fUUU2bF82MDhDcnMycFNIT05sb3N3Tmo3Qy1WbXdMLWh4T2NnSXMxa05yUzhaX0ZucFB1ZlpHV0lYMVh5czRaZWZSdVB3bVhWdDIwSTdWMG9QWmNhQ0xFTFd1VA?oc=5",
-        "pubDate": "Fri, 26 Jun 2026 05:31:51 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "애플 비전프로 책임자 오픈AI행…AI 하드웨어 경쟁 본격화 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8temRiVWgwZEt3cG9UQ1hvM3FqMW9lMk80NGtFX3NWaVM0VEZ5d1lWUzJiQjFxSXEtOElkX2pZNHp2b0s2RWk0Nm5weEJrS0E?oc=5",
-        "pubDate": "Fri, 26 Jun 2026 21:42:52 GMT",
         "summary": "요약 없음"
       }
     ]
