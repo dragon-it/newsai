@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-07T22:56:07.156Z",
+    "reportDate": "2026. 7. 8.",
+    "summary": "- AI 기술의 고도화 및 내면화: 앤트로픽의 연구를 통해 AI 모델이 학습 과정에서 잠재적 속마음이나 의도를 가질 수 있다는 가능성이 제기되며, AI의 안전성과 투명성에 대한 기술적 논의가 심화되고 있음.\n\n- AI 투자의 ROI(투자 대비 효율) 경계론 확산: 삼성전자의 실적 호조에도 불구하고, 시장에서는 AI 관련 인프라 및 반도체 분야의 과도한 지출이 실제 수익성으로 이어질지에 대한 회의적인 시각과 우려가 교차함.\n\n- 메모리 반도체 시장의 불확실성과 기대: AI 가속기 수요로 인한 고대역폭메모리(HBM) 쇼티지(공급 부족) 현상은 지속되고 있으나, 반도체 산업 전반에 대한 시장의 기대치가 매우 높아 향후 실적 유지 여부가 중요한 변수로 작용함.\n\n- 인문학적·사회적 관점의 재조명: 기술적 발전과 별개로 생성형 AI 시대의 확산에 따라 인지 능력의 외주화 등에 대한 사회적 경계와 인간 고유의 사고 체계 유지에 대한 담론이 형성됨.",
+    "news": [
+      {
+        "title": "앤트로픽 \"AI도 말로 드러내지 않는 '속마음' 있다\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YZjFTNXQxeXo3T3djZm5JZzZWTDh2MmFfdFJFb0pEM25mNGN5MTI5dE84Qk9GU3M1U05RZnQ3UDk4T29XX1pUamtUTjFsbVBmbVk5aTB2RGVJUFXSAWBBVV95cUxOMXNxaS0zbWVkZm5pQ3FSZllKS3FpLXVNSlJ5QXVEX0ZlU0tNZ29sZ3hzYlREczlsNjJON0tKNzM5REszVHNPakV0dVNFM1ZNQWNxNUg1ZFNSX1dGaUxfQTI?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 11:53:32 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "삼성전자 89조 실적도 못 믿는 시장…AI 랠리 덮친 'ROI 의심' - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YTG96WG5DSU5ZUGp1RHNGNVBUVXhvMlZqV1QzUnhxVjk1SjVZYTRCODNzQUxLQ2wxZE4yVlI2TjJnX1pMcl9ZTTZJRVR2bFpBWVJUa0ptWWctZEFVb29nVVZfNGhoMllsYkRYU3pnRWU?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 05:15:00 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "\"삼전 호실적, 반도체·AI 향한 과도한 지출과 높은 기대 우려 불러와\" - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DQ3dEZUJYUkJXSGs0bEphUmZqWWVkcEJRZlFIZUl0dEFBWUs4eWlqODlRLWJQVE8wMmRJaU41bEVLRjdkMktKWkZQQVFGb2hwSm5ibmhKbm8tYjBnODV2UnlkdzNiV0gzWmlDeVdWbmbSAXRBVV95cUxNRDBta3ZseDRjY3JndHY1cDVGbUtIVWNKazNYcEZrM2EtcGJTZl92ek04ZURDNWhYTjdoVFlSTFQ3aHN2WlZnWDdZVHZqVkFSOExlS094UXZsclhCbWJ2RWtXMnhWWnRTbG5kWWVCX0x0LWNUWg?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 22:46:14 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "삼전 2Q 실적에 월가 \"높아진 기대 충족…AI메모리 쇼티지 여전\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpd3NWQndyQ0V3OEVpRUc5aWdWamd4ZVFNM0hESGtnSHl4ZjI2dlNnOG01bnpaUVBvMDdjVXJSNVRtaTk4cVhuRGVBRzJ6N1E?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 01:25:14 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "생성형 AI 시대, 기대·우려 교차…\"생각의 외주화 경계해야\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JTkV1U0M0TE04RktoSGp0Q3BnYXhyZzh1MHVoSTFTaExTamtyWVdnUmFHbXlhbkhoTGRJZmFzV2ZHOUt3a0FNaFF0dnZtZDA?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 21:01:44 GMT",
+        "summary": "요약 없음"
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-06T23:02:06.033Z",
     "reportDate": "2026. 7. 7.",
     "summary": "- 글로벌 인재 확보 및 연구 경쟁: 세계적 석학의 중국행 등 주요국과 기업들이 AI 원천 기술 확보를 위해 핵심 인재 영입과 연구 인프라 구축에 박차를 가하고 있음.\n\n- AI 하드웨어 및 인프라 시장 확대: SK하이닉스와 같은 반도체 기업에 대한 글로벌 투자가 집중되며 AI 인프라 공급망이 강화되고 있으며, 메타의 AI 안경 출시 등 하드웨어 기기의 실생활 적용이 가속화됨.\n\n- AI 윤리 및 공공 활용: 생성형 AI의 부작용인 가짜 의학 정보 확산 등 디지털 리터러시 문제가 대두되는 한편, 지자체와 대학 협력을 통해 미래 세대를 위한 AI 창의성 교육이 공공 영역에서 활발히 추진됨.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVNBTWhkTG8xYnRxT1lISU5KMVBaRk9aak5QbkZYS1V2SkY5b2UyR2x1OWVwdER3dmh5RnU5alFjbldsN09WLVVIa0hnNW4tVjBxLTc0b1pTdk9jLVpQY0FPRXhDbXNobDE3WnVncHFqMl9wVUkxWlQtRldhZ0t1YmhRMA?oc=5",
         "pubDate": "Sun, 28 Jun 2026 21:00:00 GMT",
         "summary": "AI가 기술적 업무를 대체함에 따라, 공감과 복잡한 이해관계를 조정하는 '휴먼 터치' 직무의 가치가 급등하고 있다. 조직 내 소통을 주도하는 사람 중심의 역할이 AI 시대의 새로운 고연봉 핵심 직군으로 주목받는 중이다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-27T22:58:43.243Z",
-    "reportDate": "2026. 6. 28.",
-    "summary": "- AI 기술 경쟁 심화 및 모델 고도화: 오픈AI의 차세대 모델 'GPT-5.6' 공개와 앤트로픽 '미토스5' 등 최신 AI 모델이 잇따라 등장하며 기술적 성능 경쟁이 가속화되고 있음.\n\n- 규제 기반의 단계적 배포 전략: AI 기술의 안전성과 보안을 확보하기 위해 각국 정부의 승인을 거쳐 모델을 제한적으로 출시하거나, 자국 기업에 우선 접근권을 부여하는 등 지정학적 영향력이 강화됨.\n\n- 반도체 시장의 다변화: 엔비디아의 독점적 시장 지위가 견제를 받으며 삼성전자와 SK하이닉스 등 HBM(고대역폭 메모리)을 포함한 메모리 반도체 공급 기업들의 입지가 더욱 중요해짐.\n\n- 실생활 및 산업 현장으로의 기술 확산: AI 가전과 모듈러 주택의 결합처럼 AI 기술이 단순 소프트웨어를 넘어 일상적인 주거 및 산업 현장에 실질적으로 접목되는 경향이 뚜렷해짐.",
-    "news": [
-      {
-        "title": "삼성·하이닉스 몸값 더 뛴다…엔비디아 독점 깨지는 AI 칩 시장[칩톡] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9zZWstNnItZEl2Mk5mbmdLeW0yNUJqQ0hhZmh6RDZXdkw3ZUl0VEplOEVoTmVWVHpzcW4wV3JRSlV6UnYtUG43SHJ4QlNVSlU?oc=5",
-        "pubDate": "Fri, 26 Jun 2026 23:02:05 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "중국 치고 올라오는데...오픈AI, 美 정부 허락맡고 GPT-5.6 단계적 출시 - 서울경제",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80amkwa1YtdTVWdjlmM2IyRmFHS0ZMMWx3WE51cjlCWUNBY1kxSm1XVlB2cm1mVE9Uek42MFBjS3dRUzZUZjlFU3d2bXlzVTNCS0HSAVNBVV95cUxOQllZSFptN0hWTkJFU1dDRmdqcmJ2MkhzNEd0T0ItbXZubUg1bTZRNzlzTnh0XzJYbng1X2RqWVVBM21XeGRERDA5eTE2R1RWeUdTQQ?oc=5",
-        "pubDate": "Fri, 26 Jun 2026 21:20:00 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "오픈AI, 최고 성능 ‘GPT-5.6’ 3종 공개...\"정부 요청으로 제한적 출시\" - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yRzhpRWJfUDdyZC1obUpYOENLbXNZQTlGb3gzQ3AtVTlseUNDU2NuTXpKUEE2ckRTTVNEZnZNVk9TTGRMRy0yZElJbzBITzBCUUxLTXJMOWRIQWp3S21mOE40M2hsTm1ITVE?oc=5",
-        "pubDate": "Fri, 26 Jun 2026 20:25:24 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "美, 앤트로픽 '미토스5' 사용제한 자국기업만 우선 풀어줘(종합) - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zeEUwNkswSGFnV1J3cnhlUGpfbE9CeldNXzJQaWF6OFhhS0NrYnVKdUZ5MVZlNmY4SVR0YldMVnBLOGNXRVVHR1ZReFlkRlE?oc=5",
-        "pubDate": "Sat, 27 Jun 2026 11:18:01 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "주택 설계부터 맞춤형...모듈러 주택에 녹아든 'AI 가전' - YTN",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8ycHJsVGZsM3FnUEFxUkNuS3VpeG5BTXRCdFZERlluZTJzX2ExUXBlTENJMTFxSTNlb1BYX2ptaUt6UGdWYzRUWkx6WV9iZFVoSHZWNUNUOU8weE42YUw0ZC1qWlY1NjFpb1ZEUm8zR1cyaHo2dFE?oc=5",
-        "pubDate": "Sat, 27 Jun 2026 22:25:00 GMT",
-        "summary": "요약 없음"
       }
     ]
   }
