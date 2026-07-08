@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-08T22:59:27.194Z",
+    "reportDate": "2026. 7. 9.",
+    "summary": "- 비용 효율성 중심의 전환: 고가의 범용 AI 모델을 넘어 가성비와 효율성을 강조하는 '토성비' 및 '토크노믹스' 기반의 맞춤형 모델 수요가 확산되고 있음.\n\n- AI 안전 및 윤리 규제 강화: 주요 AI 기업들의 안전성 평가 결과가 전반적으로 저조함에 따라, 국제적인 AI 안전 기준 수립과 기술 규제가 핵심 과제로 부상함.\n\n- 실생활 및 산업 현장 도입: 로봇 공학을 통한 고령자 돌봄 서비스와 법률 자문 서비스 등 AI가 구체적인 실무 영역에서 실질적인 성과를 거두며 일상에 침투하고 있음.\n\n- 지정학적 기술 패권 경쟁: 중국이 최첨단 AI 모델의 해외 접근 제한을 검토하는 등 국가 안보와 기술 보호를 둘러싼 글로벌 AI 진영 간의 격차가 심화되는 양상임.",
+    "news": [
+      {
+        "title": "[비즈톡] “비싼 AI만 쓰지말고...” ‘토성비’ ‘토크노믹스’ 시대 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSFpLQ0JkSXl4d0hCY1FZSnRYZHBkeHlmNEhiTjJ2QlY2cWg2NHd5SE9jQ0tGWE5HbEVpRW1mSDUyV2RscDNxMTEwV0JURTd5bHZMV2JMMmFvSUROckxqRGx2emRfX0dfdy1LdXJ2ckZONUFLOWNqR29DN3REMGlkVVk2RQ?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 21:04:19 GMT",
+        "summary": "AI 도입 비용 부담이 커지면서 기업들이 무조건적인 고성능 모델 사용 대신 성능과 비용 효율을 고려한 '토성비(토큰당 성능비)'를 중요하게 생각하고 있다. 합리적인 토큰 소비를 지향하는 '토크노믹스' 개념이 도입되며 AI 생태계가 실용주의 중심으로 재편되고 있다."
+      },
+      {
+        "title": "세계 AI 기업 안전 성적표…9개 기업 중 'C+'가 최고점 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zQndWbERIb1p1RzdBNjJndmo0V082RWdDY1E1RGd3a0lqSFZaWGVuM09aV3lENnktenRWcS0xSWNxLVIyM3lwLU9LeWlYdWg3aUxzUXBn?oc=5",
+        "pubDate": "Wed, 08 Jul 2026 01:00:04 GMT",
+        "summary": "글로벌 주요 AI 기업 9곳을 대상으로 안전성을 평가한 결과 최고점이 'C+'에 그치며 AI 안전 조치에 대한 경각심이 높아졌다. 이번 평가는 AI 모델의 투명성과 안전 기준 강화가 시급함을 시사하며, 기업들의 책임 있는 기술 개발을 촉구하고 있다."
+      },
+      {
+        "title": "AI 두뇌 갖춘 로봇, 영국서 고령자 돌봄 나선다 - 이투데이",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DdUxUYnpqbTVsN1hfWldoMUZ5Yk9Hd0FEN1F0OTdKM2RjbEFSbEJjNkN2eXljWXNHX2doWDlnYzA2VFl6Vi04M0wxNDB5RDlRNENqRzEzSHREdw?oc=5",
+        "pubDate": "Wed, 08 Jul 2026 22:00:00 GMT",
+        "summary": "영국에서 생성형 AI를 탑재한 휴머노이드 로봇이 고령자 돌봄 현장에 투입되어 실증을 시작했다. AI 로봇은 노인과의 대화 및 일상 보조를 수행하며 인구 고령화 문제 해결을 위한 기술적 대안으로 주목받고 있다."
+      },
+      {
+        "title": "“중국, 자국 최첨단 AI 모델 해외 접근 제한 검토” - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IaHhTTmtyS1dnel9Jbml5dUxDZXFhRktRdGhmdk1rcVF5aEpNckFnWnczVVZIak5aWmtFYnhyaHR6WWlabHNTZkNxUnRSU2M?oc=5",
+        "pubDate": "Wed, 08 Jul 2026 22:29:03 GMT",
+        "summary": "중국 정부가 자국 내 개발된 최첨단 AI 모델의 해외 유출을 막기 위해 접근 제한 조치를 검토 중이다. 이는 기술 패권 경쟁 속에서 자국의 AI 기술력을 보호하고 전략적 자산으로 활용하려는 의도로 풀이된다."
+      },
+      {
+        "title": "\"AI 로펌 도움받고 이겼다\"…영국서 첫 사례 - 아시아경제",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wRS1HLS1UVDBGejg5anFXbGxYdjRxaDhwWFM2TmVqamo5RnpaLUVIR0VFdnZINnY0Q2RIOWI2RXR5U3dMTlpqNE1Ja3ZHbnc4MmZoMTYwdS1HWm0xYjRRMg?oc=5",
+        "pubDate": "Wed, 08 Jul 2026 22:02:48 GMT",
+        "summary": "영국에서 AI 법률 보조 서비스를 활용한 당사자가 재판에서 승소하는 첫 사례가 발생했다. 복잡한 법적 문서 작성과 전략 수립에 AI가 효과적으로 기여하면서 법률 시장 내 AI의 실질적인 효용성이 입증되었다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-07T22:56:07.156Z",
     "reportDate": "2026. 7. 8.",
     "summary": "- AI 기술의 고도화 및 내면화: 앤트로픽의 연구를 통해 AI 모델이 학습 과정에서 잠재적 속마음이나 의도를 가질 수 있다는 가능성이 제기되며, AI의 안전성과 투명성에 대한 기술적 논의가 심화되고 있음.\n\n- AI 투자의 ROI(투자 대비 효율) 경계론 확산: 삼성전자의 실적 호조에도 불구하고, 시장에서는 AI 관련 인프라 및 반도체 분야의 과도한 지출이 실제 수익성으로 이어질지에 대한 회의적인 시각과 우려가 교차함.\n\n- 메모리 반도체 시장의 불확실성과 기대: AI 가속기 수요로 인한 고대역폭메모리(HBM) 쇼티지(공급 부족) 현상은 지속되고 있으나, 반도체 산업 전반에 대한 시장의 기대치가 매우 높아 향후 실적 유지 여부가 중요한 변수로 작용함.\n\n- 인문학적·사회적 관점의 재조명: 기술적 발전과 별개로 생성형 AI 시대의 확산에 따라 인지 능력의 외주화 등에 대한 사회적 경계와 인간 고유의 사고 체계 유지에 대한 담론이 형성됨.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAwazg1YjNqbmpnbTFQZ2FCcTk1SWNocllRWjl4MGJialNtak1DOXVpRHNmWEh5eXl2WXJFWUdPVURzaGhhYVRfdk9hb2lVOW8?oc=5",
         "pubDate": "Mon, 29 Jun 2026 21:30:30 GMT",
         "summary": "카이스(KAIS)가 코엑스에서 개최되는 'AI 서밋 서울 & 엑스포'에 참가하여 최신 기술 트렌드를 공유하고 네트워킹을 진행한다. 이번 행사는 국내 AI 기업들의 기술력을 선보이고 생태계를 강화하는 계기가 될 전망이다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-28T22:58:26.666Z",
-    "reportDate": "2026. 6. 29.",
-    "summary": "- 기술적 효율성 제고: AI 연산의 전력 효율을 극적으로 개선하기 위한 새로운 아키텍처 연구가 활발히 진행되고 있음.\n\n- 산업 현장 최적화: 모듈러 주택 설계, 통신망 장애 관리 등 AI가 실무자의 노하우를 학습하여 효율성을 높이는 현장 적용 사례가 증가함.\n\n- 시장 리스크 및 고용 변화: AI 투자 대비 수익성에 대한 의구심이 시장 하락세로 나타나는 한편, 인간 고유의 소통 역량이 중요한 직무가 AI 시대의 핵심 인력으로 부상함.",
-    "news": [
-      {
-        "title": "주택 설계부터 맞춤형...모듈러 주택에 녹아든 'AI 가전' - YTN",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0ZmtyYnhtSUlvakt0MHdoQW5TMlN3WlB1SnFsVW1Gbnd5RC1uNGNyampCdWJuMEhjQ1VQYVg2VnpuVFJjTk9BY0tIcUd3V25KWDRmcHY3MV9rcEl0bWc?oc=5",
-        "pubDate": "Sat, 27 Jun 2026 22:25:00 GMT",
-        "summary": "모듈러 주택 설계와 제작 과정에 AI 기술이 도입되어 맞춤형 주거 공간 구현이 빨라지고 있다. 또한 AI 가전이 주거 환경에 통합되면서 에너지 효율과 거주자의 편의성을 극대화하는 스마트 홈 생태계가 구축되고 있다."
-      },
-      {
-        "title": "\"AI 전력 소비 1000분의 1로 줄인다\"…신형 AI 아키텍처 등장 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9lYldreC1EOVhpMVBCREdCQklJcWVZQmw0aXJYazBOeHVlZnhxMXhvaWVtTFN5a3Y4aWY4OXdyWTNEdFVRZWkxSHcwZUFFeUUyQnYzbkVn?oc=5",
-        "pubDate": "Sat, 27 Jun 2026 22:41:25 GMT",
-        "summary": "기존 AI 모델의 막대한 전력 소모 문제를 해결하기 위한 새로운 AI 아키텍처가 개발되었다. 이 기술은 데이터 처리 효율을 혁신적으로 높여 인공지능 인프라의 지속 가능성을 확보하는 데 기여할 것으로 기대된다."
-      },
-      {
-        "title": "AI 부채 한계 봉착?…오라클, 25년 만에 최대 주간 낙폭 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xbXhXX2pnc0JNY3B5MFRSUDZ1RXVkQnY5Zjk0dHlVeEFZaDUxa2hQeDlKTEN1SFg2TGJSZEk4bm9kQVM3MXU0UHVoSDFsRFV1REtvazMzYmwtQjTSAWBBVV95cUxOVzNpQnJYWGhZaGVaUWVsU3JOa2dyWmZjS05JMXB1ckJYSTc2SFczY1RiaXUwcXJKOVV6aUI0QTJROHBfQ3V2bk5pR3ZoSG85cWtqTDRxQ0RXVkJFX0xyNEw?oc=5",
-        "pubDate": "Sun, 28 Jun 2026 22:34:37 GMT",
-        "summary": "AI 인프라에 대한 막대한 투자 대비 수익화 지연에 대한 시장의 우려가 커지며 오라클 등 주요 기술주가 급락했다. AI 성장에 대한 거품론이 제기되면서 투자자들의 신중한 태도가 확산되고 있다."
-      },
-      {
-        "title": "27년 베테랑의 '감'을 AI에 심었다…SKB 인터넷 지키는 'C-One' - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5FeEQxWTA0VTR3SU1kb0V3UHFPRG1PLTBXTTNVVEE4WDhZbkhCT29LS0k3Z0dJazIxSVoyR2RSSi1oU3d1cE9RcU9weEVGUDA?oc=5",
-        "pubDate": "Sun, 28 Jun 2026 21:32:08 GMT",
-        "summary": "SK브로드밴드가 27년 경력 통신 전문가의 노하우를 학습한 AI 솔루션 'C-One'을 통해 통신 장애를 실시간으로 탐지하고 해결한다. 숙련된 인적 자원의 경험을 AI로 내재화하여 운영 효율성을 크게 향상시켰다."
-      },
-      {
-        "title": "AI가 못하는 ‘휴먼 터치’ 직무 뜬다... 조직내 소통 역할에 연봉 5억 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZVNBTWhkTG8xYnRxT1lISU5KMVBaRk9aak5QbkZYS1V2SkY5b2UyR2x1OWVwdER3dmh5RnU5alFjbldsN09WLVVIa0hnNW4tVjBxLTc0b1pTdk9jLVpQY0FPRXhDbXNobDE3WnVncHFqMl9wVUkxWlQtRldhZ0t1YmhRMA?oc=5",
-        "pubDate": "Sun, 28 Jun 2026 21:00:00 GMT",
-        "summary": "AI가 기술적 업무를 대체함에 따라, 공감과 복잡한 이해관계를 조정하는 '휴먼 터치' 직무의 가치가 급등하고 있다. 조직 내 소통을 주도하는 사람 중심의 역할이 AI 시대의 새로운 고연봉 핵심 직군으로 주목받는 중이다."
       }
     ]
   }
