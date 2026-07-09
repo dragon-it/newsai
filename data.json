@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-09T23:06:46.772Z",
+    "reportDate": "2026. 7. 10.",
+    "summary": "- 인프라 및 생태계 확장: 메타를 비롯한 빅테크 기업들이 자체 AI 칩 개발과 데이터센터 투자를 본격화하며, 인공지능 인프라 확보를 위한 대규모 자본 투입과 서비스 생태계 구축에 속도를 내고 있음.\n\n- 반도체 공급망 강화: 삼성전자가 PC용 AI 칩 시장 진출과 메모리 반도체 공급 계약을 통해 엔비디아, 퀄컴 등 기존 강자들과의 경쟁 및 협력 관계를 강화하며 AI 반도체 공급망의 핵심 축으로 부상함.\n\n- AI 신뢰성 및 활용의 양면성: 생성형 AI 모델 간 성능 차이가 뚜렷해지는 가운데, 학계의 허위 논문 증가와 같은 AI 악용 사례가 늘어나면서 기술의 활용과 윤리적 검증에 대한 사회적 요구가 커지고 있음.",
+    "news": [
+      {
+        "title": "삼성전자, PC용 AI칩 출사표…엔비디아·퀄컴과 '맞짱' - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pa1pFNmwzYXpSeS11c2ZqcFFCeVlRb3dxNFBoMndyX25wVkJLdldUM1hraGN6a0lGOWNtZzhkX1hmVTllY1JCcFMxbDBsSEVhdDF1OUMwSzJVd9IBVEFVX3lxTFBHdW93dHFFSkVUVXZGby1KVEdDRkhLTHFtNWxwaDdwS2ZSSWI5Wk8zZGt1aUU5eGJ4Z3R2cWIxTkNlUk5MS1EwZFN0SnhfVkU3aWtoSg?oc=5",
+        "pubDate": "Thu, 09 Jul 2026 08:47:23 GMT",
+        "summary": "삼성전자가 온디바이스 AI 시장을 겨냥해 PC용 AI 칩 시장에 본격적으로 진출한다. 기존 강자인 엔비디아, 퀄컴 등과 경쟁하며 고성능 메모리 기술력을 바탕으로 시장 점유율 확대에 나설 계획이다."
+      },
+      {
+        "title": "과학자끼리도 “AI 썼나” 서로 의심… 허위 논문 철회도 급증 - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1ODZiZDd3ZnlQT3hTZFV0aTZxTzZocjgwZ1F5VTlqX1ZuclE4aVZZbUg1NUQ0dExjTVJObGFGRmFZUDkyYkVpbm40eExUUW0tN25rZVZZdlFPblN1WHdaOU9xVkpnb0xueUxuN3hXeUdZc2VlSHfSAWZBVV95cUxNcXpzWm5zZERGeU9uaW9wUGdqY3BnT2o1eUxGLWhROXBJTkV1OFNMc08yOXpuUUI2dE0tYVRmallzYkl0bnpEM3pVWnk1RTQyX1Ayb1FxV0xkZnY3a2VsejhmR2RFY2c?oc=5",
+        "pubDate": "Wed, 08 Jul 2026 19:30:00 GMT",
+        "summary": "생성형 AI를 이용해 작성된 허위·조작 논문이 급증하면서 학계의 신뢰성 문제가 심각해지고 있다. 연구자들 사이에서도 상호 의심이 확산하고 있으며, 이에 따른 논문 철회 사례가 빈번하게 발생하는 등 부작용이 현실화되고 있다."
+      },
+      {
+        "title": "\"광화문 걷는 젠슨 황 그려줘\" 메타·구글·오픈AI에 같은 요구해봤더니 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVkxOOE45R1NZSnlxejc3N0pGNFRORHFNUHF6YW9qeHpHZTVqczFEOWNfYzJaQUZvbUdLWHJIRXJBemIwcGFOMjN2cmdJSlZvN1lEZVVTZnp5OUZlYl9vYVFYM2VrNFFuZ254TDVHbzZRU1Y4dk8tSHgzdkhGMm1rN1NRbw?oc=5",
+        "pubDate": "Thu, 09 Jul 2026 21:00:00 GMT",
+        "summary": "메타, 구글, 오픈AI 등 주요 빅테크의 생성형 AI 모델에 동일한 화풍의 이미지를 생성하도록 테스트한 결과, 모델별로 표현력과 정보 처리 능력에서 차이가 나타났다. 이는 각 기업의 AI 모델이 추구하는 학습 데이터와 최적화 방향이 다름을 보여준다."
+      },
+      {
+        "title": "\"메타, 9월부터 AI칩 생산…삼성전자와 메모리 반도체 장기 계약도\" - KB Think",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uMlBrejNRUzd1Mk9IMzlwbzVXRmpMeVFoUVF0REU5c2hGNFgzUU9FcHJXQldYZE96b1B2a3REcDNyUGh3WWhkWEhxLTVmMVgxdm02blZhMWQzcWFsNlotNnJZQmZSc0pXNWFmM010SWFuUQ?oc=5",
+        "pubDate": "Thu, 09 Jul 2026 11:36:33 GMT",
+        "summary": "메타가 오는 9월부터 자체 설계한 AI 가속기 생산을 시작한다. 또한, AI 인프라 구축을 위해 삼성전자와 고대역폭메모리(HBM) 등 반도체 공급과 관련한 장기적인 협력 관계를 체결했다."
+      },
+      {
+        "title": "\"AI도 컴퓨팅도 판다\"…메타, 수천억달러 투자 회수 승부수 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQTFlDV05GUEV5bW0yMEhJSkdOMk42eEwxckRIUFBmR1M1WUVCU0xTRFVOdUd1dC1ZZXRUeEV3TXhOSks0T2liRm5tcW1ZRmc?oc=5",
+        "pubDate": "Thu, 09 Jul 2026 22:07:51 GMT",
+        "summary": "메타가 인공지능 기술뿐만 아니라 컴퓨팅 인프라 자체를 서비스화하여 수익을 창출하려는 전략을 추진 중이다. 막대한 자본이 투입된 AI 인프라를 통해 기술 경쟁력 확보와 수익 모델 다각화라는 두 마리 토끼를 잡겠다는 의지다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-08T22:59:27.194Z",
     "reportDate": "2026. 7. 9.",
     "summary": "- 비용 효율성 중심의 전환: 고가의 범용 AI 모델을 넘어 가성비와 효율성을 강조하는 '토성비' 및 '토크노믹스' 기반의 맞춤형 모델 수요가 확산되고 있음.\n\n- AI 안전 및 윤리 규제 강화: 주요 AI 기업들의 안전성 평가 결과가 전반적으로 저조함에 따라, 국제적인 AI 안전 기준 수립과 기술 규제가 핵심 과제로 부상함.\n\n- 실생활 및 산업 현장 도입: 로봇 공학을 통한 고령자 돌봄 서비스와 법률 자문 서비스 등 AI가 구체적인 실무 영역에서 실질적인 성과를 거두며 일상에 침투하고 있음.\n\n- 지정학적 기술 패권 경쟁: 중국이 최첨단 AI 모델의 해외 접근 제한을 검토하는 등 국가 안보와 기술 보호를 둘러싼 글로벌 AI 진영 간의 격차가 심화되는 양상임.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XWEZFT3FqYzFtVi1ycy16N3prOEJNRDREZFJ3N19pSnNKSnVJXzFVMkVWcy1HdDNDeVJRQkw1RFlmX05HUkVYbllvTjY4WEFtRmZDbVFjdnN5V2_SAWBBVV95cUxPeFlpbXdmbXI0YzVvalk3VEFOR0pqZ09teTBXY21JZklmSnVKMDlhbWxqNmxkUU1wR0tXdUZXVkNWMHctVU56QnhFYy1fd3RtOGJjU3ZINHA5ZElOaW0yLTE?oc=5",
         "pubDate": "Tue, 30 Jun 2026 22:30:01 GMT",
         "summary": "개인정보보호위원회가 글로벌 개인정보보호협의체(GPA) 회원국을 대상으로 한국의 선진적인 AI 프라이버시 정책을 공유했습니다. 이를 통해 AI 관련 데이터 보호 및 활용에 관한 국가 간 협력과 기준 수립이 가속화될 전망입니다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-29T22:51:16.946Z",
-    "reportDate": "2026. 6. 30.",
-    "summary": "- 인프라 및 생태계 확장: AI 데이터센터 구축을 위한 대규모 투자가 논의되는 가운데, 국내외 AI 기술 교류를 위한 엑스포 개최 등 산업 생태계가 활발히 확장되고 있음.\n\n- 반도체 공급망 및 AI 인프라: 막대한 자본 투입을 통해 안정적인 AI 인프라를 확보하고, 지속 가능한 AI 경쟁력을 유지하기 위한 인프라 구축 전략이 강조됨.\n\n- 산업 현장 및 공공 적용: 제조, 서비스 등 다양한 산업 현장에 AI를 접목하는 '피지컬 AI'와 'RX(로봇 전환)' 사업이 본격화되며, 2030년까지 세계 1강 도약을 목표로 한 국가적 지원이 추진됨.",
-    "news": [
-      {
-        "title": "[3대 메가] AI로 제조업 대전환…20조 투자해 100조 경제 만든다 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SNXMzWnRpV19BZ2JMTlVRYkkydTJ4UmhVcm04NklHVVJqTWxIdUFsdllKNXl2OUViMHFiQVo2a2pNbGFmY0VRM3JHbndzN21ZR2xoRDdKR0M4cVnSAWBBVV95cUxPbG5reURhLXVrNkROV1FRRDhmamtlSDhLR1JmWkdIdjJSR1IxMGdyZ05LeEt4WEZFMGNydDhMZTV1dnc2TjM1Ulc3VEtkdEdKbjFDRWZxb1l3MVF6dzV2aWg?oc=5",
-        "pubDate": "Mon, 29 Jun 2026 07:56:21 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "배경훈 “AI 데이터센터 구축에 1000조원 투자” - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9TT0lqWGZoT1MtcC01TmxsbTBWbU9sVFJaaExHaWRZMHdhQUJSdTVlckhBeFhNY2FUcjYtRTlkWndwREJqLVZnaEdyLThGdzdBVERfclZZbmpINnlZSmRjbFkwcGlUaGxEdHd3?oc=5",
-        "pubDate": "Mon, 29 Jun 2026 06:51:00 GMT",
-        "summary": "배경훈 LG AI연구원장은 AI 경쟁력 확보를 위해 데이터센터 인프라 구축에 천문학적인 비용인 1000조 원 규모의 투자가 필요하다고 언급했다. 대규모 인프라 확보가 AI 주도권을 잡기 위한 핵심 요소임을 강조한 것이다."
-      },
-      {
-        "title": "과기부총리 “2030년까지 피지컬AI ‘세계 1강’ 목표” - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4taV9Sd0JhOEx0cjdmLVBJWllWOVNNV3FSbXVra1cxTHpCVm1PLTFXcE1jWHZRaGo2NlZ4NGhyUzlsZS1LS2g1WExOY3haZ2M?oc=5",
-        "pubDate": "Mon, 29 Jun 2026 21:32:09 GMT",
-        "summary": "과학기술정보통신부는 2030년까지 물리적 공간에서 AI가 직접 작업을 수행하는 '피지컬 AI' 분야에서 세계 1위 수준의 기술력을 확보하겠다는 목표를 발표했다. 이를 위해 국가적 역량을 집중해 기술적 우위를 점할 계획이다."
-      },
-      {
-        "title": "‘피지컬 AI’ 현장 투입해 RX 사업 확대 - 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9BcXBoLXRYZURhbVFzQUlhNXB6OGFwaUZzZU5ob3U3eGRPWGd2SzlrQWpzU0hYblpqYmd6NGRBWkZlSDdjSWxWMU5BX3JhXzJscVdNMlBGYUJhcmVYb2hxUVZrcUl4aURYVVZhbzhhdmFfc09CM3fSAWZBVV95cUxOOHlvX0cybEthbVhhR0czejhmTC00NkRDaldDd2lMdkZHUVV0V0UxZzZTLVRTWUtKTW9vY0xyMEFkWl9IbDlsTU5lNlRCdG5kSjM2eGNaVzgwSkpqVzUwaXQ5TEYwcVE?oc=5",
-        "pubDate": "Mon, 29 Jun 2026 19:30:00 GMT",
-        "summary": "산업 현장에 피지컬 AI를 도입해 로봇 전환(RX) 사업을 가속화하려는 움직임이 활발하다. 노동력 부족 해결 및 생산성 향상을 위해 실무 환경에 AI 기술을 밀착 적용하고 있다."
-      },
-      {
-        "title": "카이스(KAIS), 코엑스서 열리는 'AI 서밋 서울 & 엑스포' 참가 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAwazg1YjNqbmpnbTFQZ2FCcTk1SWNocllRWjl4MGJialNtak1DOXVpRHNmWEh5eXl2WXJFWUdPVURzaGhhYVRfdk9hb2lVOW8?oc=5",
-        "pubDate": "Mon, 29 Jun 2026 21:30:30 GMT",
-        "summary": "카이스(KAIS)가 코엑스에서 개최되는 'AI 서밋 서울 & 엑스포'에 참가하여 최신 기술 트렌드를 공유하고 네트워킹을 진행한다. 이번 행사는 국내 AI 기업들의 기술력을 선보이고 생태계를 강화하는 계기가 될 전망이다."
       }
     ]
   }
