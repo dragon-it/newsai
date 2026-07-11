@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-11T22:41:28.944Z",
+    "reportDate": "2026. 7. 12.",
+    "summary": "- AI 기술 경쟁 및 법적 갈등 심화: 주요 AI 기업 간의 기술 격차를 줄이기 위한 고성능 모델 출시 경쟁과 더불어, 핵심 기술과 영업비밀 유출을 둘러싼 거대 기업 간의 법적 분쟁이 본격화되고 있음.\n\n- AI 시장의 패러다임 변화: 범용성 위주의 초거대 AI 경쟁에서 벗어나, 비용 효율성을 극대화한 '가성비' 중심의 모델로 시장의 전략적 초점이 이동하고 있음.\n\n- 인프라 및 생태계 보호: 기술 혁신과 더불어 지식재산권과 하드웨어 설계 등 기업의 핵심 자산을 보호하려는 전략적 움직임이 향후 AI 산업 생태계에 중요한 변수로 작용할 전망임.",
+    "news": [
+      {
+        "title": "챗GPT가 아이폰 설계 훔쳤나…파트너였던 애플·오픈AI, 이젠 법정으로 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80cGowTXhpZ0c2Y016bFNTU1BtMG5xeFpFWmZNVTg2aHNkaFNYbW45ZVlhZ21CNklWS0U2cms3S2ZEdmhuZnNLM0J3aDZRQmM?oc=5",
+        "pubDate": "Sat, 11 Jul 2026 07:46:14 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "애플, 오픈AI 전격 제소…\"영업비밀 훔쳤다\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UTDRrSWFpVE1faXc2N3RkS1B4dnlwT0U2YUQwLVZrQ00wVmRCN2x3ZW84VnZMSVNBSHB0WTd1LTRsY3NUeW9SODNzc09oeHl4c1lxM2N3?oc=5",
+        "pubDate": "Fri, 10 Jul 2026 23:53:17 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "\"오픈AI가 하드웨어기밀 훔쳤다\"…애플, 블록버스터급 소송 제기(종합) - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YcFFLVXNxUTJNT2pOTjZ6OU1fY0VSSWRCYTI3N0ZCMFJGN1EzOV9IdWl3NHFhM0lxa1laZzl6ZGJLUENfYXlRd25Kckx3Ukw3YnJNN0NWVGlYYVHSAWBBVV95cUxQd0R0VlA0SmY5UUYyNTlDU1NGUXJJM0hYTWRaZEJRa2lycmZHWVhOWE5ZNzVlb0VMQTFGYzY0THlaY2NWeWVpTnFFMHc4MXliRmxEZDlJSjlraG1FYnkxOFI?oc=5",
+        "pubDate": "Sat, 11 Jul 2026 01:42:09 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "오픈AI 초고성능 모델 ‘GPT-5.6’ 정식 출시 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWmlBU1dZR29VTFhmZklRRHNHWjdFV2w5VlNVT21BV2JmUmdLcGdRMWRtWmhubmdHSk9KQlg0ZkNhdXBlR1hoSDRkNHk2dzBpV2M5MFFabmhabU8zTmFwQld4Qlp0Q2lxQlZkX3ZsXzlCT21NYW92c245UUwxOXluYkFSTQ?oc=5",
+        "pubDate": "Fri, 10 Jul 2026 15:43:45 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "제미나이·클로드·챗GPT 시대는 끝났다고?…AI도 이젠 ‘가성비’ 싸움 [주末머니] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5QZmNUZElnVHFpb2FMdVBQQlF3QWJJcDFpUnhraW54MWRRRXYzVlgycE1NSHB2aDFjOHdnT1RESHpIQzBsbUE?oc=5",
+        "pubDate": "Sat, 11 Jul 2026 07:33:27 GMT",
+        "summary": "요약 없음"
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-09T23:06:46.772Z",
     "reportDate": "2026. 7. 10.",
     "summary": "- 인프라 및 생태계 확장: 메타를 비롯한 빅테크 기업들이 자체 AI 칩 개발과 데이터센터 투자를 본격화하며, 인공지능 인프라 확보를 위한 대규모 자본 투입과 서비스 생태계 구축에 속도를 내고 있음.\n\n- 반도체 공급망 강화: 삼성전자가 PC용 AI 칩 시장 진출과 메모리 반도체 공급 계약을 통해 엔비디아, 퀄컴 등 기존 강자들과의 경쟁 및 협력 관계를 강화하며 AI 반도체 공급망의 핵심 축으로 부상함.\n\n- AI 신뢰성 및 활용의 양면성: 생성형 AI 모델 간 성능 차이가 뚜렷해지는 가운데, 학계의 허위 논문 증가와 같은 AI 악용 사례가 늘어나면서 기술의 활용과 윤리적 검증에 대한 사회적 요구가 커지고 있음.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aUFRtOG9zdUY5VnU0N2stdUxzb1dLT2VNeU9zYm15b041YzBua0NEY21GM0hvMXdrX1FraDMzT1ZIN0ZZOVc4aXhzR2lpRlk?oc=5",
         "pubDate": "Wed, 01 Jul 2026 21:01:21 GMT",
         "summary": "AI 데이터센터 가동을 위한 막대한 전력 소비가 미국 내 주요 현안으로 떠올랐습니다. 안정적인 전력 수급이 AI 경쟁력의 핵심으로 간주되면서, 전력 인프라 확충과 에너지 확보를 위한 데이터센터 기업들의 사활을 건 노력이 계속되고 있습니다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-06-30T23:05:56.228Z",
-    "reportDate": "2026. 7. 1.",
-    "summary": "- 산업 현장 효율화: 제조 분야에서 AI 에이전트를 도입해 부품 탐색 및 업무 처리 시간을 획기적으로 단축하는 등 실질적인 생산성 향상 사례가 증가하고 있습니다.\n\n- 인프라 및 생태계 확장: AI 데이터센터 확산에 따른 전력 수요 급증으로 에너지 저장 장치(ESS) 및 지능형 전력 솔루션 시장이 새로운 성장 동력으로 부상하고 있습니다.\n\n- 정책 및 윤리 표준화: 한국의 AI 개인정보 보호 정책이 국제적 주목을 받으며 글로벌 규범 논의를 주도하고 있으며, 생성형 AI의 확산에 따른 콘텐츠 변조 및 편집 문제에 대한 경각심도 높아지고 있습니다.",
-    "news": [
-      {
-        "title": "[단독] LG전자, 가전 부품 탐색 AI 에이전트 개발… 수일→30분으로 시간 단축 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSVFZbERoZVh5SFdDeHJQRW9mLUJzNFFVUmprV2dLWHFmV0NrYUFXbUZvWFJMTXduZDZtV1lTVmY4R21TdHBLeGFPcml6dW81XzlCZm5sVnlfdFIwUFpYZWkybnFtbmpQS1k1bmZCdkFKWkc1amR0bTQ5QkJERmZIY2NR0gGWAUFVX3lxTFB0Ynhyak56ck5tVE1zSkI2Rks2VEJqTS1sR1lUdkVuQWhtTS05bVNlaWJfMENDdUVXWllFX1FzTDZta3B5aERFYlo4UlRZeDFvOHNPb2RRMER1M0xKRUxoZ092SzJ4UFRKMEg4SGNvaEVDSzNoX2xaR1dFQ3RLZVZGUFhYN1RMdDc5N3VJRXdtTUpraGcxUQ?oc=5",
-        "pubDate": "Mon, 29 Jun 2026 21:01:34 GMT",
-        "summary": "LG전자가 가전 부품 검색과 분석을 지원하는 AI 에이전트를 개발하여 기존 수일이 걸리던 업무 시간을 30분 내외로 단축했습니다. 이번 기술 도입으로 설계 및 유지보수 과정의 효율성이 크게 개선될 것으로 기대됩니다."
-      },
-      {
-        "title": "AI 시대 전력 인프라 총력전…ESS·전력솔루션 시장 커진다 - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UNWZFNWFILTV5dzMtb0czOVZIaGFjOWpFYjBKLTVzc05YdzFwQmRCVkxZR0F3Mk9QRGhSQlZiNG1tbWwyUlM0eFhpaHVZdkt2bVhLS2Z5NGxFSmxqcG1mWtIBeEFVX3lxTE1lREd5dFRUeDI4ejBueU1ZaDNLR2V2SFRnUzFjSjdrTFk5RUR2RzFEMklOd0hNaEhJTjhoTE5TdmdMZVZhVVJwclphbXQ3dHpCZVVrb3lTUVdDSnRhVmxMdzFfMEJYeGRldzNSMzk2d0JFRU1sSEZGeA?oc=5",
-        "pubDate": "Mon, 29 Jun 2026 20:00:00 GMT",
-        "summary": "AI 산업 확대로 데이터센터의 전력 소비가 급증함에 따라 안정적인 전력 공급을 위한 ESS와 스마트 전력망 솔루션의 중요성이 커지고 있습니다. 기업들은 미래 전력 인프라 시장을 선점하기 위해 기술 개발과 투자를 확대하는 추세입니다."
-      },
-      {
-        "title": "[C컷] 우중 그란폰도 사진의 이상한 흔적… 알고 보니 생성형 AI 편집 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBGNzNpUGh2SWFRZUstaHdvOXNHWWNnbl9mUEtpdTJrUENRcnlwRzF0bnU0VWh4OE44NkczekZnM3ZMRlgtZzVVSFcyX1dXMk0?oc=5",
-        "pubDate": "Tue, 30 Jun 2026 21:01:52 GMT",
-        "summary": "최근 스포츠 행사 사진에서 생성형 AI를 활용한 이미지 편집 흔적이 발견되어 기술 오남용에 대한 우려가 제기되었습니다. 사진의 진위 여부와 AI 기술의 윤리적 사용에 대한 사회적 담론이 활발해지고 있습니다."
-      },
-      {
-        "title": "韓 AI 개인정보 정책, 글로벌 표준 되나…국제 규범 논의 주도 - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaNkVFVzF4YmRxMWxlXzktenVWQmZ0Qm1SZ3NZaFFpaFVBVDJPT2U4eUl4aUVmMzVPQUtXVEtJSnRYYWhpS0czaVlRSUFBN2N0WnBjZDAxNlNrYW5FdFdhYQ?oc=5",
-        "pubDate": "Tue, 30 Jun 2026 22:30:00 GMT",
-        "summary": "대한민국의 AI 개인정보 보호 정책이 글로벌 표준 모델로 급부상하며 국제 사회에서 긍정적인 평가를 받고 있습니다. 한국은 AI 기술 발전과 데이터 보호 사이의 균형을 맞추는 국제 규범 수립 논의를 선도하고 있습니다."
-      },
-      {
-        "title": "개인정보위, GPA 회원국에 한국 AI 프라이버시 정책 소개 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XWEZFT3FqYzFtVi1ycy16N3prOEJNRDREZFJ3N19pSnNKSnVJXzFVMkVWcy1HdDNDeVJRQkw1RFlmX05HUkVYbllvTjY4WEFtRmZDbVFjdnN5V2_SAWBBVV95cUxPeFlpbXdmbXI0YzVvalk3VEFOR0pqZ09teTBXY21JZklmSnVKMDlhbWxqNmxkUU1wR0tXdUZXVkNWMHctVU56QnhFYy1fd3RtOGJjU3ZINHA5ZElOaW0yLTE?oc=5",
-        "pubDate": "Tue, 30 Jun 2026 22:30:01 GMT",
-        "summary": "개인정보보호위원회가 글로벌 개인정보보호협의체(GPA) 회원국을 대상으로 한국의 선진적인 AI 프라이버시 정책을 공유했습니다. 이를 통해 AI 관련 데이터 보호 및 활용에 관한 국가 간 협력과 기준 수립이 가속화될 전망입니다."
       }
     ]
   }
