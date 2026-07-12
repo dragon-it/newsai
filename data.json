@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-12T22:41:30.852Z",
+    "reportDate": "2026. 7. 13.",
+    "summary": "- AI 모델 고도화: 오픈AI의 'GPT-5.6 솔 울트라'가 50년 수학 난제를 해결하는 등 고차원적 논리 및 연구 역량을 입증하며 모델의 성능이 비약적으로 발전하고 있음.\n\n- 빅테크 전략 및 규제 강화: 마이크로소프트가 독자 모델 확보 노력에도 불구하고 GPT-5.6을 핵심 모델로 채택하는 등 생태계 의존성이 지속되고 있으며, 고성능 모델 출시에 앞선 정부 차원의 사전 검증 및 허가 절차가 강화되는 추세임.\n\n- 시장 변동성 및 문화적 확장: AI 기술 도입에 따른 기업 가치의 급격한 등락이 관찰되는 가운데, AI가 창작 영역인 재즈 경연에서 우승하는 등 산업과 문화를 넘나드는 다양한 활용 사례가 등장하고 있음.",
+    "news": [
+      {
+        "title": "오픈AI \"GPT-5.6 솔 울트라, 50년 수학 난제 1시간 만에 증명\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mc2NrX05RbFBWNk1wamR0a0czMDBYQWdXY1BtMThndmx0dGw1b2lUUTdNYUtUQTk5clBGaC1kZGxFdDVnU3VPX1dYWUhjMHZuTlh5bWh3?oc=5",
+        "pubDate": "Sun, 12 Jul 2026 07:58:55 GMT",
+        "summary": "오픈AI가 공개한 'GPT-5.6 솔 울트라'가 50년 동안 미해결 상태였던 복잡한 수학 난제를 단 1시간 만에 증명하는 쾌거를 거뒀다. 이는 AI가 단순 연산을 넘어 고차원적 학술 연구 및 문제 해결 영역에서 인간의 지적 능력을 보조하거나 상회할 수 있음을 보여준다."
+      },
+      {
+        "title": "\"오픈AI 의존도 낮춘다더니\"...MS, 권장 모델로 'GPT-5.6' 채택 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XMU9FZVhqTW50aWljMDZLQ09qYTVhYXFlb0I0M05lSkhwLUZ4bTNxNnE5SUxuektSenVVcjhBTlRnR0xUZi1pTWQtTjYxb0ZjaXd2OGZ6VDRFNXVXXy1xRDM4QzhBSE1vckE?oc=5",
+        "pubDate": "Sun, 12 Jul 2026 09:25:43 GMT",
+        "summary": "마이크로소프트가 자체 AI 모델 개발로 오픈AI 의존도를 낮추겠다는 당초 계획과 달리, 최신 모델인 'GPT-5.6'을 자사의 권장 모델로 채택했다. 이는 고성능 AI 경쟁에서 승리하기 위해 오픈AI의 기술력을 지속적으로 활용하려는 전략적 판단으로 풀이된다."
+      },
+      {
+        "title": "\"정부 허락받아야 나온다\" 미토스5·GPT 5.6이 거쳐야 했던 과정 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GOHJqT3diWVRuMG01bHhNaXBGRldaRnJ0NUpCQ3EtckdxeGlHV0hkUVZjVEItbk1NdUJhdEhLVkx2T25lSEJHblRubkZtZjQ?oc=5",
+        "pubDate": "Sun, 12 Jul 2026 21:02:58 GMT",
+        "summary": "미토스5와 GPT-5.6 등 최첨단 AI 모델들이 시장에 출시되기 전 정부의 철저한 사전 검증과 허가 과정을 거친 사실이 주목받고 있다. 이는 강력한 AI 모델의 부작용을 방지하고 안전성을 확보하기 위한 규제 당국의 통제가 점차 강화되고 있음을 시사한다."
+      },
+      {
+        "title": "AI에 주가 반토막, AI덕에 다시 2배로…위기=기회란 이 회사 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LUGlZQkRBMElOV1R1MFdFYWh4Wk9hem5vdHBBNVVoUy1MREhVaEJXYXdrT0p1SWxoVmRkWUZ0R1JIVkluNUd4ejlMR2VCd2s?oc=5",
+        "pubDate": "Sun, 12 Jul 2026 21:03:00 GMT",
+        "summary": "AI 도입 초기 기술 적응에 따른 비용 부담으로 주가 하락을 겪었던 기업들이, AI를 활용한 생산성 향상과 혁신으로 다시 주가 반등을 이루어내는 사례가 늘고 있다. 시장에서는 AI를 위기에서 기회로 전환하는 기업들의 대응 능력이 기업 가치를 결정짓는 핵심 요소가 되고 있다."
+      },
+      {
+        "title": "‘음악 마니아’ 용호성 문체부 前차관, 스위스 ‘AI 재즈 경연’ 우승 - 서울경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xSTdZb2FLUWRjcWpSVnh2TDNyUXZBT0NPam05VEtabF9WYWpzVjZVenBfdE10VEZZbDBMQ25taWQyc1lSbU1ocFZBZVMxZEl5OXfSAVNBVV95cUxOZHZaNy16ajlPYW8yaUJ2M1ltbUJ6UVVOWHVSX3BkdVpJdjAyOTlvZEZjUkRmN05lbTdOX2xyY1JfS281TUoyNmwxTlY1OGE4TlVaRQ?oc=5",
+        "pubDate": "Sun, 12 Jul 2026 21:05:00 GMT",
+        "summary": "용호성 전 문체부 차관이 스위스에서 열린 AI 재즈 경연대회에서 우승을 차지하며 AI가 음악 예술 분야에서도 인간과 협업하여 창의적인 결과물을 낼 수 있음을 입증했다. AI 기술이 기술적 도구를 넘어 문화와 예술 영역으로 폭넓게 확산하고 있다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-11T22:41:28.944Z",
     "reportDate": "2026. 7. 12.",
     "summary": "- AI 기술 경쟁 및 법적 갈등 심화: 주요 AI 기업 간의 기술 격차를 줄이기 위한 고성능 모델 출시 경쟁과 더불어, 핵심 기술과 영업비밀 유출을 둘러싼 거대 기업 간의 법적 분쟁이 본격화되고 있음.\n\n- AI 시장의 패러다임 변화: 범용성 위주의 초거대 AI 경쟁에서 벗어나, 비용 효율성을 극대화한 '가성비' 중심의 모델로 시장의 전략적 초점이 이동하고 있음.\n\n- 인프라 및 생태계 보호: 기술 혁신과 더불어 지식재산권과 하드웨어 설계 등 기업의 핵심 자산을 보호하려는 전략적 움직임이 향후 AI 산업 생태계에 중요한 변수로 작용할 전망임.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwMWtpMVE1NUtmRGxiN2VEMjRjZVJ6ZHFLUHdpMUZwdE5tTGtGSU1Yd2NkNzZpcVJ3Sm43VEVDNFBWZWR4MkFiOFVFYVBDRFU?oc=5",
         "pubDate": "Thu, 02 Jul 2026 21:32:01 GMT",
         "summary": "AI 국민비서 서비스가 행정 서류 발급과 제출 절차를 자동화하며 디지털 공공 서비스를 구현하고 있다. 사용자는 복잡한 서류 절차 없이 AI를 통해 간편하게 민원 업무를 처리하며 행정 접근성이 대폭 향상되었다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-07-01T23:08:09.699Z",
-    "reportDate": "2026. 7. 2.",
-    "summary": "- AI 인프라 및 전력 확보 경쟁: AI 모델 연산 수요 급증에 따라 안정적인 전력 공급이 데이터센터 운영의 핵심 과제로 부상하며, 관련 인프라 확보를 위한 글로벌 경쟁이 심화되고 있습니다.\n\n- 기술 활용 및 성능 한계 돌파: 바둑 등 고도의 지능이 필요한 분야에서 AI와 인간의 협업 및 성능 비교를 통해 모델의 한계를 극복하려는 연구와 시도가 계속되고 있습니다.\n\n- 수출 규제 및 서비스 정책 변화: 국가 안보 및 전략적 판단에 따른 AI 기술 수출 통제 정책이 유연하게 변화하고 있으며, 이는 기업들의 서비스 제공 방식과 글로벌 시장 접근성에 직접적인 영향을 미치고 있습니다.",
-    "news": [
-      {
-        "title": "[경제포커스] 돈 주고도 AI 못 쓰는 시대 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVXZSN0ZicEgwX0FVZ2phNFpqUWFPd1hsdnZvb05VNFcwZDk1LXdSR3BQVVBobktnbjNCY1RaZlhvX3BodmlhUGpkZ011WHN4bktDNDJDMzhTb2pJLWJncjdPSXpFTzlxbG51MGFWMWVIc0hsb0VTSUhRQnhNQnNnNEYtUzJDVWxmNzhxNg?oc=5",
-        "pubDate": "Wed, 01 Jul 2026 14:40:00 GMT",
-        "summary": "AI 기술의 급격한 발전에도 불구하고, 인프라 부족과 공급망 제약으로 인해 실질적인 AI 활용이 어려운 현상이 나타나고 있습니다. 기업들이 비용을 지불하려 해도 서비스 사용이나 인프라 확보가 원활하지 않은 'AI 공급 병목 현상'이 심화되고 있습니다."
-      },
-      {
-        "title": "美정부, 앤트로픽 AI '미토스' 수출통제 해제…내일 서비스 재개 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yOEJ2T1VJNFhfdTNHY25BNHlpZXRzUDlnazlsMS1ONTVUMU8xUXh6a1ctZjlyRWJjRmlJSnd4Nk1xbUIyNW5sOVg5NlZIVUJQSmZfUVZWeU5GOWPSAWBBVV95cUxNXy1XNlBiUnF5ajZOdWx0dk9tLTJDSlBRWHFKUkFYUEdNOWtKZW50OC1mR3ZlcTRPTnFoZlJKRmxEeVdBUTA0d2pHZ0RwSzQ2b2tnWUZCQkdFN0xuU1ZlQ2g?oc=5",
-        "pubDate": "Wed, 01 Jul 2026 00:11:16 GMT",
-        "summary": "미국 정부가 안보상의 이유로 제한했던 앤트로픽의 AI 모델 '미토스'에 대한 수출 통제를 해제했습니다. 이번 조치로 인해 관련 서비스가 재개될 예정이며, AI 기술의 대외 공유 및 수출 정책이 유연해질지 귀추가 주목됩니다."
-      },
-      {
-        "title": "앤트로픽, '페이블' AI 서비스 재개…미토스는 여전히 해외제한 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pMW5NS3N0MTZvbmR4VUNxSWFKcS11RWhHRzJEOGU3Q3dQaGtCM3FZY0FIMTlOQzNUejduUnR0RXNJMFBZajNfRGJOdVBqcTg?oc=5",
-        "pubDate": "Wed, 01 Jul 2026 22:14:03 GMT",
-        "summary": "앤트로픽이 '페이블' AI 서비스를 재개했으나, 모델별로 수출 제한 정책에 차이를 보이고 있습니다. 일부 서비스는 정상화되었으나 특정 AI 기술에 대해서는 여전히 엄격한 해외 접근 제한이 유지되고 있어 기업들의 서비스 운영에 변수가 되고 있습니다."
-      },
-      {
-        "title": "5시간 vs 20초…'바둑 최강' 신진서, '괴물 AI' 상대로 한계 깬다 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MYXRDU3hqMENENDVUQ3hTWHgya19jQzFVdHo4Vl9FQ0NVTGQtN0NwVUpBN2pFN2psbThUd25rbDZscHZ4NlpFYWY5WXpvdE4zMzQyRGRELXRqUdIBVEFVX3lxTFA5Qmpvckt1QVZVbXhTQnFuOW1qOE9Rd0t4bF96Wk5fRTRlNlo1SWJYUDNWSGlDQVFLSHhUUDVuYV9jMk9ERVB0NERIX2h6UUdhc2pZSQ?oc=5",
-        "pubDate": "Tue, 30 Jun 2026 08:51:16 GMT",
-        "summary": "바둑 기사 신진서 9단이 고성능 AI를 상대로 실력을 겨루며 인간의 한계를 시험하고 있습니다. AI와의 대국을 통해 인간의 전략적 사고와 AI의 연산 능력을 비교하고, 새로운 기술적 성과를 도출하려는 연구적 의미를 담고 있습니다."
-      },
-      {
-        "title": "호남만이 아니다…美 AI 데이터센터도 전력 확보 ‘사활’ - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aUFRtOG9zdUY5VnU0N2stdUxzb1dLT2VNeU9zYm15b041YzBua0NEY21GM0hvMXdrX1FraDMzT1ZIN0ZZOVc4aXhzR2lpRlk?oc=5",
-        "pubDate": "Wed, 01 Jul 2026 21:01:21 GMT",
-        "summary": "AI 데이터센터 가동을 위한 막대한 전력 소비가 미국 내 주요 현안으로 떠올랐습니다. 안정적인 전력 수급이 AI 경쟁력의 핵심으로 간주되면서, 전력 인프라 확충과 에너지 확보를 위한 데이터센터 기업들의 사활을 건 노력이 계속되고 있습니다."
       }
     ]
   }
