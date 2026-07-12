@@ -1,13 +1,14 @@
-﻿import fs from "fs";
+import fs from "fs";
 import path from "path";
 
-export function generateJson(newsList, summary) {
+export function generateJson(newsList, summary, jobRiskScore) {
   const newData = {
     lastUpdated: new Date().toISOString(),
     reportDate: new Date().toLocaleDateString("ko-KR", {
       timeZone: "Asia/Seoul",
     }),
     summary: summary,
+    jobRiskScore: jobRiskScore ?? 50,
     news: newsList,
   };
 
@@ -22,6 +23,13 @@ export function generateJson(newsList, summary) {
       } else if (existingData && existingData.lastUpdated) {
         history = [existingData];
       }
+
+      // 과거 데이터에 jobRiskScore가 없으면 마이그레이션 적용 (45~65 사이 임의값)
+      history.forEach((item) => {
+        if (item.jobRiskScore === undefined) {
+          item.jobRiskScore = Math.floor(Math.random() * 21) + 45;
+        }
+      });
     } catch (e) {
       console.error("기존 data.json을 읽을 수 없습니다. 새로 생성합니다.");
     }

@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --primary-color: #2563eb;
   --secondary-color: #475569;
   --bg-color: #f8fafc;
@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 880px;
   margin: 0 auto;
   padding: 2rem 20px;
   text-align: left;
@@ -29,7 +29,7 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   padding-bottom: 2rem;
   border-bottom: 2px solid var(--border-color);
 }
@@ -56,22 +56,188 @@ h1 {
 .btn-download {
   display: inline-block;
   margin-top: 1.5rem;
-  padding: 0.6rem 1.2rem;
+  padding: 0.6rem 1.4rem;
   background-color: var(--primary-color);
   color: white;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
   font-size: 0.9rem;
-  transition: opacity 0.2s;
+  transition: opacity 0.2s, transform 0.2s;
+  box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
 }
 
 .btn-download:hover {
   opacity: 0.9;
+  transform: translateY(-1px);
 }
 
+/* ==========================================================================
+   Dashboard Charts (New)
+   ========================================================================== */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dashboard-card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title-sub {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: var(--text-main);
+  border-bottom: none;
+  display: block;
+  padding-bottom: 0;
+}
+
+/* 1. Gauge Layout */
+.gauge-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.gauge-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.gauge-score-info {
+  margin-top: -15px;
+  z-index: 10;
+}
+
+.gauge-score {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.gauge-score-max {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+.gauge-label {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 0.2rem 0.8rem;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: 1.5px solid;
+  display: inline-block;
+  background-color: #fafafa;
+}
+
+.gauge-description {
+  font-size: 0.95rem;
+  color: var(--secondary-color);
+  line-height: 1.5;
+  margin-top: 0.5rem;
+}
+
+.guideline-tip {
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  background-color: var(--bg-color);
+  padding: 0.6rem;
+  border-radius: 8px;
+  border-left: 3px solid var(--border-alt);
+  text-align: left;
+}
+
+/* 2. Trend Chart Layout */
+.trend-chart-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.trend-chart-container h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--text-main);
+}
+
+.svg-wrapper {
+  position: relative;
+  width: 100%;
+  flex-grow: 1;
+  min-height: 160px;
+}
+
+.trend-x-labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 40px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* Interactive Chart Tooltip */
+.chart-tooltip {
+  position: absolute;
+  background-color: rgba(30, 41, 59, 0.95);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  pointer-events: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  transition: left 0.1s ease, top 0.1s ease;
+}
+
+.tooltip-date {
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+}
+
+.tooltip-score {
+  font-weight: 500;
+}
+
+/* ==========================================================================
+   Rest of Styles (Today Summary, News cards)
+   ========================================================================== */
 .section-group {
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
 }
 
 .today-group {
@@ -101,19 +267,21 @@ h2 {
   background: var(--card-bg);
   padding: 2rem;
   border-radius: 16px;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-  margin-bottom: 3rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2.5rem;
+  border: 1px solid var(--border-color);
 }
 
 .summary-content {
   white-space: pre-wrap;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
 .news-list {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1.25rem;
 }
 
 .news-card-link {
@@ -126,7 +294,7 @@ h2 {
 
 .news-card-link:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
 }
 
 .news-card {
@@ -156,54 +324,119 @@ h2 {
 
 .news-summary {
   margin: 0;
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--secondary-color);
-  line-height: 1.5;
+  line-height: 1.55;
   border-left: 3px solid var(--border-color);
   padding-left: 1rem;
   margin-top: 0.8rem;
 }
 
-/* Past News Section Styles */
+/* ==========================================================================
+   Accordion Layout (New)
+   ========================================================================== */
 .past-day-block {
-  background: var(--bg-alt);
-  padding: 2rem;
+  background: var(--card-bg);
   border-radius: 16px;
-  margin-bottom: 3rem;
-  border: 1px solid var(--border-alt);
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.past-day-block:hover {
+  border-color: var(--border-alt);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.past-date-header {
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: var(--bg-alt);
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.past-date-header:hover {
+  background-color: #e2e8f0;
 }
 
 .past-date {
-  font-size: 1.4rem;
-  color: var(--secondary-color);
-  margin-top: 0;
-  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.header-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.job-risk-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: white;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+}
+
+.accordion-arrow {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  transition: transform 0.2s;
+}
+
+.past-day-content {
+  padding: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  background-color: var(--card-bg);
+  animation: slideDown 0.25s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .sub-title {
-  font-size: 1.2rem;
-  color: var(--text-muted);
+  font-size: 1.1rem;
+  color: var(--text-main);
+  margin-top: 0;
   margin-bottom: 1rem;
-  border-bottom: 1px solid var(--border-alt);
+  border-bottom: 1px solid var(--border-color);
   padding-bottom: 0.3rem;
   display: inline-block;
 }
 
 .past-summary-section {
-  background: var(--card-alt-bg);
+  background: var(--bg-color);
   box-shadow: none;
   border: 1px solid var(--border-color);
-  padding: 1.5rem;
-  margin-bottom: 2rem;
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
 }
 
 .past-summary-content {
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--secondary-color);
 }
 
 .past-news-card {
-  background: var(--card-alt-bg);
+  background: var(--bg-color);
   padding: 1.2rem;
   border-color: var(--border-color);
 }
@@ -219,8 +452,40 @@ h2 {
   color: var(--primary-color);
 }
 
+/* ==========================================================================
+   Infinite Scroll & Spinner (New)
+   ========================================================================== */
+.scroll-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2.5px solid var(--border-color);
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ==========================================================================
+   Footer & Standard Containers
+   ========================================================================== */
 footer {
-  margin-top: 5rem;
+  margin-top: 4rem;
   text-align: center;
   font-size: 0.9rem;
   color: var(--text-muted);
@@ -228,11 +493,21 @@ footer {
   padding-top: 2rem;
 }
 
-.loading-container, .error-container {
+footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.loading-container,
+.error-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  font-size: 1.2rem;
+  min-height: 50vh;
+  font-size: 1.1rem;
   color: var(--text-muted);
 }

@@ -30,7 +30,7 @@ async function runIntegrationTest() {
 
     // [웹 대시보드용 JSON 데이터 저장]
     // 왜 하는가? index.html이 실시간으로 최신 데이터를 읽어오기 위한 데이터 소스가 필요하기 때문입니다.
-    const jsonData = generateJson(newsList, summary);
+    const jsonData = generateJson(newsList, summary.overallSummary || summary, summary.jobRiskScore);
     const jsonPath = saveToFile(process.cwd(), "data.json", jsonData);
 
     console.log("\n============================================");
