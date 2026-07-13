@@ -287,7 +287,7 @@ function App() {
     }
 
     return () => observer.disconnect();
-  }, [data, loading, error]);
+  }, [data, loading, error, visibleCount]);
 
   if (loading) {
     return <div className="loading-container">데이터를 불러오는 중...</div>;
