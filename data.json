@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-13T22:51:04.286Z",
+    "reportDate": "2026. 7. 14.",
+    "summary": "- 차세대 AI 모델의 비약적 성능 향상: 오픈AI의 최신 모델인 'GPT-5.6'이 수학 난제 해결 등 고도의 추론 능력을 입증하며 AI의 지적 한계를 확장함.\n\n- 빅테크 전략적 협력 및 생태계 고도화: 마이크로소프트가 자사 권장 모델로 GPT-5.6을 채택하며 AI 인프라 생태계 내 오픈AI와의 강력한 기술적 결합을 재확인함.\n\n- AI 기반 산업 생산성 혁신 및 사회적 대응: 제조 공정의 스마트화를 통한 생산 체제 효율화와 더불어, AI 기술 확산에 따른 고용 시장 변화 대응을 위한 지자체의 정책적 지원이 병행됨.",
+    "news": [
+      {
+        "title": "오픈AI \"GPT-5.6 솔 울트라, 50년 수학 난제 1시간 만에 증명\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mc2NrX05RbFBWNk1wamR0a0czMDBYQWdXY1BtMThndmx0dGw1b2lUUTdNYUtUQTk5clBGaC1kZGxFdDVnU3VPX1dYWUhjMHZuTlh5bWh3?oc=5",
+        "pubDate": "Sun, 12 Jul 2026 07:58:55 GMT",
+        "summary": "오픈AI의 차세대 모델 'GPT-5.6 솔 울트라'가 50년간 풀리지 않았던 수학적 난제를 1시간 만에 증명하는 성과를 냈다. 이는 AI가 단순 연산을 넘어 고도의 논리적 추론 및 과학적 문제 해결 영역에서 인간의 능력을 상회하고 있음을 시사한다."
+      },
+      {
+        "title": "오픈AI 최신 모델, 50년 수학 난제 1시간 만에 해결 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa1Q2RFY2SjJsZ0poTnpsYnNhU0h1ZjlZU3BYQ1pPcmh4VmNEQzJJQkZXbHVTMXd1YUZ6bjFZWUE3eG5oTGh5TFpIQTVyOWhwWGFnVm5tVTdRTmFRbHVMVjc1NU1oQUVDcDlWS1RtNThTcENOZEVjaFhmc3YzSWY2WW5ZOA?oc=5",
+        "pubDate": "Sun, 12 Jul 2026 15:43:06 GMT",
+        "summary": "오픈AI의 최신 AI 모델이 복잡한 수학적 난제를 단시간에 해결하며 인공지능의 지능적 도약 가능성을 입증했다. 업계에서는 이번 성과가 향후 학술 연구 및 과학 분야의 혁신을 가속화할 중요한 분기점이 될 것으로 평가하고 있다."
+      },
+      {
+        "title": "\"오픈AI 의존도 낮춘다더니\"...MS, 권장 모델로 'GPT-5.6' 채택 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XMU9FZVhqTW50aWljMDZLQ09qYTVhYXFlb0I0M05lSkhwLUZ4bTNxNnE5SUxuektSenVVcjhBTlRnR0xUZi1pTWQtTjYxb0ZjaXd2OGZ6VDRFNXVXXy1xRDM4QzhBSE1vckE?oc=5",
+        "pubDate": "Sun, 12 Jul 2026 09:25:43 GMT",
+        "summary": "마이크로소프트가 자사의 주요 권장 모델로 오픈AI의 'GPT-5.6'을 채택하며 기술 생태계 결합을 강화했다. 당초 추진하던 탈(脫) 오픈AI 전략에도 불구하고, 고성능 모델 확보를 위해 오픈AI와의 파트너십을 우선시한 결과로 해석된다."
+      },
+      {
+        "title": "농심 'AI 수출공장' 완공 임박…연간 라면 12억개 생산체제 구축 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xUk1ZZFN2bEIzLV9FanFOUnR3VlZiajYyQVNjdFdXRmtDLXBRZlB6aVU3cWRBRmxZclpUWk55TVdDakNrZG5uM29RMTNGdw?oc=5",
+        "pubDate": "Sun, 12 Jul 2026 08:00:00 GMT",
+        "summary": "농심이 AI 기술을 도입한 스마트 수출공장 완공을 앞두고 있으며, 이를 통해 연간 12억 개의 라면 생산 체제를 구축한다. 공정 전반에 AI를 적용하여 생산 효율성을 극대화하고 글로벌 시장 공급 능력을 대폭 강화할 예정이다."
+      },
+      {
+        "title": "'AI시대 여성 일자리 한눈에'…21일 서초구 여성 잡페스타 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pamtuY21JczdiOG9Nc0NGSmFBR1YtZ01McmludFp0aEFGRGxGREVMSDZUdFhJV1lyTFJibkVqaTF6YzVDd2VEMWtsQUVTR0k?oc=5",
+        "pubDate": "Mon, 13 Jul 2026 22:12:56 GMT",
+        "summary": "서울 서초구가 오는 21일 'AI시대 여성 일자리'를 주제로 한 잡페스타를 개최한다. AI 기술 확산에 따른 직무 환경 변화를 조명하고, 여성 구직자들에게 최신 기술 트렌드와 적합한 일자리 정보를 제공하는 데 목적이 있다."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-12T22:41:30.852Z",
     "reportDate": "2026. 7. 13.",
     "summary": "- AI 모델 고도화: 오픈AI의 'GPT-5.6 솔 울트라'가 50년 수학 난제를 해결하는 등 고차원적 논리 및 연구 역량을 입증하며 모델의 성능이 비약적으로 발전하고 있음.\n\n- 빅테크 전략 및 규제 강화: 마이크로소프트가 독자 모델 확보 노력에도 불구하고 GPT-5.6을 핵심 모델로 채택하는 등 생태계 의존성이 지속되고 있으며, 고성능 모델 출시에 앞선 정부 차원의 사전 검증 및 허가 절차가 강화되는 추세임.\n\n- 시장 변동성 및 문화적 확장: AI 기술 도입에 따른 기업 가치의 급격한 등락이 관찰되는 가운데, AI가 창작 영역인 재즈 경연에서 우승하는 등 산업과 문화를 넘나드는 다양한 활용 사례가 등장하고 있음.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04UFpMMFNkM0ptRDh1Q0thR196WHByY0xhaFAyMS1wUEFqdXpsQm93M2o5bVY3YnEwMVBWY2tyXzZYZWNPaV9sZG0wcS00Rzg?oc=5",
         "pubDate": "Fri, 03 Jul 2026 21:31:43 GMT",
         "summary": "요약 없음"
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-07-02T22:59:40.976Z",
-    "reportDate": "2026. 7. 3.",
-    "summary": "- 기술 효율성 및 경제성 개선: 추론 비용 절감을 위한 연산 최적화 기술이 도입되면서 AI 서비스의 경제적 지속가능성이 확보되고 있음.\n\n- 실생활 및 공공 서비스의 AI 전환: 민원 행정, 보행 보조 등 일상 영역에 AI가 깊숙이 침투하며 공공 편의성과 사용자 경험을 혁신하고 있음.\n\n- 제조 및 산업 현장의 정밀화: 페인트, 화장품 등 정밀한 배합이 필요한 분야에 AI가 도입되어 기존의 경험 의존적 방식을 데이터 기반의 정량적 방식으로 전환 중임.",
-    "news": [
-      {
-        "title": "수성알파시티서 AI-로봇 ‘스마트 도시’ 실험 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55SW1STU0tMTEzazFXZTNxSTluNUhmcmljMXFJX2o5aXVUb3luZTdPNlVBR2lUWjRiY0xULXp1RmY0WVhsVm9hTUVQRkJUaGM?oc=5",
-        "pubDate": "Thu, 02 Jul 2026 19:35:58 GMT",
-        "summary": "수성알파시티가 AI와 로봇 기술을 도심 인프라에 결합하는 스마트 도시 테스트베드로 활용되고 있다. 지역 내 실증 사업을 통해 AI 기반 로봇 기술의 실생활 적용 가능성을 검증하고 미래형 도시 모델을 구축하고 있다."
-      },
-      {
-        "title": "“감으로 맞추던 걸 정확하게”…페인트·화장품도 AI 바람 - KBS 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wanJNblFXRm9vRHJjalhjUWc0M0tOeU93RzhWRHVIdzl0VDRHVUZFTmg4Qk1hemxPMTJZVWVFeV8tLWZNLThQMG5JYmM2LWxDVWNRSGNyQmFhTUU?oc=5",
-        "pubDate": "Thu, 02 Jul 2026 12:40:00 GMT",
-        "summary": "제조 현장에서 숙련공의 경험에 의존하던 페인트 조색 및 화장품 배합 공정에 AI가 도입되고 있다. AI를 통해 정밀한 수치 데이터 기반의 배합이 가능해지면서 생산 효율성과 품질의 균일성이 크게 향상되었다."
-      },
-      {
-        "title": "걷기만 하면 AI가 학습한다…발목형 보행 보조 로봇 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPc2JpTFotbHBLQ0VCQXRsb0tqUmVtRl9Kb2dNMlMxU29QMDZCY2dNQU5KNXdwZ2FGSUUxVFp5UlNrdm9TVmVfREhSMzJldw?oc=5",
-        "pubDate": "Thu, 02 Jul 2026 21:00:00 GMT",
-        "summary": "사용자의 보행 습관을 실시간으로 학습하고 최적화된 보조력을 제공하는 발목형 웨어러블 로봇이 개발되었다. 개별 사용자의 보행 패턴 데이터를 AI가 분석하여 맞춤형 이동 지원 서비스를 제공하는 것이 핵심이다."
-      },
-      {
-        "title": "오픈AI, '컴퓨트 멀티플라이어’로 추론 비용 절반으로 줄여 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZdXZSX3JVOVgzTDdod3JXN0N6R2gtdzJleS1JRk9PMjVfMElLNERhREY3VjRHdFJZbkphYXNueVBoNW1oSncyMUpUaDNVOWJxSVl6cEh4S0ZGVzcxTk1SVEJDamc0OEE0alE?oc=5",
-        "pubDate": "Wed, 01 Jul 2026 09:15:16 GMT",
-        "summary": "오픈AI가 추론 비용을 기존 대비 50% 절감할 수 있는 새로운 연산 최적화 기술을 도입했다. 인프라 효율성을 높이는 컴퓨트 멀티플라이어 기술을 통해 고비용 구조를 개선하고 AI 서비스의 가격 경쟁력을 확보하고자 한다."
-      },
-      {
-        "title": "[써보니]\"동사무소 안가도 됩니다\"...증명서 발급부터 제출까지 다 되는 AI 국민비서 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwMWtpMVE1NUtmRGxiN2VEMjRjZVJ6ZHFLUHdpMUZwdE5tTGtGSU1Yd2NkNzZpcVJ3Sm43VEVDNFBWZWR4MkFiOFVFYVBDRFU?oc=5",
-        "pubDate": "Thu, 02 Jul 2026 21:32:01 GMT",
-        "summary": "AI 국민비서 서비스가 행정 서류 발급과 제출 절차를 자동화하며 디지털 공공 서비스를 구현하고 있다. 사용자는 복잡한 서류 절차 없이 AI를 통해 간편하게 민원 업무를 처리하며 행정 접근성이 대폭 향상되었다."
       }
     ]
   }
