@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-16T22:52:37.792Z",
+    "reportDate": "2026. 7. 17.",
+    "summary": "- 인프라 및 생태계 확장: 애플이 온디바이스 AI 경쟁력 강화를 위해 자체 칩 역량 강화에 나섰으며, 국내에서는 업스테이지와 퓨리오사AI가 협력해 하드웨어와 소프트웨어를 아우르는 '풀스택 AI' 상용화를 이끌고 있음.\n\n- 반도체 공급망 강화: AI 서비스의 핵심인 서버 및 기기 성능을 높이기 위해 애플이 반도체 기업 인수를 타진하는 등 글로벌 빅테크 기업들의 인프라 내재화 움직임이 가속화됨.\n\n- 산업 현장 및 공공 적용: 생성형 AI 모델이 스마트폰 등 개인용 기기에 탑재되는 '온디바이스 AI' 시대가 도래하며 실질적인 사용자 경험 혁신이 추진되고 있음.\n\n- 정책 및 윤리적 책임: 앤트로픽 등 주요 AI 기업 인사들이 AI 기술의 안전한 발전을 위해 관련 규제 지원을 위한 자금 기부에 나서는 등 기술적 진보와 함께 사회적 책임이 강조됨.",
+    "news": [
+      {
+        "title": "\"애플, AI 칩 제조업체 인수 검토 중\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CU0ZDaVQ3Q25KX1lILVg2UV9DOGRmVHdfWi11SHpyUjBRcjNuUkJsYjlUM0dQVm1abzdsVzRBc3Q5RDZJOFV0MEpKY3FsNGtEdnVTdmJB?oc=5",
+        "pubDate": "Wed, 15 Jul 2026 23:45:31 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "애플, AI 서버칩 경쟁력 위해 반도체기업 인수 타진 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YZXlJMlVuNlM5YVMzWHI0d05kSV9UeXlzN0Z2UGloLVU4a05acDRYdUZMTnpRSUloUkJOeTFrRl9ocks2RWZ2U2ZMcHJCTEd6WGhxcDNhSWZiMEHSAWBBVV95cUxNVWFwS2hSaVV1NmdMUmxkX3ZaM2ctRjBNMVlhMHBQZTBKcGhtQUNqSXBsellMb1NPd1B0ZC1UM3NyVzFibUl1RjdqODAzM3VtaGhfTFI4WWxJazRqaU9UMEg?oc=5",
+        "pubDate": "Wed, 15 Jul 2026 17:49:09 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "[기획] 아이폰에도 AI모델 쏙… ‘내 손 안의 DC’ 현실로 성큼 - dt.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42OGh6RGh2Z054VVN2UkI1eG9wdHFfNHpuQjBmVUZuR2RaUTh1Q1J5MkJpaGhyQWw0N252dzR2RjdEbEJlcnNoR29yX2p0dw?oc=5",
+        "pubDate": "Wed, 15 Jul 2026 07:41:44 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "업스테이지·퓨리오사AI \"국산 기술로 '풀스택 AI' 첫 상용화\" - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ndDE5OTdiM0VqWUZ1UUNxcmpoR2x5QktBRU9rOTdjNVpacFE3YTFpbnpkckRxTXZ6dURZYVVydGVNeTJ2S2hqS2NjdkZOVEI3bmQ2dUg0MjBDaWw4N1dvYmU0NXJyVXU0eUE?oc=5",
+        "pubDate": "Wed, 15 Jul 2026 09:04:18 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "앤트로픽 CEO·직원들, 'AI 규제' 슈퍼팩에 거액 기부 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43N2prZzNXQzhZTU5ZQzA3UDRUbnJuc3k0ZXVHMHZhYW1JQzVWQ0JLcHd4NFM0Q0VlclJIb0NwV1R2Y2dHa0hFME8xVzRSMkU?oc=5",
+        "pubDate": "Thu, 16 Jul 2026 20:02:39 GMT",
+        "summary": "요약 없음"
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-15T22:54:10.732Z",
     "reportDate": "2026. 7. 16.",
     "summary": "- AI 대중화 및 생태계 확산: 정부 주도의 '모두의 AI' 프로젝트에 국내 주요 IT 기업과 통신사, 스타트업이 적극 참여하며 전국민 대상 AI 서비스 보급을 위한 경쟁이 본격화되고 있음.\n\n- AI 기술적 진화와 도전: 대규모 언어 모델이 새로운 언어를 생성하는 등 기술적 진보가 나타나고 있으나, 시스템의 효율적 운영 및 비용 절감 모델 확보가 주요 과제로 부상함.\n\n- 시장 변동성 및 거시경제 영향: AI 산업에 대한 대규모 투자가 물가 상승 요인으로 지목되면서 관련 반도체 기업의 증시 변동성이 확대되는 등 시장의 경계감이 높아짐.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjUGpqUUY2M0ZQNW9XTFhMaUNuajdvUnluR2dsU0N2eHM1ZVhFekgxS29pbXkzNVFVdW5YS3N5amtLc3l6WjVaaUtMbUtqX1UzdjNJeDB6TUFKWHPSAWBBVV95cUxNV3FhTGNFV0tjV2IzajhvbGZLYnJkN0pXUlM3MGtGWWpzcjVHeTF2bzNJMUNrd24wT2NlQkhrUHBJRkhMSUt0Sm1KVk0tN21kQl9KNkZBS01fVnJNbDJSU1Y?oc=5",
         "pubDate": "Mon, 06 Jul 2026 22:08:55 GMT",
         "summary": "강남구가 서울대학교와 협력하여 청소년 대상 AI 창작 캠프를 운영하며 공공 차원의 디지털 역량 교육을 강화함. 단순 기술 활용을 넘어 AI를 창의적 도구로 활용할 수 있는 미래 인재 양성 모델이 지역 사회로 확산되고 있음."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-07-05T22:57:20.296Z",
-    "reportDate": "2026. 7. 6.",
-    "summary": "- AI 인프라 확장 및 전환: AI 데이터센터에 대한 수요가 급증함에 따라 기존 암호화폐 채굴 기업들이 데이터센터로 업종을 전환하거나, 통신사 및 IT 기업들이 대규모 인프라 구축에 속도를 내고 있음.\n\n- 자원 효율성 및 지속가능성 이슈: AI 학습 및 운영에 막대한 전력과 용수가 소비되는 문제가 대두되면서 효율적인 데이터센터 운영에 대한 관심과 논의가 강화되고 있음.\n\n- AI 활용 역량 및 사회적 담론: AI 에이전트를 통한 주식 자동매매 등 실질적인 산업 활용 사례가 증가하는 한편, AI 시대에 인간의 창의성과 주체적인 업무 역량의 중요성에 대한 사회적 성찰이 활발히 이루어짐.",
-    "news": [
-      {
-        "title": "이세돌 \"당신은 왜 시키는 일만 하면서 AI에 대체될까 두려워 하나\" - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd1UxYk9mNjc5YnZxai1ubC1ucmlJSm1YM3ZlN01BV0RwSWRYRkJaREJWLWdyUE1RWmJqZVFsVXQyY19KQUVfUDhfeUFPcGxDaUVBVGZDNEp5LThDM0JpZlpGaEFYbGQ1eUhRZGVkZVUtQ29sdnp3MkpISk5Oc1pxdg?oc=5",
-        "pubDate": "Sun, 05 Jul 2026 20:20:00 GMT",
-        "summary": "이세돌 9단은 AI가 단순 반복 업무를 대체하는 시대에 인간이 고유한 창의성을 발휘해야 한다고 강조했다. AI를 두려워하기보다 도구로 활용하며 스스로 사고하는 역량을 키우는 것이 미래 생존의 핵심임을 시사했다."
-      },
-      {
-        "title": "'전기 먹는 하마' AI 데이터센터, 물도 많이 먹는다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51Zm1CaFBrS1BjQnkwSzAtWU42a1pEOGdOQV9EZm42TXo3dlFZX3Atc0NQd1lfQVdYajFwWEpuMF8xQmw4aEVIcHdsMVppcWYxdGtMQjNB?oc=5",
-        "pubDate": "Sun, 05 Jul 2026 02:44:22 GMT",
-        "summary": "AI 데이터센터 운영 과정에서 발생하는 막대한 발열을 식히기 위해 사용되는 냉각수 소모 문제가 새로운 환경적 과제로 떠올랐다. 전력뿐만 아니라 수자원 소비 효율화가 지속 가능한 AI 인프라 구축의 필수 요소로 지목된다."
-      },
-      {
-        "title": "암호화폐 채굴업체들, AI 데이터센터로 변신한다는데 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNamVjSjBRaXlob05yUTZXSVdRLTNFUUFIeXZtTmphS1RadWpxQjVYUjhWZ3V1Z2ZaMG1ZNlVFZ0l1eFNVeWRtUkt2cmpza0xRV2JTdGpiQ1BweTBUTUhiZ09MWUtmNjNxRGU3clpkUXVVdTJKQmtpbDdsMng2S3RTV1d0a01zZw?oc=5",
-        "pubDate": "Sat, 04 Jul 2026 20:53:00 GMT",
-        "summary": "암호화폐 채굴업체들이 보유한 고성능 연산 인프라를 활용해 AI 데이터센터로 사업 구조를 전환하고 있다. 이는 수익 다변화와 함께 늘어나는 AI 인프라 수요를 충족하려는 전략적 움직임으로 풀이된다."
-      },
-      {
-        "title": "SKT, 1000조 AI 데이터센터 '속도전' - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FWG9ORnFUTTNqSFc0dERXX3poOEhQZ3ZKclVTcmNpT2JPMDdOcUFGUDJNTThDVWVKZkpaTGJLSUthSkxkQ3dmTDhjVEY4SW42MmlESzRPU2xWUdIBVEFVX3lxTE5LcHMxa3NjOFNqSWNhWXVRaU1yOE9PZ2xPOXJnZnBIQ2VGaWRTVDVXbjhubk9mZUM1bHJXczQ5d3RoYXE3NnlvN3AtVDRZbFE1UjFRVg?oc=5",
-        "pubDate": "Sun, 05 Jul 2026 08:36:21 GMT",
-        "summary": "SK텔레콤이 거대 AI 데이터센터(AIDC) 구축 사업에 속도를 내며 국가적 AI 인프라 경쟁력 확보에 나서고 있다. 통신 네트워크와 결합한 고효율 데이터센터를 통해 글로벌 AI 시장에서의 입지를 다지려는 전략이다."
-      },
-      {
-        "title": "KAIST 석사과정 AI에이전트로 주식 자동매매…수익률은? - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NYm11UDl1RW5aQzVZeHBIQzJrRlB4TkV2SkoyaDVqMUE0UjNmTVJFNjlGaGNma0piZUx3SC02bHhUQ2lud2pfNk9Ka010VmM?oc=5",
-        "pubDate": "Sun, 05 Jul 2026 21:01:51 GMT",
-        "summary": "KAIST 연구팀이 개발한 AI 에이전트가 주식 시장에서 자동매매를 수행하며 기술적 실효성을 입증했다. AI가 단순히 정보를 분석하는 단계를 넘어 경제 활동에 직접 참여하는 사례가 늘어나고 있음을 보여준다."
       }
     ]
   }
