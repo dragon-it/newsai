@@ -1,5 +1,42 @@
 [
   {
+    "lastUpdated": "2026-07-19T22:44:32.871Z",
+    "reportDate": "2026. 7. 20.",
+    "summary": "- AI 기술 고도화와 인력 시장의 변화: AI가 스스로 AI를 개발하는 단계에 진입하며, 기존 AI 연구자들의 직업적 안정성에 대한 우려와 함께 노동 시장 내 경력 사다리가 흔들리는 구조적 변화가 감지됨.\n\n- 중국 AI의 급격한 추격: '딥시크(DeepSeek)'에 이어 문샷 AI의 '키미(Kimi) K3'가 시장에서 흥행하며 중국 AI 기술력이 미국과의 격차를 2~3개월 수준으로 좁혔다는 평가가 지배적임.\n\n- 기업 성장 및 자본 시장 움직임: 중국 AI 기업들이 기술적 성과를 바탕으로 홍콩 증시 상장을 추진하는 등 대규모 자본 확보를 통해 생태계 확장을 가속화하고 있음.",
+    "news": [
+      {
+        "title": "AI가 AI 개발하는 시대...수백억 연봉 AI 연구자도 불안 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQXBhWUlYNFZBUW9GV0Jza2VFYVZkZDhEYVBIWmt0aDVYcUNfOWJYRTV6ZUY0dzd1N2xHUFFyckhTT2hYVWNlSkdZeXc2STlMV19qNkFyc1VSQnF0NHVSRVVlTERqQ1FXZEpubFlEbjdweEpfVm5XYjhwSXJjR0RkWm1Taw?oc=5",
+        "pubDate": "Sun, 19 Jul 2026 21:04:30 GMT",
+        "summary": "AI가 스스로 AI를 설계하고 코딩하는 능력이 비약적으로 발전하면서 최고 수준의 AI 연구자들조차 직업적 위기감을 느끼고 있음. 단순 개발 업무가 자동화됨에 따라 기존의 기술 중심 고용 시장이 재편될 가능성이 높음."
+      },
+      {
+        "title": "딥시크 이어 ‘키미 K3’ 쇼크…중국 AI, 미국 턱밑까지 왔다 - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwS1N2Y3dNUzF6eF9nSWtsTVVLSzJpcUVWdlRWRXB1aGQtbDdlbG1uVjVzcFJQT0NIbTAteHFoUVR1aWlJSjFPYVlESXNrejVXcWZwbEtqRzd3QdIBX0FVX3lxTE50QlY3Tko1cFc3d0ZnNWI2VXhLUWE1dWF4XzBzUmNwTTM5em85X01HU0JsTzluMUVhUGZXUG5LNEhPMW9YamtLbUFLQi1JdllWTGJaZDZ5ZDRoVElMdFBn?oc=5",
+        "pubDate": "Sun, 19 Jul 2026 11:49:00 GMT",
+        "summary": "중국 문샷 AI가 선보인 '키미 K3'가 뛰어난 성능을 보이며 중국 AI 기술력이 미국을 빠르게 추격하고 있음. 중국 AI 생태계가 저비용·고효율 전략을 통해 미국 빅테크와의 격차를 최소화하고 있음."
+      },
+      {
+        "title": "중국, 딥시크 이어 ‘키미 쇼크’…“미국 AI와 격차 단 2~3개월” [팩플] - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BOHVBRTFEUFMxT29MRDBzMks4SjlnN3NaNzAydHh6aEt4b3U1cFIzVWZGZm5CUUdvUnU3ZVlhWkMwZlotYWlTbVV1eDg3dlZ4RWlaOGZR?oc=5",
+        "pubDate": "Sun, 19 Jul 2026 09:41:48 GMT",
+        "summary": "업계 전문가들은 중국 AI의 추격 속도가 매우 빨라 미국과의 기술 격차가 사실상 2~3개월에 불과하다고 분석함. 중국 기업들이 모델 효율화를 통해 생성형 AI 시장의 판도를 뒤흔들고 있음."
+      },
+      {
+        "title": "문샷 AI, 6개월 내 홍콩 상장 추진…'키미 K3' 흥행으로 동력 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4zMUEwY2w5UnhGa09YVTNxeWFBdnFmRlRhektyUUItckVjcXJta0lJUTJUNUYwRzNXUkdhaU5zc21YRzkzNEtjZ3duS3F3Zw?oc=5",
+        "pubDate": "Sun, 19 Jul 2026 21:40:38 GMT",
+        "summary": "문샷 AI가 자사 모델 '키미 K3'의 성공을 동력 삼아 향후 6개월 내 홍콩 증시 상장을 추진함. 이번 상장은 중국 AI 스타트업이 대규모 자금을 조달해 기술 경쟁력을 강화하려는 전략으로 풀이됨."
+      },
+      {
+        "title": "[사다리밖 2030] ⑥ AI 시대, 첫 직장이 사라진다…'경력 사다리' 흔들 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84eDZXanJ0WUhNYW1TWWZGZzA1a2pHVURCRWNBSjQ3MHZ0MlNrN1N5eWpsMEExZ3dVdmR6ak1RWEkzdVhvb0h0VTJmdzhJcEgtbjdJcEFlcmVnRWfSAWBBVV95cUxQNGZDUTVEM0ZrM2owQnNZdVZVRWlQLUpBcGZHSC1hUFk3UnF1QW5HS0YwOER6TTd5Ni1BN3JPQWxneExJSm1BaldkYzJyTlFkX2djcjVYWG14Ykc3UENRZFM?oc=5",
+        "pubDate": "Sun, 19 Jul 2026 22:00:11 GMT",
+        "summary": "AI의 급속한 발전으로 주니어급 인력이 수행하던 실무가 자동화되면서 청년 세대의 커리어 형성이 어려워지고 있음. 신입 사원의 교육 환경이 붕괴하고 경력 사다리가 끊기는 노동 시장의 불평등 심화가 우려됨."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-17T22:43:00.390Z",
     "reportDate": "2026. 7. 18.",
     "summary": "- 서비스 생태계 확장 및 다각화: 오픈AI가 가족용 제품 개발을 위한 인력을 채용하는 등 AI 서비스의 대중화 및 타겟 세분화가 가속화되고 있음.\n\n- 비용 효율성 및 글로벌 경쟁 심화: 높은 운영 비용으로 인해 미국 기업들이 중국산 저비용 AI 모델로 눈을 돌리는 등 AI 시장 내 가격 경쟁력이 핵심 변수로 부상함.\n\n- 인프라 및 환경적 이슈 부각: AI 데이터센터의 폭발적인 전력 수요로 인한 전기 요금 인상 등 사회적 비용 문제와 AI 교육 현장 도입에 대한 찬반 논란이 지속됨.\n\n- 산업 및 의료 현장의 실질적 적용: 파킨슨병 환자의 보행 보조 등 AI 기술이 실생활과 의료 현장에서 삶의 질을 실질적으로 개선하는 사례가 증가하고 있음.",
@@ -329,43 +366,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wRS1HLS1UVDBGejg5anFXbGxYdjRxaDhwWFM2TmVqamo5RnpaLUVIR0VFdnZINnY0Q2RIOWI2RXR5U3dMTlpqNE1Ja3ZHbnc4MmZoMTYwdS1HWm0xYjRRMg?oc=5",
         "pubDate": "Wed, 08 Jul 2026 22:02:48 GMT",
         "summary": "영국에서 AI 법률 보조 서비스를 활용한 당사자가 재판에서 승소하는 첫 사례가 발생했다. 복잡한 법적 문서 작성과 전략 수립에 AI가 효과적으로 기여하면서 법률 시장 내 AI의 실질적인 효용성이 입증되었다."
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-07-07T22:56:07.156Z",
-    "reportDate": "2026. 7. 8.",
-    "summary": "- AI 기술의 고도화 및 내면화: 앤트로픽의 연구를 통해 AI 모델이 학습 과정에서 잠재적 속마음이나 의도를 가질 수 있다는 가능성이 제기되며, AI의 안전성과 투명성에 대한 기술적 논의가 심화되고 있음.\n\n- AI 투자의 ROI(투자 대비 효율) 경계론 확산: 삼성전자의 실적 호조에도 불구하고, 시장에서는 AI 관련 인프라 및 반도체 분야의 과도한 지출이 실제 수익성으로 이어질지에 대한 회의적인 시각과 우려가 교차함.\n\n- 메모리 반도체 시장의 불확실성과 기대: AI 가속기 수요로 인한 고대역폭메모리(HBM) 쇼티지(공급 부족) 현상은 지속되고 있으나, 반도체 산업 전반에 대한 시장의 기대치가 매우 높아 향후 실적 유지 여부가 중요한 변수로 작용함.\n\n- 인문학적·사회적 관점의 재조명: 기술적 발전과 별개로 생성형 AI 시대의 확산에 따라 인지 능력의 외주화 등에 대한 사회적 경계와 인간 고유의 사고 체계 유지에 대한 담론이 형성됨.",
-    "news": [
-      {
-        "title": "앤트로픽 \"AI도 말로 드러내지 않는 '속마음' 있다\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YZjFTNXQxeXo3T3djZm5JZzZWTDh2MmFfdFJFb0pEM25mNGN5MTI5dE84Qk9GU3M1U05RZnQ3UDk4T29XX1pUamtUTjFsbVBmbVk5aTB2RGVJUFXSAWBBVV95cUxOMXNxaS0zbWVkZm5pQ3FSZllKS3FpLXVNSlJ5QXVEX0ZlU0tNZ29sZ3hzYlREczlsNjJON0tKNzM5REszVHNPakV0dVNFM1ZNQWNxNUg1ZFNSX1dGaUxfQTI?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 11:53:32 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "삼성전자 89조 실적도 못 믿는 시장…AI 랠리 덮친 'ROI 의심' - 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YTG96WG5DSU5ZUGp1RHNGNVBUVXhvMlZqV1QzUnhxVjk1SjVZYTRCODNzQUxLQ2wxZE4yVlI2TjJnX1pMcl9ZTTZJRVR2bFpBWVJUa0ptWWctZEFVb29nVVZfNGhoMllsYkRYU3pnRWU?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 05:15:00 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "\"삼전 호실적, 반도체·AI 향한 과도한 지출과 높은 기대 우려 불러와\" - 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DQ3dEZUJYUkJXSGs0bEphUmZqWWVkcEJRZlFIZUl0dEFBWUs4eWlqODlRLWJQVE8wMmRJaU41bEVLRjdkMktKWkZQQVFGb2hwSm5ibmhKbm8tYjBnODV2UnlkdzNiV0gzWmlDeVdWbmbSAXRBVV95cUxNRDBta3ZseDRjY3JndHY1cDVGbUtIVWNKazNYcEZrM2EtcGJTZl92ek04ZURDNWhYTjdoVFlSTFQ3aHN2WlZnWDdZVHZqVkFSOExlS094UXZsclhCbWJ2RWtXMnhWWnRTbG5kWWVCX0x0LWNUWg?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 22:46:14 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "삼전 2Q 실적에 월가 \"높아진 기대 충족…AI메모리 쇼티지 여전\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpd3NWQndyQ0V3OEVpRUc5aWdWamd4ZVFNM0hESGtnSHl4ZjI2dlNnOG01bnpaUVBvMDdjVXJSNVRtaTk4cVhuRGVBRzJ6N1E?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 01:25:14 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "생성형 AI 시대, 기대·우려 교차…\"생각의 외주화 경계해야\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JTkV1U0M0TE04RktoSGp0Q3BnYXhyZzh1MHVoSTFTaExTamtyWVdnUmFHbXlhbkhoTGRJZmFzV2ZHOUt3a0FNaFF0dnZtZDA?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 21:01:44 GMT",
-        "summary": "요약 없음"
       }
     ]
   }
