@@ -1,4 +1,5 @@
-﻿import path from "path";
+import fs from "fs";
+import path from "path";
 import { fetchAINews } from "./services/fetchNews.js";
 import { summarizeNews } from "./services/summarizeNews.js";
 import { generateMarkdown } from "./formatters/generateMarkdown.js";
@@ -42,7 +43,7 @@ async function main() {
     const mdPath = saveToFile(reportsDir, "report-" + date + ".md", markdownReport);
     console.log("💾 Markdown 저장 완료: " + mdPath);
 
-    const jsonReport = generateJson(newsList, summary);
+    const jsonReport = generateJson(newsList, summary, summaryData.jobRiskScore);
     const jsonPath = saveToFile(process.cwd(), "data.json", jsonReport);
     console.log("💾 JSON 저장 완료: " + jsonPath);
 
@@ -51,6 +52,17 @@ async function main() {
     const pdfPath = path.join(reportsDir, "report-" + date + ".pdf");
     await generatePdf(markdownReport, pdfPath);
     console.log("💾 PDF 저장 완료: " + pdfPath);
+
+    // 대시보드에서 다운로드할 수 있도록 public 디렉토리에 복사
+    try {
+      const publicPdfDir = path.join(process.cwd(), "dashboard", "public");
+      if (fs.existsSync(publicPdfDir)) {
+        fs.copyFileSync(pdfPath, path.join(publicPdfDir, "report.pdf"));
+        console.log("💾 Dashboard public 폴더에 PDF 복사 완료: report.pdf");
+      }
+    } catch (copyError) {
+      console.warn("⚠️ Dashboard public 폴더에 PDF 복사 실패 (로컬 대시보드 셋업 여부 확인 필요):", copyError.message);
+    }
 
     // 5. Discord 알림 전송
     console.log("\n🔄 [5/5] Discord 알림 전송 중...");
