@@ -1,5 +1,43 @@
 [
   {
+    "lastUpdated": "2026-07-20T22:54:05.945Z",
+    "reportDate": "2026. 7. 21.",
+    "summary": "- 인프라 및 생태계 확장: AI 산업 성장에 따른 데이터센터 구축 수요가 급증하며 철강·화학 등 연관 산업의 동반 성장이 가속화되고 있음. 공유형 AI 데이터센터 도입을 통해 국가 차원의 AI 전환(AX)을 실증하려는 움직임이 활발함.\n\n- 반도체 및 에너지 공급망 갈등: AI 데이터센터 확장에 따른 전력 및 수자원 사용 급증으로 미국 전역에서 반대 시위가 발생하는 등 인프라 구축과 지역사회 환경 이슈 간의 갈등이 심화되고 있음.\n\n- AI 기술 발전과 안전 관리: 오픈AI의 새로운 모델 테스트를 통해 AI 활용이 단순 답변 생성을 넘어 워크플로우 효율화로 진화하고 있으며, AI의 자율적 운용 시에도 비상 상황에서 인간이 즉시 제동해야 한다는 안전 및 책임 규정이 강조됨.",
+    "jobRiskScore": 50,
+    "news": [
+      {
+        "title": "[단독]'데이터센터 철강' 올해분 다 팔려간다…AI·로봇 올라탄 철강·화학 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ldl8zUlJYcW1QdHNMcWVLQmxBamx4bGl1WXZIbmNOTjNqV0lXMkxOaGxFNHVWVDlINWI4Ui1aWjN2cnFndW00NkRnVFkxZ0dOSUQ3a1cxOFdsSUZTcEpRa2g3Um5aOHdWV2dVQ9IBckFVX3lxTE94SjZsR1lubHRtcl9kT2pCdXVvMTVENWRLMXNkdmNpM2lHeHdTeGZZdnBFWEV5dTFvT2dhdEUtdWE4cnI5dE1OdXVwdVlFUzllUi1KdkNpU3RBdUZVUWZXTzdIX19IZHVZekE3WVZlQUdhdw?oc=5",
+        "pubDate": "Sun, 19 Jul 2026 20:50:00 GMT",
+        "summary": "요약 없음"
+      },
+      {
+        "title": "[기고]함께 쓰는 AI 데이터센터로 풀어가는 대한민국 AX 실증 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14MVk0MUZWVVpubGg0SzN3SVRtcC1OcTRLT2JaTHNJN1Y5RFJlRm9IbGNwaTBsaXZZUjRrVndfeEdmY1NzMnBfV1FlcmVKVHc?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 20:03:06 GMT",
+        "summary": "AI 전환(AX)을 가속화하기 위해 공공과 민간이 자원을 공유하는 데이터센터 생태계 구축이 필수적임을 강조함. 자원 효율성을 극대화하여 기술 경쟁력을 확보하기 위한 정책적 제언을 담고 있음."
+      },
+      {
+        "title": "미국 전역서 AI 데이터센터 반대 시위…42개 주서 초당적 동시 집회 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5WelZSdG5Rdm56MklkTExkUkpGWHFYSWFyZ1FsWVRsSFlSX28xaXFyV09rYXlQb0tJUHBVMDJNdG5aRTlnUWUydzBMNkNOajhIUFliczNCSnJVdFFYZ1FVeTZsZVcyZkdzTEE?oc=5",
+        "pubDate": "Sun, 19 Jul 2026 06:20:04 GMT",
+        "summary": "AI 데이터센터의 막대한 전력 소모와 수자원 사용에 반대하는 주민들의 시위가 미국 전역에서 동시다발적으로 발생함. AI 인프라 확장이 지역 환경과 공공 이익에 미치는 영향에 대한 사회적 논란이 확산 중임."
+      },
+      {
+        "title": "오픈AI, 'GPT-5.6 솔' 사용자 후기 1만건 공개…\"워크플로우 중심으로\" - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1eUFXcjFqTkw3MXh5dEtWZjk4SnczR1lKUFB2YkZnX1BOcjZva0ZvMG5tYk9rTmluUDVnZmNJMUtJT0F3WmNFRzVXbTN0aXhidU4tNXBFQm14YXBnNkZqQ05hLVF4dm9IQmc?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 21:01:34 GMT",
+        "summary": "오픈AI가 공개한 신규 모델 'GPT-5.6 솔'의 사용자 후기는 단순 챗봇 기능을 넘어 업무 워크플로우를 자동화하는 생산성 도구로서의 가능성을 보여줌. 사용자들은 실질적인 업무 효율화 도구로 AI를 평가하고 있음."
+      },
+      {
+        "title": "AI가 물·전기 맡아도…비상 땐 ‘사람’이 즉시 제동 의무화 - 헤럴드경제",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hbGF3N2hMQm9iYUMxbi1rWHI3VzFDeDdNQ2N3SHg3ZXE3QzJlMUIwS0E1MGQwS2dYaHNfTkhiR2JCNk82aEh2QV9XMHNvQ1FNbG04a01R?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 22:16:52 GMT",
+        "summary": "AI가 국가 기반 시설인 물과 전기 관리 시스템을 효율화하고 있으나, 비상시 통제권을 사람이 즉시 확보해야 한다는 안전 규정 논의가 본격화됨. 자율 시스템 운영의 편리함보다 기술적 안전성과 책임 소재가 중요하게 다뤄지고 있음."
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-19T22:44:32.871Z",
     "reportDate": "2026. 7. 20.",
     "summary": "- AI 기술 고도화와 인력 시장의 변화: AI가 스스로 AI를 개발하는 단계에 진입하며, 기존 AI 연구자들의 직업적 안정성에 대한 우려와 함께 노동 시장 내 경력 사다리가 흔들리는 구조적 변화가 감지됨.\n\n- 중국 AI의 급격한 추격: '딥시크(DeepSeek)'에 이어 문샷 AI의 '키미(Kimi) K3'가 시장에서 흥행하며 중국 AI 기술력이 미국과의 격차를 2~3개월 수준으로 좁혔다는 평가가 지배적임.\n\n- 기업 성장 및 자본 시장 움직임: 중국 AI 기업들이 기술적 성과를 바탕으로 홍콩 증시 상장을 추진하는 등 대규모 자본 확보를 통해 생태계 확장을 가속화하고 있음.",
@@ -34,7 +72,8 @@
         "pubDate": "Sun, 19 Jul 2026 22:00:11 GMT",
         "summary": "AI의 급속한 발전으로 주니어급 인력이 수행하던 실무가 자동화되면서 청년 세대의 커리어 형성이 어려워지고 있음. 신입 사원의 교육 환경이 붕괴하고 경력 사다리가 끊기는 노동 시장의 불평등 심화가 우려됨."
       }
-    ]
+    ],
+    "jobRiskScore": 46
   },
   {
     "lastUpdated": "2026-07-17T22:43:00.390Z",
@@ -71,7 +110,8 @@
         "pubDate": "Fri, 17 Jul 2026 21:01:00 GMT",
         "summary": "AI 기술이 파킨슨병 환자의 보행 어려움을 개선하는 등 실질적인 재활 보조 도구로 활용되고 있다. 기술이 장애인의 일상생활 회복과 사회적 활동을 돕는 긍정적인 사례가 주목받고 있다."
       }
-    ]
+    ],
+    "jobRiskScore": 47
   },
   {
     "lastUpdated": "2026-07-16T22:52:37.792Z",
@@ -108,7 +148,8 @@
         "pubDate": "Thu, 16 Jul 2026 20:02:39 GMT",
         "summary": "요약 없음"
       }
-    ]
+    ],
+    "jobRiskScore": 58
   },
   {
     "lastUpdated": "2026-07-15T22:54:10.732Z",
@@ -145,7 +186,8 @@
         "pubDate": "Wed, 15 Jul 2026 22:12:00 GMT",
         "summary": "미국 연방준비제도가 AI 분야에 집중된 막대한 투자가 단기적인 물가 상승 요인이 될 수 있다고 경고함. 이로 인해 투자 심리가 위축되면서 뉴욕 증시에서 SK하이닉스 등 관련 반도체 기업의 주가가 하락세를 보임."
       }
-    ]
+    ],
+    "jobRiskScore": 54
   },
   {
     "lastUpdated": "2026-07-14T22:52:53.706Z",
@@ -182,7 +224,8 @@
         "pubDate": "Tue, 14 Jul 2026 21:02:26 GMT",
         "summary": "AI가 학습 과정에서 인간이 정의하지 않은 새로운 언어를 스스로 생성하는 현상이 관찰되었다. 이는 AI 모델이 단순히 데이터를 처리하는 단계를 넘어 복잡한 정보 전달 체계를 구성할 수 있음을 시사하며, AI 간 통신 규약에 대한 연구로 이어지고 있다."
       }
-    ]
+    ],
+    "jobRiskScore": 52
   },
   {
     "lastUpdated": "2026-07-13T22:51:04.286Z",
@@ -219,7 +262,8 @@
         "pubDate": "Mon, 13 Jul 2026 22:12:56 GMT",
         "summary": "서울 서초구가 오는 21일 'AI시대 여성 일자리'를 주제로 한 잡페스타를 개최한다. AI 기술 확산에 따른 직무 환경 변화를 조명하고, 여성 구직자들에게 최신 기술 트렌드와 적합한 일자리 정보를 제공하는 데 목적이 있다."
       }
-    ]
+    ],
+    "jobRiskScore": 51
   },
   {
     "lastUpdated": "2026-07-12T22:41:30.852Z",
@@ -256,7 +300,8 @@
         "pubDate": "Sun, 12 Jul 2026 21:05:00 GMT",
         "summary": "용호성 전 문체부 차관이 스위스에서 열린 AI 재즈 경연대회에서 우승을 차지하며 AI가 음악 예술 분야에서도 인간과 협업하여 창의적인 결과물을 낼 수 있음을 입증했다. AI 기술이 기술적 도구를 넘어 문화와 예술 영역으로 폭넓게 확산하고 있다."
       }
-    ]
+    ],
+    "jobRiskScore": 49
   },
   {
     "lastUpdated": "2026-07-11T22:41:28.944Z",
@@ -293,7 +338,8 @@
         "pubDate": "Sat, 11 Jul 2026 07:33:27 GMT",
         "summary": "요약 없음"
       }
-    ]
+    ],
+    "jobRiskScore": 65
   },
   {
     "lastUpdated": "2026-07-09T23:06:46.772Z",
@@ -330,43 +376,7 @@
         "pubDate": "Thu, 09 Jul 2026 22:07:51 GMT",
         "summary": "메타가 인공지능 기술뿐만 아니라 컴퓨팅 인프라 자체를 서비스화하여 수익을 창출하려는 전략을 추진 중이다. 막대한 자본이 투입된 AI 인프라를 통해 기술 경쟁력 확보와 수익 모델 다각화라는 두 마리 토끼를 잡겠다는 의지다."
       }
-    ]
-  },
-  {
-    "lastUpdated": "2026-07-08T22:59:27.194Z",
-    "reportDate": "2026. 7. 9.",
-    "summary": "- 비용 효율성 중심의 전환: 고가의 범용 AI 모델을 넘어 가성비와 효율성을 강조하는 '토성비' 및 '토크노믹스' 기반의 맞춤형 모델 수요가 확산되고 있음.\n\n- AI 안전 및 윤리 규제 강화: 주요 AI 기업들의 안전성 평가 결과가 전반적으로 저조함에 따라, 국제적인 AI 안전 기준 수립과 기술 규제가 핵심 과제로 부상함.\n\n- 실생활 및 산업 현장 도입: 로봇 공학을 통한 고령자 돌봄 서비스와 법률 자문 서비스 등 AI가 구체적인 실무 영역에서 실질적인 성과를 거두며 일상에 침투하고 있음.\n\n- 지정학적 기술 패권 경쟁: 중국이 최첨단 AI 모델의 해외 접근 제한을 검토하는 등 국가 안보와 기술 보호를 둘러싼 글로벌 AI 진영 간의 격차가 심화되는 양상임.",
-    "news": [
-      {
-        "title": "[비즈톡] “비싼 AI만 쓰지말고...” ‘토성비’ ‘토크노믹스’ 시대 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSFpLQ0JkSXl4d0hCY1FZSnRYZHBkeHlmNEhiTjJ2QlY2cWg2NHd5SE9jQ0tGWE5HbEVpRW1mSDUyV2RscDNxMTEwV0JURTd5bHZMV2JMMmFvSUROckxqRGx2emRfX0dfdy1LdXJ2ckZONUFLOWNqR29DN3REMGlkVVk2RQ?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 21:04:19 GMT",
-        "summary": "AI 도입 비용 부담이 커지면서 기업들이 무조건적인 고성능 모델 사용 대신 성능과 비용 효율을 고려한 '토성비(토큰당 성능비)'를 중요하게 생각하고 있다. 합리적인 토큰 소비를 지향하는 '토크노믹스' 개념이 도입되며 AI 생태계가 실용주의 중심으로 재편되고 있다."
-      },
-      {
-        "title": "세계 AI 기업 안전 성적표…9개 기업 중 'C+'가 최고점 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zQndWbERIb1p1RzdBNjJndmo0V082RWdDY1E1RGd3a0lqSFZaWGVuM09aV3lENnktenRWcS0xSWNxLVIyM3lwLU9LeWlYdWg3aUxzUXBn?oc=5",
-        "pubDate": "Wed, 08 Jul 2026 01:00:04 GMT",
-        "summary": "글로벌 주요 AI 기업 9곳을 대상으로 안전성을 평가한 결과 최고점이 'C+'에 그치며 AI 안전 조치에 대한 경각심이 높아졌다. 이번 평가는 AI 모델의 투명성과 안전 기준 강화가 시급함을 시사하며, 기업들의 책임 있는 기술 개발을 촉구하고 있다."
-      },
-      {
-        "title": "AI 두뇌 갖춘 로봇, 영국서 고령자 돌봄 나선다 - 이투데이",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DdUxUYnpqbTVsN1hfWldoMUZ5Yk9Hd0FEN1F0OTdKM2RjbEFSbEJjNkN2eXljWXNHX2doWDlnYzA2VFl6Vi04M0wxNDB5RDlRNENqRzEzSHREdw?oc=5",
-        "pubDate": "Wed, 08 Jul 2026 22:00:00 GMT",
-        "summary": "영국에서 생성형 AI를 탑재한 휴머노이드 로봇이 고령자 돌봄 현장에 투입되어 실증을 시작했다. AI 로봇은 노인과의 대화 및 일상 보조를 수행하며 인구 고령화 문제 해결을 위한 기술적 대안으로 주목받고 있다."
-      },
-      {
-        "title": "“중국, 자국 최첨단 AI 모델 해외 접근 제한 검토” - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IaHhTTmtyS1dnel9Jbml5dUxDZXFhRktRdGhmdk1rcVF5aEpNckFnWnczVVZIak5aWmtFYnhyaHR6WWlabHNTZkNxUnRSU2M?oc=5",
-        "pubDate": "Wed, 08 Jul 2026 22:29:03 GMT",
-        "summary": "중국 정부가 자국 내 개발된 최첨단 AI 모델의 해외 유출을 막기 위해 접근 제한 조치를 검토 중이다. 이는 기술 패권 경쟁 속에서 자국의 AI 기술력을 보호하고 전략적 자산으로 활용하려는 의도로 풀이된다."
-      },
-      {
-        "title": "\"AI 로펌 도움받고 이겼다\"…영국서 첫 사례 - 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wRS1HLS1UVDBGejg5anFXbGxYdjRxaDhwWFM2TmVqamo5RnpaLUVIR0VFdnZINnY0Q2RIOWI2RXR5U3dMTlpqNE1Ja3ZHbnc4MmZoMTYwdS1HWm0xYjRRMg?oc=5",
-        "pubDate": "Wed, 08 Jul 2026 22:02:48 GMT",
-        "summary": "영국에서 AI 법률 보조 서비스를 활용한 당사자가 재판에서 승소하는 첫 사례가 발생했다. 복잡한 법적 문서 작성과 전략 수립에 AI가 효과적으로 기여하면서 법률 시장 내 AI의 실질적인 효용성이 입증되었다."
-      }
-    ]
+    ],
+    "jobRiskScore": 64
   }
 ]
