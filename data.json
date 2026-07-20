@@ -1,38 +1,38 @@
 [
   {
-    "lastUpdated": "2026-07-19T22:44:32.871Z",
+    "lastUpdated": "2026-07-20T05:47:10.493Z",
     "reportDate": "2026. 7. 20.",
-    "summary": "- AI 기술 고도화와 인력 시장의 변화: AI가 스스로 AI를 개발하는 단계에 진입하며, 기존 AI 연구자들의 직업적 안정성에 대한 우려와 함께 노동 시장 내 경력 사다리가 흔들리는 구조적 변화가 감지됨.\n\n- 중국 AI의 급격한 추격: '딥시크(DeepSeek)'에 이어 문샷 AI의 '키미(Kimi) K3'가 시장에서 흥행하며 중국 AI 기술력이 미국과의 격차를 2~3개월 수준으로 좁혔다는 평가가 지배적임.\n\n- 기업 성장 및 자본 시장 움직임: 중국 AI 기업들이 기술적 성과를 바탕으로 홍콩 증시 상장을 추진하는 등 대규모 자본 확보를 통해 생태계 확장을 가속화하고 있음.",
+    "summary": "- AI 인프라 수요 급증: 데이터센터 구축에 필요한 철강 등 소재 산업이 AI 수요에 힘입어 전례 없는 호황을 맞이하고 있음.\n\n- AI 개발 생태계의 고도화 및 위기감: 초소형 모델(sLLM)의 성능이 비약적으로 발전함과 동시에, AI가 스스로 AI를 개발하는 자동화 추세로 인해 핵심 연구자들 사이에서도 기술 변화에 대한 불안감이 공존하고 있음.\n\n- 산업적 활용 및 사회적 책임: 금융 시장의 예측 도구부터 공공기관의 AI 윤리 체계 수립에 이르기까지 AI 기술이 실질적인 의사결정 지원 및 사회적 인프라로서 본격적으로 도입되고 있음.",
     "news": [
+      {
+        "title": "[단독]'데이터센터 철강' 올해분 다 팔려…AI·로봇 올라탄 철강·화학 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ldl8zUlJYcW1QdHNMcWVLQmxBamx4bGl1WXZIbmNOTjNqV0lXMkxOaGxFNHVWVDlINWI4Ui1aWjN2cnFndW00NkRnVFkxZ0dOSUQ3a1cxOFdsSUZTcEpRa2g3Um5aOHdWV2dVQ9IBckFVX3lxTE94SjZsR1lubHRtcl9kT2pCdXVvMTVENWRLMXNkdmNpM2lHeHdTeGZZdnBFWEV5dTFvT2dhdEUtdWE4cnI5dE1OdXVwdVlFUzllUi1KdkNpU3RBdUZVUWZXTzdIX19IZHVZekE3WVZlQUdhdw?oc=5",
+        "pubDate": "Sun, 19 Jul 2026 20:50:00 GMT",
+        "summary": "요약 없음"
+      },
       {
         "title": "AI가 AI 개발하는 시대...수백억 연봉 AI 연구자도 불안 - 조선일보",
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQXBhWUlYNFZBUW9GV0Jza2VFYVZkZDhEYVBIWmt0aDVYcUNfOWJYRTV6ZUY0dzd1N2xHUFFyckhTT2hYVWNlSkdZeXc2STlMV19qNkFyc1VSQnF0NHVSRVVlTERqQ1FXZEpubFlEbjdweEpfVm5XYjhwSXJjR0RkWm1Taw?oc=5",
         "pubDate": "Sun, 19 Jul 2026 21:04:30 GMT",
-        "summary": "AI가 스스로 AI를 설계하고 코딩하는 능력이 비약적으로 발전하면서 최고 수준의 AI 연구자들조차 직업적 위기감을 느끼고 있음. 단순 개발 업무가 자동화됨에 따라 기존의 기술 중심 고용 시장이 재편될 가능성이 높음."
+        "summary": "요약 없음"
       },
       {
-        "title": "딥시크 이어 ‘키미 K3’ 쇼크…중국 AI, 미국 턱밑까지 왔다 - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwS1N2Y3dNUzF6eF9nSWtsTVVLSzJpcUVWdlRWRXB1aGQtbDdlbG1uVjVzcFJQT0NIbTAteHFoUVR1aWlJSjFPYVlESXNrejVXcWZwbEtqRzd3QdIBX0FVX3lxTE50QlY3Tko1cFc3d0ZnNWI2VXhLUWE1dWF4XzBzUmNwTTM5em85X01HU0JsTzluMUVhUGZXUG5LNEhPMW9YamtLbUFLQi1JdllWTGJaZDZ5ZDRoVElMdFBn?oc=5",
-        "pubDate": "Sun, 19 Jul 2026 11:49:00 GMT",
-        "summary": "중국 문샷 AI가 선보인 '키미 K3'가 뛰어난 성능을 보이며 중국 AI 기술력이 미국을 빠르게 추격하고 있음. 중국 AI 생태계가 저비용·고효율 전략을 통해 미국 빅테크와의 격차를 최소화하고 있음."
+        "title": "팀스파르타 “1.8B 모델로 K-AI 리더보드 추론 성능 1위” - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vRTJiZC1Ld0tOVXRLb3hUZGc1VlIzUzVlMDBVcFJvN0dxVU11YkpOUXJHRkd4My1UcllFSXJXekwxaEpnVk5wUzRtZDZhN1FqS1FRVGFxdjVrd2FGTlVfMjhhYVp6UzhPSkE?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 03:18:25 GMT",
+        "summary": "요약 없음"
       },
       {
-        "title": "중국, 딥시크 이어 ‘키미 쇼크’…“미국 AI와 격차 단 2~3개월” [팩플] - 중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BOHVBRTFEUFMxT29MRDBzMks4SjlnN3NaNzAydHh6aEt4b3U1cFIzVWZGZm5CUUdvUnU3ZVlhWkMwZlotYWlTbVV1eDg3dlZ4RWlaOGZR?oc=5",
-        "pubDate": "Sun, 19 Jul 2026 09:41:48 GMT",
-        "summary": "업계 전문가들은 중국 AI의 추격 속도가 매우 빨라 미국과의 기술 격차가 사실상 2~3개월에 불과하다고 분석함. 중국 기업들이 모델 효율화를 통해 생성형 AI 시장의 판도를 뒤흔들고 있음."
+        "title": "소진공 'AI 윤리원칙' 수립…AI윤리 준수기관 지정 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE02cWxVRGxYTmV6cXJkWU1PMHpHZlJtVlRVRkRIYVg1aDF4UElrMWFSRWQ4dWlqdEpxRnFuZ1NFMnk3cnVVWlRNbzdsUm9vcWM?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 05:35:30 GMT",
+        "summary": "요약 없음"
       },
       {
-        "title": "문샷 AI, 6개월 내 홍콩 상장 추진…'키미 K3' 흥행으로 동력 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4zMUEwY2w5UnhGa09YVTNxeWFBdnFmRlRhektyUUItckVjcXJta0lJUTJUNUYwRzNXUkdhaU5zc21YRzkzNEtjZ3duS3F3Zw?oc=5",
-        "pubDate": "Sun, 19 Jul 2026 21:40:38 GMT",
-        "summary": "문샷 AI가 자사 모델 '키미 K3'의 성공을 동력 삼아 향후 6개월 내 홍콩 증시 상장을 추진함. 이번 상장은 중국 AI 스타트업이 대규모 자금을 조달해 기술 경쟁력을 강화하려는 전략으로 풀이됨."
-      },
-      {
-        "title": "[사다리밖 2030] ⑥ AI 시대, 첫 직장이 사라진다…'경력 사다리' 흔들 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84eDZXanJ0WUhNYW1TWWZGZzA1a2pHVURCRWNBSjQ3MHZ0MlNrN1N5eWpsMEExZ3dVdmR6ak1RWEkzdVhvb0h0VTJmdzhJcEgtbjdJcEFlcmVnRWfSAWBBVV95cUxQNGZDUTVEM0ZrM2owQnNZdVZVRWlQLUpBcGZHSC1hUFk3UnF1QW5HS0YwOER6TTd5Ni1BN3JPQWxneExJSm1BaldkYzJyTlFkX2djcjVYWG14Ykc3UENRZFM?oc=5",
-        "pubDate": "Sun, 19 Jul 2026 22:00:11 GMT",
-        "summary": "AI의 급속한 발전으로 주니어급 인력이 수행하던 실무가 자동화되면서 청년 세대의 커리어 형성이 어려워지고 있음. 신입 사원의 교육 환경이 붕괴하고 경력 사다리가 끊기는 노동 시장의 불평등 심화가 우려됨."
+        "title": "말 아끼는 연준에 ‘워시GPT’ 등장…월가, AI로 금리 신호 찾는다 - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VTlhjN3h5RmsxSmxKTzlCZWFvU0VDQzM2TnB1dXE5SXp0eEE5ZUlhdmZVRnRTY0tMam9CU19BTlh1V1RmajhnMzl1eU1sYkl6cGs2RzVB?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 04:31:08 GMT",
+        "summary": "요약 없음"
       }
     ]
   },
