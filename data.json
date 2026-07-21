@@ -1,28 +1,28 @@
 [
   {
-    "lastUpdated": "2026-07-21T09:17:33.302Z",
+    "lastUpdated": "2026-07-21T10:35:01.649Z",
     "reportDate": "2026. 7. 21.",
-    "summary": "- 인프라 및 생태계 확장: MS와 AMD의 전략적 동맹을 통해 클라우드 기반 AI 인프라가 대폭 강화되고 있으며, 엔비디아 중심의 독점 체제를 탈피하려는 움직임이 가속화됨.\n\n- 반도체 공급망 강화: AI 가속기 시장의 경쟁이 성능 중심에서 비용 효율성 중심으로 전환되면서, 대체 칩 공급업체의 영향력이 확대되고 기술 주도권 다툼이 치열해짐.\n\n- 산업 현장 및 공공 적용: 바둑과 같은 고난도 전략 분야에서 인간의 대응 능력이 재조명되는 한편, 국가별 AI 기술 경쟁이 글로벌 반도체 시장의 변동성을 키우는 핵심 요인으로 작용함.",
-    "summaryScore": 88,
-    "jobRiskScore": 78,
+    "summary": "- 인간 대 AI 대결의 이정표: 바둑 기사 신진서가 최강 AI '카타고'를 상대로 승리를 거두며 인간의 전략적 우위와 한계 돌파 가능성을 입증함.\n\n- 중국의 기술 굴기: 중국이 새로운 AI 모델을 공개하며 미국과의 기술 격차를 좁히고 있으며, 이로 인해 반도체 시장의 불확실성이 증대됨.\n\n- 산업 특화 AI 확산: 파수AI가 뷰티 플랫폼 구축 사업을 수주하는 등 AI 기술이 서비스업과 일상 영역으로 구체화되고 있음.",
+    "summaryScore": 78,
+    "jobRiskScore": 84,
     "riskScoreBreakdown": [
       {
-        "event": "엔비디아 독점 탈피를 위한 클라우드 인프라 확장",
+        "event": "중국 AI 기술 경쟁력 강화",
         "sign": "+",
         "impact": 4,
         "newsIndex": 4
       },
       {
-        "event": "AI 가속기 비용 경쟁력 강화로 인한 자동화 도입 가속화",
-        "sign": "+",
+        "event": "인간의 전략적 대응 능력 확인",
+        "sign": " -",
         "impact": 6,
-        "newsIndex": 3
+        "newsIndex": 1
       },
       {
-        "event": "고난도 전략 분야에서의 인간 대 AI 협업 모델 제시",
-        "sign": "-",
+        "event": "서비스 산업 내 AI 통합 가속화",
+        "sign": "+",
         "impact": 3,
-        "newsIndex": 1
+        "newsIndex": 5
       }
     ],
     "news": [
@@ -30,51 +30,51 @@
         "title": "신진서, 현존 최강 바둑AI 꺾었다…“전략 있는 한, 인간은 쉽게 지지 않아” - 한겨레",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FNmpSUkREV3JfVlFOYWNJTHA3NUIwTUdMVUFiMXJmN1EyaFJTZXZLYm1Dd1BobHZYU1pfNDZTcUJxekJkRl9CR0dGeEJiZkFyVUJLM3ZtbXR0ZlVWSEFMdlh0enVzR0x0R28zaDBOaVNNdw?oc=5",
         "pubDate": "Tue, 21 Jul 2026 08:46:00 GMT",
-        "summary": "인간 바둑 기사가 현존 최강 AI를 상대로 전략적 우위를 입증하며 AI의 한계와 인간의 창의적 대응 가능성을 시사했다. 이는 단순 연산 이상의 전략적 영역에서 인간의 역할이 여전히 중요함을 보여준다.",
-        "importance": 7,
-        "aiImpact": 6,
+        "summary": "신진서 9단이 최강 바둑 AI 카타고를 상대로 승리하며 인간의 전략적 사고가 AI 시대에도 유효함을 입증했다. 이는 AI와의 협업 및 대결에서 인간의 역할 가능성을 시사하는 사례다.",
+        "importance": 4,
+        "aiImpact": 5,
         "automationPotential": 2,
         "investmentImpact": 3
+      },
+      {
+        "title": "AI 꺾은 바둑의 ‘신’…신진서 “인간이 버틸수 있다는걸 증명했다” - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UYms0SGRUYWNMQzZMUXB2aWNGS1NMbFIwTVZ0LWg1dHFSY0VfSEFRZ3Y2YlpwYVRYQ3VmY0NhQVJwTUlhYnkyMGhQb010Unl5WlJUMk91TDBrM0hnc2xRMXBiOEZBYVdVa3FZZHJHdUJiajRQWGfSAWZBVV95cUxORHl0V0pydjRxR19NVjhadEkyZFB2c0NVakpvX0hVcDg0WDZsMEFLMFhuZ01jalVvd2VWNDRQeHdQMkRJTEpoeGJobzFHbXpXVGJzVy1EWlpGd2NiN2RPZFBvdTlkSmc?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 05:10:00 GMT",
+        "summary": "신진서의 승리 소식이 연일 화제가 되며 인간과 AI 간의 기술적 관계에 대한 담론이 형성되었다. AI가 완벽하지 않다는 인식과 인간의 전략적 가치가 재조명받고 있다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "신진서, 최강 바둑 AI '카타고'에 2연승…역전 우승 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43TU9hVkg4SlA3UklRTnJVbEYydjFkUGE0eWJQbENxOFRmZU9YU3htSmJnV2xRQU5qbDhKY3VhbWJOZGtjX1dublNVczBPdWxCVlNtT0xB?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 09:01:19 GMT",
+        "summary": "신진서가 카타고를 꺾고 역전 우승을 달성하며 인간 바둑의 새로운 기록을 세웠다. 기술적 분석을 넘어 스포츠 정신 측면에서의 인간의 승리로 평가받는다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 2
       },
       {
         "title": "중국 새 AI 공개 \"미국 따라잡나\"‥반도체 '휘청' - MBC 뉴스",
         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaOW1jV0cxejhiYVFDM1l1TW9ESVUzMkdMNlBzTHE3WGpNM3ZVR1c4QVBmVGtjZEJJSVJnbkg0YjBCamstRjVncnR2RDVvb1hqa1ZtbXZrWnpKdDFvakNDak5rTzVjcEJyNkFCMzdxdnFJdkQ3MEw2bkNR?oc=5",
         "pubDate": "Mon, 20 Jul 2026 21:37:31 GMT",
-        "summary": "중국이 새로운 AI 모델을 공개하며 미국 주도의 기술 패권에 도전장을 내밀었다. 이로 인해 글로벌 반도체 공급망의 불확실성이 커지며 시장 변동성이 확대되고 있다.",
-        "importance": 9,
-        "aiImpact": 8,
+        "summary": "중국이 새로운 AI 모델을 발표하며 미국을 위협하는 기술력을 과시했다. 이로 인해 글로벌 반도체 공급망과 시장의 변동성이 커지고 있다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "파수AI, 리안헤어 ‘AI 뷰티 플랫폼’ 구축 맡아 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjR1dYRkJOdk1PTXJkb2VpaVJhbTl3d056SDlZYl9VYmxtRGRJeS12cFlyWDMyTmlPTEdjeEtJOXRSVGRwbV9wbHhwMmUtdzQ?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 10:06:39 GMT",
+        "summary": "파수AI가 리안헤어의 뷰티 플랫폼 구축을 담당하며 실생활 밀착형 AI 서비스 구현에 나섰다. AI 기술이 미용 및 서비스 산업으로 본격적으로 확장되고 있음을 보여준다.",
+        "importance": 3,
+        "aiImpact": 3,
         "automationPotential": 4,
-        "investmentImpact": 9
-      },
-      {
-        "title": "2라운드 접어든 脫엔비디아 전쟁...AI칩 성능보다 비용 경쟁 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WNzdPSWdlREl4U1hUeXdET0dWVkViUWI5aGpId2FVa2tzWi01R0Y0dVJySjVVeTdFdEVvLXB4dDdKOW4tSU9nTHhUT01LaW8?oc=5",
-        "pubDate": "Tue, 21 Jul 2026 06:14:51 GMT",
-        "summary": "AI 칩 시장이 고성능 경쟁에서 비용 효율성 중심의 2라운드로 진입했다. 더 경제적인 칩 도입은 기업들의 AI 도입 문턱을 낮춰 산업 현장 전반의 자동화를 촉진할 전망이다.",
-        "importance": 8,
-        "aiImpact": 7,
-        "automationPotential": 8,
-        "investmentImpact": 9
-      },
-      {
-        "title": "AMD-MS, AI 동맹 확대…애저에 차세대 '헬리오스' AI 인프라 도입 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41VXNYYjJXZlU3ckxqRjhnQ2YtWEZnVWNMQTlOMWFucUM4VFRQTldVZ1BQbDRuT1E1T3N5dDREeFE2UHRVcldWYXZ5VF8zNko3a1NKMlNPWnRNVlZYaFRRZXJHczQ0RknSAWxBVV95cUxOUHh5TnFSd2FrNG5yeG9kQjNYbWVKWklMMUR2V1BKVWNSS01wNGpscjQ5MkhMWC03UmtHNEVDcU5jNlhCSzFMT01MSmlPWENRczJ3VjUydUkyYTJhX2RVZ1BrN0doN2Y0Y2o3aWk?oc=5",
-        "pubDate": "Tue, 21 Jul 2026 08:43:44 GMT",
-        "summary": "AMD와 마이크로소프트가 클라우드 인프라 협력을 강화하며 차세대 AI 가속기 '헬리오스'를 도입한다. 엔비디아 의존도를 줄이려는 이번 동맹은 클라우드 AI 서비스의 가격 경쟁력을 높일 것으로 보인다.",
-        "importance": 9,
-        "aiImpact": 8,
-        "automationPotential": 6,
-        "investmentImpact": 9
-      },
-      {
-        "title": "MS, 클라우드 '애저'에 AMD AI랙 대거 도입…엔비디아 독주 견제 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFMlo1c1IzRm12VVhKRUxVMG9UcS1TMDRYWmpXbWNybFdxNV8yUnJCbEtuTWZtWVZPWERSdUFBRDBpMVJ0ekZCQlpma3ZrX2FEX2hld185VmtkQU3SAWBBVV95cUxPVDZGY2ZwSl9uZE1KckxlamdHcWVGcHU3eUtweGN0akQ3WHMwMkw4M1FpbDcwX3lyY2RLdHA3SmFzQTdhZm5qS2owMHJwOWhPSjBVYkJpVG8wRnhxaFR6b3M?oc=5",
-        "pubDate": "Mon, 20 Jul 2026 19:22:55 GMT",
-        "summary": "마이크로소프트가 자사 클라우드 애저에 AMD AI 랙을 대거 배치하며 엔비디아의 독주 체제를 견제하고 나섰다. 이는 데이터센터 하드웨어 시장의 공급처 다변화와 가격 안정화에 중요한 변곡점이 될 것이다.",
-        "importance": 8,
-        "aiImpact": 7,
-        "automationPotential": 5,
-        "investmentImpact": 8
+        "investmentImpact": 3
       }
     ]
   },
