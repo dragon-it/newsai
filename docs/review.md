@@ -24,6 +24,17 @@
 
 > **작성 가이드**: 새로운 기능이 구현될 때마다 상단에 새 기록을 추가하여 누적 관리합니다.
 
+### 2026-07-21 대시보드 빌드 오류 수정 (상태 및 레프 변수 중복 정의 구문 제거)
+
+- **검토 대상**: `dashboard/src/App.jsx`
+- **구현 내용**:
+  - **중복 정의 구문 제거**: `App` 컴포넌트 내부에서 `expandedDays`, `setExpandedDays`, `visibleCount`, `setVisibleCount`, `loaderRef` 변수들이 두 번 선언되어 esbuild 변환 단계에서 빌드 오류를 야기하던 코드를 제거했습니다.
+- **이슈 및 트러블슈팅**:
+  - `The symbol ... has already been declared` 라는 빌드 실패 오류를 해결하고 Vite 빌드 프로세스가 정상 통과하도록 조치했습니다.
+- **체크리스트**:
+  - [x] App.jsx 내의 React 훅 변수 중복 선언이 정리되었는가
+  - [x] npm run build 명령이 빌드 오류 없이 정상적으로 실행 및 완료되는가
+
 ### 2026-07-21 디스코드 웹훅 알림 포맷 개선 (대시보드 마스크드 링크 연동)
 
 - **검토 대상**: `src/index.js`

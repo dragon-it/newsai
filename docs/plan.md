@@ -45,6 +45,7 @@
 ## Phase 8. (Optional) 리액트 대시보드 확장
 
 - [x] dashboard/ 폴더에 React 프로젝트 구조 분리 및 대시보드 구축
+- [x] dashboard/ 빌드 오류 및 중복 상태 정의 구문 수정
 
 ## Phase 9. 통합 실행
 
