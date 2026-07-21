@@ -4,7 +4,6 @@ import { fetchAINews } from "./services/fetchNews.js";
 import { summarizeNews } from "./services/summarizeNews.js";
 import { generateMarkdown } from "./formatters/generateMarkdown.js";
 import { generateJson } from "./formatters/generateJson.js";
-import { generatePdf } from "./formatters/generatePdf.js";
 import { sendDiscordMessage } from "./notifications/sendDiscord.js";
 import { saveToFile } from "./utils/fileSystem.js";
 
@@ -20,14 +19,22 @@ async function main() {
     // 2. 뉴스 요약
     console.log("\n🔄 [2/5] LLM 기반 뉴스 요약 중...");
     const summaryData = await summarizeNews(newsList);
-    
-    // 개별 요약 결과를 newsList에 병합
-    newsList.forEach(news => {
-      if (summaryData.newsSummaries) {
-        const matched = summaryData.newsSummaries.find(ns => ns.title === news.title);
-        news.summary = matched ? matched.summary : "요약 없음";
+
+    // 개별 요약 결과를 newsList에 병합 (순서 기준 1:1 매칭)
+    newsList.forEach((news, idx) => {
+      const matched = summaryData.newsSummaries && summaryData.newsSummaries[idx];
+      if (matched) {
+        news.summary = matched.summary || "요약 없음";
+        news.importance = matched.importance ?? 3;
+        news.aiImpact = matched.aiImpact ?? 3;
+        news.automationPotential = matched.automationPotential ?? 3;
+        news.investmentImpact = matched.investmentImpact ?? 3;
       } else {
         news.summary = "요약 없음";
+        news.importance = 3;
+        news.aiImpact = 3;
+        news.automationPotential = 3;
+        news.investmentImpact = 3;
       }
     });
     const summary = summaryData.overallSummary || summaryData;
@@ -39,36 +46,30 @@ async function main() {
     const date = new Date().toISOString().split("T")[0];
     const reportsDir = path.join(process.cwd(), "reports");
 
-    const markdownReport = generateMarkdown(newsList, summary);
+    const markdownReport = generateMarkdown(
+      newsList,
+      summary,
+      summaryData.overallScore,
+      summaryData.riskScoreBreakdown
+    );
     const mdPath = saveToFile(reportsDir, "report-" + date + ".md", markdownReport);
     console.log("💾 Markdown 저장 완료: " + mdPath);
 
-    const jsonReport = generateJson(newsList, summary, summaryData.jobRiskScore);
+    const jsonReport = generateJson(
+      newsList,
+      summary,
+      summaryData.jobRiskScore,
+      summaryData.overallScore,
+      summaryData.riskScoreBreakdown
+    );
     const jsonPath = saveToFile(process.cwd(), "data.json", jsonReport);
     console.log("💾 JSON 저장 완료: " + jsonPath);
 
-    // 4. PDF 생성
-    console.log("\n🔄 [4/5] PDF 리포트 생성 중...");
-    const pdfPath = path.join(reportsDir, "report-" + date + ".pdf");
-    await generatePdf(markdownReport, pdfPath);
-    console.log("💾 PDF 저장 완료: " + pdfPath);
-
-    // 대시보드에서 다운로드할 수 있도록 public 디렉토리에 복사
-    try {
-      const publicPdfDir = path.join(process.cwd(), "dashboard", "public");
-      if (fs.existsSync(publicPdfDir)) {
-        fs.copyFileSync(pdfPath, path.join(publicPdfDir, "report.pdf"));
-        console.log("💾 Dashboard public 폴더에 PDF 복사 완료: report.pdf");
-      }
-    } catch (copyError) {
-      console.warn("⚠️ Dashboard public 폴더에 PDF 복사 실패 (로컬 대시보드 셋업 여부 확인 필요):", copyError.message);
-    }
-
-    // 5. Discord 알림 전송
+    // 4. Discord 알림 전송
     console.log("\n🔄 [5/5] Discord 알림 전송 중...");
     const discordMessage = "🚀 **NewSai 일일 AI 리포트 (" + date + ")** 🚀\n\n" + summary + "\n\n상세 내용은 첨부된 파일을 확인하거나 대시보드에 접속하세요.";
     await sendDiscordMessage(discordMessage);
-    
+
     console.log("\n✨ 모든 파이프라인이 성공적으로 완료되었습니다!");
 
   } catch (error) {

@@ -46,25 +46,36 @@ export async function summarizeNews(newsList) {
 
   const prompt = [
     "다음은 오늘 수집된 AI 뉴스 목록임.",
-    "각 뉴스의 내용을 참고하여 현재 AI 기술 트렌드와 주요 소식을 한국어로 요약해줘.",
+    "각 뉴스의 내용을 참고하여 현재 AI 기술 트렌드와 주요 소식을 한국어로 요약하고 분석해줘.",
     "",
     "반드시 아래 JSON 형식으로만 응답할 것 (마크다운 백틱 등 다른 텍스트 절대 포함 금지):",
     "{",
     '  "overallSummary": "- 인프라 및 생태계 확장: 내용...\\n\\n- 반도체 공급망 강화: 내용...\\n\\n- 산업 현장 및 공공 적용: 내용...",',
+    '  "overallScore": 85,',
     '  "jobRiskScore": 55,',
+    '  "riskScoreBreakdown": [',
+    '    { "event": "OpenAI Agent 발표", "sign": "+", "impact": 3, "newsIndex": 1 },',
+    '    { "event": "Microsoft 감원", "sign": "+", "impact": 5, "newsIndex": 2 },',
+    '    { "event": "AI 규제", "sign": "-", "impact": 2, "newsIndex": null }',
+    '  ],',
     '  "newsSummaries": [',
     "    {",
-    '      "title": "뉴스 원문 제목 (정확히 일치해야 함)",',
-    '      "summary": "해당 뉴스의 핵심 요약 (2~3문장)"',
+    '      "summary": "해당 뉴스의 핵심 요약 (2~3문장)",',
+    '      "importance": 5,',
+    '      "aiImpact": 4,',
+    '      "automationPotential": 3,',
+    '      "investmentImpact": 5',
     "    }",
     "  ]",
     "}",
     "",
-    "조건(가이드라인을 줘야 AI가 횡설수설하지 않습니다):",
+    "조건 (가이드라인):",
     "1. 전문적이고 객관적인 말투를 유지할 것.",
     "2. overallSummary는 전체 내용을 아우르는 요약문(불렛 포인트 사용)을 작성할 것.",
-    "3. jobRiskScore는 수집된 AI 뉴스 내용들을 분석하여, AI 기술 발전이 인간의 '일자리 위험도'에 미치는 영향을 0에서 100 사이의 정수 점수로 평가해줘. (0: 위험 없음 / 100: 극도로 위험). AI 도입으로 인한 일자리 대체 소식, 해고, 인력 대체 가능성 등이 핵심으로 다뤄지면 높은 점수(70~100)를, AI가 단순히 보조 도구로 쓰이거나 신규 고용 창출 소식이 있으면 낮은 점수(0~40)를, 중립적이거나 양면성이 혼재되어 있으면 중간 점수(40~70)를 부여해줘.",
-    "4. newsSummaries는 각 뉴스별로 제공된 원문 제목을 그대로 쓰고, 해당 기사의 요약문을 작성할 것.",
+    "3. overallScore는 오늘 수집된 AI 뉴스들의 중요도, 영향력, 시급성 등을 종합적으로 평가하여 0에서 100 사이의 정수 점수로 부여해줘.",
+    "4. jobRiskScore는 AI 기술 발전이 인간의 '일자리 위험도'에 미치는 영향을 0에서 100 사이의 정수 점수로 평가해줘.",
+    "5. riskScoreBreakdown은 오늘 일자리 위험도(jobRiskScore)가 결정되는 데(또는 변동하는 데) 결정적인 영향을 준 핵심 요인/이벤트 2~3가지를 명시해줘. 일자리 위험도를 높이는 요인은 sign을 '+', 낮추는 요인은 sign을 '-'로 지정하고, impact는 1~10 사이의 양의 정수 값으로 설정해줘. 또한, 각 요인이 기인한 기사의 번호를 `newsIndex` 필드에 1부터 시작하는 정수로 적어줘 (예: 제공된 뉴스 목록 중 2번째 뉴스에 기인한 내용이면 2. 특정 뉴스 하나에만 기인하지 않거나 전반적인 시장 변화라면 null로 표시).",
+    "6. newsSummaries는 제공된 뉴스 목록의 순서와 1:1로 매칭되는 배열이어야 해 (예: 제공된 뉴스 목록의 첫 번째 뉴스는 newsSummaries의 첫 번째 요소에 대응). 각 객체는 제목(title) 필드를 포함하지 말고, 요약(summary)과 4대 지표(importance: 중요도, aiImpact: AI 영향도, automationPotential: 자동화 가능성, investmentImpact: 투자 영향, 각각 1에서 5 사이의 정수)만 작성해줘. 이로써 제목의 큰따옴표 등으로 인한 JSON 파싱 에러를 원천적으로 방지함.",
     "",
     "뉴스 목록:",
     newsContent,
@@ -81,9 +92,14 @@ export async function summarizeNews(newsList) {
       .replace(/\x60\x60\x60json/g, "")
       .replace(/\x60\x60\x60/g, "")
       .trim();
-    const resultJson = JSON.parse(jsonStr);
-
-    return resultJson;
+    try {
+      return JSON.parse(jsonStr);
+    } catch (e) {
+      console.log("=== JSON STR START ===");
+      console.log(jsonStr);
+      console.log("=== JSON STR END ===");
+      throw e;
+    }
   } catch (error) {
     // API 호출 실패 시(한도 초과, 네트워크 오류 등) 원인을 로그로 남깁니다.
     // 에러를 'throw' 하는 이유는 호출한 쪽(index.js 등)에서도 문제가 생겼음을 알게 하기 위함입니다.

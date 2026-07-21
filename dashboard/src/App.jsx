@@ -89,8 +89,14 @@ function GaugeChart({ score }) {
   );
 }
 
-// [컴포넌트] 날짜별 위험도 추이 꺾은선 차트 (2번 꺾은선 모양)
-function TrendChart({ historyData }) {
+// 뉴스 별점 별 기호 안전 렌더러 (RangeError 예방)
+function renderStars(score) {
+  const cleanScore = Math.max(0, Math.min(5, Math.round(score ?? 3)));
+  return "★".repeat(cleanScore) + "☆".repeat(5 - cleanScore);
+}
+
+// [컴포넌트] 날짜별 위험도 추이 꺾은선 차트 (2번 꺾은선 모양 - 클릭 연동 추가)
+function TrendChart({ historyData, selectedDate, onSelectPoint }) {
   // 날짜 오름차순 정렬 (오른쪽이 최신이 되도록)
   const chartData = [...historyData].reverse();
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -159,42 +165,47 @@ function TrendChart({ historyData }) {
           />
 
           {/* 데이터 포인트 원 & 인터랙티브 영역 */}
-          {points.map((p, i) => (
-            <g key={i}>
-              {/* 마우스 가이드 수직 점선 */}
-              {hoveredIndex === i && (
-                <line
-                  x1={p.x}
-                  y1={paddingTop}
-                  x2={p.x}
-                  y2={paddingTop + chartHeight}
-                  stroke="#3b82f6"
-                  strokeWidth="1"
-                  strokeDasharray="2"
+          {points.map((p, i) => {
+            const isSelected = p.date === selectedDate;
+            const isHovered = hoveredIndex === i;
+            return (
+              <g key={i}>
+                {/* 마우스 가이드 수직 점선 */}
+                {isHovered && (
+                  <line
+                    x1={p.x}
+                    y1={paddingTop}
+                    x2={p.x}
+                    y2={paddingTop + chartHeight}
+                    stroke="#3b82f6"
+                    strokeWidth="1"
+                    strokeDasharray="2"
+                  />
+                )}
+                {/* 포인트 원형 테두리 */}
+                <circle
+                  cx={p.x}
+                  cy={p.y}
+                  r={isSelected ? "8" : (isHovered ? "6" : "4")}
+                  fill={getRiskColor(p.score)}
+                  stroke={isSelected ? "#1e293b" : "#ffffff"}
+                  strokeWidth={isSelected ? "3" : "2"}
+                  style={{ transition: "r 0.1s ease, stroke-width 0.1s ease", cursor: "pointer" }}
                 />
-              )}
-              {/* 포인트 원형 테두리 */}
-              <circle
-                cx={p.x}
-                cy={p.y}
-                r={hoveredIndex === i ? "6" : "4"}
-                fill={getRiskColor(p.score)}
-                stroke="#ffffff"
-                strokeWidth="2"
-                style={{ transition: "r 0.1s ease", cursor: "pointer" }}
-              />
-              {/* 호버 감지용 큰 투명 원 */}
-              <circle
-                cx={p.x}
-                cy={p.y}
-                r="15"
-                fill="transparent"
-                style={{ cursor: "pointer" }}
-                onMouseEnter={() => setHoveredIndex(i)}
-                onMouseLeave={() => setHoveredIndex(null)}
-              />
-            </g>
-          ))}
+                {/* 클릭 및 호버 감지용 큰 투명 원 */}
+                <circle
+                  cx={p.x}
+                  cy={p.y}
+                  r="18"
+                  fill="transparent"
+                  style={{ cursor: "pointer" }}
+                  onMouseEnter={() => setHoveredIndex(i)}
+                  onMouseLeave={() => setHoveredIndex(null)}
+                  onClick={() => onSelectPoint(p.date)}
+                />
+              </g>
+            );
+          })}
         </svg>
 
         {/* HTML 툴팁 오버레이 */}
@@ -214,8 +225,8 @@ function TrendChart({ historyData }) {
         )}
       </div>
       <div className="trend-x-labels">
-        <span>{chartData[0].reportDate}</span>
-        <span>{chartData[chartData.length - 1].reportDate}</span>
+        <span>{chartData[0].date}</span>
+        <span>{chartData[chartData.length - 1].date}</span>
       </div>
     </div>
   );
@@ -225,6 +236,7 @@ function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [selectedDate, setSelectedDate] = useState(null);
 
   // 아코디언 상태 관리 (날짜 string을 key로 하고 boolean 값을 value로 지정)
   const [expandedDays, setExpandedDays] = useState({});
@@ -237,7 +249,11 @@ function App() {
     if (import.meta.env.DEV) {
       import("../../data.json")
         .then((module) => {
-          setData(module.default);
+          const list = module.default;
+          setData(list);
+          if (list && list.length > 0) {
+            setSelectedDate(list[0].reportDate);
+          }
           setLoading(false);
         })
         .catch((err) => {
@@ -257,6 +273,9 @@ function App() {
       })
       .then((json) => {
         setData(json);
+        if (json && json.length > 0) {
+          setSelectedDate(json[0].reportDate);
+        }
         setLoading(false);
       })
       .catch((err) => {
@@ -305,7 +324,20 @@ function App() {
   const todayData = dataArray[0];
   const pastData = dataArray.slice(1);
 
-  // 아코디언 토글 핸들러
+    // 어제 데이터와 위험도 차이 구하기
+    const yesterdayData = pastData[0];
+    const yesterdayScore = yesterdayData ? yesterdayData.jobRiskScore : null;
+    const scoreDiff = yesterdayScore !== null ? (todayData.jobRiskScore - yesterdayScore) : null;
+    const scoreDiffSign = scoreDiff !== null ? (scoreDiff >= 0 ? `+${scoreDiff}` : `${scoreDiff}`) : "";
+
+    // 꺾은선 차트 클릭 연동 날짜 분석
+    const selectedReport = dataArray.find((d) => d.reportDate === selectedDate) || todayData;
+    const selectedReportIndex = dataArray.findIndex((d) => d.reportDate === selectedDate);
+    const selectedYesterday = selectedReportIndex !== -1 && selectedReportIndex < dataArray.length - 1 ? dataArray[selectedReportIndex + 1] : null;
+    const selectedDiff = selectedYesterday !== null ? (selectedReport.jobRiskScore - selectedYesterday.jobRiskScore) : null;
+    const selectedDiffSign = selectedDiff !== null ? (selectedDiff >= 0 ? `+${selectedDiff}` : `${selectedDiff}`) : "";
+
+    // 아코디언 토글 핸들러
   const toggleAccordion = (reportDate) => {
     setExpandedDays((prev) => ({
       ...prev,
@@ -321,23 +353,43 @@ function App() {
         <p className="date">
           발행일: <span id="report-date">{todayData.reportDate}</span>
         </p>
-        <div className="actions">
-          {/* PDF 복사 위치가 public 폴더이므로 /report.pdf 경로로 일치시켜 다운로드 가능하게 함 */}
-          <a href={`${import.meta.env.BASE_URL}report.pdf`} className="btn-download" download="report.pdf">
-            PDF 리포트 다운로드
-          </a>
-        </div>
       </header>
 
       <main>
-        {/* 신규: 일자리 위험도 시각화 보드 */}
+        {/* 신규: 일자리 위험도 및 종합 AI 지수 보드 */}
         <div className="dashboard-grid">
           <section className="dashboard-card gauge-card-section">
-            <h2 className="section-title-sub">오늘의 AI 일자리 위험도</h2>
+            <h2 className="section-title-sub">오늘의 AI 지표 분석</h2>
             <div className="gauge-layout">
-              <GaugeChart score={todayData.jobRiskScore || 50} />
+              <div className="gauge-left-col">
+                <GaugeChart score={todayData.jobRiskScore || 50} />
+                
+                {yesterdayScore !== null && (
+                  <div className="gauge-comparison-card">
+                    <div className="comparison-trend">
+                      <span>어제 {yesterdayScore}</span>
+                      <span className="trend-arrow">{scoreDiff >= 0 ? "▲" : "▼"}</span>
+                      <span>오늘 {todayData.jobRiskScore}</span>
+                    </div>
+                    <div className={`comparison-diff-badge ${scoreDiff >= 0 ? "diff-up" : "diff-down"}`}>
+                      어제보다 {scoreDiffSign}
+                    </div>
+                  </div>
+                )}
+              </div>
+
               <div className="gauge-description">
-                <p>{getRiskDescription(todayData.jobRiskScore || 50)}</p>
+                <div className="scores-explanation-box">
+                  <div className="score-explain-item">
+                    <span className="score-explain-title">📊 AI 일자리 위험도: <strong className="risk-score-text">{todayData.jobRiskScore} / 100</strong></span>
+                    <p className="score-explain-desc">→ AI가 일자리에 미치는 구조적 위험 수준</p>
+                  </div>
+                  <div className="score-explain-item">
+                    <span className="score-explain-title">📈 종합 AI 지수: <strong className="summary-score-text">{todayData.summaryScore || 50} / 100</strong></span>
+                    <p className="score-explain-desc">→ 오늘의 AI 산업·기술·시장 변화 종합 강도</p>
+                  </div>
+                </div>
+                <p className="risk-state-desc">{getRiskDescription(todayData.jobRiskScore || 50)}</p>
                 <div className="guideline-tip">
                   💡 <strong>위험도 기준:</strong> AI 발전속도, 대규모 고용 영향 뉴스 비중, 직무 자동화 수준 등을 종합 요약하여 Gemini가 매일 산출합니다.
                 </div>
@@ -347,14 +399,117 @@ function App() {
 
           {pastData.length > 0 && (
             <section className="dashboard-card trend-card-section">
-              <TrendChart historyData={dataArray} />
+              <TrendChart historyData={dataArray} selectedDate={selectedDate} onSelectPoint={setSelectedDate} />
+              
+              {/* 신규: 꺾은선 클릭 연동 날짜 상세 카드 */}
+              {selectedReport && (
+                <div className="trend-detail-box">
+                  <div className="detail-header">
+                    <h4>📅 {selectedReport.reportDate} 상세 위험도 근거</h4>
+                    {selectedDiff !== null && (
+                      <span className={`detail-diff-badge ${selectedDiff >= 0 ? "diff-up" : "diff-down"}`}>
+                        변동: {selectedDiffSign}
+                      </span>
+                    )}
+                  </div>
+                  <div className="detail-scores">
+                    <div className="detail-score-item">
+                      <span>일자리 위험도:</span> <strong>{selectedReport.jobRiskScore}점</strong>
+                    </div>
+                    <div className="detail-score-item">
+                      <span>종합 AI 지수:</span> <strong>{selectedReport.summaryScore || 50}점</strong>
+                    </div>
+                  </div>
+                  {selectedReport.riskScoreBreakdown && selectedReport.riskScoreBreakdown.length > 0 ? (
+                    <div className="detail-causes">
+                      <h5>주요 영향 요인 (클릭 시 원문 이동)</h5>
+                      <ul className="detail-causes-list">
+                        {selectedReport.riskScoreBreakdown.map((item, idx) => {
+                          const matchedNews = item.newsIndex && selectedReport.news ? selectedReport.news[item.newsIndex - 1] : null;
+                          const factorContent = (
+                            <>
+                              <span className="factor-sign">{item.sign === "+" ? "▲" : "▼"}</span>
+                              <span className="factor-event">{item.event}</span>
+                              <span className="factor-impact">({item.sign === "+" ? "+" : "-"}{item.impact})</span>
+                            </>
+                          );
+                          return matchedNews ? (
+                            <li key={idx} className={item.sign === "+" ? "risk-up clickable-factor" : "risk-down clickable-factor"}>
+                              <a href={matchedNews.link} target="_blank" rel="noopener noreferrer" className="factor-link-wrapper">
+                                {factorContent} <span className="link-arrow">🔗</span>
+                              </a>
+                            </li>
+                          ) : (
+                            <li key={idx} className={item.sign === "+" ? "risk-up" : "risk-down"}>
+                              {factorContent}
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  ) : (
+                    <p className="no-breakdown-text">해당 날짜의 상세 변동 요인 데이터가 없습니다.</p>
+                  )}
+                </div>
+              )}
             </section>
           )}
         </div>
 
+        {/* 신규: 오늘의 핵심 변화 카드 영역 */}
+        <section className="dashboard-card key-changes-section">
+          <h2 className="section-title-sub-large">오늘의 핵심 변화</h2>
+          {todayData.riskScoreBreakdown && todayData.riskScoreBreakdown.length > 0 ? (
+            <div className="key-changes-grid">
+              {todayData.riskScoreBreakdown.map((item, idx) => {
+                const matchedNews = item.newsIndex ? todayData.news[item.newsIndex - 1] : null;
+                const impactText = item.impact >= 7 ? "높음 🔴" : item.impact >= 4 ? "중간 🟡" : "낮음 🟢";
+                const impactClass = item.impact >= 7 ? "impact-high" : item.impact >= 4 ? "impact-medium" : "impact-low";
+                
+                const cardInner = (
+                  <div className={`key-change-card ${matchedNews ? "is-link" : ""}`}>
+                    <div className="card-top">
+                      <span className="card-num">0{idx + 1}</span>
+                      <span className={`card-impact-badge ${item.sign === "+" ? "badge-up" : "badge-down"}`}>
+                        위험도 {item.sign === "+" ? "+" : "-"}{item.impact}
+                      </span>
+                    </div>
+                    <h3 className="card-title">{item.event}</h3>
+                    <div className="card-footer-info">
+                      <div className="card-impact-level">
+                        <span>일자리 영향도:</span> <strong className={impactClass}>{impactText}</strong>
+                      </div>
+                      {matchedNews && <span className="read-news-link">🔗 원문 기사 확인</span>}
+                    </div>
+                  </div>
+                );
+
+                return matchedNews ? (
+                  <a href={matchedNews.link} target="_blank" rel="noopener noreferrer" className="key-change-card-wrapper" key={idx}>
+                    {cardInner}
+                  </a>
+                ) : (
+                  <div className="key-change-card-wrapper" key={idx}>
+                    {cardInner}
+                  </div>
+                );
+              })}
+            </div>
+          ) : (
+            <p className="no-changes-text">오늘의 주요 변동 요인 분석이 제공되지 않았습니다.</p>
+          )}
+        </section>
+
         <div className="section-group today-group">
           <section className="summary-section">
-            <h2>오늘의 요약</h2>
+            <div className="summary-header">
+              <h2>오늘의 요약</h2>
+              {todayData.summaryScore !== undefined && (
+                <div className="summary-score-badge">
+                  종합 점수 <span>{todayData.summaryScore}</span>점
+                </div>
+              )}
+            </div>
             <div className="summary-content">{todayData.summary}</div>
           </section>
 
@@ -367,6 +522,26 @@ function App() {
                     <span className="pub-date">{new Date(item.pubDate).toLocaleDateString()}</span>
                     <h3>{item.title}</h3>
                     {item.summary && <p className="news-summary">{item.summary}</p>}
+                    {item.importance !== undefined && (
+                      <div className="news-metrics">
+                        <div className="metric-row">
+                          <span className="metric-label">중요도</span>
+                          <span className="metric-stars">{renderStars(item.importance)}</span>
+                        </div>
+                        <div className="metric-row">
+                          <span className="metric-label">AI 영향도</span>
+                          <span className="metric-stars">{renderStars(item.aiImpact)}</span>
+                        </div>
+                        <div className="metric-row">
+                          <span className="metric-label">자동화 가능성</span>
+                          <span className="metric-stars">{renderStars(item.automationPotential)}</span>
+                        </div>
+                        <div className="metric-row">
+                          <span className="metric-label">투자 영향</span>
+                          <span className="metric-stars">{renderStars(item.investmentImpact)}</span>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </a>
               ))}
@@ -388,6 +563,11 @@ function App() {
                   <div className="past-date-header" onClick={() => toggleAccordion(past.reportDate)}>
                     <span className="past-date">{past.reportDate}</span>
                     <div className="header-meta">
+                      {past.summaryScore !== undefined && (
+                        <span className="past-summary-score-badge">
+                          종합 {past.summaryScore}점
+                        </span>
+                      )}
                       <span className="job-risk-badge" style={{ backgroundColor: getRiskColor(past.jobRiskScore || 50) }}>
                         위험도 {past.jobRiskScore || 50}점
                       </span>
@@ -411,6 +591,26 @@ function App() {
                                 <span className="pub-date">{new Date(item.pubDate).toLocaleDateString()}</span>
                                 <h5>{item.title}</h5>
                                 {item.summary && <p className="news-summary">{item.summary}</p>}
+                                {item.importance !== undefined && (
+                                  <div className="news-metrics">
+                                    <div className="metric-row">
+                                      <span className="metric-label">중요도</span>
+                                      <span className="metric-stars">{renderStars(item.importance)}</span>
+                                    </div>
+                                    <div className="metric-row">
+                                      <span className="metric-label">AI 영향도</span>
+                                      <span className="metric-stars">{renderStars(item.aiImpact)}</span>
+                                    </div>
+                                    <div className="metric-row">
+                                      <span className="metric-label">자동화 가능성</span>
+                                      <span className="metric-stars">{renderStars(item.automationPotential)}</span>
+                                    </div>
+                                    <div className="metric-row">
+                                      <span className="metric-label">투자 영향</span>
+                                      <span className="metric-stars">{renderStars(item.investmentImpact)}</span>
+                                    </div>
+                                  </div>
+                                )}
                               </div>
                             </a>
                           ))}

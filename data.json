@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-07-21T09:17:33.302Z",
+    "reportDate": "2026. 7. 21.",
+    "summary": "- 인프라 및 생태계 확장: MS와 AMD의 전략적 동맹을 통해 클라우드 기반 AI 인프라가 대폭 강화되고 있으며, 엔비디아 중심의 독점 체제를 탈피하려는 움직임이 가속화됨.\n\n- 반도체 공급망 강화: AI 가속기 시장의 경쟁이 성능 중심에서 비용 효율성 중심으로 전환되면서, 대체 칩 공급업체의 영향력이 확대되고 기술 주도권 다툼이 치열해짐.\n\n- 산업 현장 및 공공 적용: 바둑과 같은 고난도 전략 분야에서 인간의 대응 능력이 재조명되는 한편, 국가별 AI 기술 경쟁이 글로벌 반도체 시장의 변동성을 키우는 핵심 요인으로 작용함.",
+    "summaryScore": 88,
+    "jobRiskScore": 78,
+    "riskScoreBreakdown": [
+      {
+        "event": "엔비디아 독점 탈피를 위한 클라우드 인프라 확장",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      },
+      {
+        "event": "AI 가속기 비용 경쟁력 강화로 인한 자동화 도입 가속화",
+        "sign": "+",
+        "impact": 6,
+        "newsIndex": 3
+      },
+      {
+        "event": "고난도 전략 분야에서의 인간 대 AI 협업 모델 제시",
+        "sign": "-",
+        "impact": 3,
+        "newsIndex": 1
+      }
+    ],
+    "news": [
+      {
+        "title": "신진서, 현존 최강 바둑AI 꺾었다…“전략 있는 한, 인간은 쉽게 지지 않아” - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FNmpSUkREV3JfVlFOYWNJTHA3NUIwTUdMVUFiMXJmN1EyaFJTZXZLYm1Dd1BobHZYU1pfNDZTcUJxekJkRl9CR0dGeEJiZkFyVUJLM3ZtbXR0ZlVWSEFMdlh0enVzR0x0R28zaDBOaVNNdw?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 08:46:00 GMT",
+        "summary": "인간 바둑 기사가 현존 최강 AI를 상대로 전략적 우위를 입증하며 AI의 한계와 인간의 창의적 대응 가능성을 시사했다. 이는 단순 연산 이상의 전략적 영역에서 인간의 역할이 여전히 중요함을 보여준다.",
+        "importance": 7,
+        "aiImpact": 6,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "중국 새 AI 공개 \"미국 따라잡나\"‥반도체 '휘청' - MBC 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaOW1jV0cxejhiYVFDM1l1TW9ESVUzMkdMNlBzTHE3WGpNM3ZVR1c4QVBmVGtjZEJJSVJnbkg0YjBCamstRjVncnR2RDVvb1hqa1ZtbXZrWnpKdDFvakNDak5rTzVjcEJyNkFCMzdxdnFJdkQ3MEw2bkNR?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 21:37:31 GMT",
+        "summary": "중국이 새로운 AI 모델을 공개하며 미국 주도의 기술 패권에 도전장을 내밀었다. 이로 인해 글로벌 반도체 공급망의 불확실성이 커지며 시장 변동성이 확대되고 있다.",
+        "importance": 9,
+        "aiImpact": 8,
+        "automationPotential": 4,
+        "investmentImpact": 9
+      },
+      {
+        "title": "2라운드 접어든 脫엔비디아 전쟁...AI칩 성능보다 비용 경쟁 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WNzdPSWdlREl4U1hUeXdET0dWVkViUWI5aGpId2FVa2tzWi01R0Y0dVJySjVVeTdFdEVvLXB4dDdKOW4tSU9nTHhUT01LaW8?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 06:14:51 GMT",
+        "summary": "AI 칩 시장이 고성능 경쟁에서 비용 효율성 중심의 2라운드로 진입했다. 더 경제적인 칩 도입은 기업들의 AI 도입 문턱을 낮춰 산업 현장 전반의 자동화를 촉진할 전망이다.",
+        "importance": 8,
+        "aiImpact": 7,
+        "automationPotential": 8,
+        "investmentImpact": 9
+      },
+      {
+        "title": "AMD-MS, AI 동맹 확대…애저에 차세대 '헬리오스' AI 인프라 도입 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41VXNYYjJXZlU3ckxqRjhnQ2YtWEZnVWNMQTlOMWFucUM4VFRQTldVZ1BQbDRuT1E1T3N5dDREeFE2UHRVcldWYXZ5VF8zNko3a1NKMlNPWnRNVlZYaFRRZXJHczQ0RknSAWxBVV95cUxOUHh5TnFSd2FrNG5yeG9kQjNYbWVKWklMMUR2V1BKVWNSS01wNGpscjQ5MkhMWC03UmtHNEVDcU5jNlhCSzFMT01MSmlPWENRczJ3VjUydUkyYTJhX2RVZ1BrN0doN2Y0Y2o3aWk?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 08:43:44 GMT",
+        "summary": "AMD와 마이크로소프트가 클라우드 인프라 협력을 강화하며 차세대 AI 가속기 '헬리오스'를 도입한다. 엔비디아 의존도를 줄이려는 이번 동맹은 클라우드 AI 서비스의 가격 경쟁력을 높일 것으로 보인다.",
+        "importance": 9,
+        "aiImpact": 8,
+        "automationPotential": 6,
+        "investmentImpact": 9
+      },
+      {
+        "title": "MS, 클라우드 '애저'에 AMD AI랙 대거 도입…엔비디아 독주 견제 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFMlo1c1IzRm12VVhKRUxVMG9UcS1TMDRYWmpXbWNybFdxNV8yUnJCbEtuTWZtWVZPWERSdUFBRDBpMVJ0ekZCQlpma3ZrX2FEX2hld185VmtkQU3SAWBBVV95cUxPVDZGY2ZwSl9uZE1KckxlamdHcWVGcHU3eUtweGN0akQ3WHMwMkw4M1FpbDcwX3lyY2RLdHA3SmFzQTdhZm5qS2owMHJwOWhPSjBVYkJpVG8wRnhxaFR6b3M?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 19:22:55 GMT",
+        "summary": "마이크로소프트가 자사 클라우드 애저에 AMD AI 랙을 대거 배치하며 엔비디아의 독주 체제를 견제하고 나섰다. 이는 데이터센터 하드웨어 시장의 공급처 다변화와 가격 안정화에 중요한 변곡점이 될 것이다.",
+        "importance": 8,
+        "aiImpact": 7,
+        "automationPotential": 5,
+        "investmentImpact": 8
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-20T06:37:07.978Z",
     "reportDate": "2026. 7. 20.",
     "summary": "- 인프라 및 생태계 확장: AI 산업 성장에 따른 데이터센터 수요가 폭증하며 철강, 화학 등 전통 소재 산업이 AI 공급망의 핵심 동력으로 재편되고 있음.\n\n- 반도체 및 기술 자립: AI 개발의 고도화가 진행됨에 따라 연구직의 전문성을 대체하는 AI 연구가 가속화되고 있으며, 이로 인한 고숙련 노동 시장의 구조적 변화가 감지됨.\n\n- 산업 현장 및 공공 적용: 정부 주도의 'K-문샷 AI 신약' 프로젝트가 본격화되면서 제약·바이오 분야에서 AI를 활용한 신약 개발 효율화 및 국가적 차원의 기술 경쟁력 확보가 추진됨.",
@@ -556,66 +635,6 @@
     ],
     "jobRiskScore": 56,
     "summaryScore": 83,
-    "riskScoreBreakdown": []
-  },
-  {
-    "lastUpdated": "2026-07-01T23:08:09.699Z",
-    "reportDate": "2026. 7. 2.",
-    "summary": "- AI 인프라 및 전력 확보 경쟁: AI 모델 연산 수요 급증에 따라 안정적인 전력 공급이 데이터센터 운영의 핵심 과제로 부상하며, 관련 인프라 확보를 위한 글로벌 경쟁이 심화되고 있습니다.\n\n- 기술 활용 및 성능 한계 돌파: 바둑 등 고도의 지능이 필요한 분야에서 AI와 인간의 협업 및 성능 비교를 통해 모델의 한계를 극복하려는 연구와 시도가 계속되고 있습니다.\n\n- 수출 규제 및 서비스 정책 변화: 국가 안보 및 전략적 판단에 따른 AI 기술 수출 통제 정책이 유연하게 변화하고 있으며, 이는 기업들의 서비스 제공 방식과 글로벌 시장 접근성에 직접적인 영향을 미치고 있습니다.",
-    "news": [
-      {
-        "title": "[경제포커스] 돈 주고도 AI 못 쓰는 시대 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVXZSN0ZicEgwX0FVZ2phNFpqUWFPd1hsdnZvb05VNFcwZDk1LXdSR3BQVVBobktnbjNCY1RaZlhvX3BodmlhUGpkZ011WHN4bktDNDJDMzhTb2pJLWJncjdPSXpFTzlxbG51MGFWMWVIc0hsb0VTSUhRQnhNQnNnNEYtUzJDVWxmNzhxNg?oc=5",
-        "pubDate": "Wed, 01 Jul 2026 14:40:00 GMT",
-        "summary": "AI 기술의 급격한 발전에도 불구하고, 인프라 부족과 공급망 제약으로 인해 실질적인 AI 활용이 어려운 현상이 나타나고 있습니다. 기업들이 비용을 지불하려 해도 서비스 사용이나 인프라 확보가 원활하지 않은 'AI 공급 병목 현상'이 심화되고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "美정부, 앤트로픽 AI '미토스' 수출통제 해제…내일 서비스 재개 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yOEJ2T1VJNFhfdTNHY25BNHlpZXRzUDlnazlsMS1ONTVUMU8xUXh6a1ctZjlyRWJjRmlJSnd4Nk1xbUIyNW5sOVg5NlZIVUJQSmZfUVZWeU5GOWPSAWBBVV95cUxNXy1XNlBiUnF5ajZOdWx0dk9tLTJDSlBRWHFKUkFYUEdNOWtKZW50OC1mR3ZlcTRPTnFoZlJKRmxEeVdBUTA0d2pHZ0RwSzQ2b2tnWUZCQkdFN0xuU1ZlQ2g?oc=5",
-        "pubDate": "Wed, 01 Jul 2026 00:11:16 GMT",
-        "summary": "미국 정부가 안보상의 이유로 제한했던 앤트로픽의 AI 모델 '미토스'에 대한 수출 통제를 해제했습니다. 이번 조치로 인해 관련 서비스가 재개될 예정이며, AI 기술의 대외 공유 및 수출 정책이 유연해질지 귀추가 주목됩니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "앤트로픽, '페이블' AI 서비스 재개…미토스는 여전히 해외제한 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pMW5NS3N0MTZvbmR4VUNxSWFKcS11RWhHRzJEOGU3Q3dQaGtCM3FZY0FIMTlOQzNUejduUnR0RXNJMFBZajNfRGJOdVBqcTg?oc=5",
-        "pubDate": "Wed, 01 Jul 2026 22:14:03 GMT",
-        "summary": "앤트로픽이 '페이블' AI 서비스를 재개했으나, 모델별로 수출 제한 정책에 차이를 보이고 있습니다. 일부 서비스는 정상화되었으나 특정 AI 기술에 대해서는 여전히 엄격한 해외 접근 제한이 유지되고 있어 기업들의 서비스 운영에 변수가 되고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "5시간 vs 20초…'바둑 최강' 신진서, '괴물 AI' 상대로 한계 깬다 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MYXRDU3hqMENENDVUQ3hTWHgya19jQzFVdHo4Vl9FQ0NVTGQtN0NwVUpBN2pFN2psbThUd25rbDZscHZ4NlpFYWY5WXpvdE4zMzQyRGRELXRqUdIBVEFVX3lxTFA5Qmpvckt1QVZVbXhTQnFuOW1qOE9Rd0t4bF96Wk5fRTRlNlo1SWJYUDNWSGlDQVFLSHhUUDVuYV9jMk9ERVB0NERIX2h6UUdhc2pZSQ?oc=5",
-        "pubDate": "Tue, 30 Jun 2026 08:51:16 GMT",
-        "summary": "바둑 기사 신진서 9단이 고성능 AI를 상대로 실력을 겨루며 인간의 한계를 시험하고 있습니다. AI와의 대국을 통해 인간의 전략적 사고와 AI의 연산 능력을 비교하고, 새로운 기술적 성과를 도출하려는 연구적 의미를 담고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "호남만이 아니다…美 AI 데이터센터도 전력 확보 ‘사활’ - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9aUFRtOG9zdUY5VnU0N2stdUxzb1dLT2VNeU9zYm15b041YzBua0NEY21GM0hvMXdrX1FraDMzT1ZIN0ZZOVc4aXhzR2lpRlk?oc=5",
-        "pubDate": "Wed, 01 Jul 2026 21:01:21 GMT",
-        "summary": "AI 데이터센터 가동을 위한 막대한 전력 소비가 미국 내 주요 현안으로 떠올랐습니다. 안정적인 전력 수급이 AI 경쟁력의 핵심으로 간주되면서, 전력 인프라 확충과 에너지 확보를 위한 데이터센터 기업들의 사활을 건 노력이 계속되고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      }
-    ],
-    "jobRiskScore": 63,
-    "summaryScore": 79,
     "riskScoreBreakdown": []
   }
 ]
