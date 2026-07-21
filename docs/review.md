@@ -24,6 +24,14 @@
 
 > **작성 가이드**: 새로운 기능이 구현될 때마다 상단에 새 기록을 추가하여 누적 관리합니다.
 
+### 2026-07-21 GitHub Actions 자동 배포 트리거 추가 (main 브랜치 push 이벤트 연동)
+
+- **검토 대상**: `.github/workflows/deploy.yml`
+- **구현 내용**:
+  - **자동 배포 트리거 추가**: 기존에 스케줄 크론(`schedule`)과 수동 실행(`workflow_dispatch`)으로만 실행되던 배포 워크플로우에 `push: branches: [main]` 조건을 추가했습니다. 이를 통해 앞으로 `main` 브랜치에 코드가 머지되거나 직접 푸시될 때마다 배포 파이프라인이 자동 실행되도록 설정했습니다.
+- **체크리스트**:
+  - [x] deploy.yml 트리거 설정에 main 브랜치 push 이벤트가 올바르게 등록되었는가
+
 ### 2026-07-21 LLM 요약 JSON 파싱 에러 수정 (responseMimeType 및 responseSchema 도입)
 
 - **검토 대상**: `src/services/summarizeNews.js`
