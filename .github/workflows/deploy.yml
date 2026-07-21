@@ -1,6 +1,9 @@
 name: Deploy NewsAI to GitHub Pages
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # 매일 한국 시간 오전 7시 (UTC 22:00)에 실행되도록 설정
     - cron: "0 22 * * *"
