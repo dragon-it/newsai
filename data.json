@@ -1,345 +1,161 @@
 [
   {
-    "lastUpdated": "2026-07-21T10:01:16.048Z",
+    "lastUpdated": "2026-07-21T10:42:44.366Z",
     "reportDate": "2026. 7. 21.",
-    "summary": "- 인간과 AI의 공존 가능성 입증: 바둑 분야에서 인간이 고도의 전략을 통해 AI를 제압하며, AI가 도구로서 인간의 잠재력을 끌어내는 사례가 주목받음.\n\n- 기술 혁신 및 시뮬레이션 고도화: NVIDIA를 중심으로 물리 기반 AI와 에이전틱(Agentic) 기술이 발전하며 실시간 그래픽스 및 가상 시뮬레이션 환경이 고도화됨.\n\n- 산업 특화 AI 솔루션 도입: 뷰티, 서비스 등 실생활과 맞닿은 산업 분야에서 개인화된 경험을 제공하기 위한 AI 플랫폼 구축 사례가 확산 중.",
-    "jobRiskScore": 35,
+    "summary": "- 인간의 AI 대응력 증명: 바둑 기사 신진서의 AI 승리 사례를 통해 특정 도메인에서의 인간 전략적 우위와 협업 가능성 확인.\n\n- 국가 간 기술 경쟁 격화: 중국의 새로운 AI 모델 공개로 인한 글로벌 기술 패권 경쟁 및 반도체 공급망에 미치는 영향 증대.\n\n- AI 산업 적용 가속화: 파수AI의 뷰티 플랫폼 구축 등 AI가 서비스 및 실무 영역으로 빠르게 침투하고 있음.\n\n- 윤리적 논쟁과 저작권 이슈: AI 발전에 따른 일자리와 창작자 권리 침해 논란이 공공연하게 제기되며 기술 도입의 사회적 책임 강조.",
+    "summaryScore": 82,
+    "jobRiskScore": 85,
+    "riskScoreBreakdown": [
+      {
+        "event": "중국 AI 기술 추격 및 반도체 산업 영향",
+        "sign": "+",
+        "impact": 6,
+        "newsIndex": 2
+      },
+      {
+        "event": "창작자 및 교사 등 지식 노동자의 AI 우려",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 5
+      },
+      {
+        "event": "인간의 전략적 대응 역량 확인",
+        "sign": " - ",
+        "impact": 3,
+        "newsIndex": 1
+      }
+    ],
     "news": [
       {
         "title": "신진서, 현존 최강 바둑AI 꺾었다…“전략 있는 한, 인간은 쉽게 지지 않아” - 한겨레",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FNmpSUkREV3JfVlFOYWNJTHA3NUIwTUdMVUFiMXJmN1EyaFJTZXZLYm1Dd1BobHZYU1pfNDZTcUJxekJkRl9CR0dGeEJiZkFyVUJLM3ZtbXR0ZlVWSEFMdlh0enVzR0x0R28zaDBOaVNNdw?oc=5",
         "pubDate": "Tue, 21 Jul 2026 08:46:00 GMT",
-        "summary": "바둑 기사 신진서가 최강 AI '카타고'를 상대로 승리를 거두며 인간의 전략적 사고가 AI에 대항할 수 있음을 입증했다. AI의 압도적 성능 앞에서도 인간만의 고유한 전략과 판단력이 유효하다는 점을 강조했다."
+        "summary": "신진서 9단이 최강 바둑 AI를 상대로 승리를 거두며 인간의 전략적 대응 가능성을 증명했다. 이는 기술과 인간의 대립이 아닌 협업적 모델의 새로운 가능성을 시사한다.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 3
       },
       {
-        "title": "AI 꺾은 바둑의 ‘신’…신진서 “인간이 버틸수 있다는걸 증명했다” - 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UYms0SGRUYWNMQzZMUXB2aWNGS1NMbFIwTVZ0LWg1dHFSY0VfSEFRZ3Y2YlpwYVRYQ3VmY0NhQVJwTUlhYnkyMGhQb010Unl5WlJUMk91TDBrM0hnc2xRMXBiOEZBYVdVa3FZZHJHdUJiajRQWGfSAWZBVV95cUxORHl0V0pydjRxR19NVjhadEkyZFB2c0NVakpvX0hVcDg0WDZsMEFLMFhuZ01jalVvd2VWNDRQeHdQMkRJTEpoeGJobzFHbXpXVGJzVy1EWlpGd2NiN2RPZFBvdTlkSmc?oc=5",
-        "pubDate": "Tue, 21 Jul 2026 05:10:00 GMT",
-        "summary": "신진서 9단이 AI와의 대국에서 승리하며 인류가 AI 시대에 여전히 경쟁력을 유지할 수 있음을 보여주었다. 이는 기술 발전 속에서도 인간의 주도적인 역할이 중요함을 시사하는 상징적인 사건이다."
+        "title": "중국 새 AI 공개 \"미국 따라잡나\"‥반도체 '휘청' - MBC 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaOW1jV0cxejhiYVFDM1l1TW9ESVUzMkdMNlBzTHE3WGpNM3ZVR1c4QVBmVGtjZEJJSVJnbkg0YjBCamstRjVncnR2RDVvb1hqa1ZtbXZrWnpKdDFvakNDak5rTzVjcEJyNkFCMzdxdnFJdkQ3MEw2bkNR?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 21:37:31 GMT",
+        "summary": "중국이 새로운 AI 모델을 공개하며 미국과의 기술 격차를 좁히고 있다. 이로 인해 글로벌 반도체 공급망의 불확실성이 커지며 시장의 긴장감이 고조되고 있다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 3,
+        "investmentImpact": 5
       },
       {
-        "title": "신진서, 최강 바둑 AI '카타고'에 2연승…역전 우승 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43TU9hVkg4SlA3UklRTnJVbEYydjFkUGE0eWJQbENxOFRmZU9YU3htSmJnV2xRQU5qbDhKY3VhbWJOZGtjX1dublNVczBPdWxCVlNtT0xB?oc=5",
-        "pubDate": "Tue, 21 Jul 2026 09:01:19 GMT",
-        "summary": "신진서 9단이 세계 최정상급 AI '카타고'를 상대로 2연승을 기록하며 최종 우승을 차지했다. 인간과 AI의 대결 구도에서 인간 기사의 창의적인 전술이 중요한 변수가 되었음을 확인했다."
+        "title": "파수AI, 리안헤어 ‘AI 뷰티 플랫폼’ 구축 맡아 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjR1dYRkJOdk1PTXJkb2VpaVJhbTl3d056SDlZYl9VYmxtRGRJeS12cFlyWDMyTmlPTEdjeEtJOXRSVGRwbV9wbHhwMmUtdzQ?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 10:06:39 GMT",
+        "summary": "파수AI가 리안헤어의 뷰티 플랫폼 구축 프로젝트를 맡아 실무 현장에 AI 기술을 적용한다. 산업 전반으로 AI 도입이 가속화되는 양상을 보여준다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 3
       },
       {
-        "title": "SIGGRAPH에서의 NVIDIA, 에이전틱 및 피지컬 AI로 그래픽스와 시뮬레이션을 발전시키다 - NVIDIA",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ySjdKSXE3MjhGN2o2NXBUZE5MZ2ZrdDdYcEh5blNXWmNpQVZjdTN2SldENXA4bGotcEk4RTdxemZKM0llTXJEd0ZGbHRvMVlHRFVGcnNxY2xOX3YtWkxBdg?oc=5",
-        "pubDate": "Tue, 21 Jul 2026 09:19:40 GMT",
-        "summary": "NVIDIA가 SIGGRAPH에서 물리 법칙을 학습하는 피지컬 AI와 스스로 판단하는 에이전틱 AI를 공개했다. 이를 통해 더욱 정교한 그래픽스 구현과 시뮬레이션 환경 구축이 가능해질 전망이다."
+        "title": "[게시판] 포티투마루, 디지털 포럼서 K-팔란티어 전략 공유 등 단신 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qMGFmVzVkV2syTE5oV0wtcE9iQlp0aloyVVpyNEx6T3lCSm5lY3RKcXoza2NEYzNOQXY1RC1RUXB1c2lBQWpDYm8zMjBxX0ZWaGE0dUNzRW5LRGpBeGFjeHdqbm94S3dGMGc?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 09:57:48 GMT",
+        "summary": "포티투마루가 디지털 포럼에서 K-팔란티어 전략을 공유하며 AI 기업으로서의 행보를 이어갔다. 국내 AI 기업들의 구체적인 사업 모델 구상 사례로 주목된다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
       },
       {
-        "title": "[게시판] 파수 AI, 리안헤어 ‘AI 초개인화 뷰티경험 플랫폼’ 구축 참여 등 단신 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0RzYyYlFKc3F4c0NBNko3ZHJSTFJ0NlRFQ2NjTEtaSmhkMFBsNmgyWGpJUUlQX0djSXBtRHBheVU3eUZodmc5Z3daUU5iQ09qZlA2RjMtX0swNWVRSmYyR051bWNYUk9pMEE?oc=5",
-        "pubDate": "Tue, 21 Jul 2026 09:25:17 GMT",
-        "summary": "파수 AI가 리안헤어의 초개인화 뷰티 플랫폼 구축 사업에 참여하는 등 산업 현장에서의 AI 도입이 가속화되고 있다. AI 기술이 고객 경험 향상을 위한 실질적인 서비스 도구로 활용되고 있다."
+        "title": "\"당신들이 교사를 못 버티게 만들었다\"…오픈AI 사옥서 쏟아진 소설가의 작심 발언 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EYUpISUFLc2ljbUlGdGZiUDRXdGQxZTVBbUlHMWswWDA5NXFSaC01Y1ltbko5ZjBOLVVRZ25UV2pFcEN0QmNKWFdJeU1HOTBteFRiSUt3?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 10:05:37 GMT",
+        "summary": "오픈AI 사옥에서 소설가들이 AI 모델 학습에 따른 저작권 및 일자리 위협에 대해 항의했다. AI 기술 도입 과정에서 사회적 합의와 윤리적 가이드라인의 중요성이 부각되었다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 2
       }
     ]
   },
   {
-    "lastUpdated": "2026-07-19T22:44:32.871Z",
+    "lastUpdated": "2026-07-20T06:37:07.978Z",
     "reportDate": "2026. 7. 20.",
-    "summary": "- AI 기술 고도화와 인력 시장의 변화: AI가 스스로 AI를 개발하는 단계에 진입하며, 기존 AI 연구자들의 직업적 안정성에 대한 우려와 함께 노동 시장 내 경력 사다리가 흔들리는 구조적 변화가 감지됨.\n\n- 중국 AI의 급격한 추격: '딥시크(DeepSeek)'에 이어 문샷 AI의 '키미(Kimi) K3'가 시장에서 흥행하며 중국 AI 기술력이 미국과의 격차를 2~3개월 수준으로 좁혔다는 평가가 지배적임.\n\n- 기업 성장 및 자본 시장 움직임: 중국 AI 기업들이 기술적 성과를 바탕으로 홍콩 증시 상장을 추진하는 등 대규모 자본 확보를 통해 생태계 확장을 가속화하고 있음.",
+    "summary": "- 인프라 및 생태계 확장: AI 산업 성장에 따른 데이터센터 수요가 폭증하며 철강, 화학 등 전통 소재 산업이 AI 공급망의 핵심 동력으로 재편되고 있음.\n\n- 반도체 및 기술 자립: AI 개발의 고도화가 진행됨에 따라 연구직의 전문성을 대체하는 AI 연구가 가속화되고 있으며, 이로 인한 고숙련 노동 시장의 구조적 변화가 감지됨.\n\n- 산업 현장 및 공공 적용: 정부 주도의 'K-문샷 AI 신약' 프로젝트가 본격화되면서 제약·바이오 분야에서 AI를 활용한 신약 개발 효율화 및 국가적 차원의 기술 경쟁력 확보가 추진됨.",
+    "summaryScore": 82,
+    "jobRiskScore": 71,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI가 AI를 스스로 설계하는 기술 발전",
+        "sign": "+",
+        "impact": 8,
+        "newsIndex": 2
+      },
+      {
+        "event": "정부 주도 AI 신약 개발 인프라 구축",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      },
+      {
+        "event": "전통 산업의 AI 인프라 공급망 편입",
+        "sign": "-",
+        "impact": 3,
+        "newsIndex": 1
+      }
+    ],
     "news": [
+      {
+        "title": "[단독]'데이터센터 철강' 올해분 다 팔려…AI·로봇 올라탄 철강·화학 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ldl8zUlJYcW1QdHNMcWVLQmxBamx4bGl1WXZIbmNOTjNqV0lXMkxOaGxFNHVWVDlINWI4Ui1aWjN2cnFndW00NkRnVFkxZ0dOSUQ3a1cxOFdsSUZTcEpRa2g3Um5aOHdWV2dVQ9IBckFVX3lxTE94SjZsR1lubHRtcl9kT2pCdXVvMTVENWRLMXNkdmNpM2lHeHdTeGZZdnBFWEV5dTFvT2dhdEUtdWE4cnI5dE1OdXVwdVlFUzllUi1KdkNpU3RBdUZVUWZXTzdIX19IZHVZekE3WVZlQUdhdw?oc=5",
+        "pubDate": "Sun, 19 Jul 2026 20:50:00 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
       {
         "title": "AI가 AI 개발하는 시대...수백억 연봉 AI 연구자도 불안 - 조선일보",
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQXBhWUlYNFZBUW9GV0Jza2VFYVZkZDhEYVBIWmt0aDVYcUNfOWJYRTV6ZUY0dzd1N2xHUFFyckhTT2hYVWNlSkdZeXc2STlMV19qNkFyc1VSQnF0NHVSRVVlTERqQ1FXZEpubFlEbjdweEpfVm5XYjhwSXJjR0RkWm1Taw?oc=5",
         "pubDate": "Sun, 19 Jul 2026 21:04:30 GMT",
-        "summary": "AI가 스스로 AI를 설계하고 코딩하는 능력이 비약적으로 발전하면서 최고 수준의 AI 연구자들조차 직업적 위기감을 느끼고 있음. 단순 개발 업무가 자동화됨에 따라 기존의 기술 중심 고용 시장이 재편될 가능성이 높음."
+        "summary": "최신 AI 모델이 스스로 AI를 코딩하고 최적화하는 단계에 진입하며 고숙련 전문직인 AI 연구자들의 직무 안정성마저 위협받고 있음. 기술 발전 속도가 빨라짐에 따라 노동 시장의 불확실성이 증대되는 양상임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 4
       },
       {
-        "title": "딥시크 이어 ‘키미 K3’ 쇼크…중국 AI, 미국 턱밑까지 왔다 - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwS1N2Y3dNUzF6eF9nSWtsTVVLSzJpcUVWdlRWRXB1aGQtbDdlbG1uVjVzcFJQT0NIbTAteHFoUVR1aWlJSjFPYVlESXNrejVXcWZwbEtqRzd3QdIBX0FVX3lxTE50QlY3Tko1cFc3d0ZnNWI2VXhLUWE1dWF4XzBzUmNwTTM5em85X01HU0JsTzluMUVhUGZXUG5LNEhPMW9YamtLbUFLQi1JdllWTGJaZDZ5ZDRoVElMdFBn?oc=5",
-        "pubDate": "Sun, 19 Jul 2026 11:49:00 GMT",
-        "summary": "중국 문샷 AI가 선보인 '키미 K3'가 뛰어난 성능을 보이며 중국 AI 기술력이 미국을 빠르게 추격하고 있음. 중국 AI 생태계가 저비용·고효율 전략을 통해 미국 빅테크와의 격차를 최소화하고 있음."
+        "title": "[AI픽] AI로 신약 발굴 속도 10배 높인다…난치병 치료 대응 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE56eC03MlJTVHFEWV9wZ2tGejlNbFd5bUdJcmt3SERraC1qS29DVUxEN2xoZ2p0YkkwN21ETEkySnJKMWZGTmF2QWp2MnQtYm9ERXUzWGdYeUdXZ2vSAWBBVV95cUxOaHJ5cl9hLUp5Q1VOVkpIUmtOQWVZTjlJc2h0TUlLY3F0YmhTOU5HTkFMbXZGREx3RUhRRUFXbDV1d2V5d3JIekVvSEljNFNwYTlZemVoQno5TWNMVHRnZmY?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 06:00:00 GMT",
+        "summary": "AI를 활용한 신약 후보 물질 발굴 기간을 기존 대비 10배 단축하려는 시도가 본격화되고 있음. 난치병 치료제 개발의 효율성을 극대화하여 바이오 업계의 파괴적 혁신을 이끌 것으로 기대됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 4
       },
       {
-        "title": "중국, 딥시크 이어 ‘키미 쇼크’…“미국 AI와 격차 단 2~3개월” [팩플] - 중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BOHVBRTFEUFMxT29MRDBzMks4SjlnN3NaNzAydHh6aEt4b3U1cFIzVWZGZm5CUUdvUnU3ZVlhWkMwZlotYWlTbVV1eDg3dlZ4RWlaOGZR?oc=5",
-        "pubDate": "Sun, 19 Jul 2026 09:41:48 GMT",
-        "summary": "업계 전문가들은 중국 AI의 추격 속도가 매우 빨라 미국과의 기술 격차가 사실상 2~3개월에 불과하다고 분석함. 중국 기업들이 모델 효율화를 통해 생성형 AI 시장의 판도를 뒤흔들고 있음."
+        "title": "AI로 신약개발 10배 빨라진다…정부, 'K-문샷 AI 신약' 본격 착수 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5QbnRVaHNucEEwWnFhZkFhME9HRE9fdVFfa3N6eVBTS2FxbDZZRjNCb3djUW9HV0lTR1RHa0tzQVpNOGYwbkxNZnJLLTdQVk0?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 06:01:27 GMT",
+        "summary": "정부가 신약 개발의 디지털 전환을 위해 'K-문샷 AI 신약' 프로젝트를 공식 추진함. AI와 바이오를 결합한 국가 차원의 미래 먹거리 육성 정책으로 신약 개발 생태계의 전면적인 개편이 예상됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 5
       },
       {
-        "title": "문샷 AI, 6개월 내 홍콩 상장 추진…'키미 K3' 흥행으로 동력 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4zMUEwY2w5UnhGa09YVTNxeWFBdnFmRlRhektyUUItckVjcXJta0lJUTJUNUYwRzNXUkdhaU5zc21YRzkzNEtjZ3duS3F3Zw?oc=5",
-        "pubDate": "Sun, 19 Jul 2026 21:40:38 GMT",
-        "summary": "문샷 AI가 자사 모델 '키미 K3'의 성공을 동력 삼아 향후 6개월 내 홍콩 증시 상장을 추진함. 이번 상장은 중국 AI 스타트업이 대규모 자금을 조달해 기술 경쟁력을 강화하려는 전략으로 풀이됨."
-      },
-      {
-        "title": "[사다리밖 2030] ⑥ AI 시대, 첫 직장이 사라진다…'경력 사다리' 흔들 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84eDZXanJ0WUhNYW1TWWZGZzA1a2pHVURCRWNBSjQ3MHZ0MlNrN1N5eWpsMEExZ3dVdmR6ak1RWEkzdVhvb0h0VTJmdzhJcEgtbjdJcEFlcmVnRWfSAWBBVV95cUxQNGZDUTVEM0ZrM2owQnNZdVZVRWlQLUpBcGZHSC1hUFk3UnF1QW5HS0YwOER6TTd5Ni1BN3JPQWxneExJSm1BaldkYzJyTlFkX2djcjVYWG14Ykc3UENRZFM?oc=5",
-        "pubDate": "Sun, 19 Jul 2026 22:00:11 GMT",
-        "summary": "AI의 급속한 발전으로 주니어급 인력이 수행하던 실무가 자동화되면서 청년 세대의 커리어 형성이 어려워지고 있음. 신입 사원의 교육 환경이 붕괴하고 경력 사다리가 끊기는 노동 시장의 불평등 심화가 우려됨."
+        "title": "'K-문샷 AI 신약' 의견수렴…2035년 발굴속도 10배 목표 - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QV1JHMzVuT2tGbTh4dWJOZkQybzAyNkJkcnh3TnJ6UUxEYVBEOGNxQXVPSndNSExxdS1hM1RHUlR6SWpwVmJjSW9kaHFMOUxYX285NTRvaWF2eHN2OVZ0dFpsdXZPdw?oc=5",
+        "pubDate": "Mon, 20 Jul 2026 06:00:00 GMT",
+        "summary": "2035년까지 신약 발굴 속도를 현재의 10배로 끌어올리기 위한 국가 로드맵 수립 및 이해관계자 의견 수렴이 진행 중임. 체계적인 데이터 공유 및 기술 지원을 통해 제약 강국으로의 도약을 노림.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
       }
-    ],
-    "jobRiskScore": 61
-  },
-  {
-    "lastUpdated": "2026-07-17T22:43:00.390Z",
-    "reportDate": "2026. 7. 18.",
-    "summary": "- 서비스 생태계 확장 및 다각화: 오픈AI가 가족용 제품 개발을 위한 인력을 채용하는 등 AI 서비스의 대중화 및 타겟 세분화가 가속화되고 있음.\n\n- 비용 효율성 및 글로벌 경쟁 심화: 높은 운영 비용으로 인해 미국 기업들이 중국산 저비용 AI 모델로 눈을 돌리는 등 AI 시장 내 가격 경쟁력이 핵심 변수로 부상함.\n\n- 인프라 및 환경적 이슈 부각: AI 데이터센터의 폭발적인 전력 수요로 인한 전기 요금 인상 등 사회적 비용 문제와 AI 교육 현장 도입에 대한 찬반 논란이 지속됨.\n\n- 산업 및 의료 현장의 실질적 적용: 파킨슨병 환자의 보행 보조 등 AI 기술이 실생활과 의료 현장에서 삶의 질을 실질적으로 개선하는 사례가 증가하고 있음.",
-    "news": [
-      {
-        "title": "오픈AI, 챗GPT 가족 서비스 내놓나... ‘가족 제품 책임자’ 채용 공고 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQN3VvTFdheHlBZmszVWxuTFJSVE9VcHc5M0syeE1ONWNuVTRrM3NoUERLdC1iRnhXRHo0UVZaeFhDWGJnNjJSTjh1eTJSY1l2MUVoem12Z3ZEQ0JPemNyUEVuYmFkUExOZ1EyWXBmOUJuUWtmcUstOENPajF3WTJNN2dZYw?oc=5",
-        "pubDate": "Fri, 17 Jul 2026 06:05:56 GMT",
-        "summary": "오픈AI가 '가족 제품 책임자'를 채용하며 챗GPT의 가족용 서비스 시장 진출을 암시했다. 이는 개인 사용자 위주의 서비스를 가족 구성원 전체가 활용할 수 있는 맞춤형 모델로 확장하려는 전략으로 풀이된다."
-      },
-      {
-        "title": "[AI는 지금] \"비싼 미국 AI 왜 써?\"…비용 폭탄에 美·유럽 기업, 中 AI로 갈아탔다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83MzZvcjV4OFc5OHRTRUQ1VGVrSWpobmtWQjMyeW1LNk5qNk9MOWVzeDlCMU56NnhpTWJncmVLV3lnX0RXYzB6b251a3VIcFB2cGFSWHZn?oc=5",
-        "pubDate": "Fri, 17 Jul 2026 00:18:08 GMT",
-        "summary": "미국 AI 모델의 높은 비용과 서비스 가격에 부담을 느낀 글로벌 기업들이 저렴한 비용을 강점으로 내세운 중국산 AI 모델로 눈을 돌리고 있다. 이러한 현상은 AI 시장의 비용 효율성에 대한 글로벌 수요가 커지고 있음을 보여준다."
-      },
-      {
-        "title": "“읽고 쓰는 법 못배운다” 초등생 AI 아예 금지시킨 나라 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55TkJtcGV0eXh4WWc3cVFQZXA2bWM3TC1VWUhNRmlSSzVCcFg0MHZ4ZGJ0UzZRYkVUZ0s1NUR2WTU1eHN6US1MMmdMamtNMlU?oc=5",
-        "pubDate": "Fri, 17 Jul 2026 21:02:20 GMT",
-        "summary": "AI의 교육 현장 도입에 따른 학습 능력 저하를 우려해 초등학생의 AI 사용을 전면 금지하는 국가가 등장했다. AI가 기초 교육 과정에서 발생시킬 수 있는 인지적 부작용에 대한 사회적 경각심이 높아지고 있다."
-      },
-      {
-        "title": "[AI+] \"전기 먹는 하마 AI, 나랑 무슨 상관?\"…우리 집 전기요금이 올랐다 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5leEl6MFFPNlJLUmMyV3diY1J5R0p5Tm9XX0dEMkFvbzY4NlF6dGdicUdMaGN1dmdKRlN6U1JRdXRSNjc3OF84LUdneTVmZWlyOXdMWTNYLTBheTFNSE9lNmRjSWw1VVnSAWxBVV95cUxNdGp5eTRYS0wzU0VVdUdEY1kzTkw5bXlQaGR6MTRkSHM5VTdIck0wM2pjc3BiaTk2eVpnNEVzN2J4R21VTG52dDFGaXJkVzNYY3lkekp6TDVuaTdqZ3BUd2FKY3N6cUVPTlJJMW4?oc=5",
-        "pubDate": "Fri, 17 Jul 2026 21:00:00 GMT",
-        "summary": "AI 데이터센터 운영에 막대한 전력이 소모되면서 국가 전력망 부담 및 가정용 전기 요금 인상 가능성이 제기되고 있다. AI 산업 성장의 이면에 숨겨진 환경적, 경제적 비용 문제가 핵심 이슈로 떠오르는 중이다."
-      },
-      {
-        "title": "\"외출이 겁나요\"…파킨스병 환자 일상 바꾼 AI[빠정예진] - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94N0lqVWRYT3pYTDFnWXg0c1BTcEtFNFRMUkpyRGF2MDRkeEc0bElHbWF2b3ZzWHQtcnJnampXQ0o3M3hJX2VESjk1TjNJUDVnalN1YkxwSW5md2w0eUdqaNIBeEFVX3lxTE9aczFtU3dhOTZBLWtHdkhBZE92OVJmdjFIbGxqNHcwRjl3RmtId3YzM25ocHJlNHdUUlVyNEZoNVh4YlpldmdONUJWMGQ4OGZPNDdfU2xPTWJQYzIwakJOcTVOaDRSVkhXSFdfNEEtQkpBSTZ0ZVJXZA?oc=5",
-        "pubDate": "Fri, 17 Jul 2026 21:01:00 GMT",
-        "summary": "AI 기술이 파킨슨병 환자의 보행 어려움을 개선하는 등 실질적인 재활 보조 도구로 활용되고 있다. 기술이 장애인의 일상생활 회복과 사회적 활동을 돕는 긍정적인 사례가 주목받고 있다."
-      }
-    ],
-    "jobRiskScore": 52
-  },
-  {
-    "lastUpdated": "2026-07-16T22:52:37.792Z",
-    "reportDate": "2026. 7. 17.",
-    "summary": "- 인프라 및 생태계 확장: 애플이 온디바이스 AI 경쟁력 강화를 위해 자체 칩 역량 강화에 나섰으며, 국내에서는 업스테이지와 퓨리오사AI가 협력해 하드웨어와 소프트웨어를 아우르는 '풀스택 AI' 상용화를 이끌고 있음.\n\n- 반도체 공급망 강화: AI 서비스의 핵심인 서버 및 기기 성능을 높이기 위해 애플이 반도체 기업 인수를 타진하는 등 글로벌 빅테크 기업들의 인프라 내재화 움직임이 가속화됨.\n\n- 산업 현장 및 공공 적용: 생성형 AI 모델이 스마트폰 등 개인용 기기에 탑재되는 '온디바이스 AI' 시대가 도래하며 실질적인 사용자 경험 혁신이 추진되고 있음.\n\n- 정책 및 윤리적 책임: 앤트로픽 등 주요 AI 기업 인사들이 AI 기술의 안전한 발전을 위해 관련 규제 지원을 위한 자금 기부에 나서는 등 기술적 진보와 함께 사회적 책임이 강조됨.",
-    "news": [
-      {
-        "title": "\"애플, AI 칩 제조업체 인수 검토 중\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CU0ZDaVQ3Q25KX1lILVg2UV9DOGRmVHdfWi11SHpyUjBRcjNuUkJsYjlUM0dQVm1abzdsVzRBc3Q5RDZJOFV0MEpKY3FsNGtEdnVTdmJB?oc=5",
-        "pubDate": "Wed, 15 Jul 2026 23:45:31 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "애플, AI 서버칩 경쟁력 위해 반도체기업 인수 타진 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YZXlJMlVuNlM5YVMzWHI0d05kSV9UeXlzN0Z2UGloLVU4a05acDRYdUZMTnpRSUloUkJOeTFrRl9ocks2RWZ2U2ZMcHJCTEd6WGhxcDNhSWZiMEHSAWBBVV95cUxNVWFwS2hSaVV1NmdMUmxkX3ZaM2ctRjBNMVlhMHBQZTBKcGhtQUNqSXBsellMb1NPd1B0ZC1UM3NyVzFibUl1RjdqODAzM3VtaGhfTFI4WWxJazRqaU9UMEg?oc=5",
-        "pubDate": "Wed, 15 Jul 2026 17:49:09 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "[기획] 아이폰에도 AI모델 쏙… ‘내 손 안의 DC’ 현실로 성큼 - dt.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE42OGh6RGh2Z054VVN2UkI1eG9wdHFfNHpuQjBmVUZuR2RaUTh1Q1J5MkJpaGhyQWw0N252dzR2RjdEbEJlcnNoR29yX2p0dw?oc=5",
-        "pubDate": "Wed, 15 Jul 2026 07:41:44 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "업스테이지·퓨리오사AI \"국산 기술로 '풀스택 AI' 첫 상용화\" - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ndDE5OTdiM0VqWUZ1UUNxcmpoR2x5QktBRU9rOTdjNVpacFE3YTFpbnpkckRxTXZ6dURZYVVydGVNeTJ2S2hqS2NjdkZOVEI3bmQ2dUg0MjBDaWw4N1dvYmU0NXJyVXU0eUE?oc=5",
-        "pubDate": "Wed, 15 Jul 2026 09:04:18 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "앤트로픽 CEO·직원들, 'AI 규제' 슈퍼팩에 거액 기부 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE43N2prZzNXQzhZTU5ZQzA3UDRUbnJuc3k0ZXVHMHZhYW1JQzVWQ0JLcHd4NFM0Q0VlclJIb0NwV1R2Y2dHa0hFME8xVzRSMkU?oc=5",
-        "pubDate": "Thu, 16 Jul 2026 20:02:39 GMT",
-        "summary": "요약 없음"
-      }
-    ],
-    "jobRiskScore": 56
-  },
-  {
-    "lastUpdated": "2026-07-15T22:54:10.732Z",
-    "reportDate": "2026. 7. 16.",
-    "summary": "- AI 대중화 및 생태계 확산: 정부 주도의 '모두의 AI' 프로젝트에 국내 주요 IT 기업과 통신사, 스타트업이 적극 참여하며 전국민 대상 AI 서비스 보급을 위한 경쟁이 본격화되고 있음.\n\n- AI 기술적 진화와 도전: 대규모 언어 모델이 새로운 언어를 생성하는 등 기술적 진보가 나타나고 있으나, 시스템의 효율적 운영 및 비용 절감 모델 확보가 주요 과제로 부상함.\n\n- 시장 변동성 및 거시경제 영향: AI 산업에 대한 대규모 투자가 물가 상승 요인으로 지목되면서 관련 반도체 기업의 증시 변동성이 확대되는 등 시장의 경계감이 높아짐.",
-    "news": [
-      {
-        "title": "'모두의 AI' 사업에 카카오·이통사·스타트업 잇달아 출사표 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVWV9ZeWxpVnNxSlpWQm5lV0tnZm02OGI5VmZsUVFzeU9KbkZlWHk1VHRfWGdxWVhUczVQOEVrb1VWOWdKR1NjdlM4dWpESF9VS0d4YU5RNzlib2JjUmlFNElyY2NxRTJRS3c?oc=5",
-        "pubDate": "Tue, 14 Jul 2026 07:58:17 GMT",
-        "summary": "정부가 추진하는 '모두의 AI' 사업에 카카오, SK텔레콤, KT 등 국내 주요 ICT 기업들이 참여 의사를 밝히며 서비스 경쟁이 치열해지고 있음. 다양한 기업이 자체 기술력을 바탕으로 공공과 민간을 아우르는 AI 생태계 구축에 나서고 있음."
-      },
-      {
-        "title": "'모두의 AI' 경쟁 본격화…네카오·통신사·스타트업 총출동 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zRHhaTFhIbUJ0SXhaQm8weHBNSDU5UmYySGlEOTJsdVlVZ3E0el9QN0gxVU9fYUI3S2xucnZMT0tLSVBCbHZsMmlzTmdPaVNqbEtFRldIMnhhS0XSAWBBVV95cUxPaFJrQjdtN05vZklzdDBpdjVXaUN5VmlLLU5HYXpRYnNxZHIxbGRtM3ZaRTFpWXNQb1JoQlRreHd0RzVpWm1pcGZJUk5NQ3pJYkR3dFJ5ZVd3anl5QU9vajc?oc=5",
-        "pubDate": "Tue, 14 Jul 2026 02:27:12 GMT",
-        "summary": "전국민 대상의 AI 서비스 제공을 목표로 하는 '모두의 AI' 프로젝트에 빅테크와 스타트업들이 대거 출사표를 던짐. 각 기업은 공공 서비스 질 향상과 더불어 AI 주도권을 확보하기 위한 전략적 행보를 가속화하고 있음."
-      },
-      {
-        "title": "전국민 무료·이용량 제약 없는 '모두의 AI', 어떻게 가능할까 - 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11QjV2R1k2NllaMllJUHpMV1g3Q3c2ckpxc0cwZW1KNWR2R2lHWU56VDV5Q3I2bVRXdG5fUjcyZlNSYVlwUXlMWWlkUUJPUmcxX2tQUEZoUjB5OEc0MlZnWHVGX3JDR19q?oc=5",
-        "pubDate": "Wed, 15 Jul 2026 21:33:30 GMT",
-        "summary": "비용 부담 없이 이용 가능한 '모두의 AI' 서비스의 지속 가능성에 대한 의문이 제기됨. 고비용의 인프라 문제를 해결하기 위한 효율적인 모델 최적화와 정부 차원의 지원 체계 마련이 필수적인 과제로 꼽힘."
-      },
-      {
-        "title": "AI가 없던 언어를 지어냈다…다음은 ‘AI들만의 언어’? - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaS0yNXdfWEhUR0ZRYnNJWjB5cXdnUG9JZDdMZHBJREFiblVWOXVua3dWWXRPQVdka2VILUVjYnpFQnRpbEhJOUhJeHFBRGc5eEg2SDJmWlFUXzJXUzFJc0h4NHJlMy1BUkhscUxtWFZJTXBDc2lSRWlJSnhaWERXY2VUVQ?oc=5",
-        "pubDate": "Tue, 14 Jul 2026 21:06:28 GMT",
-        "summary": "AI가 기존에 존재하지 않던 새로운 언어 체계를 생성하는 기술적 성과를 보임. 이는 AI 간의 의사소통 효율성을 높일 가능성이 있는 반면, 기술적 통제와 해석에 대한 학계의 연구와 경계가 동시에 진행되고 있음."
-      },
-      {
-        "title": "뉴욕 증시 SK하이닉스 ADR 급락...연준 \"AI 투자는 일시적 물가 상승 요인\" - YTN",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94QVloaEJ4aWtUYlJ4eEZ3cndRWDE1UjB6TEJDejhHUFZDR1EyMlVseTVEUVR4SlAzZnJVV1VEMjBobDZhc25vTnZlZTZ6Q29JYkxSVzFXV1pSS3FNb3c?oc=5",
-        "pubDate": "Wed, 15 Jul 2026 22:12:00 GMT",
-        "summary": "미국 연방준비제도가 AI 분야에 집중된 막대한 투자가 단기적인 물가 상승 요인이 될 수 있다고 경고함. 이로 인해 투자 심리가 위축되면서 뉴욕 증시에서 SK하이닉스 등 관련 반도체 기업의 주가가 하락세를 보임."
-      }
-    ],
-    "jobRiskScore": 49
-  },
-  {
-    "lastUpdated": "2026-07-14T22:52:53.706Z",
-    "reportDate": "2026. 7. 15.",
-    "summary": "- AI 대중화 및 공공 확산: 정부 주도의 '모두의 AI' 프로젝트를 통해 전 국민 대상 AI 서비스 보급이 가속화되고 있으며, 네이버, 카카오, 통신사 등 국내 주요 기업들이 이 시장을 선점하기 위한 경쟁에 본격적으로 돌입함.\n\n- 글로벌 기술 경쟁 심화: 구글의 제미나이가 국내 AI 검색 시장에서 챗GPT를 추격하며 글로벌 빅테크 간 점유율 경쟁이 치열해지고 있음.\n\n- AI 기술적 진보: AI 모델이 학습 과정에서 스스로 새로운 언어를 생성하는 등 언어 생성 및 처리 능력의 차원 높은 진화가 확인되며 차세대 AI 발전에 대한 기대와 연구가 이어짐.",
-    "news": [
-      {
-        "title": "\"전 국민 무료로 AI 쓴다\"...과기부, '모두의 AI' 프로젝트 공모 착수 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xci1yOG5PQTMxLTlZU2dZbVVLNXZmTkZqQjdOY3lTeS02d0tLT002elprY0o0ZjE2ZFpkR1pkTE15X25FUHVWRzBfcXRaZFRXY2NPTVVGcnBJNjRhNy14cnVLRXZ6LW56aEE?oc=5",
-        "pubDate": "Mon, 13 Jul 2026 08:25:00 GMT",
-        "summary": "과학기술정보통신부가 전 국민이 일상에서 AI를 무료로 활용할 수 있도록 지원하는 '모두의 AI' 프로젝트 공모를 시작했다. 이를 통해 누구나 AI 기술의 혜택을 누릴 수 있는 환경을 조성하고 관련 산업 생태계를 활성화할 계획이다."
-      },
-      {
-        "title": "'모두의 AI' 경쟁 본격화…네카오·통신사·스타트업 총출동 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8zRHhaTFhIbUJ0SXhaQm8weHBNSDU5UmYySGlEOTJsdVlVZ3E0el9QN0gxVU9fYUI3S2xucnZMT0tLSVBCbHZsMmlzTmdPaVNqbEtFRldIMnhhS0XSAWBBVV95cUxPaFJrQjdtN05vZklzdDBpdjVXaUN5VmlLLU5HYXpRYnNxZHIxbGRtM3ZaRTFpWXNQb1JoQlRreHd0RzVpWm1pcGZJUk5NQ3pJYkR3dFJ5ZVd3anl5QU9vajc?oc=5",
-        "pubDate": "Tue, 14 Jul 2026 02:27:12 GMT",
-        "summary": "정부의 '모두의 AI' 프로젝트가 가시화되면서 네이버, 카카오, 통신 3사 및 다양한 스타트업이 참여 의지를 밝히며 치열한 경쟁을 예고했다. 각 기업은 자사의 플랫폼 경쟁력을 앞세워 공공 및 민간 AI 서비스 시장 점유율 확보에 나서고 있다."
-      },
-      {
-        "title": "카카오, '모두의 AI' 도전장…국민플랫폼 위상 되찾는다 - 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTamszMXFLUjUtdTE3a2hGWVhTSDlVWnlnRy1TMndzM2tyVGIxOUhIb2Z6UlpFa041RW13cWNDSjdsZE40a3BfZ2c5VEoxalVhWjFRVkpVaG5WbXoxTE5n?oc=5",
-        "pubDate": "Tue, 14 Jul 2026 21:32:00 GMT",
-        "summary": "카카오가 '모두의 AI' 프로젝트를 통해 자사 서비스와 AI 기술을 결합하여 국민 플랫폼으로서의 영향력을 회복하겠다는 전략을 발표했다. 카카오톡 등 기존 서비스 인프라를 활용해 사용자들에게 최적화된 AI 경험을 제공할 것으로 기대된다."
-      },
-      {
-        "title": "챗GPT 독주 깨졌다…구글 '제미나이', 韓 AI 검색서 턱밑 추격 - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KcDlnY05ka1QzOUJsTzFMbV9OWVQ0WTByQ2Z5SXA2cENtQ2Zkd3VKU2g5anJaYW8tZ3ROS2RoY3BRcEV5cUVNSndMOEQ4UlBMQ1g4M0dieFUydUprOWYxRtIBeEFVX3lxTE5lZ0NrRWtwb2drUnZlb1hzOE1UZjY5SUdVYTczYk9MNWpIMFJKdFd5RU5haVloajR6Q0RRZ2t1bEJzUUh5T0xzRnVlTHU2QUVCUUwxenJjX21BZFZGSFlxODF5eFYyNlFWanJDU2RYR1VlWVl5UlpyTg?oc=5",
-        "pubDate": "Mon, 13 Jul 2026 21:00:00 GMT",
-        "summary": "구글의 AI 모델 '제미나이'가 한국 AI 검색 시장에서 챗GPT의 아성을 위협하며 점유율을 빠르게 높이고 있다. 글로벌 빅테크 간의 검색 AI 주도권 경쟁이 심화됨에 따라 사용자 편의성과 기술적 완성도를 중심으로 한 점유율 다툼이 치열하다."
-      },
-      {
-        "title": "AI가 없던 언어를 지어냈다…다음은 ‘AI들만의 언어’? - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96bXU5djRKTGdwZTQtUDBRdUI2YTRRMG1vSmRFN3E2V0s4UnB2bnY0OUFQa2YxLW43ZFlhTnQtY3lvN3lpV2wyT2FpQjBJNkU?oc=5",
-        "pubDate": "Tue, 14 Jul 2026 21:02:26 GMT",
-        "summary": "AI가 학습 과정에서 인간이 정의하지 않은 새로운 언어를 스스로 생성하는 현상이 관찰되었다. 이는 AI 모델이 단순히 데이터를 처리하는 단계를 넘어 복잡한 정보 전달 체계를 구성할 수 있음을 시사하며, AI 간 통신 규약에 대한 연구로 이어지고 있다."
-      }
-    ],
-    "jobRiskScore": 46
-  },
-  {
-    "lastUpdated": "2026-07-13T22:51:04.286Z",
-    "reportDate": "2026. 7. 14.",
-    "summary": "- 차세대 AI 모델의 비약적 성능 향상: 오픈AI의 최신 모델인 'GPT-5.6'이 수학 난제 해결 등 고도의 추론 능력을 입증하며 AI의 지적 한계를 확장함.\n\n- 빅테크 전략적 협력 및 생태계 고도화: 마이크로소프트가 자사 권장 모델로 GPT-5.6을 채택하며 AI 인프라 생태계 내 오픈AI와의 강력한 기술적 결합을 재확인함.\n\n- AI 기반 산업 생산성 혁신 및 사회적 대응: 제조 공정의 스마트화를 통한 생산 체제 효율화와 더불어, AI 기술 확산에 따른 고용 시장 변화 대응을 위한 지자체의 정책적 지원이 병행됨.",
-    "news": [
-      {
-        "title": "오픈AI \"GPT-5.6 솔 울트라, 50년 수학 난제 1시간 만에 증명\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mc2NrX05RbFBWNk1wamR0a0czMDBYQWdXY1BtMThndmx0dGw1b2lUUTdNYUtUQTk5clBGaC1kZGxFdDVnU3VPX1dYWUhjMHZuTlh5bWh3?oc=5",
-        "pubDate": "Sun, 12 Jul 2026 07:58:55 GMT",
-        "summary": "오픈AI의 차세대 모델 'GPT-5.6 솔 울트라'가 50년간 풀리지 않았던 수학적 난제를 1시간 만에 증명하는 성과를 냈다. 이는 AI가 단순 연산을 넘어 고도의 논리적 추론 및 과학적 문제 해결 영역에서 인간의 능력을 상회하고 있음을 시사한다."
-      },
-      {
-        "title": "오픈AI 최신 모델, 50년 수학 난제 1시간 만에 해결 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa1Q2RFY2SjJsZ0poTnpsYnNhU0h1ZjlZU3BYQ1pPcmh4VmNEQzJJQkZXbHVTMXd1YUZ6bjFZWUE3eG5oTGh5TFpIQTVyOWhwWGFnVm5tVTdRTmFRbHVMVjc1NU1oQUVDcDlWS1RtNThTcENOZEVjaFhmc3YzSWY2WW5ZOA?oc=5",
-        "pubDate": "Sun, 12 Jul 2026 15:43:06 GMT",
-        "summary": "오픈AI의 최신 AI 모델이 복잡한 수학적 난제를 단시간에 해결하며 인공지능의 지능적 도약 가능성을 입증했다. 업계에서는 이번 성과가 향후 학술 연구 및 과학 분야의 혁신을 가속화할 중요한 분기점이 될 것으로 평가하고 있다."
-      },
-      {
-        "title": "\"오픈AI 의존도 낮춘다더니\"...MS, 권장 모델로 'GPT-5.6' 채택 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XMU9FZVhqTW50aWljMDZLQ09qYTVhYXFlb0I0M05lSkhwLUZ4bTNxNnE5SUxuektSenVVcjhBTlRnR0xUZi1pTWQtTjYxb0ZjaXd2OGZ6VDRFNXVXXy1xRDM4QzhBSE1vckE?oc=5",
-        "pubDate": "Sun, 12 Jul 2026 09:25:43 GMT",
-        "summary": "마이크로소프트가 자사의 주요 권장 모델로 오픈AI의 'GPT-5.6'을 채택하며 기술 생태계 결합을 강화했다. 당초 추진하던 탈(脫) 오픈AI 전략에도 불구하고, 고성능 모델 확보를 위해 오픈AI와의 파트너십을 우선시한 결과로 해석된다."
-      },
-      {
-        "title": "농심 'AI 수출공장' 완공 임박…연간 라면 12억개 생산체제 구축 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9xUk1ZZFN2bEIzLV9FanFOUnR3VlZiajYyQVNjdFdXRmtDLXBRZlB6aVU3cWRBRmxZclpUWk55TVdDakNrZG5uM29RMTNGdw?oc=5",
-        "pubDate": "Sun, 12 Jul 2026 08:00:00 GMT",
-        "summary": "농심이 AI 기술을 도입한 스마트 수출공장 완공을 앞두고 있으며, 이를 통해 연간 12억 개의 라면 생산 체제를 구축한다. 공정 전반에 AI를 적용하여 생산 효율성을 극대화하고 글로벌 시장 공급 능력을 대폭 강화할 예정이다."
-      },
-      {
-        "title": "'AI시대 여성 일자리 한눈에'…21일 서초구 여성 잡페스타 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pamtuY21JczdiOG9Nc0NGSmFBR1YtZ01McmludFp0aEFGRGxGREVMSDZUdFhJV1lyTFJibkVqaTF6YzVDd2VEMWtsQUVTR0k?oc=5",
-        "pubDate": "Mon, 13 Jul 2026 22:12:56 GMT",
-        "summary": "서울 서초구가 오는 21일 'AI시대 여성 일자리'를 주제로 한 잡페스타를 개최한다. AI 기술 확산에 따른 직무 환경 변화를 조명하고, 여성 구직자들에게 최신 기술 트렌드와 적합한 일자리 정보를 제공하는 데 목적이 있다."
-      }
-    ],
-    "jobRiskScore": 52
-  },
-  {
-    "lastUpdated": "2026-07-12T22:41:30.852Z",
-    "reportDate": "2026. 7. 13.",
-    "summary": "- AI 모델 고도화: 오픈AI의 'GPT-5.6 솔 울트라'가 50년 수학 난제를 해결하는 등 고차원적 논리 및 연구 역량을 입증하며 모델의 성능이 비약적으로 발전하고 있음.\n\n- 빅테크 전략 및 규제 강화: 마이크로소프트가 독자 모델 확보 노력에도 불구하고 GPT-5.6을 핵심 모델로 채택하는 등 생태계 의존성이 지속되고 있으며, 고성능 모델 출시에 앞선 정부 차원의 사전 검증 및 허가 절차가 강화되는 추세임.\n\n- 시장 변동성 및 문화적 확장: AI 기술 도입에 따른 기업 가치의 급격한 등락이 관찰되는 가운데, AI가 창작 영역인 재즈 경연에서 우승하는 등 산업과 문화를 넘나드는 다양한 활용 사례가 등장하고 있음.",
-    "news": [
-      {
-        "title": "오픈AI \"GPT-5.6 솔 울트라, 50년 수학 난제 1시간 만에 증명\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1mc2NrX05RbFBWNk1wamR0a0czMDBYQWdXY1BtMThndmx0dGw1b2lUUTdNYUtUQTk5clBGaC1kZGxFdDVnU3VPX1dYWUhjMHZuTlh5bWh3?oc=5",
-        "pubDate": "Sun, 12 Jul 2026 07:58:55 GMT",
-        "summary": "오픈AI가 공개한 'GPT-5.6 솔 울트라'가 50년 동안 미해결 상태였던 복잡한 수학 난제를 단 1시간 만에 증명하는 쾌거를 거뒀다. 이는 AI가 단순 연산을 넘어 고차원적 학술 연구 및 문제 해결 영역에서 인간의 지적 능력을 보조하거나 상회할 수 있음을 보여준다."
-      },
-      {
-        "title": "\"오픈AI 의존도 낮춘다더니\"...MS, 권장 모델로 'GPT-5.6' 채택 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XMU9FZVhqTW50aWljMDZLQ09qYTVhYXFlb0I0M05lSkhwLUZ4bTNxNnE5SUxuektSenVVcjhBTlRnR0xUZi1pTWQtTjYxb0ZjaXd2OGZ6VDRFNXVXXy1xRDM4QzhBSE1vckE?oc=5",
-        "pubDate": "Sun, 12 Jul 2026 09:25:43 GMT",
-        "summary": "마이크로소프트가 자체 AI 모델 개발로 오픈AI 의존도를 낮추겠다는 당초 계획과 달리, 최신 모델인 'GPT-5.6'을 자사의 권장 모델로 채택했다. 이는 고성능 AI 경쟁에서 승리하기 위해 오픈AI의 기술력을 지속적으로 활용하려는 전략적 판단으로 풀이된다."
-      },
-      {
-        "title": "\"정부 허락받아야 나온다\" 미토스5·GPT 5.6이 거쳐야 했던 과정 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9GOHJqT3diWVRuMG01bHhNaXBGRldaRnJ0NUpCQ3EtckdxeGlHV0hkUVZjVEItbk1NdUJhdEhLVkx2T25lSEJHblRubkZtZjQ?oc=5",
-        "pubDate": "Sun, 12 Jul 2026 21:02:58 GMT",
-        "summary": "미토스5와 GPT-5.6 등 최첨단 AI 모델들이 시장에 출시되기 전 정부의 철저한 사전 검증과 허가 과정을 거친 사실이 주목받고 있다. 이는 강력한 AI 모델의 부작용을 방지하고 안전성을 확보하기 위한 규제 당국의 통제가 점차 강화되고 있음을 시사한다."
-      },
-      {
-        "title": "AI에 주가 반토막, AI덕에 다시 2배로…위기=기회란 이 회사 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9LUGlZQkRBMElOV1R1MFdFYWh4Wk9hem5vdHBBNVVoUy1MREhVaEJXYXdrT0p1SWxoVmRkWUZ0R1JIVkluNUd4ejlMR2VCd2s?oc=5",
-        "pubDate": "Sun, 12 Jul 2026 21:03:00 GMT",
-        "summary": "AI 도입 초기 기술 적응에 따른 비용 부담으로 주가 하락을 겪었던 기업들이, AI를 활용한 생산성 향상과 혁신으로 다시 주가 반등을 이루어내는 사례가 늘고 있다. 시장에서는 AI를 위기에서 기회로 전환하는 기업들의 대응 능력이 기업 가치를 결정짓는 핵심 요소가 되고 있다."
-      },
-      {
-        "title": "‘음악 마니아’ 용호성 문체부 前차관, 스위스 ‘AI 재즈 경연’ 우승 - 서울경제신문",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xSTdZb2FLUWRjcWpSVnh2TDNyUXZBT0NPam05VEtabF9WYWpzVjZVenBfdE10VEZZbDBMQ25taWQyc1lSbU1ocFZBZVMxZEl5OXfSAVNBVV95cUxOZHZaNy16ajlPYW8yaUJ2M1ltbUJ6UVVOWHVSX3BkdVpJdjAyOTlvZEZjUkRmN05lbTdOX2xyY1JfS281TUoyNmwxTlY1OGE4TlVaRQ?oc=5",
-        "pubDate": "Sun, 12 Jul 2026 21:05:00 GMT",
-        "summary": "용호성 전 문체부 차관이 스위스에서 열린 AI 재즈 경연대회에서 우승을 차지하며 AI가 음악 예술 분야에서도 인간과 협업하여 창의적인 결과물을 낼 수 있음을 입증했다. AI 기술이 기술적 도구를 넘어 문화와 예술 영역으로 폭넓게 확산하고 있다."
-      }
-    ],
-    "jobRiskScore": 53
-  },
-  {
-    "lastUpdated": "2026-07-11T22:41:28.944Z",
-    "reportDate": "2026. 7. 12.",
-    "summary": "- AI 기술 경쟁 및 법적 갈등 심화: 주요 AI 기업 간의 기술 격차를 줄이기 위한 고성능 모델 출시 경쟁과 더불어, 핵심 기술과 영업비밀 유출을 둘러싼 거대 기업 간의 법적 분쟁이 본격화되고 있음.\n\n- AI 시장의 패러다임 변화: 범용성 위주의 초거대 AI 경쟁에서 벗어나, 비용 효율성을 극대화한 '가성비' 중심의 모델로 시장의 전략적 초점이 이동하고 있음.\n\n- 인프라 및 생태계 보호: 기술 혁신과 더불어 지식재산권과 하드웨어 설계 등 기업의 핵심 자산을 보호하려는 전략적 움직임이 향후 AI 산업 생태계에 중요한 변수로 작용할 전망임.",
-    "news": [
-      {
-        "title": "챗GPT가 아이폰 설계 훔쳤나…파트너였던 애플·오픈AI, 이젠 법정으로 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80cGowTXhpZ0c2Y016bFNTU1BtMG5xeFpFWmZNVTg2aHNkaFNYbW45ZVlhZ21CNklWS0U2cms3S2ZEdmhuZnNLM0J3aDZRQmM?oc=5",
-        "pubDate": "Sat, 11 Jul 2026 07:46:14 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "애플, 오픈AI 전격 제소…\"영업비밀 훔쳤다\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UTDRrSWFpVE1faXc2N3RkS1B4dnlwT0U2YUQwLVZrQ00wVmRCN2x3ZW84VnZMSVNBSHB0WTd1LTRsY3NUeW9SODNzc09oeHl4c1lxM2N3?oc=5",
-        "pubDate": "Fri, 10 Jul 2026 23:53:17 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "\"오픈AI가 하드웨어기밀 훔쳤다\"…애플, 블록버스터급 소송 제기(종합) - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YcFFLVXNxUTJNT2pOTjZ6OU1fY0VSSWRCYTI3N0ZCMFJGN1EzOV9IdWl3NHFhM0lxa1laZzl6ZGJLUENfYXlRd25Kckx3Ukw3YnJNN0NWVGlYYVHSAWBBVV95cUxQd0R0VlA0SmY5UUYyNTlDU1NGUXJJM0hYTWRaZEJRa2lycmZHWVhOWE5ZNzVlb0VMQTFGYzY0THlaY2NWeWVpTnFFMHc4MXliRmxEZDlJSjlraG1FYnkxOFI?oc=5",
-        "pubDate": "Sat, 11 Jul 2026 01:42:09 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "오픈AI 초고성능 모델 ‘GPT-5.6’ 정식 출시 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWmlBU1dZR29VTFhmZklRRHNHWjdFV2w5VlNVT21BV2JmUmdLcGdRMWRtWmhubmdHSk9KQlg0ZkNhdXBlR1hoSDRkNHk2dzBpV2M5MFFabmhabU8zTmFwQld4Qlp0Q2lxQlZkX3ZsXzlCT21NYW92c245UUwxOXluYkFSTQ?oc=5",
-        "pubDate": "Fri, 10 Jul 2026 15:43:45 GMT",
-        "summary": "요약 없음"
-      },
-      {
-        "title": "제미나이·클로드·챗GPT 시대는 끝났다고?…AI도 이젠 ‘가성비’ 싸움 [주末머니] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5QZmNUZElnVHFpb2FMdVBQQlF3QWJJcDFpUnhraW54MWRRRXYzVlgycE1NSHB2aDFjOHdnT1RESHpIQzBsbUE?oc=5",
-        "pubDate": "Sat, 11 Jul 2026 07:33:27 GMT",
-        "summary": "요약 없음"
-      }
-    ],
-    "jobRiskScore": 48
+    ]
   },
   {
     "lastUpdated": "2026-07-09T23:06:46.772Z",
@@ -350,33 +166,475 @@
         "title": "삼성전자, PC용 AI칩 출사표…엔비디아·퀄컴과 '맞짱' - 한국경제",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pa1pFNmwzYXpSeS11c2ZqcFFCeVlRb3dxNFBoMndyX25wVkJLdldUM1hraGN6a0lGOWNtZzhkX1hmVTllY1JCcFMxbDBsSEVhdDF1OUMwSzJVd9IBVEFVX3lxTFBHdW93dHFFSkVUVXZGby1KVEdDRkhLTHFtNWxwaDdwS2ZSSWI5Wk8zZGt1aUU5eGJ4Z3R2cWIxTkNlUk5MS1EwZFN0SnhfVkU3aWtoSg?oc=5",
         "pubDate": "Thu, 09 Jul 2026 08:47:23 GMT",
-        "summary": "삼성전자가 온디바이스 AI 시장을 겨냥해 PC용 AI 칩 시장에 본격적으로 진출한다. 기존 강자인 엔비디아, 퀄컴 등과 경쟁하며 고성능 메모리 기술력을 바탕으로 시장 점유율 확대에 나설 계획이다."
+        "summary": "삼성전자가 온디바이스 AI 시장을 겨냥해 PC용 AI 칩 시장에 본격적으로 진출한다. 기존 강자인 엔비디아, 퀄컴 등과 경쟁하며 고성능 메모리 기술력을 바탕으로 시장 점유율 확대에 나설 계획이다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
       },
       {
         "title": "과학자끼리도 “AI 썼나” 서로 의심… 허위 논문 철회도 급증 - 동아일보",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1ODZiZDd3ZnlQT3hTZFV0aTZxTzZocjgwZ1F5VTlqX1ZuclE4aVZZbUg1NUQ0dExjTVJObGFGRmFZUDkyYkVpbm40eExUUW0tN25rZVZZdlFPblN1WHdaOU9xVkpnb0xueUxuN3hXeUdZc2VlSHfSAWZBVV95cUxNcXpzWm5zZERGeU9uaW9wUGdqY3BnT2o1eUxGLWhROXBJTkV1OFNMc08yOXpuUUI2dE0tYVRmallzYkl0bnpEM3pVWnk1RTQyX1Ayb1FxV0xkZnY3a2VsejhmR2RFY2c?oc=5",
         "pubDate": "Wed, 08 Jul 2026 19:30:00 GMT",
-        "summary": "생성형 AI를 이용해 작성된 허위·조작 논문이 급증하면서 학계의 신뢰성 문제가 심각해지고 있다. 연구자들 사이에서도 상호 의심이 확산하고 있으며, 이에 따른 논문 철회 사례가 빈번하게 발생하는 등 부작용이 현실화되고 있다."
+        "summary": "생성형 AI를 이용해 작성된 허위·조작 논문이 급증하면서 학계의 신뢰성 문제가 심각해지고 있다. 연구자들 사이에서도 상호 의심이 확산하고 있으며, 이에 따른 논문 철회 사례가 빈번하게 발생하는 등 부작용이 현실화되고 있다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
       },
       {
         "title": "\"광화문 걷는 젠슨 황 그려줘\" 메타·구글·오픈AI에 같은 요구해봤더니 - 조선일보",
         "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVkxOOE45R1NZSnlxejc3N0pGNFRORHFNUHF6YW9qeHpHZTVqczFEOWNfYzJaQUZvbUdLWHJIRXJBemIwcGFOMjN2cmdJSlZvN1lEZVVTZnp5OUZlYl9vYVFYM2VrNFFuZ254TDVHbzZRU1Y4dk8tSHgzdkhGMm1rN1NRbw?oc=5",
         "pubDate": "Thu, 09 Jul 2026 21:00:00 GMT",
-        "summary": "메타, 구글, 오픈AI 등 주요 빅테크의 생성형 AI 모델에 동일한 화풍의 이미지를 생성하도록 테스트한 결과, 모델별로 표현력과 정보 처리 능력에서 차이가 나타났다. 이는 각 기업의 AI 모델이 추구하는 학습 데이터와 최적화 방향이 다름을 보여준다."
+        "summary": "메타, 구글, 오픈AI 등 주요 빅테크의 생성형 AI 모델에 동일한 화풍의 이미지를 생성하도록 테스트한 결과, 모델별로 표현력과 정보 처리 능력에서 차이가 나타났다. 이는 각 기업의 AI 모델이 추구하는 학습 데이터와 최적화 방향이 다름을 보여준다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
       },
       {
         "title": "\"메타, 9월부터 AI칩 생산…삼성전자와 메모리 반도체 장기 계약도\" - KB Think",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uMlBrejNRUzd1Mk9IMzlwbzVXRmpMeVFoUVF0REU5c2hGNFgzUU9FcHJXQldYZE96b1B2a3REcDNyUGh3WWhkWEhxLTVmMVgxdm02blZhMWQzcWFsNlotNnJZQmZSc0pXNWFmM010SWFuUQ?oc=5",
         "pubDate": "Thu, 09 Jul 2026 11:36:33 GMT",
-        "summary": "메타가 오는 9월부터 자체 설계한 AI 가속기 생산을 시작한다. 또한, AI 인프라 구축을 위해 삼성전자와 고대역폭메모리(HBM) 등 반도체 공급과 관련한 장기적인 협력 관계를 체결했다."
+        "summary": "메타가 오는 9월부터 자체 설계한 AI 가속기 생산을 시작한다. 또한, AI 인프라 구축을 위해 삼성전자와 고대역폭메모리(HBM) 등 반도체 공급과 관련한 장기적인 협력 관계를 체결했다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
       },
       {
         "title": "\"AI도 컴퓨팅도 판다\"…메타, 수천억달러 투자 회수 승부수 - v.daum.net",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQTFlDV05GUEV5bW0yMEhJSkdOMk42eEwxckRIUFBmR1M1WUVCU0xTRFVOdUd1dC1ZZXRUeEV3TXhOSks0T2liRm5tcW1ZRmc?oc=5",
         "pubDate": "Thu, 09 Jul 2026 22:07:51 GMT",
-        "summary": "메타가 인공지능 기술뿐만 아니라 컴퓨팅 인프라 자체를 서비스화하여 수익을 창출하려는 전략을 추진 중이다. 막대한 자본이 투입된 AI 인프라를 통해 기술 경쟁력 확보와 수익 모델 다각화라는 두 마리 토끼를 잡겠다는 의지다."
+        "summary": "메타가 인공지능 기술뿐만 아니라 컴퓨팅 인프라 자체를 서비스화하여 수익을 창출하려는 전략을 추진 중이다. 막대한 자본이 투입된 AI 인프라를 통해 기술 경쟁력 확보와 수익 모델 다각화라는 두 마리 토끼를 잡겠다는 의지다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
       }
     ],
-    "jobRiskScore": 49
+    "jobRiskScore": 62,
+    "summaryScore": 84,
+    "riskScoreBreakdown": []
+  },
+  {
+    "lastUpdated": "2026-07-19T22:44:32.871Z",
+    "reportDate": "2026. 7. 20.",
+    "summary": "- AI 기술 고도화와 인력 시장의 변화: AI가 스스로 AI를 개발하는 단계에 진입하며, 기존 AI 연구자들의 직업적 안정성에 대한 우려와 함께 노동 시장 내 경력 사다리가 흔들리는 구조적 변화가 감지됨.\n\n- 중국 AI의 급격한 추격: '딥시크(DeepSeek)'에 이어 문샷 AI의 '키미(Kimi) K3'가 시장에서 흥행하며 중국 AI 기술력이 미국과의 격차를 2~3개월 수준으로 좁혔다는 평가가 지배적임.\n\n- 기업 성장 및 자본 시장 움직임: 중국 AI 기업들이 기술적 성과를 바탕으로 홍콩 증시 상장을 추진하는 등 대규모 자본 확보를 통해 생태계 확장을 가속화하고 있음.",
+    "news": [
+      {
+        "title": "[비즈톡] “비싼 AI만 쓰지말고...” ‘토성비’ ‘토크노믹스’ 시대 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSFpLQ0JkSXl4d0hCY1FZSnRYZHBkeHlmNEhiTjJ2QlY2cWg2NHd5SE9jQ0tGWE5HbEVpRW1mSDUyV2RscDNxMTEwV0JURTd5bHZMV2JMMmFvSUROckxqRGx2emRfX0dfdy1LdXJ2ckZONUFLOWNqR29DN3REMGlkVVk2RQ?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 21:04:19 GMT",
+        "summary": "AI 도입 비용 부담이 커지면서 기업들이 무조건적인 고성능 모델 사용 대신 성능과 비용 효율을 고려한 '토성비(토큰당 성능비)'를 중요하게 생각하고 있다. 합리적인 토큰 소비를 지향하는 '토크노믹스' 개념이 도입되며 AI 생태계가 실용주의 중심으로 재편되고 있다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "세계 AI 기업 안전 성적표…9개 기업 중 'C+'가 최고점 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zQndWbERIb1p1RzdBNjJndmo0V082RWdDY1E1RGd3a0lqSFZaWGVuM09aV3lENnktenRWcS0xSWNxLVIyM3lwLU9LeWlYdWg3aUxzUXBn?oc=5",
+        "pubDate": "Wed, 08 Jul 2026 01:00:04 GMT",
+        "summary": "글로벌 주요 AI 기업 9곳을 대상으로 안전성을 평가한 결과 최고점이 'C+'에 그치며 AI 안전 조치에 대한 경각심이 높아졌다. 이번 평가는 AI 모델의 투명성과 안전 기준 강화가 시급함을 시사하며, 기업들의 책임 있는 기술 개발을 촉구하고 있다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "AI 두뇌 갖춘 로봇, 영국서 고령자 돌봄 나선다 - 이투데이",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DdUxUYnpqbTVsN1hfWldoMUZ5Yk9Hd0FEN1F0OTdKM2RjbEFSbEJjNkN2eXljWXNHX2doWDlnYzA2VFl6Vi04M0wxNDB5RDlRNENqRzEzSHREdw?oc=5",
+        "pubDate": "Wed, 08 Jul 2026 22:00:00 GMT",
+        "summary": "영국에서 생성형 AI를 탑재한 휴머노이드 로봇이 고령자 돌봄 현장에 투입되어 실증을 시작했다. AI 로봇은 노인과의 대화 및 일상 보조를 수행하며 인구 고령화 문제 해결을 위한 기술적 대안으로 주목받고 있다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "“중국, 자국 최첨단 AI 모델 해외 접근 제한 검토” - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IaHhTTmtyS1dnel9Jbml5dUxDZXFhRktRdGhmdk1rcVF5aEpNckFnWnczVVZIak5aWmtFYnhyaHR6WWlabHNTZkNxUnRSU2M?oc=5",
+        "pubDate": "Wed, 08 Jul 2026 22:29:03 GMT",
+        "summary": "중국 정부가 자국 내 개발된 최첨단 AI 모델의 해외 유출을 막기 위해 접근 제한 조치를 검토 중이다. 이는 기술 패권 경쟁 속에서 자국의 AI 기술력을 보호하고 전략적 자산으로 활용하려는 의도로 풀이된다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "\"AI 로펌 도움받고 이겼다\"…영국서 첫 사례 - 아시아경제",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wRS1HLS1UVDBGejg5anFXbGxYdjRxaDhwWFM2TmVqamo5RnpaLUVIR0VFdnZINnY0Q2RIOWI2RXR5U3dMTlpqNE1Ja3ZHbnc4MmZoMTYwdS1HWm0xYjRRMg?oc=5",
+        "pubDate": "Wed, 08 Jul 2026 22:02:48 GMT",
+        "summary": "영국에서 AI 법률 보조 서비스를 활용한 당사자가 재판에서 승소하는 첫 사례가 발생했다. 복잡한 법적 문서 작성과 전략 수립에 AI가 효과적으로 기여하면서 법률 시장 내 AI의 실질적인 효용성이 입증되었다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      }
+    ],
+    "jobRiskScore": 45,
+    "summaryScore": 71,
+    "riskScoreBreakdown": []
+  },
+  {
+    "lastUpdated": "2026-07-17T22:43:00.390Z",
+    "reportDate": "2026. 7. 18.",
+    "summary": "- 서비스 생태계 확장 및 다각화: 오픈AI가 가족용 제품 개발을 위한 인력을 채용하는 등 AI 서비스의 대중화 및 타겟 세분화가 가속화되고 있음.\n\n- 비용 효율성 및 글로벌 경쟁 심화: 높은 운영 비용으로 인해 미국 기업들이 중국산 저비용 AI 모델로 눈을 돌리는 등 AI 시장 내 가격 경쟁력이 핵심 변수로 부상함.\n\n- 인프라 및 환경적 이슈 부각: AI 데이터센터의 폭발적인 전력 수요로 인한 전기 요금 인상 등 사회적 비용 문제와 AI 교육 현장 도입에 대한 찬반 논란이 지속됨.\n\n- 산업 및 의료 현장의 실질적 적용: 파킨슨병 환자의 보행 보조 등 AI 기술이 실생활과 의료 현장에서 삶의 질을 실질적으로 개선하는 사례가 증가하고 있음.",
+    "news": [
+      {
+        "title": "앤트로픽 \"AI도 말로 드러내지 않는 '속마음' 있다\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YZjFTNXQxeXo3T3djZm5JZzZWTDh2MmFfdFJFb0pEM25mNGN5MTI5dE84Qk9GU3M1U05RZnQ3UDk4T29XX1pUamtUTjFsbVBmbVk5aTB2RGVJUFXSAWBBVV95cUxOMXNxaS0zbWVkZm5pQ3FSZllKS3FpLXVNSlJ5QXVEX0ZlU0tNZ29sZ3hzYlREczlsNjJON0tKNzM5REszVHNPakV0dVNFM1ZNQWNxNUg1ZFNSX1dGaUxfQTI?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 11:53:32 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "삼성전자 89조 실적도 못 믿는 시장…AI 랠리 덮친 'ROI 의심' - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YTG96WG5DSU5ZUGp1RHNGNVBUVXhvMlZqV1QzUnhxVjk1SjVZYTRCODNzQUxLQ2wxZE4yVlI2TjJnX1pMcl9ZTTZJRVR2bFpBWVJUa0ptWWctZEFVb29nVVZfNGhoMllsYkRYU3pnRWU?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 05:15:00 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "\"삼전 호실적, 반도체·AI 향한 과도한 지출과 높은 기대 우려 불러와\" - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DQ3dEZUJYUkJXSGs0bEphUmZqWWVkcEJRZlFIZUl0dEFBWUs4eWlqODlRLWJQVE8wMmRJaU41bEVLRjdkMktKWkZQQVFGb2hwSm5ibmhKbm8tYjBnODV2UnlkdzNiV0gzWmlDeVdWbmbSAXRBVV95cUxNRDBta3ZseDRjY3JndHY1cDVGbUtIVWNKazNYcEZrM2EtcGJTZl92ek04ZURDNWhYTjdoVFlSTFQ3aHN2WlZnWDdZVHZqVkFSOExlS094UXZsclhCbWJ2RWtXMnhWWnRTbG5kWWVCX0x0LWNUWg?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 22:46:14 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "삼전 2Q 실적에 월가 \"높아진 기대 충족…AI메모리 쇼티지 여전\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpd3NWQndyQ0V3OEVpRUc5aWdWamd4ZVFNM0hESGtnSHl4ZjI2dlNnOG01bnpaUVBvMDdjVXJSNVRtaTk4cVhuRGVBRzJ6N1E?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 01:25:14 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "생성형 AI 시대, 기대·우려 교차…\"생각의 외주화 경계해야\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JTkV1U0M0TE04RktoSGp0Q3BnYXhyZzh1MHVoSTFTaExTamtyWVdnUmFHbXlhbkhoTGRJZmFzV2ZHOUt3a0FNaFF0dnZtZDA?oc=5",
+        "pubDate": "Tue, 07 Jul 2026 21:01:44 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      }
+    ],
+    "jobRiskScore": 51,
+    "summaryScore": 85,
+    "riskScoreBreakdown": []
+  },
+  {
+    "lastUpdated": "2026-07-16T22:52:37.792Z",
+    "reportDate": "2026. 7. 17.",
+    "summary": "- 인프라 및 생태계 확장: 애플이 온디바이스 AI 경쟁력 강화를 위해 자체 칩 역량 강화에 나섰으며, 국내에서는 업스테이지와 퓨리오사AI가 협력해 하드웨어와 소프트웨어를 아우르는 '풀스택 AI' 상용화를 이끌고 있음.\n\n- 반도체 공급망 강화: AI 서비스의 핵심인 서버 및 기기 성능을 높이기 위해 애플이 반도체 기업 인수를 타진하는 등 글로벌 빅테크 기업들의 인프라 내재화 움직임이 가속화됨.\n\n- 산업 현장 및 공공 적용: 생성형 AI 모델이 스마트폰 등 개인용 기기에 탑재되는 '온디바이스 AI' 시대가 도래하며 실질적인 사용자 경험 혁신이 추진되고 있음.\n\n- 정책 및 윤리적 책임: 앤트로픽 등 주요 AI 기업 인사들이 AI 기술의 안전한 발전을 위해 관련 규제 지원을 위한 자금 기부에 나서는 등 기술적 진보와 함께 사회적 책임이 강조됨.",
+    "news": [
+      {
+        "title": "노벨화학상 석학도 중국행… 야기 교수, 칭화대서 AI 소재 연구 지휘 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYTF1X3M0UUFxU0RFa3R1dVlRNjcyV1NfWjYyalBlckNTbHJXY1ZiUC1aemNfTk52WllZaGpreDIxMklIaDNRMU9iTy1KVUtzUlBwZFhmOXprd0J5Vi1qOFhJZHo3MzdneHB3eG85UHhHUzQ5YU1CODk2M011SWVJSElEVk1kS1ozMVV3bmRHMmJ6ODctY2pUVnQ0OGhJUQ?oc=5",
+        "pubDate": "Mon, 06 Jul 2026 04:57:23 GMT",
+        "summary": "노벨화학상 수상자인 야기 교수가 중국 칭화대로 자리를 옮겨 AI 기반 소재 연구를 이끌게 됨. 이는 중국이 AI 원천 기술과 기초 과학 분야에서 글로벌 석학 영입을 통해 기술 패권 확보에 적극적으로 나서고 있음을 보여줌.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "메타, AI 안경 한국어 실시간 번역 지원...통신 3사 판매 돌입 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuOHJla0hwLVk1akVRNGZpQTY3SkNJcURuQUtzcVMtMkF0RXNSTThlc2lqb3poSGFRdE5VSS1yY1NBUXhGX1lPMFBldmtaTXVoOHFEbGhBZVVBWWJsYmFaUE5pdkRKb1BiLWc?oc=5",
+        "pubDate": "Mon, 06 Jul 2026 02:37:11 GMT",
+        "summary": "메타가 자사의 스마트 글라스에 한국어 실시간 번역 기능을 도입하고 국내 통신 3사를 통해 정식 판매를 시작함. 웨어러블 디바이스와 AI 결합이 실제 소비자 시장으로 확장되며 일상 속 AI 서비스 체감이 커질 것으로 전망됨.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "\"전 10조 갑니다\" SK하이닉스에 전 오픈AI 연구원도 '통 큰 베팅'…나스닥 상장 흥행 조짐 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hb2ZiNmJDblVaVTN0cV9YNzBaX05iTnRhYnVZRFNhTDdINkJFM1dIVTMzZ1pESkxUeUNHWkRmczNZVnhZaFZncHhjUmFpY3M?oc=5",
+        "pubDate": "Mon, 06 Jul 2026 19:40:00 GMT",
+        "summary": "AI 시장 성장에 따라 고대역폭 메모리(HBM) 수요가 폭증하면서 SK하이닉스 등 관련 반도체 기업에 대한 글로벌 투자자들의 관심이 급증함. 전직 오픈AI 연구원까지 대규모 투자를 단행하며 AI 반도체 생태계의 가치가 지속적으로 재평가받고 있음.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "[단독] “밤에 소변 안 누는 법”…유튜브 속 AI 가짜 의사, 왜 못 잡나 - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5URDBSSUlIQ3JtMFFXSlFPVzQxYVQtOTI0MG9vYm02d1FGZ0x5eUsyX0VDRDc2ZElYQ1JvdTgweGhSVWR6ZVZnOU1nOWQ5dThOTUlReGJR?oc=5",
+        "pubDate": "Mon, 06 Jul 2026 20:00:02 GMT",
+        "summary": "생성형 AI를 악용한 가짜 의학 정보 콘텐츠가 유튜브 등 플랫폼에서 무분별하게 확산되어 국민 건강을 위협하고 있음. 기술 발전에 따른 정보 왜곡과 허위 조작 정보에 대한 규제 방안 및 플랫폼 차원의 관리 책임 강화가 시급한 과제로 떠오름.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "강남구, 서울대와 함께 'AI창작·창의성 캠프' 운영 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjUGpqUUY2M0ZQNW9XTFhMaUNuajdvUnluR2dsU0N2eHM1ZVhFekgxS29pbXkzNVFVdW5YS3N5amtLc3l6WjVaaUtMbUtqX1UzdjNJeDB6TUFKWHPSAWBBVV95cUxNV3FhTGNFV0tjV2IzajhvbGZLYnJkN0pXUlM3MGtGWWpzcjVHeTF2bzNJMUNrd24wT2NlQkhrUHBJRkhMSUt0Sm1KVk0tN21kQl9KNkZBS01fVnJNbDJSU1Y?oc=5",
+        "pubDate": "Mon, 06 Jul 2026 22:08:55 GMT",
+        "summary": "강남구가 서울대학교와 협력하여 청소년 대상 AI 창작 캠프를 운영하며 공공 차원의 디지털 역량 교육을 강화함. 단순 기술 활용을 넘어 AI를 창의적 도구로 활용할 수 있는 미래 인재 양성 모델이 지역 사회로 확산되고 있음.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      }
+    ],
+    "jobRiskScore": 53,
+    "summaryScore": 80,
+    "riskScoreBreakdown": []
+  },
+  {
+    "lastUpdated": "2026-07-15T22:54:10.732Z",
+    "reportDate": "2026. 7. 16.",
+    "summary": "- AI 대중화 및 생태계 확산: 정부 주도의 '모두의 AI' 프로젝트에 국내 주요 IT 기업과 통신사, 스타트업이 적극 참여하며 전국민 대상 AI 서비스 보급을 위한 경쟁이 본격화되고 있음.\n\n- AI 기술적 진화와 도전: 대규모 언어 모델이 새로운 언어를 생성하는 등 기술적 진보가 나타나고 있으나, 시스템의 효율적 운영 및 비용 절감 모델 확보가 주요 과제로 부상함.\n\n- 시장 변동성 및 거시경제 영향: AI 산업에 대한 대규모 투자가 물가 상승 요인으로 지목되면서 관련 반도체 기업의 증시 변동성이 확대되는 등 시장의 경계감이 높아짐.",
+    "news": [
+      {
+        "title": "이세돌 \"당신은 왜 시키는 일만 하면서 AI에 대체될까 두려워 하나\" - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd1UxYk9mNjc5YnZxai1ubC1ucmlJSm1YM3ZlN01BV0RwSWRYRkJaREJWLWdyUE1RWmJqZVFsVXQyY19KQUVfUDhfeUFPcGxDaUVBVGZDNEp5LThDM0JpZlpGaEFYbGQ1eUhRZGVkZVUtQ29sdnp3MkpISk5Oc1pxdg?oc=5",
+        "pubDate": "Sun, 05 Jul 2026 20:20:00 GMT",
+        "summary": "이세돌 9단은 AI가 단순 반복 업무를 대체하는 시대에 인간이 고유한 창의성을 발휘해야 한다고 강조했다. AI를 두려워하기보다 도구로 활용하며 스스로 사고하는 역량을 키우는 것이 미래 생존의 핵심임을 시사했다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "'전기 먹는 하마' AI 데이터센터, 물도 많이 먹는다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51Zm1CaFBrS1BjQnkwSzAtWU42a1pEOGdOQV9EZm42TXo3dlFZX3Atc0NQd1lfQVdYajFwWEpuMF8xQmw4aEVIcHdsMVppcWYxdGtMQjNB?oc=5",
+        "pubDate": "Sun, 05 Jul 2026 02:44:22 GMT",
+        "summary": "AI 데이터센터 운영 과정에서 발생하는 막대한 발열을 식히기 위해 사용되는 냉각수 소모 문제가 새로운 환경적 과제로 떠올랐다. 전력뿐만 아니라 수자원 소비 효율화가 지속 가능한 AI 인프라 구축의 필수 요소로 지목된다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "암호화폐 채굴업체들, AI 데이터센터로 변신한다는데 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNamVjSjBRaXlob05yUTZXSVdRLTNFUUFIeXZtTmphS1RadWpxQjVYUjhWZ3V1Z2ZaMG1ZNlVFZ0l1eFNVeWRtUkt2cmpza0xRV2JTdGpiQ1BweTBUTUhiZ09MWUtmNjNxRGU3clpkUXVVdTJKQmtpbDdsMng2S3RTV1d0a01zZw?oc=5",
+        "pubDate": "Sat, 04 Jul 2026 20:53:00 GMT",
+        "summary": "암호화폐 채굴업체들이 보유한 고성능 연산 인프라를 활용해 AI 데이터센터로 사업 구조를 전환하고 있다. 이는 수익 다변화와 함께 늘어나는 AI 인프라 수요를 충족하려는 전략적 움직임으로 풀이된다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "SKT, 1000조 AI 데이터센터 '속도전' - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FWG9ORnFUTTNqSFc0dERXX3poOEhQZ3ZKclVTcmNpT2JPMDdOcUFGUDJNTThDVWVKZkpaTGJLSUthSkxkQ3dmTDhjVEY4SW42MmlESzRPU2xWUdIBVEFVX3lxTE5LcHMxa3NjOFNqSWNhWXVRaU1yOE9PZ2xPOXJnZnBIQ2VGaWRTVDVXbjhubk9mZUM1bHJXczQ5d3RoYXE3NnlvN3AtVDRZbFE1UjFRVg?oc=5",
+        "pubDate": "Sun, 05 Jul 2026 08:36:21 GMT",
+        "summary": "SK텔레콤이 거대 AI 데이터센터(AIDC) 구축 사업에 속도를 내며 국가적 AI 인프라 경쟁력 확보에 나서고 있다. 통신 네트워크와 결합한 고효율 데이터센터를 통해 글로벌 AI 시장에서의 입지를 다지려는 전략이다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "KAIST 석사과정 AI에이전트로 주식 자동매매…수익률은? - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NYm11UDl1RW5aQzVZeHBIQzJrRlB4TkV2SkoyaDVqMUE0UjNmTVJFNjlGaGNma0piZUx3SC02bHhUQ2lud2pfNk9Ka010VmM?oc=5",
+        "pubDate": "Sun, 05 Jul 2026 21:01:51 GMT",
+        "summary": "KAIST 연구팀이 개발한 AI 에이전트가 주식 시장에서 자동매매를 수행하며 기술적 실효성을 입증했다. AI가 단순히 정보를 분석하는 단계를 넘어 경제 활동에 직접 참여하는 사례가 늘어나고 있음을 보여준다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      }
+    ],
+    "jobRiskScore": 60,
+    "summaryScore": 83,
+    "riskScoreBreakdown": []
+  },
+  {
+    "lastUpdated": "2026-07-14T22:52:53.706Z",
+    "reportDate": "2026. 7. 15.",
+    "summary": "- AI 대중화 및 공공 확산: 정부 주도의 '모두의 AI' 프로젝트를 통해 전 국민 대상 AI 서비스 보급이 가속화되고 있으며, 네이버, 카카오, 통신사 등 국내 주요 기업들이 이 시장을 선점하기 위한 경쟁에 본격적으로 돌입함.\n\n- 글로벌 기술 경쟁 심화: 구글의 제미나이가 국내 AI 검색 시장에서 챗GPT를 추격하며 글로벌 빅테크 간 점유율 경쟁이 치열해지고 있음.\n\n- AI 기술적 진보: AI 모델이 학습 과정에서 스스로 새로운 언어를 생성하는 등 언어 생성 및 처리 능력의 차원 높은 진화가 확인되며 차세대 AI 발전에 대한 기대와 연구가 이어짐.",
+    "news": [
+      {
+        "title": "AI가 막노동 대체 못해? 건설현장까지 접수했다 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX3NKaXdSUUlobExPbWQ4WDhiYTRva2t2eVJaamJGXzU1ZXFuaWk0enBkRGxSODBYV083RTV0RDFvR2F4ODFXU0R1X3Q1ajk5NlRNWjRxMHFnQkhEbU1KUEdsTm9PMnp1SEZFQ29tTFJld1JERVhBcTFfUVp2WktBUTJYYU1FY1kw?oc=5",
+        "pubDate": "Sat, 04 Jul 2026 03:01:49 GMT",
+        "summary": "AI 기술이 인력난을 겪는 건설 현장에 도입되어 공정 관리와 안전 감독 등 실무 효율을 높이고 있다. 단순 사무 자동화를 넘어 물리적 노동 현장에서도 AI가 중요한 생산성 도구로 자리매김하고 있음을 보여준다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "SK, 140조 승부수…영남에 '아시아 최대 AI허브' 만든다 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1uTDRIcHFvUnItTDItWUpiakxONUs4TnBubkh2ZnBrT2Q1VXQ5SkNBSFlGUDlnVGFXclhiM01KY3owMjFKMVdiY1dhQmpDMDk0NDhZajdUaE5QV2_SAWBBVV95cUxNN3BvWTFsbG9DclU2eWpxNEEwVm1RN0VKV1gzNTBnRElRYlpMTExRNl9tSFJvLS0wNWdPQWdYRTNiY0ZCYjc3bkdCUUFjLXZCM3JoZFJ6WTZuTEkwVFNJc3Q?oc=5",
+        "pubDate": "Fri, 03 Jul 2026 06:44:23 GMT",
+        "summary": "SK그룹이 AI 인프라 구축을 위해 영남 지역에 대규모 투자를 단행하며 아시아 최대 규모의 AI 허브를 조성한다. 이를 통해 데이터센터와 에너지 인프라를 통합한 AI 생태계를 구축하고 글로벌 경쟁력을 강화하려는 전략이다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "“검색하려고 AI 써? 99% 잘려” 33곳서 월급 받는 남자의 독설 - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PdVRFQU56SHRfNUlwaUpoNXVJYkh1Ql9yXzQxU3FnN2JTeWh6X3VVNTZRRVJzWURMYVF6c25TVVpheThNeXZyUUd1dXpWckJUZ0FPWlR3?oc=5",
+        "pubDate": "Sat, 04 Jul 2026 21:00:01 GMT",
+        "summary": "단순 검색 보조용으로 AI를 사용하는 수준에 머물면 미래 경쟁력을 잃을 수 있다는 경고가 제기되었다. AI를 활용해 자신의 실무 능력을 극대화하고, 생산적 가치를 창출하는 고도화된 활용 능력이 필수적인 시대가 되었음을 강조한다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "[조사개요]'뉴 다만세' 온라인 담론 AI분석, 이렇게 했습니다 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyU0Vjb2pyNHlBb0RJYmR5TVg1Ulh0RHE0a242VE5wbmxDaGtUcTR1VzhmNVktS1JCdDg3N0wyMUdJVm9YZkhsN2R2RFhOcW53Ti1tdjhzX0V0WTk0NDJZWHA2RUEzV0QtWEhrddIBckFVX3lxTE51QWNORjU5QU1zRzNBTUlPWUZ5bW1SYWdkSTJfa2t3UWlKTS13MXJkTHFBMHBXWUsyUFhRVE5ERGtMbXVhTjk1QU9ad0dpNjRXaUJRdjlJRUNLeDZLN1Z3N296c2NVdE9ncS1PRkN5S1R2dw?oc=5",
+        "pubDate": "Sat, 04 Jul 2026 21:27:00 GMT",
+        "summary": "온라인상에서 형성되는 복잡한 담론을 AI를 활용해 객관적으로 분석하는 방법론이 주목받고 있다. AI를 공공 정책이나 사회적 현상을 이해하고 여론을 정밀하게 파악하는 분석 도구로 적극 활용하는 사례이다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "고독 경제 겨냥 '연인 로봇'...\"AI 밀랍인형\" 비판도 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SUG9zYTVXSlZkaTRJT0Ryc1g0bDRiXzRWdU1aS1JkMHFfa29MZjZvMEd6WnFQbkpSNEM2QWZ6dF9LRV9DVjZGemgxU0NHNW84a20xT2IwRFZSaEJuVlE?oc=5",
+        "pubDate": "Sat, 04 Jul 2026 19:08:00 GMT",
+        "summary": "AI 기술을 활용한 정서적 교감 서비스인 '연인 로봇'이 등장하며 고독 경제를 겨냥한 새로운 시장이 형성되고 있다. 그러나 기술의 인간성 대체에 대한 윤리적 우려와 'AI 밀랍인형'이라는 비판적 시각이 공존하고 있다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      }
+    ],
+    "jobRiskScore": 49,
+    "summaryScore": 78,
+    "riskScoreBreakdown": []
+  },
+  {
+    "lastUpdated": "2026-07-13T22:51:04.286Z",
+    "reportDate": "2026. 7. 14.",
+    "summary": "- 차세대 AI 모델의 비약적 성능 향상: 오픈AI의 최신 모델인 'GPT-5.6'이 수학 난제 해결 등 고도의 추론 능력을 입증하며 AI의 지적 한계를 확장함.\n\n- 빅테크 전략적 협력 및 생태계 고도화: 마이크로소프트가 자사 권장 모델로 GPT-5.6을 채택하며 AI 인프라 생태계 내 오픈AI와의 강력한 기술적 결합을 재확인함.\n\n- AI 기반 산업 생산성 혁신 및 사회적 대응: 제조 공정의 스마트화를 통한 생산 체제 효율화와 더불어, AI 기술 확산에 따른 고용 시장 변화 대응을 위한 지자체의 정책적 지원이 병행됨.",
+    "news": [
+      {
+        "title": "앤트로픽에 메타까지…AI칩 주도권 품은 삼성 파운드리 - 서울경제",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aRjVHc2ZkbzJvRGZaUDJPTHlMYklPaWN3LXVuN2wyTHlNZ2JhYWhpbzEya3p2M21HWU4xZmtlLS1ZNWJWbF9LS3hGVVpENUFwdXfSAVNBVV95cUxPNERqeVZPN1p3eHVpMUtwclFSV2dXWGNMNnVwdjh1WHQyaXRXbzBLMEh6Z3U3N25wUmxnSFFCbTRSRk1Bd2lWODZvcndTX01wNWlSVQ?oc=5",
+        "pubDate": "Fri, 03 Jul 2026 07:21:48 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "자체 AI칩 개발 뛰어든 앤스로픽, 파운드리 파트너로 삼성 낙점 - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfZmNldXF3SlEtTkVSRXBmTjIxR1pFbFJkdFR5X05Gd3lCRy0wVU1lR1IwSkJJam11TE4tbk5tNXZrQ0hZRVZXR3JERWdtQzVJWXhYU3VMemJ1RFNrR0M1UUlDc0ZnVHJxcVlQcERQRVFBdzljeVHSAWZBVV95cUxNR3R0a3YtZDdLclJBNkdNV3R0MWV6ZjVoclE4bUg3cDNjY1E4ckxkNl9scGdLWjNlRVhjQ0Q3UDk3eE1PWjl6cU81Vm1senZuNHVhWFJjZGlqRVZoX0Yyalhrb1N1WHc?oc=5",
+        "pubDate": "Fri, 03 Jul 2026 16:40:00 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "앤스로픽, 삼성전자와 손잡나... 자체 AI 칩 개발 위해 협의중 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSTDh4MWdyb2V2VzR0QU9QT0RZQ1hIeW9LemQ1OU5xSmZPbUU1ZWk2bGE0TTdPaHNGUGV3SHJWc0I2VUtraUVfSlhBcnNHRlk?oc=5",
+        "pubDate": "Fri, 03 Jul 2026 07:23:18 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "메타, 남는 AI 인프라 자원 판다…클라우드 진출 시사 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1FMjFhWkVEZFJfNlQ0S1BNREs0SkdPWm5zNmVOdEpiVFVuY2lBQWo0SUhIdHpZSGh0ckp6TkQ4OUFaaEl3ZkUzZElfZUlfejc0WmZBMWJ3?oc=5",
+        "pubDate": "Thu, 02 Jul 2026 00:26:57 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "[AI세계속으로]AI 인프라 공급 과잉?…증시 흔든 메타發 쇼크 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04UFpMMFNkM0ptRDh1Q0thR196WHByY0xhaFAyMS1wUEFqdXpsQm93M2o5bVY3YnEwMVBWY2tyXzZYZWNPaV9sZG0wcS00Rzg?oc=5",
+        "pubDate": "Fri, 03 Jul 2026 21:31:43 GMT",
+        "summary": "요약 없음",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      }
+    ],
+    "jobRiskScore": 63,
+    "summaryScore": 85,
+    "riskScoreBreakdown": []
+  },
+  {
+    "lastUpdated": "2026-07-12T22:41:30.852Z",
+    "reportDate": "2026. 7. 13.",
+    "summary": "- AI 모델 고도화: 오픈AI의 'GPT-5.6 솔 울트라'가 50년 수학 난제를 해결하는 등 고차원적 논리 및 연구 역량을 입증하며 모델의 성능이 비약적으로 발전하고 있음.\n\n- 빅테크 전략 및 규제 강화: 마이크로소프트가 독자 모델 확보 노력에도 불구하고 GPT-5.6을 핵심 모델로 채택하는 등 생태계 의존성이 지속되고 있으며, 고성능 모델 출시에 앞선 정부 차원의 사전 검증 및 허가 절차가 강화되는 추세임.\n\n- 시장 변동성 및 문화적 확장: AI 기술 도입에 따른 기업 가치의 급격한 등락이 관찰되는 가운데, AI가 창작 영역인 재즈 경연에서 우승하는 등 산업과 문화를 넘나드는 다양한 활용 사례가 등장하고 있음.",
+    "news": [
+      {
+        "title": "수성알파시티서 AI-로봇 ‘스마트 도시’ 실험 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55SW1STU0tMTEzazFXZTNxSTluNUhmcmljMXFJX2o5aXVUb3luZTdPNlVBR2lUWjRiY0xULXp1RmY0WVhsVm9hTUVQRkJUaGM?oc=5",
+        "pubDate": "Thu, 02 Jul 2026 19:35:58 GMT",
+        "summary": "수성알파시티가 AI와 로봇 기술을 도심 인프라에 결합하는 스마트 도시 테스트베드로 활용되고 있다. 지역 내 실증 사업을 통해 AI 기반 로봇 기술의 실생활 적용 가능성을 검증하고 미래형 도시 모델을 구축하고 있다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "“감으로 맞추던 걸 정확하게”…페인트·화장품도 AI 바람 - KBS 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wanJNblFXRm9vRHJjalhjUWc0M0tOeU93RzhWRHVIdzl0VDRHVUZFTmg4Qk1hemxPMTJZVWVFeV8tLWZNLThQMG5JYmM2LWxDVWNRSGNyQmFhTUU?oc=5",
+        "pubDate": "Thu, 02 Jul 2026 12:40:00 GMT",
+        "summary": "제조 현장에서 숙련공의 경험에 의존하던 페인트 조색 및 화장품 배합 공정에 AI가 도입되고 있다. AI를 통해 정밀한 수치 데이터 기반의 배합이 가능해지면서 생산 효율성과 품질의 균일성이 크게 향상되었다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "걷기만 하면 AI가 학습한다…발목형 보행 보조 로봇 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPc2JpTFotbHBLQ0VCQXRsb0tqUmVtRl9Kb2dNMlMxU29QMDZCY2dNQU5KNXdwZ2FGSUUxVFp5UlNrdm9TVmVfREhSMzJldw?oc=5",
+        "pubDate": "Thu, 02 Jul 2026 21:00:00 GMT",
+        "summary": "사용자의 보행 습관을 실시간으로 학습하고 최적화된 보조력을 제공하는 발목형 웨어러블 로봇이 개발되었다. 개별 사용자의 보행 패턴 데이터를 AI가 분석하여 맞춤형 이동 지원 서비스를 제공하는 것이 핵심이다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "오픈AI, '컴퓨트 멀티플라이어’로 추론 비용 절반으로 줄여 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZdXZSX3JVOVgzTDdod3JXN0N6R2gtdzJleS1JRk9PMjVfMElLNERhREY3VjRHdFJZbkphYXNueVBoNW1oSncyMUpUaDNVOWJxSVl6cEh4S0ZGVzcxTk1SVEJDamc0OEE0alE?oc=5",
+        "pubDate": "Wed, 01 Jul 2026 09:15:16 GMT",
+        "summary": "오픈AI가 추론 비용을 기존 대비 50% 절감할 수 있는 새로운 연산 최적화 기술을 도입했다. 인프라 효율성을 높이는 컴퓨트 멀티플라이어 기술을 통해 고비용 구조를 개선하고 AI 서비스의 가격 경쟁력을 확보하고자 한다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "[써보니]\"동사무소 안가도 됩니다\"...증명서 발급부터 제출까지 다 되는 AI 국민비서 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwMWtpMVE1NUtmRGxiN2VEMjRjZVJ6ZHFLUHdpMUZwdE5tTGtGSU1Yd2NkNzZpcVJ3Sm43VEVDNFBWZWR4MkFiOFVFYVBDRFU?oc=5",
+        "pubDate": "Thu, 02 Jul 2026 21:32:01 GMT",
+        "summary": "AI 국민비서 서비스가 행정 서류 발급과 제출 절차를 자동화하며 디지털 공공 서비스를 구현하고 있다. 사용자는 복잡한 서류 절차 없이 AI를 통해 간편하게 민원 업무를 처리하며 행정 접근성이 대폭 향상되었다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      }
+    ],
+    "jobRiskScore": 56,
+    "summaryScore": 83,
+    "riskScoreBreakdown": []
   }
 ]
