@@ -25,7 +25,7 @@ jobs:
       - name: Install Pipeline Dependencies
         run: npm install
 
-      - name: Run Pipeline (Fetch, Summarize, Gen PDF/JSON)
+      - name: Run Pipeline (Fetch, Summarize, Gen JSON)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
