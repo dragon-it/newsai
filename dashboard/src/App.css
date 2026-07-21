@@ -511,3 +511,503 @@ footer a:hover {
   font-size: 1.1rem;
   color: var(--text-muted);
 }
+
+/* ==========================================================================
+   AI Metrics, Star Ratings, and Risk Score Breakdown Styles (New)
+   ========================================================================== */
+.news-metrics {
+  margin-top: 1rem;
+  padding-top: 0.8rem;
+  border-top: 1px dashed var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.metric-label {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.metric-stars {
+  color: #fbbf24; /* 골드/노란색 별점 컬러 */
+  font-family: monospace;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+}
+
+.summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.summary-header h2 {
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.summary-score-badge {
+  background-color: rgba(37, 99, 235, 0.1);
+  color: var(--primary-color);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  padding: 0.35rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.summary-score-badge span {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.past-summary-score-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  background-color: rgba(37, 99, 235, 0.08);
+  color: var(--primary-color);
+  border: 1px solid rgba(37, 99, 235, 0.15);
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+.risk-breakdown-box {
+  margin-top: 1.25rem;
+  padding: 1.2rem;
+  background: var(--bg-alt);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  text-align: left;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.risk-breakdown-box h4 {
+  margin: 0 0 0.75rem 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.4rem;
+}
+
+.risk-breakdown-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.risk-breakdown-list li {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+.factor-sign {
+  margin-right: 0.5rem;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.risk-up .factor-sign {
+  color: #ef4444; /* 위험도 상승 (빨간색 화살표) */
+}
+
+.risk-down .factor-sign {
+  color: #10b981; /* 위험도 하락 (초록색 화살표) */
+}
+
+.factor-event {
+  flex-grow: 1;
+}
+
+.factor-impact {
+  font-weight: 600;
+  font-family: monospace;
+  margin-left: 0.5rem;
+}
+
+.risk-up .factor-impact {
+  color: #ef4444;
+}
+
+.risk-down .factor-impact {
+  color: #10b981;
+}
+
+.risk-breakdown-total {
+  margin-top: 0.75rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: var(--text-main);
+}
+
+.risk-breakdown-total strong {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+/* ==========================================================================
+   Dashboard Metric Board, Yesterday Comparison, Click Details & Key Change Cards (New)
+   ========================================================================== */
+.gauge-left-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.gauge-comparison-card {
+  background: var(--bg-alt);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 0.6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  width: 100%;
+  max-width: 180px;
+}
+
+.comparison-trend {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.trend-arrow {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.comparison-diff-badge {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.comparison-diff-badge.diff-up {
+  color: #ef4444;
+}
+
+.comparison-diff-badge.diff-down {
+  color: #10b981;
+}
+
+.scores-explanation-box {
+  background: var(--bg-alt);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.score-explain-item {
+  text-align: left;
+}
+
+.score-explain-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-main);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.risk-score-text {
+  color: #f59e0b; /* 주황/노랑 */
+  font-size: 1.05rem;
+}
+
+.summary-score-text {
+  color: var(--primary-color); /* 파랑 */
+  font-size: 1.05rem;
+}
+
+.score-explain-desc {
+  margin: 0.15rem 0 0 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.risk-state-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--secondary-color);
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+/* 꺾은선 차트 클릭 상세 정보 */
+.trend-detail-box {
+  margin-top: 1.5rem;
+  padding: 1.25rem;
+  background: var(--bg-color);
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
+  animation: slideDown 0.25s ease-out;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.detail-header h4 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.detail-diff-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+}
+
+.detail-diff-badge.diff-up {
+  background-color: rgba(239, 68, 68, 0.08);
+  color: #ef4444;
+}
+
+.detail-diff-badge.diff-down {
+  background-color: rgba(16, 185, 129, 0.08);
+  color: #10b981;
+}
+
+.detail-scores {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+.detail-score-item strong {
+  color: var(--text-main);
+  margin-left: 0.25rem;
+}
+
+.detail-causes h5 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.detail-causes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.detail-causes-list li {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+}
+
+.clickable-factor {
+  cursor: pointer;
+  transition: background-color 0.15s;
+  border-radius: 6px;
+}
+
+.clickable-factor:hover {
+  background-color: var(--bg-alt);
+}
+
+.factor-link-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.link-arrow {
+  font-size: 0.75rem;
+  margin-left: 0.4rem;
+  opacity: 0.6;
+}
+
+.no-breakdown-text, .no-changes-text, .no-data-text {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+/* 핵심 변화 카드 레이아웃 */
+.key-changes-section {
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+  background: var(--card-bg);
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+  padding: 1.75rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
+}
+
+.section-title-sub-large {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0 0 1.25rem 0;
+  text-align: left;
+  border-left: 5px solid var(--primary-color);
+  padding-left: 12px;
+}
+
+.key-changes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.75rem;
+}
+
+.key-change-card-wrapper {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.key-change-card {
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 1.25rem;
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.01);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.key-change-card.is-link {
+  cursor: pointer;
+}
+
+.key-change-card-wrapper:hover .key-change-card {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.04);
+  border-color: var(--primary-color);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.card-num {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  opacity: 0.7;
+  font-family: monospace;
+}
+
+.card-impact-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+.card-impact-badge.badge-up {
+  background-color: rgba(239, 68, 68, 0.08);
+  color: #ef4444;
+}
+
+.card-impact-badge.badge-down {
+  background-color: rgba(16, 185, 129, 0.08);
+  color: #10b981;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0 0 1rem 0;
+  line-height: 1.45;
+  flex-grow: 1;
+}
+
+.card-footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  border-top: 1px dashed var(--border-color);
+  padding-top: 0.6rem;
+  margin-top: auto;
+}
+
+.card-impact-level {
+  color: var(--text-muted);
+}
+
+.card-impact-level strong.impact-high {
+  color: #ef4444;
+}
+
+.card-impact-level strong.impact-medium {
+  color: #f59e0b;
+}
+
+.card-impact-level strong.impact-low {
+  color: #10b981;
+}
+
+.read-news-link {
+  color: var(--primary-color);
+  font-weight: 600;
+}
