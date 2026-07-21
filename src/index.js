@@ -67,7 +67,7 @@ async function main() {
 
     // 4. Discord 알림 전송
     console.log("\n🔄 [5/5] Discord 알림 전송 중...");
-    const discordMessage = "🚀 **NewSai 일일 AI 리포트 (" + date + ")** 🚀\n\n" + summary + "\n\n상세 내용은 첨부된 파일을 확인하거나 대시보드에 접속하세요.";
+    const discordMessage = "🚀 **[NewSai](https://dragon-it.github.io/newsai/) 일일 AI 리포트 (" + date + ")** 🚀\n\n" + summary + "\n\nhttps://dragon-it.github.io/newsai/";
     await sendDiscordMessage(discordMessage);
 
     console.log("\n✨ 모든 파이프라인이 성공적으로 완료되었습니다!");
