@@ -1,5 +1,78 @@
 [
   {
+    "lastUpdated": "2026-07-21T22:50:04.991Z",
+    "reportDate": "2026. 7. 22.",
+    "summary": "- 인공지능과 인간의 경합: 바둑 인공지능 '카타고'를 상대로 인간 기사 신진서 9단이 보여준 전략적 승리가 AI와 인간의 협력 및 경쟁적 관계에 대한 새로운 시각을 제시함.\n\n- 공공 영역의 AI 도입: 서울시복지재단이 요양보호사 인력 배치 최적화를 위한 AI 에이전트를 개발하며, 사회복지 현장의 행정 효율성을 개선하는 실질적인 AI 활용 사례가 증가함.\n\n- 인간 중심의 기술 발전: 기술이 인간의 한계를 보완하거나 도전하는 도구로서 긍정적인 역할을 수행하며, AI 시대에도 인간의 역량과 도전 정신이 중요함을 시사함.",
+    "summaryScore": 78,
+    "jobRiskScore": 91,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 기반 요양보호사 인력 배치 에이전트 도입",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      },
+      {
+        "event": "인간 기사의 AI 극복을 통한 기술적 우위성 재평가",
+        "sign": " -",
+        "impact": 2,
+        "newsIndex": 1
+      }
+    ],
+    "news": [
+      {
+        "title": "AI 넘어선 ‘신’의 한 수... 신진서, 카타고에 역전승 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZEJ2bmR6X3liQW10bm12UDBHazRXSzRubkcwalBmcWVTSFpUWi1vSkYyS0psU0NaS0l4ajNyNF9tbEw3OWdKSC1Ya1l3Qll2Nk9XTlg3Mkx6UU1PRGVDb0h1Z3FXMGY5bFU4d3h2Tnp2bHlremdaeWp3T0dlTmhPdlhZdw?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 06:56:00 GMT",
+        "summary": "신진서 9단이 최고 수준의 바둑 AI인 카타고를 상대로 전략적 승리를 거두며 인공지능 시대 인간의 잠재력을 증명했다. 이번 대국은 단순한 승패를 넘어 AI 기술의 한계와 인간의 직관이 조화를 이루는 사례로 주목받고 있다.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "[속보] 인간이 이겼다…신진서 9단, AI 카타고 꺾고 '2승 1패' 완승 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBxejdRQmZ4bzFWQ1hPUHpYdnVoVU16WGdzVUl0dHJLU2ZOdExPNF9Gbm1VdV9BaW9lMTNSTmVlX3B5dm9ud1Q2SlBxWUxHaHNqWjdNUGJXOWhnQQ?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 04:21:17 GMT",
+        "summary": "신진서 9단이 AI 카타고를 꺾고 2승 1패로 완승을 기록하며 세계 최정상급 기사의 실력을 입증했다. AI의 압도적인 연산 능력을 인간의 전략적 유연함으로 극복한 사건으로 평가받는다.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "[김세훈의 스포츠IN ] 끝까지 “버티는” 인간, AI와 맞서는 숭고하고 아름다운 도전 - 스포츠경향",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5HUnBpTXFGQjdFQ3RjY3VJM2gyUTlDRUtfaUN2aXB1UVNrRVd4aXJyTnkyWnRhaXMwcFRRV3lud1NBR3Zwak0wMk9WTlc3Qk5WaHppY0FZcEtzMGFZVWfSAWNBVV95cUxPX21UR0t2WmdzM0RjdE5Fano2eG5nd3Bqb2hraDB6UWl4TmNhazhYMVFMNEJkRnI4VU5sTFpiMmVsTm4xZXhwbHZralZpemZUR2RlSzlyMC0zSjA4SWpHUWIyR1U?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 21:07:00 GMT",
+        "summary": "AI와의 대국을 통해 인간의 끈기와 도전 정신이 인공지능 시대에도 여전히 중요한 가치임을 강조했다. 기술이 발전할수록 인간 고유의 능력이 가지는 숭고함이 더욱 부각되고 있다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 1
+      },
+      {
+        "title": "서울시복지재단, 요양보호사 배치 돕는 AI 에이전트 개발 - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE53UDcydndGSnpFNGNlVVh3c2VfeGRBbVFtc2RhVVlzbnpZWUdaQ29qaTRpQ3JYeDJZdzQxSVlBWUYzSnEwX3pmMFFySTd2UkY5UGc?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 21:00:00 GMT",
+        "summary": "서울시복지재단이 장기요양기관의 인력 배치를 효율화하는 AI 에이전트를 개발했다. 복잡한 매칭 업무를 자동화하여 행정 부담을 줄이고 서비스 품질을 높이는 것을 목표로 한다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "서울시복지재단, 장기요양 인력배치 AI 에이전트 개발 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VRU05SU1uUnVfR1Y5YzN0ZDdhWExWOENaRzUzLWpUc3BxOXVRQS03V0ZnNjZsSlE2c2Q1emNGTThGUDk0SThDZjV3UHlKNjBySE8wSmdXemxqLU0?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 21:00:12 GMT",
+        "summary": "장기요양 서비스의 인력 배치 문제 해결을 위해 서울시복지재단이 AI 기술을 도입했다. 인력 배치의 최적화를 통해 고령화 사회의 공공 서비스 효율성을 증대시킬 것으로 기대된다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-21T10:42:44.366Z",
     "reportDate": "2026. 7. 21.",
     "summary": "- 인간의 AI 대응력 증명: 바둑 기사 신진서의 AI 승리 사례를 통해 특정 도메인에서의 인간 전략적 우위와 협업 가능성 확인.\n\n- 국가 간 기술 경쟁 격화: 중국의 새로운 AI 모델 공개로 인한 글로벌 기술 패권 경쟁 및 반도체 공급망에 미치는 영향 증대.\n\n- AI 산업 적용 가속화: 파수AI의 뷰티 플랫폼 구축 등 AI가 서비스 및 실무 영역으로 빠르게 침투하고 있음.\n\n- 윤리적 논쟁과 저작권 이슈: AI 발전에 따른 일자리와 창작자 권리 침해 논란이 공공연하게 제기되며 기술 도입의 사회적 책임 강조.",
@@ -575,66 +648,6 @@
     ],
     "jobRiskScore": 63,
     "summaryScore": 85,
-    "riskScoreBreakdown": []
-  },
-  {
-    "lastUpdated": "2026-07-12T22:41:30.852Z",
-    "reportDate": "2026. 7. 13.",
-    "summary": "- AI 모델 고도화: 오픈AI의 'GPT-5.6 솔 울트라'가 50년 수학 난제를 해결하는 등 고차원적 논리 및 연구 역량을 입증하며 모델의 성능이 비약적으로 발전하고 있음.\n\n- 빅테크 전략 및 규제 강화: 마이크로소프트가 독자 모델 확보 노력에도 불구하고 GPT-5.6을 핵심 모델로 채택하는 등 생태계 의존성이 지속되고 있으며, 고성능 모델 출시에 앞선 정부 차원의 사전 검증 및 허가 절차가 강화되는 추세임.\n\n- 시장 변동성 및 문화적 확장: AI 기술 도입에 따른 기업 가치의 급격한 등락이 관찰되는 가운데, AI가 창작 영역인 재즈 경연에서 우승하는 등 산업과 문화를 넘나드는 다양한 활용 사례가 등장하고 있음.",
-    "news": [
-      {
-        "title": "수성알파시티서 AI-로봇 ‘스마트 도시’ 실험 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE55SW1STU0tMTEzazFXZTNxSTluNUhmcmljMXFJX2o5aXVUb3luZTdPNlVBR2lUWjRiY0xULXp1RmY0WVhsVm9hTUVQRkJUaGM?oc=5",
-        "pubDate": "Thu, 02 Jul 2026 19:35:58 GMT",
-        "summary": "수성알파시티가 AI와 로봇 기술을 도심 인프라에 결합하는 스마트 도시 테스트베드로 활용되고 있다. 지역 내 실증 사업을 통해 AI 기반 로봇 기술의 실생활 적용 가능성을 검증하고 미래형 도시 모델을 구축하고 있다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "“감으로 맞추던 걸 정확하게”…페인트·화장품도 AI 바람 - KBS 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wanJNblFXRm9vRHJjalhjUWc0M0tOeU93RzhWRHVIdzl0VDRHVUZFTmg4Qk1hemxPMTJZVWVFeV8tLWZNLThQMG5JYmM2LWxDVWNRSGNyQmFhTUU?oc=5",
-        "pubDate": "Thu, 02 Jul 2026 12:40:00 GMT",
-        "summary": "제조 현장에서 숙련공의 경험에 의존하던 페인트 조색 및 화장품 배합 공정에 AI가 도입되고 있다. AI를 통해 정밀한 수치 데이터 기반의 배합이 가능해지면서 생산 효율성과 품질의 균일성이 크게 향상되었다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "걷기만 하면 AI가 학습한다…발목형 보행 보조 로봇 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPc2JpTFotbHBLQ0VCQXRsb0tqUmVtRl9Kb2dNMlMxU29QMDZCY2dNQU5KNXdwZ2FGSUUxVFp5UlNrdm9TVmVfREhSMzJldw?oc=5",
-        "pubDate": "Thu, 02 Jul 2026 21:00:00 GMT",
-        "summary": "사용자의 보행 습관을 실시간으로 학습하고 최적화된 보조력을 제공하는 발목형 웨어러블 로봇이 개발되었다. 개별 사용자의 보행 패턴 데이터를 AI가 분석하여 맞춤형 이동 지원 서비스를 제공하는 것이 핵심이다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "오픈AI, '컴퓨트 멀티플라이어’로 추론 비용 절반으로 줄여 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZdXZSX3JVOVgzTDdod3JXN0N6R2gtdzJleS1JRk9PMjVfMElLNERhREY3VjRHdFJZbkphYXNueVBoNW1oSncyMUpUaDNVOWJxSVl6cEh4S0ZGVzcxTk1SVEJDamc0OEE0alE?oc=5",
-        "pubDate": "Wed, 01 Jul 2026 09:15:16 GMT",
-        "summary": "오픈AI가 추론 비용을 기존 대비 50% 절감할 수 있는 새로운 연산 최적화 기술을 도입했다. 인프라 효율성을 높이는 컴퓨트 멀티플라이어 기술을 통해 고비용 구조를 개선하고 AI 서비스의 가격 경쟁력을 확보하고자 한다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "[써보니]\"동사무소 안가도 됩니다\"...증명서 발급부터 제출까지 다 되는 AI 국민비서 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwMWtpMVE1NUtmRGxiN2VEMjRjZVJ6ZHFLUHdpMUZwdE5tTGtGSU1Yd2NkNzZpcVJ3Sm43VEVDNFBWZWR4MkFiOFVFYVBDRFU?oc=5",
-        "pubDate": "Thu, 02 Jul 2026 21:32:01 GMT",
-        "summary": "AI 국민비서 서비스가 행정 서류 발급과 제출 절차를 자동화하며 디지털 공공 서비스를 구현하고 있다. 사용자는 복잡한 서류 절차 없이 AI를 통해 간편하게 민원 업무를 처리하며 행정 접근성이 대폭 향상되었다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      }
-    ],
-    "jobRiskScore": 56,
-    "summaryScore": 83,
     "riskScoreBreakdown": []
   }
 ]
