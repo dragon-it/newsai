@@ -245,6 +245,13 @@ function App() {
   const [visibleCount, setVisibleCount] = useState(3);
   const loaderRef = useRef(null);
 
+  // 아코디언 상태 관리 (날짜 string을 key로 하고 boolean 값을 value로 지정)
+  const [expandedDays, setExpandedDays] = useState({});
+
+  // 무한스크롤 관련 상태
+  const [visibleCount, setVisibleCount] = useState(3);
+  const loaderRef = useRef(null);
+
   useEffect(() => {
     if (import.meta.env.DEV) {
       import("../../data.json")
