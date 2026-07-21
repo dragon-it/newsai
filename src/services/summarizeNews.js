@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleGenerativeAI, SchemaType } from "@google/generative-ai";
 import dotenv from "dotenv";
 import { fileURLToPath } from "url";
 
@@ -8,10 +8,94 @@ dotenv.config();
 
 // Google Generative AI 클라이언트를 초기화합니다.
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+
+// LLM 응답의 구조와 필드 타입을 엄격하게 정의하는 JSON 스키마입니다.
+// 이를 통해 불완전한 문자열 반환이나 이스케이프 누락으로 인한 JSON 파싱 에러를 예방합니다.
+const summarySchema = {
+  type: SchemaType.OBJECT,
+  properties: {
+    overallSummary: {
+      type: SchemaType.STRING,
+      description: "오늘의 뉴스 트렌드와 주요 소식을 종합하여 작성한 요약문 (글머리 기호 형태 사용, 한국어)."
+    },
+    overallScore: {
+      type: SchemaType.INTEGER,
+      description: "AI 뉴스들의 중요도, 영향력, 시급성 등을 종합한 0에서 100 사이의 종합 지수 점수."
+    },
+    jobRiskScore: {
+      type: SchemaType.INTEGER,
+      description: "AI 발전이 일자리에 미치는 위험도를 종합 평가한 0에서 100 사이의 점수."
+    },
+    riskScoreBreakdown: {
+      type: SchemaType.ARRAY,
+      description: "오늘 일자리 위험도 변동에 영향을 준 결정적인 요인/이벤트 리스트.",
+      items: {
+        type: SchemaType.OBJECT,
+        properties: {
+          event: {
+            type: SchemaType.STRING,
+            description: "위험도 변동의 원인이 된 핵심 뉴스나 이벤트 이름."
+          },
+          sign: {
+            type: SchemaType.STRING,
+            description: "위험도를 높이면 '+', 낮추면 '-'."
+          },
+          impact: {
+            type: SchemaType.INTEGER,
+            description: "영향 강도 (1에서 10 사이의 양의 정수)."
+          },
+          newsIndex: {
+            type: SchemaType.INTEGER,
+            description: "원인이 된 뉴스의 번호 (1부터 시작하는 정수, 전반적인 변화라면 null).",
+            nullable: true
+          }
+        },
+        required: ["event", "sign", "impact"]
+      }
+    },
+    newsSummaries: {
+      type: SchemaType.ARRAY,
+      description: "입력된 뉴스 목록과 1:1로 정확하게 순서 매핑되는 요약 목록.",
+      items: {
+        type: SchemaType.OBJECT,
+        properties: {
+          summary: {
+            type: SchemaType.STRING,
+            description: "해당 뉴스의 핵심 내용 요약 (2~3문장)."
+          },
+          importance: {
+            type: SchemaType.INTEGER,
+            description: "뉴스 자체의 중요도 (1~5 사이의 정수)."
+          },
+          aiImpact: {
+            type: SchemaType.INTEGER,
+            description: "AI 업계/기술 영향도 (1~5 사이의 정수)."
+          },
+          automationPotential: {
+            type: SchemaType.INTEGER,
+            description: "해당 영역의 자동화 가능성 (1~5 사이의 정수)."
+          },
+          investmentImpact: {
+            type: SchemaType.INTEGER,
+            description: "기업 및 시장 투자 영향도 (1~5 사이의 정수)."
+          }
+        },
+        required: ["summary", "importance", "aiImpact", "automationPotential", "investmentImpact"]
+      }
+    }
+  },
+  required: ["overallSummary", "overallScore", "jobRiskScore", "riskScoreBreakdown", "newsSummaries"]
+};
+
 // 사용할 모델을 선택합니다.
-// [중요] '이름'이 아닌 'ID'를 적어야 합니다.
-// checkModels.js 결과 리스트 중 무료 할당량이 가장 안정적인 'gemini-3.1-flash-lite'를 선택했습니다.
-const model = genAI.getGenerativeModel({ model: "gemini-3.1-flash-lite" });
+// responseMimeType을 application/json으로 설정하고 responseSchema를 전달하여 스키마 준수를 강제합니다.
+const model = genAI.getGenerativeModel({
+  model: "gemini-3.1-flash-lite",
+  generationConfig: {
+    responseMimeType: "application/json",
+    responseSchema: summarySchema
+  }
+});
 
 export async function summarizeNews(newsList) {
   // API 키가 로드되었는지 확인 (보안을 위해 앞 4자리만 출력)

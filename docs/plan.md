@@ -53,6 +53,7 @@
 
 - [x] 매일 오전 7시 실행
 - [x] 수동 실행 workflow_dispatch 추가
+- [x] LLM 요약 JSON 파싱 불안정성 해결 (responseMimeType 및 responseSchema 적용)
 
 ## 테스트 체크리스트
 
