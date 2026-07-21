@@ -24,6 +24,18 @@
 
 > **작성 가이드**: 새로운 기능이 구현될 때마다 상단에 새 기록을 추가하여 누적 관리합니다.
 
+### 2026-07-21 LLM 요약 JSON 파싱 에러 수정 (responseMimeType 및 responseSchema 도입)
+
+- **검토 대상**: `src/services/summarizeNews.js`
+- **구현 내용**:
+  - **SchemaType 및 Schema 도입**: `@google/generative-ai` 패키지에서 `SchemaType`을 가져와 LLM이 출력해야 할 JSON 규격인 `summarySchema`를 엄격하게 기술했습니다.
+  - **responseMimeType 강제**: `getGenerativeModel` 구성 매개변수에 `generationConfig`를 더해 `responseMimeType: "application/json"`과 `responseSchema: summarySchema`를 선언했습니다. 이를 통해 모델이 백틱 없이 순수하며 문법적으로 유효한 JSON 형식 문자열을 출력하도록 하였고, 문자열 안의 특수 문자/따옴표/줄바꿈 이스케이프 처리가 Gemini 엔진 단에서 자동 완결되도록 개선했습니다.
+- **이슈 및 트러블슈팅**:
+  - GitHub Actions 파이프라인 상에서 간헐적으로 요약 도중 `JSON.parse` 단계에서 SyntaxError(`Expected ',' or '}' after property value in JSON`)를 유발하던 불안정성을 해결했습니다.
+- **체크리스트**:
+  - [x] LLM 결과물 반환 형식으로 application/json 및 스키마 검증이 강제되는가
+  - [x] 로컬 통합 파이프라인(`node test/test-pipeline.js`)이 완벽히 가동되어 data.json과 Markdown이 성공적으로 쓰여지는가
+
 ### 2026-07-20 PDF 다운로드 제거, 지표 명확화, 히스토리 상세(차트 연동) 및 핵심 변화 카드와 링크 연동
 
 - **검토 대상**: `src/services/summarizeNews.js`, `src/index.js`, `dashboard/src/App.jsx`, `dashboard/src/App.css`, `test/test-pdf.js`
