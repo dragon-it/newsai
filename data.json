@@ -1,39 +1,39 @@
 [
   {
-    "lastUpdated": "2026-07-21T09:59:28.297Z",
+    "lastUpdated": "2026-07-21T10:01:16.048Z",
     "reportDate": "2026. 7. 21.",
-    "summary": "- 인간과 AI의 공존 모델 탐색: 인간 바둑 기사가 최강 AI를 상대로 승리를 거두며, AI 시대에도 인간의 전략과 직관이 여전히 유효함을 입증하고 인간과 AI의 새로운 상호보완적 관계를 제시함.\n\n- 그래픽 및 물리 AI 기술 고도화: NVIDIA가 SIGGRAPH에서 에이전틱 AI와 피지컬 AI를 활용해 그래픽과 시뮬레이션 기술을 혁신하며, 가상 환경에서의 AI 활용 가능성을 대폭 확장함.\n\n- 산업 특화 AI 솔루션 적용: 파수 등 AI 기업들이 뷰티 업계와 협력하여 개인 맞춤형 서비스를 구현하는 등, AI가 실질적인 비즈니스 효율화와 초개인화 서비스를 위해 산업 현장에 깊숙이 도입되고 있음.",
+    "summary": "- 인간과 AI의 공존 가능성 입증: 바둑 분야에서 인간이 고도의 전략을 통해 AI를 제압하며, AI가 도구로서 인간의 잠재력을 끌어내는 사례가 주목받음.\n\n- 기술 혁신 및 시뮬레이션 고도화: NVIDIA를 중심으로 물리 기반 AI와 에이전틱(Agentic) 기술이 발전하며 실시간 그래픽스 및 가상 시뮬레이션 환경이 고도화됨.\n\n- 산업 특화 AI 솔루션 도입: 뷰티, 서비스 등 실생활과 맞닿은 산업 분야에서 개인화된 경험을 제공하기 위한 AI 플랫폼 구축 사례가 확산 중.",
     "jobRiskScore": 35,
     "news": [
       {
         "title": "신진서, 현존 최강 바둑AI 꺾었다…“전략 있는 한, 인간은 쉽게 지지 않아” - 한겨레",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FNmpSUkREV3JfVlFOYWNJTHA3NUIwTUdMVUFiMXJmN1EyaFJTZXZLYm1Dd1BobHZYU1pfNDZTcUJxekJkRl9CR0dGeEJiZkFyVUJLM3ZtbXR0ZlVWSEFMdlh0enVzR0x0R28zaDBOaVNNdw?oc=5",
         "pubDate": "Tue, 21 Jul 2026 08:46:00 GMT",
-        "summary": "바둑 기사 신진서가 최강의 바둑 AI를 상대로 전략적 대응을 통해 승리를 거두었습니다. 이는 AI가 압도적인 우위에 있는 분야에서도 인간의 깊은 사고와 전략이 유효한 가치를 지님을 시사합니다."
+        "summary": "바둑 기사 신진서가 최강 AI '카타고'를 상대로 승리를 거두며 인간의 전략적 사고가 AI에 대항할 수 있음을 입증했다. AI의 압도적 성능 앞에서도 인간만의 고유한 전략과 판단력이 유효하다는 점을 강조했다."
       },
       {
         "title": "AI 꺾은 바둑의 ‘신’…신진서 “인간이 버틸수 있다는걸 증명했다” - 동아일보",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UYms0SGRUYWNMQzZMUXB2aWNGS1NMbFIwTVZ0LWg1dHFSY0VfSEFRZ3Y2YlpwYVRYQ3VmY0NhQVJwTUlhYnkyMGhQb010Unl5WlJUMk91TDBrM0hnc2xRMXBiOEZBYVdVa3FZZHJHdUJiajRQWGfSAWZBVV95cUxORHl0V0pydjRxR19NVjhadEkyZFB2c0NVakpvX0hVcDg0WDZsMEFLMFhuZ01jalVvd2VWNDRQeHdQMkRJTEpoeGJobzFHbXpXVGJzVy1EWlpGd2NiN2RPZFBvdTlkSmc?oc=5",
         "pubDate": "Tue, 21 Jul 2026 05:10:00 GMT",
-        "summary": "신진서 9단은 AI와의 대국을 통해 인간의 능력을 증명했다는 소감을 밝혔습니다. 이는 AI 시대에 인간의 역할이 사라지는 것이 아니라, 기술과의 경쟁 및 공존을 통해 인간의 한계를 시험하고 발전시킬 수 있다는 긍정적인 메시지를 줍니다."
+        "summary": "신진서 9단이 AI와의 대국에서 승리하며 인류가 AI 시대에 여전히 경쟁력을 유지할 수 있음을 보여주었다. 이는 기술 발전 속에서도 인간의 주도적인 역할이 중요함을 시사하는 상징적인 사건이다."
       },
       {
         "title": "신진서, 최강 바둑 AI '카타고'에 2연승…역전 우승 - 지디넷코리아",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43TU9hVkg4SlA3UklRTnJVbEYydjFkUGE0eWJQbENxOFRmZU9YU3htSmJnV2xRQU5qbDhKY3VhbWJOZGtjX1dublNVczBPdWxCVlNtT0xB?oc=5",
         "pubDate": "Tue, 21 Jul 2026 09:01:19 GMT",
-        "summary": "신진서 9단이 바둑 AI '카타고'를 상대로 2연승을 기록하며 역전 우승을 차지했습니다. 이 결과는 완벽한 기계적 연산을 인간의 유연한 전략과 대응으로 극복할 수 있음을 보여준 사례입니다."
+        "summary": "신진서 9단이 세계 최정상급 AI '카타고'를 상대로 2연승을 기록하며 최종 우승을 차지했다. 인간과 AI의 대결 구도에서 인간 기사의 창의적인 전술이 중요한 변수가 되었음을 확인했다."
       },
       {
         "title": "SIGGRAPH에서의 NVIDIA, 에이전틱 및 피지컬 AI로 그래픽스와 시뮬레이션을 발전시키다 - NVIDIA",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9ySjdKSXE3MjhGN2o2NXBUZE5MZ2ZrdDdYcEh5blNXWmNpQVZjdTN2SldENXA4bGotcEk4RTdxemZKM0llTXJEd0ZGbHRvMVlHRFVGcnNxY2xOX3YtWkxBdg?oc=5",
         "pubDate": "Tue, 21 Jul 2026 09:19:40 GMT",
-        "summary": "NVIDIA가 SIGGRAPH를 통해 물리 법칙을 이해하는 피지컬 AI와 스스로 판단하는 에이전틱 AI 기술을 공개했습니다. 이는 그래픽 디자인 및 시뮬레이션 분야의 생산성을 높이고 새로운 디지털 경험을 창출하는 방향으로 나아가고 있습니다."
+        "summary": "NVIDIA가 SIGGRAPH에서 물리 법칙을 학습하는 피지컬 AI와 스스로 판단하는 에이전틱 AI를 공개했다. 이를 통해 더욱 정교한 그래픽스 구현과 시뮬레이션 환경 구축이 가능해질 전망이다."
       },
       {
         "title": "[게시판] 파수 AI, 리안헤어 ‘AI 초개인화 뷰티경험 플랫폼’ 구축 참여 등 단신 - AI타임스",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0RzYyYlFKc3F4c0NBNko3ZHJSTFJ0NlRFQ2NjTEtaSmhkMFBsNmgyWGpJUUlQX0djSXBtRHBheVU3eUZodmc5Z3daUU5iQ09qZlA2RjMtX0swNWVRSmYyR051bWNYUk9pMEE?oc=5",
         "pubDate": "Tue, 21 Jul 2026 09:25:17 GMT",
-        "summary": "파수 AI가 리안헤어와 함께 고객 맞춤형 뷰티 경험을 제공하는 AI 플랫폼 구축에 나섰습니다. 이는 AI가 일상 서비스 영역에서 고객의 요구를 정밀하게 파악하여 산업 경쟁력을 강화하는 도구로 활용되고 있음을 보여줍니다."
+        "summary": "파수 AI가 리안헤어의 초개인화 뷰티 플랫폼 구축 사업에 참여하는 등 산업 현장에서의 AI 도입이 가속화되고 있다. AI 기술이 고객 경험 향상을 위한 실질적인 서비스 도구로 활용되고 있다."
       }
     ]
   },
@@ -73,7 +73,7 @@
         "summary": "AI의 급속한 발전으로 주니어급 인력이 수행하던 실무가 자동화되면서 청년 세대의 커리어 형성이 어려워지고 있음. 신입 사원의 교육 환경이 붕괴하고 경력 사다리가 끊기는 노동 시장의 불평등 심화가 우려됨."
       }
     ],
-    "jobRiskScore": 52
+    "jobRiskScore": 61
   },
   {
     "lastUpdated": "2026-07-17T22:43:00.390Z",
@@ -111,7 +111,7 @@
         "summary": "AI 기술이 파킨슨병 환자의 보행 어려움을 개선하는 등 실질적인 재활 보조 도구로 활용되고 있다. 기술이 장애인의 일상생활 회복과 사회적 활동을 돕는 긍정적인 사례가 주목받고 있다."
       }
     ],
-    "jobRiskScore": 60
+    "jobRiskScore": 52
   },
   {
     "lastUpdated": "2026-07-16T22:52:37.792Z",
@@ -149,7 +149,7 @@
         "summary": "요약 없음"
       }
     ],
-    "jobRiskScore": 64
+    "jobRiskScore": 56
   },
   {
     "lastUpdated": "2026-07-15T22:54:10.732Z",
@@ -187,7 +187,7 @@
         "summary": "미국 연방준비제도가 AI 분야에 집중된 막대한 투자가 단기적인 물가 상승 요인이 될 수 있다고 경고함. 이로 인해 투자 심리가 위축되면서 뉴욕 증시에서 SK하이닉스 등 관련 반도체 기업의 주가가 하락세를 보임."
       }
     ],
-    "jobRiskScore": 53
+    "jobRiskScore": 49
   },
   {
     "lastUpdated": "2026-07-14T22:52:53.706Z",
@@ -225,7 +225,7 @@
         "summary": "AI가 학습 과정에서 인간이 정의하지 않은 새로운 언어를 스스로 생성하는 현상이 관찰되었다. 이는 AI 모델이 단순히 데이터를 처리하는 단계를 넘어 복잡한 정보 전달 체계를 구성할 수 있음을 시사하며, AI 간 통신 규약에 대한 연구로 이어지고 있다."
       }
     ],
-    "jobRiskScore": 51
+    "jobRiskScore": 46
   },
   {
     "lastUpdated": "2026-07-13T22:51:04.286Z",
@@ -263,7 +263,7 @@
         "summary": "서울 서초구가 오는 21일 'AI시대 여성 일자리'를 주제로 한 잡페스타를 개최한다. AI 기술 확산에 따른 직무 환경 변화를 조명하고, 여성 구직자들에게 최신 기술 트렌드와 적합한 일자리 정보를 제공하는 데 목적이 있다."
       }
     ],
-    "jobRiskScore": 65
+    "jobRiskScore": 52
   },
   {
     "lastUpdated": "2026-07-12T22:41:30.852Z",
@@ -339,7 +339,7 @@
         "summary": "요약 없음"
       }
     ],
-    "jobRiskScore": 49
+    "jobRiskScore": 48
   },
   {
     "lastUpdated": "2026-07-09T23:06:46.772Z",
@@ -377,6 +377,6 @@
         "summary": "메타가 인공지능 기술뿐만 아니라 컴퓨팅 인프라 자체를 서비스화하여 수익을 창출하려는 전략을 추진 중이다. 막대한 자본이 투입된 AI 인프라를 통해 기술 경쟁력 확보와 수익 모델 다각화라는 두 마리 토끼를 잡겠다는 의지다."
       }
     ],
-    "jobRiskScore": 46
+    "jobRiskScore": 49
   }
 ]
