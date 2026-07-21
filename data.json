@@ -1,28 +1,28 @@
 [
   {
-    "lastUpdated": "2026-07-21T10:35:01.649Z",
+    "lastUpdated": "2026-07-21T10:42:44.366Z",
     "reportDate": "2026. 7. 21.",
-    "summary": "- 인간 대 AI 대결의 이정표: 바둑 기사 신진서가 최강 AI '카타고'를 상대로 승리를 거두며 인간의 전략적 우위와 한계 돌파 가능성을 입증함.\n\n- 중국의 기술 굴기: 중국이 새로운 AI 모델을 공개하며 미국과의 기술 격차를 좁히고 있으며, 이로 인해 반도체 시장의 불확실성이 증대됨.\n\n- 산업 특화 AI 확산: 파수AI가 뷰티 플랫폼 구축 사업을 수주하는 등 AI 기술이 서비스업과 일상 영역으로 구체화되고 있음.",
-    "summaryScore": 78,
-    "jobRiskScore": 84,
+    "summary": "- 인간의 AI 대응력 증명: 바둑 기사 신진서의 AI 승리 사례를 통해 특정 도메인에서의 인간 전략적 우위와 협업 가능성 확인.\n\n- 국가 간 기술 경쟁 격화: 중국의 새로운 AI 모델 공개로 인한 글로벌 기술 패권 경쟁 및 반도체 공급망에 미치는 영향 증대.\n\n- AI 산업 적용 가속화: 파수AI의 뷰티 플랫폼 구축 등 AI가 서비스 및 실무 영역으로 빠르게 침투하고 있음.\n\n- 윤리적 논쟁과 저작권 이슈: AI 발전에 따른 일자리와 창작자 권리 침해 논란이 공공연하게 제기되며 기술 도입의 사회적 책임 강조.",
+    "summaryScore": 82,
+    "jobRiskScore": 85,
     "riskScoreBreakdown": [
       {
-        "event": "중국 AI 기술 경쟁력 강화",
+        "event": "중국 AI 기술 추격 및 반도체 산업 영향",
         "sign": "+",
-        "impact": 4,
-        "newsIndex": 4
-      },
-      {
-        "event": "인간의 전략적 대응 능력 확인",
-        "sign": " -",
         "impact": 6,
-        "newsIndex": 1
+        "newsIndex": 2
       },
       {
-        "event": "서비스 산업 내 AI 통합 가속화",
+        "event": "창작자 및 교사 등 지식 노동자의 AI 우려",
         "sign": "+",
-        "impact": 3,
+        "impact": 5,
         "newsIndex": 5
+      },
+      {
+        "event": "인간의 전략적 대응 역량 확인",
+        "sign": " - ",
+        "impact": 3,
+        "newsIndex": 1
       }
     ],
     "news": [
@@ -30,37 +30,17 @@
         "title": "신진서, 현존 최강 바둑AI 꺾었다…“전략 있는 한, 인간은 쉽게 지지 않아” - 한겨레",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9FNmpSUkREV3JfVlFOYWNJTHA3NUIwTUdMVUFiMXJmN1EyaFJTZXZLYm1Dd1BobHZYU1pfNDZTcUJxekJkRl9CR0dGeEJiZkFyVUJLM3ZtbXR0ZlVWSEFMdlh0enVzR0x0R28zaDBOaVNNdw?oc=5",
         "pubDate": "Tue, 21 Jul 2026 08:46:00 GMT",
-        "summary": "신진서 9단이 최강 바둑 AI 카타고를 상대로 승리하며 인간의 전략적 사고가 AI 시대에도 유효함을 입증했다. 이는 AI와의 협업 및 대결에서 인간의 역할 가능성을 시사하는 사례다.",
+        "summary": "신진서 9단이 최강 바둑 AI를 상대로 승리를 거두며 인간의 전략적 대응 가능성을 증명했다. 이는 기술과 인간의 대립이 아닌 협업적 모델의 새로운 가능성을 시사한다.",
         "importance": 4,
         "aiImpact": 5,
         "automationPotential": 2,
         "investmentImpact": 3
       },
       {
-        "title": "AI 꺾은 바둑의 ‘신’…신진서 “인간이 버틸수 있다는걸 증명했다” - 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5UYms0SGRUYWNMQzZMUXB2aWNGS1NMbFIwTVZ0LWg1dHFSY0VfSEFRZ3Y2YlpwYVRYQ3VmY0NhQVJwTUlhYnkyMGhQb010Unl5WlJUMk91TDBrM0hnc2xRMXBiOEZBYVdVa3FZZHJHdUJiajRQWGfSAWZBVV95cUxORHl0V0pydjRxR19NVjhadEkyZFB2c0NVakpvX0hVcDg0WDZsMEFLMFhuZ01jalVvd2VWNDRQeHdQMkRJTEpoeGJobzFHbXpXVGJzVy1EWlpGd2NiN2RPZFBvdTlkSmc?oc=5",
-        "pubDate": "Tue, 21 Jul 2026 05:10:00 GMT",
-        "summary": "신진서의 승리 소식이 연일 화제가 되며 인간과 AI 간의 기술적 관계에 대한 담론이 형성되었다. AI가 완벽하지 않다는 인식과 인간의 전략적 가치가 재조명받고 있다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "신진서, 최강 바둑 AI '카타고'에 2연승…역전 우승 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE43TU9hVkg4SlA3UklRTnJVbEYydjFkUGE0eWJQbENxOFRmZU9YU3htSmJnV2xRQU5qbDhKY3VhbWJOZGtjX1dublNVczBPdWxCVlNtT0xB?oc=5",
-        "pubDate": "Tue, 21 Jul 2026 09:01:19 GMT",
-        "summary": "신진서가 카타고를 꺾고 역전 우승을 달성하며 인간 바둑의 새로운 기록을 세웠다. 기술적 분석을 넘어 스포츠 정신 측면에서의 인간의 승리로 평가받는다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
         "title": "중국 새 AI 공개 \"미국 따라잡나\"‥반도체 '휘청' - MBC 뉴스",
         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBaOW1jV0cxejhiYVFDM1l1TW9ESVUzMkdMNlBzTHE3WGpNM3ZVR1c4QVBmVGtjZEJJSVJnbkg0YjBCamstRjVncnR2RDVvb1hqa1ZtbXZrWnpKdDFvakNDak5rTzVjcEJyNkFCMzdxdnFJdkQ3MEw2bkNR?oc=5",
         "pubDate": "Mon, 20 Jul 2026 21:37:31 GMT",
-        "summary": "중국이 새로운 AI 모델을 발표하며 미국을 위협하는 기술력을 과시했다. 이로 인해 글로벌 반도체 공급망과 시장의 변동성이 커지고 있다.",
+        "summary": "중국이 새로운 AI 모델을 공개하며 미국과의 기술 격차를 좁히고 있다. 이로 인해 글로벌 반도체 공급망의 불확실성이 커지며 시장의 긴장감이 고조되고 있다.",
         "importance": 5,
         "aiImpact": 5,
         "automationPotential": 3,
@@ -70,11 +50,31 @@
         "title": "파수AI, 리안헤어 ‘AI 뷰티 플랫폼’ 구축 맡아 - v.daum.net",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjR1dYRkJOdk1PTXJkb2VpaVJhbTl3d056SDlZYl9VYmxtRGRJeS12cFlyWDMyTmlPTEdjeEtJOXRSVGRwbV9wbHhwMmUtdzQ?oc=5",
         "pubDate": "Tue, 21 Jul 2026 10:06:39 GMT",
-        "summary": "파수AI가 리안헤어의 뷰티 플랫폼 구축을 담당하며 실생활 밀착형 AI 서비스 구현에 나섰다. AI 기술이 미용 및 서비스 산업으로 본격적으로 확장되고 있음을 보여준다.",
+        "summary": "파수AI가 리안헤어의 뷰티 플랫폼 구축 프로젝트를 맡아 실무 현장에 AI 기술을 적용한다. 산업 전반으로 AI 도입이 가속화되는 양상을 보여준다.",
         "importance": 3,
         "aiImpact": 3,
         "automationPotential": 4,
         "investmentImpact": 3
+      },
+      {
+        "title": "[게시판] 포티투마루, 디지털 포럼서 K-팔란티어 전략 공유 등 단신 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qMGFmVzVkV2syTE5oV0wtcE9iQlp0aloyVVpyNEx6T3lCSm5lY3RKcXoza2NEYzNOQXY1RC1RUXB1c2lBQWpDYm8zMjBxX0ZWaGE0dUNzRW5LRGpBeGFjeHdqbm94S3dGMGc?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 09:57:48 GMT",
+        "summary": "포티투마루가 디지털 포럼에서 K-팔란티어 전략을 공유하며 AI 기업으로서의 행보를 이어갔다. 국내 AI 기업들의 구체적인 사업 모델 구상 사례로 주목된다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "\"당신들이 교사를 못 버티게 만들었다\"…오픈AI 사옥서 쏟아진 소설가의 작심 발언 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EYUpISUFLc2ljbUlGdGZiUDRXdGQxZTVBbUlHMWswWDA5NXFSaC01Y1ltbko5ZjBOLVVRZ25UV2pFcEN0QmNKWFdJeU1HOTBteFRiSUt3?oc=5",
+        "pubDate": "Tue, 21 Jul 2026 10:05:37 GMT",
+        "summary": "오픈AI 사옥에서 소설가들이 AI 모델 학습에 따른 저작권 및 일자리 위협에 대해 항의했다. AI 기술 도입 과정에서 사회적 합의와 윤리적 가이드라인의 중요성이 부각되었다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 2
       }
     ]
   },
