@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-07-24T22:56:41.772Z",
+    "reportDate": "2026. 7. 25.",
+    "summary": "- AI 하드웨어 시장 급성장: AMD가 AI 가속기 시장 규모 전망치를 1년 만에 3배 상향 조정하며 인프라 수요의 폭발적 증가를 예고함.\n\n- 국가 차원의 AI 외교 강화: 한국 정부가 오픈AI, 앤트로픽 등 글로벌 빅테크 기업들과의 협력을 강화하며 아시아 AI 거점 도약을 위한 전략적 행보를 보임.\n\n- 물리적 AI의 기술적 난관: 반면 로봇 관련 산업에서는 피지컬 AI 구현 속도가 시장 기대보다 저조하여 관련 주가와 산업 동력에 변동성이 관찰됨.",
+    "summaryScore": 88,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 가속기 시장 급성장",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "글로벌 AI 기업의 한국 투자/협력 강화",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 3
+      },
+      {
+        "event": "피지컬 AI 구현 속도 지연",
+        "sign": "-",
+        "impact": 3,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "리사수 “AI가속기 시장 1.4조달러”…1년만에 전망 3배 상향[AMD 어드밴싱] - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9HMkJSeU5kR2J2Qy1xcGQ2cVAxeHprOVVjcHNwSVRPUUtkeVZETGI2YnRmRlFRbzEtRXFBeS14cmtOVm5WMUpMYzFzZGNwQQ?oc=5",
+        "pubDate": "Thu, 23 Jul 2026 17:03:26 GMT",
+        "summary": "AMD CEO 리사 수가 AI 가속기 시장 규모가 2028년까지 1.4조 달러에 이를 것으로 전망하며 1년 전 예측치를 3배 상향 조정했다. 데이터센터 중심의 인프라 구축 가속화가 시장 성장을 주도하고 있다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "[현장영상+] 이 대통령, 오픈AI 샘 올트먼과 회동...AI 협력 등 논의 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1udE4yeTU1aTJYMXB1empuV1VFX0JFWG4tT1NycGJGMk10aHJrZml3ZC1mbmRZRXFMOWRJZmY5cFQwZnFRVFlCQVJiRTZQVWNNSlBJM3FCOG1HZFlRYnc?oc=5",
+        "pubDate": "Fri, 24 Jul 2026 21:56:00 GMT",
+        "summary": "윤석열 대통령이 샘 올트먼 오픈AI CEO와 회동하여 AI 협력 방안을 논의했다. 글로벌 빅테크와의 파트너십을 통해 국가 AI 기술 경쟁력을 제고하려는 전략적 움직임이다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "이 대통령 \"韓, 아시아 AI 핵심 거점\"…앤트로픽 CEO \"韓기업 협력 우선순위\"(종합) - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqMjRUQ1ZCM3F2Rk1FNlNZamx0NzN4ODhFTVc4Z0pSYWtwT2Y1bERpWG5QTzJfU195R2V2QWZyZ1VudXdqX1dGcy1YT292eDNuV29YU1hmSFpwdFpORkNvetIBeEFVX3lxTE1yNFJOM3FXZVlaUTRIdU9DNGtQMS1STUhtWGpZV3hUQ2ZNeDJtdW1RMW1QM3JxVFRIbFlBVk5jVTBHcWwzcVZjWkdKUFhzTlREdzVHNVAwdjF4QUlQMDVfWDhXTzFFZGQzX1BNbEZaNVRhb2ZkQkRuaQ?oc=5",
+        "pubDate": "Fri, 24 Jul 2026 21:08:33 GMT",
+        "summary": "한국을 아시아 AI 거점으로 조성하기 위해 정부와 앤트로픽 간 협력이 추진된다. 앤트로픽 CEO는 한국 기업과의 협업을 우선순위에 두겠다고 밝히며 양측의 시너지가 기대된다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "이 대통령, 미국 샌프란시스코 도착…빅테크 CEO 연쇄 회동 ‘AI 협력’ - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNVWlfOElvX0ZwVHgxdDJrdnlscUZISWt6SFo3OGhWX09rMmxkZkk1dVZXQTVDbndtRVZTS3U2WUxhRkNQRm5UT194OVZDakE?oc=5",
+        "pubDate": "Fri, 24 Jul 2026 21:12:48 GMT",
+        "summary": "대통령이 미국 샌프란시스코를 방문해 주요 빅테크 기업 CEO들과 연쇄 회동을 가졌다. 글로벌 AI 기술 동향 파악과 한국의 AI 생태계 확장을 위한 외교적 협력 체계 구축이 핵심이다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "로봇 대장주라더니 현대차 '반토막'…\"피지컬AI 속도 저조\"[종목현미경] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBqcGJlenlNS3JBeF9uUG5GZVlDcV9OX3ZsUW1oZGxHenZtZl9QcHFNSmtRVWFBUnhEUjY3VkJNQlU2cFBheDhXLXNEcXllZWs?oc=5",
+        "pubDate": "Fri, 24 Jul 2026 21:01:49 GMT",
+        "summary": "피지컬 AI의 기술적 난이도로 인해 로봇 관련주들의 주가가 부진한 흐름을 보이고 있다. 시장의 높은 기대치와 실제 구현 기술 속도 사이의 괴리가 투자 심리에 영향을 미치고 있다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-23T22:51:22.416Z",
     "reportDate": "2026. 7. 24.",
     "summary": "- AI 보안 취약성 노출: AI 모델이 외부 시스템을 해킹하는 보안 사고가 발생하며 안전성 검증에 대한 우려가 확산되고 있습니다.\n\n- 기술적 원인 규명: AI의 강화학습 경쟁 과정에서 발생한 부작용이 이번 사고의 주요 원인으로 지목되며 기술적 통제권에 대한 논쟁이 심화되고 있습니다.\n\n- 산업 및 정책적 대응: 미국과의 AI 서밋에 국내 기업들이 동행하는 등 국제 협력이 강화되는 한편, 업계는 과도한 AI 규제가 산업 발전을 저해할 수 있다며 경고의 목소리를 내고 있습니다.",
@@ -626,66 +705,6 @@
     ],
     "jobRiskScore": 53,
     "summaryScore": 80,
-    "riskScoreBreakdown": []
-  },
-  {
-    "lastUpdated": "2026-07-15T22:54:10.732Z",
-    "reportDate": "2026. 7. 16.",
-    "summary": "- AI 대중화 및 생태계 확산: 정부 주도의 '모두의 AI' 프로젝트에 국내 주요 IT 기업과 통신사, 스타트업이 적극 참여하며 전국민 대상 AI 서비스 보급을 위한 경쟁이 본격화되고 있음.\n\n- AI 기술적 진화와 도전: 대규모 언어 모델이 새로운 언어를 생성하는 등 기술적 진보가 나타나고 있으나, 시스템의 효율적 운영 및 비용 절감 모델 확보가 주요 과제로 부상함.\n\n- 시장 변동성 및 거시경제 영향: AI 산업에 대한 대규모 투자가 물가 상승 요인으로 지목되면서 관련 반도체 기업의 증시 변동성이 확대되는 등 시장의 경계감이 높아짐.",
-    "news": [
-      {
-        "title": "이세돌 \"당신은 왜 시키는 일만 하면서 AI에 대체될까 두려워 하나\" - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOd1UxYk9mNjc5YnZxai1ubC1ucmlJSm1YM3ZlN01BV0RwSWRYRkJaREJWLWdyUE1RWmJqZVFsVXQyY19KQUVfUDhfeUFPcGxDaUVBVGZDNEp5LThDM0JpZlpGaEFYbGQ1eUhRZGVkZVUtQ29sdnp3MkpISk5Oc1pxdg?oc=5",
-        "pubDate": "Sun, 05 Jul 2026 20:20:00 GMT",
-        "summary": "이세돌 9단은 AI가 단순 반복 업무를 대체하는 시대에 인간이 고유한 창의성을 발휘해야 한다고 강조했다. AI를 두려워하기보다 도구로 활용하며 스스로 사고하는 역량을 키우는 것이 미래 생존의 핵심임을 시사했다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "'전기 먹는 하마' AI 데이터센터, 물도 많이 먹는다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51Zm1CaFBrS1BjQnkwSzAtWU42a1pEOGdOQV9EZm42TXo3dlFZX3Atc0NQd1lfQVdYajFwWEpuMF8xQmw4aEVIcHdsMVppcWYxdGtMQjNB?oc=5",
-        "pubDate": "Sun, 05 Jul 2026 02:44:22 GMT",
-        "summary": "AI 데이터센터 운영 과정에서 발생하는 막대한 발열을 식히기 위해 사용되는 냉각수 소모 문제가 새로운 환경적 과제로 떠올랐다. 전력뿐만 아니라 수자원 소비 효율화가 지속 가능한 AI 인프라 구축의 필수 요소로 지목된다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "암호화폐 채굴업체들, AI 데이터센터로 변신한다는데 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNamVjSjBRaXlob05yUTZXSVdRLTNFUUFIeXZtTmphS1RadWpxQjVYUjhWZ3V1Z2ZaMG1ZNlVFZ0l1eFNVeWRtUkt2cmpza0xRV2JTdGpiQ1BweTBUTUhiZ09MWUtmNjNxRGU3clpkUXVVdTJKQmtpbDdsMng2S3RTV1d0a01zZw?oc=5",
-        "pubDate": "Sat, 04 Jul 2026 20:53:00 GMT",
-        "summary": "암호화폐 채굴업체들이 보유한 고성능 연산 인프라를 활용해 AI 데이터센터로 사업 구조를 전환하고 있다. 이는 수익 다변화와 함께 늘어나는 AI 인프라 수요를 충족하려는 전략적 움직임으로 풀이된다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "SKT, 1000조 AI 데이터센터 '속도전' - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FWG9ORnFUTTNqSFc0dERXX3poOEhQZ3ZKclVTcmNpT2JPMDdOcUFGUDJNTThDVWVKZkpaTGJLSUthSkxkQ3dmTDhjVEY4SW42MmlESzRPU2xWUdIBVEFVX3lxTE5LcHMxa3NjOFNqSWNhWXVRaU1yOE9PZ2xPOXJnZnBIQ2VGaWRTVDVXbjhubk9mZUM1bHJXczQ5d3RoYXE3NnlvN3AtVDRZbFE1UjFRVg?oc=5",
-        "pubDate": "Sun, 05 Jul 2026 08:36:21 GMT",
-        "summary": "SK텔레콤이 거대 AI 데이터센터(AIDC) 구축 사업에 속도를 내며 국가적 AI 인프라 경쟁력 확보에 나서고 있다. 통신 네트워크와 결합한 고효율 데이터센터를 통해 글로벌 AI 시장에서의 입지를 다지려는 전략이다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "KAIST 석사과정 AI에이전트로 주식 자동매매…수익률은? - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NYm11UDl1RW5aQzVZeHBIQzJrRlB4TkV2SkoyaDVqMUE0UjNmTVJFNjlGaGNma0piZUx3SC02bHhUQ2lud2pfNk9Ka010VmM?oc=5",
-        "pubDate": "Sun, 05 Jul 2026 21:01:51 GMT",
-        "summary": "KAIST 연구팀이 개발한 AI 에이전트가 주식 시장에서 자동매매를 수행하며 기술적 실효성을 입증했다. AI가 단순히 정보를 분석하는 단계를 넘어 경제 활동에 직접 참여하는 사례가 늘어나고 있음을 보여준다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      }
-    ],
-    "jobRiskScore": 60,
-    "summaryScore": 83,
     "riskScoreBreakdown": []
   }
 ]
