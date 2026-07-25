@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-07-25T22:48:37.355Z",
+    "reportDate": "2026. 7. 26.",
+    "summary": "- 중국의 AI 칩 자립화 전략 및 제재: 중국 정부가 자국 내 AI 기업들에게 국산 칩 사용을 강제하며 기술 패권 확보를 위해 공급망을 강력하게 재편하고 있음.\n\n- 글로벌 AI 리더십 및 인프라 전망: 젠슨 황 엔비디아 CEO와 정계 인사들의 교류 및 메모리 시장의 10년 장기 호황 전망이 제기되며 AI 인프라의 중요성이 재확인됨.\n\n- 산업 실적 개선 및 적용 갈등: AI 기술 수혜로 인한 반도체 부품사의 실적 개선이 기대되는 반면, 교육 현장 등에서는 휴머노이드 로봇 도입에 대한 사회적 거부감과 갈등이 발생하고 있음.",
+    "summaryScore": 82,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "중국 내 AI 칩 국산화 강제 정책",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "교육 현장의 휴머노이드 로봇 도입 보류",
+        "sign": " -",
+        "impact": 5,
+        "newsIndex": 5
+      },
+      {
+        "event": "AI 인프라 수요 폭증에 따른 산업 활성화",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 3
+      }
+    ],
+    "news": [
+      {
+        "title": "\"국산 칩 안 쓰면 반역자\"…중국, AI 기업들에 '강력 경고' - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VNHpIX29BNng3VmRpU2dOVXlGVzREb2lOTm54WGdmQkpvbHo3ZDRoSFowa19saElaVUtNMHpVckhRT2NpUDFrejh3V3V6Z29sRG5CLXRzSF8xZ04wUXhOTGxhSGNTSUJ5SWc?oc=5",
+        "pubDate": "Sat, 25 Jul 2026 09:28:44 GMT",
+        "summary": "중국 정부가 AI 기업들에 국산 AI 칩 사용을 강력하게 요구하며 기술 자립화를 가속화하고 있음. 이는 글로벌 공급망의 분절화와 자국 중심의 AI 생태계 구축을 의도한 조치임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "젠슨 황 “맥주 한잔 더?” 이재명 “공무원이라~” 웃음꽃… 글로벌 AI 리더들과 미국판 ‘깐부회동’ - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ITTBIVkZ3dVpvMEFTQng3endSTTYzbmNKOHFPWl9SY3dQMHMyWXhWRkhKT1RBUnJNRkNiM3llUFh4aEhxWUp1R3hfdkZISlk?oc=5",
+        "pubDate": "Sat, 25 Jul 2026 04:31:31 GMT",
+        "summary": "젠슨 황 엔비디아 CEO를 비롯한 글로벌 AI 리더들이 한국 정치인들과 회동하며 AI 협력 방안을 논의함. 이는 글로벌 공급망 및 기술 파트너십 구축을 위한 전략적 행보로 평가됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "‘AI 거품론’ 걱정없다…“10년간 메모리 부족” - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52WmdfRmtMSW1fOC1Dc0hxc0M2Z214NlA1ZS0wVXBhX2JLaEdpWWlEblBUSWI4cmk0WF94TkRwdVRUcHhvcmxZVWJxd3lrZmc?oc=5",
+        "pubDate": "Sat, 25 Jul 2026 21:02:22 GMT",
+        "summary": "메모리 시장이 향후 10년간 공급 부족을 겪을 것이라는 전망이 제기되며 AI 인프라 확장의 지속 가능성이 강조됨. AI 거품론보다는 하드웨어 시장의 성장에 무게가 실리고 있음.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "삼성전기, AI 타고 '깜짝 실적' 전망...영업이익률 '10% 벽' 깰듯 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NcVh2MUtFcVR3Q2YwVHgzZ0Jyd3g5WmxabW1tN3NVajJNOXNxOEFhbmR2dTRGVFhya3N6NGxlWWFFTHZpNW80eTB5M2FtSHVxZG5jTDR3STNwVzVsRGI1b25wTldZcENTbWdKStIBckFVX3lxTE4xYjRicFNZZmdka1FCM2JMM08wUU9lSGVlbDNGSTBCWDl3a1BFNUI1VVUtaFJlejJlVlhiMXJ4ZkJEbFdPRkVScThhc2JHMEczZUtsT1VHOTFSUVZtbU5ZWko2TDlMOW9UT0FuSnRNOHVIQQ?oc=5",
+        "pubDate": "Sat, 25 Jul 2026 22:01:00 GMT",
+        "summary": "삼성전기가 AI 시장 확대에 따른 반도체 부품 수요 증가로 실적 개선세를 보이고 있음. AI 생태계가 소재·부품·장비 산업 전반에 긍정적인 실적 동력을 제공하고 있음.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "학부모·교사 반발에…美고교, 휴머노이드 AI 로봇 도입 보류 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBTlk4cUYtelFBeHRYa3hHeEJOUWtTRmdLdVpOSW5Xem04RWpCcFNsV3pmbFBrZ25HQTlJRTFtb0hwTmZNSlBjU0JDalBseEJ6OEpoajlFRUxPWm8?oc=5",
+        "pubDate": "Sat, 25 Jul 2026 21:47:12 GMT",
+        "summary": "미국 고등학교가 도입하려던 휴머노이드 로봇 서비스가 학부모와 교사의 반발로 인해 보류됨. 기술의 실생활 도입 과정에서 발생하는 사회적, 윤리적 논란을 보여줌.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 5,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-24T22:56:41.772Z",
     "reportDate": "2026. 7. 25.",
     "summary": "- AI 하드웨어 시장 급성장: AMD가 AI 가속기 시장 규모 전망치를 1년 만에 3배 상향 조정하며 인프라 수요의 폭발적 증가를 예고함.\n\n- 국가 차원의 AI 외교 강화: 한국 정부가 오픈AI, 앤트로픽 등 글로벌 빅테크 기업들과의 협력을 강화하며 아시아 AI 거점 도약을 위한 전략적 행보를 보임.\n\n- 물리적 AI의 기술적 난관: 반면 로봇 관련 산업에서는 피지컬 AI 구현 속도가 시장 기대보다 저조하여 관련 주가와 산업 동력에 변동성이 관찰됨.",
@@ -645,66 +724,6 @@
     ],
     "jobRiskScore": 51,
     "summaryScore": 85,
-    "riskScoreBreakdown": []
-  },
-  {
-    "lastUpdated": "2026-07-16T22:52:37.792Z",
-    "reportDate": "2026. 7. 17.",
-    "summary": "- 인프라 및 생태계 확장: 애플이 온디바이스 AI 경쟁력 강화를 위해 자체 칩 역량 강화에 나섰으며, 국내에서는 업스테이지와 퓨리오사AI가 협력해 하드웨어와 소프트웨어를 아우르는 '풀스택 AI' 상용화를 이끌고 있음.\n\n- 반도체 공급망 강화: AI 서비스의 핵심인 서버 및 기기 성능을 높이기 위해 애플이 반도체 기업 인수를 타진하는 등 글로벌 빅테크 기업들의 인프라 내재화 움직임이 가속화됨.\n\n- 산업 현장 및 공공 적용: 생성형 AI 모델이 스마트폰 등 개인용 기기에 탑재되는 '온디바이스 AI' 시대가 도래하며 실질적인 사용자 경험 혁신이 추진되고 있음.\n\n- 정책 및 윤리적 책임: 앤트로픽 등 주요 AI 기업 인사들이 AI 기술의 안전한 발전을 위해 관련 규제 지원을 위한 자금 기부에 나서는 등 기술적 진보와 함께 사회적 책임이 강조됨.",
-    "news": [
-      {
-        "title": "노벨화학상 석학도 중국행… 야기 교수, 칭화대서 AI 소재 연구 지휘 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYTF1X3M0UUFxU0RFa3R1dVlRNjcyV1NfWjYyalBlckNTbHJXY1ZiUC1aemNfTk52WllZaGpreDIxMklIaDNRMU9iTy1KVUtzUlBwZFhmOXprd0J5Vi1qOFhJZHo3MzdneHB3eG85UHhHUzQ5YU1CODk2M011SWVJSElEVk1kS1ozMVV3bmRHMmJ6ODctY2pUVnQ0OGhJUQ?oc=5",
-        "pubDate": "Mon, 06 Jul 2026 04:57:23 GMT",
-        "summary": "노벨화학상 수상자인 야기 교수가 중국 칭화대로 자리를 옮겨 AI 기반 소재 연구를 이끌게 됨. 이는 중국이 AI 원천 기술과 기초 과학 분야에서 글로벌 석학 영입을 통해 기술 패권 확보에 적극적으로 나서고 있음을 보여줌.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "메타, AI 안경 한국어 실시간 번역 지원...통신 3사 판매 돌입 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuOHJla0hwLVk1akVRNGZpQTY3SkNJcURuQUtzcVMtMkF0RXNSTThlc2lqb3poSGFRdE5VSS1yY1NBUXhGX1lPMFBldmtaTXVoOHFEbGhBZVVBWWJsYmFaUE5pdkRKb1BiLWc?oc=5",
-        "pubDate": "Mon, 06 Jul 2026 02:37:11 GMT",
-        "summary": "메타가 자사의 스마트 글라스에 한국어 실시간 번역 기능을 도입하고 국내 통신 3사를 통해 정식 판매를 시작함. 웨어러블 디바이스와 AI 결합이 실제 소비자 시장으로 확장되며 일상 속 AI 서비스 체감이 커질 것으로 전망됨.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "\"전 10조 갑니다\" SK하이닉스에 전 오픈AI 연구원도 '통 큰 베팅'…나스닥 상장 흥행 조짐 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hb2ZiNmJDblVaVTN0cV9YNzBaX05iTnRhYnVZRFNhTDdINkJFM1dIVTMzZ1pESkxUeUNHWkRmczNZVnhZaFZncHhjUmFpY3M?oc=5",
-        "pubDate": "Mon, 06 Jul 2026 19:40:00 GMT",
-        "summary": "AI 시장 성장에 따라 고대역폭 메모리(HBM) 수요가 폭증하면서 SK하이닉스 등 관련 반도체 기업에 대한 글로벌 투자자들의 관심이 급증함. 전직 오픈AI 연구원까지 대규모 투자를 단행하며 AI 반도체 생태계의 가치가 지속적으로 재평가받고 있음.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "[단독] “밤에 소변 안 누는 법”…유튜브 속 AI 가짜 의사, 왜 못 잡나 - 중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5URDBSSUlIQ3JtMFFXSlFPVzQxYVQtOTI0MG9vYm02d1FGZ0x5eUsyX0VDRDc2ZElYQ1JvdTgweGhSVWR6ZVZnOU1nOWQ5dThOTUlReGJR?oc=5",
-        "pubDate": "Mon, 06 Jul 2026 20:00:02 GMT",
-        "summary": "생성형 AI를 악용한 가짜 의학 정보 콘텐츠가 유튜브 등 플랫폼에서 무분별하게 확산되어 국민 건강을 위협하고 있음. 기술 발전에 따른 정보 왜곡과 허위 조작 정보에 대한 규제 방안 및 플랫폼 차원의 관리 책임 강화가 시급한 과제로 떠오름.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "강남구, 서울대와 함께 'AI창작·창의성 캠프' 운영 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBjUGpqUUY2M0ZQNW9XTFhMaUNuajdvUnluR2dsU0N2eHM1ZVhFekgxS29pbXkzNVFVdW5YS3N5amtLc3l6WjVaaUtMbUtqX1UzdjNJeDB6TUFKWHPSAWBBVV95cUxNV3FhTGNFV0tjV2IzajhvbGZLYnJkN0pXUlM3MGtGWWpzcjVHeTF2bzNJMUNrd24wT2NlQkhrUHBJRkhMSUt0Sm1KVk0tN21kQl9KNkZBS01fVnJNbDJSU1Y?oc=5",
-        "pubDate": "Mon, 06 Jul 2026 22:08:55 GMT",
-        "summary": "강남구가 서울대학교와 협력하여 청소년 대상 AI 창작 캠프를 운영하며 공공 차원의 디지털 역량 교육을 강화함. 단순 기술 활용을 넘어 AI를 창의적 도구로 활용할 수 있는 미래 인재 양성 모델이 지역 사회로 확산되고 있음.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      }
-    ],
-    "jobRiskScore": 53,
-    "summaryScore": 80,
     "riskScoreBreakdown": []
   }
 ]
