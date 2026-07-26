@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-07-26T22:54:33.894Z",
+    "reportDate": "2026. 7. 27.",
+    "summary": "- 글로벌 AI 협력 및 국가 경쟁력 강화: 한국 정부가 AI 선언을 통해 글로벌 기술 협력 플랫폼으로 도약하고 대체 불가능한 AI 강국으로 거듭나겠다는 의지를 표명함.\n\n- 반도체 공급망 자립화 및 갈등 심화: 중국이 AI 기업들에 국산 칩 사용을 강제하는 등 공급망 자립을 위한 폐쇄적인 정책을 강화하며 글로벌 기술 경쟁의 불확실성이 커짐.\n\n- 에너지 환경 이슈 부상: AI 데이터센터 확장에 따른 전력 소비 문제로 인해 메타 등 빅테크 기업의 재생에너지 사용 정책과 AI 개발 사이의 긴장 관계가 현실적인 과제로 대두됨.",
+    "summaryScore": 82,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "정부 주도의 AI 산업 육성 정책",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      },
+      {
+        "event": "중국 내 AI 칩 국산화 강제 정책",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      },
+      {
+        "event": "AI 인프라 에너지 제약",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "이 대통령, 샌프란시스코 AI 선언…\"대체불가 글로벌 AI 협력 플랫폼 도약\" - 대한민국 정책브리핑",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBScnhBcmF6RnNDdFBXYWs3a2VnWFVPLVVMMmk2Qm9CWW00V1lPd1dnWGphbkw4WFc1OFVvdjJyU1pwVkMxTmVVVU5Fd21ueXV0Xy1XcDZaWHV2RWg1V09OalZHSVVVWURSenh1RA?oc=5",
+        "pubDate": "Sat, 25 Jul 2026 09:33:45 GMT",
+        "summary": "대한민국 정부가 샌프란시스코에서 AI 선언을 발표하며 글로벌 AI 협력 플랫폼으로의 도약을 선포함. AI 기술의 국제적 공조를 통해 국가 간 경쟁을 넘어 협력하는 생태계를 구축하고자 함.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "이 대통령 \"한국, AI 시대에 대체 불가능한 나라로 만들 것\" - JTBC",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBaMnFobXlsMGZaZHRHd0RfbXJWRXdyMjNpQS02dGlyVHNoRnlmeVFWMVpIbjdrbklZSERqNWF6YUtmWjd6TFNfcU42ckRXZVZCM2hRNw?oc=5",
+        "pubDate": "Sun, 26 Jul 2026 03:07:00 GMT",
+        "summary": "대통령은 한국을 AI 시대에 대체 불가능한 국가로 만들겠다는 포부를 밝힘. 국가 차원의 AI 인프라 확충과 미래 경쟁력 확보를 핵심 목표로 제시함.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "판 키운 'AI 동맹'…\"韓, 대체불가한 글로벌 공급망으로\"[李대통령 미국 순방] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZYy1SVlZubHk1THRRUXhOTjdkRGhOSHFqcVNJWDcya2t2V0JjX1QtZ3JocVpibHZDdDVhN2pHQzBZZFM0eHE4ZXh6SnR2ODA?oc=5",
+        "pubDate": "Sun, 26 Jul 2026 09:02:00 GMT",
+        "summary": "미국 순방을 계기로 AI 분야의 글로벌 동맹이 강화되고 있음. 한국이 글로벌 공급망 내에서 필수적인 역할을 담당하며 기술 주권과 산업적 위치를 동시에 확보하려는 움직임임.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "\"국산 칩 안 쓰면 반역자\"…중국, AI 기업들에 '강력 경고' - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VNHpIX29BNng3VmRpU2dOVXlGVzREb2lOTm54WGdmQkpvbHo3ZDRoSFowa19saElaVUtNMHpVckhRT2NpUDFrejh3V3V6Z29sRG5CLXRzSF8xZ04wUXhOTGxhSGNTSUJ5SWc?oc=5",
+        "pubDate": "Sat, 25 Jul 2026 09:28:44 GMT",
+        "summary": "중국 정부가 AI 기업들에 국산 반도체 사용을 강력하게 요구하며 공급망 독립을 가속화함. 이는 글로벌 반도체 시장의 파편화와 기술 민족주의의 심화를 시사함.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "메타의 ‘RE100 탈퇴’로 드러난 AI와 재생E 사이 ‘긴장’…한국도 예외 아니다 [기에사] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TWnFEWTJlZEpaclAyaEtHckFEM3B3Z3lXRTktVEw3NjV5cmRoWUVTUHhFSm9XeWppSFVuaDlOMElKbXdSN2J6MUktMGdsdTQ?oc=5",
+        "pubDate": "Sun, 26 Jul 2026 22:03:20 GMT",
+        "summary": "데이터센터 확대로 인한 전력 수요 급증으로 AI 기업과 재생에너지 간의 갈등이 발생하고 있음. 메타의 RE100 탈퇴 사례처럼 AI 효율성과 지속가능한 에너지 확보 사이의 균형이 주요 과제가 됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-25T22:48:37.355Z",
     "reportDate": "2026. 7. 26.",
     "summary": "- 중국의 AI 칩 자립화 전략 및 제재: 중국 정부가 자국 내 AI 기업들에게 국산 칩 사용을 강제하며 기술 패권 확보를 위해 공급망을 강력하게 재편하고 있음.\n\n- 글로벌 AI 리더십 및 인프라 전망: 젠슨 황 엔비디아 CEO와 정계 인사들의 교류 및 메모리 시장의 10년 장기 호황 전망이 제기되며 AI 인프라의 중요성이 재확인됨.\n\n- 산업 실적 개선 및 적용 갈등: AI 기술 수혜로 인한 반도체 부품사의 실적 개선이 기대되는 반면, 교육 현장 등에서는 휴머노이드 로봇 도입에 대한 사회적 거부감과 갈등이 발생하고 있음.",
@@ -664,66 +743,6 @@
     ],
     "jobRiskScore": 45,
     "summaryScore": 71,
-    "riskScoreBreakdown": []
-  },
-  {
-    "lastUpdated": "2026-07-17T22:43:00.390Z",
-    "reportDate": "2026. 7. 18.",
-    "summary": "- 서비스 생태계 확장 및 다각화: 오픈AI가 가족용 제품 개발을 위한 인력을 채용하는 등 AI 서비스의 대중화 및 타겟 세분화가 가속화되고 있음.\n\n- 비용 효율성 및 글로벌 경쟁 심화: 높은 운영 비용으로 인해 미국 기업들이 중국산 저비용 AI 모델로 눈을 돌리는 등 AI 시장 내 가격 경쟁력이 핵심 변수로 부상함.\n\n- 인프라 및 환경적 이슈 부각: AI 데이터센터의 폭발적인 전력 수요로 인한 전기 요금 인상 등 사회적 비용 문제와 AI 교육 현장 도입에 대한 찬반 논란이 지속됨.\n\n- 산업 및 의료 현장의 실질적 적용: 파킨슨병 환자의 보행 보조 등 AI 기술이 실생활과 의료 현장에서 삶의 질을 실질적으로 개선하는 사례가 증가하고 있음.",
-    "news": [
-      {
-        "title": "앤트로픽 \"AI도 말로 드러내지 않는 '속마음' 있다\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YZjFTNXQxeXo3T3djZm5JZzZWTDh2MmFfdFJFb0pEM25mNGN5MTI5dE84Qk9GU3M1U05RZnQ3UDk4T29XX1pUamtUTjFsbVBmbVk5aTB2RGVJUFXSAWBBVV95cUxOMXNxaS0zbWVkZm5pQ3FSZllKS3FpLXVNSlJ5QXVEX0ZlU0tNZ29sZ3hzYlREczlsNjJON0tKNzM5REszVHNPakV0dVNFM1ZNQWNxNUg1ZFNSX1dGaUxfQTI?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 11:53:32 GMT",
-        "summary": "요약 없음",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "삼성전자 89조 실적도 못 믿는 시장…AI 랠리 덮친 'ROI 의심' - 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YTG96WG5DSU5ZUGp1RHNGNVBUVXhvMlZqV1QzUnhxVjk1SjVZYTRCODNzQUxLQ2wxZE4yVlI2TjJnX1pMcl9ZTTZJRVR2bFpBWVJUa0ptWWctZEFVb29nVVZfNGhoMllsYkRYU3pnRWU?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 05:15:00 GMT",
-        "summary": "요약 없음",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "\"삼전 호실적, 반도체·AI 향한 과도한 지출과 높은 기대 우려 불러와\" - 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DQ3dEZUJYUkJXSGs0bEphUmZqWWVkcEJRZlFIZUl0dEFBWUs4eWlqODlRLWJQVE8wMmRJaU41bEVLRjdkMktKWkZQQVFGb2hwSm5ibmhKbm8tYjBnODV2UnlkdzNiV0gzWmlDeVdWbmbSAXRBVV95cUxNRDBta3ZseDRjY3JndHY1cDVGbUtIVWNKazNYcEZrM2EtcGJTZl92ek04ZURDNWhYTjdoVFlSTFQ3aHN2WlZnWDdZVHZqVkFSOExlS094UXZsclhCbWJ2RWtXMnhWWnRTbG5kWWVCX0x0LWNUWg?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 22:46:14 GMT",
-        "summary": "요약 없음",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "삼전 2Q 실적에 월가 \"높아진 기대 충족…AI메모리 쇼티지 여전\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpd3NWQndyQ0V3OEVpRUc5aWdWamd4ZVFNM0hESGtnSHl4ZjI2dlNnOG01bnpaUVBvMDdjVXJSNVRtaTk4cVhuRGVBRzJ6N1E?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 01:25:14 GMT",
-        "summary": "요약 없음",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "생성형 AI 시대, 기대·우려 교차…\"생각의 외주화 경계해야\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9JTkV1U0M0TE04RktoSGp0Q3BnYXhyZzh1MHVoSTFTaExTamtyWVdnUmFHbXlhbkhoTGRJZmFzV2ZHOUt3a0FNaFF0dnZtZDA?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 21:01:44 GMT",
-        "summary": "요약 없음",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      }
-    ],
-    "jobRiskScore": 51,
-    "summaryScore": 85,
     "riskScoreBreakdown": []
   }
 ]
