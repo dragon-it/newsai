@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-07-27T22:55:49.371Z",
+    "reportDate": "2026. 7. 28.",
+    "summary": "- AI 감지 기술의 신뢰성 문제로 인한 학계의 퇴출 움직임이 가시화되고 있습니다.\n\n- 엔비디아와 같은 글로벌 빅테크 기업들이 한국의 AI 연구 환경에 주목하며 전략적 협력을 강화하고 있습니다.\n\n- 방송 및 생성 미디어 분야에서 AI의 실질적인 활용 사례가 늘어나는 동시에 관련 윤리적·기술적 논의가 병행되고 있습니다.\n\n- 지자체 차원의 글로벌 AI 기업 육성 및 해외 진출 지원 정책이 활발히 추진되고 있습니다.",
+    "summaryScore": 78,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 감지기 오류로 인한 신뢰성 논란",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 기반 미디어 인력 대체 가속화",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 3
+      },
+      {
+        "event": "글로벌 기업과 국내 연구진의 기술 교류 확대",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      }
+    ],
+    "news": [
+      {
+        "title": "“오탐지에 무고한 낙인”... 글로벌 대학가, ‘AI 감지기’ 줄줄이 퇴출 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ1NKY2VtdGZFNjNQdzNaaE5Mb3lIZ1BuRnZBbDFfYWkyUGFYbm1qRE5GVnhrXzFGdUdRcHB1YjV0ZGptMEcxSHBQclkwSUZ5d1RwNjdQaktTM25leUx4N1poWVI2dV9mYkFFd21RWHJvdzJmc040QXZDejYxbEtLVkhjVQ?oc=5",
+        "pubDate": "Mon, 27 Jul 2026 05:15:06 GMT",
+        "summary": "AI가 작성한 글을 판별하는 감지기들의 오탐지 문제가 심각해지면서 글로벌 대학들이 해당 기술을 학사 운영에서 퇴출시키고 있습니다. 기술적 한계로 인한 무고한 학생들의 피해를 방지하려는 의도입니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "젠슨 황 “엔비디아 AI 연구원들, 한국 이주 계획” - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00UUNYMWZScDRVaWpIM2dTVFVhWkN3Z21qTTR5SUx5OFdXTW9Kd2x5U295OEQtaE54a2VZUERwNnVpcENQNFVkMTVzV21zS0xMVUFRQXRWZWZhQlN2UWtBdEJYRWVLdlYtdldPenc3Z0x2S01aRDZZ0gFmQVVfeXFMT0oyRUVoeW8tM0tjMmN5MldDVGxxT190a2FZc0NScXZGa0pNajBhNHZiWldHeWFpZ1g4cVJPLWlIRm83cllWeHNGVzhxQ1oteGNJMWRQS1lPemYyS1U5LU1hMThxQzBR?oc=5",
+        "pubDate": "Sun, 26 Jul 2026 19:30:00 GMT",
+        "summary": "엔비디아의 젠슨 황 CEO가 자사 AI 연구원들의 한국 이주 계획을 언급하며 한국의 우수한 AI 인적 자원을 높게 평가했습니다. 이는 한국 AI 생태계가 글로벌 R&D 허브로 발전할 가능성을 시사합니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "사람 같은 AI 기상캐스터 화제…노출 의상도 '시끌'[1일IT템] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13Zkt1Sk5rSWdDRDVOZkI4RndnWHZzMVdROHNTc2pwVkRQbGk5MlFJOThEUV9Kc1NBY0Y2d1JUWFgzeXRZWXVpaVRXSmRGWkE?oc=5",
+        "pubDate": "Mon, 27 Jul 2026 21:58:10 GMT",
+        "summary": "AI 기상캐스터가 실제 방송에 도입되며 시각적인 혁신을 보여주고 있으나, 의상 노출 등 선정성 논란이 함께 발생하고 있습니다. AI의 인간 대체 과정에서 윤리적 가이드라인 확립이 주요 과제로 떠올랐습니다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      },
+      {
+        "title": "생성 미디어 시장의 경쟁 심화… 런웨이의 선택은? - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15eFY3NENHM0gtNXdxQ2VIOHBWTGJHd1VRR0tGa0p1MlV2Nm9tNGFGaFl1WE9GR2lZSGhkOUgtRXFyWnUxOW9XdXg3eldYMDZ0TUdKbFBvaW1GT1hCOV9ZOUVyTG1sR3FmdUE?oc=5",
+        "pubDate": "Mon, 27 Jul 2026 21:55:00 GMT",
+        "summary": "생성 미디어 시장에서 런웨이 등 기업들의 경쟁이 심화되면서 기술적 차별화가 더욱 중요해지고 있습니다. 시장 선점을 위한 고도화된 모델 경쟁이 가속화될 전망입니다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "경기도, AI기업 글로벌 공동연구·해외진출 지원 - 아시아경제",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FUFduZ2RNcl9oWnZVZzRxVkxjMlNvOU1QamRxSE5YQ3VYUlpCUGJDeUhIdEZKd3E3WWVabXVfR3M1OEk1cjlXajJHbjhtbWxLbGJyVm93WFhSZjN6NlhEYg?oc=5",
+        "pubDate": "Mon, 27 Jul 2026 22:26:54 GMT",
+        "summary": "경기도가 도내 AI 기업의 글로벌 공동 연구와 해외 시장 진출을 지원하는 정책을 발표했습니다. 공공 부문의 지원이 국내 스타트업의 글로벌 경쟁력 확보에 기여할 것으로 기대됩니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-26T22:54:33.894Z",
     "reportDate": "2026. 7. 27.",
     "summary": "- 글로벌 AI 협력 및 국가 경쟁력 강화: 한국 정부가 AI 선언을 통해 글로벌 기술 협력 플랫폼으로 도약하고 대체 불가능한 AI 강국으로 거듭나겠다는 의지를 표명함.\n\n- 반도체 공급망 자립화 및 갈등 심화: 중국이 AI 기업들에 국산 칩 사용을 강제하는 등 공급망 자립을 위한 폐쇄적인 정책을 강화하며 글로벌 기술 경쟁의 불확실성이 커짐.\n\n- 에너지 환경 이슈 부상: AI 데이터센터 확장에 따른 전력 소비 문제로 인해 메타 등 빅테크 기업의 재생에너지 사용 정책과 AI 개발 사이의 긴장 관계가 현실적인 과제로 대두됨.",
@@ -683,66 +762,6 @@
     ],
     "jobRiskScore": 62,
     "summaryScore": 84,
-    "riskScoreBreakdown": []
-  },
-  {
-    "lastUpdated": "2026-07-19T22:44:32.871Z",
-    "reportDate": "2026. 7. 20.",
-    "summary": "- AI 기술 고도화와 인력 시장의 변화: AI가 스스로 AI를 개발하는 단계에 진입하며, 기존 AI 연구자들의 직업적 안정성에 대한 우려와 함께 노동 시장 내 경력 사다리가 흔들리는 구조적 변화가 감지됨.\n\n- 중국 AI의 급격한 추격: '딥시크(DeepSeek)'에 이어 문샷 AI의 '키미(Kimi) K3'가 시장에서 흥행하며 중국 AI 기술력이 미국과의 격차를 2~3개월 수준으로 좁혔다는 평가가 지배적임.\n\n- 기업 성장 및 자본 시장 움직임: 중국 AI 기업들이 기술적 성과를 바탕으로 홍콩 증시 상장을 추진하는 등 대규모 자본 확보를 통해 생태계 확장을 가속화하고 있음.",
-    "news": [
-      {
-        "title": "[비즈톡] “비싼 AI만 쓰지말고...” ‘토성비’ ‘토크노믹스’ 시대 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSFpLQ0JkSXl4d0hCY1FZSnRYZHBkeHlmNEhiTjJ2QlY2cWg2NHd5SE9jQ0tGWE5HbEVpRW1mSDUyV2RscDNxMTEwV0JURTd5bHZMV2JMMmFvSUROckxqRGx2emRfX0dfdy1LdXJ2ckZONUFLOWNqR29DN3REMGlkVVk2RQ?oc=5",
-        "pubDate": "Tue, 07 Jul 2026 21:04:19 GMT",
-        "summary": "AI 도입 비용 부담이 커지면서 기업들이 무조건적인 고성능 모델 사용 대신 성능과 비용 효율을 고려한 '토성비(토큰당 성능비)'를 중요하게 생각하고 있다. 합리적인 토큰 소비를 지향하는 '토크노믹스' 개념이 도입되며 AI 생태계가 실용주의 중심으로 재편되고 있다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "세계 AI 기업 안전 성적표…9개 기업 중 'C+'가 최고점 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9zQndWbERIb1p1RzdBNjJndmo0V082RWdDY1E1RGd3a0lqSFZaWGVuM09aV3lENnktenRWcS0xSWNxLVIyM3lwLU9LeWlYdWg3aUxzUXBn?oc=5",
-        "pubDate": "Wed, 08 Jul 2026 01:00:04 GMT",
-        "summary": "글로벌 주요 AI 기업 9곳을 대상으로 안전성을 평가한 결과 최고점이 'C+'에 그치며 AI 안전 조치에 대한 경각심이 높아졌다. 이번 평가는 AI 모델의 투명성과 안전 기준 강화가 시급함을 시사하며, 기업들의 책임 있는 기술 개발을 촉구하고 있다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "AI 두뇌 갖춘 로봇, 영국서 고령자 돌봄 나선다 - 이투데이",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DdUxUYnpqbTVsN1hfWldoMUZ5Yk9Hd0FEN1F0OTdKM2RjbEFSbEJjNkN2eXljWXNHX2doWDlnYzA2VFl6Vi04M0wxNDB5RDlRNENqRzEzSHREdw?oc=5",
-        "pubDate": "Wed, 08 Jul 2026 22:00:00 GMT",
-        "summary": "영국에서 생성형 AI를 탑재한 휴머노이드 로봇이 고령자 돌봄 현장에 투입되어 실증을 시작했다. AI 로봇은 노인과의 대화 및 일상 보조를 수행하며 인구 고령화 문제 해결을 위한 기술적 대안으로 주목받고 있다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "“중국, 자국 최첨단 AI 모델 해외 접근 제한 검토” - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IaHhTTmtyS1dnel9Jbml5dUxDZXFhRktRdGhmdk1rcVF5aEpNckFnWnczVVZIak5aWmtFYnhyaHR6WWlabHNTZkNxUnRSU2M?oc=5",
-        "pubDate": "Wed, 08 Jul 2026 22:29:03 GMT",
-        "summary": "중국 정부가 자국 내 개발된 최첨단 AI 모델의 해외 유출을 막기 위해 접근 제한 조치를 검토 중이다. 이는 기술 패권 경쟁 속에서 자국의 AI 기술력을 보호하고 전략적 자산으로 활용하려는 의도로 풀이된다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "\"AI 로펌 도움받고 이겼다\"…영국서 첫 사례 - 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wRS1HLS1UVDBGejg5anFXbGxYdjRxaDhwWFM2TmVqamo5RnpaLUVIR0VFdnZINnY0Q2RIOWI2RXR5U3dMTlpqNE1Ja3ZHbnc4MmZoMTYwdS1HWm0xYjRRMg?oc=5",
-        "pubDate": "Wed, 08 Jul 2026 22:02:48 GMT",
-        "summary": "영국에서 AI 법률 보조 서비스를 활용한 당사자가 재판에서 승소하는 첫 사례가 발생했다. 복잡한 법적 문서 작성과 전략 수립에 AI가 효과적으로 기여하면서 법률 시장 내 AI의 실질적인 효용성이 입증되었다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      }
-    ],
-    "jobRiskScore": 45,
-    "summaryScore": 71,
     "riskScoreBreakdown": []
   }
 ]
