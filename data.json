@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-07-28T22:54:12.278Z",
+    "reportDate": "2026. 7. 29.",
+    "summary": "- AI 산업의 성장과 시장의 기대치 차이: AI 혁명이 실체적 변화를 이끌고 있음에도 불구하고, 투자자들의 막연한 불안감과 시장 변동성이 공존하는 양상입니다.\n\n- 반도체 기업의 성장통: AI 반도체 유니콘 기업들의 상장 지연은 기술력 대비 자본 시장의 엄격해진 검증 기준과 공급망 전략의 변화를 시사합니다.\n\n- 애플의 시총 1위 탈환: 초기 AI 진입이 늦었던 애플이 강력한 생태계와 브랜드 파워를 바탕으로 시장의 신뢰를 회복하며 AI 전략의 새로운 모델을 제시하고 있습니다.",
+    "summaryScore": 82,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 산업 성장에 대한 시장 확신 부족",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 5
+      },
+      {
+        "event": "애플의 AI 전략 성공에 따른 고용 구조 변화",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 반도체 업계 상장 지연",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 1
+      }
+    ],
+    "news": [
+      {
+        "title": "AI 반도체 유니콘… 상장 속도 늦춘다 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBhRk4wSGJKQm9ZWjRkSlNNYUxvcFh3eVAwSUVNWG9vOVh2bExTTlUxMnVsdHoyM09TNU45UWhMX2FQMmxJNHVtR1U4TzdqQQ?oc=5",
+        "pubDate": "Tue, 28 Jul 2026 07:00:00 GMT",
+        "summary": "AI 반도체 유니콘 기업들이 상장 시점을 연기하고 있습니다. 기술 개발의 속도보다 자본 시장의 냉정한 평가가 우선되면서 신중한 전략을 취하는 것으로 풀이됩니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "애플, 15개월 만에 세계 시총 1위 탈환…AI 투자의 '역설'(종합) - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xUmFNc1NqUlNRdWYxSGNKNEVrcjZ3TDNaemxVYzJFbEhER3FzdjhJRFljNnhzZUNsWDRudEhEdXFJanVKTDM0cW0xSWl5dEU?oc=5",
+        "pubDate": "Mon, 27 Jul 2026 21:36:52 GMT",
+        "summary": "애플이 AI 지각생이라는 오명을 벗고 15개월 만에 세계 시가총액 1위를 탈환했습니다. AI 기술의 내재화와 생태계 확장이 시장에서 높은 가치를 인정받고 있습니다.",
+        "importance": 5,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "AI 투자 자제가 신의 한수? 애플 장중 시가총액 5조달러 돌파 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1d3NaMlFrczZHMS1uSXVTNDRIU1k0Y0lKZVN6R2NaZkMyWGFVVG9EWVk2VUt0RXFVa1daUkJqcERxUHpNaXM4WDg5a1B6LWMwSk9kWTlnN3dBcEgzNWxOWjVoRFptNEU00gFuQVVfeXFMTmRtNEdWQkNDVnZ4emVtSVNfTks5bFZFalE3d19xRGZGZm9wS2NsVjhCSGZnUzdaa1dWc2RZaUc1Q2pkb2JZbjQ4eFJaT19jVDdxZ3p1dmpvQWpkN2R2ejQ3dzA2QmtNZW1WUHhFeUE?oc=5",
+        "pubDate": "Tue, 28 Jul 2026 22:44:36 GMT",
+        "summary": "애플이 장중 시가총액 5조 달러를 돌파하며 AI 투자에 대한 새로운 가능성을 보여주었습니다. 직접적인 AI 투자가 아닌 생태계 결합이 시장의 신뢰를 끌어내는 핵심으로 평가됩니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "‘AI 지각생’ 애플, 15개월 만에 세계 시가총액 1위 탈환 - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CRTBaMmFhQ0l1blZxNGdnazczejVDWlJNRDlEY2VPUGNiZU1lS1NUT3lRSDlTcldKQ0poamludHlFeTRlaGxnaFlSaHNmbDVEbFlZSzlNZVFtUdIBX0FVX3lxTFBCd2JmdjlfcWdzclp0bUJUbkI3MWxISjU2bDZ6bUxmc1AyR3JpRUNMS0pseG5YYTduUUhrOGFKNWc1ZHAwNFRmRGs1U1hQQjNmdUs4b0tsQm9DMXQxbWtz?oc=5",
+        "pubDate": "Mon, 27 Jul 2026 22:25:00 GMT",
+        "summary": "애플이 AI 분야에서의 기술적 열세를 극복하고 다시 글로벌 선두 기업으로 올라섰습니다. 시장은 애플의 향후 AI 기능 통합에 큰 기대감을 보이고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "김용범, 코스피 폭락에 “AI 혁명은 진짜…확신이 덜한 것” - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1mZ1lXQVFBdUdqR2Y4Zlk3TnczT05DSFU5Z3lRQ2tRWjlKdDM3UVJsaTRtZWE3czlxSTJQVTdiVlotV2ZjSGhoSG02Zy1wUnlLaW43d3ZnTlhUcEFHano2Y2FSNTMxMzlTdGpVc1VQWjg1US1hVWRJ0gFmQVVfeXFMTnctZWFSM2xBTVk1ODlQZUx1dElDd09XaURRRERNZzZzZEcyRUVNYi1qZE1mRGJ0RnpJUVpRODdNMEpOcHN0aFNpeWwzOUhDV05wSDd0V0c3RmtpakEtT0R0S0c4NW9n?oc=5",
+        "pubDate": "Tue, 28 Jul 2026 22:11:00 GMT",
+        "summary": "김용범 전 기재부 차관이 AI 혁명의 실체를 재확인하면서도 시장의 불확실성을 언급했습니다. 기술의 본질적 가치와 투자심리 간의 괴리가 시장의 불안을 키우고 있습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-07-27T22:55:49.371Z",
     "reportDate": "2026. 7. 28.",
     "summary": "- AI 감지 기술의 신뢰성 문제로 인한 학계의 퇴출 움직임이 가시화되고 있습니다.\n\n- 엔비디아와 같은 글로벌 빅테크 기업들이 한국의 AI 연구 환경에 주목하며 전략적 협력을 강화하고 있습니다.\n\n- 방송 및 생성 미디어 분야에서 AI의 실질적인 활용 사례가 늘어나는 동시에 관련 윤리적·기술적 논의가 병행되고 있습니다.\n\n- 지자체 차원의 글로벌 AI 기업 육성 및 해외 진출 지원 정책이 활발히 추진되고 있습니다.",
@@ -703,65 +782,5 @@
         "investmentImpact": 4
       }
     ]
-  },
-  {
-    "lastUpdated": "2026-07-09T23:06:46.772Z",
-    "reportDate": "2026. 7. 10.",
-    "summary": "- 인프라 및 생태계 확장: 메타를 비롯한 빅테크 기업들이 자체 AI 칩 개발과 데이터센터 투자를 본격화하며, 인공지능 인프라 확보를 위한 대규모 자본 투입과 서비스 생태계 구축에 속도를 내고 있음.\n\n- 반도체 공급망 강화: 삼성전자가 PC용 AI 칩 시장 진출과 메모리 반도체 공급 계약을 통해 엔비디아, 퀄컴 등 기존 강자들과의 경쟁 및 협력 관계를 강화하며 AI 반도체 공급망의 핵심 축으로 부상함.\n\n- AI 신뢰성 및 활용의 양면성: 생성형 AI 모델 간 성능 차이가 뚜렷해지는 가운데, 학계의 허위 논문 증가와 같은 AI 악용 사례가 늘어나면서 기술의 활용과 윤리적 검증에 대한 사회적 요구가 커지고 있음.",
-    "news": [
-      {
-        "title": "삼성전자, PC용 AI칩 출사표…엔비디아·퀄컴과 '맞짱' - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pa1pFNmwzYXpSeS11c2ZqcFFCeVlRb3dxNFBoMndyX25wVkJLdldUM1hraGN6a0lGOWNtZzhkX1hmVTllY1JCcFMxbDBsSEVhdDF1OUMwSzJVd9IBVEFVX3lxTFBHdW93dHFFSkVUVXZGby1KVEdDRkhLTHFtNWxwaDdwS2ZSSWI5Wk8zZGt1aUU5eGJ4Z3R2cWIxTkNlUk5MS1EwZFN0SnhfVkU3aWtoSg?oc=5",
-        "pubDate": "Thu, 09 Jul 2026 08:47:23 GMT",
-        "summary": "삼성전자가 온디바이스 AI 시장을 겨냥해 PC용 AI 칩 시장에 본격적으로 진출한다. 기존 강자인 엔비디아, 퀄컴 등과 경쟁하며 고성능 메모리 기술력을 바탕으로 시장 점유율 확대에 나설 계획이다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "과학자끼리도 “AI 썼나” 서로 의심… 허위 논문 철회도 급증 - 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1ODZiZDd3ZnlQT3hTZFV0aTZxTzZocjgwZ1F5VTlqX1ZuclE4aVZZbUg1NUQ0dExjTVJObGFGRmFZUDkyYkVpbm40eExUUW0tN25rZVZZdlFPblN1WHdaOU9xVkpnb0xueUxuN3hXeUdZc2VlSHfSAWZBVV95cUxNcXpzWm5zZERGeU9uaW9wUGdqY3BnT2o1eUxGLWhROXBJTkV1OFNMc08yOXpuUUI2dE0tYVRmallzYkl0bnpEM3pVWnk1RTQyX1Ayb1FxV0xkZnY3a2VsejhmR2RFY2c?oc=5",
-        "pubDate": "Wed, 08 Jul 2026 19:30:00 GMT",
-        "summary": "생성형 AI를 이용해 작성된 허위·조작 논문이 급증하면서 학계의 신뢰성 문제가 심각해지고 있다. 연구자들 사이에서도 상호 의심이 확산하고 있으며, 이에 따른 논문 철회 사례가 빈번하게 발생하는 등 부작용이 현실화되고 있다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "\"광화문 걷는 젠슨 황 그려줘\" 메타·구글·오픈AI에 같은 요구해봤더니 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVkxOOE45R1NZSnlxejc3N0pGNFRORHFNUHF6YW9qeHpHZTVqczFEOWNfYzJaQUZvbUdLWHJIRXJBemIwcGFOMjN2cmdJSlZvN1lEZVVTZnp5OUZlYl9vYVFYM2VrNFFuZ254TDVHbzZRU1Y4dk8tSHgzdkhGMm1rN1NRbw?oc=5",
-        "pubDate": "Thu, 09 Jul 2026 21:00:00 GMT",
-        "summary": "메타, 구글, 오픈AI 등 주요 빅테크의 생성형 AI 모델에 동일한 화풍의 이미지를 생성하도록 테스트한 결과, 모델별로 표현력과 정보 처리 능력에서 차이가 나타났다. 이는 각 기업의 AI 모델이 추구하는 학습 데이터와 최적화 방향이 다름을 보여준다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "\"메타, 9월부터 AI칩 생산…삼성전자와 메모리 반도체 장기 계약도\" - KB Think",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uMlBrejNRUzd1Mk9IMzlwbzVXRmpMeVFoUVF0REU5c2hGNFgzUU9FcHJXQldYZE96b1B2a3REcDNyUGh3WWhkWEhxLTVmMVgxdm02blZhMWQzcWFsNlotNnJZQmZSc0pXNWFmM010SWFuUQ?oc=5",
-        "pubDate": "Thu, 09 Jul 2026 11:36:33 GMT",
-        "summary": "메타가 오는 9월부터 자체 설계한 AI 가속기 생산을 시작한다. 또한, AI 인프라 구축을 위해 삼성전자와 고대역폭메모리(HBM) 등 반도체 공급과 관련한 장기적인 협력 관계를 체결했다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "\"AI도 컴퓨팅도 판다\"…메타, 수천억달러 투자 회수 승부수 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQTFlDV05GUEV5bW0yMEhJSkdOMk42eEwxckRIUFBmR1M1WUVCU0xTRFVOdUd1dC1ZZXRUeEV3TXhOSks0T2liRm5tcW1ZRmc?oc=5",
-        "pubDate": "Thu, 09 Jul 2026 22:07:51 GMT",
-        "summary": "메타가 인공지능 기술뿐만 아니라 컴퓨팅 인프라 자체를 서비스화하여 수익을 창출하려는 전략을 추진 중이다. 막대한 자본이 투입된 AI 인프라를 통해 기술 경쟁력 확보와 수익 모델 다각화라는 두 마리 토끼를 잡겠다는 의지다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      }
-    ],
-    "jobRiskScore": 62,
-    "summaryScore": 84,
-    "riskScoreBreakdown": []
   }
 ]
