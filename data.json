@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-04T22:57:10.663Z",
+    "reportDate": "2026. 8. 5.",
+    "summary": "- AI 인프라 고도화: 대규모 투자와 에너지 효율 개선을 통해 AI 데이터센터 성능을 극대화하려는 글로벌 기술 경쟁이 지속됨.\n\n- 생성형 AI 시장 변화: 챗GPT의 독주 체제에서 클로드(Claude) 등 신규 모델들이 급부상하며 AI 시장 내 경쟁이 치열해지고 있음.\n\n- 글로벌 및 혁신 확산: 우간다 청년의 AI 노트 사례와 같이 AI 기술이 글로벌로 확장되고 있으며, 반도체 및 에너지 관리 기술을 중심으로 산업적 실용화가 가속화됨.",
+    "summaryScore": 88,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "생성형 AI 모델 다변화 및 경쟁 심화",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 데이터센터 효율화 및 인프라 자동화 기술 확보",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 4
+      },
+      {
+        "event": "AI 기술의 글로벌 보편적 확산",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 3
+      }
+    ],
+    "news": [
+      {
+        "title": "\"AGI 넘어 RSI로\"…구글이 천문학적 AI 투자를 지속하는 이유 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GVm4zc1dSU3d5ZFdXZl9uQ3VFeXJVQnpsNDhIeVl0S1BXUUUtYTR3eVpZWVg0VENrb0RnSkhTYmJETGRmU21ibWNtV2MzYnBhM0dESkdxVXRxdmZnNGtUMmx0aVdaUXlHdVE?oc=5",
+        "pubDate": "Tue, 04 Aug 2026 08:54:44 GMT",
+        "summary": "구글이 AGI를 넘어 연구 중심의 RSI(Research-centric Scalable Intelligence) 단계로 진입하기 위해 천문학적 투자를 지속하고 있습니다. 이는 인프라 구축과 AI 모델의 지속적인 확장을 통해 기술 우위를 점하려는 전략적 포석입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "‘챗GPT 독주’ 생성형 AI 판도 변화… 클로드 급부상, 국내 AI는 내리막 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTmk5Tmh6NEFOMXF0SUNjMkJldld1ME5YQzdJcTlEdnc0S3FTOGFwMDVlcjdpbXpYNGlrWkVmSWloaDBLVmRFYnVzbGVzeC1USDctb3BtSmY3OE4tRl9fLTlTS0sxTWotUmpqZ3FkZ2JfSWVzVUhNd1FmN3BvNUd3dEJR0gGWAUFVX3lxTFB3ajVJM3pBOWVQT0gwWHNnaGYxQlNEcng0Vk5lMGY2Y0NvQ2hDS0tTUVNYUEhINFZHZFZIVHgxd3l5cTZjeW4yUWQ5RWdOS3ZoVENOdkhCckZmd1NWazd2TUI0VU5PeHZWb1g5RXdEczd4WFdER3doNUR2RVdLd1BzRlZnS1hKVnUyTTIxZktzYWF2MENKQQ?oc=5",
+        "pubDate": "Tue, 04 Aug 2026 06:39:00 GMT",
+        "summary": "챗GPT가 독주하던 생성형 AI 시장에서 클로드(Claude)가 급부상하며 판도가 변화하고 있습니다. 상대적으로 국내 AI 기술력과 시장 점유율은 약세를 보이고 있어 경쟁력 강화가 시급합니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[우리품의 아프리카인](46) '100개국이 쓴다' AI노트 개발한 우간다 청년 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00VnBraHBJeE9sUTNFbTdRXzJHZGpCR3ZYLWlBd25lYzdmNVNzNkdYbE5Ta2xGY1ZQUnI5NnNpRGJFRUdBYnkzaElZakhjREk?oc=5",
+        "pubDate": "Tue, 04 Aug 2026 22:03:00 GMT",
+        "summary": "우간다의 한 청년 개발자가 전 세계 100개국에서 사용하는 AI 노트 서비스를 개발하며 AI 기술의 보편적 확산을 증명했습니다. 이는 AI 개발 진입 장벽이 낮아지고 있음을 시사합니다.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      },
+      {
+        "title": "AI 데이터센터 시대 '거대한 배터리' 상용화 앞당긴다…KAIST, 전해질 생산시간 67% 단축 - 인공지능신문",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YVmxuNWVHT2U5bnFEbV9UMXJWQllvZTZUVmtfOGUwUmVlck82anV3cU52ekVta0JQRzI4LXZqMTNLV09qWWtJYjVnU0xkT1RpbWQxZVhfYkdnNV9jMzBTa2pZeEFOSW8?oc=5",
+        "pubDate": "Tue, 04 Aug 2026 22:46:25 GMT",
+        "summary": "KAIST가 AI 데이터센터의 핵심인 배터리 전해질 생산 시간을 67% 단축하는 기술을 개발했습니다. 이는 AI 가동을 위한 인프라 비용 절감과 운영 효율성 개선에 기여할 것입니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "S&P500 '사상 최고'…호르무즈 타결 기대·AI실적 훈풍 - 마켓인",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5WU2w4N0Rnb05YT3JYODFWalRab2VSRWJycVFVVEpWX1FGelJDb3FFWXVhdzZBRnZwUWVPUGNISDRqcGVwVFdaUTdCYkMxSkJpMDlTQWI1bWNyaE9CVDZpdDB0OXZvSkgtXzU5cmNIQ0V0VFk?oc=5",
+        "pubDate": "Tue, 04 Aug 2026 20:10:09 GMT",
+        "summary": "AI 실적 호조와 시장 기대감이 맞물리며 S&P500이 사상 최고치를 경신했습니다. AI 기업들의 실적 개선이 글로벌 주식 시장 상승을 견인하는 핵심 동력으로 작용하고 있습니다.",
+        "importance": 5,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-03T22:55:19.810Z",
     "reportDate": "2026. 8. 4.",
     "summary": "- AI 기술의 실시간 상호작용 및 고도화: MS의 실시간 음성 AI 테스트 등 사용자 경험을 극대화하려는 기술적 진보가 지속되고 있음.\n\n- 소형언어모델(SLM) 경쟁 본격화: 고비용 대규모 모델에서 벗어나 비용 효율성과 특정 분야 전문성을 갖춘 SLM이 시장의 핵심 경쟁 요소로 부상함.\n\n- AI 기술의 사회적 확산 및 시장 안정화: 공공 부문의 AI 활용 역량 강화 교육이 확산되는 한편, 증시에서는 AI 관련주의 기술적 반등이 투자 심리 회복을 견인하고 있음.",
@@ -707,85 +786,6 @@
         "aiImpact": 4,
         "automationPotential": 2,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-07-25T22:48:37.355Z",
-    "reportDate": "2026. 7. 26.",
-    "summary": "- 중국의 AI 칩 자립화 전략 및 제재: 중국 정부가 자국 내 AI 기업들에게 국산 칩 사용을 강제하며 기술 패권 확보를 위해 공급망을 강력하게 재편하고 있음.\n\n- 글로벌 AI 리더십 및 인프라 전망: 젠슨 황 엔비디아 CEO와 정계 인사들의 교류 및 메모리 시장의 10년 장기 호황 전망이 제기되며 AI 인프라의 중요성이 재확인됨.\n\n- 산업 실적 개선 및 적용 갈등: AI 기술 수혜로 인한 반도체 부품사의 실적 개선이 기대되는 반면, 교육 현장 등에서는 휴머노이드 로봇 도입에 대한 사회적 거부감과 갈등이 발생하고 있음.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "중국 내 AI 칩 국산화 강제 정책",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "교육 현장의 휴머노이드 로봇 도입 보류",
-        "sign": " -",
-        "impact": 5,
-        "newsIndex": 5
-      },
-      {
-        "event": "AI 인프라 수요 폭증에 따른 산업 활성화",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "\"국산 칩 안 쓰면 반역자\"…중국, AI 기업들에 '강력 경고' - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VNHpIX29BNng3VmRpU2dOVXlGVzREb2lOTm54WGdmQkpvbHo3ZDRoSFowa19saElaVUtNMHpVckhRT2NpUDFrejh3V3V6Z29sRG5CLXRzSF8xZ04wUXhOTGxhSGNTSUJ5SWc?oc=5",
-        "pubDate": "Sat, 25 Jul 2026 09:28:44 GMT",
-        "summary": "중국 정부가 AI 기업들에 국산 AI 칩 사용을 강력하게 요구하며 기술 자립화를 가속화하고 있음. 이는 글로벌 공급망의 분절화와 자국 중심의 AI 생태계 구축을 의도한 조치임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "젠슨 황 “맥주 한잔 더?” 이재명 “공무원이라~” 웃음꽃… 글로벌 AI 리더들과 미국판 ‘깐부회동’ - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ITTBIVkZ3dVpvMEFTQng3endSTTYzbmNKOHFPWl9SY3dQMHMyWXhWRkhKT1RBUnJNRkNiM3llUFh4aEhxWUp1R3hfdkZISlk?oc=5",
-        "pubDate": "Sat, 25 Jul 2026 04:31:31 GMT",
-        "summary": "젠슨 황 엔비디아 CEO를 비롯한 글로벌 AI 리더들이 한국 정치인들과 회동하며 AI 협력 방안을 논의함. 이는 글로벌 공급망 및 기술 파트너십 구축을 위한 전략적 행보로 평가됨.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "‘AI 거품론’ 걱정없다…“10년간 메모리 부족” - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52WmdfRmtMSW1fOC1Dc0hxc0M2Z214NlA1ZS0wVXBhX2JLaEdpWWlEblBUSWI4cmk0WF94TkRwdVRUcHhvcmxZVWJxd3lrZmc?oc=5",
-        "pubDate": "Sat, 25 Jul 2026 21:02:22 GMT",
-        "summary": "메모리 시장이 향후 10년간 공급 부족을 겪을 것이라는 전망이 제기되며 AI 인프라 확장의 지속 가능성이 강조됨. AI 거품론보다는 하드웨어 시장의 성장에 무게가 실리고 있음.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "삼성전기, AI 타고 '깜짝 실적' 전망...영업이익률 '10% 벽' 깰듯 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NcVh2MUtFcVR3Q2YwVHgzZ0Jyd3g5WmxabW1tN3NVajJNOXNxOEFhbmR2dTRGVFhya3N6NGxlWWFFTHZpNW80eTB5M2FtSHVxZG5jTDR3STNwVzVsRGI1b25wTldZcENTbWdKStIBckFVX3lxTE4xYjRicFNZZmdka1FCM2JMM08wUU9lSGVlbDNGSTBCWDl3a1BFNUI1VVUtaFJlejJlVlhiMXJ4ZkJEbFdPRkVScThhc2JHMEczZUtsT1VHOTFSUVZtbU5ZWko2TDlMOW9UT0FuSnRNOHVIQQ?oc=5",
-        "pubDate": "Sat, 25 Jul 2026 22:01:00 GMT",
-        "summary": "삼성전기가 AI 시장 확대에 따른 반도체 부품 수요 증가로 실적 개선세를 보이고 있음. AI 생태계가 소재·부품·장비 산업 전반에 긍정적인 실적 동력을 제공하고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "학부모·교사 반발에…美고교, 휴머노이드 AI 로봇 도입 보류 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBTlk4cUYtelFBeHRYa3hHeEJOUWtTRmdLdVpOSW5Xem04RWpCcFNsV3pmbFBrZ25HQTlJRTFtb0hwTmZNSlBjU0JDalBseEJ6OEpoajlFRUxPWm8?oc=5",
-        "pubDate": "Sat, 25 Jul 2026 21:47:12 GMT",
-        "summary": "미국 고등학교가 도입하려던 휴머노이드 로봇 서비스가 학부모와 교사의 반발로 인해 보류됨. 기술의 실생활 도입 과정에서 발생하는 사회적, 윤리적 논란을 보여줌.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 2
       }
     ]
   }
