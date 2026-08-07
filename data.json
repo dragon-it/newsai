@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-07T01:28:44.177Z",
+    "reportDate": "2026. 8. 7.",
+    "summary": "- 노동 시장 변화: AI 기술의 발전으로 컴퓨터 공학 등 기존 기술직의 경쟁력이 변화하고 인문학적 소양 등 새로운 역량이 중요해지고 있음.\n\n- 산업 디지털 전환: 반도체를 넘어 자동차, 바이오 등 국가 주력 산업 전반에 AI를 접목하여 생산성과 혁신을 도모하고 있음.\n\n- 콘텐츠 시장의 변화: AI로 제작된 게임이 앱 마켓에 본격적으로 진입하며, 설치 없는 즉각적인 플레이가 가능한 플랫폼 생태계가 조성되고 있음.",
+    "summaryScore": 78,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 시대 컴퓨터 공학의 직업적 불확실성 증대",
+        "sign": "+",
+        "impact": 7,
+        "newsIndex": 1
+      },
+      {
+        "event": "주력 산업 내 AI 도입을 통한 공정 효율화 및 자동화 가속",
+        "sign": "+",
+        "impact": 6,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 창작 콘텐츠 플랫폼 확산에 따른 개발 환경 변화",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 3
+      }
+    ],
+    "news": [
+      {
+        "title": "[단독] \"AI 시대에 컴공은 주산 배우는 셈… 차라리 취업 잘 되는 철학과로\" - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbjhZRXZ2S1BUbjJrNEltMk9PckFPeFp0cTQ3YU03TkM5TG1jaF9YWTZaOGt5Q0VMb2hoRjBpVFJ3YzBKczFkTGxNdmNMdUtYbUpjU1dzTTJMTTFqQ3VhbVJnNTdBRUFrR2xmSk5mTWFib28teFoxMlpaMXJaVHZUckRVZHp3el9ZRDJMWXRtWFQ?oc=5",
+        "pubDate": "Thu, 06 Aug 2026 20:08:47 GMT",
+        "summary": "AI 기술의 비약적 발전으로 인해 기존 컴퓨터 공학 지식의 효용성이 의심받고 있습니다. 단순 코딩 능력보다는 비판적 사고와 인문학적 소양을 갖춘 융합형 인재가 중요해지고 있다는 의견이 제시되었습니다.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "\"반도체 이후 대비\"…자동차·바이오 등 주력 산업에 AI 입힌다 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10bnZkeFNvTVBvNk00Z0Z4R3ViU1VaSmlfc2FRdGdIT2JwaHpqdTZXRnVDMS1xVElkcDhvRE4xQzFLazFfVDhhX3k2d0tGS3FCdVRrVmJKc0ZhMDA2RUhHRjhYUUlOZVZGeWxJ0gFwQVVfeXFMTk94WmQwX1dTa0RtOVNTU0g3endCanVQSkoyUUZyOXpwSmNhYWF3ZnJYbng2YVB1Rm1iLTNQb1JfQWUweVQ5U0h6RjEya0RRN3FoRGFnQ3pOSnZSdXJvSFlZdEt4SXdCTkFGWHhCcGhlWg?oc=5",
+        "pubDate": "Wed, 05 Aug 2026 23:30:00 GMT",
+        "summary": "한국 산업계가 반도체 이후를 대비하기 위해 자동차, 바이오 등 핵심 산업에 AI 기술을 적극 도입하고 있습니다. 산업 현장의 디지털 전환을 통해 기술 경쟁력을 확보하려는 국가적 전략이 강화되고 있습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 5
+      },
+      {
+        "title": "\"프롬프트로 만든 게임, 앱마켓서 판다\"…원스토어, AI 게임 전문관 열었다 - ER 이코노믹리뷰",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRTG4tLW9CbUVZYUhHTXhTWkxqRGpvVTlBMXNOalpNdDRhNnlIZk8zTDZJUDlLMTJLRHNrQkdTc2oxd3JYS2JqOWQ4QTlxMV9tUkVMOGZnQkhBdnEzN29nS0ZMZC1DQ3dOX1dxcQ?oc=5",
+        "pubDate": "Fri, 07 Aug 2026 00:12:34 GMT",
+        "summary": "원스토어가 AI로 창작된 게임을 전문적으로 유통하는 'AI Games' 전문관을 오픈합니다. 설치 없이 즉시 실행 가능한 환경을 제공하여 AI 기반 콘텐츠의 시장 진입을 가속화하고 있습니다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "원스토어, AI 창작 게임 전문관 오픈…\"설치 없이 바로 플레이\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1taHozUWNXQ2ZOMF9qZ0dHNHFqOHVNU0Foekd4TGdOay1PbkttODA5eWtjc1laeUg1ZkpiTUd5QXkyWC1tX2Y2QWdNb0g5ZGs?oc=5",
+        "pubDate": "Fri, 07 Aug 2026 01:09:00 GMT",
+        "summary": "원스토어의 AI 게임 전문관 오픈 소식으로, AI를 활용해 창작된 게임의 접근성이 대폭 향상되었습니다. 사용자가 별도 설치 과정 없이 바로 게임을 즐길 수 있어 AI 콘텐츠 소비의 편의성이 강화되었습니다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "원스토어, AI 창작 게임 전문관 'AI Games' 연다 - edaily.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObFU3LTF4c2VJWXhrcXg5SDZrdVpGVWQzLS1oVzFHNDQzVW44SXhzcDJMNjhEM2lodUtHaFZWdjVBeG42WUtUVWRROVY5aG96blFaalgzbzNUZmNmOVlyc2ktcVJFbkdFYTY5OGU4LWRCRUl6cG5kTlN1anduS1UwbA?oc=5",
+        "pubDate": "Fri, 07 Aug 2026 00:46:12 GMT",
+        "summary": "원스토어가 AI 창작 게임 전문관을 통해 새로운 콘텐츠 생태계를 조성합니다. 이를 통해 개인 개발자나 창작자들이 AI를 도구로 활용해 앱 마켓에 쉽게 진입할 수 있는 기회가 확대되고 있습니다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-05T22:53:15.052Z",
     "reportDate": "2026. 8. 6.",
     "summary": "- 인프라 및 생태계 확장: AI 데이터센터의 급증으로 전력 및 냉각 자원 소비 문제가 부각되면서 지속 가능한 AI 인프라 구축의 중요성이 커지고 있음.\n\n- 반도체 공급망 및 규제 강화: 미-중 기술 패권 경쟁에 따른 데이터센터 내 중국산 부품 배제 흐름이 강화되며 글로벌 공급망 재편이 가속화됨.\n\n- 산업 적용 및 거버넌스: 유통업계의 AI 도입이 효율화를 이끄는 한편 정보의 투명성 문제가 제기되고 있으며, 기업들은 AI 거버넌스 및 정책 대응을 위해 전문 인력을 영입하는 등 사회적 책임 강화에 주력함.",
@@ -706,85 +785,6 @@
         "importance": 4,
         "aiImpact": 4,
         "automationPotential": 3,
-        "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-07-27T22:55:49.371Z",
-    "reportDate": "2026. 7. 28.",
-    "summary": "- AI 감지 기술의 신뢰성 문제로 인한 학계의 퇴출 움직임이 가시화되고 있습니다.\n\n- 엔비디아와 같은 글로벌 빅테크 기업들이 한국의 AI 연구 환경에 주목하며 전략적 협력을 강화하고 있습니다.\n\n- 방송 및 생성 미디어 분야에서 AI의 실질적인 활용 사례가 늘어나는 동시에 관련 윤리적·기술적 논의가 병행되고 있습니다.\n\n- 지자체 차원의 글로벌 AI 기업 육성 및 해외 진출 지원 정책이 활발히 추진되고 있습니다.",
-    "summaryScore": 78,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 감지기 오류로 인한 신뢰성 논란",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 기반 미디어 인력 대체 가속화",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 3
-      },
-      {
-        "event": "글로벌 기업과 국내 연구진의 기술 교류 확대",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      }
-    ],
-    "news": [
-      {
-        "title": "“오탐지에 무고한 낙인”... 글로벌 대학가, ‘AI 감지기’ 줄줄이 퇴출 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ1NKY2VtdGZFNjNQdzNaaE5Mb3lIZ1BuRnZBbDFfYWkyUGFYbm1qRE5GVnhrXzFGdUdRcHB1YjV0ZGptMEcxSHBQclkwSUZ5d1RwNjdQaktTM25leUx4N1poWVI2dV9mYkFFd21RWHJvdzJmc040QXZDejYxbEtLVkhjVQ?oc=5",
-        "pubDate": "Mon, 27 Jul 2026 05:15:06 GMT",
-        "summary": "AI가 작성한 글을 판별하는 감지기들의 오탐지 문제가 심각해지면서 글로벌 대학들이 해당 기술을 학사 운영에서 퇴출시키고 있습니다. 기술적 한계로 인한 무고한 학생들의 피해를 방지하려는 의도입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "젠슨 황 “엔비디아 AI 연구원들, 한국 이주 계획” - 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00UUNYMWZScDRVaWpIM2dTVFVhWkN3Z21qTTR5SUx5OFdXTW9Kd2x5U295OEQtaE54a2VZUERwNnVpcENQNFVkMTVzV21zS0xMVUFRQXRWZWZhQlN2UWtBdEJYRWVLdlYtdldPenc3Z0x2S01aRDZZ0gFmQVVfeXFMT0oyRUVoeW8tM0tjMmN5MldDVGxxT190a2FZc0NScXZGa0pNajBhNHZiWldHeWFpZ1g4cVJPLWlIRm83cllWeHNGVzhxQ1oteGNJMWRQS1lPemYyS1U5LU1hMThxQzBR?oc=5",
-        "pubDate": "Sun, 26 Jul 2026 19:30:00 GMT",
-        "summary": "엔비디아의 젠슨 황 CEO가 자사 AI 연구원들의 한국 이주 계획을 언급하며 한국의 우수한 AI 인적 자원을 높게 평가했습니다. 이는 한국 AI 생태계가 글로벌 R&D 허브로 발전할 가능성을 시사합니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "사람 같은 AI 기상캐스터 화제…노출 의상도 '시끌'[1일IT템] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13Zkt1Sk5rSWdDRDVOZkI4RndnWHZzMVdROHNTc2pwVkRQbGk5MlFJOThEUV9Kc1NBY0Y2d1JUWFgzeXRZWXVpaVRXSmRGWkE?oc=5",
-        "pubDate": "Mon, 27 Jul 2026 21:58:10 GMT",
-        "summary": "AI 기상캐스터가 실제 방송에 도입되며 시각적인 혁신을 보여주고 있으나, 의상 노출 등 선정성 논란이 함께 발생하고 있습니다. AI의 인간 대체 과정에서 윤리적 가이드라인 확립이 주요 과제로 떠올랐습니다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 2
-      },
-      {
-        "title": "생성 미디어 시장의 경쟁 심화… 런웨이의 선택은? - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15eFY3NENHM0gtNXdxQ2VIOHBWTGJHd1VRR0tGa0p1MlV2Nm9tNGFGaFl1WE9GR2lZSGhkOUgtRXFyWnUxOW9XdXg3eldYMDZ0TUdKbFBvaW1GT1hCOV9ZOUVyTG1sR3FmdUE?oc=5",
-        "pubDate": "Mon, 27 Jul 2026 21:55:00 GMT",
-        "summary": "생성 미디어 시장에서 런웨이 등 기업들의 경쟁이 심화되면서 기술적 차별화가 더욱 중요해지고 있습니다. 시장 선점을 위한 고도화된 모델 경쟁이 가속화될 전망입니다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "경기도, AI기업 글로벌 공동연구·해외진출 지원 - 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FUFduZ2RNcl9oWnZVZzRxVkxjMlNvOU1QamRxSE5YQ3VYUlpCUGJDeUhIdEZKd3E3WWVabXVfR3M1OEk1cjlXajJHbjhtbWxLbGJyVm93WFhSZjN6NlhEYg?oc=5",
-        "pubDate": "Mon, 27 Jul 2026 22:26:54 GMT",
-        "summary": "경기도가 도내 AI 기업의 글로벌 공동 연구와 해외 시장 진출을 지원하는 정책을 발표했습니다. 공공 부문의 지원이 국내 스타트업의 글로벌 경쟁력 확보에 기여할 것으로 기대됩니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 1,
         "investmentImpact": 4
       }
     ]
