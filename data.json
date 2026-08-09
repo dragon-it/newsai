@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-09T22:23:36.031Z",
+    "reportDate": "2026. 8. 10.",
+    "summary": "- 플랫폼 전략 변화: 오픈AI가 챗GPT 무료 사용자에 대해 최신 모델 개방 및 제한 완화 정책을 발표하며 시장 점유율 확대를 꾀하고 있음.\n- 하드웨어 시장 진입: 음성 기반의 인간형 AI 스피커 출시 계획이 발표되면서 AI 기술의 일상 생활 밀착형 인터페이스 확장이 가속화될 전망임.\n- 기술 안전성 및 개발 조정: 차세대 모델 '아스트라'를 포함한 신규 모델 개발을 안전성 검증을 위해 잠정 중단하기로 결정하며, 기술 발전 속도 조절과 윤리적 통제의 중요성이 부각됨.",
+    "summaryScore": 82,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "오픈AI의 서비스 무료 확대 및 접근성 강화",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      },
+      {
+        "event": "차세대 AI 모델 개발 잠정 중단",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      },
+      {
+        "event": "안전성 검증 중심의 개발 기조 변화",
+        "sign": "-",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "[AI는 지금] 챗GPT 무료 '무제한' 선언…오픈AI, 구독 전략 다시 짠다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aSXBNSHdFWUpZY0hBcS0xaDJiendORjVQMzE0ZnhUU2hBNWhSaklYMUdIZUFtd05JUS1Tb01LbEJhdS1EclRxX2dHbEpFSHMzRjRNMklR?oc=5",
+        "pubDate": "Fri, 07 Aug 2026 01:38:55 GMT",
+        "summary": "오픈AI가 챗GPT 무료 사용자에 대한 정책을 대폭 수정하여 최신 모델에 대한 접근성을 높이고 있다. 이는 사용자를 대거 확보하여 시장 지배력을 공고히 하려는 전략으로 풀이된다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "챗GPT 무료 이용자에게도 최신 AI모델 개방 - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrNDB2TFM4ZGpDZVNRSzd6X0FMdnF0VUFfdjBnZGM1WVVPTWljcjBOSlVNQXpPMkRwRG9IR1FIWjNmZzc0aEdkckdUWjFSX3o1bHRyMTFvY0c3cHdqNzBKOXlVMW5NWTFFRXJJSWFycWNrdkd0eWfSAWZBVV95cUxPdkNvZHFnbW15SzJNZHZlNEk3RWFXa0NRWm55TnQ4TDdmaUd5ZldVdlc5LU01S0xTMENsT1ZUQy1WanRPeGdITXVSV3pCa08tY1U3WE84Yjl6Tml2ME1jV0pjRldfVnc?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 15:30:00 GMT",
+        "summary": "무료 사용자들에게도 상위 AI 모델을 개방함으로써 사용자 경험의 격차를 줄이고 있다. 플랫폼 경쟁력을 강화하기 위한 공격적인 조치로 해석된다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "챗GPT 스피커 내년 출시 전망... 오픈AI \"인간과 소통 가능\" - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSE1ZUmd6ZGQxVXdCWXpYbUdRYk1NbEd5QmJXRi1tNkM2WGw2VGJGbVlvMGt2NkxvWkYxbnRQSGE4UlVWRGpjYVY3WW9FR0JFbDlRV3g1RW14eGZMV2lGVzk3ZjJMVjJuai1UWXRhMEZYcXFuakMzeFNLeFlIMERXSWRUZw?oc=5",
+        "pubDate": "Fri, 07 Aug 2026 15:40:00 GMT",
+        "summary": "오픈AI가 차세대 인공지능 스피커 개발을 본격화하며 내년 출시를 예고했다. 단순 텍스트를 넘어 인간과 자연스럽게 대화하는 하드웨어 시장으로의 확장을 의미한다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "오픈AI, 새 모델 ‘아스트라’ 개발 중단… “통제 벗어나 공격 위험” - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDbmRYNXU2ZXRlZGJ4VmlKWGlsUGUzb05TcXZCcmV1QVFwaUxPeVlzcjEtYzVVNnNFT2VQQUVSaGhtUl9YSXB2NmxpaDM5ZWxZNEhwcmR3REhFNEUtbDBJLTYxNzlJczFqS2Rpc2J0dk4wTkxZS0HSAWZBVV95cUxOWDV2M0RwcDF2VUwwMTNfWTNaY1pBeDB5cDl3RVE4WkU3VjR3NVVhNHo1UXhlVjd6eWhic0tKamJGUWNldGxfdEFsdVd4T2t0SEd4WWE1R3B6TW9haG1oOG1NNnVrQnc?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 19:30:00 GMT",
+        "summary": "오픈AI가 '아스트라' 등 차세대 모델 개발을 일시 중단했다. 통제 범위를 벗어난 공격적 답변 등 안전성 문제를 우선 해결하겠다는 방침이다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "AI 안전성 확보 때까지…오픈AI “차세대 모델 개발 잠정 중단” - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0UjQtalRaLV9neTJiRm1wdGtlbHEtUXlPZzFXVDB3d2REaDU3Z0FRd3NKR0k5YU02VUR0MlZ4NFJ4dEJJUklNU3hQS3lrckFBdU02X0tqbDc3d9IBX0FVX3lxTE9oaUNlV2hvNTg4SjIyVGVKVWNoNDRiakxld1lfZnJsbzZaeFhpTTVOZzdNcUxTR1JPUmJxNXQwYllFMVhTSE9GUklsZnpYcHk3THRZVk1xRE1BZHhiNGdB?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 11:28:00 GMT",
+        "summary": "차세대 모델 개발 잠정 중단 결정은 업계 전반에 기술 발전 속도보다는 안전성을 우선시해야 한다는 경각심을 주고 있다. 이는 기업들의 AI 윤리 가이드라인 강화로 이어질 가능성이 높다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-08T22:22:04.459Z",
     "reportDate": "2026. 8. 9.",
     "summary": "- 모델 안정성 및 안전성 우선: 오픈AI가 차세대 모델 '아스트라'의 개발 및 출시를 전격 연기하며 AI의 잠재적 위험 관리와 보안을 최우선 과제로 삼는 업계 흐름이 두드러짐.\n\n- AI 보안 및 위협 대응 고도화: 국내 보안 기업들이 AI 기술을 도입하여 위협을 실시간으로 분석하고 대응하는 솔루션을 제시하며 AI 생태계의 방어 역량을 강화하고 있음.\n\n- 기술 활용에 대한 사회적 논란: AI의 오용으로 인한 건강 문제 등 부작용이 속출하고, 코딩 등 기존 기술 직군에 대한 실효성 논란이 제기되면서 AI 시대의 교육과 직업관에 대한 근본적인 재검토가 이루어짐.",
@@ -707,85 +786,6 @@
         "aiImpact": 4,
         "automationPotential": 3,
         "investmentImpact": 2
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-07-30T22:59:40.453Z",
-    "reportDate": "2026. 7. 31.",
-    "summary": "- 산업 현장의 AI 도입 가속화: 식품, 에너지, 자율주행 등 다양한 실물 경제 분야에서 AI를 활용한 생산성 향상과 관리 자동화 사례가 증가하고 있습니다.\n\n- AI 에이전트 경쟁 격화: 구글 등 빅테크 기업들이 개인용 AI 에이전트 시장 선점을 위해 차세대 모델을 경쟁적으로 출시하고 있습니다.\n\n- AI 기술의 잠재적 리스크 대두: BIS의 경고처럼 금융 시장에서의 AI 불투명성 우려와 특정 AI 투자 모델의 파산 등 시장 불안정성 이슈가 동시에 부각되고 있습니다.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "식품업계의 AI 사원 도입 및 자동화",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 에이전트(제미나이 스파크) 출시로 인한 업무 자동화 확대",
-        "sign": "+",
-        "impact": 6,
-        "newsIndex": 2
-      },
-      {
-        "event": "금융 시장 AI 리스크 경고 및 시장 변동성",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "‘AI 사원’도 뽑았다... 진화화는 식품업계의 인공지능 활용법 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcmJKMXFZR05vRW53WE5RNkZ6aWxra1FaUGRqaENrbC1id3ZpbG5ESUNGeXdYVUlxZjN5QWVkN0UySUp0bUJ4eVpSdmN2NlItWU5OMmhKc1I2NWZDX3pLQzZMZnRET21TaldGQVdxMzFwaWh1cUsyMFhaYWo5ekNqdV82emV5QdIBmgFBVV95cUxOdm55U3QyQlFLRGF1a1NiVmhlRC0tN3lZcng5M3dfanZ4SHlHTk1HZ0l0WGRiUHZQVDZ2eWw5VXkydm1SRDVrNTRqQ0Z5LTYxVWlWV2pRY2NmbW5ERFlORGN4VGxsNlhoVEJlQy1rbU80cDZ2YnJ5TWJXSnRLOTFVNnMyMVlDT3YzalRiZEoybW5odlFkb20xcllR?oc=5",
-        "pubDate": "Wed, 29 Jul 2026 21:08:00 GMT",
-        "summary": "식품업계가 제품 개발과 마케팅 등 다양한 업무에 AI를 도입하며 효율성을 높이고 있습니다. 단순히 보조적인 역할을 넘어 실제 업무를 수행하는 'AI 사원'의 개념이 현장에 도입되고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "24시간 개인 AI 에이전트 '제미나이 스파크' 를 선보입니다 - blog.google",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SRnluMnFGX3NlMEV3dTh5ZEVQNUozWThGWWktYmJPN3dlT1JMVFdVazM2cnY0ZXF4RmktenE1UDNrSWhnc1J1VVJIaFhyLTJyTFpxVGpjaGhOd1VuME85Mk5BcnlLazg?oc=5",
-        "pubDate": "Wed, 29 Jul 2026 04:13:44 GMT",
-        "summary": "구글이 24시간 개인 비서 역할을 수행하는 AI 에이전트 '제미나이 스파크'를 공개했습니다. 사용자의 업무 환경을 학습하여 실시간으로 지원하는 등 개인 생산성 도구로서의 입지를 강화하고 있습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 5
-      },
-      {
-        "title": "서울에너지공사, AI·자율주행 기술 활용해 열수송관 관리 혁신 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA2b0lXSVVENFZrTWNuTWMyQUxzZThyc0xRVmdDQmFmZXJyWGV6U3AwYUROWGc1VVc5cTFNQmR0d3hGaE5qZmszbE5uUWFNSUk?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 22:40:50 GMT",
-        "summary": "서울에너지공사가 열수송관 관리에 AI와 자율주행 기술을 도입하여 사고 예방과 관리 효율을 높이고 있습니다. 위험한 작업 현장을 기술로 대체하며 공공 서비스 분야의 디지털 전환을 시도하고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 2
-      },
-      {
-        "title": "“AI가 중앙은행을 깜깜이로 만든다” BIS가 던진 경고장 - 서울경제",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GUlY1U0JLRmp0TGwyekZQcFA3UEk0cjJKUU9aX21kLWNMeXNiMEU3VFVPYzYzVVI3V1ZhN1E2MWQ4eDBxUlhWcTl1M0hIVC1xTVHSAVNBVV95cUxNZmNSbXItME1TREsxVDF3dW84MkEtWFBtWFdtZlJLRFZETlZRTkJXUkZfcm9GWnFGU1d0bExpa0d2WkdlUlU5M3liZm9XMmdTS3l1TQ?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 21:00:00 GMT",
-        "summary": "국제결제은행(BIS)이 금융 시장에서 AI의 복잡성과 불투명성이 금융 시스템의 안정성을 해칠 수 있다고 경고했습니다. AI 기술이 중앙은행의 정책 결정 환경을 예측 불가능하게 만들 수 있다는 우려를 표했습니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "레버리지에 무너진 AI 천재…레오폴드 청산 뒤 인프라주 ‘폭등’ - 대한데일리",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrSHByRVRqX3lnRnd2S09tODhYa0dvWmFtNExOZHY5Q2w3eXI3b2pScHJlaF9DSW16TWpsUklNNjhfRV95YzM4QUQyVUJBaHY3SGtWeFdDQ3pMMncxSHVrMU9iOVdQR1REM1E?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 21:15:25 GMT",
-        "summary": "AI 스타트업 레오폴드가 과도한 레버리지 투자 실패로 청산되면서 AI 관련 인프라 시장에 경종을 울렸습니다. 투자 시장의 변동성이 커지는 가운데 AI 인프라주에 대한 재평가가 진행되고 있습니다.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 5
       }
     ]
   }
