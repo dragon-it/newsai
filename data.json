@@ -1,5 +1,78 @@
 [
   {
+    "lastUpdated": "2026-08-10T22:31:07.131Z",
+    "reportDate": "2026. 8. 11.",
+    "summary": "- AI 안전성 및 통제 이슈 부각: OpenAI가 차세대 모델 '아스트라'의 개발을 잠정 보류하며 AI의 잠재적 위험성과 통제 가능성에 대한 산업계의 경각심이 고조되었습니다.\n\n- 온디바이스 AI 기술 진보: 구글이 네트워크 연결 없이 작동하는 '젬마 트랜슬레이터'를 공개하며, 클라우드 의존도를 낮추는 온디바이스 AI 시장의 경쟁이 본격화되고 있습니다.\n\n- 미래 인재상 변화: 기술의 발전과 함께 AI를 효과적으로 활용하는 질문 능력과 문제 인식 능력을 갖춘 인재의 중요성이 지속적으로 강조되고 있습니다.",
+    "summaryScore": 82,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "OpenAI '아스트라' 개발 보류",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 기술 발전 및 인재상 변화",
+        "sign": "+",
+        "impact": 6,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "오픈AI, '아스트라' 개발 일시 중단…\"치명적 사이버공격 가능성\" - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Rblk4UUpBcjNyY1lWbFFsYkVrWFduT1JuQ3lfT1hQWFhDWjNOS3BzeVNzSVpqT2ZOR1pRbFBXTHVaRUJreTRtenRKWHp3RkozekQyZEZGSGRWTGItYjNla2JRb0RPMEpSR1E?oc=5",
+        "pubDate": "Fri, 07 Aug 2026 22:42:32 GMT",
+        "summary": "OpenAI가 차세대 모델 '아스트라'의 개발을 일시 중단했습니다. 사이버 공격 활용 가능성 등 잠재적 위험 요인이 발견된 것에 따른 조치입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "오픈AI, 새 모델 ‘아스트라’ 개발 중단… “통제 벗어나 공격 위험” - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDbmRYNXU2ZXRlZGJ4VmlKWGlsUGUzb05TcXZCcmV1QVFwaUxPeVlzcjEtYzVVNnNFT2VQQUVSaGhtUl9YSXB2NmxpaDM5ZWxZNEhwcmR3REhFNEUtbDBJLTYxNzlJczFqS2Rpc2J0dk4wTkxZS0HSAWZBVV95cUxOWDV2M0RwcDF2VUwwMTNfWTNaY1pBeDB5cDl3RVE4WkU3VjR3NVVhNHo1UXhlVjd6eWhic0tKamJGUWNldGxfdEFsdVd4T2t0SEd4WWE1R3B6TW9haG1oOG1NNnVrQnc?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 19:30:00 GMT",
+        "summary": "오픈AI의 아스트라 개발 중단 이슈가 거듭 확인되었습니다. 통제 불가능한 공격 위험성을 사전에 차단하려는 안전 중심의 의사결정으로 해석됩니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "수학 난제 풀었다 홍보했는데…오픈AI '아스트라' 개발 보류 발표, 왜[팩플] - joongang.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfR1RKZGQyRTJpb2x2RmZVQ0tfZjhZdnNoSmg4c0JfVUF5SWNHREFPaGJTak91VXpETDRWdVgyUWI2ZU5YUlBjVGpSLTdSaXU4XzRNcFB3?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 09:32:37 GMT",
+        "summary": "수학 난제 해결 홍보로 주목받았던 아스트라 프로젝트의 보류 배경이 논의되고 있습니다. 고도화된 AI가 가져올 수 있는 보안 리스크와 기술적 한계가 도마 위에 올랐습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "구글, 인터넷 없이 작동하는 AI 번역기 ‘젬마 트랜슬레이터’ 공개 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DTm9URlpVTmhvQ2JSa3BSSjJZbXViaUpBZWV3NHFCMEw5a2ZBd1liMUY1cmc4ODZWUG5EVHJTX0xWenF6ejBKb1B3cU43THBaV0JuaTJBREtrbnNzZG1nVzNCYlgzR2ZXUGc?oc=5",
+        "pubDate": "Sun, 09 Aug 2026 03:19:07 GMT",
+        "summary": "구글이 인터넷 연결 없이 구동되는 AI 번역기 '젬마 트랜슬레이터'를 공개했습니다. 이는 개인정보 보호와 오프라인 환경에서의 AI 활용성을 대폭 강화할 것으로 기대됩니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "\"AI시대 인재는…질문·문제인식·구조화의 스페셜리스트\" - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBhcGwzTWdVNWctQWJ2bXdYMzBIXzluaXctZnlxTHNOeVYtOXVHUjdHZnVnbE9jdk1FMWNJM09pWTBYWW95c0tMZG5fZkttdjdhX1RGRlF0WHhEWFU2Q3JTeVlLaFFkMURkbnhwWdIBckFVX3lxTE44SUVUSkpkeElQYWJDcm91eG5xdlVNcEwwbGdfMWI1Zm9abmYyOWZqLWpKaDJtMnBPbHFRUUZfdDBJbUFJa3JxckEyOEg5SlR4eHVHWUJqUjRYbE04V2JOa3VCYkNpNXpfTzdDQkU1U25LZw?oc=5",
+        "pubDate": "Mon, 10 Aug 2026 21:01:00 GMT",
+        "summary": "AI 도입이 확산됨에 따라 단순 업무 수행보다는 문제 인식과 구조화 능력을 갖춘 전문가의 수요가 높아지고 있습니다. 기술적 도구를 다루는 질문 능력이 향후 핵심 역량으로 평가됩니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-09T22:23:36.031Z",
     "reportDate": "2026. 8. 10.",
     "summary": "- 플랫폼 전략 변화: 오픈AI가 챗GPT 무료 사용자에 대해 최신 모델 개방 및 제한 완화 정책을 발표하며 시장 점유율 확대를 꾀하고 있음.\n- 하드웨어 시장 진입: 음성 기반의 인간형 AI 스피커 출시 계획이 발표되면서 AI 기술의 일상 생활 밀착형 인터페이스 확장이 가속화될 전망임.\n- 기술 안전성 및 개발 조정: 차세대 모델 '아스트라'를 포함한 신규 모델 개발을 안전성 검증을 위해 잠정 중단하기로 결정하며, 기술 발전 속도 조절과 윤리적 통제의 중요성이 부각됨.",
@@ -707,85 +780,6 @@
         "aiImpact": 3,
         "automationPotential": 1,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-07-31T22:54:37.318Z",
-    "reportDate": "2026. 8. 1.",
-    "summary": "- AI 기술의 급격한 발전으로 인해 전문직의 미래 고용 안정성에 대한 우려가 확산되고 있습니다. - AI 관련 과도한 레버리지 투자로 인해 헤지펀드 자산 매각이 발생하는 등 시장 변동성이 커지고 있습니다. - 한편, AI 로봇 기술은 돌봄 서비스 및 의료 현장에서 실질적인 성과를 내며 사회적 긍정 효과를 입증하고 있습니다.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "전문직 업무 자동화 가속화 전망",
-        "sign": "+",
-        "impact": 7,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 투자 시장의 과열 및 레버리지 위험",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 2
-      },
-      {
-        "event": "돌봄 로봇 등 실질적 가치 창출",
-        "sign": " -",
-        "impact": 2,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "“의사 고액연봉? 딱 3년 남았다”…AI시대, 진짜 돈 버는 직업 - joongang.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBS2lxNWdjQ1VTY2tBN1JSbzE2TnVqREZzWG9FR3RJWVRDaE1QcnFNd3lYZVBsOWlpWXdoYmMtMFRmYjNheU55OEVxSkVXaHp1N3g0MjN3?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 20:00:00 GMT",
-        "summary": "AI 기술의 발전으로 의사와 같은 고소득 전문직의 직무 또한 향후 3년 내 상당한 자동화 영향을 받을 것으로 전망됩니다. 기술이 단순 업무를 넘어 전문 영역까지 침범하면서 직업 선택과 가치 창출 방식에 근본적인 변화가 요구됩니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 3
-      },
-      {
-        "title": "[만물상] 레버리지로 추락한 AI천재 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdjlqSllzNDZ4T21sN1Z4dEw4SVFIakhKRVNaYlBpQjJnNzlacHlIUnF4ME9CQ2FELTRrSk5qdFo3anN4dTR6eFc5VlJYMHgyM19vcTVUcGFHRWM0QzB3SWw2QkhIa2RnazBTWF9rdTZ5Yjd6RXl6ZERNandlN0NrTmt1ekVtczg?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 12:06:14 GMT",
-        "summary": "AI 산업에 대한 과도한 레버리지 투자로 인해 관련 헤지펀드가 위기를 겪고 자산을 매각하는 사례가 발생하고 있습니다. 이는 기술적 잠재력과는 별개로 시장의 투기적 성격이 금융 시스템에 미치는 위험을 보여줍니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "'AI 투자손실' 헤지펀드 시추에이셔널, 시타델에 자산 매각 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JZGtweTRBcTU4WDVPRTJSZkdCMlQ4bFRydkE0VGhnb1pzakp0WlNLekxFRVBneU9qSG14aEtuZFZEaDNDZjNVSTgzUFNYSTZSR0wxSW9jeEkxZUXSAWBBVV95cUxQZkpBRGxSa2ZTTjJPOXVpbzBzNDFaM0tDRWxfc1gyVjllNmJlQVVfcktLZ3dPV1RGSjhDSWhGNU1OcW82eE03QVJpZ2Y4THZldWZGYmwyS2tRN21hdjMzUWU?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 21:17:32 GMT",
-        "summary": "AI 투자 실패를 겪은 헤지펀드 시추에이셔널의 자산을 시타델이 인수하는 등 시장 내 자본 재편이 활발합니다. AI 거품 논란과 맞물려 시장의 단기적인 조정 압력이 커지고 있습니다.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "전 세계 충격 안긴 ‘AI주 폭락’…그 배경에 이 청년 있었다 - 미주중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fOXhLb1dBcWUycWFrQ25IV0lydkVDU1hXenNjOWVFX1FFRVQ3aFd2N3ZXcDdLX1R3RldHVWxiVWJVZTNXSnhUSGxGUEg3dVY2UHR0aGw3NTVpT2FMWXY3UzF3?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 15:09:00 GMT",
-        "summary": "AI 관련 기술주 폭락의 배후로 특정 개인 투자자의 공격적인 레버리지 전략이 지목되었습니다. 시장 변동성이 특정 자본 흐름에 의해 좌우될 수 있다는 우려가 제기됩니다.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "'생명 구한' AI돌봄 로봇…노인들 복통·우울증 등 위기서 역할 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84MXhtZVFYVXNhQlNvUWs3Nmt6M1hkM0dHalBzQzlWWjBOZ0hrZzMxV0J3c2R2SGs0Z2Ewa0I4Rl9aWEd5WXFaVDlsbWs3TWM?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 21:01:53 GMT",
-        "summary": "AI 돌봄 로봇이 노인들의 복통 징후를 조기에 발견하거나 우울증을 케어하는 등 실질적인 복지 현장에서의 효용성을 입증하고 있습니다. 기술이 사람의 생명을 보호하고 삶의 질을 높이는 긍정적 측면을 보여줍니다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 2
       }
     ]
   }
