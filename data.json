@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-12T22:34:15.756Z",
+    "reportDate": "2026. 8. 13.",
+    "summary": "- AI 기술의 산업 적용 가속화: 국방 등 특수 분야에서 혁신적인 AI 기술이 개발되고 있으나, 국내 시장의 한계로 인해 해외 진출을 모색하는 사례가 늘고 있음.\n\n- 국가 차원의 AI 체질 개선: 정부가 반도체 및 AI 산업의 장기적인 성장을 위한 체질 개선안을 발표하며 산업 경쟁력 강화에 주력함.\n\n- 시장의 AI 열풍 및 투자 심리 회복: AI 반도체 관련 주식들이 강세를 보이고, 일론 머스크의 AI 기업들이 높은 성장을 예고하면서 투자 시장이 활발한 움직임을 보임.",
+    "summaryScore": 88,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "국내 AI 기술 해외 유출 우려",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "정부 주도 AI 산업 성장 정책",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 기반 기업 가치 급등에 따른 산업 구조 재편",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "기뢰 찾는 AI 신기술, 팔 곳 없어 해외로 간다 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMEFldjNuUEZJS0xnS0RZSEhIUS1Yb2VtZnpaSHJtYnBxOWdHVmFaN2RhSG9fVzNXWmI0WnRHQTZCRVE1WlNYS19DR3hCSW9hcUhXOVlPYVoxTWdvb0hzX3ZRVlVsZDFNVUNhcFo3YWlpZjlFX1g2LWVvSkx4dlY5UF9UZTJpQlJNMkloVVJ4RQ?oc=5",
+        "pubDate": "Wed, 12 Aug 2026 15:54:00 GMT",
+        "summary": "국내에서 개발된 고성능 AI 기뢰 탐지 기술이 국내 수요처를 찾지 못해 해외 수출을 추진하고 있음. 기술력은 충분하나 초기 시장 진입과 국내 국방 프로젝트 연계의 어려움이 과제로 지적됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 3
+      },
+      {
+        "title": "반도체·AI 처방전 썼던 정부, 20년 성장 책임질 '체질개선안' 내놨다 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00cDduank5djJBN2VxRF8yWTBTT3l0NE5qZWtEbmxsdzd1MjBMSEh2WEJWYVlvbmU0VGpVTDg0Y2hSYV92LVo3SnplX0xpZWt5T0h6WHc1LTJlWE1feFk2RWZSRkJQZ3fSAWxBVV95cUxPMHA0ZjRPbkdTc2tRMmhvZ01zTWxNRVJDc0dtQVN6NlRsY2paaGZueTd4d1FicXh4dERLeUY0VW9zdUp5Y21LbU1IbnpnNFNqQXJxWTBVdzMxOFRCZkdhYXNtM3pUVG9OczBxcmM?oc=5",
+        "pubDate": "Wed, 12 Aug 2026 07:31:46 GMT",
+        "summary": "정부가 향후 20년의 경제 성장을 책임질 반도체와 AI 분야의 체질 개선 대책을 발표함. 연구개발 지원과 산업 생태계 고도화를 통해 글로벌 경쟁력을 확보하겠다는 전략임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "美 AI 반도체주 강세…코어위브 19%·SK하이닉스 9% 급등 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJcGRSWVY4SzFudEhzQ2g3VG84ZWZoRmFMQXFJbzlzNzZxQ192U3FqVWdIQXpfYjhtODVYb2Z5NEs5bllvQUh4QUstNGRzRlU?oc=5",
+        "pubDate": "Wed, 12 Aug 2026 20:44:49 GMT",
+        "summary": "AI 반도체 수요가 폭증하며 코어위브, SK하이닉스 등 주요 관련 기업의 주가가 큰 폭으로 상승함. AI 인프라 구축을 위한 하드웨어 기업에 대한 시장의 신뢰가 증명됨.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "머스크 \"스페이스X 직원이 AI 부모…그록이 생각 물려받을 것\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94R213Vm5YZE14bzJLNHYwa0hUbkc2MzRvQ3FsdlJJSFhKb1ozR3RJUkJVVzdKSUYwTEVzVHI3VTFJQ2hqNXZSdGUwd1RVM0JhanBERHh6dW9xcVnSAWBBVV95cUxPRHE3U042cWRzV2ZHTmpLdHY5Y2ZVY2d5clpFdlhwaS03bnJETmd1QXdYbjE5WHU4MGxKOXFCOEl4cUhaMFJFZWtQbzBQNjVEUUJ4YzJ1NWMwb3BjeDlwZ1M?oc=5",
+        "pubDate": "Wed, 12 Aug 2026 21:29:53 GMT",
+        "summary": "일론 머스크가 스페이스X의 AI 기술 '그록'이 회사의 미래 핵심 자산이 될 것이라고 언급함. AI가 인간의 사고를 학습하고 전승하는 모델이 될 것이라는 비전을 제시함.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "머스크 \"다음달 AI가 우주 매출 넘는다\" 스페이스X 9% 급등 - 마켓인",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95UmJFaUJVYWhYcm9rcVVKVm05YmFvTXpuVDVjS0ctN2JlT1Y4SEZ0X1B2OW5KQk9lOUNodkF4bVBwLUxfOTdMRU5aQ0tMQzV2YUlpQ1dtRm9TNExEamF6aXp3T2FDeVFPOEdDdDZPclkxcms?oc=5",
+        "pubDate": "Wed, 12 Aug 2026 22:21:54 GMT",
+        "summary": "머스크는 AI 관련 부문의 매출이 곧 우주 관련 매출을 상회할 것이라며 낙관적인 전망을 내놓음. 이에 따라 스페이스X의 기업 가치가 급등하며 AI가 차세대 수익 엔진임을 재확인함.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-11T22:35:18.211Z",
     "reportDate": "2026. 8. 12.",
     "summary": "- AI 검색 서비스 도입과 플랫폼 영향력 확대: 구글의 AI 기반 검색 서비스가 기존 포털의 점유율을 위협하며 사용자의 검색 패턴을 변화시키고 있음.\n\n- 콘텐츠 생태계와의 갈등 심화: AI 검색 엔진이 웹사이트 트래픽을 잠식함에 따라 언론사 및 콘텐츠 제작자들과의 저작권 및 수익 분배 갈등이 본격화됨.\n\n- AI 기술의 이중성과 도입 과제: AI 감시를 회피하는 기술의 출현과 함께, 기업들의 AI 전환(AX) 과정에서 발생하는 전략적 실패 요인에 대한 분석과 성찰이 활발히 논의되고 있음.",
@@ -700,85 +779,6 @@
         "importance": 4,
         "aiImpact": 3,
         "automationPotential": 1,
-        "investmentImpact": 5
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-02T22:50:54.665Z",
-    "reportDate": "2026. 8. 3.",
-    "summary": "- AI 서비스의 신뢰성 문제: 개인용 AI 음성 비서의 오작동 사례가 잇따르며 기술 도입 초기 단계의 한계와 사용자의 불만이 제기되고 있음.\n\n- 미디어 및 콘텐츠 산업의 AI 통합: 드라마, 예능 등 엔터테인먼트 분야에서 AI 기술이 제작 효율과 시각적 효과를 극대화하는 핵심 도구로 빠르게 자리 잡고 있음.\n\n- 전통 제조업의 디지털 전환 가속화: 철강, 조선 등 고전적 산업 현장에서 로봇과 AI를 결합한 공정 최적화 및 스마트 팩토리 도입이 경쟁력 확보를 위한 필수 전략으로 부상함.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "조선소 자동화 및 로봇 용접 도입",
-        "sign": "+",
-        "impact": 6,
-        "newsIndex": 4
-      },
-      {
-        "event": "IT 서비스 기업의 공장 OS 지배력 강화",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 5
-      },
-      {
-        "event": "AI 초기 기술의 신뢰성 오류 노출",
-        "sign": "-",
-        "impact": 2,
-        "newsIndex": 1
-      }
-    ],
-    "news": [
-      {
-        "title": "'AI 음성 비서'의 배신...이용자 분통 왜 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlc0FCWTdDTnJoWlJoeDBrUE83NUM5eVZoVUp0M3ZRbXRtOG1YUkFFNjBkODU4cXRVci1Jall4Z1E3LW9mSDNJVUdNVUVqOHZrRndoc2Vn?oc=5",
-        "pubDate": "Sun, 02 Aug 2026 01:01:12 GMT",
-        "summary": "최근 AI 음성 비서들이 의도치 않은 답변을 하거나 명령을 수행하지 못하는 사례가 빈번하게 발생하며 사용자의 불만이 고조되고 있습니다. 기술의 완성도 부족이 초기 시장 진입에 걸림돌이 되고 있음을 보여줍니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "\"이것도 AI였어?\"…드라마·예능 장악한 인공지능 기술 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11NVpDYXFxX2UteS1SWnQtanFXWi1xbk8yRTRqa3dhWXNGNk5lbkJNY1MyTUJZTGNzNUNUa1pQMkFMZHB3aTVNQkpyc053N05IWVRkRmt3eTBBWHfSAWBBVV95cUxPcmlJZTBfTElVQnhOMXdfXzl0bS1adDlfOGtBQ0dta2xTUTEtbXV4MXN5UzliNXRyWlk1MjIzaGx5ZzB6U0VRWkY4M1R0MkUtZk01cWd5ZEVDNWZkaGhJRWI?oc=5",
-        "pubDate": "Sat, 01 Aug 2026 22:40:00 GMT",
-        "summary": "드라마와 예능 등 미디어 업계가 AI 기술을 도입하여 제작 효율을 높이고 시청자에게 새로운 경험을 제공하고 있습니다. 인공지능이 창의적 영역에서도 실질적인 제작 도구로서 영향력을 확대하고 있습니다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "'AI 시대' 놓쳐선 안될 '철강'[기자수첩] - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fOEdqd0lnbldsaWk4U3VSVzM0VVF0cGd5X0VaNkxOa01CdmdmSWl6M1dvU2xzU2tkdEJJczBZaWFmMXRlM3FkZ2Y0Q2dOVlhFZjVmZG84d25qX2xFdE1tT3N0SllEWWNvUU42LdIBckFVX3lxTE9RSkVIWV9JbUtIN1JXaFRvWVFaRlJtcG5xTWx2UndSNjBTUjNHWlU5eUt3OExyOFEyQWM1Rmx1REZoMkJfdkdQajYyYVI0NmNIVnp4ZEF4eDZfRUVVYV9VSVg2MlhyYmV2Um9XeHhxNkRUZw?oc=5",
-        "pubDate": "Sun, 02 Aug 2026 20:50:00 GMT",
-        "summary": "전통적인 철강 산업에서도 AI 도입이 기업 생존을 위한 필수 조건이 되고 있습니다. 경쟁력을 유지하기 위해 데이터를 활용한 공정 혁신과 스마트화가 가속화되고 있는 실정입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[비바100] 로봇이 용접하고 AI가 공정 짠다… 조선소의 이유 있는 진화 - 브릿지경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTdjc2cmpZRFJFMGNVMmpRM3B5dGNBc2t6QmttQ3lheGhjajZIV0s5NExmdW94VHlRYndrSWF0WmJQZ0FZaDB3d3BsZXVaQzN5YlhEdE5tcXhtdw?oc=5",
-        "pubDate": "Sun, 02 Aug 2026 21:38:00 GMT",
-        "summary": "조선업 현장에서 로봇 용접과 AI 기반 공정 설계가 도입되며 인력 중심의 현장이 고도화되고 있습니다. 기술 도입을 통한 생산성 증대가 산업 구조의 체질 개선을 이끌고 있습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "공장과 로봇 묶는 ‘AI 두뇌’… IT서비스 업계, 공장 OS 선점 경쟁 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdkR3Z2lFVG5DblMzRWRPbzdSOHhNQ1NpQ192UzZSRklJQ0ZBQWR2OXFiWVRISEtLbVgzaFJmUUtYNkJiLXI5dG5xN1hRUWFWc3JMdEZBSl9zQ0xudHRJaHptRk9Nbm85SmJZYTFkVmNKNzBmTXZaM19zU0VMV0hucE1R0gGWAUFVX3lxTE5hMXVIWDNjMGhFSDVlLXV6VTcxY29WWmVDcUxuZmY4eV9IbTM2TUN3MFNDVGtZQ1Y5MVZhVHVGZ2N0T1R2MUxlSWVQYW5kTHFmbEI2ck9uVTRnNnRfTEpEUTE5NnlLOTU3ZGZoZVAtU1ItS0JqVTl1VnlxM0tMYjVuSVctQjVHOTBhaGdLaldlRjdqNGJZQQ?oc=5",
-        "pubDate": "Sun, 02 Aug 2026 21:00:00 GMT",
-        "summary": "IT 서비스 기업들이 공장 운영체제(OS) 시장을 선점하기 위해 치열한 경쟁을 벌이고 있습니다. 제조와 IT를 결합한 스마트 팩토리 표준을 선점하려는 움직임이 산업 전반에 영향을 미치고 있습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
         "investmentImpact": 5
       }
     ]
