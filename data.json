@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-16T22:14:31.877Z",
+    "reportDate": "2026. 8. 17.",
+    "summary": "- AI 기술 경쟁의 지정학적 갈등 심화: 미국이 중국의 AI 기술 성장을 견제하기 위해 한국 등 35개국을 대상으로 동맹 기반의 공급망 차단을 강화하고 있습니다. \n\n- 기업의 전략적 대응: 애플과 같은 글로벌 기업들은 중국 시장의 특수성을 고려하여 현지화된 AI 개발을 추진하는 등 미·중 갈등 속에서 생존 전략을 모색하고 있습니다. \n\n- 사회적 파급 효과: AI 기술이 정치 홍보 등 사회 영역에 빠르게 침투하면서 콘텐츠의 진위 여부와 정치적 편향성 등 새로운 부작용과 그늘이 나타나고 있습니다.",
+    "summaryScore": 88,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "미·중 AI 공급망 제재 강화",
+        "sign": "+",
+        "impact": 6,
+        "newsIndex": 2
+      },
+      {
+        "event": "기술 제재로 인한 국내 관련 산업 위축 우려",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      },
+      {
+        "event": "AI 정치 콘텐츠 확산에 따른 규제 논의",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "애플, 美정책에 반기들고 中전용 AI 개발 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tdWFYdmhlMDE1U3FSNWlkbnlxQjMtVkt4M19RVDNOM0ZEbWw4MXgxVHZxeE1jY1RHY1gxcnlDcFplTk5XUVVPYWJORHNnM1E?oc=5",
+        "pubDate": "Sun, 16 Aug 2026 08:54:16 GMT",
+        "summary": "애플이 미국 정부의 대중국 제재 기조와 달리 중국 시장 점유율 유지를 위해 현지 전용 AI 기술 개발을 추진하고 있습니다. 이는 글로벌 기업들이 미·중 지정학적 갈등 사이에서 독자적인 생존 전략을 구축해야 함을 시사합니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "미, 한국 등 35개국에 경고…\"중국 AI 손잡으면 미국 연합서 제외\" - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ndGFEemt6dWJjc2I5dmozU2xvY2xHTXJoYnBMSVpvZHdUYVlTNk00VEhFXzZjbGtSX29pVEN0V1ljNHBjUFp0Y0RlMFdfa0pleFVGdFpSUUFtcWhkaTUxUVhBMGI0bXhs0gFuQVVfeXFMTklyREZqdGlYc1VZSExnV0R3bG02WkFJVW1COVYwX0JhM2U0Sno4UUtWQUFCc2Z3YUZjcGExaEljbUdBSGZqdjgwRnNiaTd5dUFfRnBLdlNqOGNtNWZhYTFkY3NzaHFObVZoSzBwSXc?oc=5",
+        "pubDate": "Sun, 16 Aug 2026 01:00:29 GMT",
+        "summary": "미국 정부가 한국을 포함한 35개국에 중국 AI 기술과의 협력 단절을 경고하며 연합 전선을 강화하고 있습니다. 중국 기술 생태계와의 연결을 끊을 것을 요구함에 따라 글로벌 AI 공급망의 재편이 불가피해 보입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "美 “중국 AI에 동참하지 말라”… 한국 등 35개국에 경고 - 서울신문",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQkxadWV1ek13Vkh5Q0xNbTMwRGhzWjdkaHpvdFpwQTBabjg5S01Rdm8wTWJ1c211Sy1fZHFnSllQQXNZVjhhcFB3aFVtR2lFYUViY1E0ckFXSFN3V0JDWXNQSVJuQUNDSjZ2X0hTV3YxS1M4ang0UXI5UG5nU3U4R09xVHBzUQ?oc=5",
+        "pubDate": "Sun, 16 Aug 2026 15:42:14 GMT",
+        "summary": "미국의 대중국 AI 제재가 전방위적으로 확대되면서 동맹국들에 대한 압박 수위가 높아지고 있습니다. 기술적 독립성 확보와 외교적 선택 사이에서 국가와 기업의 고민이 깊어지고 있습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      },
+      {
+        "title": "미·중 정상회담 코앞인데 ‘AI·드론·로봇’ 대중 제재 강화 트럼프···“미국 측 회담 총괄 책임자도 없어” - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10cHkzMHdhYURWYWMzTWRRa1dvSGVYOFExSENKSzVfUlVibXlkcVBMR3QtaEowUF9UVVh1aFZ0Wk94cmUyMDlXRDV6R29rd2pCejBGdTdZcDFXQdIBX0FVX3lxTFBadWQxbUpuQmtrTFpWNlduNFl5Rkhkc0l0R0VxcWFlV1RJSHJMa3BkS1BSM1NPNFA1Vnh6VjdqTVV2TjRIaTdfRlNXYWotS3N0d25OSWRxQkZnNzNIVFZV?oc=5",
+        "pubDate": "Sun, 16 Aug 2026 04:07:00 GMT",
+        "summary": "트럼프 행정부의 AI 및 첨단 산업 제재 기조가 강화되는 가운데, 미·중 정상회담을 앞두고 불확실성이 커지고 있습니다. 책임자 공백과 함께 정책의 불확실성이 시장의 불안 요인으로 작용하고 있습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "누구나 정치 홍보 전문가가 된 시대…AI가 바꾼 한국 정치의 그늘 - 주간경향",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VUW15S3hVZkI2c1lkNDlTbE5JdWMxOUYyLVB3WTFiZUNUWVA3UWxmVmlCd1dzZE1Id3ZNOXJGZlgwNVh2T2d5d25TUUEwaXRlbEU3S2NSa0FZZmxRelE?oc=5",
+        "pubDate": "Sun, 16 Aug 2026 21:00:00 GMT",
+        "summary": "AI를 활용한 정치 홍보 콘텐츠가 급증하면서 정치적 왜곡 및 신뢰성 문제가 부각되고 있습니다. 기술의 대중화가 민주주의 과정에 미치는 그림자와 이에 따른 규제의 필요성이 강조되고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-15T22:15:10.840Z",
     "reportDate": "2026. 8. 16.",
     "summary": "- 인프라 자본 지출 조정: 엔비디아가 오픈AI 관련 데이터센터 채무 보증 규모를 대폭 축소하며 AI 투자 효율성과 리스크 관리가 강조되는 추세입니다.\n\n- 국내 생태계 육성: 대규모 AI 데이터센터 구축 과정에서 국내 소부장 기업들의 참여를 확대하여 국가 차원의 기술 자립도를 높이고 생태계를 강화하려는 움직임이 뚜렷합니다.\n\n- AI 기술의 본질적 고민 및 고용 시장의 변화: 센티언트 AI의 윤리적 질문이 제기되는 가운데, 기업 현장에서는 AI 도입에 따른 효율화의 일환으로 신입 채용 축소 등 고용 시장의 구조적 변화가 실현되고 있습니다.",
@@ -701,85 +780,6 @@
         "aiImpact": 4,
         "automationPotential": 3,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-07T01:28:44.177Z",
-    "reportDate": "2026. 8. 7.",
-    "summary": "- 노동 시장 변화: AI 기술의 발전으로 컴퓨터 공학 등 기존 기술직의 경쟁력이 변화하고 인문학적 소양 등 새로운 역량이 중요해지고 있음.\n\n- 산업 디지털 전환: 반도체를 넘어 자동차, 바이오 등 국가 주력 산업 전반에 AI를 접목하여 생산성과 혁신을 도모하고 있음.\n\n- 콘텐츠 시장의 변화: AI로 제작된 게임이 앱 마켓에 본격적으로 진입하며, 설치 없는 즉각적인 플레이가 가능한 플랫폼 생태계가 조성되고 있음.",
-    "summaryScore": 78,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 시대 컴퓨터 공학의 직업적 불확실성 증대",
-        "sign": "+",
-        "impact": 7,
-        "newsIndex": 1
-      },
-      {
-        "event": "주력 산업 내 AI 도입을 통한 공정 효율화 및 자동화 가속",
-        "sign": "+",
-        "impact": 6,
-        "newsIndex": 2
-      },
-      {
-        "event": "AI 창작 콘텐츠 플랫폼 확산에 따른 개발 환경 변화",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "[단독] \"AI 시대에 컴공은 주산 배우는 셈… 차라리 취업 잘 되는 철학과로\" - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbjhZRXZ2S1BUbjJrNEltMk9PckFPeFp0cTQ3YU03TkM5TG1jaF9YWTZaOGt5Q0VMb2hoRjBpVFJ3YzBKczFkTGxNdmNMdUtYbUpjU1dzTTJMTTFqQ3VhbVJnNTdBRUFrR2xmSk5mTWFib28teFoxMlpaMXJaVHZUckRVZHp3el9ZRDJMWXRtWFQ?oc=5",
-        "pubDate": "Thu, 06 Aug 2026 20:08:47 GMT",
-        "summary": "AI 기술의 비약적 발전으로 인해 기존 컴퓨터 공학 지식의 효용성이 의심받고 있습니다. 단순 코딩 능력보다는 비판적 사고와 인문학적 소양을 갖춘 융합형 인재가 중요해지고 있다는 의견이 제시되었습니다.",
-        "importance": 4,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "\"반도체 이후 대비\"…자동차·바이오 등 주력 산업에 AI 입힌다 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE10bnZkeFNvTVBvNk00Z0Z4R3ViU1VaSmlfc2FRdGdIT2JwaHpqdTZXRnVDMS1xVElkcDhvRE4xQzFLazFfVDhhX3k2d0tGS3FCdVRrVmJKc0ZhMDA2RUhHRjhYUUlOZVZGeWxJ0gFwQVVfeXFMTk94WmQwX1dTa0RtOVNTU0g3endCanVQSkoyUUZyOXpwSmNhYWF3ZnJYbng2YVB1Rm1iLTNQb1JfQWUweVQ5U0h6RjEya0RRN3FoRGFnQ3pOSnZSdXJvSFlZdEt4SXdCTkFGWHhCcGhlWg?oc=5",
-        "pubDate": "Wed, 05 Aug 2026 23:30:00 GMT",
-        "summary": "한국 산업계가 반도체 이후를 대비하기 위해 자동차, 바이오 등 핵심 산업에 AI 기술을 적극 도입하고 있습니다. 산업 현장의 디지털 전환을 통해 기술 경쟁력을 확보하려는 국가적 전략이 강화되고 있습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"프롬프트로 만든 게임, 앱마켓서 판다\"…원스토어, AI 게임 전문관 열었다 - ER 이코노믹리뷰",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRTG4tLW9CbUVZYUhHTXhTWkxqRGpvVTlBMXNOalpNdDRhNnlIZk8zTDZJUDlLMTJLRHNrQkdTc2oxd3JYS2JqOWQ4QTlxMV9tUkVMOGZnQkhBdnEzN29nS0ZMZC1DQ3dOX1dxcQ?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 00:12:34 GMT",
-        "summary": "원스토어가 AI로 창작된 게임을 전문적으로 유통하는 'AI Games' 전문관을 오픈합니다. 설치 없이 즉시 실행 가능한 환경을 제공하여 AI 기반 콘텐츠의 시장 진입을 가속화하고 있습니다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "원스토어, AI 창작 게임 전문관 오픈…\"설치 없이 바로 플레이\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1taHozUWNXQ2ZOMF9qZ0dHNHFqOHVNU0Foekd4TGdOay1PbkttODA5eWtjc1laeUg1ZkpiTUd5QXkyWC1tX2Y2QWdNb0g5ZGs?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 01:09:00 GMT",
-        "summary": "원스토어의 AI 게임 전문관 오픈 소식으로, AI를 활용해 창작된 게임의 접근성이 대폭 향상되었습니다. 사용자가 별도 설치 과정 없이 바로 게임을 즐길 수 있어 AI 콘텐츠 소비의 편의성이 강화되었습니다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "원스토어, AI 창작 게임 전문관 'AI Games' 연다 - edaily.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObFU3LTF4c2VJWXhrcXg5SDZrdVpGVWQzLS1oVzFHNDQzVW44SXhzcDJMNjhEM2lodUtHaFZWdjVBeG42WUtUVWRROVY5aG96blFaalgzbzNUZmNmOVlyc2ktcVJFbkdFYTY5OGU4LWRCRUl6cG5kTlN1anduS1UwbA?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 00:46:12 GMT",
-        "summary": "원스토어가 AI 창작 게임 전문관을 통해 새로운 콘텐츠 생태계를 조성합니다. 이를 통해 개인 개발자나 창작자들이 AI를 도구로 활용해 앱 마켓에 쉽게 진입할 수 있는 기회가 확대되고 있습니다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
       }
     ]
   }
