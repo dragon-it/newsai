@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-18T22:16:26.515Z",
+    "reportDate": "2026. 8. 19.",
+    "summary": "- 국가 주도 AI 경쟁 가속화: 한국 정부의 '국가대표 AI' 프로젝트인 '독파모'가 LG, SKT, 업스테이지 등 3파전으로 좁혀지며, 선정된 기업에 엔비디아 B200 3천 대 등 대규모 인프라 지원이 이루어질 예정입니다.\n\n- 글로벌 기업의 인프라 확장: 알리바바 클라우드가 한국에 제3 데이터센터를 가동하며 국내 AI 풀스택 인프라 지원을 강화하고 있으며, 글로벌 기술 격차를 좁히기 위한 경쟁이 치열해지고 있습니다.\n\n- 기술 자산화 및 전략 변화: AI 관련 특허 출원이 8년 사이 7배 급증함에 따라, 기업들이 단순 기술 개발을 넘어 분야별 맞춤형 특허 전략을 설계하는 것이 생존의 핵심 요소로 떠오르고 있습니다.",
+    "summaryScore": 88,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "국가대표 AI 프로젝트 선정 및 인프라 집중 지원",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 관련 특허 출원 급증에 따른 기술 고도화",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 5
+      },
+      {
+        "event": "AI 기술 경쟁 심화로 인한 산업 구조 재편",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": null
+      }
+    ],
+    "news": [
+      {
+        "title": "[독파모 2차 발표] '국가대표 AI' 3파전 돌입…정예팀에 B200 3천장 푼다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96alFSSHF6bFQtMnZZUDB2Vlo1ekM4NTlnNDV5M2JJcHNlV243YmpWR1lSbkFuSFRIZWptb2pJR213WjNvVTctbkREWjdtZ1VqVVpldlRn?oc=5",
+        "pubDate": "Tue, 18 Aug 2026 05:28:01 GMT",
+        "summary": "한국 정부의 국가대표 AI 프로젝트가 3파전으로 좁혀졌으며, 선정 기업에게는 엔비디아 B200 3천 대 규모의 파격적인 컴퓨팅 자원이 지원됩니다. 이를 통해 국내 AI 기술의 글로벌 경쟁력을 확보하겠다는 전략입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "LG·SKT·업스테이지 독파모 3파전…한국 AI 글로벌 3위(종합) - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01cHVyQmtpOTgycTZjdUllRGtJT0g3OVFVN0dNQWYyaUJCTDZ5U2VyREp0WU1CX2lreHdvcnZkYmdraWJEd0NvUDBJNmpDTnVTU0djT2JaclcwcDjSAWBBVV95cUxONlNXYWJDcWpxODNMOV9ZUHNzWllNREo5VnFfdVRxWF80c0lHNG1tam5BRWdsaC1qMEpYVDhRcUZzWFVVNGxjbE9rd240a2I2ZFNrdFo4Rnp1TFVNbkFmMjE?oc=5",
+        "pubDate": "Tue, 18 Aug 2026 02:39:34 GMT",
+        "summary": "LG, SKT, 업스테이지가 국가대표 AI 최종 후보로 선정되었습니다. 이들은 글로벌 3위를 목표로 독자적인 AI 생태계를 구축하며 치열한 기술 경쟁을 벌이고 있습니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "세계 10위도 탈락한 '국가대표 AI'…모티프는 왜 밀렸나 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ibFZEXzVycU1KMWQ5cllBTFFjTUs1aWJBMEJVQWN5bHdGVWN2TWFTbElqNU50aGRzS0M5YkVodzNHczctOVk2WlozWW9TcEE?oc=5",
+        "pubDate": "Tue, 18 Aug 2026 20:03:08 GMT",
+        "summary": "국가대표 AI 선정 과정에서 기술적 우위와 전략적 요인으로 인해 일부 경쟁 기업이 탈락했습니다. 이는 AI 모델 개발의 정교함과 실질적인 상용화 역량이 평가의 핵심이었음을 시사합니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "[현장] 알리바바 클라우드, 韓 제3 데이터센터 가동…풀스택 AI 지원 앞장선다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vYmZhZ1NuRVd0N1lqaFh1RzdKbWZCYVBwR2NyR21OSGRXQUJMWUYyUFgwQ3V1am16MC1TU0RCNHZvaHNNYzRXVmtWOFZ3YllZelUySWxB?oc=5",
+        "pubDate": "Tue, 18 Aug 2026 02:59:49 GMT",
+        "summary": "알리바바 클라우드가 한국 내 제3 데이터센터를 가동하며 인프라 확장에 나섰습니다. 국내 AI 시장을 겨냥해 풀스택 AI 서비스를 제공함으로써 기술 생태계의 다양성이 증대될 전망입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "AI 특허 8년 새 7배로 증가…\"분야별 맞춤 전략 설계해야\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBodDNzUmwxbEFJZEtVNmhoTHZPTWFhZkRIMzVEZWhvVm05bFpDX1ZUV0hXSlhfQWpvU0xUU2EwdTZacjhQSk12V2RabktFTFFmMUhiUWZ4dDVQMDTSAWBBVV95cUxQUm9KdUJSLXRSR2VieVpwMGNva1I3aWZjWlNMNW5QR3JuaWhUR1JHQTFXX2JVc19hVFlkdHVjQUFFVnFTVGVtNjZ4aEhxT0dpdmFESE1VTTFqNV94Q3Ewamw?oc=5",
+        "pubDate": "Tue, 18 Aug 2026 21:00:01 GMT",
+        "summary": "지난 8년간 AI 관련 특허 출원이 7배 이상 폭증했습니다. 이제 기업들은 단순히 기술을 개발하는 것을 넘어, 산업별로 특화된 지식재산권 확보와 전략적 설계가 필수적인 시점에 도달했습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-17T22:17:56.893Z",
     "reportDate": "2026. 8. 18.",
     "summary": "- 지정학적 전략 및 기술 격리: 애플이 중국 전용 AI 모델 개발을 통해 현지 규제와 시장 요구에 대응하며 글로벌 기술 공급망의 파편화가 가속화되고 있음.\n\n- AI 보안 및 윤리적 책임: 오픈AI의 대화 감시 사례는 AI 서비스의 치안 기여와 프라이버시 침해라는 양면성을 드러내며, 기술 활용의 윤리적 가이드라인에 대한 논의를 촉발함.\n\n- 직무 구조 변화와 불안 심리: AI 도구의 비약적인 발전으로 개인의 역량이 조직을 대체하는 현상이 나타나는 반면, 청년층 사이에서는 AI에 의한 일자리 대체 불안감이 확산됨.",
@@ -701,85 +780,6 @@
         "aiImpact": 5,
         "automationPotential": 1,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-08T22:22:04.459Z",
-    "reportDate": "2026. 8. 9.",
-    "summary": "- 모델 안정성 및 안전성 우선: 오픈AI가 차세대 모델 '아스트라'의 개발 및 출시를 전격 연기하며 AI의 잠재적 위험 관리와 보안을 최우선 과제로 삼는 업계 흐름이 두드러짐.\n\n- AI 보안 및 위협 대응 고도화: 국내 보안 기업들이 AI 기술을 도입하여 위협을 실시간으로 분석하고 대응하는 솔루션을 제시하며 AI 생태계의 방어 역량을 강화하고 있음.\n\n- 기술 활용에 대한 사회적 논란: AI의 오용으로 인한 건강 문제 등 부작용이 속출하고, 코딩 등 기존 기술 직군에 대한 실효성 논란이 제기되면서 AI 시대의 교육과 직업관에 대한 근본적인 재검토가 이루어짐.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "오픈AI 차세대 모델 개발/출시 연기",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 3
-      },
-      {
-        "event": "AI 기술로 인한 기존 직군(컴공 등) 회의론 확산",
-        "sign": "+",
-        "impact": 6,
-        "newsIndex": 4
-      },
-      {
-        "event": "AI 오용으로 인한 실질적 건강 및 안전 문제 발생",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "\"너무 똑똑해서\" 브레이크 걸렸다...오픈AI, 차세대 모델 '아스트라' 개발 중단 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAxNjFlUVVYN1N0dHJ3Y0p5eEExWV9SRm51ZzE3aGRrQmJvZnF4SVFsbkcxYTE0VTBRTmFjUHY3SEJRSGhuaVE?oc=5",
-        "pubDate": "Sat, 08 Aug 2026 05:27:05 GMT",
-        "summary": "오픈AI가 차세대 모델인 아스트라의 개발을 중단함. 안전성과 기술적 완성도를 고려한 신중한 행보로 풀이됨.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[AI혁명](210)로그프레소 \"K-AI 보안 구심점 목표…AI가 위협 판단·대응\" - 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zOVZBZzdKb0RhMDRvNUk1eGpoaTl3RThkckFWVHBHZEd0cGlJVUp4SjdKNDNwODJEZE9VSnNaZmJyRnJyVEVMT01xVzRscFVxdlpLQzVpR2ktRVRKOXFEZQ?oc=5",
-        "pubDate": "Sat, 08 Aug 2026 21:30:00 GMT",
-        "summary": "로그프레소가 AI 기반의 위협 탐지 및 대응 플랫폼을 통해 국내 AI 보안의 핵심 역할을 수행함. 보안 영역에서의 AI 적용 사례를 보여줌.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "오픈AI, 차세대AI '아스트라' 출시연기…\"사이버공격 위험 우려\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAzNTE4Z05OcEM2bXRJMHRwWFFWUVN6QmkwTmZlS1I5QUhBNUJLQU4ybGQ2TnNZbWdwY0E2TDRkVGUyRHc5QlVZall2amxjRDJWM1lNQVB3Y2RqT2_SAWBBVV95cUxPQVhKTVJWUU1BbGFlTzFGdk1ZdnVfMWdFOGN3ckJELWVrM3RweFN5c1RKZUJ2a1psMGM0S200OTFES0piczBDWlgwQlZfZ1AzaUpqS1N4ZXlfdkRDNng0eHY?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 22:51:20 GMT",
-        "summary": "오픈AI가 아스트라 출시를 사이버 보안 위협을 이유로 연기함. 생성형 AI가 악용될 가능성에 대한 업계의 경각심이 커지고 있음.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[단독] \"AI 시대에 컴공은 주산 배우는 셈… 차라리 취업 잘 되는 철학과로\" - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNbjhZRXZ2S1BUbjJrNEltMk9PckFPeFp0cTQ3YU03TkM5TG1jaF9YWTZaOGt5Q0VMb2hoRjBpVFJ3YzBKczFkTGxNdmNMdUtYbUpjU1dzTTJMTTFqQ3VhbVJnNTdBRUFrR2xmSk5mTWFib28teFoxMlpaMXJaVHZUckRVZHp3el9ZRDJMWXRtWFQ?oc=5",
-        "pubDate": "Thu, 06 Aug 2026 20:08:47 GMT",
-        "summary": "AI가 코딩 업무를 대체하면서 컴퓨터 공학의 실효성에 대한 의문이 제기됨. 미래 일자리 변화에 따른 교육 분야의 고민이 깊어짐.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 2
-      },
-      {
-        "title": "AI가 짜준대로 '45일 만에 20kg' 감량한 中 남성…중환자실 실려갔다, 왜? - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1dmZPaGpoc0hnWklEclFjbnpUNnpWVTB6NjRVS1U4R1F2Ulg2cjk3cXA5OXkxbkFCZkxiV1hfTTdtNEp6Z0VXaVlBVkxVdw?oc=5",
-        "pubDate": "Sat, 08 Aug 2026 21:00:00 GMT",
-        "summary": "AI가 제안한 다이어트 식단을 무리하게 따라한 남성이 중환자실에 입원함. AI의 조언을 맹신하는 경우 발생할 수 있는 위험성이 부각됨.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 3,
-        "investmentImpact": 1
       }
     ]
   }
