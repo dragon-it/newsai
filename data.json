@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-19T22:18:18.376Z",
+    "reportDate": "2026. 8. 20.",
+    "summary": "- AI 기술의 실무 적용 확대: AI가 코드 생성뿐만 아니라 보안 분석 및 연구 영역으로 확장되며 기술적 활용도가 고도화되고 있음.\n\n- 빅테크의 시장 지배력 강화: 오픈AI의 상장 추진 및 보안 강화 전략을 통해 AI 기업들이 자본 시장 내 영향력을 극대화하고 생태계 선점에 나서고 있음.\n\n- 국가적 AI 수익 모델 창출: 대만을 비롯한 국가들이 AI 산업에서 발생한 이익을 국민에게 환원하는 새로운 사회적 분배 모델을 실험하고 있음.",
+    "summaryScore": 88,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 보안 연구 및 코드 최적화 도입",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "오픈AI 상장 추진에 따른 대규모 자본 집중",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      },
+      {
+        "event": "국가 단위 AI 수익 공유 모델 도입",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "아이폰 보안문서에 AI 이름 줄줄이…코드 짜던 AI, 보안 연구원 되다 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wTFR3X1lHTEQ5X3lNcVJIdEJYaDdHVVdIQWhHeEVYTjhWQlBrTDRPRVZyLWVHU1UzSkZwM1RLOXhoekVLYUpjaWU4Rjd1N3QxckxZT05HSUxyN05VQWs3StIBeEFVX3lxTE8td3ZmajBjOXpoUjJicndyVG1JTzlwTjVvSElmWWVPOWp1SnhkX3pZbFI0NERyRVlZTHFYOEszekpyd1lZREhaSVhCQVN2VktoZFU3RFB6WkxmTmYxT215QVZuZ2F3TDBnYml4VVBQUE14Z1p2Wmtjag?oc=5",
+        "pubDate": "Wed, 19 Aug 2026 21:00:00 GMT",
+        "summary": "애플의 보안 문서 분석 결과, AI 모델이 코드 작성 외에도 보안 취약점 연구 및 분석에 적극 활용되고 있음이 확인되었습니다. 이는 AI가 단순 업무 보조를 넘어 전문적인 보안 영역까지 진출하고 있음을 의미합니다.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "대어 오픈AI, 내년 상장한다…IPO 일정 첫 공개 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ROW9OZlFtLXYwQktUam5KWTNKR0hKdFEydFpHNFlLY2Faam9xeGxGVkFVQ2M4S002Yk5KRW1vdWtPUmJsNkJOb2Q4Sy1NbHc?oc=5",
+        "pubDate": "Wed, 19 Aug 2026 20:04:09 GMT",
+        "summary": "오픈AI가 내년 상장을 목표로 본격적인 IPO 일정을 논의하고 있습니다. 이는 AI 산업이 단순 기대감을 넘어 본격적인 상업적 수익성과 시장 가치를 증명하는 단계로 진입했음을 시사합니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "앤트로픽에 역전된 오픈AI, '고객데이터 보안' 내세워 시장 공략 - yna.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TTFVXUWFINmtXclJkWGhKdS0taTNsemk4V3JRQW5VRHVrdjdqaGJjUDB3VERuZk5rRXhKWE1CLWhMTmlyRDZLcV9hQTFjcTUxam1YSWtlMnprUXfSAWBBVV95cUxPU3YzNlR5UldHaXJSc3dYZzdNT01oa0VOUkQ1TVZOWVJQUzh5ZHdPX08teURiTlZTX09GRlJfb1RIbGZQcWl6eTYyLWpkdHgwV09oQVFWZXA0b2VmdC1MTmQ?oc=5",
+        "pubDate": "Wed, 19 Aug 2026 20:32:46 GMT",
+        "summary": "오픈AI가 앤트로픽 등과의 경쟁 우위를 점하기 위해 고객 데이터 보안을 전면에 내세운 공략을 강화하고 있습니다. 기업 고객의 신뢰를 확보하여 AI 시장 주도권을 유지하려는 전략으로 풀이됩니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "전 국민에 1인당 44만원 쏜다…AI 산업 호황 결실 나누는 대만 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zRkR3V1pZM19jNXY5MWxtdnJKYThvUGJucG1vNWZWc2ZLSURYXzJueU82MER5Q2JGSEJkdmY3M2pHTXJaZXVlWWlJbHBQNlE?oc=5",
+        "pubDate": "Wed, 19 Aug 2026 08:26:51 GMT",
+        "summary": "대만이 AI 산업 성장에 따른 막대한 수익을 세수 증대로 연결해 국민들에게 환원하는 정책을 발표했습니다. AI 기술의 성과가 국가 경제와 복지 체계에 직접적인 영향을 미치는 사례가 등장하고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "“전 국민에 45만원 ‘AI 보너스’ 드립니다”···돈 벌면 국민에 나눠주는 황금국들 [이윤정 기자의 소소월드] - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5od3R4MlVLcHNtQXN4LUxsZ09RM1piYlVZWGFUeElhRDVablh4eFBaQmtaVzV4UkVIVnVKOFlNblhQN1A5QjV1UFpjU2ZOLURGV3JzR0lHREZnQdIBX0FVX3lxTE5oSVlzVlpkMVo1M1Z1WkU5cUxEWkwxaHUyeDlJcnBDMjEwTk9yX3dKN041VGpOQXluMzVkUU0xZWtwLUs2Y2RhTG9hM0oxcDFfOG9aaWJ6X3p2OFpRM2lV?oc=5",
+        "pubDate": "Wed, 19 Aug 2026 01:17:00 GMT",
+        "summary": "AI 산업 호황으로 발생한 초과 이익을 전 국민에게 배당 형태로 분배하는 국가들의 모델이 주목받고 있습니다. AI로 인한 생산성 향상이 국가적 부의 재분배 구조를 변화시키는 동력이 되고 있습니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-18T22:16:26.515Z",
     "reportDate": "2026. 8. 19.",
     "summary": "- 국가 주도 AI 경쟁 가속화: 한국 정부의 '국가대표 AI' 프로젝트인 '독파모'가 LG, SKT, 업스테이지 등 3파전으로 좁혀지며, 선정된 기업에 엔비디아 B200 3천 대 등 대규모 인프라 지원이 이루어질 예정입니다.\n\n- 글로벌 기업의 인프라 확장: 알리바바 클라우드가 한국에 제3 데이터센터를 가동하며 국내 AI 풀스택 인프라 지원을 강화하고 있으며, 글로벌 기술 격차를 좁히기 위한 경쟁이 치열해지고 있습니다.\n\n- 기술 자산화 및 전략 변화: AI 관련 특허 출원이 8년 사이 7배 급증함에 따라, 기업들이 단순 기술 개발을 넘어 분야별 맞춤형 특허 전략을 설계하는 것이 생존의 핵심 요소로 떠오르고 있습니다.",
@@ -701,85 +780,6 @@
         "aiImpact": 3,
         "automationPotential": 4,
         "investmentImpact": 2
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-09T22:23:36.031Z",
-    "reportDate": "2026. 8. 10.",
-    "summary": "- 플랫폼 전략 변화: 오픈AI가 챗GPT 무료 사용자에 대해 최신 모델 개방 및 제한 완화 정책을 발표하며 시장 점유율 확대를 꾀하고 있음.\n- 하드웨어 시장 진입: 음성 기반의 인간형 AI 스피커 출시 계획이 발표되면서 AI 기술의 일상 생활 밀착형 인터페이스 확장이 가속화될 전망임.\n- 기술 안전성 및 개발 조정: 차세대 모델 '아스트라'를 포함한 신규 모델 개발을 안전성 검증을 위해 잠정 중단하기로 결정하며, 기술 발전 속도 조절과 윤리적 통제의 중요성이 부각됨.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "오픈AI의 서비스 무료 확대 및 접근성 강화",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 1
-      },
-      {
-        "event": "차세대 AI 모델 개발 잠정 중단",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 4
-      },
-      {
-        "event": "안전성 검증 중심의 개발 기조 변화",
-        "sign": "-",
-        "impact": 2,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "[AI는 지금] 챗GPT 무료 '무제한' 선언…오픈AI, 구독 전략 다시 짠다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aSXBNSHdFWUpZY0hBcS0xaDJiendORjVQMzE0ZnhUU2hBNWhSaklYMUdIZUFtd05JUS1Tb01LbEJhdS1EclRxX2dHbEpFSHMzRjRNMklR?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 01:38:55 GMT",
-        "summary": "오픈AI가 챗GPT 무료 사용자에 대한 정책을 대폭 수정하여 최신 모델에 대한 접근성을 높이고 있다. 이는 사용자를 대거 확보하여 시장 지배력을 공고히 하려는 전략으로 풀이된다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 5
-      },
-      {
-        "title": "챗GPT 무료 이용자에게도 최신 AI모델 개방 - 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBrNDB2TFM4ZGpDZVNRSzd6X0FMdnF0VUFfdjBnZGM1WVVPTWljcjBOSlVNQXpPMkRwRG9IR1FIWjNmZzc0aEdkckdUWjFSX3o1bHRyMTFvY0c3cHdqNzBKOXlVMW5NWTFFRXJJSWFycWNrdkd0eWfSAWZBVV95cUxPdkNvZHFnbW15SzJNZHZlNEk3RWFXa0NRWm55TnQ4TDdmaUd5ZldVdlc5LU01S0xTMENsT1ZUQy1WanRPeGdITXVSV3pCa08tY1U3WE84Yjl6Tml2ME1jV0pjRldfVnc?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 15:30:00 GMT",
-        "summary": "무료 사용자들에게도 상위 AI 모델을 개방함으로써 사용자 경험의 격차를 줄이고 있다. 플랫폼 경쟁력을 강화하기 위한 공격적인 조치로 해석된다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "챗GPT 스피커 내년 출시 전망... 오픈AI \"인간과 소통 가능\" - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSE1ZUmd6ZGQxVXdCWXpYbUdRYk1NbEd5QmJXRi1tNkM2WGw2VGJGbVlvMGt2NkxvWkYxbnRQSGE4UlVWRGpjYVY3WW9FR0JFbDlRV3g1RW14eGZMV2lGVzk3ZjJMVjJuai1UWXRhMEZYcXFuakMzeFNLeFlIMERXSWRUZw?oc=5",
-        "pubDate": "Fri, 07 Aug 2026 15:40:00 GMT",
-        "summary": "오픈AI가 차세대 인공지능 스피커 개발을 본격화하며 내년 출시를 예고했다. 단순 텍스트를 넘어 인간과 자연스럽게 대화하는 하드웨어 시장으로의 확장을 의미한다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      },
-      {
-        "title": "오픈AI, 새 모델 ‘아스트라’ 개발 중단… “통제 벗어나 공격 위험” - 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDbmRYNXU2ZXRlZGJ4VmlKWGlsUGUzb05TcXZCcmV1QVFwaUxPeVlzcjEtYzVVNnNFT2VQQUVSaGhtUl9YSXB2NmxpaDM5ZWxZNEhwcmR3REhFNEUtbDBJLTYxNzlJczFqS2Rpc2J0dk4wTkxZS0HSAWZBVV95cUxOWDV2M0RwcDF2VUwwMTNfWTNaY1pBeDB5cDl3RVE4WkU3VjR3NVVhNHo1UXhlVjd6eWhic0tKamJGUWNldGxfdEFsdVd4T2t0SEd4WWE1R3B6TW9haG1oOG1NNnVrQnc?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 19:30:00 GMT",
-        "summary": "오픈AI가 '아스트라' 등 차세대 모델 개발을 일시 중단했다. 통제 범위를 벗어난 공격적 답변 등 안전성 문제를 우선 해결하겠다는 방침이다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "AI 안전성 확보 때까지…오픈AI “차세대 모델 개발 잠정 중단” - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0UjQtalRaLV9neTJiRm1wdGtlbHEtUXlPZzFXVDB3d2REaDU3Z0FRd3NKR0k5YU02VUR0MlZ4NFJ4dEJJUklNU3hQS3lrckFBdU02X0tqbDc3d9IBX0FVX3lxTE9oaUNlV2hvNTg4SjIyVGVKVWNoNDRiakxld1lfZnJsbzZaeFhpTTVOZzdNcUxTR1JPUmJxNXQwYllFMVhTSE9GUklsZnpYcHk3THRZVk1xRE1BZHhiNGdB?oc=5",
-        "pubDate": "Sun, 09 Aug 2026 11:28:00 GMT",
-        "summary": "차세대 모델 개발 잠정 중단 결정은 업계 전반에 기술 발전 속도보다는 안전성을 우선시해야 한다는 경각심을 주고 있다. 이는 기업들의 AI 윤리 가이드라인 강화로 이어질 가능성이 높다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 1,
-        "investmentImpact": 3
       }
     ]
   }
