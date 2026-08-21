@@ -1,5 +1,78 @@
 [
   {
+    "lastUpdated": "2026-08-21T22:18:04.311Z",
+    "reportDate": "2026. 8. 22.",
+    "summary": "- 카카오의 전략적 인적분할: 카카오가 AI 및 핵심 사업과 미래 투자 사업을 분리하여 전문성을 강화하는 인적분할을 발표하며 체질 개선을 시도함.\n\n- AI 대중화 경쟁 가속화: 구글이 제미나이 무료 혜택 등을 통해 서비스 사용자 저변을 확대하고 AI 생태계 영향력을 공고히 함.\n\n- 빅테크 인재 유출 현상: 구글 등 주요 AI 기업에서 핵심 인재들이 연쇄적으로 이탈하며 AI 시장 경쟁이 인재 확보 중심으로 더욱 치열해지고 있음.",
+    "summaryScore": 82,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "카카오 조직 구조 개편에 따른 경영 효율화",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "글로벌 빅테크 기업 내 주요 AI 인재 이동",
+        "sign": "+",
+        "impact": 6,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "카카오, 두 개의 심장으로 새출발…\"AI 시대 걸맞은 속도낸다\" - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LbHVveERKVE1RNVJWVGo5ZWNrNjVfcjlCZy1HZERWeFpfT0MwdXFOT0oxQ09XQk53Z3hETFRldVl1cVF3YjZZUDlJSXRPTThMajQ0bkhvVWYyWnRuVTVnc19EeFBJbVHSAWxBVV95cUxPZUFhdEFiWjZVRDhod2RPVXVtaFlCYWZnS2ZZMjh0eTZTMGJTNWd0anRLZlFuaF9jbjNSWW00MFdFOFktSlF4MjZMalpIenZiYVl4UU1ORXVpY1dVbTNIejZ1S3BIVU9mM1U4VVg?oc=5",
+        "pubDate": "Fri, 21 Aug 2026 17:37:57 GMT",
+        "summary": "카카오가 AI 시대에 대응하기 위해 조직을 인적분할하여 사업의 효율성을 극대화하고자 함. 카카오톡 및 핵심 AI 사업과 미래 신성장 동력 사업을 분리하여 경영 속도를 높일 계획임.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "카카오 둘로 나눈다…'AI'는 카톡·사업, 'X'는 미래 투자(종합2보) - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92UWEyU21hMGR5WDhqYTZDbGVqVU0tUWJJYjNseDRQVEttSG5EcFBwY3dmSHB5ZUNOam1JYzY5S1V0czlvamZkbU5aSWZVTEE?oc=5",
+        "pubDate": "Fri, 21 Aug 2026 07:48:53 GMT",
+        "summary": "카카오가 기존 사업부와 미래 투자 사업을 두 개의 법인으로 나누는 구조 개편을 단행함. AI 기반의 본업 경쟁력 강화와 신사업 발굴을 동시에 추진하려는 전략적 결정임.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "[속보]카카오, 2개 회사로 쪼개진다···카카오 AI·카카오X로 인적분할 결의 - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXVFAwS1pxRnd2U1E5TmJkYXE1dk5MaW5QeFBZTkdmMTc0YnBLSGNLREhCMWg1YndDV2h4ZEE0MHVDZjJCRlBCMHJzRWFrVnQ2WHpGbGxPR0wwUdIBX0FVX3lxTE1tdTFVekktMFVHR2xTdWdKZjcxVVJ5OE5TMEFFZkphVG1NSXU4QmhwTXZhSThjcV9zdjZ1cWRtZHBIUkRkeGo2MHJ4RzBndEtQRDdKT091eE5tOGpWSUFB?oc=5",
+        "pubDate": "Fri, 21 Aug 2026 01:20:00 GMT",
+        "summary": "카카오가 인적분할을 통해 카카오 AI와 카카오X로 법인을 나누기로 결의함. 이를 통해 AI 기술 혁신과 미래 지향적 사업 투자의 분업 체계를 구축하고 기업 가치를 높이려 함.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "제미나이 1년 무료 혜택과 함께, 알찬 새 학기를 시작해 보세요 - blog.google",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNUtuUldXVHNWZVlnOXRLV290X014X0Qyc1lKT0h0WEJYTDAyM3B3eFU1bkxrQWw0WkQyaDFRNS1TaUwycmtqVFA4MFllN3liWkFFTU1XeFUteUM3Q1l3b3g1aUI3ak1GTVJtRk5iYXJSQVl6TXJ2R1BkZWJQRWF1ZTU5NE5hQU5SbnRmMUxR?oc=5",
+        "pubDate": "Thu, 20 Aug 2026 06:48:32 GMT",
+        "summary": "구글이 새 학기를 맞아 제미나이 서비스 무료 혜택을 제공하며 사용자 경험 확대에 나섬. 교육 현장과 일상 속에서 AI 활용도를 높여 AI 서비스 대중화를 선도하려는 목적임.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "구글에 무슨 일이? '전설급' AI 인재 다 떠난다 [스프] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5lbUR2N1pzMTNBbW1xb0M0WDloOFBLTWttTzFnckRrcDgydFFiYXkyZWRaN21ydm45Y3RjSkhkaXJTQXRYT3c?oc=5",
+        "pubDate": "Fri, 21 Aug 2026 00:03:12 GMT",
+        "summary": "구글 등 빅테크 기업에서 숙련된 AI 핵심 인재들이 대거 이탈하는 현상이 발생함. 이는 AI 시장의 기술 패권 다툼이 인재 확보 전쟁으로 심화되고 있음을 시사함.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-20T22:20:50.265Z",
     "reportDate": "2026. 8. 21.",
     "summary": "- 사용자 접근성 확대: 구글 제미나이와 같은 생성형 AI 서비스가 교육 현장 및 일반 사용자에게 무료 혜택 등을 통해 저변을 빠르게 확대하고 있습니다.\n\n- 반도체 주권 및 생태계 강화: 한국 정부와 AMD가 협력하여 국내 기술센터 설립 및 국산 NPU 실증에 나서는 등 특정 기업의 GPU 독점 구조를 탈피하려는 움직임이 가속화되고 있습니다.\n\n- AI 활용의 양면성: AI를 활용한 고소장 작성 등 업무 효율성 향상 사례가 등장하는 동시에, 이로 인한 법적/윤리적 검증 필요성이 제기되고 있습니다.",
@@ -707,85 +780,6 @@
         "aiImpact": 4,
         "automationPotential": 3,
         "investmentImpact": 5
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-11T22:35:18.211Z",
-    "reportDate": "2026. 8. 12.",
-    "summary": "- AI 검색 서비스 도입과 플랫폼 영향력 확대: 구글의 AI 기반 검색 서비스가 기존 포털의 점유율을 위협하며 사용자의 검색 패턴을 변화시키고 있음.\n\n- 콘텐츠 생태계와의 갈등 심화: AI 검색 엔진이 웹사이트 트래픽을 잠식함에 따라 언론사 및 콘텐츠 제작자들과의 저작권 및 수익 분배 갈등이 본격화됨.\n\n- AI 기술의 이중성과 도입 과제: AI 감시를 회피하는 기술의 출현과 함께, 기업들의 AI 전환(AX) 과정에서 발생하는 전략적 실패 요인에 대한 분석과 성찰이 활발히 논의되고 있음.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 검색 서비스로 인한 언론사 트래픽 급감",
-        "sign": "+",
-        "impact": 6,
-        "newsIndex": 3
-      },
-      {
-        "event": "기업들의 AX 전략 실패 분석 및 변화",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 5
-      },
-      {
-        "event": "AI 감시 회피 기술 등장",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "\"구글 AI가 독자 빼앗아\"…프랑스 언론사들, 경쟁당국에 제소 - yna.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5WZHI1Mk8yeUY3cDB1WnVHRkg2d3pBZ2FzaWxOTGlJVEhEcUtUeXp4eFpPZWVCbFA3UVZGTWxwRm04NGFzZEFZV3JPUnZ5SmhwR3Bmc0xZaDFITzjSAWBBVV95cUxOQWk2Z2g4Smp6bzdjVk1sYWRHdFFvd3NSNWd6d01qZjMwWjl5YnhQSV9iM3p0X3JXTUtMMUl6RDlNM21QT3ZQWXU1SExHaDNsSlh4T2FNMGRDbkVCNEwzUjY?oc=5",
-        "pubDate": "Tue, 11 Aug 2026 15:02:48 GMT",
-        "summary": "프랑스 언론사들이 구글의 AI 검색 서비스가 독자를 가로채고 트래픽을 저하시킨다며 경쟁당국에 제소를 제기했다. AI 기반 검색 모델이 웹 콘텐츠 생태계의 수익 구조에 타격을 주고 있다는 주장이 핵심이다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "‘네이버 아성’ 제동…AI 검색 앞세운 구글, 이용자 첫 추월 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1iS1paeDNRLWNuSW52MDQyR3ZKdnV3WTFhRVYzWElFd3lWWEdKODVCZ3ducHVQVlRDalpBVHZEcFBmUGVXVGFGRHFBdlpyRE0?oc=5",
-        "pubDate": "Tue, 11 Aug 2026 05:24:48 GMT",
-        "summary": "구글이 AI 검색 기능을 앞세워 한국 시장에서 네이버의 이용자 점유율을 처음으로 추월하는 기록을 세웠다. AI 기술 도입이 기존 포털 시장의 판도를 변화시키는 강력한 동력으로 작용하고 있다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 3,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"AI 검색이 독자 다 뺏어가\"⋯프랑스 언론사, 트래픽 급감에 구글 제소 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1OS3ZKc0ZlOXpXYzBhVmZOeUpDUzZkb2Z4UGxYTFFTdjlLTDBFbUo2YVdXWHMySnBtNktiV1NINGR3MzRtTUYtcXVpVUw1VGM?oc=5",
-        "pubDate": "Tue, 11 Aug 2026 22:08:00 GMT",
-        "summary": "AI 검색 결과가 웹사이트로의 유입을 차단하여 언론사의 생존권을 위협하고 있다는 비판이 제기되었다. 이는 AI가 검색 서비스로 진화하며 발생하는 저작권 및 수익성 논란의 단면을 보여준다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "AI 감시에 맞선 인간… AI가 인식 못하는 ‘디지털 투명 망토’ 등장 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRW9wTDRIYkUtMVNpQzJhQ3VsMVNvb1k5eWdKd3FpWDFjenpXajJRNGoyNGVOVU1tQU9ONXVUdm05elJCOXRjUWFzdFdQODNfcE04S0FYZFVTN2dJRWtMNlYtcDBtLW9qc095d24xSFFpWXBWejV2aEhTWGtZejBTLUJDNA?oc=5",
-        "pubDate": "Mon, 10 Aug 2026 15:52:13 GMT",
-        "summary": "AI의 얼굴 인식 및 감시 기술을 회피할 수 있는 '디지털 투명 망토' 기술이 등장했다. AI의 발전과 동시에 이에 대항하거나 프라이버시를 보호하려는 기술적 수요가 증가하고 있음을 시사한다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "[모두의 AI, 엇갈린 AX]②전문가들이 말하는 AX 실패의 원인들 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9maE8yRzhwWDlwaGFlaUUyMWxkTlJJQnpXQ3VyM2JOUzVZTGdNRXpvQ2xrUjFleWlEUVRBZ0s3NVlUcFNJSG5jNnFyNFo5WHc?oc=5",
-        "pubDate": "Tue, 11 Aug 2026 21:31:00 GMT",
-        "summary": "다수의 기업들이 시도한 AI 전환(AX) 사례들을 분석한 결과, 명확한 목표 부재와 기술적 이해 부족 등이 주요 실패 원인으로 지목되었다. 실질적인 성공을 위해 체계적인 조직 변화 전략이 요구된다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 4
       }
     ]
   }
