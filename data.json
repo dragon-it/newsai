@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-22T22:15:20.731Z",
+    "reportDate": "2026. 8. 23.",
+    "summary": "- 반도체 및 하드웨어 생태계 강화: 엔비디아의 국내 NPU 스타트업 리벨리온 인수 협상과 브로드컴의 AI 매출 급성장이 맞물려 AI 인프라 공급망의 핵심 역량이 재편되고 있음.\n\n- 기업의 AI 전환 가속화: 단순 도입을 넘어 실제 업무 효율화 및 AX(AI 전환)를 실현하는 기업들이 경쟁력을 확보하며, 업무 프로세스의 획기적인 단축 사례가 속속 등장하고 있음.\n\n- 인프라 구축의 사회적 갈등: AI 데이터센터 확산에 따른 전력 소모 및 환경적 반발이 미국을 중심으로 사회적 이슈로 떠오르며 지속 가능한 성장이 새로운 과제로 부상함.",
+    "summaryScore": 88,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 업무 자동화 사례 확산",
+        "sign": "+",
+        "impact": 6,
+        "newsIndex": 4
+      },
+      {
+        "event": "AX 생존 전략 강조",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "데이터센터 인프라 갈등",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "엔비디아, 국내 NPU 스타트업 리벨리온과 인수 협상 중 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15a0o4aDdRNGViNlVoMjFDTjJxeEFBSV9nTmJvRmlDUlJGN2MxUTU3NnZjQV9vMDZSbGtfODF1RDd5MEtRd2E3d1JqajJEbkpNUkJ2RERUTVJWOXhjQnh5MDk4b1FLQzBFRlE?oc=5",
+        "pubDate": "Sat, 22 Aug 2026 01:56:13 GMT",
+        "summary": "엔비디아가 한국의 AI 반도체 스타트업 리벨리온 인수를 추진하며 국내 AI 생태계에서의 영향력을 확대하고 있습니다. 글로벌 기업의 한국 기술력 확보 전략으로 평가받습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "[영상] \"보고서에만 AI 쓰는 기업, 결국 뒤처진다\"…포티투마루의 AX 생존법 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XaVJHUHJhV21rR0pfb2dVZnZwdTd0VGtZZkM1TDdoMVdzOGh5M05YeE1LSm94LWtzeC11Mzg5TmlGcGIyaTF0NWt5Z0oyY1Z5TlN6S2l3?oc=5",
+        "pubDate": "Fri, 21 Aug 2026 23:43:55 GMT",
+        "summary": "단순히 보고서 작성 등에 AI를 활용하는 것을 넘어, 비즈니스 프로세스 전반을 AI 중심으로 재편하는 AX 기업만이 생존할 수 있다는 전략이 강조됩니다. 기술 도입을 넘어 실질적인 생산성 혁신이 핵심입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "브로드컴 AI 매출 1160억달러 전망…삼성전자 HBM·파운드리 '기회' - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MRWU4cmp2ZDNHM1ROMjFPTkwxalY4a3RscHNabWtxWThTZkJ1OEZPOEdIZmhhSEZuRjh5cWotbjhHYTczQXlPY1cxcllYVlU?oc=5",
+        "pubDate": "Sat, 22 Aug 2026 21:02:45 GMT",
+        "summary": "브로드컴의 AI 부문 매출이 1160억 달러에 이를 것으로 전망되면서 반도체 업계의 슈퍼 사이클이 지속되고 있습니다. 이는 삼성전자의 HBM 및 파운드리 부문에 새로운 비즈니스 기회로 작용할 전망입니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "\"4시간 작업 40분으로\" NS홈쇼핑 AI 만든 '다른 세계 사람들'[이주의 유통人] - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UWFg3U3l1LVlUY25iNUdtQUJaeDJyS3VKUnhDdUJZRU9oLWZjYjFkeTFUY2RXNE5MZHpXRjVwMDlnOGRpU3h1QXRkRjBrUlYxODM0Wms2V0YtRUFPR1g0M9IBeEFVX3lxTE80ZV9FcExLbi1Tdzg1Y2JiSmhFSlRkT1VhMklCTWdiVnpZS0NnRWR1RVFqVUJ2LWJFc2xLRWY2Znptd3Z3YzZTWFhSVkRPQXBZZ3dQZ0Z6ekNnUi1aZl9BQUN2aHRDRVdMYS1BRUZXeFBMaVBUZEVudg?oc=5",
+        "pubDate": "Sat, 22 Aug 2026 21:00:00 GMT",
+        "summary": "NS홈쇼핑이 AI를 도입하여 기존 4시간 소요되던 업무를 40분으로 단축하는 등 획기적인 효율화를 달성했습니다. 유통업계의 AI 적용이 단순 보조를 넘어 실무 현장의 생산성을 급격히 높이고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 5,
+        "investmentImpact": 3
+      },
+      {
+        "title": "AI가 트럼프 발목잡나?...미국 데이터센터 반발 확산 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUMTNWZTlqVWlqd3JzU0JpTmJpUXA0dXBGOGtXSmJxNmx4WmRaLWNlS1pxZWZNb0R5MEFEdXVLaVNNc2p2am5ueGRJUTVaVV9Jd3BLdGFjTzV6RXhMUlhlNnlnWEpEMTJsTWRvQ2N2bjlXOFB5aGc?oc=5",
+        "pubDate": "Sat, 22 Aug 2026 15:17:00 GMT",
+        "summary": "미국 내 AI 데이터센터 확산으로 인한 전력 소비 및 환경 문제에 대한 지역사회의 반발이 커지고 있습니다. AI 산업의 인프라 구축이 사회적 수용성 문제에 직면하고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-21T22:18:04.311Z",
     "reportDate": "2026. 8. 22.",
     "summary": "- 카카오의 전략적 인적분할: 카카오가 AI 및 핵심 사업과 미래 투자 사업을 분리하여 전문성을 강화하는 인적분할을 발표하며 체질 개선을 시도함.\n\n- AI 대중화 경쟁 가속화: 구글이 제미나이 무료 혜택 등을 통해 서비스 사용자 저변을 확대하고 AI 생태계 영향력을 공고히 함.\n\n- 빅테크 인재 유출 현상: 구글 등 주요 AI 기업에서 핵심 인재들이 연쇄적으로 이탈하며 AI 시장 경쟁이 인재 확보 중심으로 더욱 치열해지고 있음.",
@@ -700,85 +779,6 @@
         "importance": 5,
         "aiImpact": 4,
         "automationPotential": 1,
-        "investmentImpact": 5
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-12T22:34:15.756Z",
-    "reportDate": "2026. 8. 13.",
-    "summary": "- AI 기술의 산업 적용 가속화: 국방 등 특수 분야에서 혁신적인 AI 기술이 개발되고 있으나, 국내 시장의 한계로 인해 해외 진출을 모색하는 사례가 늘고 있음.\n\n- 국가 차원의 AI 체질 개선: 정부가 반도체 및 AI 산업의 장기적인 성장을 위한 체질 개선안을 발표하며 산업 경쟁력 강화에 주력함.\n\n- 시장의 AI 열풍 및 투자 심리 회복: AI 반도체 관련 주식들이 강세를 보이고, 일론 머스크의 AI 기업들이 높은 성장을 예고하면서 투자 시장이 활발한 움직임을 보임.",
-    "summaryScore": 88,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "국내 AI 기술 해외 유출 우려",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "정부 주도 AI 산업 성장 정책",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "AI 기반 기업 가치 급등에 따른 산업 구조 재편",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "기뢰 찾는 AI 신기술, 팔 곳 없어 해외로 간다 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMEFldjNuUEZJS0xnS0RZSEhIUS1Yb2VtZnpaSHJtYnBxOWdHVmFaN2RhSG9fVzNXWmI0WnRHQTZCRVE1WlNYS19DR3hCSW9hcUhXOVlPYVoxTWdvb0hzX3ZRVlVsZDFNVUNhcFo3YWlpZjlFX1g2LWVvSkx4dlY5UF9UZTJpQlJNMkloVVJ4RQ?oc=5",
-        "pubDate": "Wed, 12 Aug 2026 15:54:00 GMT",
-        "summary": "국내에서 개발된 고성능 AI 기뢰 탐지 기술이 국내 수요처를 찾지 못해 해외 수출을 추진하고 있음. 기술력은 충분하나 초기 시장 진입과 국내 국방 프로젝트 연계의 어려움이 과제로 지적됨.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 5,
-        "investmentImpact": 3
-      },
-      {
-        "title": "반도체·AI 처방전 썼던 정부, 20년 성장 책임질 '체질개선안' 내놨다 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00cDduank5djJBN2VxRF8yWTBTT3l0NE5qZWtEbmxsdzd1MjBMSEh2WEJWYVlvbmU0VGpVTDg0Y2hSYV92LVo3SnplX0xpZWt5T0h6WHc1LTJlWE1feFk2RWZSRkJQZ3fSAWxBVV95cUxPMHA0ZjRPbkdTc2tRMmhvZ01zTWxNRVJDc0dtQVN6NlRsY2paaGZueTd4d1FicXh4dERLeUY0VW9zdUp5Y21LbU1IbnpnNFNqQXJxWTBVdzMxOFRCZkdhYXNtM3pUVG9OczBxcmM?oc=5",
-        "pubDate": "Wed, 12 Aug 2026 07:31:46 GMT",
-        "summary": "정부가 향후 20년의 경제 성장을 책임질 반도체와 AI 분야의 체질 개선 대책을 발표함. 연구개발 지원과 산업 생태계 고도화를 통해 글로벌 경쟁력을 확보하겠다는 전략임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "美 AI 반도체주 강세…코어위브 19%·SK하이닉스 9% 급등 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJcGRSWVY4SzFudEhzQ2g3VG84ZWZoRmFMQXFJbzlzNzZxQ192U3FqVWdIQXpfYjhtODVYb2Z5NEs5bllvQUh4QUstNGRzRlU?oc=5",
-        "pubDate": "Wed, 12 Aug 2026 20:44:49 GMT",
-        "summary": "AI 반도체 수요가 폭증하며 코어위브, SK하이닉스 등 주요 관련 기업의 주가가 큰 폭으로 상승함. AI 인프라 구축을 위한 하드웨어 기업에 대한 시장의 신뢰가 증명됨.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "머스크 \"스페이스X 직원이 AI 부모…그록이 생각 물려받을 것\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94R213Vm5YZE14bzJLNHYwa0hUbkc2MzRvQ3FsdlJJSFhKb1ozR3RJUkJVVzdKSUYwTEVzVHI3VTFJQ2hqNXZSdGUwd1RVM0JhanBERHh6dW9xcVnSAWBBVV95cUxPRHE3U042cWRzV2ZHTmpLdHY5Y2ZVY2d5clpFdlhwaS03bnJETmd1QXdYbjE5WHU4MGxKOXFCOEl4cUhaMFJFZWtQbzBQNjVEUUJ4YzJ1NWMwb3BjeDlwZ1M?oc=5",
-        "pubDate": "Wed, 12 Aug 2026 21:29:53 GMT",
-        "summary": "일론 머스크가 스페이스X의 AI 기술 '그록'이 회사의 미래 핵심 자산이 될 것이라고 언급함. AI가 인간의 사고를 학습하고 전승하는 모델이 될 것이라는 비전을 제시함.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "머스크 \"다음달 AI가 우주 매출 넘는다\" 스페이스X 9% 급등 - 마켓인",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE95UmJFaUJVYWhYcm9rcVVKVm05YmFvTXpuVDVjS0ctN2JlT1Y4SEZ0X1B2OW5KQk9lOUNodkF4bVBwLUxfOTdMRU5aQ0tMQzV2YUlpQ1dtRm9TNExEamF6aXp3T2FDeVFPOEdDdDZPclkxcms?oc=5",
-        "pubDate": "Wed, 12 Aug 2026 22:21:54 GMT",
-        "summary": "머스크는 AI 관련 부문의 매출이 곧 우주 관련 매출을 상회할 것이라며 낙관적인 전망을 내놓음. 이에 따라 스페이스X의 기업 가치가 급등하며 AI가 차세대 수익 엔진임을 재확인함.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 3,
         "investmentImpact": 5
       }
     ]
