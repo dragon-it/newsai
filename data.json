@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-25T22:20:08.078Z",
+    "reportDate": "2026. 8. 26.",
+    "summary": "- 서비스 운영 최적화: 오픈AI가 사용자 급증에 따른 서버 부하를 관리하기 위해 무료 및 일반 플러스 이용자에 대한 사용량 제한을 재도입하며 인프라 효율성을 강화하고 있습니다.\n\n- AI 기술 생태계 확장 및 투자: 엔비디아의 개방형 AI 모델 개발 투자와 재계 총수들의 AI 인프라 투자 논의가 활발해지며 산업 전반의 AI 전환이 가속화되고 있습니다.\n\n- 실무 적용 및 인재 육성: 유통업계의 AI 기반 MD 전략 도입과 범국가적인 AI 융합 인재 양성 노력이 병행되며 산업계 전반에 실질적인 AI 활용 사례가 확산되는 추세입니다.",
+    "summaryScore": 82,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "오픈AI 사용 제한 강화",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 1
+      },
+      {
+        "event": "기업 업무의 AI 도입 확대",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      },
+      {
+        "event": "AI 융합 인재 양성 정책",
+        "sign": "-//",
+        "impact": 3,
+        "newsIndex": 3
+      }
+    ],
+    "news": [
+      {
+        "title": "오픈AI, 챗GPT 플러스 '5시간 제한' 부활…프로 요금제는 면제 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XOFhBUjdObTBWYVd1dXU4b094OXRMMll2OG52ZEtDZ0laRW5QQXVKNEJOd1NmUjBLZWtvODl1RUlvMHhxdzRScXdXcWRUejZuS3JvS3VB?oc=5",
+        "pubDate": "Tue, 25 Aug 2026 07:31:03 GMT",
+        "summary": "오픈AI가 챗GPT 플러스 사용자에게 사용량 제한을 재도입했습니다. 이는 급증하는 서버 수요를 관리하고 서비스 안정성을 확보하기 위한 조치로 풀이됩니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "엔비디아, 10조 들여 개방형AI 개발한다 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wbmFubF9FMzRzQzItdG52VHJvcnJkcFYyVTlRY2stSU9lLWE5OTNjb205eGZaR092dmlMM1lselZ6RGpoNFd3dDlPSUtOWWNrbFNjeUNNQVk5MlM2b1BuYkNHMld4U2Ny0gFuQVVfeXFMUDg5NHQzUjBJMExnSGlOc19RMjNpU1g1NGI0YUVwdjdGRTltaDRWWHhZSjg0c20yRV8xUDIyUGhSWHhvQ1NVR0VrbWZkZU9OeGlOVEg0MnZSclRTN3VRWEdmZUxiVGp0OHJkSmpQN2c?oc=5",
+        "pubDate": "Mon, 24 Aug 2026 18:45:00 GMT",
+        "summary": "엔비디아가 약 10조 원 규모의 투자를 통해 자체적인 개방형 AI 모델 개발에 나섭니다. 하드웨어를 넘어 AI 소프트웨어 생태계로 주도권을 확장하려는 전략으로 보입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "[교육이 미래다] 교육·연구·산업 아우르는 AI 융합인재 키운다 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwU1o4WnJXYjdyamJnOW43ck9VYW4xdTdNOWxZNGxoNE5WNzZqNTA3VDZUcm1lZmxOX0xMUGFmYmxtTFRRMmVoQ3dPQTJETU0?oc=5",
+        "pubDate": "Tue, 25 Aug 2026 20:32:33 GMT",
+        "summary": "산업, 교육, 연구 분야를 연계한 AI 융합 인재 양성 프로젝트가 추진됩니다. 국가 경쟁력 확보를 위해 실무형 AI 전문 인력 공급이 가속화될 전망입니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "'넥스트 브랜드' 찾는다…롯데百, AI 활용해 MD전략 수립 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmUzlKNWljQ0dQeXBub1Zmd2tDcTZrdDB4MUFOWDhKdEFab01HajVCNk9BZWUtM1g0N1k4U2Utb1BlcTFFT3FoVC1lSXlxME82SWQtejRoMTNZZUXSAWBBVV95cUxOdUJHdGV3SnJ5OV9uX0d2MkRhb09Wb3pzNmdIUHdGVGd0aXpCZnFOa0hRUVd2WFVZNFZ6R2N4Q21HOFRER2dhUXhLQ01mQ091X0RBb2FuZU9PQjlZZnJVMEY?oc=5",
+        "pubDate": "Tue, 25 Aug 2026 21:00:07 GMT",
+        "summary": "롯데백화점이 AI 기술을 활용해 유망 브랜드를 발굴하고 MD 전략을 수립합니다. 데이터 기반의 의사결정을 통해 리테일 산업의 자동화와 효율화가 진행되고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "李대통령·재계총수 연쇄회동…AI투자·대미통상 현안 조율할듯 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fcTFuWEhLSXhGSi0tcFAwTE5RUUtzcWVRRGlkV01wNVVNVGs5VC1MWnlVcDVFR1JkMThfMmdlRmhQTmJsVFRmRjR3azJZbDhyYWc?oc=5",
+        "pubDate": "Tue, 25 Aug 2026 21:03:00 GMT",
+        "summary": "정부와 재계 총수들이 연쇄 회동을 통해 AI 투자 및 대미 통상 현안을 논의합니다. 국가 차원의 AI 인프라 구축과 전략적 산업 육성을 위한 의지로 해석됩니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-24T22:19:55.814Z",
     "reportDate": "2026. 8. 25.",
     "summary": "- AI 모델 선택 기준의 변화: 기업들이 단순 성능을 넘어 비용 대비 효율성(가성비)을 중시하는 실용적인 모델 선택 전략으로 전환하고 있음.\n\n- 인간과 AI의 협업 체계 정착: 콘텐츠 모니터링 등 주요 현장에서 AI가 일차적 필터링을 수행하고 사람이 최종 판단하는 하이브리드 운영 방식이 확산됨.\n\n- 공공 및 사회적 AI 인프라 강화: 공공 부문의 AI 전환이 가속화되며 보안과 업무 효율성을 동시에 확보하려는 움직임이 활발해지고 있음.",
@@ -701,85 +780,6 @@
         "aiImpact": 3,
         "automationPotential": 4,
         "investmentImpact": 2
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-15T22:15:10.840Z",
-    "reportDate": "2026. 8. 16.",
-    "summary": "- 인프라 자본 지출 조정: 엔비디아가 오픈AI 관련 데이터센터 채무 보증 규모를 대폭 축소하며 AI 투자 효율성과 리스크 관리가 강조되는 추세입니다.\n\n- 국내 생태계 육성: 대규모 AI 데이터센터 구축 과정에서 국내 소부장 기업들의 참여를 확대하여 국가 차원의 기술 자립도를 높이고 생태계를 강화하려는 움직임이 뚜렷합니다.\n\n- AI 기술의 본질적 고민 및 고용 시장의 변화: 센티언트 AI의 윤리적 질문이 제기되는 가운데, 기업 현장에서는 AI 도입에 따른 효율화의 일환으로 신입 채용 축소 등 고용 시장의 구조적 변화가 실현되고 있습니다.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 도입으로 인한 효율화 및 신입 채용 축소",
-        "sign": "+",
-        "impact": 8,
-        "newsIndex": 5
-      },
-      {
-        "event": "데이터센터 투자 전략 수정 및 효율성 중심 재편",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "정부 주도 AI 소부장 생태계 지원 확대",
-        "sign": " - ",
-        "impact": 3,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "엔비디아, 오픈AI 데이터센터 ‘채무 보증’ 절반 축소 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZUU1WkdSb3JwYjJYTnJuRHdBQ1c2NnFvai1VRGNJNEM3cFlkTHBBY0RZaFoxUy1Jb2lMcFhERUNVb1BxWTNrOFY2NEV4Vm4xMW1RX0dyV3pVdVp5aGRwTkxKd3daYjZkTVppWnU5ZVk3WGhINjMyVV91RklPVy15SXFQZw?oc=5",
-        "pubDate": "Sat, 15 Aug 2026 05:10:48 GMT",
-        "summary": "엔비디아가 오픈AI와 관련된 데이터센터 채무 보증 규모를 절반으로 줄였습니다. 이는 AI 인프라 투자에 대한 전략적 조정이 시작되었음을 시사합니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "엔비디아, 오픈AI 데이터센터 '채무 보증' 반토막 축소 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ma1p4d3dHMDRXVDdxLUdleXNHUTE3MTdlQjEzMVRkNS03eWR3R1lTTEJjOW9wZWNZaGpQTy10ZGNlMDlwVHUxREdxWDZMSTU4amNtN0pHMFUxdTjSAWBBVV95cUxQOGJPb0NTMk9SaGZhM2JQRlpZdFZoQ1I5UHpuLURfYU5CUHlheWVrSVZCTjRoMF96NnY3NGNIZzlkaE9WTUU1QllKdi1tR19DVDdxOU9vWWgwQ3F5bUM0WFQ?oc=5",
-        "pubDate": "Sat, 15 Aug 2026 02:30:28 GMT",
-        "summary": "엔비디아의 오픈AI 데이터센터 보증 축소 소식이 구체화하며 시장의 관심을 받고 있습니다. 인프라 구축 속도 조절이 향후 AI 산업의 자본 흐름에 미칠 영향이 주목됩니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "AI 데이터센터 메가프로젝트에 中企 참여 확대…K-소부장 키운다 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pQndhenNHeDdpSGhLaEc1ZTRZTFBvalRKUDltYk5peDNLakEzNmwtV24zRDBFZExqZUswZmdDaDBTYmpkbklMbHNZMThvd3M?oc=5",
-        "pubDate": "Sat, 15 Aug 2026 21:21:34 GMT",
-        "summary": "정부가 AI 데이터센터 메가프로젝트에 국내 소부장 기업 참여를 확대하기로 했습니다. 이를 통해 AI 관련 산업의 국산화 및 생태계 경쟁력 강화가 기대됩니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[기고] AI는 정말 ‘느끼기’ 시작했을까…센티언트 AI가 던지는 위험하고도 중요한 질문 - weekly.khan.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE01WlptYjc3NUtDUjZ4Y0NkSEFFUTZTRjhZM0JjZWZLR3BpS2tkX3JzUmtFQldaeUFvaVdsTW1aa1Mza2Q5OHVsUTgxbGZYVC1maHg4UXdnVmcyUFVrWWc?oc=5",
-        "pubDate": "Fri, 14 Aug 2026 21:00:00 GMT",
-        "summary": "AI가 인간처럼 감정을 느끼고 자각하는 센티언트 AI에 대한 기술적, 윤리적 논의가 활발합니다. 기술의 발전이 인류에게 던지는 실존적 위험에 대한 성찰을 촉구합니다.",
-        "importance": 3,
-        "aiImpact": 5,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "[만나보니] 블라인드 대표 \"AI발 효율화, 신입채용 축소로 먼저 나타나\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1Ma1VHSUtiNm4wc0xWc2tGS21lQWNjYm5wdHQzcWJRdWlDV2xGTGVpOUpENG1fWnJuUExPWmE1TDdlNnNKV3pkYTZuYVhtakU?oc=5",
-        "pubDate": "Sat, 15 Aug 2026 22:02:00 GMT",
-        "summary": "블라인드 대표가 AI 도입에 따른 효율화가 초기에는 신입 채용 축소로 나타나고 있다고 진단했습니다. 고용 시장에서 AI 기술이 미치는 직접적인 영향력이 실체화되고 있습니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 5,
-        "investmentImpact": 3
       }
     ]
   }
