@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-27T02:48:05.432Z",
+    "reportDate": "2026. 8. 27.",
+    "summary": "- AI 기술의 실생활 침투 가속화: AI 안경 등 웨어러블 기기 확산에 따른 사생활 보호 이슈가 부각되고 있습니다.\n\n- 반도체 산업의 강력한 성장세: 엔비디아의 어닝 서프라이즈로 촉발된 AI 반도체 수요 폭발이 글로벌 시장을 주도하고 있습니다.\n\n- 국가 및 지역 단위의 AI 격차 해소 노력: 공공기관과 대학 등이 협력하여 지역 AI 격차를 줄이고 대중적 이해도를 높이기 위한 정책적 움직임이 활발합니다.\n\n- 기업 간 전략적 제휴 활성화: 네이버와 LG가 협력하여 국가 보안 AI를 개발하는 등 기술 경쟁력 강화를 위한 연합이 가시화되고 있습니다.",
+    "summaryScore": 88,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "네이버-LG 국가 보안 AI 공동 개발",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 5
+      },
+      {
+        "event": "엔비디아 성장에 따른 AI 반도체 인력 수요 증가",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 2
+      },
+      {
+        "event": "지역 AI 격차 해소 및 AI 기본사회 교육 강화",
+        "sign": "-",
+        "impact": 3,
+        "newsIndex": 3
+      }
+    ],
+    "news": [
+      {
+        "title": "표시등 가리고 찰칵… ‘AI 안경’ 사생활 무법지대되나 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONlN3cTZhUlg3VTJJTjVTSkRtZml4SWpmT09RMklPSTdxQWItWEF2blB2NHF1S3R4emIweS1lbVNHQ3BoRV9jNDBuUm5jNmJKX1c5bTlGalplXzVjUnlPRU14eHNvWnpUTDQ2ZkRUcUw0UkJia21IOWg4NzF0LVZWRkJ2MA?oc=5",
+        "pubDate": "Wed, 26 Aug 2026 22:14:07 GMT",
+        "summary": "AI 안경 등 웨어러블 AI 기기의 보급이 늘어나면서 촬영 기능으로 인한 사생활 침해 논란이 가중되고 있습니다. 제도적 뒷받침과 윤리 가이드라인 마련이 시급한 상황입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "엔비디아, AI 타고 또 ‘어닝 서프라이즈’…주가도 급등, 삼전닉스 주목 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xcGZfck9rd0taZ2RiNU5vdlU0Wk03eHYtWGhiVTBWTXphZlI0NFdhXzktMWQ0Q2VVNDRnaEhVbW9rYV9wRkZhVlVXLTNTX1E?oc=5",
+        "pubDate": "Wed, 26 Aug 2026 20:43:07 GMT",
+        "summary": "엔비디아가 AI 열풍에 힘입어 다시 한번 시장 예상을 뛰어넘는 실적을 기록하며 주가가 급등했습니다. 국내 삼성전자와 SK하이닉스 등 반도체 기업들에 미칠 긍정적 영향이 주목받고 있습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "제주기자협회-제주대, AI시대 '지역 AI 격차 해소' 맞손 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZSkVNQzFWcnM4N3djazZ0MnYyRS1tZElUaHM0eF96UWU1aDg5VlNITkR5bDZhWkxsWUxlM1hvcUEzaUhHbnRFaDFzQUlkcjQ?oc=5",
+        "pubDate": "Thu, 27 Aug 2026 02:06:01 GMT",
+        "summary": "제주기자협회와 제주대학교가 지역 내 AI 격차를 해소하기 위해 업무 협약을 체결했습니다. 디지털 소외 계층을 줄이고 지역 산업 발전을 도모하려는 움직임입니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "경기연구원 “도민 95%, ‘AI 기본사회’ 개념 몰라···통합 브랜드·로드맵 제시 주문 - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaYXBKZDRJUDVUS29VM0pKRFZXaW9QYi1TSEFoWHJuUGVlV0tHQUpWczRya083U2xBVVJxb21oczFJWmkxc2lMOEhvcWRMUHNXMkpfVDdlVi1CUdIBX0FVX3lxTE11djhYOE1tc3NNS3V0azNXM0pMZ2lmRGNBeTFfbnYxTV8yT3E4RHVCUDBCelk0cGROeDhyQ1U4ZmhVXzdnUzU3SGQ2VlNZY1lPaHR2XzhIZW5KZXZlcVhv?oc=5",
+        "pubDate": "Thu, 27 Aug 2026 01:56:00 GMT",
+        "summary": "도민의 대다수가 'AI 기본사회'에 대한 개념을 이해하지 못하고 있다는 조사 결과가 나왔습니다. 이에 경기연구원은 정책 통합 브랜드 개발과 로드맵 제시를 통해 AI 대중화에 나설 것을 주문했습니다.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "네이버·LG 손잡았다…'국가 보안 AI' 전격 개발 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56VjhBdlVrNjN5aTM3aGVDdTdXamQ5Rmh2WGdScUFta3JYdEx5dDJTZTJTTFRXc2toaFkzblh2dzJfZ2x2dTEyX0QtbGNPMEl5YzBLRVVId29Qb0JIWlBtTXN0VzVkNFXSAWxBVV95cUxPMUE2SXF4cFNKVEl3cTU3Y1BCTWtzcGRPTHJoVnhuelpGR2NQMm1peFdZeE9tdUh0RUZ2MVdmRFF3dXRxSFlWODNvdTR2ei1YWlFCTG56TjdYdkdCcWZhRmFOYlYzSG95Vlp5aDQ?oc=5",
+        "pubDate": "Thu, 27 Aug 2026 01:37:51 GMT",
+        "summary": "네이버와 LG가 손잡고 국가 보안 인프라를 위한 독자적인 AI 기술을 개발합니다. 공공 보안 및 국가 기술 주권 확보를 위한 대형 기업 간 전략적 제휴 사례입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-25T22:20:08.078Z",
     "reportDate": "2026. 8. 26.",
     "summary": "- 서비스 운영 최적화: 오픈AI가 사용자 급증에 따른 서버 부하를 관리하기 위해 무료 및 일반 플러스 이용자에 대한 사용량 제한을 재도입하며 인프라 효율성을 강화하고 있습니다.\n\n- AI 기술 생태계 확장 및 투자: 엔비디아의 개방형 AI 모델 개발 투자와 재계 총수들의 AI 인프라 투자 논의가 활발해지며 산업 전반의 AI 전환이 가속화되고 있습니다.\n\n- 실무 적용 및 인재 육성: 유통업계의 AI 기반 MD 전략 도입과 범국가적인 AI 융합 인재 양성 노력이 병행되며 산업계 전반에 실질적인 AI 활용 사례가 확산되는 추세입니다.",
@@ -701,85 +780,6 @@
         "aiImpact": 2,
         "automationPotential": 5,
         "investmentImpact": 1
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-16T22:14:31.877Z",
-    "reportDate": "2026. 8. 17.",
-    "summary": "- AI 기술 경쟁의 지정학적 갈등 심화: 미국이 중국의 AI 기술 성장을 견제하기 위해 한국 등 35개국을 대상으로 동맹 기반의 공급망 차단을 강화하고 있습니다. \n\n- 기업의 전략적 대응: 애플과 같은 글로벌 기업들은 중국 시장의 특수성을 고려하여 현지화된 AI 개발을 추진하는 등 미·중 갈등 속에서 생존 전략을 모색하고 있습니다. \n\n- 사회적 파급 효과: AI 기술이 정치 홍보 등 사회 영역에 빠르게 침투하면서 콘텐츠의 진위 여부와 정치적 편향성 등 새로운 부작용과 그늘이 나타나고 있습니다.",
-    "summaryScore": 88,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "미·중 AI 공급망 제재 강화",
-        "sign": "+",
-        "impact": 6,
-        "newsIndex": 2
-      },
-      {
-        "event": "기술 제재로 인한 국내 관련 산업 위축 우려",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 4
-      },
-      {
-        "event": "AI 정치 콘텐츠 확산에 따른 규제 논의",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "애플, 美정책에 반기들고 中전용 AI 개발 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tdWFYdmhlMDE1U3FSNWlkbnlxQjMtVkt4M19RVDNOM0ZEbWw4MXgxVHZxeE1jY1RHY1gxcnlDcFplTk5XUVVPYWJORHNnM1E?oc=5",
-        "pubDate": "Sun, 16 Aug 2026 08:54:16 GMT",
-        "summary": "애플이 미국 정부의 대중국 제재 기조와 달리 중국 시장 점유율 유지를 위해 현지 전용 AI 기술 개발을 추진하고 있습니다. 이는 글로벌 기업들이 미·중 지정학적 갈등 사이에서 독자적인 생존 전략을 구축해야 함을 시사합니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "미, 한국 등 35개국에 경고…\"중국 AI 손잡으면 미국 연합서 제외\" - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ndGFEemt6dWJjc2I5dmozU2xvY2xHTXJoYnBMSVpvZHdUYVlTNk00VEhFXzZjbGtSX29pVEN0V1ljNHBjUFp0Y0RlMFdfa0pleFVGdFpSUUFtcWhkaTUxUVhBMGI0bXhs0gFuQVVfeXFMTklyREZqdGlYc1VZSExnV0R3bG02WkFJVW1COVYwX0JhM2U0Sno4UUtWQUFCc2Z3YUZjcGExaEljbUdBSGZqdjgwRnNiaTd5dUFfRnBLdlNqOGNtNWZhYTFkY3NzaHFObVZoSzBwSXc?oc=5",
-        "pubDate": "Sun, 16 Aug 2026 01:00:29 GMT",
-        "summary": "미국 정부가 한국을 포함한 35개국에 중국 AI 기술과의 협력 단절을 경고하며 연합 전선을 강화하고 있습니다. 중국 기술 생태계와의 연결을 끊을 것을 요구함에 따라 글로벌 AI 공급망의 재편이 불가피해 보입니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "美 “중국 AI에 동참하지 말라”… 한국 등 35개국에 경고 - 서울신문",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQkxadWV1ek13Vkh5Q0xNbTMwRGhzWjdkaHpvdFpwQTBabjg5S01Rdm8wTWJ1c211Sy1fZHFnSllQQXNZVjhhcFB3aFVtR2lFYUViY1E0ckFXSFN3V0JDWXNQSVJuQUNDSjZ2X0hTV3YxS1M4ang0UXI5UG5nU3U4R09xVHBzUQ?oc=5",
-        "pubDate": "Sun, 16 Aug 2026 15:42:14 GMT",
-        "summary": "미국의 대중국 AI 제재가 전방위적으로 확대되면서 동맹국들에 대한 압박 수위가 높아지고 있습니다. 기술적 독립성 확보와 외교적 선택 사이에서 국가와 기업의 고민이 깊어지고 있습니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "미·중 정상회담 코앞인데 ‘AI·드론·로봇’ 대중 제재 강화 트럼프···“미국 측 회담 총괄 책임자도 없어” - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10cHkzMHdhYURWYWMzTWRRa1dvSGVYOFExSENKSzVfUlVibXlkcVBMR3QtaEowUF9UVVh1aFZ0Wk94cmUyMDlXRDV6R29rd2pCejBGdTdZcDFXQdIBX0FVX3lxTFBadWQxbUpuQmtrTFpWNlduNFl5Rkhkc0l0R0VxcWFlV1RJSHJMa3BkS1BSM1NPNFA1Vnh6VjdqTVV2TjRIaTdfRlNXYWotS3N0d25OSWRxQkZnNzNIVFZV?oc=5",
-        "pubDate": "Sun, 16 Aug 2026 04:07:00 GMT",
-        "summary": "트럼프 행정부의 AI 및 첨단 산업 제재 기조가 강화되는 가운데, 미·중 정상회담을 앞두고 불확실성이 커지고 있습니다. 책임자 공백과 함께 정책의 불확실성이 시장의 불안 요인으로 작용하고 있습니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "누구나 정치 홍보 전문가가 된 시대…AI가 바꾼 한국 정치의 그늘 - 주간경향",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VUW15S3hVZkI2c1lkNDlTbE5JdWMxOUYyLVB3WTFiZUNUWVA3UWxmVmlCd1dzZE1Id3ZNOXJGZlgwNVh2T2d5d25TUUEwaXRlbEU3S2NSa0FZZmxRelE?oc=5",
-        "pubDate": "Sun, 16 Aug 2026 21:00:00 GMT",
-        "summary": "AI를 활용한 정치 홍보 콘텐츠가 급증하면서 정치적 왜곡 및 신뢰성 문제가 부각되고 있습니다. 기술의 대중화가 민주주의 과정에 미치는 그림자와 이에 따른 규제의 필요성이 강조되고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 2
       }
     ]
   }
