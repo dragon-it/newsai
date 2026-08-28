@@ -1,82 +1,82 @@
 [
   {
-    "lastUpdated": "2026-08-28T07:45:57.882Z",
+    "lastUpdated": "2026-08-28T08:40:57.644Z",
     "reportDate": "2026. 8. 28.",
-    "summary": "- 공공 AI 생태계 구축: SKT, 카카오, KT가 정부 주도 '모두의 AI' 사업자로 선정되어 전국민 대상 AI 서비스 개발에 착수했습니다.\n\n- GPU 기반 인프라 확충: 엔비디아의 핵심 GPU 지원을 바탕으로 국내 통신 및 플랫폼 기업들이 대규모 AI 학습 환경을 조성합니다.\n\n- AI 생태계 수직통합: 엔비디아의 허깅페이스 인수 등 글로벌 빅테크의 공격적인 생태계 장악으로 AI 기술의 통합 속도가 빨라지고 있습니다.",
-    "summaryScore": 92,
-    "dailyVelocity": 1.2,
-    "velocityReason": "정부 주도의 대규모 AI 사업 추진과 엔비디아발 생태계 확장이 AI 인프라 고도화를 앞당기며 자동화 기반을 강화함.",
-    "cumulativeRiskScore": 100,
-    "jobRiskScore": 100,
+    "summary": "- 정부 주도 AI 서비스 확산: SKT, 카카오, KT가 '전 국민 무료 AI' 사업자로 선정되어 AI 대중화와 접근성 향상이 본격화됨.\n\n- 신약 개발 분야 기술 도약: 국내 독자 AI 모델 'K-Fold'가 알파폴드3의 성능을 일부 상회하며 바이오-AI 산업의 경쟁력을 강화함.\n\n- AI 생성 콘텐츠 오남용 우려: 공신력 있는 언론 보도에 AI 생성 이미지가 혼용되는 사례가 발견되어, 콘텐츠 신뢰성 확보 및 팩트체크의 중요성이 대두됨.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.3,
+    "velocityReason": "정부 주도의 AI 대중화 사업 확정과 바이오 AI 기술 혁신이 확인되었으나, 일자리 급변보다는 산업 적용 범위 확대에 초점이 맞춰져 있음.",
+    "cumulativeRiskScore": 51.3,
+    "jobRiskScore": 51.3,
     "riskScoreBreakdown": [
       {
-        "event": "정부 주도 AI 사업자 선정 및 기술 집중화",
+        "event": "정부 주도 전국민 AI 서비스 도입",
         "sign": "+",
-        "impact": 4,
+        "impact": 2,
         "newsIndex": 1
       },
       {
-        "event": "엔비디아의 허깅페이스 인수를 통한 수직통합",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 4
-      },
-      {
-        "event": "AI 산업 급성장에 따른 공공/민간 자동화 인프라 강화",
+        "event": "K-Fold 신약 개발 AI 성능 우위 확인",
         "sign": "+",
         "impact": 3,
-        "newsIndex": null
+        "newsIndex": 5
+      },
+      {
+        "event": "AI 생성 이미지 오용 사례 증가",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 4
       }
     ],
     "news": [
       {
-        "title": "모두의 AI 사업자에 SKT·카카오·KT 선정…엔비디아 GPU 지원 - JTBC",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zV19HdEc1cmgxQklCUHNLSVRtLW9FTFNYYjVSbTNkejVULWRmOGVaREdNNkdsdjdwSDl1Q2IwSFIzX1MxXzdXM1ZqOWluajVfc3VZOA?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 00:33:00 GMT",
-        "summary": "SKT, 카카오, KT가 정부의 '모두의 AI' 프로젝트 사업자로 선정되었습니다. 엔비디아의 GPU 인프라를 활용하여 전 국민이 이용 가능한 혁신적인 AI 서비스를 구축할 예정입니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
+        "title": "\"전 국민 무료 AI\" 사업자에 SKT·카카오·KT 선정 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRlNmVlpIZU9sS0tVV3g2cmhiaF9GLVhlTTdMSUlqUjlKQXZ2VFJfQkhnd1pLbXZIQlhDTW0xRkw4VU0wNjlXcGRGc0g2VThEa09YSDM3THlwbTNGOGRiMHIzVjJ1VU9fN29xWmxVUUFDS3BTLXI1WS15WHZWWGZ5OTFxQQ?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 06:48:00 GMT",
+        "summary": "SKT, 카카오, KT가 정부 추진 '전 국민 AI 서비스' 사업자로 선정되었습니다. 공공 영역에서의 AI 접근성을 대폭 높이는 데 기여할 것으로 보입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
       },
       {
         "title": "SKT·카카오·KT, ‘모두의 AI’ 사업자 선정…전 국민 무료 AI 만든다 - 경향신문",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GN2lNM3RISDBGSjF6Q2JERkJub2ltZFhQd1UxWFRzOFR2QkYyc1JkNkhZTE5QQ0tlUlpWeXdTMEp2ZUNhdHp0QW04RkZRZ2dlUmFfREhjVWpWd9IBX0FVX3lxTE1ObWRWTUg2NEZabm1oUkgtR2dGMk5hZzVvTWNhd1RrUU5oS2w2SFpyd1BybnVpS2ZfVnYzVHJSM0JReU1tYTN6cGhmb1pkQVNwY3VxcmItalBOSXVCVEhF?oc=5",
         "pubDate": "Fri, 28 Aug 2026 07:01:00 GMT",
-        "summary": "정부와 주요 기업들이 협력하여 전 국민 무료 AI 서비스를 추진합니다. 국민 생활 편의성을 높이는 동시에 국내 AI 기술력을 공공 영역으로 빠르게 확산시킬 계획입니다.",
+        "summary": "SKT, 카카오, KT 컨소시엄이 모두의 AI 사업자로 확정되며 AI 서비스 인프라 구축을 맡게 되었습니다. 전국적인 AI 도입을 통해 국민 편익 증진을 목표로 합니다.",
         "importance": 4,
         "aiImpact": 4,
-        "automationPotential": 3,
+        "automationPotential": 2,
         "investmentImpact": 4
       },
       {
-        "title": "SKT는 '행동형 비서', 카카오는 '카톡', KT는 '다음'…'모두의 AI' 3사 전략은 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FVWtLdTZNbHpFbDNiRGZZYWRtZ3JxbHUtYmxxQnJITHliTHFXeXBtMXlpaG8tZjZVZFNlZVRoYUw1Z3hBR29qRndLemtjbG5kcnR2TmJLZXlLSmZoYk41WlcwT01PTUFtVmc?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 06:49:08 GMT",
-        "summary": "통신 3사가 각기 다른 차별화 전략을 제시하며 AI 시장 공략에 나섭니다. SKT는 행동형 에이전트, 카카오는 메신저 연동, KT는 정보 서비스 강화에 초점을 맞추고 있습니다.",
+        "title": "'독파모 평가 1위' 이어 '모두의 AI'까지…SKT, 정부 AI 사업서 '존재감' - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfa0dNeHRHSUJTdWota2VLT3FaeVUtdzlVX1B3NXdWa1dQT3J6UnBjUDJhTFFoT0pETHotejJMOVlsVXVMR2prZWpOWnN0b2c?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 06:46:00 GMT",
+        "summary": "SKT가 독파모 평가 1위에 이어 정부 대규모 AI 프로젝트를 잇달아 수주하며 입지를 다지고 있습니다. 통신사의 AI 역량이 국가 디지털 혁신 동력으로 활용되는 모습입니다.",
         "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
         "investmentImpact": 4
       },
       {
-        "title": "엔비디아, '오픈소스' 허깅페이스 18조에 인수...AI 생태계 수직통합 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBma0NJSm9QRGw3bzlyNWFzTXg4ZHRVM05FejJIdnd6VVI5QWVPSTBwV1dhTnpWQkFEUkRuQncwek02dlRlTWVISXhJZWFMcGV1YjQ1NF9uVVF2d2Q4OURMWGN4ZGZsUjVoX2c?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 09:05:53 GMT",
-        "summary": "엔비디아가 오픈소스 AI 생태계의 중심인 허깅페이스를 18조 원에 인수했습니다. 이를 통해 AI 모델 개발부터 배포까지 이어지는 수직통합 환경을 더욱 강력하게 구축하게 되었습니다.",
+        "title": "KBS도 보도한 네팔 홍수 전·후 사진, AI 생성 가능성 커 [오마이팩트] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GU2dzaVdRMFRiZVhOVjRCb0l2WXlyY1NxUncwVWxkaVVYS3RGbUtrWWhWd0pQZXBkWWUwbFdNMk43dmxSMkZ0YzFtUDZFblU?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 02:52:51 GMT",
+        "summary": "네팔 홍수 관련 보도 사진 중 일부가 생성형 AI로 제작되었을 가능성이 제기되었습니다. AI 기술의 확산과 함께 정보의 진위 확인에 대한 언론계의 경각심이 높아졌습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "국산 신약 개발 AI 'K-Fold' 공개…일부 성능 '알파폴드3' 앞섰다 - DongA Science",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zSXQxdmkwTmdfNTJIRFJBSjBYSUZRR2M1Q0tscDBDcDFWenFVRUN6d2l1cDhjVVdqT19WMk93TGlyRE1ENHFWZmlXUFlKSHFpUE1yVQ?oc=5",
+        "pubDate": "Thu, 27 Aug 2026 23:48:00 GMT",
+        "summary": "국산 신약 개발 AI 'K-Fold'가 공개되었으며, 특정 성능 지표에서 구글의 알파폴드3를 능가하는 성과를 보였습니다. 제약 및 바이오 산업의 AI 도입 속도가 더욱 가속화될 전망입니다.",
         "importance": 5,
         "aiImpact": 5,
         "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "엔비디아 2분기 매출 133조…젠슨 황 “AI는 지금 황금기” - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1N3NBeXhDOTNXamljOTQxQ3dqVWp6ZW1tbU5Ob09FWEVITlhQdHlGQ1pLVnNpdW00TGJVQmRMVlQweVU4V3phTXZ0bFF0SDFtZnlia0xoVjRLZ9IBX0FVX3lxTE0zM2s3bjJobFFVaU81M1VXcW4xM3Zocy1YWUdXUVYyVzdBaTcyWXVqQkdDbXBTZHdRa1VDUTBwSUR2QU9qcVdPRGRuUGlqZlBjTnRBSjFXUFU1SWRTTlM4?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 11:22:00 GMT",
-        "summary": "엔비디아가 2분기 매출 133조 원을 기록하며 시장 기대치를 상회하는 실적을 보였습니다. 젠슨 황 CEO는 현재 AI 산업이 전례 없는 황금기를 맞이했다고 강조했습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 3,
         "investmentImpact": 5
       }
     ]
@@ -86,7 +86,7 @@
     "reportDate": "2026. 8. 27.",
     "summary": "- AI 기술의 실생활 침투 가속화: AI 안경 등 웨어러블 기기 확산에 따른 사생활 보호 이슈가 부각되고 있습니다.\n\n- 반도체 산업의 강력한 성장세: 엔비디아의 어닝 서프라이즈로 촉발된 AI 반도체 수요 폭발이 글로벌 시장을 주도하고 있습니다.\n\n- 국가 및 지역 단위의 AI 격차 해소 노력: 공공기관과 대학 등이 협력하여 지역 AI 격차를 줄이고 대중적 이해도를 높이기 위한 정책적 움직임이 활발합니다.\n\n- 기업 간 전략적 제휴 활성화: 네이버와 LG가 협력하여 국가 보안 AI를 개발하는 등 기술 경쟁력 강화를 위한 연합이 가시화되고 있습니다.",
     "summaryScore": 88,
-    "jobRiskScore": 100,
+    "jobRiskScore": 51.3,
     "riskScoreBreakdown": [
       {
         "event": "네이버-LG 국가 보안 AI 공동 개발",
@@ -159,16 +159,16 @@
         "investmentImpact": 4
       }
     ],
-    "cumulativeRiskScore": 100,
-    "dailyVelocity": 1,
-    "velocityReason": "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다."
+    "cumulativeRiskScore": 51.3,
+    "dailyVelocity": 2.5,
+    "velocityReason": "네이버-LG 보안 AI 공동 개발 및 엔비디아 어닝 서프라이즈로 기술 생태계 확장 가속화."
   },
   {
     "lastUpdated": "2026-08-25T22:20:08.078Z",
     "reportDate": "2026. 8. 26.",
     "summary": "- 서비스 운영 최적화: 오픈AI가 사용자 급증에 따른 서버 부하를 관리하기 위해 무료 및 일반 플러스 이용자에 대한 사용량 제한을 재도입하며 인프라 효율성을 강화하고 있습니다.\n\n- AI 기술 생태계 확장 및 투자: 엔비디아의 개방형 AI 모델 개발 투자와 재계 총수들의 AI 인프라 투자 논의가 활발해지며 산업 전반의 AI 전환이 가속화되고 있습니다.\n\n- 실무 적용 및 인재 육성: 유통업계의 AI 기반 MD 전략 도입과 범국가적인 AI 융합 인재 양성 노력이 병행되며 산업계 전반에 실질적인 AI 활용 사례가 확산되는 추세입니다.",
     "summaryScore": 82,
-    "jobRiskScore": 100,
+    "jobRiskScore": 51,
     "riskScoreBreakdown": [
       {
         "event": "오픈AI 사용 제한 강화",
@@ -241,8 +241,8 @@
         "investmentImpact": 5
       }
     ],
-    "cumulativeRiskScore": 100,
-    "dailyVelocity": 1,
+    "cumulativeRiskScore": 51,
+    "dailyVelocity": 1.8,
     "velocityReason": "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다."
   },
   {
