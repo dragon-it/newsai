@@ -53,6 +53,18 @@
   - [x] 누적 위험 지수 연산과 과거 data.json 마이그레이션이 성공적으로 처리되었는가 (50.0 베이스라인)
   - [x] 대시보드 UI 빌드(`npm run build`)가 0 Error로 정상 통과하였는가
 
+### 2026-08-10 이원화 지표 모델(누적 위험 지수 + 일일 가속도) 구축 및 베이스라인 50점 정밀 조정
+
+- **검토 대상**: `src/services/summarizeNews.js`, `src/formatters/generateJson.js`, `src/index.js`, `test/test-pipeline.js`, `dashboard/src/App.jsx`, `dashboard/src/App.css`, `data.json`
+- **구현 내용**:
+  - **LLM 가속도 지표 산출**: `summarizeNews.js`에 `dailyVelocity`(-3.0 ~ +8.0) 및 `velocityReason` 필드를 도입하고, 당일 뉴스의 충격 강도에 따른 가속도 부여 프롬프트 가이드라인을 정립했습니다.
+  - **누적 일자리 영향 지수 연산 및 베이스라인 정밀화**: `generateJson.js`에서 AI 기술 발전에 따른 현실적 누적치(`cumulativeRiskScore`)에 당일 `dailyVelocity`를 합산 연산하여 지수가 100점에 무의미하게 고정되거나 인위적으로 감소하는 착시를 예방했습니다. 초기 출발 기준점(Baseline)은 50점(중립/보통)으로 재정정하여 점수가 과도하게 시상되는 현상을 조율했습니다.
+  - **React 대시보드 UI 연동**: `App.jsx`에 누적 위험 게이지 차트, 오늘의 위험 가속도 하이라이트 카드(`velocity-badge-card`), 가속 사유 박스(`velocity-reason-box`) 및 과거 기록 미니 배지를 렌더링했습니다.
+- **체크리스트**:
+  - [x] dailyVelocity 및 velocityReason 스키마/프롬프트 지침이 올바르게 추가되었는가
+  - [x] 누적 위험 지수 연산과 과거 data.json 마이그레이션이 성공적으로 처리되었는가 (50.0 베이스라인)
+  - [x] 대시보드 UI 빌드(`npm run build`)가 0 Error로 정상 통과하였는가
+
 ### 2026-07-21 대시보드 빌드 오류 수정 (상태 및 레프 변수 중복 정의 구문 제거)
 
 - **검토 대상**: `dashboard/src/App.jsx`
