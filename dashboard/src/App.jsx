@@ -104,7 +104,7 @@ function renderStars(score) {
   return "★".repeat(cleanScore) + "☆".repeat(5 - cleanScore);
 }
 
-// [컴포넌트] 날짜별 위험도 추이 꺾은선 차트 (2번 꺾은선 모양 - 클릭 연동 추가)
+// [컴포넌트] 날짜별 위험 가속도(Daily Velocity) 추이 꺾은선 차트
 function TrendChart({ historyData, selectedDate, onSelectPoint }) {
   // 날짜 오름차순 정렬 (오른쪽이 최신이 되도록)
   const chartData = [...historyData].reverse();
@@ -114,51 +114,82 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
 
   const width = 500;
   const height = 200;
-  const paddingLeft = 40;
-  const paddingRight = 20;
-  const paddingTop = 20;
+  const paddingLeft = 45;
+  const paddingRight = 25;
+  const paddingTop = 25;
   const paddingBottom = 30;
 
   const chartWidth = width - paddingLeft - paddingRight;
   const chartHeight = height - paddingTop - paddingBottom;
-  const maxVal = 100;
+
+  // Velocity 범위: -3.0 ~ +8.0
+  const minVel = -3.0;
+  const maxVel = 8.0;
+  const velRange = maxVel - minVel;
+
+  // 0.0 baseline Y 좌표 연산
+  const zeroY = paddingTop + chartHeight - ((0 - minVel) / velRange) * chartHeight;
 
   // 데이터 좌표 매핑
   const points = chartData.map((d, i) => {
     const x = paddingLeft + (i * chartWidth) / (chartData.length - 1);
-    const y = paddingTop + chartHeight - ((d.jobRiskScore || 50) / maxVal) * chartHeight;
-    return { x, y, date: d.reportDate, score: d.jobRiskScore || 50 };
+    const vel = typeof d.dailyVelocity === "number" ? d.dailyVelocity : 1.0;
+    const clampedVel = Math.max(minVel, Math.min(maxVel, vel));
+    const y = paddingTop + chartHeight - ((clampedVel - minVel) / velRange) * chartHeight;
+    return {
+      x,
+      y,
+      date: d.reportDate,
+      velocity: vel,
+      score: d.cumulativeRiskScore ?? d.jobRiskScore ?? 50,
+      reason: d.velocityReason
+    };
   });
 
   // Polyline points 문자열 생성
   const linePointsStr = points.map((p) => `${p.x},${p.y}`).join(" ");
 
-  // 아래 투명 그라디언트 영역 폴리곤 생성
-  const areaPointsStr = `${points[0].x},${paddingTop + chartHeight} ` + 
+  // 아래 투명 그라디언트 영역 폴리곤 생성 (0 Y 기준점까지)
+  const areaPointsStr = `${points[0].x},${zeroY} ` + 
                         linePointsStr + 
-                        ` ${points[points.length - 1].x},${paddingTop + chartHeight}`;
+                        ` ${points[points.length - 1].x},${zeroY}`;
+
+  // 가속도별 포인트 색상 추출
+  const getVelocityColor = (v) => {
+    if (v >= 3.0) return "#dc2626"; // 급가속 (레드)
+    if (v >= 1.0) return "#f97316"; // 상승 가속 (오렌지)
+    if (v > 0.0) return "#eab308";  // 완만 가속 (옐로우)
+    return "#10b981";              // 감속/안정 (그린)
+  };
 
   return (
     <div className="trend-chart-container">
-      <h3>일자리 위험도 트렌드 추이 (최근 10일)</h3>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem' }}>
+        <h3 style={{ margin: 0 }}>🚀 일자리 위험 가속도(Velocity) 추이</h3>
+        <span style={{ fontSize: '0.78rem', color: '#64748b', fontWeight: '500' }}>단위: pt/day</span>
+      </div>
+      <p style={{ fontSize: '0.8rem', color: '#64748b', margin: '0 0 1rem 0', lineHeight: '1.4' }}>
+        뉴스 충격에 따른 일자별 위험 축적 속도의 동적 파동을 실시간 포착합니다.
+      </p>
+
       <div className="svg-wrapper">
         <svg width="100%" height="100%" viewBox={`0 0 ${width} ${height}`} preserveAspectRatio="xMidYMid meet">
           <defs>
             <linearGradient id="area-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stopColor="#2563eb" stopOpacity="0.3" />
-              <stop offset="100%" stopColor="#2563eb" stopOpacity="0.0" />
+              <stop offset="0%" stopColor="#f97316" stopOpacity="0.35" />
+              <stop offset="100%" stopColor="#f97316" stopOpacity="0.0" />
             </linearGradient>
           </defs>
 
-          {/* 격자선 가이드라인 */}
+          {/* 격자선 가이드라인 (+8.0, +4.0, 0.0, -3.0) */}
           <line x1={paddingLeft} y1={paddingTop} x2={width - paddingRight} y2={paddingTop} stroke="#e2e8f0" strokeDasharray="3" />
-          <line x1={paddingLeft} y1={paddingTop + chartHeight / 2} x2={width - paddingRight} y2={paddingTop + chartHeight / 2} stroke="#e2e8f0" strokeDasharray="3" />
+          <line x1={paddingLeft} y1={zeroY} x2={width - paddingRight} y2={zeroY} stroke="#94a3b8" strokeDasharray="4" strokeWidth="1.5" />
           <line x1={paddingLeft} y1={paddingTop + chartHeight} x2={width - paddingRight} y2={paddingTop + chartHeight} stroke="#cbd5e1" strokeWidth="1.5" />
 
           {/* y축 라벨 */}
-          <text x={paddingLeft - 10} y={paddingTop + 4} textAnchor="end" fontSize="11" fill="#64748b">100</text>
-          <text x={paddingLeft - 10} y={paddingTop + chartHeight / 2 + 4} textAnchor="end" fontSize="11" fill="#64748b">50</text>
-          <text x={paddingLeft - 10} y={paddingTop + chartHeight + 4} textAnchor="end" fontSize="11" fill="#64748b">0</text>
+          <text x={paddingLeft - 8} y={paddingTop + 4} textAnchor="end" fontSize="11" fill="#dc2626" fontWeight="bold">+8.0</text>
+          <text x={paddingLeft - 8} y={zeroY + 4} textAnchor="end" fontSize="11" fill="#475569" fontWeight="bold">0.0</text>
+          <text x={paddingLeft - 8} y={paddingTop + chartHeight + 4} textAnchor="end" fontSize="11" fill="#059669" fontWeight="bold">-3.0</text>
 
           {/* 그라디언트 영역 */}
           <polygon points={areaPointsStr} fill="url(#area-gradient)" />
@@ -167,7 +198,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
           <polyline
             points={linePointsStr}
             fill="none"
-            stroke="#2563eb"
+            stroke="#ea580c"
             strokeWidth="3"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -177,6 +208,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
           {points.map((p, i) => {
             const isSelected = p.date === selectedDate;
             const isHovered = hoveredIndex === i;
+            const nodeColor = getVelocityColor(p.velocity);
             return (
               <g key={i}>
                 {/* 마우스 가이드 수직 점선 */}
@@ -186,20 +218,20 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
                     y1={paddingTop}
                     x2={p.x}
                     y2={paddingTop + chartHeight}
-                    stroke="#3b82f6"
-                    strokeWidth="1"
-                    strokeDasharray="2"
+                    stroke="#ea580c"
+                    strokeWidth="1.5"
+                    strokeDasharray="3"
                   />
                 )}
                 {/* 포인트 원형 테두리 */}
                 <circle
                   cx={p.x}
                   cy={p.y}
-                  r={isSelected ? "8" : (isHovered ? "6" : "4")}
-                  fill={getRiskColor(p.score)}
+                  r={isSelected ? "8" : (isHovered ? "6.5" : "4.5")}
+                  fill={nodeColor}
                   stroke={isSelected ? "#1e293b" : "#ffffff"}
                   strokeWidth={isSelected ? "3" : "2"}
-                  style={{ transition: "r 0.1s ease, stroke-width 0.1s ease", cursor: "pointer" }}
+                  style={{ transition: "r 0.15s ease, stroke-width 0.15s ease", cursor: "pointer" }}
                 />
                 {/* 클릭 및 호버 감지용 큰 투명 원 */}
                 <circle
@@ -222,13 +254,18 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
           <div
             className="chart-tooltip"
             style={{
-              left: `${points[hoveredIndex].x + 10}px`,
-              top: `${points[hoveredIndex].y - 45}px`
+              left: `${Math.min(width - 150, Math.max(10, points[hoveredIndex].x - 60))}px`,
+              top: `${Math.max(10, points[hoveredIndex].y - 55)}px`
             }}
           >
             <div className="tooltip-date">{points[hoveredIndex].date}</div>
             <div className="tooltip-score">
-              위험도: <strong style={{ color: getRiskColor(points[hoveredIndex].score) }}>{points[hoveredIndex].score}점</strong>
+              가속도: <strong style={{ color: getVelocityColor(points[hoveredIndex].velocity) }}>
+                {points[hoveredIndex].velocity > 0 ? `+${points[hoveredIndex].velocity}` : points[hoveredIndex].velocity} pt/day
+              </strong>
+            </div>
+            <div style={{ fontSize: '0.72rem', color: '#64748b', marginTop: '2px' }}>
+              누적 위험: {points[hoveredIndex].score}점
             </div>
           </div>
         )}

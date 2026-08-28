@@ -6,8 +6,8 @@
     "summaryScore": 78,
     "dailyVelocity": 0.3,
     "velocityReason": "정부 주도의 대규모 AI 보급 및 지역 전략 거점 육성 소식으로 인해 산업 전반의 AI 수용성이 완만하게 상승함.",
-    "cumulativeRiskScore": 100,
-    "jobRiskScore": 100,
+    "cumulativeRiskScore": 51.4,
+    "jobRiskScore": 51.4,
     "riskScoreBreakdown": [
       {
         "event": "정부 주도 전 국민 AI 서비스 보급",
@@ -86,7 +86,7 @@
     "reportDate": "2026. 8. 27.",
     "summary": "- AI 기술의 실생활 침투 가속화: AI 안경 등 웨어러블 기기 확산에 따른 사생활 보호 이슈가 부각되고 있습니다.\n\n- 반도체 산업의 강력한 성장세: 엔비디아의 어닝 서프라이즈로 촉발된 AI 반도체 수요 폭발이 글로벌 시장을 주도하고 있습니다.\n\n- 국가 및 지역 단위의 AI 격차 해소 노력: 공공기관과 대학 등이 협력하여 지역 AI 격차를 줄이고 대중적 이해도를 높이기 위한 정책적 움직임이 활발합니다.\n\n- 기업 간 전략적 제휴 활성화: 네이버와 LG가 협력하여 국가 보안 AI를 개발하는 등 기술 경쟁력 강화를 위한 연합이 가시화되고 있습니다.",
     "summaryScore": 88,
-    "jobRiskScore": 100,
+    "jobRiskScore": 51.3,
     "riskScoreBreakdown": [
       {
         "event": "네이버-LG 국가 보안 AI 공동 개발",
@@ -159,16 +159,16 @@
         "investmentImpact": 4
       }
     ],
-    "cumulativeRiskScore": 100,
-    "dailyVelocity": 1,
-    "velocityReason": "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다."
+    "cumulativeRiskScore": 51.3,
+    "dailyVelocity": 2.5,
+    "velocityReason": "네이버-LG 보안 AI 공동 개발 및 엔비디아 어닝 서프라이즈로 기술 생태계 확장 가속화."
   },
   {
     "lastUpdated": "2026-08-25T22:20:08.078Z",
     "reportDate": "2026. 8. 26.",
     "summary": "- 서비스 운영 최적화: 오픈AI가 사용자 급증에 따른 서버 부하를 관리하기 위해 무료 및 일반 플러스 이용자에 대한 사용량 제한을 재도입하며 인프라 효율성을 강화하고 있습니다.\n\n- AI 기술 생태계 확장 및 투자: 엔비디아의 개방형 AI 모델 개발 투자와 재계 총수들의 AI 인프라 투자 논의가 활발해지며 산업 전반의 AI 전환이 가속화되고 있습니다.\n\n- 실무 적용 및 인재 육성: 유통업계의 AI 기반 MD 전략 도입과 범국가적인 AI 융합 인재 양성 노력이 병행되며 산업계 전반에 실질적인 AI 활용 사례가 확산되는 추세입니다.",
     "summaryScore": 82,
-    "jobRiskScore": 100,
+    "jobRiskScore": 51.0,
     "riskScoreBreakdown": [
       {
         "event": "오픈AI 사용 제한 강화",
@@ -241,8 +241,8 @@
         "investmentImpact": 5
       }
     ],
-    "cumulativeRiskScore": 100,
-    "dailyVelocity": 1,
+    "cumulativeRiskScore": 51.0,
+    "dailyVelocity": 1.8,
     "velocityReason": "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다."
   },
   {

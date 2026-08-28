@@ -66,10 +66,11 @@ export function generateJson(newsList, summary, jobRiskScore, summaryScore, risk
   const previousReport = history.find(
     (item) => item.reportDate !== newData.reportDate
   );
-  const prevCumulative = previousReport?.cumulativeRiskScore ?? 50;
+  const prevCumulative = previousReport?.cumulativeRiskScore ?? 50.0;
 
-  // 오늘의 누적 점수 = 이전 누적 점수 + 오늘의 가속도 (0 ~ 100 제한, 소수점 첫째 자리)
-  const computedCumulative = Math.max(0, Math.min(100, Math.round((prevCumulative + velocity) * 10) / 10));
+  // 오늘의 누적 점수 = 이전 누적 점수 + (오늘의 가속도 * 0.1) (0 ~ 100 제한, 소수점 첫째 자리)
+  // 1.0pt 가속도당 0.1pt의 장기 누적 영향이 반영되어 100점 천장 조기 도달을 방지합니다.
+  const computedCumulative = Math.max(0, Math.min(100, Math.round((prevCumulative + velocity * 0.1) * 10) / 10));
 
   newData.cumulativeRiskScore = computedCumulative;
   newData.jobRiskScore = computedCumulative;
