@@ -274,7 +274,7 @@ h1 {
 .trend-x-labels {
   display: flex;
   justify-content: space-between;
-  padding: 0 10px 0 40px;
+  padding: 0 10px 0 52px;
   font-size: 0.75rem;
   color: var(--text-muted);
   margin-top: 2px;
@@ -611,7 +611,8 @@ footer a:hover {
 }
 
 .metric-stars {
-  color: #fbbf24; /* 골드/노란색 별점 컬러 */
+  color: #fbbf24;
+  /* 골드/노란색 별점 컬러 */
   font-family: monospace;
   font-size: 0.95rem;
   letter-spacing: 1px;
@@ -703,11 +704,13 @@ footer a:hover {
 }
 
 .risk-up .factor-sign {
-  color: #ef4444; /* 위험도 상승 (빨간색 화살표) */
+  color: #ef4444;
+  /* 위험도 상승 (빨간색 화살표) */
 }
 
 .risk-down .factor-sign {
-  color: #10b981; /* 위험도 하락 (초록색 화살표) */
+  color: #10b981;
+  /* 위험도 하락 (초록색 화살표) */
 }
 
 .factor-event {
@@ -819,12 +822,14 @@ footer a:hover {
 }
 
 .risk-score-text {
-  color: #f59e0b; /* 주황/노랑 */
+  color: #f59e0b;
+  /* 주황/노랑 */
   font-size: 1.05rem;
 }
 
 .summary-score-text {
-  color: var(--primary-color); /* 파랑 */
+  color: var(--primary-color);
+  /* 파랑 */
   font-size: 1.05rem;
 }
 
@@ -948,7 +953,9 @@ footer a:hover {
   opacity: 0.6;
 }
 
-.no-breakdown-text, .no-changes-text, .no-data-text {
+.no-breakdown-text,
+.no-changes-text,
+.no-data-text {
   font-size: 0.85rem;
   color: var(--text-muted);
   margin: 0;

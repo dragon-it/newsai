@@ -114,7 +114,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
 
   const width = 500;
   const height = 220;
-  const paddingLeft = 52;
+  const paddingLeft = 62;
   const paddingRight = 20;
   const paddingTop = 20;
   const paddingBottom = 25;
@@ -158,9 +158,9 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
 
   // 아래 투명 그라디언트 영역 폴리곤 생성 (0.0 Y 기준점 또는 차트 하단 기준)
   const areaBaseY = Math.min(paddingTop + chartHeight, Math.max(paddingTop, zeroY));
-  const areaPointsStr = `${points[0].x},${areaBaseY} ` + 
-                        linePointsStr + 
-                        ` ${points[points.length - 1].x},${areaBaseY}`;
+  const areaPointsStr = `${points[0].x},${areaBaseY} ` +
+    linePointsStr +
+    ` ${points[points.length - 1].x},${areaBaseY}`;
 
   // 가속도별 포인트 색상 추출
   const getVelocityColor = (v) => {
@@ -199,14 +199,14 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
           )}
           <line x1={paddingLeft} y1={paddingTop + chartHeight} x2={width - paddingRight} y2={paddingTop + chartHeight} stroke="#cbd5e1" strokeWidth="1.5" />
 
-          {/* Y축 선명한 라벨 표시 */}
-          <text x={paddingLeft - 8} y={paddingTop + 4} textAnchor="end" fontSize="12" fill="#dc2626" fontWeight="bold">
+          {/* Y축 선명하고 크기가 강조된 라벨 표시 */}
+          <text x={paddingLeft - 10} y={paddingTop + 5} textAnchor="end" fontSize="16" fill="#dc2626" fontWeight="800">
             {maxVel > 0 ? `+${maxVel.toFixed(1)}` : maxVel.toFixed(1)}
           </text>
           {zeroY >= paddingTop + 20 && zeroY <= paddingTop + chartHeight - 20 && (
-            <text x={paddingLeft - 8} y={zeroY + 4} textAnchor="end" fontSize="12" fill="#475569" fontWeight="bold">0.0</text>
+            <text x={paddingLeft - 10} y={zeroY + 5} textAnchor="end" fontSize="16" fill="#334155" fontWeight="800">0.0</text>
           )}
-          <text x={paddingLeft - 8} y={paddingTop + chartHeight + 4} textAnchor="end" fontSize="12" fill={minVel < 0 ? "#059669" : "#64748b"} fontWeight="bold">
+          <text x={paddingLeft - 10} y={paddingTop + chartHeight + 5} textAnchor="end" fontSize="16" fill={minVel < 0 ? "#059669" : "#64748b"} fontWeight="800">
             {minVel > 0 ? `+${minVel.toFixed(1)}` : minVel.toFixed(1)}
           </text>
 
@@ -389,20 +389,20 @@ function App() {
   const todayData = dataArray[0];
   const pastData = dataArray.slice(1);
 
-    // 어제 데이터와 위험도 차이 구하기
-    const yesterdayData = pastData[0];
-    const yesterdayScore = yesterdayData ? yesterdayData.jobRiskScore : null;
-    const scoreDiff = yesterdayScore !== null ? (todayData.jobRiskScore - yesterdayScore) : null;
-    const scoreDiffSign = scoreDiff !== null ? (scoreDiff >= 0 ? `+${scoreDiff}` : `${scoreDiff}`) : "";
+  // 어제 데이터와 위험도 차이 구하기
+  const yesterdayData = pastData[0];
+  const yesterdayScore = yesterdayData ? yesterdayData.jobRiskScore : null;
+  const scoreDiff = yesterdayScore !== null ? (todayData.jobRiskScore - yesterdayScore) : null;
+  const scoreDiffSign = scoreDiff !== null ? (scoreDiff >= 0 ? `+${scoreDiff}` : `${scoreDiff}`) : "";
 
-    // 꺾은선 차트 클릭 연동 날짜 분석
-    const selectedReport = dataArray.find((d) => d.reportDate === selectedDate) || todayData;
-    const selectedReportIndex = dataArray.findIndex((d) => d.reportDate === selectedDate);
-    const selectedYesterday = selectedReportIndex !== -1 && selectedReportIndex < dataArray.length - 1 ? dataArray[selectedReportIndex + 1] : null;
-    const selectedDiff = selectedYesterday !== null ? (selectedReport.jobRiskScore - selectedYesterday.jobRiskScore) : null;
-    const selectedDiffSign = selectedDiff !== null ? (selectedDiff >= 0 ? `+${selectedDiff}` : `${selectedDiff}`) : "";
+  // 꺾은선 차트 클릭 연동 날짜 분석
+  const selectedReport = dataArray.find((d) => d.reportDate === selectedDate) || todayData;
+  const selectedReportIndex = dataArray.findIndex((d) => d.reportDate === selectedDate);
+  const selectedYesterday = selectedReportIndex !== -1 && selectedReportIndex < dataArray.length - 1 ? dataArray[selectedReportIndex + 1] : null;
+  const selectedDiff = selectedYesterday !== null ? (selectedReport.jobRiskScore - selectedYesterday.jobRiskScore) : null;
+  const selectedDiffSign = selectedDiff !== null ? (selectedDiff >= 0 ? `+${selectedDiff}` : `${selectedDiff}`) : "";
 
-    // 아코디언 토글 핸들러
+  // 아코디언 토글 핸들러
   const toggleAccordion = (reportDate) => {
     setExpandedDays((prev) => ({
       ...prev,
@@ -428,7 +428,7 @@ function App() {
             <div className="gauge-layout">
               <div className="gauge-left-col">
                 <GaugeChart score={todayData.cumulativeRiskScore || todayData.jobRiskScore || 75} />
-                
+
                 {/* 오늘의 가속도 하이라이트 배지 */}
                 {(() => {
                   const velocityInfo = getVelocityBadge(todayData.dailyVelocity);
@@ -476,7 +476,7 @@ function App() {
           {pastData.length > 0 && (
             <section className="dashboard-card trend-card-section">
               <TrendChart historyData={dataArray} selectedDate={selectedDate} onSelectPoint={setSelectedDate} />
-              
+
               {/* 신규: 꺾은선 클릭 연동 날짜 상세 카드 */}
               {selectedReport && (
                 <div className="trend-detail-box">
@@ -544,7 +544,7 @@ function App() {
                 const matchedNews = item.newsIndex ? todayData.news[item.newsIndex - 1] : null;
                 const impactText = item.impact >= 7 ? "높음 🔴" : item.impact >= 4 ? "중간 🟡" : "낮음 🟢";
                 const impactClass = item.impact >= 7 ? "impact-high" : item.impact >= 4 ? "impact-medium" : "impact-low";
-                
+
                 const cardInner = (
                   <div className={`key-change-card ${matchedNews ? "is-link" : ""}`}>
                     <div className="card-top">
@@ -633,8 +633,8 @@ function App() {
             <h2 className="past-group-title">지난 뉴스 히스토리</h2>
             {pastData.slice(0, visibleCount).map((past, idx) => {
               // 최근 3일은 펼쳐진 상태로 표시 (당일 제외하고 pastData의 index 0, 1까지가 오늘+과거2일=총3일)
-              const isExpanded = expandedDays[past.reportDate] !== undefined 
-                ? expandedDays[past.reportDate] 
+              const isExpanded = expandedDays[past.reportDate] !== undefined
+                ? expandedDays[past.reportDate]
                 : idx < 2;
 
               return (
