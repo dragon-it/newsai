@@ -26,6 +26,14 @@ const summarySchema = {
       type: SchemaType.INTEGER,
       description: "AI 발전이 일자리에 미치는 위험도를 종합 평가한 0에서 100 사이의 점수."
     },
+    dailyVelocity: {
+      type: SchemaType.NUMBER,
+      description: "오늘의 수집된 뉴스가 일자리 위험 축적 속도를 얼마나 가속시켰는지 나타내는 가속도 점수 (-3.0에서 +8.0 사이의 실수)."
+    },
+    velocityReason: {
+      type: SchemaType.STRING,
+      description: "오늘의 가속도가 산출된 핵심 근거 및 요약 1문장."
+    },
     riskScoreBreakdown: {
       type: SchemaType.ARRAY,
       description: "오늘 일자리 위험도 변동에 영향을 준 결정적인 요인/이벤트 리스트.",
@@ -84,7 +92,7 @@ const summarySchema = {
       }
     }
   },
-  required: ["overallSummary", "overallScore", "jobRiskScore", "riskScoreBreakdown", "newsSummaries"]
+  required: ["overallSummary", "overallScore", "jobRiskScore", "dailyVelocity", "velocityReason", "riskScoreBreakdown", "newsSummaries"]
 };
 
 // 사용할 모델을 선택합니다.
@@ -136,7 +144,9 @@ export async function summarizeNews(newsList) {
     "{",
     '  "overallSummary": "- 인프라 및 생태계 확장: 내용...\\n\\n- 반도체 공급망 강화: 내용...\\n\\n- 산업 현장 및 공공 적용: 내용...",',
     '  "overallScore": 85,',
-    '  "jobRiskScore": 55,',
+    '  "jobRiskScore": 82,',
+    '  "dailyVelocity": 1.5,',
+    '  "velocityReason": "오픈AI의 신규 코딩 에이전트 발표로 개발 직무 자동화 가속화 소식이 주요 원인임.",',
     '  "riskScoreBreakdown": [',
     '    { "event": "OpenAI Agent 발표", "sign": "+", "impact": 3, "newsIndex": 1 },',
     '    { "event": "Microsoft 감원", "sign": "+", "impact": 5, "newsIndex": 2 },',
@@ -157,9 +167,15 @@ export async function summarizeNews(newsList) {
     "1. 전문적이고 객관적인 말투를 유지할 것.",
     "2. overallSummary는 전체 내용을 아우르는 요약문(불렛 포인트 사용)을 작성할 것.",
     "3. overallScore는 오늘 수집된 AI 뉴스들의 중요도, 영향력, 시급성 등을 종합적으로 평가하여 0에서 100 사이의 정수 점수로 부여해줘.",
-    "4. jobRiskScore는 AI 기술 발전이 인간의 '일자리 위험도'에 미치는 영향을 0에서 100 사이의 정수 점수로 평가해줘.",
-    "5. riskScoreBreakdown은 오늘 일자리 위험도(jobRiskScore)가 결정되는 데(또는 변동하는 데) 결정적인 영향을 준 핵심 요인/이벤트 2~3가지를 명시해줘. 일자리 위험도를 높이는 요인은 sign을 '+', 낮추는 요인은 sign을 '-'로 지정하고, impact는 1~10 사이의 양의 정수 값으로 설정해줘. 또한, 각 요인이 기인한 기사의 번호를 `newsIndex` 필드에 1부터 시작하는 정수로 적어줘 (예: 제공된 뉴스 목록 중 2번째 뉴스에 기인한 내용이면 2. 특정 뉴스 하나에만 기인하지 않거나 전반적인 시장 변화라면 null로 표시).",
-    "6. newsSummaries는 제공된 뉴스 목록의 순서와 1:1로 매칭되는 배열이어야 해 (예: 제공된 뉴스 목록의 첫 번째 뉴스는 newsSummaries의 첫 번째 요소에 대응). 각 객체는 제목(title) 필드를 포함하지 말고, 요약(summary)과 4대 지표(importance: 중요도, aiImpact: AI 영향도, automationPotential: 자동화 가능성, investmentImpact: 투자 영향, 각각 1에서 5 사이의 정수)만 작성해줘. 이로써 제목의 큰따옴표 등으로 인한 JSON 파싱 에러를 원천적으로 방지함.",
+    "4. dailyVelocity는 오늘 수집된 뉴스가 일자리 위험 축적 속도를 얼마나 더 가속시켰는가를 나타내는 가속도 점수로 -3.0에서 +8.0 사이의 소수점 첫째 자리 실수로 부여해줘:",
+    "   - +3.0 ~ +8.0: 실제 대규모 감원(Layoff) 및 특정 직종 완전 대체 소식 발표 (급가속)",
+    "   - +0.5 ~ +2.9: 표준적인 AI 신기술/제품/에이전트 출시 소식 (완만한 가속)",
+    "   - 0.0 ~ +0.4: 특이사항 없음 / 평범한 업계 동향 (유지/완만)",
+    "   - -0.5 ~ -3.0: AI 안전/윤리 규제 통과, 법안 제정, AI 관련 신규 일자리 창출 소식 (감속)",
+    "5. velocityReason은 오늘 가속도가 산출된 핵심 근거 및 요약 1문장을 작성해줘.",
+    "6. jobRiskScore는 AI 발전이 일자리에 미치는 위험도를 종합하여 0~100 사이의 정수로 표기해줘.",
+    "7. riskScoreBreakdown은 오늘 일자리 위험 가속도에 결정적인 영향을 준 핵심 요인/이벤트 2~3가지를 명시해줘. 위험도를 높이는 요인은 sign을 '+', 낮추는 요인은 sign을 '-'로 지정하고, impact는 1~10 사이의 양의 정수 값으로 설정해줘. 또한, 각 요인이 기인한 기사의 번호를 `newsIndex` 필드에 1부터 시작하는 정수로 적어줘 (예: 제공된 뉴스 목록 중 2번째 뉴스에 기인한 내용이면 2. 특정 뉴스 하나에만 기인하지 않거나 전반적인 시장 변화라면 null로 표시).",
+    "8. newsSummaries는 제공된 뉴스 목록의 순서와 1:1로 매칭되는 배열이어야 해 (예: 제공된 뉴스 목록의 첫 번째 뉴스는 newsSummaries의 첫 번째 요소에 대응). 각 객체는 제목(title) 필드를 포함하지 말고, 요약(summary)과 4대 지표(importance: 중요도, aiImpact: AI 영향도, automationPotential: 자동화 가능성, investmentImpact: 투자 영향, 각각 1에서 5 사이의 정수)만 작성해줘.",
     "",
     "뉴스 목록:",
     newsContent,

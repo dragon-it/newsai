@@ -1,7 +1,9 @@
 import fs from "fs";
 import path from "path";
 
-export function generateJson(newsList, summary, jobRiskScore, summaryScore, riskScoreBreakdown) {
+export function generateJson(newsList, summary, jobRiskScore, summaryScore, riskScoreBreakdown, dailyVelocity, velocityReason) {
+  const velocity = typeof dailyVelocity === "number" ? dailyVelocity : 1.2;
+
   const newData = {
     lastUpdated: new Date().toISOString(),
     reportDate: new Date().toLocaleDateString("ko-KR", {
@@ -9,7 +11,10 @@ export function generateJson(newsList, summary, jobRiskScore, summaryScore, risk
     }),
     summary: summary,
     summaryScore: summaryScore ?? 80,
-    jobRiskScore: jobRiskScore ?? 50,
+    dailyVelocity: velocity,
+    velocityReason: velocityReason || "오늘의 AI 소식을 바탕으로 분석된 가속도입니다.",
+    cumulativeRiskScore: 50,
+    jobRiskScore: 50,
     riskScoreBreakdown: riskScoreBreakdown ?? [],
     news: newsList,
   };
@@ -28,8 +33,14 @@ export function generateJson(newsList, summary, jobRiskScore, summaryScore, risk
 
       // 과거 데이터 마이그레이션 적용
       history.forEach((item) => {
-        if (item.jobRiskScore === undefined) {
-          item.jobRiskScore = Math.floor(Math.random() * 21) + 45;
+        if (item.cumulativeRiskScore === undefined) {
+          item.cumulativeRiskScore = item.jobRiskScore ?? 50;
+        }
+        if (item.dailyVelocity === undefined) {
+          item.dailyVelocity = 1.0;
+        }
+        if (item.velocityReason === undefined) {
+          item.velocityReason = "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다.";
         }
         if (item.summaryScore === undefined) {
           item.summaryScore = Math.floor(Math.random() * 21) + 70;
@@ -51,20 +62,17 @@ export function generateJson(newsList, summary, jobRiskScore, summaryScore, risk
     }
   }
 
-  // 이전 날짜(오늘 날짜와 다른 가장 최근 리포트)의 위험도 점수 가져오기
+  // 이전 날짜(오늘 날짜와 다른 가장 최근 리포트)의 누적 위험도 점수 가져오기
   const previousReport = history.find(
     (item) => item.reportDate !== newData.reportDate
   );
-  const baseScore = previousReport?.jobRiskScore ?? jobRiskScore ?? 50;
+  const prevCumulative = previousReport?.cumulativeRiskScore ?? 50;
 
-  // 변동치 합산 계산
-  const breakdownSum = (riskScoreBreakdown ?? []).reduce(
-    (acc, curr) => acc + (curr.sign === "-" ? -curr.impact : curr.impact),
-    0
-  );
+  // 오늘의 누적 점수 = 이전 누적 점수 + 오늘의 가속도 (0 ~ 100 제한, 소수점 첫째 자리)
+  const computedCumulative = Math.max(0, Math.min(100, Math.round((prevCumulative + velocity) * 10) / 10));
 
-  // 오늘의 점수 = 이전 점수 + 변동치 합산 (0 ~ 100 제한)
-  newData.jobRiskScore = Math.max(0, Math.min(100, baseScore + breakdownSum));
+  newData.cumulativeRiskScore = computedCumulative;
+  newData.jobRiskScore = computedCumulative;
 
   const existingIndex = history.findIndex(
     (item) => item.reportDate === newData.reportDate,

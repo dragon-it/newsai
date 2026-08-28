@@ -25,6 +25,15 @@ function getRiskDescription(score) {
   return "AI 모델 성능 급증 및 대규모 대체 소식으로 인해 고용 불안과 시장 리스크가 매우 높은 수준에 도달한 극도 위험 상태입니다.";
 }
 
+// 가속도(dailyVelocity)에 따른 라벨 및 테마 색상 반환
+function getVelocityBadge(velocity) {
+  const v = typeof velocity === "number" ? velocity : 1.0;
+  if (v >= 3.0) return { label: "급가속 🔴", color: "#ef4444", bg: "#fef2f2", sign: `+${v.toFixed(1)}pt/day` };
+  if (v >= 0.5) return { label: "상승 가속 🟠", color: "#f97316", bg: "#fff7ed", sign: `+${v.toFixed(1)}pt/day` };
+  if (v >= 0.0) return { label: "완만/유지 🟡", color: "#eab308", bg: "#fefce8", sign: `+${v.toFixed(1)}pt/day` };
+  return { label: "감속/완화 🟢", color: "#10b981", bg: "#ecfdf5", sign: `${v.toFixed(1)}pt/day` };
+}
+
 // [컴포넌트] 오늘의 일자리 위험도 반원 게이지 차트 (1번 속도계 모양)
 function GaugeChart({ score }) {
   // 0점(수평 왼쪽: -90도) ~ 100점(수평 오른쪽: 90도)
@@ -359,39 +368,50 @@ function App() {
         {/* 신규: 일자리 위험도 및 종합 AI 지수 보드 */}
         <div className="dashboard-grid">
           <section className="dashboard-card gauge-card-section">
-            <h2 className="section-title-sub">오늘의 AI 지표 분석</h2>
+            <h2 className="section-title-sub">오늘의 AI 일자리 영향 분석 (누적 수치 &amp; 변화 가속도)</h2>
             <div className="gauge-layout">
               <div className="gauge-left-col">
-                <GaugeChart score={todayData.jobRiskScore || 50} />
+                <GaugeChart score={todayData.cumulativeRiskScore || todayData.jobRiskScore || 75} />
                 
-                {yesterdayScore !== null && (
-                  <div className="gauge-comparison-card">
-                    <div className="comparison-trend">
-                      <span>어제 {yesterdayScore}</span>
-                      <span className="trend-arrow">{scoreDiff >= 0 ? "▲" : "▼"}</span>
-                      <span>오늘 {todayData.jobRiskScore}</span>
+                {/* 오늘의 가속도 하이라이트 배지 */}
+                {(() => {
+                  const velocityInfo = getVelocityBadge(todayData.dailyVelocity);
+                  return (
+                    <div className="velocity-badge-card" style={{ backgroundColor: velocityInfo.bg, borderColor: velocityInfo.color }}>
+                      <span className="velocity-title">🚀 오늘의 위험 가속도</span>
+                      <div className="velocity-val-row">
+                        <strong className="velocity-num" style={{ color: velocityInfo.color }}>{velocityInfo.sign}</strong>
+                        <span className="velocity-tag" style={{ backgroundColor: velocityInfo.color }}>{velocityInfo.label}</span>
+                      </div>
                     </div>
-                    <div className={`comparison-diff-badge ${scoreDiff >= 0 ? "diff-up" : "diff-down"}`}>
-                      어제보다 {scoreDiffSign}
-                    </div>
-                  </div>
-                )}
+                  );
+                })()}
               </div>
 
               <div className="gauge-description">
                 <div className="scores-explanation-box">
                   <div className="score-explain-item">
-                    <span className="score-explain-title">📊 AI 일자리 위험도: <strong className="risk-score-text">{todayData.jobRiskScore} / 100</strong></span>
-                    <p className="score-explain-desc">→ AI가 일자리에 미치는 구조적 위험 수준</p>
+                    <span className="score-explain-title">📊 누적 일자리 영향 지수: <strong className="risk-score-text">{todayData.cumulativeRiskScore || todayData.jobRiskScore || 75} / 100</strong></span>
+                    <p className="score-explain-desc">→ AI 기술 발전에 따라 축적되는 일자리 대체 위험 수준 (지속 상승/유지)</p>
+                  </div>
+                  <div className="score-explain-item">
+                    <span className="score-explain-title">⚡ 오늘의 변화 가속도: <strong className="velocity-score-text">{(todayData.dailyVelocity >= 0 ? "+" : "") + (todayData.dailyVelocity ?? 1.2).toFixed(1)} pt/day</strong></span>
+                    <p className="score-explain-desc">→ 오늘 뉴스가 위험 축적 속도를 얼마나 더 가속시켰는지 지표화</p>
                   </div>
                   <div className="score-explain-item">
                     <span className="score-explain-title">📈 종합 AI 지수: <strong className="summary-score-text">{todayData.summaryScore || 50} / 100</strong></span>
-                    <p className="score-explain-desc">→ 오늘의 AI 산업·기술·시장 변화 종합 강도</p>
+                    <p className="score-explain-desc">→ 오늘의 AI 산업·기술·시장 이슈의 전반적 영향력</p>
                   </div>
                 </div>
-                <p className="risk-state-desc">{getRiskDescription(todayData.jobRiskScore || 50)}</p>
+
+                {todayData.velocityReason && (
+                  <div className="velocity-reason-box">
+                    💡 <strong>오늘의 가속 원인:</strong> {todayData.velocityReason}
+                  </div>
+                )}
+
                 <div className="guideline-tip">
-                  💡 <strong>위험도 기준:</strong> AI 발전속도, 대규모 고용 영향 뉴스 비중, 직무 자동화 수준 등을 종합 요약하여 Gemini가 매일 산출합니다.
+                  💡 <strong>이원화 지표 가이드:</strong> AI 기술은 후퇴하지 않으므로 '누적 위험 지수'는 억지로 감점되지 않고 유지되며, 대시보드의 유연성은 '오늘의 가속도'로 실시간 포착합니다.
                 </div>
               </div>
             </div>
@@ -405,16 +425,19 @@ function App() {
               {selectedReport && (
                 <div className="trend-detail-box">
                   <div className="detail-header">
-                    <h4>📅 {selectedReport.reportDate} 상세 위험도 근거</h4>
-                    {selectedDiff !== null && (
-                      <span className={`detail-diff-badge ${selectedDiff >= 0 ? "diff-up" : "diff-down"}`}>
-                        변동: {selectedDiffSign}
+                    <h4>📅 {selectedReport.reportDate} 상세 위험 근거</h4>
+                    {selectedReport.dailyVelocity !== undefined && (
+                      <span className="detail-velocity-badge">
+                        가속도: {(selectedReport.dailyVelocity >= 0 ? "+" : "") + selectedReport.dailyVelocity.toFixed(1)} pt/day
                       </span>
                     )}
                   </div>
                   <div className="detail-scores">
                     <div className="detail-score-item">
-                      <span>일자리 위험도:</span> <strong>{selectedReport.jobRiskScore}점</strong>
+                      <span>누적 일자리 위험:</span> <strong>{selectedReport.cumulativeRiskScore || selectedReport.jobRiskScore}점</strong>
+                    </div>
+                    <div className="detail-score-item">
+                      <span>변화 가속도:</span> <strong>{(selectedReport.dailyVelocity >= 0 ? "+" : "") + (selectedReport.dailyVelocity ?? 1.0).toFixed(1)} pt/day</strong>
                     </div>
                     <div className="detail-score-item">
                       <span>종합 AI 지수:</span> <strong>{selectedReport.summaryScore || 50}점</strong>
@@ -568,9 +591,14 @@ function App() {
                           종합 {past.summaryScore}점
                         </span>
                       )}
-                      <span className="job-risk-badge" style={{ backgroundColor: getRiskColor(past.jobRiskScore || 50) }}>
-                        위험도 {past.jobRiskScore || 50}점
+                      <span className="job-risk-badge" style={{ backgroundColor: getRiskColor(past.cumulativeRiskScore || past.jobRiskScore || 75) }}>
+                        누적위험 {past.cumulativeRiskScore || past.jobRiskScore || 75}점
                       </span>
+                      {past.dailyVelocity !== undefined && (
+                        <span className="velocity-mini-badge">
+                          가속도 {(past.dailyVelocity >= 0 ? "+" : "") + past.dailyVelocity.toFixed(1)}pt
+                        </span>
+                      )}
                       <span className="accordion-arrow">{isExpanded ? "▲" : "▼"}</span>
                     </div>
                   </div>

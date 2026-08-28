@@ -58,7 +58,9 @@ async function runIntegrationTest() {
       summaryText,
       summaryData.jobRiskScore,
       summaryData.overallScore,
-      summaryData.riskScoreBreakdown
+      summaryData.riskScoreBreakdown,
+      summaryData.dailyVelocity,
+      summaryData.velocityReason
     );
     const jsonPath = saveToFile(process.cwd(), "data.json", jsonData);
 
