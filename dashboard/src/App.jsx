@@ -172,9 +172,8 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
 
   return (
     <div className="trend-chart-container">
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.25rem', flexWrap: 'nowrap', gap: '0.5rem' }}>
-        <h3 className="section-title-sub" style={{ margin: 0, fontSize: '1.05rem', whiteSpace: 'nowrap' }}>🚀 일자리 위험 가속도(Velocity) 추이</h3>
-        <span style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: '600', whiteSpace: 'nowrap', flexShrink: 0 }}>단위: pt/day</span>
+      <div style={{ marginBottom: '0.25rem' }}>
+        <h3 className="section-title-sub" style={{ margin: 0, fontSize: '1.05rem' }}>🚀 일자리 위험 가속도(Velocity) 추이</h3>
       </div>
       <p style={{ fontSize: '0.78rem', color: '#64748b', margin: '0 0 0.5rem 0', lineHeight: '1.3' }}>
         뉴스 충격에 따른 일자별 위험 축적 속도의 동적 파동을 실시간 포착합니다.
@@ -289,8 +288,9 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
           </div>
         )}
       </div>
-      <div className="trend-x-labels">
+      <div className="trend-x-labels" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span>{chartData[0].date}</span>
+        <span style={{ fontSize: '0.78rem', color: '#64748b', fontWeight: '600' }}>(단위: pt/day)</span>
         <span>{chartData[chartData.length - 1].date}</span>
       </div>
     </div>
