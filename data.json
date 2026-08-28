@@ -1,5 +1,84 @@
 [
   {
+    "lastUpdated": "2026-08-28T05:54:23.804Z",
+    "reportDate": "2026. 8. 28.",
+    "summary": "- 정부와 기업의 AI 인프라 지원: SKT, 카카오, KT 등 주요 통신 및 IT 기업들이 국가 AI 사업자로 선정되어 엔비디아 GPU 등 핵심 인프라 지원을 확보하며 AI 생태계 구축이 가속화되고 있음.\n\n- 피지컬 AI와 산업적 융합 확산: 마산해양신도시를 중심으로 57개 기업 및 기관이 피지컬 AI 클러스터 조성을 위해 협력하며, 로봇과 물리적 시스템이 결합된 형태의 AI 산업이 실질적인 현장 적용 단계에 진입함.\n\n- AI 기술의 전문 영역 도입: 공공기관의 홍보 콘텐츠 제작부터 바이오 분야의 항생제 내성균 분석까지 AI 활용 범위가 사회 전반의 전문 영역으로 깊숙이 침투하고 있음.",
+    "summaryScore": 82,
+    "jobRiskScore": 100,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 인프라 및 생태계 국가 주도 지원",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "피지컬 AI 클러스터 조성에 따른 자동화 가속",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 4
+      },
+      {
+        "event": "바이오 및 공공 AI 도입 활성화",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 3
+      }
+    ],
+    "news": [
+      {
+        "title": "모두의 AI 사업자에 SKT·카카오·KT 선정…엔비디아 GPU 지원 - JTBC",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zV19HdEc1cmgxQklCUHNLSVRtLW9FTFNYYjVSbTNkejVULWRmOGVaREdNNkdsdjdwSDl1Q2IwSFIzX1MxXzdXM1ZqOWluajVfc3VZOA?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 00:33:00 GMT",
+        "summary": "SKT, 카카오, KT가 정부 주도 AI 사업자로 선정되어 엔비디아 GPU 기반의 컴퓨팅 인프라를 지원받게 되었습니다. 이를 통해 국내 AI 생태계 구축과 기술 역량 강화가 본격화될 전망입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "캠코 AI 활용 국유재산 홍보 콘텐츠 수상작 선정 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBScTNGQWJjdjdmSTJJbkxDLUQ5STQ3MGl2bGg3Tng5RzJFaHNIbjBYdXlJUnAzVS1fMFJaWHJTUlVSRkJtX3ZqZE9UaDZmVndOX3prd0ZmQjFCYjdzUlRhZHVlcjBpZjUxWUHSAW9BVV95cUxQbDRiMkJjSFBkSGg0SmRXM09rdlRCZmpXN3luWE4ybkRCR01PckJIWXNvMzFlcW5iWFNBb2RYNXIxZ3g0V2pSY210aGd5NXhwNkpPejh4ZUpHSWhFcmdLSkxvNnRlUXNWS1IxUmdwZ0E?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 05:32:38 GMT",
+        "summary": "캠코가 국유재산 홍보 콘텐츠 제작에 AI 기술을 활용하여 수상작을 선정했습니다. AI가 공공기관의 홍보 및 행정 효율화 과정에 실질적으로 도입되고 있음을 보여줍니다.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      },
+      {
+        "title": "세니젠 \"AI 기반 엔도라이신으로 항생제 내성균 공략\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8zWkxLTm5jTF9fdlNaTDJXWVZyc3M2SUFuZ0tvRV9GNlJVaWVReERYYzZCY29NclVMazNBZE92b1dhMDNQRWxGTjlmanVkQWM?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 05:38:50 GMT",
+        "summary": "세니젠이 AI 기술을 활용해 항생제 내성균을 효과적으로 제어하는 엔도라이신 개발에 나섰습니다. 바이오 기술과 AI의 융합을 통해 정밀 의료 및 신약 개발 분야의 경쟁력을 강화하고 있습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "마산해양신도시에 피지컬 AI 모인다…57개 기업·기관 협약 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MN3ZmZ3FrV3dHNXVqRzdlLVBRRXVyTTF5SE1nci10RndrZXB3dkE0bVZuQTgtWGpoQkkyaWhkOUI1Y0NTV0FrM0ZQdFRJbW10dk02VFllT282d3cyMnBNatIBeEFVX3lxTE1TUlZvQWtSQVNyNmMyX2FrNWIwQ3J2S1ZTSV9wUFY5T2QtYXpndWg5bklPOGZxTWR3akRDTmgzbUFLMFJPT0xVWERPN19wUGFSWVhXZURyUFliRGtOaDUteDVoX2xHQ3VCTWw2ZDQwdGZPMGRqVC1BZQ?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 04:52:58 GMT",
+        "summary": "마산해양신도시에 57개 기업과 기관이 협력하여 피지컬 AI 클러스터를 조성하기로 했습니다. 이는 물리적 환경에서 로봇과 AI가 결합된 산업 현장의 자동화가 가속화될 것임을 시사합니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      },
+      {
+        "title": "마산신도시에 피지컬AI 기업 모인다…최형두 \"사업 속도 높일 것\" - 아시아경제",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NN0Q0SUM4ZWdseW5oSWFZTDBBemhZMExNTzBJNFVSb2s2eUE3czNNS1dwbjNBS0VGVTFGNXNveTRSc0VyRE10QlkyNDV3MElBODZLRi1xb1lwdjgtSXl0Rg?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 05:32:46 GMT",
+        "summary": "마산신도시 피지컬 AI 클러스터 조성과 관련하여 최형두 의원이 사업 속도를 높이겠다는 의지를 표명했습니다. 정책적 지원을 통해 관련 산업의 인프라 구축이 빠르게 진행될 예정입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-27T02:48:05.432Z",
     "reportDate": "2026. 8. 27.",
     "summary": "- AI 기술의 실생활 침투 가속화: AI 안경 등 웨어러블 기기 확산에 따른 사생활 보호 이슈가 부각되고 있습니다.\n\n- 반도체 산업의 강력한 성장세: 엔비디아의 어닝 서프라이즈로 촉발된 AI 반도체 수요 폭발이 글로벌 시장을 주도하고 있습니다.\n\n- 국가 및 지역 단위의 AI 격차 해소 노력: 공공기관과 대학 등이 협력하여 지역 AI 격차를 줄이고 대중적 이해도를 높이기 위한 정책적 움직임이 활발합니다.\n\n- 기업 간 전략적 제휴 활성화: 네이버와 LG가 협력하여 국가 보안 AI를 개발하는 등 기술 경쟁력 강화를 위한 연합이 가시화되고 있습니다.",
@@ -701,85 +780,6 @@
         "aiImpact": 3,
         "automationPotential": 2,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-17T22:17:56.893Z",
-    "reportDate": "2026. 8. 18.",
-    "summary": "- 지정학적 전략 및 기술 격리: 애플이 중국 전용 AI 모델 개발을 통해 현지 규제와 시장 요구에 대응하며 글로벌 기술 공급망의 파편화가 가속화되고 있음.\n\n- AI 보안 및 윤리적 책임: 오픈AI의 대화 감시 사례는 AI 서비스의 치안 기여와 프라이버시 침해라는 양면성을 드러내며, 기술 활용의 윤리적 가이드라인에 대한 논의를 촉발함.\n\n- 직무 구조 변화와 불안 심리: AI 도구의 비약적인 발전으로 개인의 역량이 조직을 대체하는 현상이 나타나는 반면, 청년층 사이에서는 AI에 의한 일자리 대체 불안감이 확산됨.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "청년층의 높은 AI 직무 대체 불안감",
-        "sign": "+",
-        "impact": 7,
-        "newsIndex": 5
-      },
-      {
-        "event": "개인이 조직을 대체하는 개인화된 생산성 향상",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 4
-      },
-      {
-        "event": "위성 영상 분석 및 정보전의 자동화",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "애플, 美정책에 반기들고 中전용 AI 개발 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tdWFYdmhlMDE1U3FSNWlkbnlxQjMtVkt4M19RVDNOM0ZEbWw4MXgxVHZxeE1jY1RHY1gxcnlDcFplTk5XUVVPYWJORHNnM1E?oc=5",
-        "pubDate": "Sun, 16 Aug 2026 08:54:16 GMT",
-        "summary": "애플이 미국 정부의 대중국 기술 제재와 현지 규제 환경에 대응하기 위해 중국 시장 전용 AI 개발 전략을 추진하고 있다. 이는 글로벌 기업들이 시장별 맞춤형 AI 생태계를 구축해야 하는 복잡한 지정학적 상황을 보여준다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "오픈AI, 살해 계획 담긴 챗GPT 대화 경찰에 신고...AI 대화 감시 논란 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fZE9LWEFrRnZEM09wYzF5WXRXZDNITzNlT1k5Umh4RTZFbnlRZ24yZjZMY2VPb3JQSW8yMFRmTzRoZGpwdjNmVDhueWJsZ1dUSm04ai1NTVFlTktpMEozSlBCamlLWG9YV1E?oc=5",
-        "pubDate": "Sun, 16 Aug 2026 07:50:42 GMT",
-        "summary": "오픈AI가 챗GPT 대화 중 범죄 모의 징후를 포착해 경찰에 신고한 사례가 발생하며 AI 서비스의 보안과 프라이버시 정책에 대한 논란이 일고 있다. AI의 사회적 안전망 역할과 사용자 정보 보호 사이의 적절한 균형점이 과제로 떠오르고 있다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "AI가 바꾼 ‘위성 영상 전쟁’…진짜도 가짜도 무기가 된다 [궤도 밖 시큐리티] - 주간조선",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yVXBjand3b2c0eWdXdFVaQzNVQ1lvaVNpLVh2VXFmMWNSeF96NnlfNHczTy1vbUpIV0w5UHhzWTFZV18xc3dXd1NEVm5EUk11M2YyY0FSRlRxLTZlZEFxZ3pGWWxQVC1RTmfSAW5BVV95cUxQZ2ZnYS1XUWhJcmdRdWRYeXZ1bkJxUUdmaS1ad3VOZENlWG1MdDdyVl9GNUpZdVdydFBnN0UxdUhEMW1vTzdQMFNxMXJVOXFYMEprM252bGQ4RGk5dzlfTXpYNnFkOGJOWHNtdjRHZw?oc=5",
-        "pubDate": "Mon, 17 Aug 2026 20:00:00 GMT",
-        "summary": "AI를 활용한 위성 영상 분석 기술이 군사 및 안보 분야의 게임 체인저로 부상하고 있다. 생성형 AI가 가짜 영상과 위장 정보를 생성함에 따라 이를 판독하는 AI 기술 또한 국방 및 보안 산업의 핵심 역량으로 평가받고 있다.",
-        "importance": 4,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      },
-      {
-        "title": "AI 교수 아들은 대학 대신 개발 배웠다…\"개인이 조직 대신하는 시대\" - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9USUJuYlJ2NU1hM1ZZYU5ORVUzbHUwbjJ3R1VuMFM1ZHQ2OVFZTFVVbVBDejB4Y09HSUFuV1ZJd2JjTHd0STZIeVlNSVdqZDJtdXZzdXhPNWFQblF2cmdzQXpoY1BCdjDSAWxBVV95cUxOWnIyT0dmRGxNakMzYk0xd3FxM0U4U1AyWGk5LVBTRFExcGJTMU9qTTRLbS0waWNuLV96dUhzNFNLZ0V5VWpVSlRoNGNINmhOOTlnZzNfaWdWN1NMWURJNnBYaENZYmJrWUQ5YXI?oc=5",
-        "pubDate": "Mon, 17 Aug 2026 21:07:00 GMT",
-        "summary": "AI 도구의 발달로 개인이 복잡한 개발 업무를 단독으로 수행하는 사례가 증가하면서 기존 기업 조직의 역할이 축소될 가능성이 제기된다. 기술 활용 능력이 개인의 경쟁력을 결정짓는 새로운 시대가 도래하고 있다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 2
-      },
-      {
-        "title": "청년 2명 중 1명 \"AI가 내 직무 5년 안에 대체\"…미취업 64% '불안' - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9MSUtGd21YTUxCN1U4RFREOFdrMFFNd2FSRG5fNVVJYXJNN1hpTzJoTTBFWXhValk2dWVPWXhkVm9CZGtBdXM2V2cxR2N3RW8?oc=5",
-        "pubDate": "Mon, 17 Aug 2026 21:02:17 GMT",
-        "summary": "한국 청년층의 절반가량이 5년 내 자신의 직무가 AI로 대체될 것을 우려하며 고용 불안을 느끼고 있다. 기술적 성취와는 별개로 노동 시장 내 사회적 안전망과 재교육 시스템 마련이 시급한 상황이다.",
-        "importance": 5,
-        "aiImpact": 2,
-        "automationPotential": 5,
-        "investmentImpact": 1
       }
     ]
   }
