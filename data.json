@@ -1,10 +1,92 @@
 [
   {
+    "lastUpdated": "2026-08-28T07:26:17.694Z",
+    "reportDate": "2026. 8. 28.",
+    "summary": "- 정부 주도 AI 서비스 확대: SKT, 카카오, KT가 '모두의 AI' 사업자로 선정되어 전 국민 대상 무료 AI 서비스 환경을 구축함.\n- 엔비디아의 생태계 장악력 강화: 허깅페이스 인수 및 기록적인 2분기 매출 달성을 통해 AI 인프라와 플랫폼을 아우르는 수직 통합 가속화.\n- 시장 및 인프라 투자 집중: 정부와 기업의 대규모 자원 투입이 AI 생태계 전반의 경쟁력을 제고하고 기술 자립화를 유도함.",
+    "summaryScore": 88,
+    "dailyVelocity": 0.8,
+    "velocityReason": "정부 주도의 AI 서비스 대중화와 엔비디아의 생태계 수직 통합으로 AI 활용 저변이 확대되면서 직무 자동화의 토대가 마련됨.",
+    "cumulativeRiskScore": 64.5,
+    "jobRiskScore": 64.5,
+    "riskScoreBreakdown": [
+      {
+        "event": "정부 주도 AI 대중화 사업 추진",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "엔비디아의 허깅페이스 인수 및 생태계 통합",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 4
+      },
+      {
+        "event": "AI 산업 급성장에 따른 컴퓨팅 자원 확보 경쟁",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "모두의 AI 사업자에 SKT·카카오·KT 선정…엔비디아 GPU 지원 - JTBC",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zV19HdEc1cmgxQklCUHNLSVRtLW9FTFNYYjVSbTNkejVULWRmOGVaREdNNkdsdjdwSDl1Q2IwSFIzX1MxXzdXM1ZqOWluajVfc3VZOA?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 00:33:00 GMT",
+        "summary": "SKT, 카카오, KT가 정부 추진 '모두의 AI' 사업자로 최종 선정되었습니다. 엔비디아의 GPU 인프라를 지원받아 전 국민이 사용할 수 있는 AI 서비스를 구축할 예정입니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "SKT·카카오·KT, ‘모두의 AI’ 사업자 선정…전 국민 무료 AI 만든다 - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GN2lNM3RISDBGSjF6Q2JERkJub2ltZFhQd1UxWFRzOFR2QkYyc1JkNkhZTE5QQ0tlUlpWeXdTMEp2ZUNhdHp0QW04RkZRZ2dlUmFfREhjVWpWd9IBX0FVX3lxTE1ObWRWTUg2NEZabm1oUkgtR2dGMk5hZzVvTWNhd1RrUU5oS2w2SFpyd1BybnVpS2ZfVnYzVHJSM0JReU1tYTN6cGhmb1pkQVNwY3VxcmItalBOSXVCVEhF?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 07:01:00 GMT",
+        "summary": "정부가 추진하는 '모두의 AI' 프로젝트가 SKT, 카카오, KT 컨소시엄을 통해 구체화됩니다. 전 국민 대상의 무료 AI 서비스 제공을 통해 국내 AI 사용성을 대폭 확대하려는 전략입니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "\"전 국민 무료 AI\" 사업자에 SKT·카카오·KT 선정 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRlNmVlpIZU9sS0tVV3g2cmhiaF9GLVhlTTdMSUlqUjlKQXZ2VFJfQkhnd1pLbXZIQlhDTW0xRkw4VU0wNjlXcGRGc0g2VThEa09YSDM3THlwbTNGOGRiMHIzVjJ1VU9fN29xWmxVUUFDS3BTLXI1WS15WHZWWGZ5OTFxQQ?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 06:48:00 GMT",
+        "summary": "국내 주요 IT 기업인 SKT, 카카오, KT가 '모두의 AI' 사업자로 선정되어 기술 보급에 나섭니다. 대규모 인프라 지원을 통해 일상 속 AI 활용도를 높이는 계기가 될 전망입니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "엔비디아, '오픈소스' 허깅페이스 18조에 인수...AI 생태계 수직통합 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBma0NJSm9QRGw3bzlyNWFzTXg4ZHRVM05FejJIdnd6VVI5QWVPSTBwV1dhTnpWQkFEUkRuQncwek02dlRlTWVISXhJZWFMcGV1YjQ1NF9uVVF2d2Q4OURMWGN4ZGZsUjVoX2c?oc=5",
+        "pubDate": "Thu, 27 Aug 2026 09:05:53 GMT",
+        "summary": "엔비디아가 오픈소스 AI 플랫폼 허깅페이스를 약 18조 원에 인수하며 생태계 수직 통합을 단행했습니다. 하드웨어에서 플랫폼으로 이어지는 거대 AI 영향력을 더욱 공고히 하려는 전략입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "엔비디아 2분기 매출 133조…젠슨 황 “AI는 지금 황금기” - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1N3NBeXhDOTNXamljOTQxQ3dqVWp6ZW1tbU5Ob09FWEVITlhQdHlGQ1pLVnNpdW00TGJVQmRMVlQweVU4V3phTXZ0bFF0SDFtZnlia0xoVjRLZ9IBX0FVX3lxTE0zM2s3bjJobFFVaU81M1VXcW4xM3Zocy1YWUdXUVYyVzdBaTcyWXVqQkdDbXBTZHdRa1VDUTBwSUR2QU9qcVdPRGRuUGlqZlBjTnRBSjFXUFU1SWRTTlM4?oc=5",
+        "pubDate": "Thu, 27 Aug 2026 11:22:00 GMT",
+        "summary": "엔비디아가 2분기 매출 133조 원을 기록하며 기록적인 성장을 이어갔습니다. 젠슨 황 CEO는 현재를 AI의 황금기로 규정하며 지속적인 시장 확대와 기술 발전을 예고했습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-09T22:23:36.031Z",
     "reportDate": "2026. 8. 10.",
     "summary": "- 플랫폼 전략 변화: 오픈AI가 챗GPT 무료 사용자에 대해 최신 모델 개방 및 제한 완화 정책을 발표하며 시장 점유율 확대를 꾀하고 있음.\n- 하드웨어 시장 진입: 음성 기반의 인간형 AI 스피커 출시 계획이 발표되면서 AI 기술의 일상 생활 밀착형 인터페이스 확장이 가속화될 전망임.\n- 기술 안전성 및 개발 조정: 차세대 모델 '아스트라'를 포함한 신규 모델 개발을 안전성 검증을 위해 잠정 중단하기로 결정하며, 기술 발전 속도 조절과 윤리적 통제의 중요성이 부각됨.",
     "summaryScore": 82,
-    "jobRiskScore": 100,
+    "jobRiskScore": 63.7,
     "riskScoreBreakdown": [
       {
         "event": "오픈AI의 서비스 무료 확대 및 접근성 강화",
@@ -76,14 +158,17 @@
         "automationPotential": 1,
         "investmentImpact": 3
       }
-    ]
+    ],
+    "dailyVelocity": 1.6,
+    "velocityReason": "신규 AI 기술 발표 및 업무 생산성 자동화 가속 뉴스 영향을 받았습니다.",
+    "cumulativeRiskScore": 63.7
   },
   {
     "lastUpdated": "2026-08-08T22:22:04.459Z",
     "reportDate": "2026. 8. 9.",
     "summary": "- 모델 안정성 및 안전성 우선: 오픈AI가 차세대 모델 '아스트라'의 개발 및 출시를 전격 연기하며 AI의 잠재적 위험 관리와 보안을 최우선 과제로 삼는 업계 흐름이 두드러짐.\n\n- AI 보안 및 위협 대응 고도화: 국내 보안 기업들이 AI 기술을 도입하여 위협을 실시간으로 분석하고 대응하는 솔루션을 제시하며 AI 생태계의 방어 역량을 강화하고 있음.\n\n- 기술 활용에 대한 사회적 논란: AI의 오용으로 인한 건강 문제 등 부작용이 속출하고, 코딩 등 기존 기술 직군에 대한 실효성 논란이 제기되면서 AI 시대의 교육과 직업관에 대한 근본적인 재검토가 이루어짐.",
     "summaryScore": 82,
-    "jobRiskScore": 100,
+    "jobRiskScore": 62.1,
     "riskScoreBreakdown": [
       {
         "event": "오픈AI 차세대 모델 개발/출시 연기",
@@ -155,14 +240,17 @@
         "automationPotential": 3,
         "investmentImpact": 1
       }
-    ]
+    ],
+    "dailyVelocity": 1.2,
+    "velocityReason": "신규 AI 기술 발표 및 업무 생산성 자동화 가속 뉴스 영향을 받았습니다.",
+    "cumulativeRiskScore": 62.1
   },
   {
     "lastUpdated": "2026-08-07T22:29:00.314Z",
     "reportDate": "2026. 8. 8.",
     "summary": "- 국가적 AI 리더십 공백과 기술 주권에 대한 우려가 커지며 글로벌 경쟁에서 뒤처질 수 있다는 위기감이 확산되고 있습니다.\n\n- AI 시대의 인재 양성 패러다임이 변화하며 전공 선택 및 직업관에 대한 근본적인 고민이 깊어지고 있습니다.\n\n- AI 데이터센터 확충을 위한 인프라 확보와 오픈 웨이트 모델의 규제 및 보안 위협에 대한 기술 민주화 논쟁이 활발합니다.",
     "summaryScore": 82,
-    "jobRiskScore": 100,
+    "jobRiskScore": 60.9,
     "riskScoreBreakdown": [
       {
         "event": "AI 시대 인재상 변화 및 컴공 회의론",
@@ -234,14 +322,17 @@
         "automationPotential": 3,
         "investmentImpact": 3
       }
-    ]
+    ],
+    "dailyVelocity": 1.6,
+    "velocityReason": "신규 AI 기술 발표 및 업무 생산성 자동화 가속 뉴스 영향을 받았습니다.",
+    "cumulativeRiskScore": 60.9
   },
   {
     "lastUpdated": "2026-08-07T01:28:44.177Z",
     "reportDate": "2026. 8. 7.",
     "summary": "- 노동 시장 변화: AI 기술의 발전으로 컴퓨터 공학 등 기존 기술직의 경쟁력이 변화하고 인문학적 소양 등 새로운 역량이 중요해지고 있음.\n\n- 산업 디지털 전환: 반도체를 넘어 자동차, 바이오 등 국가 주력 산업 전반에 AI를 접목하여 생산성과 혁신을 도모하고 있음.\n\n- 콘텐츠 시장의 변화: AI로 제작된 게임이 앱 마켓에 본격적으로 진입하며, 설치 없는 즉각적인 플레이가 가능한 플랫폼 생태계가 조성되고 있음.",
     "summaryScore": 78,
-    "jobRiskScore": 100,
+    "jobRiskScore": 59.3,
     "riskScoreBreakdown": [
       {
         "event": "AI 시대 컴퓨터 공학의 직업적 불확실성 증대",
@@ -313,14 +404,17 @@
         "automationPotential": 3,
         "investmentImpact": 4
       }
-    ]
+    ],
+    "dailyVelocity": 1.4,
+    "velocityReason": "신규 AI 기술 발표 및 업무 생산성 자동화 가속 뉴스 영향을 받았습니다.",
+    "cumulativeRiskScore": 59.3
   },
   {
     "lastUpdated": "2026-08-05T22:53:15.052Z",
     "reportDate": "2026. 8. 6.",
     "summary": "- 인프라 및 생태계 확장: AI 데이터센터의 급증으로 전력 및 냉각 자원 소비 문제가 부각되면서 지속 가능한 AI 인프라 구축의 중요성이 커지고 있음.\n\n- 반도체 공급망 및 규제 강화: 미-중 기술 패권 경쟁에 따른 데이터센터 내 중국산 부품 배제 흐름이 강화되며 글로벌 공급망 재편이 가속화됨.\n\n- 산업 적용 및 거버넌스: 유통업계의 AI 도입이 효율화를 이끄는 한편 정보의 투명성 문제가 제기되고 있으며, 기업들은 AI 거버넌스 및 정책 대응을 위해 전문 인력을 영입하는 등 사회적 책임 강화에 주력함.",
     "summaryScore": 82,
-    "jobRiskScore": 100,
+    "jobRiskScore": 57.9,
     "riskScoreBreakdown": [
       {
         "event": "데이터센터 인프라 확충에 따른 자동화 가속",
@@ -392,14 +486,17 @@
         "automationPotential": 1,
         "investmentImpact": 3
       }
-    ]
+    ],
+    "dailyVelocity": 1.5,
+    "velocityReason": "신규 AI 기술 발표 및 업무 생산성 자동화 가속 뉴스 영향을 받았습니다.",
+    "cumulativeRiskScore": 57.9
   },
   {
     "lastUpdated": "2026-08-04T22:57:10.663Z",
     "reportDate": "2026. 8. 5.",
     "summary": "- AI 인프라 고도화: 대규모 투자와 에너지 효율 개선을 통해 AI 데이터센터 성능을 극대화하려는 글로벌 기술 경쟁이 지속됨.\n\n- 생성형 AI 시장 변화: 챗GPT의 독주 체제에서 클로드(Claude) 등 신규 모델들이 급부상하며 AI 시장 내 경쟁이 치열해지고 있음.\n\n- 글로벌 및 혁신 확산: 우간다 청년의 AI 노트 사례와 같이 AI 기술이 글로벌로 확장되고 있으며, 반도체 및 에너지 관리 기술을 중심으로 산업적 실용화가 가속화됨.",
     "summaryScore": 88,
-    "jobRiskScore": 100,
+    "jobRiskScore": 56.4,
     "riskScoreBreakdown": [
       {
         "event": "생성형 AI 모델 다변화 및 경쟁 심화",
@@ -471,14 +568,17 @@
         "automationPotential": 2,
         "investmentImpact": 5
       }
-    ]
+    ],
+    "dailyVelocity": 1.4,
+    "velocityReason": "신규 AI 기술 발표 및 업무 생산성 자동화 가속 뉴스 영향을 받았습니다.",
+    "cumulativeRiskScore": 56.4
   },
   {
     "lastUpdated": "2026-08-03T22:55:19.810Z",
     "reportDate": "2026. 8. 4.",
     "summary": "- AI 기술의 실시간 상호작용 및 고도화: MS의 실시간 음성 AI 테스트 등 사용자 경험을 극대화하려는 기술적 진보가 지속되고 있음.\n\n- 소형언어모델(SLM) 경쟁 본격화: 고비용 대규모 모델에서 벗어나 비용 효율성과 특정 분야 전문성을 갖춘 SLM이 시장의 핵심 경쟁 요소로 부상함.\n\n- AI 기술의 사회적 확산 및 시장 안정화: 공공 부문의 AI 활용 역량 강화 교육이 확산되는 한편, 증시에서는 AI 관련주의 기술적 반등이 투자 심리 회복을 견인하고 있음.",
     "summaryScore": 82,
-    "jobRiskScore": 100,
+    "jobRiskScore": 55,
     "riskScoreBreakdown": [
       {
         "event": "실시간 음성 AI 고도화",
@@ -550,14 +650,17 @@
         "automationPotential": 1,
         "investmentImpact": 5
       }
-    ]
+    ],
+    "dailyVelocity": 1.7,
+    "velocityReason": "신규 AI 기술 발표 및 업무 생산성 자동화 가속 뉴스 영향을 받았습니다.",
+    "cumulativeRiskScore": 55
   },
   {
     "lastUpdated": "2026-08-02T22:50:54.665Z",
     "reportDate": "2026. 8. 3.",
     "summary": "- AI 서비스의 신뢰성 문제: 개인용 AI 음성 비서의 오작동 사례가 잇따르며 기술 도입 초기 단계의 한계와 사용자의 불만이 제기되고 있음.\n\n- 미디어 및 콘텐츠 산업의 AI 통합: 드라마, 예능 등 엔터테인먼트 분야에서 AI 기술이 제작 효율과 시각적 효과를 극대화하는 핵심 도구로 빠르게 자리 잡고 있음.\n\n- 전통 제조업의 디지털 전환 가속화: 철강, 조선 등 고전적 산업 현장에서 로봇과 AI를 결합한 공정 최적화 및 스마트 팩토리 도입이 경쟁력 확보를 위한 필수 전략으로 부상함.",
     "summaryScore": 82,
-    "jobRiskScore": 100,
+    "jobRiskScore": 53.3,
     "riskScoreBreakdown": [
       {
         "event": "조선소 자동화 및 로봇 용접 도입",
@@ -629,14 +732,17 @@
         "automationPotential": 5,
         "investmentImpact": 5
       }
-    ]
+    ],
+    "dailyVelocity": 0.7,
+    "velocityReason": "신규 AI 기술 발표 및 업무 생산성 자동화 가속 뉴스 영향을 받았습니다.",
+    "cumulativeRiskScore": 53.3
   },
   {
     "lastUpdated": "2026-08-01T22:48:50.635Z",
     "reportDate": "2026. 8. 2.",
     "summary": "- AI 에이전트 전환 가속화: 오픈AI가 차세대 모델 '아스트라'를 공개하며 단순 챗봇을 넘어선 에이전트 중심의 AI 패러다임 전환을 주도하고 있음.\n- 플랫폼 사용자 확보 및 비즈니스 모델 경쟁: 챗GPT의 활성 사용자 10억 명 돌파는 공격적인 가격 정책과 서비스 접근성 확대가 시장 점유율 확보에 핵심적임을 보여줌.\n- 기술 신뢰성 및 보안 이슈 부각: AI를 악용한 해킹 시도 증가와 구글 어스의 AI 기능 철회 사례에서 볼 수 있듯이, 기술의 속도보다 서비스의 안전성과 윤리적 검증이 기업의 최대 과제로 떠오름.",
     "summaryScore": 88,
-    "jobRiskScore": 100,
+    "jobRiskScore": 52.6,
     "riskScoreBreakdown": [
       {
         "event": "오픈AI 에이전트 패러다임 전환",
@@ -708,85 +814,9 @@
         "automationPotential": 1,
         "investmentImpact": 3
       }
-    ]
-  },
-  {
-    "lastUpdated": "2026-07-31T22:54:37.318Z",
-    "reportDate": "2026. 8. 1.",
-    "summary": "- AI 기술의 급격한 발전으로 인해 전문직의 미래 고용 안정성에 대한 우려가 확산되고 있습니다. - AI 관련 과도한 레버리지 투자로 인해 헤지펀드 자산 매각이 발생하는 등 시장 변동성이 커지고 있습니다. - 한편, AI 로봇 기술은 돌봄 서비스 및 의료 현장에서 실질적인 성과를 내며 사회적 긍정 효과를 입증하고 있습니다.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "전문직 업무 자동화 가속화 전망",
-        "sign": "+",
-        "impact": 7,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 투자 시장의 과열 및 레버리지 위험",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 2
-      },
-      {
-        "event": "돌봄 로봇 등 실질적 가치 창출",
-        "sign": " -",
-        "impact": 2,
-        "newsIndex": 5
-      }
     ],
-    "news": [
-      {
-        "title": "“의사 고액연봉? 딱 3년 남았다”…AI시대, 진짜 돈 버는 직업 - joongang.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBS2lxNWdjQ1VTY2tBN1JSbzE2TnVqREZzWG9FR3RJWVRDaE1QcnFNd3lYZVBsOWlpWXdoYmMtMFRmYjNheU55OEVxSkVXaHp1N3g0MjN3?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 20:00:00 GMT",
-        "summary": "AI 기술의 발전으로 의사와 같은 고소득 전문직의 직무 또한 향후 3년 내 상당한 자동화 영향을 받을 것으로 전망됩니다. 기술이 단순 업무를 넘어 전문 영역까지 침범하면서 직업 선택과 가치 창출 방식에 근본적인 변화가 요구됩니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 3
-      },
-      {
-        "title": "[만물상] 레버리지로 추락한 AI천재 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdjlqSllzNDZ4T21sN1Z4dEw4SVFIakhKRVNaYlBpQjJnNzlacHlIUnF4ME9CQ2FELTRrSk5qdFo3anN4dTR6eFc5VlJYMHgyM19vcTVUcGFHRWM0QzB3SWw2QkhIa2RnazBTWF9rdTZ5Yjd6RXl6ZERNandlN0NrTmt1ekVtczg?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 12:06:14 GMT",
-        "summary": "AI 산업에 대한 과도한 레버리지 투자로 인해 관련 헤지펀드가 위기를 겪고 자산을 매각하는 사례가 발생하고 있습니다. 이는 기술적 잠재력과는 별개로 시장의 투기적 성격이 금융 시스템에 미치는 위험을 보여줍니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "'AI 투자손실' 헤지펀드 시추에이셔널, 시타델에 자산 매각 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JZGtweTRBcTU4WDVPRTJSZkdCMlQ4bFRydkE0VGhnb1pzakp0WlNLekxFRVBneU9qSG14aEtuZFZEaDNDZjNVSTgzUFNYSTZSR0wxSW9jeEkxZUXSAWBBVV95cUxQZkpBRGxSa2ZTTjJPOXVpbzBzNDFaM0tDRWxfc1gyVjllNmJlQVVfcktLZ3dPV1RGSjhDSWhGNU1OcW82eE03QVJpZ2Y4THZldWZGYmwyS2tRN21hdjMzUWU?oc=5",
-        "pubDate": "Thu, 30 Jul 2026 21:17:32 GMT",
-        "summary": "AI 투자 실패를 겪은 헤지펀드 시추에이셔널의 자산을 시타델이 인수하는 등 시장 내 자본 재편이 활발합니다. AI 거품 논란과 맞물려 시장의 단기적인 조정 압력이 커지고 있습니다.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "전 세계 충격 안긴 ‘AI주 폭락’…그 배경에 이 청년 있었다 - 미주중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fOXhLb1dBcWUycWFrQ25IV0lydkVDU1hXenNjOWVFX1FFRVQ3aFd2N3ZXcDdLX1R3RldHVWxiVWJVZTNXSnhUSGxGUEg3dVY2UHR0aGw3NTVpT2FMWXY3UzF3?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 15:09:00 GMT",
-        "summary": "AI 관련 기술주 폭락의 배후로 특정 개인 투자자의 공격적인 레버리지 전략이 지목되었습니다. 시장 변동성이 특정 자본 흐름에 의해 좌우될 수 있다는 우려가 제기됩니다.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "'생명 구한' AI돌봄 로봇…노인들 복통·우울증 등 위기서 역할 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84MXhtZVFYVXNhQlNvUWs3Nmt6M1hkM0dHalBzQzlWWjBOZ0hrZzMxV0J3c2R2SGs0Z2Ewa0I4Rl9aWEd5WXFaVDlsbWs3TWM?oc=5",
-        "pubDate": "Fri, 31 Jul 2026 21:01:53 GMT",
-        "summary": "AI 돌봄 로봇이 노인들의 복통 징후를 조기에 발견하거나 우울증을 케어하는 등 실질적인 복지 현장에서의 효용성을 입증하고 있습니다. 기술이 사람의 생명을 보호하고 삶의 질을 높이는 긍정적 측면을 보여줍니다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 2
-      }
-    ]
+    "dailyVelocity": 1.6,
+    "velocityReason": "신규 AI 기술 발표 및 업무 생산성 자동화 가속 뉴스 영향을 받았습니다.",
+    "cumulativeRiskScore": 52.6
   }
 ]

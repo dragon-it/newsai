@@ -163,6 +163,80 @@ h1 {
   margin-top: 0.5rem;
 }
 
+.velocity-badge-card {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 12px;
+  border: 1px solid;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  width: 90%;
+}
+
+.velocity-title {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 0.2rem;
+}
+
+.velocity-val-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.velocity-num {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.velocity-tag {
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.15rem 0.6rem;
+  border-radius: 12px;
+}
+
+.velocity-score-text {
+  color: #f97316;
+}
+
+.velocity-reason-box {
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  color: var(--text-main);
+  background-color: #fff7ed;
+  padding: 0.7rem 0.9rem;
+  border-radius: 8px;
+  border-left: 4px solid #f97316;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.velocity-mini-badge {
+  background-color: #3b82f6;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  margin-left: 4px;
+}
+
+.detail-velocity-badge {
+  background-color: #eff6ff;
+  color: #1d4ed8;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.2rem 0.7rem;
+  border-radius: 12px;
+  border: 1px solid #bfdbfe;
+}
+
 .guideline-tip {
   margin-top: 0.8rem;
   font-size: 0.8rem;

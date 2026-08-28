@@ -60,7 +60,9 @@ async function main() {
       summary,
       summaryData.jobRiskScore,
       summaryData.overallScore,
-      summaryData.riskScoreBreakdown
+      summaryData.riskScoreBreakdown,
+      summaryData.dailyVelocity,
+      summaryData.velocityReason
     );
     const jsonPath = saveToFile(process.cwd(), "data.json", jsonReport);
     console.log("💾 JSON 저장 완료: " + jsonPath);
