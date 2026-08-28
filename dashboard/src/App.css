@@ -99,14 +99,16 @@ h1 {
 }
 
 .section-title-sub {
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: 700;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   color: var(--text-main);
   border-bottom: none;
   display: block;
   padding-bottom: 0;
+  white-space: nowrap;
+  word-break: keep-all;
 }
 
 /* 1. Gauge Layout */
@@ -235,6 +237,8 @@ h1 {
   padding: 0.2rem 0.7rem;
   border-radius: 12px;
   border: 1px solid #bfdbfe;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .guideline-tip {
@@ -253,31 +257,32 @@ h1 {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .trend-chart-container h3 {
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   font-weight: 700;
   margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.4rem;
   color: var(--text-main);
 }
 
 .svg-wrapper {
   position: relative;
   width: 100%;
-  flex-grow: 1;
-  min-height: 160px;
+  max-height: 150px;
+  margin-top: 20px;
 }
 
 .trend-x-labels {
   display: flex;
   justify-content: space-between;
-  padding: 0 10px 0 40px;
+  padding: 0 10px 0 52px;
   font-size: 0.75rem;
   color: var(--text-muted);
-  margin-top: 2px;
+  margin-top: 4px;
+  margin-bottom: 0.5rem;
 }
 
 /* Interactive Chart Tooltip */
@@ -611,7 +616,8 @@ footer a:hover {
 }
 
 .metric-stars {
-  color: #fbbf24; /* 골드/노란색 별점 컬러 */
+  color: #fbbf24;
+  /* 골드/노란색 별점 컬러 */
   font-family: monospace;
   font-size: 0.95rem;
   letter-spacing: 1px;
@@ -703,11 +709,13 @@ footer a:hover {
 }
 
 .risk-up .factor-sign {
-  color: #ef4444; /* 위험도 상승 (빨간색 화살표) */
+  color: #ef4444;
+  /* 위험도 상승 (빨간색 화살표) */
 }
 
 .risk-down .factor-sign {
-  color: #10b981; /* 위험도 하락 (초록색 화살표) */
+  color: #10b981;
+  /* 위험도 하락 (초록색 화살표) */
 }
 
 .factor-event {
@@ -819,12 +827,14 @@ footer a:hover {
 }
 
 .risk-score-text {
-  color: #f59e0b; /* 주황/노랑 */
+  color: #f59e0b;
+  /* 주황/노랑 */
   font-size: 1.05rem;
 }
 
 .summary-score-text {
-  color: var(--primary-color); /* 파랑 */
+  color: var(--primary-color);
+  /* 파랑 */
   font-size: 1.05rem;
 }
 
@@ -858,6 +868,7 @@ footer a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.5rem;
   margin-bottom: 0.8rem;
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 0.5rem;
@@ -865,9 +876,10 @@ footer a:hover {
 
 .detail-header h4 {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 0.98rem;
   font-weight: 700;
   color: var(--text-main);
+  white-space: nowrap;
 }
 
 .detail-diff-badge {
@@ -948,7 +960,9 @@ footer a:hover {
   opacity: 0.6;
 }
 
-.no-breakdown-text, .no-changes-text, .no-data-text {
+.no-breakdown-text,
+.no-changes-text,
+.no-data-text {
   font-size: 0.85rem;
   color: var(--text-muted);
   margin: 0;

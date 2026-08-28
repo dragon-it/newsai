@@ -104,7 +104,7 @@ function renderStars(score) {
   return "★".repeat(cleanScore) + "☆".repeat(5 - cleanScore);
 }
 
-// [컴포넌트] 날짜별 위험도 추이 꺾은선 차트 (2번 꺾은선 모양 - 클릭 연동 추가)
+// [컴포넌트] 날짜별 위험 가속도(Daily Velocity) 추이 꺾은선 차트 (동적 스케일링 & 콤팩트 패딩 적용)
 function TrendChart({ historyData, selectedDate, onSelectPoint }) {
   // 날짜 오름차순 정렬 (오른쪽이 최신이 되도록)
   const chartData = [...historyData].reverse();
@@ -113,52 +113,101 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
   if (chartData.length < 2) return null;
 
   const width = 500;
-  const height = 200;
-  const paddingLeft = 40;
-  const paddingRight = 20;
-  const paddingTop = 20;
-  const paddingBottom = 30;
+  const height = 180;
+  const paddingLeft = 58;
+  const paddingRight = 18;
+  const paddingTop = 30;
+  const paddingBottom = 22;
 
   const chartWidth = width - paddingLeft - paddingRight;
   const chartHeight = height - paddingTop - paddingBottom;
-  const maxVal = 100;
+
+  // 실제 데이터의 가속도 최소/최대 수치 기반 동적 Y축 스케일링
+  const velocities = chartData.map((d) => (typeof d.dailyVelocity === "number" ? d.dailyVelocity : 1.0));
+  const rawMin = Math.min(...velocities);
+  const rawMax = Math.max(...velocities);
+
+  // 상하단여백을 최소화하여 가속도 파동이 차트 전체를 채우도록 설정
+  const minVel = Math.min(-0.5, Math.floor((rawMin - 0.5) * 2) / 2);
+  const maxVel = Math.max(2.5, Math.ceil((rawMax + 0.5) * 2) / 2);
+  const velRange = maxVel - minVel || 1;
+  const midVel = Math.round(((maxVel + minVel) / 2) * 10) / 10;
+
+  // 0.0 baseline Y 좌표 연산
+  const zeroY = paddingTop + chartHeight - ((0 - minVel) / velRange) * chartHeight;
+  const midY = paddingTop + chartHeight - ((midVel - minVel) / velRange) * chartHeight;
 
   // 데이터 좌표 매핑
   const points = chartData.map((d, i) => {
     const x = paddingLeft + (i * chartWidth) / (chartData.length - 1);
-    const y = paddingTop + chartHeight - ((d.jobRiskScore || 50) / maxVal) * chartHeight;
-    return { x, y, date: d.reportDate, score: d.jobRiskScore || 50 };
+    const vel = typeof d.dailyVelocity === "number" ? d.dailyVelocity : 1.0;
+    const clampedVel = Math.max(minVel, Math.min(maxVel, vel));
+    const y = paddingTop + chartHeight - ((clampedVel - minVel) / velRange) * chartHeight;
+    return {
+      x,
+      y,
+      date: d.reportDate,
+      velocity: vel,
+      score: d.cumulativeRiskScore ?? d.jobRiskScore ?? 50,
+      reason: d.velocityReason
+    };
   });
 
   // Polyline points 문자열 생성
   const linePointsStr = points.map((p) => `${p.x},${p.y}`).join(" ");
 
-  // 아래 투명 그라디언트 영역 폴리곤 생성
-  const areaPointsStr = `${points[0].x},${paddingTop + chartHeight} ` + 
-                        linePointsStr + 
-                        ` ${points[points.length - 1].x},${paddingTop + chartHeight}`;
+  // 아래 투명 그라디언트 영역 폴리곤 생성 (0.0 Y 기준점 또는 차트 하단 기준)
+  const areaBaseY = Math.min(paddingTop + chartHeight, Math.max(paddingTop, zeroY));
+  const areaPointsStr = `${points[0].x},${areaBaseY} ` +
+    linePointsStr +
+    ` ${points[points.length - 1].x},${areaBaseY}`;
+
+  // 가속도별 포인트 색상 추출
+  const getVelocityColor = (v) => {
+    if (v >= 3.0) return "#dc2626"; // 급가속 (레드)
+    if (v >= 1.0) return "#f97316"; // 상승 가속 (오렌지)
+    if (v > 0.0) return "#eab308";  // 완만 가속 (옐로우)
+    return "#10b981";              // 감속/안정 (그린)
+  };
 
   return (
     <div className="trend-chart-container">
-      <h3>일자리 위험도 트렌드 추이 (최근 10일)</h3>
+      <div style={{ marginBottom: '0.25rem' }}>
+        <h3 className="section-title-sub" style={{ margin: 0, fontSize: '1.05rem' }}>🚀 일자리 위험 가속도(Velocity) 추이</h3>
+      </div>
+      <p style={{ fontSize: '0.78rem', color: '#64748b', margin: '0 0 0.5rem 0', lineHeight: '1.3' }}>
+        뉴스 충격에 따른 일자별 위험 축적 속도의 동적 파동을 실시간 포착합니다.
+      </p>
+
       <div className="svg-wrapper">
         <svg width="100%" height="100%" viewBox={`0 0 ${width} ${height}`} preserveAspectRatio="xMidYMid meet">
           <defs>
             <linearGradient id="area-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-              <stop offset="0%" stopColor="#2563eb" stopOpacity="0.3" />
-              <stop offset="100%" stopColor="#2563eb" stopOpacity="0.0" />
+              <stop offset="0%" stopColor="#f97316" stopOpacity="0.4" />
+              <stop offset="100%" stopColor="#f97316" stopOpacity="0.0" />
             </linearGradient>
           </defs>
 
-          {/* 격자선 가이드라인 */}
+          {/* 격자선 가이드라인 (상단, 중간, 0.0 기준선, 하단) */}
           <line x1={paddingLeft} y1={paddingTop} x2={width - paddingRight} y2={paddingTop} stroke="#e2e8f0" strokeDasharray="3" />
-          <line x1={paddingLeft} y1={paddingTop + chartHeight / 2} x2={width - paddingRight} y2={paddingTop + chartHeight / 2} stroke="#e2e8f0" strokeDasharray="3" />
+          {midVel !== 0 && midY > paddingTop + 15 && midY < paddingTop + chartHeight - 15 && (
+            <line x1={paddingLeft} y1={midY} x2={width - paddingRight} y2={midY} stroke="#f1f5f9" strokeDasharray="2" />
+          )}
+          {zeroY >= paddingTop && zeroY <= paddingTop + chartHeight && (
+            <line x1={paddingLeft} y1={zeroY} x2={width - paddingRight} y2={zeroY} stroke="#94a3b8" strokeDasharray="4" strokeWidth="1.5" />
+          )}
           <line x1={paddingLeft} y1={paddingTop + chartHeight} x2={width - paddingRight} y2={paddingTop + chartHeight} stroke="#cbd5e1" strokeWidth="1.5" />
 
-          {/* y축 라벨 */}
-          <text x={paddingLeft - 10} y={paddingTop + 4} textAnchor="end" fontSize="11" fill="#64748b">100</text>
-          <text x={paddingLeft - 10} y={paddingTop + chartHeight / 2 + 4} textAnchor="end" fontSize="11" fill="#64748b">50</text>
-          <text x={paddingLeft - 10} y={paddingTop + chartHeight + 4} textAnchor="end" fontSize="11" fill="#64748b">0</text>
+          {/* Y축 선명하고 크기가 강조된 라벨 표시 */}
+          <text x={paddingLeft - 10} y={paddingTop + 5} textAnchor="end" fontSize="16" fill="#dc2626" fontWeight="800">
+            {maxVel > 0 ? `+${maxVel.toFixed(1)}` : maxVel.toFixed(1)}
+          </text>
+          {zeroY >= paddingTop + 20 && zeroY <= paddingTop + chartHeight - 20 && (
+            <text x={paddingLeft - 10} y={zeroY + 5} textAnchor="end" fontSize="16" fill="#334155" fontWeight="800">0.0</text>
+          )}
+          <text x={paddingLeft - 10} y={paddingTop + chartHeight + 5} textAnchor="end" fontSize="16" fill={minVel < 0 ? "#059669" : "#64748b"} fontWeight="800">
+            {minVel > 0 ? `+${minVel.toFixed(1)}` : minVel.toFixed(1)}
+          </text>
 
           {/* 그라디언트 영역 */}
           <polygon points={areaPointsStr} fill="url(#area-gradient)" />
@@ -167,8 +216,8 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
           <polyline
             points={linePointsStr}
             fill="none"
-            stroke="#2563eb"
-            strokeWidth="3"
+            stroke="#ea580c"
+            strokeWidth="3.5"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
@@ -177,6 +226,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
           {points.map((p, i) => {
             const isSelected = p.date === selectedDate;
             const isHovered = hoveredIndex === i;
+            const nodeColor = getVelocityColor(p.velocity);
             return (
               <g key={i}>
                 {/* 마우스 가이드 수직 점선 */}
@@ -186,20 +236,20 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
                     y1={paddingTop}
                     x2={p.x}
                     y2={paddingTop + chartHeight}
-                    stroke="#3b82f6"
-                    strokeWidth="1"
-                    strokeDasharray="2"
+                    stroke="#ea580c"
+                    strokeWidth="1.5"
+                    strokeDasharray="3"
                   />
                 )}
                 {/* 포인트 원형 테두리 */}
                 <circle
                   cx={p.x}
                   cy={p.y}
-                  r={isSelected ? "8" : (isHovered ? "6" : "4")}
-                  fill={getRiskColor(p.score)}
+                  r={isSelected ? "8.5" : (isHovered ? "7" : "5")}
+                  fill={nodeColor}
                   stroke={isSelected ? "#1e293b" : "#ffffff"}
                   strokeWidth={isSelected ? "3" : "2"}
-                  style={{ transition: "r 0.1s ease, stroke-width 0.1s ease", cursor: "pointer" }}
+                  style={{ transition: "r 0.15s ease, stroke-width 0.15s ease", cursor: "pointer" }}
                 />
                 {/* 클릭 및 호버 감지용 큰 투명 원 */}
                 <circle
@@ -222,19 +272,25 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
           <div
             className="chart-tooltip"
             style={{
-              left: `${points[hoveredIndex].x + 10}px`,
-              top: `${points[hoveredIndex].y - 45}px`
+              left: `${Math.min(width - 150, Math.max(10, points[hoveredIndex].x - 60))}px`,
+              top: `${Math.max(10, points[hoveredIndex].y - 55)}px`
             }}
           >
             <div className="tooltip-date">{points[hoveredIndex].date}</div>
             <div className="tooltip-score">
-              위험도: <strong style={{ color: getRiskColor(points[hoveredIndex].score) }}>{points[hoveredIndex].score}점</strong>
+              가속도: <strong style={{ color: getVelocityColor(points[hoveredIndex].velocity) }}>
+                {points[hoveredIndex].velocity > 0 ? `+${points[hoveredIndex].velocity}` : points[hoveredIndex].velocity} pt/day
+              </strong>
+            </div>
+            <div style={{ fontSize: '0.72rem', color: '#94a3b8', marginTop: '2px' }}>
+              누적 위험: {points[hoveredIndex].score}점
             </div>
           </div>
         )}
       </div>
-      <div className="trend-x-labels">
+      <div className="trend-x-labels" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span>{chartData[0].date}</span>
+        <span style={{ fontSize: '0.78rem', color: '#64748b', fontWeight: '600' }}>(단위: pt/day)</span>
         <span>{chartData[chartData.length - 1].date}</span>
       </div>
     </div>
@@ -333,20 +389,20 @@ function App() {
   const todayData = dataArray[0];
   const pastData = dataArray.slice(1);
 
-    // 어제 데이터와 위험도 차이 구하기
-    const yesterdayData = pastData[0];
-    const yesterdayScore = yesterdayData ? yesterdayData.jobRiskScore : null;
-    const scoreDiff = yesterdayScore !== null ? (todayData.jobRiskScore - yesterdayScore) : null;
-    const scoreDiffSign = scoreDiff !== null ? (scoreDiff >= 0 ? `+${scoreDiff}` : `${scoreDiff}`) : "";
+  // 어제 데이터와 위험도 차이 구하기
+  const yesterdayData = pastData[0];
+  const yesterdayScore = yesterdayData ? yesterdayData.jobRiskScore : null;
+  const scoreDiff = yesterdayScore !== null ? (todayData.jobRiskScore - yesterdayScore) : null;
+  const scoreDiffSign = scoreDiff !== null ? (scoreDiff >= 0 ? `+${scoreDiff}` : `${scoreDiff}`) : "";
 
-    // 꺾은선 차트 클릭 연동 날짜 분석
-    const selectedReport = dataArray.find((d) => d.reportDate === selectedDate) || todayData;
-    const selectedReportIndex = dataArray.findIndex((d) => d.reportDate === selectedDate);
-    const selectedYesterday = selectedReportIndex !== -1 && selectedReportIndex < dataArray.length - 1 ? dataArray[selectedReportIndex + 1] : null;
-    const selectedDiff = selectedYesterday !== null ? (selectedReport.jobRiskScore - selectedYesterday.jobRiskScore) : null;
-    const selectedDiffSign = selectedDiff !== null ? (selectedDiff >= 0 ? `+${selectedDiff}` : `${selectedDiff}`) : "";
+  // 꺾은선 차트 클릭 연동 날짜 분석
+  const selectedReport = dataArray.find((d) => d.reportDate === selectedDate) || todayData;
+  const selectedReportIndex = dataArray.findIndex((d) => d.reportDate === selectedDate);
+  const selectedYesterday = selectedReportIndex !== -1 && selectedReportIndex < dataArray.length - 1 ? dataArray[selectedReportIndex + 1] : null;
+  const selectedDiff = selectedYesterday !== null ? (selectedReport.jobRiskScore - selectedYesterday.jobRiskScore) : null;
+  const selectedDiffSign = selectedDiff !== null ? (selectedDiff >= 0 ? `+${selectedDiff}` : `${selectedDiff}`) : "";
 
-    // 아코디언 토글 핸들러
+  // 아코디언 토글 핸들러
   const toggleAccordion = (reportDate) => {
     setExpandedDays((prev) => ({
       ...prev,
@@ -372,7 +428,7 @@ function App() {
             <div className="gauge-layout">
               <div className="gauge-left-col">
                 <GaugeChart score={todayData.cumulativeRiskScore || todayData.jobRiskScore || 75} />
-                
+
                 {/* 오늘의 가속도 하이라이트 배지 */}
                 {(() => {
                   const velocityInfo = getVelocityBadge(todayData.dailyVelocity);
@@ -420,7 +476,7 @@ function App() {
           {pastData.length > 0 && (
             <section className="dashboard-card trend-card-section">
               <TrendChart historyData={dataArray} selectedDate={selectedDate} onSelectPoint={setSelectedDate} />
-              
+
               {/* 신규: 꺾은선 클릭 연동 날짜 상세 카드 */}
               {selectedReport && (
                 <div className="trend-detail-box">
@@ -488,7 +544,7 @@ function App() {
                 const matchedNews = item.newsIndex ? todayData.news[item.newsIndex - 1] : null;
                 const impactText = item.impact >= 7 ? "높음 🔴" : item.impact >= 4 ? "중간 🟡" : "낮음 🟢";
                 const impactClass = item.impact >= 7 ? "impact-high" : item.impact >= 4 ? "impact-medium" : "impact-low";
-                
+
                 const cardInner = (
                   <div className={`key-change-card ${matchedNews ? "is-link" : ""}`}>
                     <div className="card-top">
@@ -577,8 +633,8 @@ function App() {
             <h2 className="past-group-title">지난 뉴스 히스토리</h2>
             {pastData.slice(0, visibleCount).map((past, idx) => {
               // 최근 3일은 펼쳐진 상태로 표시 (당일 제외하고 pastData의 index 0, 1까지가 오늘+과거2일=총3일)
-              const isExpanded = expandedDays[past.reportDate] !== undefined 
-                ? expandedDays[past.reportDate] 
+              const isExpanded = expandedDays[past.reportDate] !== undefined
+                ? expandedDays[past.reportDate]
                 : idx < 2;
 
               return (
