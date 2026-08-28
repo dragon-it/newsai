@@ -113,11 +113,11 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
   if (chartData.length < 2) return null;
 
   const width = 500;
-  const height = 140;
+  const height = 180;
   const paddingLeft = 58;
   const paddingRight = 18;
-  const paddingTop = 12;
-  const paddingBottom = 18;
+  const paddingTop = 18;
+  const paddingBottom = 22;
 
   const chartWidth = width - paddingLeft - paddingRight;
   const chartHeight = height - paddingTop - paddingBottom;
