@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-08-29T23:50:29.087Z",
+    "reportDate": "2026. 8. 30.",
+    "summary": "- AI 기술의 실질적 적용 확대: AI가 종이책을 디지털화하는 등의 물리적 작업은 물론, 공공 행정 플랫폼 도입을 통해 실무 효율성을 높이는 사례가 증가하고 있음.\n\n- 사회적 수용성 및 인식 고취: 일반 대중의 69%가 AI를 국가 성장의 핵심 동력으로 인식하며, 일상 속 체감형 AI 서비스 확산이 대중화의 관건으로 떠오름.\n\n- 규제 개선 및 글로벌 경쟁력 강조: 국내 스타트업 업계는 AI 시장의 국경 없는 경쟁을 언급하며 한국형 규제 완화와 혁신 환경 조성을 강력히 요구하고 있음.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.3,
+    "velocityReason": "AI의 공공 및 민간 부문 도입이 가속화되고 있으나, 당장 대규모 감원보다는 기술 적응과 인프라 구축 단계에 머물러 있음.",
+    "cumulativeRiskScore": 51.3,
+    "jobRiskScore": 51.3,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 기반 행정 플랫폼 도입",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      },
+      {
+        "event": "AI 실무 활용 및 산업 자동화 가능성 확대",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      },
+      {
+        "event": "규제 완화 요구 및 혁신 생태계 조성 논의",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 3
+      }
+    ],
+    "news": [
+      {
+        "title": "“스캔하고 작두로 싹둑”…AI가 종이책을 사들이는 진짜 이유 - KBS 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rUHUyQjdRbDZPX1Ayd29zY2FRbmlOSGN6X29IMjVRSHRqRE4zVVAwTmdKeHhGOGFZaXJNUHNtT3NHVVlBdTVORjljY2x1blJ6VnM1QlVSc1plQ1E?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 22:00:00 GMT",
+        "summary": "AI가 종이책을 고속 스캔 및 데이터화하는 기술이 도입되며 지식 정보의 디지털 전환이 가속화되고 있음. 이는 단순 아카이빙을 넘어 물리적 자료의 AI 학습 데이터화라는 점에서 산업적 가치가 높음.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "\"AI 없이 성장 없다\"…국민 69% \"성장 핵심 동력 될 것\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93RUFzRm1sRDdYZWZPS3RFanllc0padU41bjJkazlKcjRCenVnM082cmU3LTF1Y2tWRHlrNGVzdmtZY0E5MC1pQUxjM1g0U1UwV0hkS2lR?oc=5",
+        "pubDate": "Fri, 28 Aug 2026 23:06:25 GMT",
+        "summary": "국민 69%가 AI를 국가 성장의 핵심 동력으로 응답하며 사회적 수용성이 크게 향상됨. AI 기술이 경제 성장의 필수 요소라는 인식이 확산됨에 따라 관련 정책 수립의 동력이 확보됨.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[만나보니] 코스포 의장 \"AI는 국경 없는 경쟁…한국만의 규제 걷어내야\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnOHZXaC1OeTNTVEtYajR5YWlSek93a3pKQ2FTY0I5Y0FzSXY1bTZqWkZ1bFFSSFp2QkVjb29sOGo1YkNkVllyZmQxYnJhTTdtOWF0Qy1RSUU2MlHSAWBBVV95cUxOZmRqQkZfb2R2eDdjbEgzZEcxMlpnbGFheWhWelAybFdnZmUwMEJGU0VsZnl4RWtGRDJSaFBkdzlaSktyQ2JBSzk1WnlsTld0OHNHM25CdjdJYUtndGJqNVM?oc=5",
+        "pubDate": "Sat, 29 Aug 2026 21:15:01 GMT",
+        "summary": "코스포 의장이 AI 산업의 국경 없는 경쟁에서 생존하기 위해 한국만의 불필요한 규제를 제거해야 한다고 강조함. 기업의 자율성을 극대화하여 글로벌 AI 경쟁력을 확보해야 한다는 입장임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "건강·매장관리·취업까지…'모두의 AI'가 바꿀 풍경 \"체감이 관건\" - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VY01vZnZzR19WQ2NCeHdBYkZzX1VfRGE4NHJTV1JYWUIyUnloeUJ3U3dkNzg0SGYxU0xremJDOFhxeFJlX2NSRmZubkRmYzFmR0RmajdSYVpVWl9BVDhjejlrdWtSSkXSAWxBVV95cUxPTlBwS3ZtRnEwYlphandDLUNMNG90UGQ2eVBNN3A2cFVYQjlMeGptV2R2R25nTHFyVzNCTWE5cVhzYjFOYmM4Njd0Q0ZrS0tRTThiQzZEWXU5SEFHR1BFRHI0a1o4Tm5zSzNOZWE?oc=5",
+        "pubDate": "Sat, 29 Aug 2026 22:00:00 GMT",
+        "summary": "건강 관리, 매장 관리, 취업 알선 등 다양한 분야에 AI가 적용되면서 일반인의 체감도가 높아지고 있음. 서비스의 실질적인 편익 제공 여부가 향후 시장 확대의 핵심 변수가 될 전망임.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "관악구, 직원이 만든 ‘AI 행정 혁신 플랫폼’ 가동 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ELTY0WmVNdmNMTUJlbDV3b1dBbzNSc1poV25CNzJRY0o3NWJJZmZJemdPTkltbWhVMVRiYWRfZWU0NG5SckxwX3YxTjRxSmM?oc=5",
+        "pubDate": "Sat, 29 Aug 2026 22:36:43 GMT",
+        "summary": "관악구가 공무원들이 직접 개발한 AI 행정 혁신 플랫폼을 도입하여 업무 효율성을 강화함. 행정 서비스의 자동화와 업무 간소화 사례로 공공 부문의 AI 혁신 모델을 제시함.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-29T03:26:53.177Z",
     "reportDate": "2026. 8. 29.",
     "summary": "- 국가 주도 AI 서비스 확산: SKT, 카카오, KT가 정부의 '전 국민 AI 일상화' 프로젝트 사업자로 선정되어 공공 서비스 분야의 AI 도입이 본격화됨.\n- 국내외 기술 격차 해소 노력: 외산 AI에 대항하여 한국형 초거대 AI 경쟁력을 확보하고 국민 생활 밀착형 AI 서비스를 구축하려는 전략적 움직임이 관찰됨.\n- 정책 및 산업 생태계 논란: 국가 대표 AI 선발 과정에서 평가 방식과 배점 기준을 둘러싼 잡음이 발생하며, 정책 집행의 투명성과 효율성에 대한 과제가 제기됨.\n- 투자 시장 전망: AI 기술에 대한 투자는 여전히 유망하며, 최근 시장 약세를 기회로 삼아 기술주를 선별적으로 분할 매수하려는 움직임이 존재함.",
@@ -725,88 +807,6 @@
         "aiImpact": 3,
         "automationPotential": 5,
         "investmentImpact": 2
-      }
-    ],
-    "cumulativeRiskScore": 100,
-    "dailyVelocity": 1,
-    "velocityReason": "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다."
-  },
-  {
-    "lastUpdated": "2026-08-19T22:18:18.376Z",
-    "reportDate": "2026. 8. 20.",
-    "summary": "- AI 기술의 실무 적용 확대: AI가 코드 생성뿐만 아니라 보안 분석 및 연구 영역으로 확장되며 기술적 활용도가 고도화되고 있음.\n\n- 빅테크의 시장 지배력 강화: 오픈AI의 상장 추진 및 보안 강화 전략을 통해 AI 기업들이 자본 시장 내 영향력을 극대화하고 생태계 선점에 나서고 있음.\n\n- 국가적 AI 수익 모델 창출: 대만을 비롯한 국가들이 AI 산업에서 발생한 이익을 국민에게 환원하는 새로운 사회적 분배 모델을 실험하고 있음.",
-    "summaryScore": 88,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 보안 연구 및 코드 최적화 도입",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "오픈AI 상장 추진에 따른 대규모 자본 집중",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "국가 단위 AI 수익 공유 모델 도입",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "아이폰 보안문서에 AI 이름 줄줄이…코드 짜던 AI, 보안 연구원 되다 - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wTFR3X1lHTEQ5X3lNcVJIdEJYaDdHVVdIQWhHeEVYTjhWQlBrTDRPRVZyLWVHU1UzSkZwM1RLOXhoekVLYUpjaWU4Rjd1N3QxckxZT05HSUxyN05VQWs3StIBeEFVX3lxTE8td3ZmajBjOXpoUjJicndyVG1JTzlwTjVvSElmWWVPOWp1SnhkX3pZbFI0NERyRVlZTHFYOEszekpyd1lZREhaSVhCQVN2VktoZFU3RFB6WkxmTmYxT215QVZuZ2F3TDBnYml4VVBQUE14Z1p2Wmtjag?oc=5",
-        "pubDate": "Wed, 19 Aug 2026 21:00:00 GMT",
-        "summary": "애플의 보안 문서 분석 결과, AI 모델이 코드 작성 외에도 보안 취약점 연구 및 분석에 적극 활용되고 있음이 확인되었습니다. 이는 AI가 단순 업무 보조를 넘어 전문적인 보안 영역까지 진출하고 있음을 의미합니다.",
-        "importance": 4,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "대어 오픈AI, 내년 상장한다…IPO 일정 첫 공개 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ROW9OZlFtLXYwQktUam5KWTNKR0hKdFEydFpHNFlLY2Faam9xeGxGVkFVQ2M4S002Yk5KRW1vdWtPUmJsNkJOb2Q4Sy1NbHc?oc=5",
-        "pubDate": "Wed, 19 Aug 2026 20:04:09 GMT",
-        "summary": "오픈AI가 내년 상장을 목표로 본격적인 IPO 일정을 논의하고 있습니다. 이는 AI 산업이 단순 기대감을 넘어 본격적인 상업적 수익성과 시장 가치를 증명하는 단계로 진입했음을 시사합니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "앤트로픽에 역전된 오픈AI, '고객데이터 보안' 내세워 시장 공략 - yna.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TTFVXUWFINmtXclJkWGhKdS0taTNsemk4V3JRQW5VRHVrdjdqaGJjUDB3VERuZk5rRXhKWE1CLWhMTmlyRDZLcV9hQTFjcTUxam1YSWtlMnprUXfSAWBBVV95cUxPU3YzNlR5UldHaXJSc3dYZzdNT01oa0VOUkQ1TVZOWVJQUzh5ZHdPX08teURiTlZTX09GRlJfb1RIbGZQcWl6eTYyLWpkdHgwV09oQVFWZXA0b2VmdC1MTmQ?oc=5",
-        "pubDate": "Wed, 19 Aug 2026 20:32:46 GMT",
-        "summary": "오픈AI가 앤트로픽 등과의 경쟁 우위를 점하기 위해 고객 데이터 보안을 전면에 내세운 공략을 강화하고 있습니다. 기업 고객의 신뢰를 확보하여 AI 시장 주도권을 유지하려는 전략으로 풀이됩니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "전 국민에 1인당 44만원 쏜다…AI 산업 호황 결실 나누는 대만 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zRkR3V1pZM19jNXY5MWxtdnJKYThvUGJucG1vNWZWc2ZLSURYXzJueU82MER5Q2JGSEJkdmY3M2pHTXJaZXVlWWlJbHBQNlE?oc=5",
-        "pubDate": "Wed, 19 Aug 2026 08:26:51 GMT",
-        "summary": "대만이 AI 산업 성장에 따른 막대한 수익을 세수 증대로 연결해 국민들에게 환원하는 정책을 발표했습니다. AI 기술의 성과가 국가 경제와 복지 체계에 직접적인 영향을 미치는 사례가 등장하고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "“전 국민에 45만원 ‘AI 보너스’ 드립니다”···돈 벌면 국민에 나눠주는 황금국들 [이윤정 기자의 소소월드] - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5od3R4MlVLcHNtQXN4LUxsZ09RM1piYlVZWGFUeElhRDVablh4eFBaQmtaVzV4UkVIVnVKOFlNblhQN1A5QjV1UFpjU2ZOLURGV3JzR0lHREZnQdIBX0FVX3lxTE5oSVlzVlpkMVo1M1Z1WkU5cUxEWkwxaHUyeDlJcnBDMjEwTk9yX3dKN041VGpOQXluMzVkUU0xZWtwLUs2Y2RhTG9hM0oxcDFfOG9aaWJ6X3p2OFpRM2lV?oc=5",
-        "pubDate": "Wed, 19 Aug 2026 01:17:00 GMT",
-        "summary": "AI 산업 호황으로 발생한 초과 이익을 전 국민에게 배당 형태로 분배하는 국가들의 모델이 주목받고 있습니다. AI로 인한 생산성 향상이 국가적 부의 재분배 구조를 변화시키는 동력이 되고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 3
       }
     ],
     "cumulativeRiskScore": 100,
