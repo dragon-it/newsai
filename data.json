@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-08-31T00:08:55.003Z",
+    "reportDate": "2026. 8. 31.",
+    "summary": "- 기업 및 경영 분쟁: 오픈AI와 일론 머스크 간의 갈등이 심화하며 AI 산업 내 경쟁 관계의 복잡성이 드러나고 있습니다.\n\n- 국가 AI 거버넌스 구축: 대한민국 정부가 AI 정책을 총괄할 수석비서관과 전략위원회를 공식 발족하며 국가 차원의 AI 전략을 강화하고 있습니다.\n\n- AI 기술의 산업 적용 확대: AI 기술이 지식재산권 보호 및 위조품 식별 등 실질적인 산업 문제 해결 영역으로 확장되고 있습니다.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.2,
+    "velocityReason": "AI 산업의 지배구조 재편과 국가 단위의 정책적 인력 배치가 이루어졌으나 실질적인 고용 대체 위협은 낮은 상태입니다.",
+    "cumulativeRiskScore": 51.3,
+    "jobRiskScore": 51.3,
+    "riskScoreBreakdown": [
+      {
+        "event": "오픈AI-머스크 갈등 심화",
+        "sign": "+",
+        "impact": 1,
+        "newsIndex": 1
+      },
+      {
+        "event": "국가 AI 정책 컨트롤타워 신설",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 활용 위조품 식별 기술 도입",
+        "sign": "+",
+        "impact": 1,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "오픈AI, 스페이스X 인수된 커서 계약해지…머스크 \"사기꾼\" 비난 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1IZFY0WTg5Z3dTRktFQ3hkaTduSlpRX1lNZXYzdlpnVG04YXN5TlNCNHlRQVBQQ2tiazRLUHYzS3I0YUJoN0JSYV9remRRM0xZR0I0dERWRmdZYTQ?oc=5",
+        "pubDate": "Sat, 29 Aug 2026 17:41:39 GMT",
+        "summary": "오픈AI와 일론 머스크 간의 법적 공방 및 비난전이 가열되고 있습니다. 양측의 협력 관계 단절은 AI 시장 내 기술 주도권 경쟁의 긴장감을 높이고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      },
+      {
+        "title": "靑 AI수석에 이해민·AI전략위 하정우·정무특보 김경수 발탁 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VVUxYTUdQUW9USDVOaUtGRFJvd0t1TmZlQzctdHQyTno2T0M5VWFLWWNrUUh4QVROR2hlMXlUb3hnMVNEOXM4bXVtVHd4UzQ?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 03:57:01 GMT",
+        "summary": "대한민국 정부가 AI 수석비서관을 신설하고 전문가들을 대거 발탁하여 국가 AI 전략을 재정비했습니다. 이는 국가 경쟁력 강화를 위한 AI 정책 드라이브로 해석됩니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "청와대 AI 정책 맡는 이해민은 누구…구글 거쳐 국회서 AI 입법 주도 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUVjNOazJ3MEM2ak5YMklxdVpVY1JzSlJadHlXS3RoU3lGMVB5dUwtUlZUX2RaS0lqOHgzU1BYREh1YkN2X0NnWXdpNERmbmljYzJfcU93?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 03:05:04 GMT",
+        "summary": "이해민 AI 수석비서관의 이력과 전문성을 조명하며 향후 정부가 추진할 AI 입법 방향을 분석하고 있습니다. 구글 출신의 경력을 바탕으로 한 규제와 진흥의 조화가 핵심입니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "AI미래기획수석은 'AI 수석'만이 아니다 [정종오의 질문과답] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQYXhGNUNWWmJOcUdoUGhmaXRmU3duYS1lYjRITGo3cVVNRm56clVDa3g4VmVQLXRtbXFjS0FLdlZmSmViYjJtZ1BTM1JXOUE?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 23:54:09 GMT",
+        "summary": "AI 미래기획수석직이 단순한 기술 관리를 넘어 산업 전반의 구조적 변화를 총괄하는 역할을 수행함을 강조합니다. 정부의 적극적인 지원 체계 구축 의지가 돋보입니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "AI 악용한 K뷰티 위조품…AI로 잡는다 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBeDZ0Ty0tNHJveEYzaF9DQllpcHNDX3ZvWGNwOXpJaHVfODBqMWVOblQ0Y2p0M1lCdHBBLTB2MlJxQmNTbFA4d2prSmFqTUE?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 22:48:00 GMT",
+        "summary": "AI를 활용하여 K뷰티 시장의 위조품을 식별하고 유통을 방지하는 기술이 도입되고 있습니다. 이는 AI가 단순한 자동화를 넘어 브랜드 보호 등 실무 영역에 적용되는 사례입니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-29T23:50:29.087Z",
     "reportDate": "2026. 8. 30.",
     "summary": "- AI 기술의 실질적 적용 확대: AI가 종이책을 디지털화하는 등의 물리적 작업은 물론, 공공 행정 플랫폼 도입을 통해 실무 효율성을 높이는 사례가 증가하고 있음.\n\n- 사회적 수용성 및 인식 고취: 일반 대중의 69%가 AI를 국가 성장의 핵심 동력으로 인식하며, 일상 속 체감형 AI 서비스 확산이 대중화의 관건으로 떠오름.\n\n- 규제 개선 및 글로벌 경쟁력 강조: 국내 스타트업 업계는 AI 시장의 국경 없는 경쟁을 언급하며 한국형 규제 완화와 혁신 환경 조성을 강력히 요구하고 있음.",
@@ -725,88 +807,6 @@
         "aiImpact": 5,
         "automationPotential": 1,
         "investmentImpact": 4
-      }
-    ],
-    "cumulativeRiskScore": 100,
-    "dailyVelocity": 1,
-    "velocityReason": "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다."
-  },
-  {
-    "lastUpdated": "2026-08-20T22:20:50.265Z",
-    "reportDate": "2026. 8. 21.",
-    "summary": "- 사용자 접근성 확대: 구글 제미나이와 같은 생성형 AI 서비스가 교육 현장 및 일반 사용자에게 무료 혜택 등을 통해 저변을 빠르게 확대하고 있습니다.\n\n- 반도체 주권 및 생태계 강화: 한국 정부와 AMD가 협력하여 국내 기술센터 설립 및 국산 NPU 실증에 나서는 등 특정 기업의 GPU 독점 구조를 탈피하려는 움직임이 가속화되고 있습니다.\n\n- AI 활용의 양면성: AI를 활용한 고소장 작성 등 업무 효율성 향상 사례가 등장하는 동시에, 이로 인한 법적/윤리적 검증 필요성이 제기되고 있습니다.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "AMD와 국산 NPU 생태계 구축을 통한 AI 인프라 자립",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 2
-      },
-      {
-        "event": "AI 활용 고소장 작성을 비롯한 화이트칼라 업무 자동화 가속",
-        "sign": "+",
-        "impact": 6,
-        "newsIndex": 5
-      },
-      {
-        "event": "AI 인프라 확장으로 인한 산업 내 기술적 일자리 수요 변화",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "제미나이 1년 무료 혜택과 함께, 알찬 새 학기를 시작해 보세요 - blog.google",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNUtuUldXVHNWZVlnOXRLV290X014X0Qyc1lKT0h0WEJYTDAyM3B3eFU1bkxrQWw0WkQyaDFRNS1TaUwycmtqVFA4MFllN3liWkFFTU1XeFUteUM3Q1l3b3g1aUI3ak1GTVJtRk5iYXJSQVl6TXJ2R1BkZWJQRWF1ZTU5NE5hQU5SbnRmMUxR?oc=5",
-        "pubDate": "Thu, 20 Aug 2026 06:48:32 GMT",
-        "summary": "구글이 제미나이 서비스의 1년 무료 혜택을 제공하며 교육용 시장 및 일반 사용자 대상의 AI 점유율 확대를 꾀하고 있습니다. 이를 통해 생성형 AI의 일상화와 교육 현장에서의 실질적인 활용도가 높아질 것으로 예상됩니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "정부·AMD 'AI동맹'… 亞최초 기술센터 한국에 설립 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85Z2hRRWJJVnZQU2JuUTVZSW9OTE5tN0hNUXVlQUVQNk1OdVBUYm9kdEJ3Qm1wdDNCaFFtQTlBS1l6OHZJVHpiSTFrSVlTRDRUOV8zRmVHNUVQWkJYcHZkenlrOU5vNmfSAWxBVV95cUxQLVhTM3BMZU4yZEFXU2RQVVotazJrUUNhRHFBWUoxZUZjcGh2NDdzdHNxdjBWSlY3TnNlSmF1TGpXUEc5T2h0NXRfaHRaV2dsVE5tckdYTS1WX1hpYUh5akJxS1M1UzQwM1JiZzE?oc=5",
-        "pubDate": "Thu, 20 Aug 2026 18:30:00 GMT",
-        "summary": "정부와 AMD가 아시아 최초로 한국에 AI 기술센터를 설립하며 협력을 강화합니다. 글로벌 기업과의 협력을 통해 국내 AI 인프라 기술력을 높이고 관련 산업 생태계를 확보하는 전략적 움직임입니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "[AI픽] GPU 일변도 벗어난다…정부·AMD, 국산 NPU 실증 본격화 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aUVRNOWwxemhjenZTdUtnLUhZcmJrNE1ob05Qa19zUDVKQWxEMGVXSkc0UDBiVVlaYmNmYWVzME1yUTZhdm5BYlZibXl4SUk?oc=5",
-        "pubDate": "Thu, 20 Aug 2026 01:02:01 GMT",
-        "summary": "정부 주도로 국산 NPU 실증 사업이 본격화되면서 특정 GPU 업체 의존도를 낮추려는 노력이 구체화되고 있습니다. 효율적인 AI 연산을 위한 국산 반도체 생태계 조성이 핵심 목표입니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "GPU 천하 AI 시장에 ‘추론 강점’ 국산 NPU 파고든다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45X251N1dqcnIyVmxKUk1WTjNpR25ZaTlqak1QZ1l3czZzMnNSTThMVDZSM3VLNXRDeEtuTlBBc1htRGpTeDJmbE9HbUtnVzFheFVWUmRR?oc=5",
-        "pubDate": "Thu, 20 Aug 2026 08:01:37 GMT",
-        "summary": "추론 성능이 강조된 국산 NPU가 GPU 중심의 시장에 도전장을 내밀고 있습니다. 비용 효율성과 특정 업무 최적화라는 강점을 통해 AI 시장의 다변화를 이끌 것으로 기대됩니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "\"사실 AI가 써줬어요\"…수사관 잡는 '화려한' AI 고소장 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUY2FjX29Ca2s3Ym4tRmRsa0w4a3NBR2w3QVpKMFZVazVrdDJxWERzOUpIRTl6alJqamNjT0dFc0xGUlZvd0xTNldXTElmZU0?oc=5",
-        "pubDate": "Thu, 20 Aug 2026 20:03:06 GMT",
-        "summary": "AI를 사용하여 작성한 고소장이 등장하면서 실무 영역에서의 AI 활용이 법률 분야로 확장되고 있습니다. 편리함과 동시에 AI가 작성한 문서의 정확성과 책임 소재를 확인해야 하는 새로운 수사 환경이 조성되었습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 2
       }
     ],
     "cumulativeRiskScore": 100,
