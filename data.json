@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-01T23:44:04.835Z",
+    "reportDate": "2026. 9. 2.",
+    "summary": "- AI 콘텐츠 시장의 냉정한 현실: 생성형 AI를 활용한 숏폼 콘텐츠가 대거 쏟아지고 있으나, 98% 이상의 대다수가 수익 창출에 실패하며 시장의 거품 논란과 실질적인 수익화 모델의 한계가 드러남.\n\n- 국가 차원의 AI 인프라 및 예산 대폭 확대: 정부가 전 국민 AI 서비스 지원과 '피지컬 AI' 분야 예산을 3배 증액하는 등 국가적 경쟁력 확보를 위한 대규모 예산 투입 계획을 발표함.\n\n- AI 하드웨어 확보 및 투자 전쟁 가속화: 글로벌 AI 패권 경쟁을 위해 GPU 1만 장 확보에 3.85조 원을 투입하며, AI와 방산 중심의 투자 전쟁이 전 세계적인 국채 금리 상승을 유발하는 등 거시 경제에 큰 영향을 미치고 있음.",
+    "summaryScore": 88,
+    "dailyVelocity": 0.3,
+    "velocityReason": "국가 단위의 인프라 투자와 AI 보급 지원이 강화되었으나, 민간 영역의 콘텐츠 수익성 한계가 드러나며 일자리 대체보다는 인프라 기반의 시장 재편이 우선시되는 양상임.",
+    "cumulativeRiskScore": 51.4,
+    "jobRiskScore": 51.4,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 숏폼 수익화 실패 사례 증가",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "정부 주도 AI 산업 대규모 예산 투입",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      },
+      {
+        "event": "GPU 등 AI 하드웨어 인프라 확보",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "너도나도 돈방석 앉은 줄 알았더니…쏟아지는 AI숏폼의 반전, 98.7%가 '쪽박' - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52eEoxdF9XOFU3XzF5ZWNxUktGQW9LVExKVzYzdmhBb0NIcllReFpYUmExeTFZTnk5bDlqcWlHdzN4RlN0S18yWU5zNlBiYnM?oc=5",
+        "pubDate": "Tue, 01 Sep 2026 02:05:28 GMT",
+        "summary": "AI를 활용한 숏폼 콘텐츠가 우후죽순 생성되고 있으나, 실제 수익을 내는 경우는 1% 미만에 불과함. 콘텐츠 시장의 자동화 효율성보다 차별화된 기획력의 중요성이 재조명되고 있음.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      },
+      {
+        "title": "전 국민 AI서비스 지원한다…과기정통부 내년 예산 29.6조 원 - korea.kr",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5YmFjaUF3aXdDRjFYZVhiUUJoVzZmUGwwZGd1OUt5RHQxal9BakcxV09fYUc5cjUtbUw2QkhjYlU5QjhwakFZVHM5cWZmTF9tcEk3bkJpNEtpV2xVOHd5cUw2ZW1fdEtRbFBsVg?oc=5",
+        "pubDate": "Tue, 01 Sep 2026 21:22:37 GMT",
+        "summary": "과기정통부가 내년 AI 서비스 대중화를 위해 29.6조 원의 예산을 편성함. 전국민 AI 활용 능력 향상과 서비스 보급을 통해 국가 디지털 전환을 가속화할 예정임.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "‘피지컬AI’ 예산 3배로 증액…과기정통부, 전 부처 CTO 역할 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uRFhSNkNXdkNiYlFKU1dSdFVkSTBqNEdoYzFjSW5BWHk4NnY5S0R3ajl1Y2dkOUV2RDBoSVdwRERvWk92Q1Z5ZHpFM0dyb0xDWGFCS1dn?oc=5",
+        "pubDate": "Tue, 01 Sep 2026 04:00:52 GMT",
+        "summary": "현실 세계와 상호작용하는 '피지컬 AI' 분야의 예산을 기존 대비 3배로 증액함. 정부가 각 부처의 CTO 역할을 수행하며 제조 및 로봇 산업과의 결합을 적극 지원함.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "\"독파모 넘어 프론티어 AI로\"…정부, GPU 1만장 확보에 3.85조 배정 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZYTV0OXdJY1BJSksyWko4SmNSaElUaVNHOFU5bEpYY0xDdFlfT1dmSHhLYVlZZl9idldGTzl6OGdpWV9DS1dWNEF6LTQ5WVdjSzg5OE5Ca09ncmVsckNHbE5id0hXZ3NFV1E?oc=5",
+        "pubDate": "Tue, 01 Sep 2026 08:09:52 GMT",
+        "summary": "글로벌 AI 주권 확보를 위해 정부가 GPU 1만 장 확보에 3.85조 원을 투입함. 프론티어 AI 개발을 위한 핵심 인프라 구축에 국가 역량을 집중하겠다는 전략임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "'20년 글로벌 저축 과잉’ 시대 끝…AI·방산 투자전쟁에 국채 금리도 뛴다 - hankyung.com",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hd2p3WXVHUlp1QmZqM2FOVkc3SUlMVlR2SjRzaFJlLTM1am93eU8zOTQ4N3NyLUNLUzZsVUZIaVh0X1YxaHFnYUpTaGJXVFZmODE4bENqV2xtZw?oc=5",
+        "pubDate": "Tue, 01 Sep 2026 22:00:11 GMT",
+        "summary": "AI 산업에 대한 막대한 자금 유입이 글로벌 금리 상승의 주요 요인으로 작용하고 있음. AI 투자 전쟁이 기존의 저축 과잉 시대를 끝내고 금융 시장 구조를 변화시키고 있음.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-01T00:56:36.770Z",
     "reportDate": "2026. 9. 1.",
     "summary": "- 국가 AI 리더십 강화: 하정우 부위원장 등 전문가들로 구성된 국가AI전략위원회가 공식 출범하며 AI 3대 강국 도약을 위한 국가 역량 총결집을 선언했습니다.\n\n- 기술 효율성 최적화: 오픈AI가 코덱스 모델의 효율성을 50%까지 개선하는 조치를 단행하여 개발 생산성과 운영 효율성을 높였습니다.\n\n- 공공 서비스 혁신: 일본 정부가 요양등급 판정 과정에 AI를 도입하여 행정 업무의 자동화와 효율화를 추진하고 있습니다.",
@@ -731,88 +813,6 @@
         "aiImpact": 4,
         "automationPotential": 4,
         "investmentImpact": 3
-      }
-    ],
-    "cumulativeRiskScore": 100,
-    "dailyVelocity": 1,
-    "velocityReason": "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다."
-  },
-  {
-    "lastUpdated": "2026-08-22T22:15:20.731Z",
-    "reportDate": "2026. 8. 23.",
-    "summary": "- 반도체 및 하드웨어 생태계 강화: 엔비디아의 국내 NPU 스타트업 리벨리온 인수 협상과 브로드컴의 AI 매출 급성장이 맞물려 AI 인프라 공급망의 핵심 역량이 재편되고 있음.\n\n- 기업의 AI 전환 가속화: 단순 도입을 넘어 실제 업무 효율화 및 AX(AI 전환)를 실현하는 기업들이 경쟁력을 확보하며, 업무 프로세스의 획기적인 단축 사례가 속속 등장하고 있음.\n\n- 인프라 구축의 사회적 갈등: AI 데이터센터 확산에 따른 전력 소모 및 환경적 반발이 미국을 중심으로 사회적 이슈로 떠오르며 지속 가능한 성장이 새로운 과제로 부상함.",
-    "summaryScore": 88,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 업무 자동화 사례 확산",
-        "sign": "+",
-        "impact": 6,
-        "newsIndex": 4
-      },
-      {
-        "event": "AX 생존 전략 강조",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 2
-      },
-      {
-        "event": "데이터센터 인프라 갈등",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "엔비디아, 국내 NPU 스타트업 리벨리온과 인수 협상 중 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15a0o4aDdRNGViNlVoMjFDTjJxeEFBSV9nTmJvRmlDUlJGN2MxUTU3NnZjQV9vMDZSbGtfODF1RDd5MEtRd2E3d1JqajJEbkpNUkJ2RERUTVJWOXhjQnh5MDk4b1FLQzBFRlE?oc=5",
-        "pubDate": "Sat, 22 Aug 2026 01:56:13 GMT",
-        "summary": "엔비디아가 한국의 AI 반도체 스타트업 리벨리온 인수를 추진하며 국내 AI 생태계에서의 영향력을 확대하고 있습니다. 글로벌 기업의 한국 기술력 확보 전략으로 평가받습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "[영상] \"보고서에만 AI 쓰는 기업, 결국 뒤처진다\"…포티투마루의 AX 생존법 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XaVJHUHJhV21rR0pfb2dVZnZwdTd0VGtZZkM1TDdoMVdzOGh5M05YeE1LSm94LWtzeC11Mzg5TmlGcGIyaTF0NWt5Z0oyY1Z5TlN6S2l3?oc=5",
-        "pubDate": "Fri, 21 Aug 2026 23:43:55 GMT",
-        "summary": "단순히 보고서 작성 등에 AI를 활용하는 것을 넘어, 비즈니스 프로세스 전반을 AI 중심으로 재편하는 AX 기업만이 생존할 수 있다는 전략이 강조됩니다. 기술 도입을 넘어 실질적인 생산성 혁신이 핵심입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "브로드컴 AI 매출 1160억달러 전망…삼성전자 HBM·파운드리 '기회' - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MRWU4cmp2ZDNHM1ROMjFPTkwxalY4a3RscHNabWtxWThTZkJ1OEZPOEdIZmhhSEZuRjh5cWotbjhHYTczQXlPY1cxcllYVlU?oc=5",
-        "pubDate": "Sat, 22 Aug 2026 21:02:45 GMT",
-        "summary": "브로드컴의 AI 부문 매출이 1160억 달러에 이를 것으로 전망되면서 반도체 업계의 슈퍼 사이클이 지속되고 있습니다. 이는 삼성전자의 HBM 및 파운드리 부문에 새로운 비즈니스 기회로 작용할 전망입니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"4시간 작업 40분으로\" NS홈쇼핑 AI 만든 '다른 세계 사람들'[이주의 유통人] - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UWFg3U3l1LVlUY25iNUdtQUJaeDJyS3VKUnhDdUJZRU9oLWZjYjFkeTFUY2RXNE5MZHpXRjVwMDlnOGRpU3h1QXRkRjBrUlYxODM0Wms2V0YtRUFPR1g0M9IBeEFVX3lxTE80ZV9FcExLbi1Tdzg1Y2JiSmhFSlRkT1VhMklCTWdiVnpZS0NnRWR1RVFqVUJ2LWJFc2xLRWY2Znptd3Z3YzZTWFhSVkRPQXBZZ3dQZ0Z6ekNnUi1aZl9BQUN2aHRDRVdMYS1BRUZXeFBMaVBUZEVudg?oc=5",
-        "pubDate": "Sat, 22 Aug 2026 21:00:00 GMT",
-        "summary": "NS홈쇼핑이 AI를 도입하여 기존 4시간 소요되던 업무를 40분으로 단축하는 등 획기적인 효율화를 달성했습니다. 유통업계의 AI 적용이 단순 보조를 넘어 실무 현장의 생산성을 급격히 높이고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 3
-      },
-      {
-        "title": "AI가 트럼프 발목잡나?...미국 데이터센터 반발 확산 - YTN",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUMTNWZTlqVWlqd3JzU0JpTmJpUXA0dXBGOGtXSmJxNmx4WmRaLWNlS1pxZWZNb0R5MEFEdXVLaVNNc2p2am5ueGRJUTVaVV9Jd3BLdGFjTzV6RXhMUlhlNnlnWEpEMTJsTWRvQ2N2bjlXOFB5aGc?oc=5",
-        "pubDate": "Sat, 22 Aug 2026 15:17:00 GMT",
-        "summary": "미국 내 AI 데이터센터 확산으로 인한 전력 소비 및 환경 문제에 대한 지역사회의 반발이 커지고 있습니다. AI 산업의 인프라 구축이 사회적 수용성 문제에 직면하고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 4
       }
     ],
     "cumulativeRiskScore": 100,
