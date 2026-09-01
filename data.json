@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-01T00:56:36.770Z",
+    "reportDate": "2026. 9. 1.",
+    "summary": "- 국가 AI 리더십 강화: 하정우 부위원장 등 전문가들로 구성된 국가AI전략위원회가 공식 출범하며 AI 3대 강국 도약을 위한 국가 역량 총결집을 선언했습니다.\n\n- 기술 효율성 최적화: 오픈AI가 코덱스 모델의 효율성을 50%까지 개선하는 조치를 단행하여 개발 생산성과 운영 효율성을 높였습니다.\n\n- 공공 서비스 혁신: 일본 정부가 요양등급 판정 과정에 AI를 도입하여 행정 업무의 자동화와 효율화를 추진하고 있습니다.",
+    "summaryScore": 78,
+    "dailyVelocity": 1.2,
+    "velocityReason": "국가 차원의 AI 전략 추진과 기술 효율성 개선이 맞물려 산업 현장의 AI 도입 속도가 완만하게 가속화되었습니다.",
+    "cumulativeRiskScore": 51.4,
+    "jobRiskScore": 51.4,
+    "riskScoreBreakdown": [
+      {
+        "event": "국가AI전략위원회 출범",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "오픈AI 코덱스 효율 개선",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 4
+      },
+      {
+        "event": "일본 공공분야 AI 자동화 도입",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "하정우·이해민 AI 새 라인업에 업계 \"AI 강국 도약할 리더십 갖췄다\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vandPWURpUUYyMTRHOHdjVDc3MkNETi1uOG50ZkVHUmxSMTd3alBxUHBwUEcxcnZVX2ZSZlNHQXJEc3Y2ODh2ZUx0R0JFR0J4bzFCekJR?oc=5",
+        "pubDate": "Tue, 01 Sep 2026 00:24:55 GMT",
+        "summary": "하정우 부위원장을 중심으로 한 국가AI전략위원회의 새로운 라인업이 구성되었습니다. 업계는 이를 통해 한국이 AI 강국으로 도약할 강력한 리더십을 확보했다고 평가하고 있습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "하정우 국가AI전략위 부위원장 \"AI 3대 강국 위해 국가 역량 총결집\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5PeC02UmI1eDhUa1RBQnZRalFXSjhCdkZtSkY3TzVBZWF6TWZHaHh3Rk9XcHUxekhRcDRrWTF1OGZWbDFMUVE?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 06:46:09 GMT",
+        "summary": "하정우 국가AI전략위 부위원장이 AI 3대 강국 진입을 위해 국가 역량을 총결집하겠다고 밝혔습니다. 전략적 리더십을 통해 국가 차원의 AI 인프라와 산업 생태계를 구축할 계획입니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "AI '삼각편대' 출범…담대한 미래서사로 AI시대 선도하자 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CSVpDUDM3aGVzVnZEeXNDdnJPNVhXN05kVlhuX1RNM284ZzB2ZDg5NWNoYWFrZEJJUGhnLUN3clZ0MHdCbFJzajRfZjJfSEU?oc=5",
+        "pubDate": "Tue, 01 Sep 2026 00:26:51 GMT",
+        "summary": "AI 시대 선도를 위해 '삼각편대' 체제의 전략 위원회가 본격 출범했습니다. 대한민국이 AI 선도국가로 나아가기 위한 구체적인 미래 비전과 서사를 제시하고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "오픈AI, '코덱스' 용량 한계 보완 조치 단행…\"사용 효율 최대 50% 개선\" - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6cmdiUUcxSUFLX3liZU1UQS10eS1OUWQ4cklrbGJTN0lWMloybnMzcW0teWlGMEJubVpaLVl5Q29fb1hoOHpTVjV5ZXkzWURzaWw1NlZrRXJJUDVkbmdIVWNsb0daa0NETkE?oc=5",
+        "pubDate": "Sun, 30 Aug 2026 00:56:50 GMT",
+        "summary": "오픈AI가 코덱스 모델의 용량 한계 보완을 위해 기술적 최적화를 단행했습니다. 이번 조치로 AI 모델의 사용 효율이 최대 50% 향상되어 개발 환경의 성능이 개선되었습니다.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "日, AI로 조사 자동화 “요양등급 판정 빨라질까?” - 이투데이",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSTktraHhzUjdOUE9sazFKZmRRVHRMNjJhTk9PNG12Q05obkNSSjRUUVhLVUVIa0hYNk04bUVhM3hxTHBjQmNGcFpPSFNoUlBvVklwNmpIVU9VUQ?oc=5",
+        "pubDate": "Mon, 31 Aug 2026 22:00:00 GMT",
+        "summary": "일본이 요양등급 판정 등 공공분야 조사 업무에 AI를 도입하여 자동화를 시도합니다. 이를 통해 복잡한 행정 절차를 간소화하고 처리 속도를 크게 개선할 것으로 기대됩니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 5,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-08-31T00:08:55.003Z",
     "reportDate": "2026. 8. 31.",
     "summary": "- 기업 및 경영 분쟁: 오픈AI와 일론 머스크 간의 갈등이 심화하며 AI 산업 내 경쟁 관계의 복잡성이 드러나고 있습니다.\n\n- 국가 AI 거버넌스 구축: 대한민국 정부가 AI 정책을 총괄할 수석비서관과 전략위원회를 공식 발족하며 국가 차원의 AI 전략을 강화하고 있습니다.\n\n- AI 기술의 산업 적용 확대: AI 기술이 지식재산권 보호 및 위조품 식별 등 실질적인 산업 문제 해결 영역으로 확장되고 있습니다.",
@@ -729,82 +811,6 @@
         "summary": "미국 내 AI 데이터센터 확산으로 인한 전력 소비 및 환경 문제에 대한 지역사회의 반발이 커지고 있습니다. AI 산업의 인프라 구축이 사회적 수용성 문제에 직면하고 있습니다.",
         "importance": 4,
         "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      }
-    ],
-    "cumulativeRiskScore": 100,
-    "dailyVelocity": 1,
-    "velocityReason": "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다."
-  },
-  {
-    "lastUpdated": "2026-08-21T22:18:04.311Z",
-    "reportDate": "2026. 8. 22.",
-    "summary": "- 카카오의 전략적 인적분할: 카카오가 AI 및 핵심 사업과 미래 투자 사업을 분리하여 전문성을 강화하는 인적분할을 발표하며 체질 개선을 시도함.\n\n- AI 대중화 경쟁 가속화: 구글이 제미나이 무료 혜택 등을 통해 서비스 사용자 저변을 확대하고 AI 생태계 영향력을 공고히 함.\n\n- 빅테크 인재 유출 현상: 구글 등 주요 AI 기업에서 핵심 인재들이 연쇄적으로 이탈하며 AI 시장 경쟁이 인재 확보 중심으로 더욱 치열해지고 있음.",
-    "summaryScore": 82,
-    "jobRiskScore": 100,
-    "riskScoreBreakdown": [
-      {
-        "event": "카카오 조직 구조 개편에 따른 경영 효율화",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "글로벌 빅테크 기업 내 주요 AI 인재 이동",
-        "sign": "+",
-        "impact": 6,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "카카오, 두 개의 심장으로 새출발…\"AI 시대 걸맞은 속도낸다\" - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5LbHVveERKVE1RNVJWVGo5ZWNrNjVfcjlCZy1HZERWeFpfT0MwdXFOT0oxQ09XQk53Z3hETFRldVl1cVF3YjZZUDlJSXRPTThMajQ0bkhvVWYyWnRuVTVnc19EeFBJbVHSAWxBVV95cUxPZUFhdEFiWjZVRDhod2RPVXVtaFlCYWZnS2ZZMjh0eTZTMGJTNWd0anRLZlFuaF9jbjNSWW00MFdFOFktSlF4MjZMalpIenZiYVl4UU1ORXVpY1dVbTNIejZ1S3BIVU9mM1U4VVg?oc=5",
-        "pubDate": "Fri, 21 Aug 2026 17:37:57 GMT",
-        "summary": "카카오가 AI 시대에 대응하기 위해 조직을 인적분할하여 사업의 효율성을 극대화하고자 함. 카카오톡 및 핵심 AI 사업과 미래 신성장 동력 사업을 분리하여 경영 속도를 높일 계획임.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 5
-      },
-      {
-        "title": "카카오 둘로 나눈다…'AI'는 카톡·사업, 'X'는 미래 투자(종합2보) - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE92UWEyU21hMGR5WDhqYTZDbGVqVU0tUWJJYjNseDRQVEttSG5EcFBwY3dmSHB5ZUNOam1JYzY5S1V0czlvamZkbU5aSWZVTEE?oc=5",
-        "pubDate": "Fri, 21 Aug 2026 07:48:53 GMT",
-        "summary": "카카오가 기존 사업부와 미래 투자 사업을 두 개의 법인으로 나누는 구조 개편을 단행함. AI 기반의 본업 경쟁력 강화와 신사업 발굴을 동시에 추진하려는 전략적 결정임.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "[속보]카카오, 2개 회사로 쪼개진다···카카오 AI·카카오X로 인적분할 결의 - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXVFAwS1pxRnd2U1E5TmJkYXE1dk5MaW5QeFBZTkdmMTc0YnBLSGNLREhCMWg1YndDV2h4ZEE0MHVDZjJCRlBCMHJzRWFrVnQ2WHpGbGxPR0wwUdIBX0FVX3lxTE1tdTFVekktMFVHR2xTdWdKZjcxVVJ5OE5TMEFFZkphVG1NSXU4QmhwTXZhSThjcV9zdjZ1cWRtZHBIUkRkeGo2MHJ4RzBndEtQRDdKT091eE5tOGpWSUFB?oc=5",
-        "pubDate": "Fri, 21 Aug 2026 01:20:00 GMT",
-        "summary": "카카오가 인적분할을 통해 카카오 AI와 카카오X로 법인을 나누기로 결의함. 이를 통해 AI 기술 혁신과 미래 지향적 사업 투자의 분업 체계를 구축하고 기업 가치를 높이려 함.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "제미나이 1년 무료 혜택과 함께, 알찬 새 학기를 시작해 보세요 - blog.google",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNUtuUldXVHNWZVlnOXRLV290X014X0Qyc1lKT0h0WEJYTDAyM3B3eFU1bkxrQWw0WkQyaDFRNS1TaUwycmtqVFA4MFllN3liWkFFTU1XeFUteUM3Q1l3b3g1aUI3ak1GTVJtRk5iYXJSQVl6TXJ2R1BkZWJQRWF1ZTU5NE5hQU5SbnRmMUxR?oc=5",
-        "pubDate": "Thu, 20 Aug 2026 06:48:32 GMT",
-        "summary": "구글이 새 학기를 맞아 제미나이 서비스 무료 혜택을 제공하며 사용자 경험 확대에 나섬. 교육 현장과 일상 속에서 AI 활용도를 높여 AI 서비스 대중화를 선도하려는 목적임.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "구글에 무슨 일이? '전설급' AI 인재 다 떠난다 [스프] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5lbUR2N1pzMTNBbW1xb0M0WDloOFBLTWttTzFnckRrcDgydFFiYXkyZWRaN21ydm45Y3RjSkhkaXJTQXRYT3c?oc=5",
-        "pubDate": "Fri, 21 Aug 2026 00:03:12 GMT",
-        "summary": "구글 등 빅테크 기업에서 숙련된 AI 핵심 인재들이 대거 이탈하는 현상이 발생함. 이는 AI 시장의 기술 패권 다툼이 인재 확보 전쟁으로 심화되고 있음을 시사함.",
-        "importance": 4,
-        "aiImpact": 5,
         "automationPotential": 1,
         "investmentImpact": 4
       }
