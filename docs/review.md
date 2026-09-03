@@ -22,6 +22,22 @@
 
 ## 코드 리뷰 기록
 
+### 2026-09-03 트렌드 카드(trend-card-section) 레이아웃 넘침 현상 및 글자 크기/패딩, 컨테이너 1080px 확장 최적화
+
+- **검토 대상**: `dashboard/src/App.css`, `dashboard/src/App.jsx`
+- **구현 내용**:
+  - **컨테이너 가로폭 확장**: 대시보드 2컬럼 카드 레이아웃의 시각적 여유와 가독성을 위해 `.container`의 `max-width`를 `880px`에서 `1080px`로 확장했습니다.
+  - **그리드 넘침 방지**: `.dashboard-card`에 `min-width: 0`을 부여하고, `.section-title-sub` 및 `.detail-header h4`의 `white-space: nowrap`을 `white-space: normal`로 수정하여 카드 가로 폭 초과 현상을 해결했습니다.
+  - **폰트 크기 및 패딩 컴팩트화**:
+    - TrendChart SVG 세로 높이(`180px` -> `145px`) 및 상하 여백을 축소하고, `.svg-wrapper`의 `max-height`를 `125px`로 최적화했습니다.
+    - `.trend-detail-box` 내부의 패딩(`1.25rem` -> `0.85rem 1rem`), 헤더 margin, 폰트 크기를 컴팩트하게 조정했습니다.
+    - `.detail-scores` 지표 행에 `flex-wrap: wrap`, `justify-content: space-between`, `white-space: nowrap` 항목 설정을 추가하여 `+0.3 pt/day` 등의 가속도 단위 텍스트가 어색하게 줄바꿈되는 현상을 방지했습니다.
+- **체크리스트**:
+  - [x] container max-width가 1080px로 변경되어 넓은 모니터 화면에서 시원한 뷰를 제공하는가
+  - [x] trend-card-section이 좌측 gauge-card-section과 높이 및 폭 균형을 이뤄 컨테이너를 넘치지 않는가
+  - [x] 수치 지표 및 단위 텍스트가 깔끔하게 단일 행에 정리되는가
+  - [x] 브라우저 화면에서 모바일/데스크톱 모두 단정하게 렌더링되는가
+
 ### 2026-08-28 꺾은선 차트 '일일 위험 가속도' 파동 시각화 전환, 0.1pt 스케일링 및 UI 레이아웃 대폭 연동 개선
 
 - **검토 대상**: `dashboard/src/App.jsx`, `dashboard/src/App.css`, `src/formatters/generateJson.js`, `data.json`, `docs/plan.md`, `docs/review.md`

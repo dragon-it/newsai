@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  max-width: 880px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 2rem 20px;
   text-align: left;
@@ -96,18 +96,19 @@ h1 {
   border: 1px solid var(--border-color);
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .section-title-sub {
-  font-size: 1.05rem;
+  font-size: 0.98rem;
   font-weight: 700;
   margin-top: 0;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
   color: var(--text-main);
   border-bottom: none;
   display: block;
   padding-bottom: 0;
-  white-space: nowrap;
+  white-space: normal;
   word-break: keep-all;
 }
 
@@ -271,8 +272,8 @@ h1 {
 .svg-wrapper {
   position: relative;
   width: 100%;
-  max-height: 150px;
-  margin-top: 20px;
+  max-height: 125px;
+  margin-top: 6px;
 }
 
 .trend-x-labels {
@@ -854,10 +855,10 @@ footer a:hover {
 
 /* 꺾은선 차트 클릭 상세 정보 */
 .trend-detail-box {
-  margin-top: 1.5rem;
-  padding: 1.25rem;
+  margin-top: 0.75rem;
+  padding: 0.85rem 1rem;
   background: var(--bg-color);
-  border-radius: 16px;
+  border-radius: 12px;
   border: 1px solid var(--border-color);
   text-align: left;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
@@ -869,23 +870,23 @@ footer a:hover {
   justify-content: space-between;
   align-items: center;
   gap: 0.5rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
   border-bottom: 1px solid var(--border-color);
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.4rem;
 }
 
 .detail-header h4 {
   margin: 0;
-  font-size: 0.98rem;
+  font-size: 0.88rem;
   font-weight: 700;
   color: var(--text-main);
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .detail-diff-badge {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  padding: 0.2rem 0.5rem;
+  padding: 0.15rem 0.4rem;
   border-radius: 6px;
 }
 
@@ -901,20 +902,26 @@ footer a:hover {
 
 .detail-scores {
   display: flex;
-  gap: 1.5rem;
-  margin-bottom: 1rem;
-  font-size: 0.9rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.78rem;
   color: var(--secondary-color);
+}
+
+.detail-score-item {
+  white-space: nowrap;
 }
 
 .detail-score-item strong {
   color: var(--text-main);
-  margin-left: 0.25rem;
+  margin-left: 0.2rem;
 }
 
 .detail-causes h5 {
-  margin: 0 0 0.5rem 0;
-  font-size: 0.85rem;
+  margin: 0 0 0.35rem 0;
+  font-size: 0.78rem;
   color: var(--text-muted);
   font-weight: 600;
 }
@@ -925,11 +932,11 @@ footer a:hover {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.25rem;
 }
 
 .detail-causes-list li {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--secondary-color);
   display: flex;
   align-items: center;
