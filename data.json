@@ -1,83 +1,77 @@
 [
   {
-    "lastUpdated": "2026-09-02T23:46:33.567Z",
+    "lastUpdated": "2026-09-03T09:20:03.759Z",
     "reportDate": "2026. 9. 3.",
-    "summary": "- 국가 안보 및 소버린 AI 확대: 국방부가 독자적인 전장 특화 AI 모델을 개발하며 국가 안보 주권을 강화하고 소버린 AI의 중요성이 부각됨.\n- AI 성능 혁신: 앤스로픽 AI가 373년 된 난제를 단시간에 해결하는 등 AI의 논리적 추론 및 데이터 처리 능력이 비약적으로 발전함.\n- 공공 데이터 개방 및 문화 산업 전환: 정부 차원의 데이터 개방을 통해 문화, 관광 등 산업 전반의 디지털 전환이 가속화됨.\n- 교육 현장의 AI 활용 갈등: AI 기술의 급성장에 대응하여 뉴욕시 등 주요 학군이 학생들의 학습권 보호를 이유로 AI 사용을 일시 금지하며 교육적 접근을 재검토함.",
+    "summary": "- 정부 보안 특화 AI 주도권 확보: 네이버클라우드가 정부의 사이버 보안 AI 모델 개발 사업자로 선정되며 공공 분야의 AI 보안 기술 자립도가 강화될 것으로 전망됩니다.\n\n- AI 적용 영역의 확장: AI 기술이 전문 보안 영역을 넘어 일상적인 집안일과 독서 방식 변화 등 대중적인 라이프스타일 혁신으로까지 빠르게 확산하고 있습니다.\n\n- AI 활용 능력의 중요성 강조: AI가 정보를 단순 처리하는 시대를 넘어, 인간이 AI와 상호작용하며 질문을 던지는 능력이 핵심 경쟁력으로 부상하고 있습니다.",
     "summaryScore": 82,
     "dailyVelocity": 0.3,
-    "velocityReason": "AI 기술의 높은 범용성 증명 및 공공 부문 도입 확대가 이루어졌으나, 교육 현장의 제한 조치가 일부 상쇄 효과를 줌.",
+    "velocityReason": "보안 AI 사업 추진 및 생활 밀착형 AI 기술의 대중화로 기술적 완성도가 높아지고 있으나 노동 시장에 급격한 변화를 줄 이벤트는 부재함.",
     "cumulativeRiskScore": 51.4,
     "jobRiskScore": 51.4,
     "riskScoreBreakdown": [
       {
-        "event": "소버린 AI 및 국방 AI 도입",
+        "event": "정부 보안 AI 사업 선정",
         "sign": "+",
-        "impact": 4,
+        "impact": 2,
         "newsIndex": 1
       },
       {
-        "event": "AI 고도화에 따른 복합 문제 해결 능력 입증",
+        "event": "가사 노동 자동화 AI 확산",
         "sign": "+",
         "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "교육 현장 AI 사용 금지 조치",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
+        "newsIndex": 5
       }
     ],
     "news": [
       {
-        "title": "[현장] 국방부, 독자 AI 기반 '전장 특화모델' 만든다…'소버린 AI' 본격화 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83UFlGVnpRem0tZmpzdmJfSXRxRGFqeXVxcUttR1hCaXJlV3F1Z2hURlJESnBkOEJYMW9DZWEzcXlZUkZsNmVORGx1dWNGeXZHNkEyYk1B?oc=5",
-        "pubDate": "Wed, 02 Sep 2026 06:38:08 GMT",
-        "summary": "국방부가 독자적인 AI 모델을 개발하여 소버린 AI를 구축하고 국가 안보를 강화함. 전장 환경에 특화된 AI 기술 확보를 통해 전략적 우위를 점하려는 시도로 평가됨.",
+        "title": "네이버클라우드, 정부 '사이버 보안 AI 모델' 개발 사업자로 최종 발탁 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBULTRGMGpsWjlCRXktSkZLaDFiTHVkX1RDSzloMXdEcFRGSXd3MExfRVBnbXpwQ2dxYXdqRFFhUGlKR0xyN1Z3MHVyS0ZOOC01bDMtUTRmbXZobldzWV9vLVBRQUYzZmRsb3c?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 03:06:01 GMT",
+        "summary": "네이버클라우드가 정부 주관 사이버 보안 AI 모델 개발 사업자로 최종 선정되었습니다. 공공 보안 체계를 강화하기 위한 전략적 선택으로 풀이됩니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[속보] 네이버클라우드, 정부 '보안 특화 AI 모델' 사업 선정 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13bTNFZ3RKZjd2ZFNjeXNxaDdRUzBzd3owaVQwQjhrNEtzXzEyQnE2SjdXRnMzZ0FnVFJfTllfSXp0cDdiZXUtRnBiWWhIamFlSC1BQTV3?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 00:09:15 GMT",
+        "summary": "네이버클라우드의 정부 보안 AI 사업자 선정 소식이 추가로 확인되었습니다. 국가 차원의 AI 인프라 구축에 핵심적인 역할을 수행할 것으로 보입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "미토스 쇼크 대응할 ‘보안 특화 AI’, 네이버 연합군이 만든다 - 국민일보",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM1RjYmxwRmxXcXNFM3hiTFE3YlIxblpKdkpwU3Flc19rakU2djZCNEJFdEk4NHdkTm04UFFVOW5sNnI2Zm5MNEFtY2JVdEJGb0ZpU0JpRDNDb0QtbjQ5aGxrLVhycVB0aXJWNXcxem56dXQwWnAteFU3cm9XRUpuaElhMWNvRm1VQ1I5MmxmTURQQlRuZmfSAWxBVV95cUxQb2FhQ1lvNG81eHRpWF80WTM5cXlCekQ1UEpGNXUxdGZ4Ry1DWWhPQkFaTXJsemVtR3psc09TMlA1OGdfakZBVExnSTNuQ0VKNDd1RUY2U3dEaE81RUJtYXBpUE5jSktOTmU1Zl8?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 09:13:00 GMT",
+        "summary": "네이버 연합군이 미토스 쇼크와 같은 보안 위협에 대응할 전문 AI 모델을 개발합니다. 보안 기술 경쟁력 확보를 통해 글로벌 시장 진출 기반을 다지고 있습니다.",
         "importance": 5,
         "aiImpact": 5,
-        "automationPotential": 4,
+        "automationPotential": 2,
         "investmentImpact": 5
       },
       {
-        "title": "373년 묵은 암호문, 앤스로픽 AI가 44분만에 풀어 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSnhzd0tPcVZDWkpEa0V4R2hmbkF6WkR1TmViUzRzcW1yMEtHekVmY3BNRnYwd1lSS2RlNHZ6MFVGZGFLcXlmQWdiNGJUekhhWGFkdFJHdmRLMmV2ZDhBaVFVTVhnbDdPTUFpeUlCU05CS0xMTzY1YW5Ici1qWTlVZFA1aw?oc=5",
-        "pubDate": "Wed, 02 Sep 2026 02:19:00 GMT",
-        "summary": "앤스로픽의 AI 모델이 373년간 풀리지 않던 암호문을 단 44분 만에 해독함. AI의 고급 논리 추론과 복잡한 패턴 인식 능력이 기존 학계의 한계를 뛰어넘었음을 시사함.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 3,
-        "investmentImpact": 4
+        "title": "\"AI가 책을 요약할수록, 독자의 질문이 더 중요해진다\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kYUZFZkNUUHhxa3VBSkdlcWl4blVCVG40WDk2ZXNKUklBSEhIT2pzME9LeHdSRjZEX3lTTk1JdUF1RlVaVjVndWgta1pvaXM?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 08:36:03 GMT",
+        "summary": "AI가 정보를 요약하는 능력이 고도화됨에 따라 인간의 역할이 단순 정보 습득에서 질 높은 질문을 생성하는 방향으로 변화하고 있습니다. 비판적 사고 능력이 더욱 강조되는 환경입니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 2
       },
       {
-        "title": "국악·관광·정책정보 등 데이터 5종 개방…문화 AI 전환 본격화 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGV240SlE3bjVoLTB3RENGeXNEUWFhWEhocVVuTFdqYmpRMENiXzJhU1hsS0h1V29ZQ25EajlWMUREbWtpdjFPd0F2TjY2a1Z3eFhPUFItQnJJbnpUWWVlM1V6WmxhcGlnZjdqSmh0RHIzZVRRSHc?oc=5",
-        "pubDate": "Wed, 02 Sep 2026 23:01:15 GMT",
-        "summary": "국악, 관광 등 5종의 대규모 공공 데이터를 민간에 개방하여 문화 산업의 AI 전환을 촉진함. 디지털 생태계 확장을 통한 서비스 고도화 및 신규 비즈니스 창출이 기대됨.",
+        "title": "집안일의 종말?…‘일하는 AI’가 몰려온다 [IFA 2026] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5faTJFNkVGOWlBWkFBMHRqbnY1aTZKVXRjLVBLWFJNSjNzVFVGaE9meUJoaFUyM29LamJDVWkxRzAwMjNZd3dGRWhPdkVHWHM?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 01:02:55 GMT",
+        "summary": "IFA 2026에서 집안일을 보조하는 다양한 AI 기술이 공개되었습니다. 가사 노동의 효율화가 실질적인 제품으로 구현되며 일반인의 삶에 깊숙이 침투하고 있습니다.",
         "importance": 4,
         "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "\"학교에선 AI 쓰지마\"…美 '최대 학군' 뉴욕시, 초중생에 'AI 금지령' - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00REJpNFZycm9oTWxWTk10dTdrSXNjNDRZTlYyUEd5VE5OVHlfcnhuLWFEa2NONkFzeU5fdlZ6OHFMT1BrMkJXWmttNUZ3T3M?oc=5",
-        "pubDate": "Wed, 02 Sep 2026 23:27:00 GMT",
-        "summary": "뉴욕시 최대 학군이 학습권 보호와 부정행위 방지를 명목으로 초중생의 AI 사용을 1년간 금지함. 기술 발전과 교육적 가치 사이의 사회적 합의 필요성이 커짐.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "미국 '최대 학군' 뉴욕 초등·중학교에서 AI 1년간 금지 조치 - YTN",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLc2pJdHpkZndtaVNlZFk3LXU5NlhZMDVZNVdpWWxaSjhGanRVeXg5NDYtLWpPSGJWWTZfYXlxVHZDWmFsRXJGU3FMbFJES3dhN3Vwbml4bTYxM2diVGc?oc=5",
-        "pubDate": "Wed, 02 Sep 2026 19:15:00 GMT",
-        "summary": "뉴욕시의 AI 금지 조치가 공교육 현장에 미치는 영향을 다룸. AI 도구의 무분별한 사용이 학생들의 비판적 사고력을 저해할 수 있다는 우려가 반영된 결정임.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
+        "automationPotential": 5,
+        "investmentImpact": 3
       }
     ]
   },
