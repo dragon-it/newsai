@@ -12,7 +12,7 @@
       {
         "event": "소버린 AI 및 국방 AI 도입",
         "sign": "+",
-        "impact": 4,
+        "impact": 2,
         "newsIndex": 1
       },
       {
@@ -35,9 +35,9 @@
         "pubDate": "Wed, 02 Sep 2026 06:38:08 GMT",
         "summary": "국방부가 독자적인 AI 모델을 개발하여 소버린 AI를 구축하고 국가 안보를 강화함. 전장 환경에 특화된 AI 기술 확보를 통해 전략적 우위를 점하려는 시도로 평가됨.",
         "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
       },
       {
         "title": "373년 묵은 암호문, 앤스로픽 AI가 44분만에 풀어 - 조선일보",

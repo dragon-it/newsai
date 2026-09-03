@@ -113,11 +113,11 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
   if (chartData.length < 2) return null;
 
   const width = 500;
-  const height = 180;
+  const height = 145;
   const paddingLeft = 58;
   const paddingRight = 18;
-  const paddingTop = 30;
-  const paddingBottom = 22;
+  const paddingTop = 20;
+  const paddingBottom = 16;
 
   const chartWidth = width - paddingLeft - paddingRight;
   const chartHeight = height - paddingTop - paddingBottom;
@@ -172,10 +172,10 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
 
   return (
     <div className="trend-chart-container">
-      <div style={{ marginBottom: '0.25rem' }}>
-        <h3 className="section-title-sub" style={{ margin: 0, fontSize: '1.05rem' }}>🚀 일자리 위험 가속도(Velocity) 추이</h3>
+      <div style={{ marginBottom: '0.2rem' }}>
+        <h3 className="section-title-sub" style={{ margin: 0, fontSize: '0.98rem' }}>🚀 일자리 위험 가속도(Velocity) 추이</h3>
       </div>
-      <p style={{ fontSize: '0.78rem', color: '#64748b', margin: '0 0 0.5rem 0', lineHeight: '1.3' }}>
+      <p style={{ fontSize: '0.75rem', color: '#64748b', margin: '0 0 0.35rem 0', lineHeight: '1.3' }}>
         뉴스 충격에 따른 일자별 위험 축적 속도의 동적 파동을 실시간 포착합니다.
       </p>
 

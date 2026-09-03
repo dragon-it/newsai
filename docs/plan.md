@@ -84,6 +84,7 @@
 - [x] 오늘의 핵심 변화 카드 영역 구현 및 원문 링크 연동(newsIndex 매핑) 추가
 - [x] 이원화 지표 모델(Cumulative Level + Daily Velocity) 구축 및 대시보드 시각화 연동
 - [x] 꺾은선 차트의 '일일 위험 가속도(Velocity)' 추이 파동 시각화 전환 및 누적 점수 천장 방지 스케일링(0.1pt) 적용
+- [x] 대시보드 카드(trend-card-section) 글자 크기, 패딩 및 컴팩트 차트 레이아웃 조정을 통한 그리드 컨테이너 넘침 현상 해결
 
 ## Future Phase. 예정 개선 사항
 
