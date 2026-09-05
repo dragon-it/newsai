@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-05T23:29:20.732Z",
+    "reportDate": "2026. 9. 6.",
+    "summary": "- 중국의 AI 자립 가속화: 딥시크가 화웨이 AI 칩을 기반으로 초대형 데이터센터를 구축하며 미국의 제재 속에서도 독자적인 AI 인프라 생태계를 확장하고 있음.\n\n- 범용 인공지능(AGI) 시대 개막: 오픈AI의 'GPT-6 아스트라' 공개는 AI 자율성이 인간의 업무를 실질적으로 대체하는 새로운 단계에 진입했음을 시사하며 기술적 변곡점을 마련함.\n\n- 전문 영역의 AI 혁신: 제약·바이오 등 고부가가치 산업에서 AI 도입을 통해 연구개발 기간을 획기적으로 단축하는 등 산업 전반의 효율성 향상과 비즈니스 모델 변화가 가속화됨.",
+    "summaryScore": 92,
+    "dailyVelocity": 2.5,
+    "velocityReason": "오픈AI의 GPT-6 아스트라 발표로 인해 AI의 자율성이 대폭 강화되면서 화이트칼라 직무의 자동화 체감 속도가 빨라졌음.",
+    "cumulativeRiskScore": 52.1,
+    "jobRiskScore": 52.1,
+    "riskScoreBreakdown": [
+      {
+        "event": "OpenAI GPT-6 아스트라 공개",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 2
+      },
+      {
+        "event": "중국 AI 인프라 자립화 가속",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      },
+      {
+        "event": "특수 직군(신약개발 등) 업무 효율 극대화",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "딥시크, 화웨이 AI칩으로 中 최대 데이터센터 구축 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XaEhwUmZWczkxVS1feFlRaWVBMkN2cW5sVHJmbEhxMlhQS2I3TUtJdlRLMm5tRjJjemJkVFFGU25QNnNVTHZMZVMwSW1pNkpiT3Y5VFJ3?oc=5",
+        "pubDate": "Sat, 05 Sep 2026 06:23:31 GMT",
+        "summary": "딥시크가 화웨이의 승강기 AI 칩을 활용해 대규모 데이터센터를 구축하며 미국의 규제를 우회한 인프라 자립 노력을 보여줌. 중국 내 자체 AI 컴퓨팅 파워 확보가 가시화되면서 글로벌 AI 공급망 경쟁이 심화될 전망임.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "세계 최고 AI 모델 ‘GPT-6 아스트라’ 전격 공개... 오픈AI, \"AGI 전환점에 섰다, AI 자율성 새 단계로\" - aitimes.kr",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtQlBzNVdCdlMxYnU4U0dZTHhnVVl6TXNVUVBvNEtmWHBiVG9uYUkxSDNpOW1uZmJUWGVQeUd5ckgza0FRNVAzdzQwM091WWZJSFVTR3EzQ2VpdVN4N2ZvcEt6SmlleG8?oc=5",
+        "pubDate": "Fri, 04 Sep 2026 00:12:52 GMT",
+        "summary": "오픈AI가 'GPT-6 아스트라'를 공개하며 AGI 구현의 핵심 단계에 진입했음을 선언함. 이전 모델보다 비약적으로 향상된 자율성을 통해 복잡한 문제 해결 능력을 갖추게 되어 산업 전반의 인력 구조 변화가 불가피함.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 5
+      },
+      {
+        "title": "오픈AI, 'GPT-6 아스트라' 출시…“AGI 시대 진입” - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LNUNDeFVTNGI2OGgzdlRXT1lvOEFGMkY2eUNsTW9NTm45bUsweW5hMVdTZm93UHBTcVJRSDNTOU0yUmkzYVhiUE9BelY3QQ?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 23:04:59 GMT",
+        "summary": "GPT-6 아스트라의 출시로 인공지능이 단순한 생성 도구를 넘어 자율적 의사결정자로 격상됨. 기술적 완성도가 높아짐에 따라 AI 기술을 활용한 업무 자동화가 비약적으로 확대될 것으로 보임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 5
+      },
+      {
+        "title": "'오픈AI' 샘 올트먼도 쓰는 '모깅' 원래 이런 뜻이었다[트민자] - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CQ2w3bmtoWTdZTWhzOUk5Q1l6UURlNGNSUXBsQ0w5bktNXzY3Z09xaEdwdDVOVk5Gc2JrMWJmUXFKajZUTGdVMy1sc0RGZW9nU1pwcDZJQjA4RVVJRDV4MW0zZFhKM1Qz0gFuQVVfeXFMTUpVcDBvTWNqb3E2Nm9lNU9ScmZBcGZSZXhtdjA1TzBweFJtRW1INGVsWWVxbU1Qd05IaTh0WUNacTBkZ0dCaXU5eDVVQzFkbkdKM2x4Vi1KdXdUcjVRVllDODdQSE1SeGQzRWNMWHc?oc=5",
+        "pubDate": "Sat, 05 Sep 2026 21:10:00 GMT",
+        "summary": "AI 트렌드 속에서 생겨난 용어 '모깅'에 대한 분석으로, 대중적인 AI 활용 문화 확산을 조명함. 기술 자체보다는 AI가 일상과 비즈니스 언어에 깊숙이 침투하고 있음을 보여주는 사례임.",
+        "importance": 2,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 1
+      },
+      {
+        "title": "[만나보니] \"AI로 신약개발 2∼3년 단축…한국도 잠재력 충분\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tdDFiRnJtLUlUckw0S1JGd0NEN2xDZk5WUXJDYUc1ZXY0MFNib1dpaGNkT01GVjFOMUR0TmVZWkxjdzdocEY2YnJXWWVVemM?oc=5",
+        "pubDate": "Sat, 05 Sep 2026 22:56:46 GMT",
+        "summary": "AI 기술이 제약·바이오 분야의 신약 개발 기간을 기존 대비 2~3년 단축시키는 성과를 보임. 전문 영역에서의 AI 도입이 단순 업무 지원을 넘어 핵심 R&D 경쟁력을 좌우하는 수준으로 발전하고 있음.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-04T23:38:11.314Z",
     "reportDate": "2026. 9. 5.",
     "summary": "- 공공 AI 생태계 구축: 카카오, SKT, KT 등 국내 주요 통신·플랫폼 기업이 참여하는 '모두의 AI' 프로젝트가 정부 지원을 바탕으로 본격화됨.\n- 대국민 AI 서비스 확장: 취준생, 소상공인 등 전 국민 대상 AI 서비스 제공을 통해 일상 속 AI 활용도와 디지털 격차 해소 노력이 가속화됨.\n- 차세대 AGI 기술 도입: 오픈AI가 'GPT-6 아스트라'를 공개하며 범용인공지능(AGI) 시대로의 본격적인 전환을 선언함.",
@@ -724,87 +806,5 @@
         "investmentImpact": 5
       }
     ]
-  },
-  {
-    "lastUpdated": "2026-08-27T02:48:05.432Z",
-    "reportDate": "2026. 8. 27.",
-    "summary": "- AI 기술의 실생활 침투 가속화: AI 안경 등 웨어러블 기기 확산에 따른 사생활 보호 이슈가 부각되고 있습니다.\n\n- 반도체 산업의 강력한 성장세: 엔비디아의 어닝 서프라이즈로 촉발된 AI 반도체 수요 폭발이 글로벌 시장을 주도하고 있습니다.\n\n- 국가 및 지역 단위의 AI 격차 해소 노력: 공공기관과 대학 등이 협력하여 지역 AI 격차를 줄이고 대중적 이해도를 높이기 위한 정책적 움직임이 활발합니다.\n\n- 기업 간 전략적 제휴 활성화: 네이버와 LG가 협력하여 국가 보안 AI를 개발하는 등 기술 경쟁력 강화를 위한 연합이 가시화되고 있습니다.",
-    "summaryScore": 88,
-    "jobRiskScore": 51.3,
-    "riskScoreBreakdown": [
-      {
-        "event": "네이버-LG 국가 보안 AI 공동 개발",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 5
-      },
-      {
-        "event": "엔비디아 성장에 따른 AI 반도체 인력 수요 증가",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 2
-      },
-      {
-        "event": "지역 AI 격차 해소 및 AI 기본사회 교육 강화",
-        "sign": "-",
-        "impact": 3,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "표시등 가리고 찰칵… ‘AI 안경’ 사생활 무법지대되나 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONlN3cTZhUlg3VTJJTjVTSkRtZml4SWpmT09RMklPSTdxQWItWEF2blB2NHF1S3R4emIweS1lbVNHQ3BoRV9jNDBuUm5jNmJKX1c5bTlGalplXzVjUnlPRU14eHNvWnpUTDQ2ZkRUcUw0UkJia21IOWg4NzF0LVZWRkJ2MA?oc=5",
-        "pubDate": "Wed, 26 Aug 2026 22:14:07 GMT",
-        "summary": "AI 안경 등 웨어러블 AI 기기의 보급이 늘어나면서 촬영 기능으로 인한 사생활 침해 논란이 가중되고 있습니다. 제도적 뒷받침과 윤리 가이드라인 마련이 시급한 상황입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 3
-      },
-      {
-        "title": "엔비디아, AI 타고 또 ‘어닝 서프라이즈’…주가도 급등, 삼전닉스 주목 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xcGZfck9rd0taZ2RiNU5vdlU0Wk03eHYtWGhiVTBWTXphZlI0NFdhXzktMWQ0Q2VVNDRnaEhVbW9rYV9wRkZhVlVXLTNTX1E?oc=5",
-        "pubDate": "Wed, 26 Aug 2026 20:43:07 GMT",
-        "summary": "엔비디아가 AI 열풍에 힘입어 다시 한번 시장 예상을 뛰어넘는 실적을 기록하며 주가가 급등했습니다. 국내 삼성전자와 SK하이닉스 등 반도체 기업들에 미칠 긍정적 영향이 주목받고 있습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "제주기자협회-제주대, AI시대 '지역 AI 격차 해소' 맞손 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZSkVNQzFWcnM4N3djazZ0MnYyRS1tZElUaHM0eF96UWU1aDg5VlNITkR5bDZhWkxsWUxlM1hvcUEzaUhHbnRFaDFzQUlkcjQ?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 02:06:01 GMT",
-        "summary": "제주기자협회와 제주대학교가 지역 내 AI 격차를 해소하기 위해 업무 협약을 체결했습니다. 디지털 소외 계층을 줄이고 지역 산업 발전을 도모하려는 움직임입니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "경기연구원 “도민 95%, ‘AI 기본사회’ 개념 몰라···통합 브랜드·로드맵 제시 주문 - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaYXBKZDRJUDVUS29VM0pKRFZXaW9QYi1TSEFoWHJuUGVlV0tHQUpWczRya083U2xBVVJxb21oczFJWmkxc2lMOEhvcWRMUHNXMkpfVDdlVi1CUdIBX0FVX3lxTE11djhYOE1tc3NNS3V0azNXM0pMZ2lmRGNBeTFfbnYxTV8yT3E4RHVCUDBCelk0cGROeDhyQ1U4ZmhVXzdnUzU3SGQ2VlNZY1lPaHR2XzhIZW5KZXZlcVhv?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 01:56:00 GMT",
-        "summary": "도민의 대다수가 'AI 기본사회'에 대한 개념을 이해하지 못하고 있다는 조사 결과가 나왔습니다. 이에 경기연구원은 정책 통합 브랜드 개발과 로드맵 제시를 통해 AI 대중화에 나설 것을 주문했습니다.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "네이버·LG 손잡았다…'국가 보안 AI' 전격 개발 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56VjhBdlVrNjN5aTM3aGVDdTdXamQ5Rmh2WGdScUFta3JYdEx5dDJTZTJTTFRXc2toaFkzblh2dzJfZ2x2dTEyX0QtbGNPMEl5YzBLRVVId29Qb0JIWlBtTXN0VzVkNFXSAWxBVV95cUxPMUE2SXF4cFNKVEl3cTU3Y1BCTWtzcGRPTHJoVnhuelpGR2NQMm1peFdZeE9tdUh0RUZ2MVdmRFF3dXRxSFlWODNvdTR2ei1YWlFCTG56TjdYdkdCcWZhRmFOYlYzSG95Vlp5aDQ?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 01:37:51 GMT",
-        "summary": "네이버와 LG가 손잡고 국가 보안 인프라를 위한 독자적인 AI 기술을 개발합니다. 공공 보안 및 국가 기술 주권 확보를 위한 대형 기업 간 전략적 제휴 사례입니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      }
-    ],
-    "cumulativeRiskScore": 51.3,
-    "dailyVelocity": 2.5,
-    "velocityReason": "네이버-LG 보안 AI 공동 개발 및 엔비디아 어닝 서프라이즈로 기술 생태계 확장 가속화."
   }
 ]
