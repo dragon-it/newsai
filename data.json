@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-07T23:53:58.510Z",
+    "reportDate": "2026. 9. 8.",
+    "summary": "- AI 하드웨어 수요 급증: 삼성전자와 SK하이닉스 등 반도체 기업들이 고성능 AI 인프라 시장 성장에 힘입어 시장을 주도하고 있음.\n\n- 국가 차원의 AI 인재 확보 경쟁: 정부가 파격적인 조건으로 해외 핵심 AI 인재 유치에 나서는 등 국가 경쟁력 강화를 위한 인적 자원 확보에 사활을 걸고 있음.\n\n- 산업계의 AI 인프라 중심 체질 개선: SKT를 비롯한 통신사들이 단순 통신 서비스를 넘어 AI 데이터센터 및 인프라 사업자로 사업 영역을 적극적으로 확장하고 있음.\n\n- 지역 거점 기반의 AI 생태계 조성: 부산, 강원 등 지자체와 대학이 협력하여 지역 맞춤형 AI 연구 인력을 양성하고 지역 현안을 해결하는 AI 전환(AX) 전략을 추진하고 있음.",
+    "summaryScore": 82,
+    "dailyVelocity": 0.3,
+    "velocityReason": "AI 하드웨어 및 인프라 중심의 생태계 확장과 전문 인력 확보가 가속화되고 있으나, 직접적인 대규모 직무 대체보다는 인력 수요 창출에 집중된 동향임.",
+    "cumulativeRiskScore": 52.2,
+    "jobRiskScore": 52.2,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 인프라 반도체 수요 폭발",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 전문 인력 유치 및 양성 확대",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      },
+      {
+        "event": "지역 기반 AI 인재 양성 및 교육 활성화",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "삼전닉스 급등 이유 있었다…세상 놀라게 한 '괴물 AI' 정체 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGV3BKaUtwSzVtNHpFazBtVHBhRUtCUGZRVDJFblpsdmR5dG13Wmx2MldLSVVRV0ZIN0FyUFlYRTV3MGJjNlFMa2xBYngwTXlteDlFQ2FKcVlkQQ?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 08:49:04 GMT",
+        "summary": "삼성전자와 SK하이닉스가 차세대 고성능 AI 반도체 시장에서의 경쟁 우위를 바탕으로 가파른 성장세를 보이고 있음. 이는 AI 인프라 구축을 위한 필수 핵심 부품 공급이 전 세계 AI 생태계의 성장을 견인하고 있음을 시사함.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "[단독]\"1인당 15억, 한국 돌아와라\"…AI 인재 귀환 나선 정부 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sa3N5R21oVldVcDZFNXhScXU2VC1GSmNjVU5yRUN4Q2ljSVlxeWs2amFMcWlqY1pYMUNCdjh0d01lTjFtWkd6cno0RUQ5a3lVVnlqYWo2Q0lQbDR0MGUweGpibndEdUHSAWxBVV95cUxNaUJXQml3bEM3R3M2SDg0NlItdmdBNUtzdXhiQUNTTWpCbHVNeDBpSjMtS3YyX0IxTm1OTEttbzRkNWc5cllDdUtSbkwwRUVGbHNPckE3ZGVzM3pSLWxUazRwdV9ZalhxZ2xCNDE?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 06:00:45 GMT",
+        "summary": "정부가 해외에 유출된 한국 출신 AI 전문가들을 국내로 유치하기 위해 대규모 보상과 지원책을 마련함. AI 국가 경쟁력을 결정짓는 핵심 자원인 고급 인재 확보를 위한 총력전이 본격화됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[AI프리즘] \"통신사, AI 인프라 사업자로 진화\"…SKT 주목 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zYzM0OXVmM1RjM1ExekN2Z0VJWmVRQWZ4QTdweUpId0RlUzc5QWtxSWlacFUtQVBXS1R1Vzk5SndCejFKN05XRlF6RjZ6Q2c?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 22:01:55 GMT",
+        "summary": "SK텔레콤을 필두로 통신사들이 AI 데이터센터 및 AI 인프라 사업자로의 체질 개선을 공식화함. 단순 네트워크 통신 기업에서 AI 중심의 플랫폼 기업으로 거듭나기 위한 비즈니스 모델 전환이 가속화됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "부산시, AI 최고급 신진 연구자 양성 지원…부산대와 협력 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZeHhkcjdwR3AzUHNNd182UGh4anlnRmZ1RVFodktXUmRULVVyRnlJZFYyWUgycmh1T2Fhc1Z6RjZoRy0ySDNoLV95RGFYU2xES1Z2NWhKUlJmamvSAWBBVV95cUxNWUNFRFVDYTRjVkR4M00wbnNpODRPdVM0WGc0LW42c05CM1BES25hVWtZbU9KR1Y5ejJ5MW5kVjdkTHNjOGNMWVJ6SHpoeGs2SldmLVdoaFAwUXBQLW9YVDQ?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 22:59:22 GMT",
+        "summary": "부산시와 부산대가 협력하여 최고급 AI 연구 인력을 육성하기 위한 전문 지원 프로그램을 가동함. 지역 대학과의 연계를 통해 실무 중심의 AI 인재 공급망을 확충하고 지역 기반 산업의 AI 혁신을 도모함.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "강원대, 'AI 미래포럼-지역속으로 강원' 개최…지역 현안 AX 해법 모색 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSNEVnSHNTVWwtTWk5eGR5enhrb0xOa1ZNYmtQZ0RDTThlOERfNVJKTXJiZ2dRUDRfMk9NQ2FMd3J3UDZzNVhCTVh1MUxaQQ?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 23:10:01 GMT",
+        "summary": "강원대가 주최한 AI 미래포럼을 통해 강원 지역 산업 현안에 대한 AI 기반의 해결책(AX)을 모색함. 지역 사회의 디지털 전환을 위해 학계와 지역 사회가 함께 AI 기술 적용 방안을 논의함.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-06T23:24:08.266Z",
     "reportDate": "2026. 9. 7.",
     "summary": "- 인프라 및 생태계 확장: 엔비디아의 허깅페이스 인수를 통해 하드웨어와 소프트웨어가 통합된 개방형 AI 생태계가 더욱 강력하게 구축됨.\n\n- AI 에이전트의 산업화: 제조, 물류 등 물리적 산업 현장에 AI 에이전트를 도입하려는 시도가 늘어나며 기업용 AX(AI 전환) 솔루션이 가속화됨.\n\n- 기술 고도화 및 규제 논의: AI 에이전트의 자율적 활동 범위가 넓어짐에 따라 이에 대응하기 위한 글로벌 규제 법안 마련이 본격화되는 추세임.",
@@ -722,88 +804,6 @@
         "aiImpact": 3,
         "automationPotential": 4,
         "investmentImpact": 2
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-29T03:26:53.177Z",
-    "reportDate": "2026. 8. 29.",
-    "summary": "- 국가 주도 AI 서비스 확산: SKT, 카카오, KT가 정부의 '전 국민 AI 일상화' 프로젝트 사업자로 선정되어 공공 서비스 분야의 AI 도입이 본격화됨.\n- 국내외 기술 격차 해소 노력: 외산 AI에 대항하여 한국형 초거대 AI 경쟁력을 확보하고 국민 생활 밀착형 AI 서비스를 구축하려는 전략적 움직임이 관찰됨.\n- 정책 및 산업 생태계 논란: 국가 대표 AI 선발 과정에서 평가 방식과 배점 기준을 둘러싼 잡음이 발생하며, 정책 집행의 투명성과 효율성에 대한 과제가 제기됨.\n- 투자 시장 전망: AI 기술에 대한 투자는 여전히 유망하며, 최근 시장 약세를 기회로 삼아 기술주를 선별적으로 분할 매수하려는 움직임이 존재함.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.3,
-    "velocityReason": "정부 주도의 AI 서비스 보급 사업이 확정되며 산업 전반의 AI 적용이 가속화되었으나, 직접적인 일자리 대체보다는 서비스 편의성 향상에 집중됨.",
-    "cumulativeRiskScore": 51.3,
-    "jobRiskScore": 51.3,
-    "riskScoreBreakdown": [
-      {
-        "event": "전 국민 AI 사업자 선정",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "국가대표 AI 선발 잡음",
-        "sign": "+",
-        "impact": 1,
-        "newsIndex": 4
-      },
-      {
-        "event": "AI 관련 투자 지속",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "\"전 국민 무료 AI\" 사업자에 SKT·카카오·KT 선정 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRlNmVlpIZU9sS0tVV3g2cmhiaF9GLVhlTTdMSUlqUjlKQXZ2VFJfQkhnd1pLbXZIQlhDTW0xRkw4VU0wNjlXcGRGc0g2VThEa09YSDM3THlwbTNGOGRiMHIzVjJ1VU9fN29xWmxVUUFDS3BTLXI1WS15WHZWWGZ5OTFxQQ?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 06:48:00 GMT",
-        "summary": "SKT, 카카오, KT가 정부가 주관하는 '전 국민 무료 AI 서비스' 프로젝트의 최종 사업자로 선정되었습니다. 공공 및 생활 밀착형 서비스에 AI를 도입하여 국민들의 접근성을 높이겠다는 계획입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[영상] SKT·카카오·KT, ‘모두의 AI’ 낙점…외산 AI 추격 나선다 - 서울경제",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pUUlWZ3JNXzZjQktUbEhzbGoxMlVrRGZERVJ3REJOR0NXUksxS1dxU0lZWjEzOVVuQVpJQ0c4LVduZWY2ZTFIVHlzUGZudTlJbWc?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 01:00:00 GMT",
-        "summary": "국내 통신사와 플랫폼 기업들이 외산 AI 기술에 대응하기 위해 연합 전선을 구축하고 있습니다. 한국형 AI의 주권 확보와 경쟁력 강화를 위한 국가적 차원의 기술 개발이 핵심입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "\"증명서 떼고 맛집 예약까지\"…SKT·카카오·KT '모두의 AI' 어떻게 달라? - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LUmFXSmZVdE9OazdodEIydkN6MFQzeldkUjE1aGQySDlzM3c3d2loTlRHb1lRaXNjTzlubnI5eTBLcVE4UHc5NURneWx6bWlnWm0yQWp6X3laLUFrSjVwYtIBeEFVX3lxTE5vQzJPTG1ETlNxc2JVSERSSUhaMlY4X1pWUXFNQW9ZRTZEa2lMYWw2TmdON1kwM284TFc5RWd3RGFYdC1yY0ZzWUVXTzVaazFjTWdfdS1KRjBRZ0N4VXdvc3BQT2k5ODdGQUM5ZVhDenl1ZkVNRHIyRQ?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 02:00:00 GMT",
-        "summary": "해당 사업을 통해 증명서 발급, 맛집 예약 등 일상 업무를 AI가 처리하게 될 예정입니다. 국민들의 AI 경험을 확대하여 일상의 자동화를 촉진하는 데 중점을 두고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "흔들리는 ‘국가대표 AI’ 선발… 평가 방식·배점 놓고 잡음 이어져 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOTlsd1Q4VUFmblRGemNkS09uWkdRd3Qza0ZFYzlRdjdBdmFrUkRNVHAwY09aUi1oUjZfSFZ4bXA1aEJ2cFNqdUxOQmo0UklLeGtjdWM1V1ZqN0xIaXhmU0t3X2NGRzNWcndWMnpsZzBHWmE2Zjl6UGVfTDhiRUo4RkF30gGWAUFVX3lxTE44VkFxckNZVkZ2VEtLbkxvSXdXQkJSd3g0Q0FlNmhHdHNZSDBBTjYwRjNLNW9zS1FHSGJJUnNQZ1BzbHduR1NnSm84SmMwX2xYZkFQblQtWS1GeW1HSWI4UlN3NE5kSW5kcHV3VHRkU1A2ZnlxZmlPd2cyT1ZhemVYdzlnQ2FVU2xENHpoUWg2VEFKYTRjUQ?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 08:55:00 GMT",
-        "summary": "국가대표 AI를 선정하는 과정에서 평가 방식과 배점의 공정성을 두고 업계 내 잡음이 이어지고 있습니다. 정책의 신뢰도와 산업 지원 효율성에 대한 우려가 제기되는 상황입니다.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "\"AI 투자 줄일 이유 없다…'약세' 中기술주 분할 매수 기회\" [주末머니] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00S3VLeXFueE1pZlR6V2d6cW9mMUpIaTlhMk5TU0k1YzlpbkNYR1FfRnJoYjIyY3lrc3JzSGhsUWdwTWxpbEwxQ2xsaVZKblk?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 02:38:41 GMT",
-        "summary": "AI 기술주가 최근 시장의 약세에도 불구하고 여전히 장기적인 투자 가치가 있다는 분석이 나왔습니다. 중국 기술주 등을 중심으로 한 분할 매수 전략이 투자자들 사이에서 유효한 기회로 제시되었습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
       }
     ]
   }
