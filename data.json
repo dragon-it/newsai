@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-12T23:39:33.249Z",
+    "reportDate": "2026. 9. 13.",
+    "summary": "- 학계의 경고: 필즈상 수상자 25인이 AI의 수학적 문제 풀이 능력이 인간의 지적 활동 및 창의적 발전에 미칠 잠재적 위협에 대해 우려를 표명함.\n\n- 제조 분야의 확산: 데이터 활용과 AI 기술을 결합하여 지역 제조 경쟁력을 강화하는 거점 모델이 전국적으로 확산되고 있음.\n\n- 공공부문의 디지털 전환: 지자체 차원에서의 AI 도입 사례가 공공 서비스 혁신으로 이어지며 중앙정부 차원의 평가와 성과 인정을 받고 있음.",
+    "summaryScore": 72,
+    "dailyVelocity": 0.3,
+    "velocityReason": "AI의 지적 영역 진입에 대한 학계의 강력한 경고가 전문직 일자리 미래에 대한 사회적 논쟁을 가속화함.",
+    "cumulativeRiskScore": 52.5,
+    "jobRiskScore": 52.5,
+    "riskScoreBreakdown": [
+      {
+        "event": "필즈상 수상자들의 AI 위협 경고",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "지방 거점형 제조 AI 확산",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 4
+      },
+      {
+        "event": "공공부문 AI 도입 및 우수 사례 확산",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "‘수학계 노벨상’ 필즈상 수상자 25인의 경고…“AI의 문제풀이 경쟁 우려스러워” - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IbjJpVlFlb0RBUVlCWUdGR25ZSk9ocHE3Zy1pSi02b0hMOGlReUxYbWU3ZXVkRHQyVEtDYkR4NkJOcnRTcWd6bUpIYVRfR3FCMzdlUnpNdzJRUdIBX0FVX3lxTE9JMTBBNEY2cnlJQklxNlo0N3Zld2dxYmFzcTVibmZ3YkVXcVJVUUQ3eG1wQ1RKSU5HUXlZbWVfUXJ6dDdXbWhvQ0pvRWt6ejB2U2xjZ2xkczg5UVc0Vnl3?oc=5",
+        "pubDate": "Sat, 12 Sep 2026 06:27:00 GMT",
+        "summary": "필즈상 수상자 25인이 AI가 수학적 문제 풀이를 독점하는 현상에 대해 깊은 우려를 표명함. AI가 지적 활동의 본질을 침해할 수 있음을 경고하며 학계의 대응을 촉구함.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "\"AI가 90년 난제 해결\" 직후…우려 쏟아낸 수학자들, 왜? - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GQm9aQzhrZTQ2ekRHN1FMZWt5dko2Z2I3TWhiY1Nsdmx0RXM1V0VLYW9Vb1VIOExEMnZwZlNLOXVqODRTWmxVV3VSUE55VFE?oc=5",
+        "pubDate": "Sat, 12 Sep 2026 10:26:00 GMT",
+        "summary": "AI가 수학계의 오랜 난제를 해결한 성과를 두고 전문가들이 비판적 시각을 제시함. 기술적 진보와는 별개로 수학 연구의 인적 생태계가 붕괴할 수 있다는 위기감이 확산됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "필즈상 수상 25인, AI 수학 풀이에…‘인간 지적 활동’ 위협 우려 - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbDJBZHFRZm02aUhacjRra0RNVkVYZHhfaDlmYTFqVnBhR2VpZzRHNnBEQ0U0OWN0cUxveEdBV21lb3EwbFZCekpwSW40WTNZamVMWC0xUlhXYTd2cFBoTEtKX2JDeDQ3WlVnbzY2a09KdHdscTZGcmV5WG1sbnFDdjdB?oc=5",
+        "pubDate": "Sat, 12 Sep 2026 07:26:00 GMT",
+        "summary": "AI의 연산 능력 확장이 인간의 고유 영역인 창의적 사고와 지적 훈련을 저해할 수 있다는 점이 강조됨. 전문가들은 AI가 보조 도구를 넘어 지적 주도권을 쥐는 것에 대해 신중론을 제기함.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 1
+      },
+      {
+        "title": "데이터 쫓아 지방 간다…제조 AI 거점 확산 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15NDUzdDRLMWczYzF6MkxURFhDRWlvR3NlWmY0bnBLRDV2S2JXS0xaMS1ERlY4eVhLMmpOcnJVcWE1M1hJZ2p4R1BnYUdSX24yT0MtbExn?oc=5",
+        "pubDate": "Sat, 12 Sep 2026 07:13:04 GMT",
+        "summary": "제조업 기반의 지방 도시들이 데이터 거점을 구축하여 AI 기술 도입을 본격화하고 있음. 생산성 향상과 산업 디지털 전환을 위해 AI 인프라 확장이 빠르게 추진되는 추세임.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      },
+      {
+        "title": "부산시, 지방정부 AI 우수사례 발표대회서 행안부 장관상 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9BeE9uUnRwQzVwOEZkcGFKYjIySEZrSUF6MExrdV9ZYUlpMkE4cnF6SjV4ZDkwVnlBWWZrcTJxNnNLWkpZWWhaUlJJYl96enJ5X2dDQTBYc2Y4MGPSAWBBVV95cUxNOGJHdEt0X1Q3VEUyaGc5VEJnNUtESGNwamM4WlpWSEVBZ0w5SzhHMDljZTlERjNxZzlVNkRtV203V3JqTnZZTVlBN21uTTdaXzA1X29XWWR4aXdpb1ZERFQ?oc=5",
+        "pubDate": "Sat, 12 Sep 2026 22:40:39 GMT",
+        "summary": "부산시가 지자체 대상 AI 우수사례 발표대회에서 장관상을 수상하는 등 공공분야 혁신이 가시화됨. AI를 활용한 공공 행정 효율화 모델이 지역 단위로 정착되고 있음.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-11T23:48:05.759Z",
     "reportDate": "2026. 9. 12.",
     "summary": "- 사이버 보안 시장의 급부상: 젠슨 황 엔비디아 CEO를 필두로 AI의 차세대 핵심 적용 분야로 사이버 보안이 지목되며 관련 산업의 중요성이 크게 대두됨.\n\n- 기술 고도화 및 협력 강화: 네이버와 LG 등 국내외 주요 기업들이 보안 특화 AI 개발에 착수하며 글로벌 경쟁력 확보를 위한 기술적 연합이 활발함.\n\n- AI 투자의 질적 변화: AI가 가져올 공포를 혁신의 기회로 전환하는 전략적 관점이 확산 중이며, 스타트업을 중심으로 AI 생태계에 천문학적인 규모의 자본이 유입되고 있음.",
@@ -710,88 +792,6 @@
         "aiImpact": 3,
         "automationPotential": 5,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-01T23:44:04.835Z",
-    "reportDate": "2026. 9. 2.",
-    "summary": "- AI 콘텐츠 시장의 냉정한 현실: 생성형 AI를 활용한 숏폼 콘텐츠가 대거 쏟아지고 있으나, 98% 이상의 대다수가 수익 창출에 실패하며 시장의 거품 논란과 실질적인 수익화 모델의 한계가 드러남.\n\n- 국가 차원의 AI 인프라 및 예산 대폭 확대: 정부가 전 국민 AI 서비스 지원과 '피지컬 AI' 분야 예산을 3배 증액하는 등 국가적 경쟁력 확보를 위한 대규모 예산 투입 계획을 발표함.\n\n- AI 하드웨어 확보 및 투자 전쟁 가속화: 글로벌 AI 패권 경쟁을 위해 GPU 1만 장 확보에 3.85조 원을 투입하며, AI와 방산 중심의 투자 전쟁이 전 세계적인 국채 금리 상승을 유발하는 등 거시 경제에 큰 영향을 미치고 있음.",
-    "summaryScore": 88,
-    "dailyVelocity": 0.3,
-    "velocityReason": "국가 단위의 인프라 투자와 AI 보급 지원이 강화되었으나, 민간 영역의 콘텐츠 수익성 한계가 드러나며 일자리 대체보다는 인프라 기반의 시장 재편이 우선시되는 양상임.",
-    "cumulativeRiskScore": 51.4,
-    "jobRiskScore": 51.4,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 숏폼 수익화 실패 사례 증가",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "정부 주도 AI 산업 대규모 예산 투입",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "GPU 등 AI 하드웨어 인프라 확보",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "너도나도 돈방석 앉은 줄 알았더니…쏟아지는 AI숏폼의 반전, 98.7%가 '쪽박' - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52eEoxdF9XOFU3XzF5ZWNxUktGQW9LVExKVzYzdmhBb0NIcllReFpYUmExeTFZTnk5bDlqcWlHdzN4RlN0S18yWU5zNlBiYnM?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 02:05:28 GMT",
-        "summary": "AI를 활용한 숏폼 콘텐츠가 우후죽순 생성되고 있으나, 실제 수익을 내는 경우는 1% 미만에 불과함. 콘텐츠 시장의 자동화 효율성보다 차별화된 기획력의 중요성이 재조명되고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "전 국민 AI서비스 지원한다…과기정통부 내년 예산 29.6조 원 - korea.kr",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5YmFjaUF3aXdDRjFYZVhiUUJoVzZmUGwwZGd1OUt5RHQxal9BakcxV09fYUc5cjUtbUw2QkhjYlU5QjhwakFZVHM5cWZmTF9tcEk3bkJpNEtpV2xVOHd5cUw2ZW1fdEtRbFBsVg?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 21:22:37 GMT",
-        "summary": "과기정통부가 내년 AI 서비스 대중화를 위해 29.6조 원의 예산을 편성함. 전국민 AI 활용 능력 향상과 서비스 보급을 통해 국가 디지털 전환을 가속화할 예정임.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "‘피지컬AI’ 예산 3배로 증액…과기정통부, 전 부처 CTO 역할 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uRFhSNkNXdkNiYlFKU1dSdFVkSTBqNEdoYzFjSW5BWHk4NnY5S0R3ajl1Y2dkOUV2RDBoSVdwRERvWk92Q1Z5ZHpFM0dyb0xDWGFCS1dn?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 04:00:52 GMT",
-        "summary": "현실 세계와 상호작용하는 '피지컬 AI' 분야의 예산을 기존 대비 3배로 증액함. 정부가 각 부처의 CTO 역할을 수행하며 제조 및 로봇 산업과의 결합을 적극 지원함.",
-        "importance": 4,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      },
-      {
-        "title": "\"독파모 넘어 프론티어 AI로\"…정부, GPU 1만장 확보에 3.85조 배정 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZYTV0OXdJY1BJSksyWko4SmNSaElUaVNHOFU5bEpYY0xDdFlfT1dmSHhLYVlZZl9idldGTzl6OGdpWV9DS1dWNEF6LTQ5WVdjSzg5OE5Ca09ncmVsckNHbE5id0hXZ3NFV1E?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 08:09:52 GMT",
-        "summary": "글로벌 AI 주권 확보를 위해 정부가 GPU 1만 장 확보에 3.85조 원을 투입함. 프론티어 AI 개발을 위한 핵심 인프라 구축에 국가 역량을 집중하겠다는 전략임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "'20년 글로벌 저축 과잉’ 시대 끝…AI·방산 투자전쟁에 국채 금리도 뛴다 - hankyung.com",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hd2p3WXVHUlp1QmZqM2FOVkc3SUlMVlR2SjRzaFJlLTM1am93eU8zOTQ4N3NyLUNLUzZsVUZIaVh0X1YxaHFnYUpTaGJXVFZmODE4bENqV2xtZw?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 22:00:11 GMT",
-        "summary": "AI 산업에 대한 막대한 자금 유입이 글로벌 금리 상승의 주요 요인으로 작용하고 있음. AI 투자 전쟁이 기존의 저축 과잉 시대를 끝내고 금융 시장 구조를 변화시키고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
       }
     ]
   }
