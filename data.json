@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-13T23:50:50.182Z",
+    "reportDate": "2026. 9. 14.",
+    "summary": "- 글로벌 AI 기술 패권 경쟁 심화: 미국과 중국 등 주요국이 자국의 AI 경쟁력 확보와 생태계 확장을 위해 동맹을 강화하고 기술 리더십 유지 전략을 구체화하고 있음.\n\n- AI 개발 속도에 대한 전략적 논의: 기술 가속화와 안전한 개발 속도 조절 사이에서 AI 기업 수장들과 정치권 간의 상반된 의견이 도출되며 정책 방향성이 조정되고 있음.\n\n- AI 기술의 산업 및 공공 현장 적용 확대: 통신업계의 AI 마케팅 활용 및 정부 차원의 AI 교육 프로그램 도입 등을 통해 실질적인 업무 효율화와 인재 양성 생태계가 구축되고 있음.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.2,
+    "velocityReason": "글로벌 AI 패권 경쟁이 지속되고 있으나, 개발 속도 조절론과 실무 도입의 병행으로 일자리 위험 가속도가 중립적인 수준을 유지함.",
+    "cumulativeRiskScore": 52.5,
+    "jobRiskScore": 52.5,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 개발 속도 조절 논의",
+        "sign": "−",
+        "impact": 2,
+        "newsIndex": 1
+      },
+      {
+        "event": "미·중 AI 기술 패권 경쟁",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      },
+      {
+        "event": "기업·공공 AI 실무 적용 확대",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "'더 빨리' 외치던 AI 기업 수장들 \"개발 속도 늦추자\" 한 목소리 - MBC 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1YSk50R2dER3djVTdjSFMwZmNMdG9rbWdDWGFsMms4X1lWVnEyVnJ0MFpnYkswWHNpbnVYOTBjbXFwWk5WUS0zSHhIMXBYdWRsalFnLTRyeDBlVWIwSHE5ZDVYc004eFlKcEVkY1JlTkhuX2Q1T0xDLdIBeEFVX3lxTFBFN1NvTG91ZjEtd2FKSjFrNWFoNklQQkNuSHctaGhoQjM2WFllRkZsdWJocGdIa2UwM2tJS01laTBBYjhfQTNVZWVOTVM5RTl5X3dBVFF2eF91Vl9oU2doVkQwaFEtZlo2OF9yZl9qNHlzQmhlTDMyeA?oc=5",
+        "pubDate": "Sun, 13 Sep 2026 12:09:14 GMT",
+        "summary": "AI 산업 수장들이 개발 속도를 조절해야 한다는 신중론을 제기하며 안전과 통제에 대한 논의를 공론화하고 있습니다. 기술의 급격한 발전이 가져올 사회적 혼란을 최소화하기 위한 자정 노력이 시작된 것으로 보입니다.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "트럼프, AI 속도조절론에 \"부정적 세력…AI경쟁 승리방식 유지\"(종합) - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vaTd0dHJSYk5NVmFqT0dQck8xRjJLMDM4ZmNyNmJpSTIyMC1tTzd3UUd5bk9SOE9vODU3bmwtVkx4Zkk1SG5Gb01qU0tDSy1wUTdNRFBhdUZkRzjSAWBBVV95cUxPQWdMU0hOY0otdHpuZUVFQXExM0ExNkYwbUxlanR3c21LdElRcGRWOFQzOVZjNzdiQmZmLVV1SWVUajhycFVEUGVUT1duWjgzYVduR2RDbkF2bmtHd2lOS0Q?oc=5",
+        "pubDate": "Sun, 13 Sep 2026 16:53:37 GMT",
+        "summary": "트럼프 전 대통령이 AI 개발 속도 조절론에 부정적인 입장을 밝히며 미국 주도의 AI 경쟁 승리를 강조했습니다. 정치권의 압박으로 인해 기술 개발 속도 경쟁은 더욱 치열해질 전망입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      },
+      {
+        "title": "시진핑, 브릭스에 ‘AI 오픈소스 구역’… AI 동맹 확보에 속도 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NNHlPRW1UTmlFVXNCZWNrczYzRDFvemRFQ0hkUlZaLWpUcW5sYUNCVE0yQUlZa1prNkJTdWhXOElUR0NvZjBTOHpXRHJCUzQ?oc=5",
+        "pubDate": "Sun, 13 Sep 2026 23:31:51 GMT",
+        "summary": "시진핑 주석이 브릭스 국가들과 함께 AI 오픈소스 구역을 조성하며 기술 동맹 구축에 박차를 가하고 있습니다. 글로벌 AI 영향력 확대를 통해 서방과의 격차를 좁히려는 의도로 풀이됩니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "[Inside T] ‘24년 펜심(Fen心)’을 AI로 잇다… ‘SKT-FAN’ 탄생 이야기 – 스포츠마케팅팀 - SK텔레콤 뉴스룸",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rX2c4UEZpc0Nrek14cnAyQmRCWk0wbDdzSzdhNTNfeEtkc1dFQThoVGI4Q2xjOS1QOTNPVFdPclk4d29UWGdwTQ?oc=5",
+        "pubDate": "Sun, 13 Sep 2026 23:35:05 GMT",
+        "summary": "SK텔레콤이 AI 기술을 스포츠 마케팅에 접목하여 팬들과의 소통을 강화하는 사례를 선보였습니다. 특정 산업 분야의 마케팅 프로세스 자동화 및 효율화가 가속화되고 있음을 보여줍니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "SK AX, 고용노동부 장관상 수상…AI교육 프로그램 전문성·실효성 인정 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1EanYtaktFWjNHWkdYTDBtUzRlZmM0cTBIOV9pc1lHWmdvanZYd0JZY0ozYkNVLWg2VVVMcXFzNjhKRGdNOElFWFJhYkpjUQ?oc=5",
+        "pubDate": "Sun, 13 Sep 2026 23:45:22 GMT",
+        "summary": "SK그룹의 AI 교육 프로그램이 고용노동부 장관상을 수상하며 전문성을 인정받았습니다. AI 기반 교육 확산은 미래 인재 확보와 기존 직무의 AI 전환을 촉진하는 신호탄으로 평가됩니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-12T23:39:33.249Z",
     "reportDate": "2026. 9. 13.",
     "summary": "- 학계의 경고: 필즈상 수상자 25인이 AI의 수학적 문제 풀이 능력이 인간의 지적 활동 및 창의적 발전에 미칠 잠재적 위협에 대해 우려를 표명함.\n\n- 제조 분야의 확산: 데이터 활용과 AI 기술을 결합하여 지역 제조 경쟁력을 강화하는 거점 모델이 전국적으로 확산되고 있음.\n\n- 공공부문의 디지털 전환: 지자체 차원에서의 AI 도입 사례가 공공 서비스 혁신으로 이어지며 중앙정부 차원의 평가와 성과 인정을 받고 있음.",
@@ -716,82 +798,6 @@
         "aiImpact": 3,
         "automationPotential": 3,
         "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-03T09:20:03.759Z",
-    "reportDate": "2026. 9. 3.",
-    "summary": "- 정부 보안 특화 AI 주도권 확보: 네이버클라우드가 정부의 사이버 보안 AI 모델 개발 사업자로 선정되며 공공 분야의 AI 보안 기술 자립도가 강화될 것으로 전망됩니다.\n\n- AI 적용 영역의 확장: AI 기술이 전문 보안 영역을 넘어 일상적인 집안일과 독서 방식 변화 등 대중적인 라이프스타일 혁신으로까지 빠르게 확산하고 있습니다.\n\n- AI 활용 능력의 중요성 강조: AI가 정보를 단순 처리하는 시대를 넘어, 인간이 AI와 상호작용하며 질문을 던지는 능력이 핵심 경쟁력으로 부상하고 있습니다.",
-    "summaryScore": 82,
-    "dailyVelocity": 0.3,
-    "velocityReason": "보안 AI 사업 추진 및 생활 밀착형 AI 기술의 대중화로 기술적 완성도가 높아지고 있으나 노동 시장에 급격한 변화를 줄 이벤트는 부재함.",
-    "cumulativeRiskScore": 51.4,
-    "jobRiskScore": 51.4,
-    "riskScoreBreakdown": [
-      {
-        "event": "정부 보안 AI 사업 선정",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "가사 노동 자동화 AI 확산",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "네이버클라우드, 정부 '사이버 보안 AI 모델' 개발 사업자로 최종 발탁 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBULTRGMGpsWjlCRXktSkZLaDFiTHVkX1RDSzloMXdEcFRGSXd3MExfRVBnbXpwQ2dxYXdqRFFhUGlKR0xyN1Z3MHVyS0ZOOC01bDMtUTRmbXZobldzWV9vLVBRQUYzZmRsb3c?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 03:06:01 GMT",
-        "summary": "네이버클라우드가 정부 주관 사이버 보안 AI 모델 개발 사업자로 최종 선정되었습니다. 공공 보안 체계를 강화하기 위한 전략적 선택으로 풀이됩니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[속보] 네이버클라우드, 정부 '보안 특화 AI 모델' 사업 선정 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13bTNFZ3RKZjd2ZFNjeXNxaDdRUzBzd3owaVQwQjhrNEtzXzEyQnE2SjdXRnMzZ0FnVFJfTllfSXp0cDdiZXUtRnBiWWhIamFlSC1BQTV3?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 00:09:15 GMT",
-        "summary": "네이버클라우드의 정부 보안 AI 사업자 선정 소식이 추가로 확인되었습니다. 국가 차원의 AI 인프라 구축에 핵심적인 역할을 수행할 것으로 보입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "미토스 쇼크 대응할 ‘보안 특화 AI’, 네이버 연합군이 만든다 - 국민일보",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM1RjYmxwRmxXcXNFM3hiTFE3YlIxblpKdkpwU3Flc19rakU2djZCNEJFdEk4NHdkTm04UFFVOW5sNnI2Zm5MNEFtY2JVdEJGb0ZpU0JpRDNDb0QtbjQ5aGxrLVhycVB0aXJWNXcxem56dXQwWnAteFU3cm9XRUpuaElhMWNvRm1VQ1I5MmxmTURQQlRuZmfSAWxBVV95cUxQb2FhQ1lvNG81eHRpWF80WTM5cXlCekQ1UEpGNXUxdGZ4Ry1DWWhPQkFaTXJsemVtR3psc09TMlA1OGdfakZBVExnSTNuQ0VKNDd1RUY2U3dEaE81RUJtYXBpUE5jSktOTmU1Zl8?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 09:13:00 GMT",
-        "summary": "네이버 연합군이 미토스 쇼크와 같은 보안 위협에 대응할 전문 AI 모델을 개발합니다. 보안 기술 경쟁력 확보를 통해 글로벌 시장 진출 기반을 다지고 있습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"AI가 책을 요약할수록, 독자의 질문이 더 중요해진다\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5kYUZFZkNUUHhxa3VBSkdlcWl4blVCVG40WDk2ZXNKUklBSEhIT2pzME9LeHdSRjZEX3lTTk1JdUF1RlVaVjVndWgta1pvaXM?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 08:36:03 GMT",
-        "summary": "AI가 정보를 요약하는 능력이 고도화됨에 따라 인간의 역할이 단순 정보 습득에서 질 높은 질문을 생성하는 방향으로 변화하고 있습니다. 비판적 사고 능력이 더욱 강조되는 환경입니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 2
-      },
-      {
-        "title": "집안일의 종말?…‘일하는 AI’가 몰려온다 [IFA 2026] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5faTJFNkVGOWlBWkFBMHRqbnY1aTZKVXRjLVBLWFJNSjNzVFVGaE9meUJoaFUyM29LamJDVWkxRzAwMjNZd3dGRWhPdkVHWHM?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 01:02:55 GMT",
-        "summary": "IFA 2026에서 집안일을 보조하는 다양한 AI 기술이 공개되었습니다. 가사 노동의 효율화가 실질적인 제품으로 구현되며 일반인의 삶에 깊숙이 침투하고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 3
       }
     ]
   }
