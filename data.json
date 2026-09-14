@@ -1,438 +1,110 @@
 [
   {
-    "lastUpdated": "2026-09-02T23:46:33.567Z",
-    "reportDate": "2026. 9. 3.",
-    "summary": "- 국가 안보 및 소버린 AI 확대: 국방부가 독자적인 전장 특화 AI 모델을 개발하며 국가 안보 주권을 강화하고 소버린 AI의 중요성이 부각됨.\n- AI 성능 혁신: 앤스로픽 AI가 373년 된 난제를 단시간에 해결하는 등 AI의 논리적 추론 및 데이터 처리 능력이 비약적으로 발전함.\n- 공공 데이터 개방 및 문화 산업 전환: 정부 차원의 데이터 개방을 통해 문화, 관광 등 산업 전반의 디지털 전환이 가속화됨.\n- 교육 현장의 AI 활용 갈등: AI 기술의 급성장에 대응하여 뉴욕시 등 주요 학군이 학생들의 학습권 보호를 이유로 AI 사용을 일시 금지하며 교육적 접근을 재검토함.",
-    "summaryScore": 82,
-    "dailyVelocity": 0.3,
-    "velocityReason": "AI 기술의 높은 범용성 증명 및 공공 부문 도입 확대가 이루어졌으나, 교육 현장의 제한 조치가 일부 상쇄 효과를 줌.",
-    "cumulativeRiskScore": 51.4,
-    "jobRiskScore": 51.4,
-    "riskScoreBreakdown": [
-      {
-        "event": "소버린 AI 및 국방 AI 도입",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 고도화에 따른 복합 문제 해결 능력 입증",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "교육 현장 AI 사용 금지 조치",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "[현장] 국방부, 독자 AI 기반 '전장 특화모델' 만든다…'소버린 AI' 본격화 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE83UFlGVnpRem0tZmpzdmJfSXRxRGFqeXVxcUttR1hCaXJlV3F1Z2hURlJESnBkOEJYMW9DZWEzcXlZUkZsNmVORGx1dWNGeXZHNkEyYk1B?oc=5",
-        "pubDate": "Wed, 02 Sep 2026 06:38:08 GMT",
-        "summary": "국방부가 독자적인 AI 모델을 개발하여 소버린 AI를 구축하고 국가 안보를 강화함. 전장 환경에 특화된 AI 기술 확보를 통해 전략적 우위를 점하려는 시도로 평가됨.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "373년 묵은 암호문, 앤스로픽 AI가 44분만에 풀어 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSnhzd0tPcVZDWkpEa0V4R2hmbkF6WkR1TmViUzRzcW1yMEtHekVmY3BNRnYwd1lSS2RlNHZ6MFVGZGFLcXlmQWdiNGJUekhhWGFkdFJHdmRLMmV2ZDhBaVFVTVhnbDdPTUFpeUlCU05CS0xMTzY1YW5Ici1qWTlVZFA1aw?oc=5",
-        "pubDate": "Wed, 02 Sep 2026 02:19:00 GMT",
-        "summary": "앤스로픽의 AI 모델이 373년간 풀리지 않던 암호문을 단 44분 만에 해독함. AI의 고급 논리 추론과 복잡한 패턴 인식 능력이 기존 학계의 한계를 뛰어넘었음을 시사함.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "국악·관광·정책정보 등 데이터 5종 개방…문화 AI 전환 본격화 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGV240SlE3bjVoLTB3RENGeXNEUWFhWEhocVVuTFdqYmpRMENiXzJhU1hsS0h1V29ZQ25EajlWMUREbWtpdjFPd0F2TjY2a1Z3eFhPUFItQnJJbnpUWWVlM1V6WmxhcGlnZjdqSmh0RHIzZVRRSHc?oc=5",
-        "pubDate": "Wed, 02 Sep 2026 23:01:15 GMT",
-        "summary": "국악, 관광 등 5종의 대규모 공공 데이터를 민간에 개방하여 문화 산업의 AI 전환을 촉진함. 디지털 생태계 확장을 통한 서비스 고도화 및 신규 비즈니스 창출이 기대됨.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "\"학교에선 AI 쓰지마\"…美 '최대 학군' 뉴욕시, 초중생에 'AI 금지령' - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00REJpNFZycm9oTWxWTk10dTdrSXNjNDRZTlYyUEd5VE5OVHlfcnhuLWFEa2NONkFzeU5fdlZ6OHFMT1BrMkJXWmttNUZ3T3M?oc=5",
-        "pubDate": "Wed, 02 Sep 2026 23:27:00 GMT",
-        "summary": "뉴욕시 최대 학군이 학습권 보호와 부정행위 방지를 명목으로 초중생의 AI 사용을 1년간 금지함. 기술 발전과 교육적 가치 사이의 사회적 합의 필요성이 커짐.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "미국 '최대 학군' 뉴욕 초등·중학교에서 AI 1년간 금지 조치 - YTN",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLc2pJdHpkZndtaVNlZFk3LXU5NlhZMDVZNVdpWWxaSjhGanRVeXg5NDYtLWpPSGJWWTZfYXlxVHZDWmFsRXJGU3FMbFJES3dhN3Vwbml4bTYxM2diVGc?oc=5",
-        "pubDate": "Wed, 02 Sep 2026 19:15:00 GMT",
-        "summary": "뉴욕시의 AI 금지 조치가 공교육 현장에 미치는 영향을 다룸. AI 도구의 무분별한 사용이 학생들의 비판적 사고력을 저해할 수 있다는 우려가 반영된 결정임.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-01T23:44:04.835Z",
-    "reportDate": "2026. 9. 2.",
-    "summary": "- AI 콘텐츠 시장의 냉정한 현실: 생성형 AI를 활용한 숏폼 콘텐츠가 대거 쏟아지고 있으나, 98% 이상의 대다수가 수익 창출에 실패하며 시장의 거품 논란과 실질적인 수익화 모델의 한계가 드러남.\n\n- 국가 차원의 AI 인프라 및 예산 대폭 확대: 정부가 전 국민 AI 서비스 지원과 '피지컬 AI' 분야 예산을 3배 증액하는 등 국가적 경쟁력 확보를 위한 대규모 예산 투입 계획을 발표함.\n\n- AI 하드웨어 확보 및 투자 전쟁 가속화: 글로벌 AI 패권 경쟁을 위해 GPU 1만 장 확보에 3.85조 원을 투입하며, AI와 방산 중심의 투자 전쟁이 전 세계적인 국채 금리 상승을 유발하는 등 거시 경제에 큰 영향을 미치고 있음.",
-    "summaryScore": 88,
-    "dailyVelocity": 0.3,
-    "velocityReason": "국가 단위의 인프라 투자와 AI 보급 지원이 강화되었으나, 민간 영역의 콘텐츠 수익성 한계가 드러나며 일자리 대체보다는 인프라 기반의 시장 재편이 우선시되는 양상임.",
-    "cumulativeRiskScore": 51.4,
-    "jobRiskScore": 51.4,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 숏폼 수익화 실패 사례 증가",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "정부 주도 AI 산업 대규모 예산 투입",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "GPU 등 AI 하드웨어 인프라 확보",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "너도나도 돈방석 앉은 줄 알았더니…쏟아지는 AI숏폼의 반전, 98.7%가 '쪽박' - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52eEoxdF9XOFU3XzF5ZWNxUktGQW9LVExKVzYzdmhBb0NIcllReFpYUmExeTFZTnk5bDlqcWlHdzN4RlN0S18yWU5zNlBiYnM?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 02:05:28 GMT",
-        "summary": "AI를 활용한 숏폼 콘텐츠가 우후죽순 생성되고 있으나, 실제 수익을 내는 경우는 1% 미만에 불과함. 콘텐츠 시장의 자동화 효율성보다 차별화된 기획력의 중요성이 재조명되고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "전 국민 AI서비스 지원한다…과기정통부 내년 예산 29.6조 원 - korea.kr",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5YmFjaUF3aXdDRjFYZVhiUUJoVzZmUGwwZGd1OUt5RHQxal9BakcxV09fYUc5cjUtbUw2QkhjYlU5QjhwakFZVHM5cWZmTF9tcEk3bkJpNEtpV2xVOHd5cUw2ZW1fdEtRbFBsVg?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 21:22:37 GMT",
-        "summary": "과기정통부가 내년 AI 서비스 대중화를 위해 29.6조 원의 예산을 편성함. 전국민 AI 활용 능력 향상과 서비스 보급을 통해 국가 디지털 전환을 가속화할 예정임.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "‘피지컬AI’ 예산 3배로 증액…과기정통부, 전 부처 CTO 역할 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uRFhSNkNXdkNiYlFKU1dSdFVkSTBqNEdoYzFjSW5BWHk4NnY5S0R3ajl1Y2dkOUV2RDBoSVdwRERvWk92Q1Z5ZHpFM0dyb0xDWGFCS1dn?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 04:00:52 GMT",
-        "summary": "현실 세계와 상호작용하는 '피지컬 AI' 분야의 예산을 기존 대비 3배로 증액함. 정부가 각 부처의 CTO 역할을 수행하며 제조 및 로봇 산업과의 결합을 적극 지원함.",
-        "importance": 4,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      },
-      {
-        "title": "\"독파모 넘어 프론티어 AI로\"…정부, GPU 1만장 확보에 3.85조 배정 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZYTV0OXdJY1BJSksyWko4SmNSaElUaVNHOFU5bEpYY0xDdFlfT1dmSHhLYVlZZl9idldGTzl6OGdpWV9DS1dWNEF6LTQ5WVdjSzg5OE5Ca09ncmVsckNHbE5id0hXZ3NFV1E?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 08:09:52 GMT",
-        "summary": "글로벌 AI 주권 확보를 위해 정부가 GPU 1만 장 확보에 3.85조 원을 투입함. 프론티어 AI 개발을 위한 핵심 인프라 구축에 국가 역량을 집중하겠다는 전략임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "'20년 글로벌 저축 과잉’ 시대 끝…AI·방산 투자전쟁에 국채 금리도 뛴다 - hankyung.com",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hd2p3WXVHUlp1QmZqM2FOVkc3SUlMVlR2SjRzaFJlLTM1am93eU8zOTQ4N3NyLUNLUzZsVUZIaVh0X1YxaHFnYUpTaGJXVFZmODE4bENqV2xtZw?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 22:00:11 GMT",
-        "summary": "AI 산업에 대한 막대한 자금 유입이 글로벌 금리 상승의 주요 요인으로 작용하고 있음. AI 투자 전쟁이 기존의 저축 과잉 시대를 끝내고 금융 시장 구조를 변화시키고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-01T00:56:36.770Z",
-    "reportDate": "2026. 9. 1.",
-    "summary": "- 국가 AI 리더십 강화: 하정우 부위원장 등 전문가들로 구성된 국가AI전략위원회가 공식 출범하며 AI 3대 강국 도약을 위한 국가 역량 총결집을 선언했습니다.\n\n- 기술 효율성 최적화: 오픈AI가 코덱스 모델의 효율성을 50%까지 개선하는 조치를 단행하여 개발 생산성과 운영 효율성을 높였습니다.\n\n- 공공 서비스 혁신: 일본 정부가 요양등급 판정 과정에 AI를 도입하여 행정 업무의 자동화와 효율화를 추진하고 있습니다.",
-    "summaryScore": 78,
-    "dailyVelocity": 1.2,
-    "velocityReason": "국가 차원의 AI 전략 추진과 기술 효율성 개선이 맞물려 산업 현장의 AI 도입 속도가 완만하게 가속화되었습니다.",
-    "cumulativeRiskScore": 51.4,
-    "jobRiskScore": 51.4,
-    "riskScoreBreakdown": [
-      {
-        "event": "국가AI전략위원회 출범",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 2
-      },
-      {
-        "event": "오픈AI 코덱스 효율 개선",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 4
-      },
-      {
-        "event": "일본 공공분야 AI 자동화 도입",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "하정우·이해민 AI 새 라인업에 업계 \"AI 강국 도약할 리더십 갖췄다\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vandPWURpUUYyMTRHOHdjVDc3MkNETi1uOG50ZkVHUmxSMTd3alBxUHBwUEcxcnZVX2ZSZlNHQXJEc3Y2ODh2ZUx0R0JFR0J4bzFCekJR?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 00:24:55 GMT",
-        "summary": "하정우 부위원장을 중심으로 한 국가AI전략위원회의 새로운 라인업이 구성되었습니다. 업계는 이를 통해 한국이 AI 강국으로 도약할 강력한 리더십을 확보했다고 평가하고 있습니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "하정우 국가AI전략위 부위원장 \"AI 3대 강국 위해 국가 역량 총결집\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5PeC02UmI1eDhUa1RBQnZRalFXSjhCdkZtSkY3TzVBZWF6TWZHaHh3Rk9XcHUxekhRcDRrWTF1OGZWbDFMUVE?oc=5",
-        "pubDate": "Mon, 31 Aug 2026 06:46:09 GMT",
-        "summary": "하정우 국가AI전략위 부위원장이 AI 3대 강국 진입을 위해 국가 역량을 총결집하겠다고 밝혔습니다. 전략적 리더십을 통해 국가 차원의 AI 인프라와 산업 생태계를 구축할 계획입니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "AI '삼각편대' 출범…담대한 미래서사로 AI시대 선도하자 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CSVpDUDM3aGVzVnZEeXNDdnJPNVhXN05kVlhuX1RNM284ZzB2ZDg5NWNoYWFrZEJJUGhnLUN3clZ0MHdCbFJzajRfZjJfSEU?oc=5",
-        "pubDate": "Tue, 01 Sep 2026 00:26:51 GMT",
-        "summary": "AI 시대 선도를 위해 '삼각편대' 체제의 전략 위원회가 본격 출범했습니다. 대한민국이 AI 선도국가로 나아가기 위한 구체적인 미래 비전과 서사를 제시하고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "오픈AI, '코덱스' 용량 한계 보완 조치 단행…\"사용 효율 최대 50% 개선\" - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6cmdiUUcxSUFLX3liZU1UQS10eS1OUWQ4cklrbGJTN0lWMloybnMzcW0teWlGMEJubVpaLVl5Q29fb1hoOHpTVjV5ZXkzWURzaWw1NlZrRXJJUDVkbmdIVWNsb0daa0NETkE?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 00:56:50 GMT",
-        "summary": "오픈AI가 코덱스 모델의 용량 한계 보완을 위해 기술적 최적화를 단행했습니다. 이번 조치로 AI 모델의 사용 효율이 최대 50% 향상되어 개발 환경의 성능이 개선되었습니다.",
-        "importance": 4,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      },
-      {
-        "title": "日, AI로 조사 자동화 “요양등급 판정 빨라질까?” - 이투데이",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSTktraHhzUjdOUE9sazFKZmRRVHRMNjJhTk9PNG12Q05obkNSSjRUUVhLVUVIa0hYNk04bUVhM3hxTHBjQmNGcFpPSFNoUlBvVklwNmpIVU9VUQ?oc=5",
-        "pubDate": "Mon, 31 Aug 2026 22:00:00 GMT",
-        "summary": "일본이 요양등급 판정 등 공공분야 조사 업무에 AI를 도입하여 자동화를 시도합니다. 이를 통해 복잡한 행정 절차를 간소화하고 처리 속도를 크게 개선할 것으로 기대됩니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-31T00:08:55.003Z",
-    "reportDate": "2026. 8. 31.",
-    "summary": "- 기업 및 경영 분쟁: 오픈AI와 일론 머스크 간의 갈등이 심화하며 AI 산업 내 경쟁 관계의 복잡성이 드러나고 있습니다.\n\n- 국가 AI 거버넌스 구축: 대한민국 정부가 AI 정책을 총괄할 수석비서관과 전략위원회를 공식 발족하며 국가 차원의 AI 전략을 강화하고 있습니다.\n\n- AI 기술의 산업 적용 확대: AI 기술이 지식재산권 보호 및 위조품 식별 등 실질적인 산업 문제 해결 영역으로 확장되고 있습니다.",
+    "lastUpdated": "2026-09-13T23:50:50.182Z",
+    "reportDate": "2026. 9. 14.",
+    "summary": "- 글로벌 AI 기술 패권 경쟁 심화: 미국과 중국 등 주요국이 자국의 AI 경쟁력 확보와 생태계 확장을 위해 동맹을 강화하고 기술 리더십 유지 전략을 구체화하고 있음.\n\n- AI 개발 속도에 대한 전략적 논의: 기술 가속화와 안전한 개발 속도 조절 사이에서 AI 기업 수장들과 정치권 간의 상반된 의견이 도출되며 정책 방향성이 조정되고 있음.\n\n- AI 기술의 산업 및 공공 현장 적용 확대: 통신업계의 AI 마케팅 활용 및 정부 차원의 AI 교육 프로그램 도입 등을 통해 실질적인 업무 효율화와 인재 양성 생태계가 구축되고 있음.",
     "summaryScore": 78,
     "dailyVelocity": 0.2,
-    "velocityReason": "AI 산업의 지배구조 재편과 국가 단위의 정책적 인력 배치가 이루어졌으나 실질적인 고용 대체 위협은 낮은 상태입니다.",
-    "cumulativeRiskScore": 51.3,
-    "jobRiskScore": 51.3,
+    "velocityReason": "글로벌 AI 패권 경쟁이 지속되고 있으나, 개발 속도 조절론과 실무 도입의 병행으로 일자리 위험 가속도가 중립적인 수준을 유지함.",
+    "cumulativeRiskScore": 52.5,
+    "jobRiskScore": 52.5,
     "riskScoreBreakdown": [
       {
-        "event": "오픈AI-머스크 갈등 심화",
-        "sign": "+",
-        "impact": 1,
+        "event": "AI 개발 속도 조절 논의",
+        "sign": "−",
+        "impact": 2,
         "newsIndex": 1
       },
       {
-        "event": "국가 AI 정책 컨트롤타워 신설",
+        "event": "미·중 AI 기술 패권 경쟁",
         "sign": "+",
-        "impact": 2,
+        "impact": 3,
         "newsIndex": 2
       },
       {
-        "event": "AI 활용 위조품 식별 기술 도입",
+        "event": "기업·공공 AI 실무 적용 확대",
         "sign": "+",
-        "impact": 1,
+        "impact": 2,
         "newsIndex": 5
       }
     ],
     "news": [
       {
-        "title": "오픈AI, 스페이스X 인수된 커서 계약해지…머스크 \"사기꾼\" 비난 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1IZFY0WTg5Z3dTRktFQ3hkaTduSlpRX1lNZXYzdlpnVG04YXN5TlNCNHlRQVBQQ2tiazRLUHYzS3I0YUJoN0JSYV9remRRM0xZR0I0dERWRmdZYTQ?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 17:41:39 GMT",
-        "summary": "오픈AI와 일론 머스크 간의 법적 공방 및 비난전이 가열되고 있습니다. 양측의 협력 관계 단절은 AI 시장 내 기술 주도권 경쟁의 긴장감을 높이고 있습니다.",
+        "title": "'더 빨리' 외치던 AI 기업 수장들 \"개발 속도 늦추자\" 한 목소리 - MBC 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1YSk50R2dER3djVTdjSFMwZmNMdG9rbWdDWGFsMms4X1lWVnEyVnJ0MFpnYkswWHNpbnVYOTBjbXFwWk5WUS0zSHhIMXBYdWRsalFnLTRyeDBlVWIwSHE5ZDVYc004eFlKcEVkY1JlTkhuX2Q1T0xDLdIBeEFVX3lxTFBFN1NvTG91ZjEtd2FKSjFrNWFoNklQQkNuSHctaGhoQjM2WFllRkZsdWJocGdIa2UwM2tJS01laTBBYjhfQTNVZWVOTVM5RTl5X3dBVFF2eF91Vl9oU2doVkQwaFEtZlo2OF9yZl9qNHlzQmhlTDMyeA?oc=5",
+        "pubDate": "Sun, 13 Sep 2026 12:09:14 GMT",
+        "summary": "AI 산업 수장들이 개발 속도를 조절해야 한다는 신중론을 제기하며 안전과 통제에 대한 논의를 공론화하고 있습니다. 기술의 급격한 발전이 가져올 사회적 혼란을 최소화하기 위한 자정 노력이 시작된 것으로 보입니다.",
         "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "靑 AI수석에 이해민·AI전략위 하정우·정무특보 김경수 발탁 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VVUxYTUdQUW9USDVOaUtGRFJvd0t1TmZlQzctdHQyTno2T0M5VWFLWWNrUUh4QVROR2hlMXlUb3hnMVNEOXM4bXVtVHd4UzQ?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 03:57:01 GMT",
-        "summary": "대한민국 정부가 AI 수석비서관을 신설하고 전문가들을 대거 발탁하여 국가 AI 전략을 재정비했습니다. 이는 국가 경쟁력 강화를 위한 AI 정책 드라이브로 해석됩니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "청와대 AI 정책 맡는 이해민은 누구…구글 거쳐 국회서 AI 입법 주도 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBUVjNOazJ3MEM2ak5YMklxdVpVY1JzSlJadHlXS3RoU3lGMVB5dUwtUlZUX2RaS0lqOHgzU1BYREh1YkN2X0NnWXdpNERmbmljYzJfcU93?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 03:05:04 GMT",
-        "summary": "이해민 AI 수석비서관의 이력과 전문성을 조명하며 향후 정부가 추진할 AI 입법 방향을 분석하고 있습니다. 구글 출신의 경력을 바탕으로 한 규제와 진흥의 조화가 핵심입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "AI미래기획수석은 'AI 수석'만이 아니다 [정종오의 질문과답] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBQYXhGNUNWWmJOcUdoUGhmaXRmU3duYS1lYjRITGo3cVVNRm56clVDa3g4VmVQLXRtbXFjS0FLdlZmSmViYjJtZ1BTM1JXOUE?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 23:54:09 GMT",
-        "summary": "AI 미래기획수석직이 단순한 기술 관리를 넘어 산업 전반의 구조적 변화를 총괄하는 역할을 수행함을 강조합니다. 정부의 적극적인 지원 체계 구축 의지가 돋보입니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "AI 악용한 K뷰티 위조품…AI로 잡는다 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBeDZ0Ty0tNHJveEYzaF9DQllpcHNDX3ZvWGNwOXpJaHVfODBqMWVOblQ0Y2p0M1lCdHBBLTB2MlJxQmNTbFA4d2prSmFqTUE?oc=5",
-        "pubDate": "Sun, 30 Aug 2026 22:48:00 GMT",
-        "summary": "AI를 활용하여 K뷰티 시장의 위조품을 식별하고 유통을 방지하는 기술이 도입되고 있습니다. 이는 AI가 단순한 자동화를 넘어 브랜드 보호 등 실무 영역에 적용되는 사례입니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-29T23:50:29.087Z",
-    "reportDate": "2026. 8. 30.",
-    "summary": "- AI 기술의 실질적 적용 확대: AI가 종이책을 디지털화하는 등의 물리적 작업은 물론, 공공 행정 플랫폼 도입을 통해 실무 효율성을 높이는 사례가 증가하고 있음.\n\n- 사회적 수용성 및 인식 고취: 일반 대중의 69%가 AI를 국가 성장의 핵심 동력으로 인식하며, 일상 속 체감형 AI 서비스 확산이 대중화의 관건으로 떠오름.\n\n- 규제 개선 및 글로벌 경쟁력 강조: 국내 스타트업 업계는 AI 시장의 국경 없는 경쟁을 언급하며 한국형 규제 완화와 혁신 환경 조성을 강력히 요구하고 있음.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.3,
-    "velocityReason": "AI의 공공 및 민간 부문 도입이 가속화되고 있으나, 당장 대규모 감원보다는 기술 적응과 인프라 구축 단계에 머물러 있음.",
-    "cumulativeRiskScore": 51.3,
-    "jobRiskScore": 51.3,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 기반 행정 플랫폼 도입",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 5
-      },
-      {
-        "event": "AI 실무 활용 및 산업 자동화 가능성 확대",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 1
-      },
-      {
-        "event": "규제 완화 요구 및 혁신 생태계 조성 논의",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "“스캔하고 작두로 싹둑”…AI가 종이책을 사들이는 진짜 이유 - KBS 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9rUHUyQjdRbDZPX1Ayd29zY2FRbmlOSGN6X29IMjVRSHRqRE4zVVAwTmdKeHhGOGFZaXJNUHNtT3NHVVlBdTVORjljY2x1blJ6VnM1QlVSc1plQ1E?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 22:00:00 GMT",
-        "summary": "AI가 종이책을 고속 스캔 및 데이터화하는 기술이 도입되며 지식 정보의 디지털 전환이 가속화되고 있음. 이는 단순 아카이빙을 넘어 물리적 자료의 AI 학습 데이터화라는 점에서 산업적 가치가 높음.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "\"AI 없이 성장 없다\"…국민 69% \"성장 핵심 동력 될 것\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93RUFzRm1sRDdYZWZPS3RFanllc0padU41bjJkazlKcjRCenVnM082cmU3LTF1Y2tWRHlrNGVzdmtZY0E5MC1pQUxjM1g0U1UwV0hkS2lR?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 23:06:25 GMT",
-        "summary": "국민 69%가 AI를 국가 성장의 핵심 동력으로 응답하며 사회적 수용성이 크게 향상됨. AI 기술이 경제 성장의 필수 요소라는 인식이 확산됨에 따라 관련 정책 수립의 동력이 확보됨.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[만나보니] 코스포 의장 \"AI는 국경 없는 경쟁…한국만의 규제 걷어내야\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnOHZXaC1OeTNTVEtYajR5YWlSek93a3pKQ2FTY0I5Y0FzSXY1bTZqWkZ1bFFSSFp2QkVjb29sOGo1YkNkVllyZmQxYnJhTTdtOWF0Qy1RSUU2MlHSAWBBVV95cUxOZmRqQkZfb2R2eDdjbEgzZEcxMlpnbGFheWhWelAybFdnZmUwMEJGU0VsZnl4RWtGRDJSaFBkdzlaSktyQ2JBSzk1WnlsTld0OHNHM25CdjdJYUtndGJqNVM?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 21:15:01 GMT",
-        "summary": "코스포 의장이 AI 산업의 국경 없는 경쟁에서 생존하기 위해 한국만의 불필요한 규제를 제거해야 한다고 강조함. 기업의 자율성을 극대화하여 글로벌 AI 경쟁력을 확보해야 한다는 입장임.",
-        "importance": 5,
         "aiImpact": 5,
         "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "트럼프, AI 속도조절론에 \"부정적 세력…AI경쟁 승리방식 유지\"(종합) - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vaTd0dHJSYk5NVmFqT0dQck8xRjJLMDM4ZmNyNmJpSTIyMC1tTzd3UUd5bk9SOE9vODU3bmwtVkx4Zkk1SG5Gb01qU0tDSy1wUTdNRFBhdUZkRzjSAWBBVV95cUxPQWdMU0hOY0otdHpuZUVFQXExM0ExNkYwbUxlanR3c21LdElRcGRWOFQzOVZjNzdiQmZmLVV1SWVUajhycFVEUGVUT1duWjgzYVduR2RDbkF2bmtHd2lOS0Q?oc=5",
+        "pubDate": "Sun, 13 Sep 2026 16:53:37 GMT",
+        "summary": "트럼프 전 대통령이 AI 개발 속도 조절론에 부정적인 입장을 밝히며 미국 주도의 AI 경쟁 승리를 강조했습니다. 정치권의 압박으로 인해 기술 개발 속도 경쟁은 더욱 치열해질 전망입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      },
+      {
+        "title": "시진핑, 브릭스에 ‘AI 오픈소스 구역’… AI 동맹 확보에 속도 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NNHlPRW1UTmlFVXNCZWNrczYzRDFvemRFQ0hkUlZaLWpUcW5sYUNCVE0yQUlZa1prNkJTdWhXOElUR0NvZjBTOHpXRHJCUzQ?oc=5",
+        "pubDate": "Sun, 13 Sep 2026 23:31:51 GMT",
+        "summary": "시진핑 주석이 브릭스 국가들과 함께 AI 오픈소스 구역을 조성하며 기술 동맹 구축에 박차를 가하고 있습니다. 글로벌 AI 영향력 확대를 통해 서방과의 격차를 좁히려는 의도로 풀이됩니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 1,
         "investmentImpact": 5
       },
       {
-        "title": "건강·매장관리·취업까지…'모두의 AI'가 바꿀 풍경 \"체감이 관건\" - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VY01vZnZzR19WQ2NCeHdBYkZzX1VfRGE4NHJTV1JYWUIyUnloeUJ3U3dkNzg0SGYxU0xremJDOFhxeFJlX2NSRmZubkRmYzFmR0RmajdSYVpVWl9BVDhjejlrdWtSSkXSAWxBVV95cUxPTlBwS3ZtRnEwYlphandDLUNMNG90UGQ2eVBNN3A2cFVYQjlMeGptV2R2R25nTHFyVzNCTWE5cVhzYjFOYmM4Njd0Q0ZrS0tRTThiQzZEWXU5SEFHR1BFRHI0a1o4Tm5zSzNOZWE?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 22:00:00 GMT",
-        "summary": "건강 관리, 매장 관리, 취업 알선 등 다양한 분야에 AI가 적용되면서 일반인의 체감도가 높아지고 있음. 서비스의 실질적인 편익 제공 여부가 향후 시장 확대의 핵심 변수가 될 전망임.",
+        "title": "[Inside T] ‘24년 펜심(Fen心)’을 AI로 잇다… ‘SKT-FAN’ 탄생 이야기 – 스포츠마케팅팀 - SK텔레콤 뉴스룸",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5rX2c4UEZpc0Nrek14cnAyQmRCWk0wbDdzSzdhNTNfeEtkc1dFQThoVGI4Q2xjOS1QOTNPVFdPclk4d29UWGdwTQ?oc=5",
+        "pubDate": "Sun, 13 Sep 2026 23:35:05 GMT",
+        "summary": "SK텔레콤이 AI 기술을 스포츠 마케팅에 접목하여 팬들과의 소통을 강화하는 사례를 선보였습니다. 특정 산업 분야의 마케팅 프로세스 자동화 및 효율화가 가속화되고 있음을 보여줍니다.",
         "importance": 3,
         "aiImpact": 3,
         "automationPotential": 4,
         "investmentImpact": 3
       },
       {
-        "title": "관악구, 직원이 만든 ‘AI 행정 혁신 플랫폼’ 가동 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ELTY0WmVNdmNMTUJlbDV3b1dBbzNSc1poV25CNzJRY0o3NWJJZmZJemdPTkltbWhVMVRiYWRfZWU0NG5SckxwX3YxTjRxSmM?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 22:36:43 GMT",
-        "summary": "관악구가 공무원들이 직접 개발한 AI 행정 혁신 플랫폼을 도입하여 업무 효율성을 강화함. 행정 서비스의 자동화와 업무 간소화 사례로 공공 부문의 AI 혁신 모델을 제시함.",
+        "title": "SK AX, 고용노동부 장관상 수상…AI교육 프로그램 전문성·실효성 인정 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1EanYtaktFWjNHWkdYTDBtUzRlZmM0cTBIOV9pc1lHWmdvanZYd0JZY0ozYkNVLWg2VVVMcXFzNjhKRGdNOElFWFJhYkpjUQ?oc=5",
+        "pubDate": "Sun, 13 Sep 2026 23:45:22 GMT",
+        "summary": "SK그룹의 AI 교육 프로그램이 고용노동부 장관상을 수상하며 전문성을 인정받았습니다. AI 기반 교육 확산은 미래 인재 확보와 기존 직무의 AI 전환을 촉진하는 신호탄으로 평가됩니다.",
         "importance": 3,
         "aiImpact": 3,
-        "automationPotential": 4,
+        "automationPotential": 3,
         "investmentImpact": 2
       }
     ]
   },
   {
-    "lastUpdated": "2026-08-29T03:26:53.177Z",
-    "reportDate": "2026. 8. 29.",
-    "summary": "- 국가 주도 AI 서비스 확산: SKT, 카카오, KT가 정부의 '전 국민 AI 일상화' 프로젝트 사업자로 선정되어 공공 서비스 분야의 AI 도입이 본격화됨.\n- 국내외 기술 격차 해소 노력: 외산 AI에 대항하여 한국형 초거대 AI 경쟁력을 확보하고 국민 생활 밀착형 AI 서비스를 구축하려는 전략적 움직임이 관찰됨.\n- 정책 및 산업 생태계 논란: 국가 대표 AI 선발 과정에서 평가 방식과 배점 기준을 둘러싼 잡음이 발생하며, 정책 집행의 투명성과 효율성에 대한 과제가 제기됨.\n- 투자 시장 전망: AI 기술에 대한 투자는 여전히 유망하며, 최근 시장 약세를 기회로 삼아 기술주를 선별적으로 분할 매수하려는 움직임이 존재함.",
-    "summaryScore": 78,
+    "lastUpdated": "2026-09-12T23:39:33.249Z",
+    "reportDate": "2026. 9. 13.",
+    "summary": "- 학계의 경고: 필즈상 수상자 25인이 AI의 수학적 문제 풀이 능력이 인간의 지적 활동 및 창의적 발전에 미칠 잠재적 위협에 대해 우려를 표명함.\n\n- 제조 분야의 확산: 데이터 활용과 AI 기술을 결합하여 지역 제조 경쟁력을 강화하는 거점 모델이 전국적으로 확산되고 있음.\n\n- 공공부문의 디지털 전환: 지자체 차원에서의 AI 도입 사례가 공공 서비스 혁신으로 이어지며 중앙정부 차원의 평가와 성과 인정을 받고 있음.",
+    "summaryScore": 72,
     "dailyVelocity": 0.3,
-    "velocityReason": "정부 주도의 AI 서비스 보급 사업이 확정되며 산업 전반의 AI 적용이 가속화되었으나, 직접적인 일자리 대체보다는 서비스 편의성 향상에 집중됨.",
-    "cumulativeRiskScore": 51.3,
-    "jobRiskScore": 51.3,
+    "velocityReason": "AI의 지적 영역 진입에 대한 학계의 강력한 경고가 전문직 일자리 미래에 대한 사회적 논쟁을 가속화함.",
+    "cumulativeRiskScore": 52.5,
+    "jobRiskScore": 52.5,
     "riskScoreBreakdown": [
       {
-        "event": "전 국민 AI 사업자 선정",
+        "event": "필즈상 수상자들의 AI 위협 경고",
         "sign": "+",
-        "impact": 2,
+        "impact": 4,
         "newsIndex": 1
       },
       {
-        "event": "국가대표 AI 선발 잡음",
+        "event": "지방 거점형 제조 AI 확산",
         "sign": "+",
-        "impact": 1,
+        "impact": 3,
         "newsIndex": 4
       },
       {
-        "event": "AI 관련 투자 지속",
+        "event": "공공부문 AI 도입 및 우수 사례 확산",
         "sign": "+",
         "impact": 2,
         "newsIndex": 5
@@ -440,383 +112,693 @@
     ],
     "news": [
       {
-        "title": "\"전 국민 무료 AI\" 사업자에 SKT·카카오·KT 선정 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRlNmVlpIZU9sS0tVV3g2cmhiaF9GLVhlTTdMSUlqUjlKQXZ2VFJfQkhnd1pLbXZIQlhDTW0xRkw4VU0wNjlXcGRGc0g2VThEa09YSDM3THlwbTNGOGRiMHIzVjJ1VU9fN29xWmxVUUFDS3BTLXI1WS15WHZWWGZ5OTFxQQ?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 06:48:00 GMT",
-        "summary": "SKT, 카카오, KT가 정부가 주관하는 '전 국민 무료 AI 서비스' 프로젝트의 최종 사업자로 선정되었습니다. 공공 및 생활 밀착형 서비스에 AI를 도입하여 국민들의 접근성을 높이겠다는 계획입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 4
+        "title": "‘수학계 노벨상’ 필즈상 수상자 25인의 경고…“AI의 문제풀이 경쟁 우려스러워” - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IbjJpVlFlb0RBUVlCWUdGR25ZSk9ocHE3Zy1pSi02b0hMOGlReUxYbWU3ZXVkRHQyVEtDYkR4NkJOcnRTcWd6bUpIYVRfR3FCMzdlUnpNdzJRUdIBX0FVX3lxTE9JMTBBNEY2cnlJQklxNlo0N3Zld2dxYmFzcTVibmZ3YkVXcVJVUUQ3eG1wQ1RKSU5HUXlZbWVfUXJ6dDdXbWhvQ0pvRWt6ejB2U2xjZ2xkczg5UVc0Vnl3?oc=5",
+        "pubDate": "Sat, 12 Sep 2026 06:27:00 GMT",
+        "summary": "필즈상 수상자 25인이 AI가 수학적 문제 풀이를 독점하는 현상에 대해 깊은 우려를 표명함. AI가 지적 활동의 본질을 침해할 수 있음을 경고하며 학계의 대응을 촉구함.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 2
       },
       {
-        "title": "[영상] SKT·카카오·KT, ‘모두의 AI’ 낙점…외산 AI 추격 나선다 - 서울경제",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pUUlWZ3JNXzZjQktUbEhzbGoxMlVrRGZERVJ3REJOR0NXUksxS1dxU0lZWjEzOVVuQVpJQ0c4LVduZWY2ZTFIVHlzUGZudTlJbWc?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 01:00:00 GMT",
-        "summary": "국내 통신사와 플랫폼 기업들이 외산 AI 기술에 대응하기 위해 연합 전선을 구축하고 있습니다. 한국형 AI의 주권 확보와 경쟁력 강화를 위한 국가적 차원의 기술 개발이 핵심입니다.",
+        "title": "\"AI가 90년 난제 해결\" 직후…우려 쏟아낸 수학자들, 왜? - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GQm9aQzhrZTQ2ekRHN1FMZWt5dko2Z2I3TWhiY1Nsdmx0RXM1V0VLYW9Vb1VIOExEMnZwZlNLOXVqODRTWmxVV3VSUE55VFE?oc=5",
+        "pubDate": "Sat, 12 Sep 2026 10:26:00 GMT",
+        "summary": "AI가 수학계의 오랜 난제를 해결한 성과를 두고 전문가들이 비판적 시각을 제시함. 기술적 진보와는 별개로 수학 연구의 인적 생태계가 붕괴할 수 있다는 위기감이 확산됨.",
         "importance": 4,
         "aiImpact": 4,
         "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "필즈상 수상 25인, AI 수학 풀이에…‘인간 지적 활동’ 위협 우려 - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbDJBZHFRZm02aUhacjRra0RNVkVYZHhfaDlmYTFqVnBhR2VpZzRHNnBEQ0U0OWN0cUxveEdBV21lb3EwbFZCekpwSW40WTNZamVMWC0xUlhXYTd2cFBoTEtKX2JDeDQ3WlVnbzY2a09KdHdscTZGcmV5WG1sbnFDdjdB?oc=5",
+        "pubDate": "Sat, 12 Sep 2026 07:26:00 GMT",
+        "summary": "AI의 연산 능력 확장이 인간의 고유 영역인 창의적 사고와 지적 훈련을 저해할 수 있다는 점이 강조됨. 전문가들은 AI가 보조 도구를 넘어 지적 주도권을 쥐는 것에 대해 신중론을 제기함.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 1
+      },
+      {
+        "title": "데이터 쫓아 지방 간다…제조 AI 거점 확산 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15NDUzdDRLMWczYzF6MkxURFhDRWlvR3NlWmY0bnBLRDV2S2JXS0xaMS1ERlY4eVhLMmpOcnJVcWE1M1hJZ2p4R1BnYUdSX24yT0MtbExn?oc=5",
+        "pubDate": "Sat, 12 Sep 2026 07:13:04 GMT",
+        "summary": "제조업 기반의 지방 도시들이 데이터 거점을 구축하여 AI 기술 도입을 본격화하고 있음. 생산성 향상과 산업 디지털 전환을 위해 AI 인프라 확장이 빠르게 추진되는 추세임.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 5,
         "investmentImpact": 4
       },
       {
-        "title": "\"증명서 떼고 맛집 예약까지\"…SKT·카카오·KT '모두의 AI' 어떻게 달라? - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9LUmFXSmZVdE9OazdodEIydkN6MFQzeldkUjE1aGQySDlzM3c3d2loTlRHb1lRaXNjTzlubnI5eTBLcVE4UHc5NURneWx6bWlnWm0yQWp6X3laLUFrSjVwYtIBeEFVX3lxTE5vQzJPTG1ETlNxc2JVSERSSUhaMlY4X1pWUXFNQW9ZRTZEa2lMYWw2TmdON1kwM284TFc5RWd3RGFYdC1yY0ZzWUVXTzVaazFjTWdfdS1KRjBRZ0N4VXdvc3BQT2k5ODdGQUM5ZVhDenl1ZkVNRHIyRQ?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 02:00:00 GMT",
-        "summary": "해당 사업을 통해 증명서 발급, 맛집 예약 등 일상 업무를 AI가 처리하게 될 예정입니다. 국민들의 AI 경험을 확대하여 일상의 자동화를 촉진하는 데 중점을 두고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "흔들리는 ‘국가대표 AI’ 선발… 평가 방식·배점 놓고 잡음 이어져 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOTlsd1Q4VUFmblRGemNkS09uWkdRd3Qza0ZFYzlRdjdBdmFrUkRNVHAwY09aUi1oUjZfSFZ4bXA1aEJ2cFNqdUxOQmo0UklLeGtjdWM1V1ZqN0xIaXhmU0t3X2NGRzNWcndWMnpsZzBHWmE2Zjl6UGVfTDhiRUo4RkF30gGWAUFVX3lxTE44VkFxckNZVkZ2VEtLbkxvSXdXQkJSd3g0Q0FlNmhHdHNZSDBBTjYwRjNLNW9zS1FHSGJJUnNQZ1BzbHduR1NnSm84SmMwX2xYZkFQblQtWS1GeW1HSWI4UlN3NE5kSW5kcHV3VHRkU1A2ZnlxZmlPd2cyT1ZhemVYdzlnQ2FVU2xENHpoUWg2VEFKYTRjUQ?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 08:55:00 GMT",
-        "summary": "국가대표 AI를 선정하는 과정에서 평가 방식과 배점의 공정성을 두고 업계 내 잡음이 이어지고 있습니다. 정책의 신뢰도와 산업 지원 효율성에 대한 우려가 제기되는 상황입니다.",
+        "title": "부산시, 지방정부 AI 우수사례 발표대회서 행안부 장관상 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9BeE9uUnRwQzVwOEZkcGFKYjIySEZrSUF6MExrdV9ZYUlpMkE4cnF6SjV4ZDkwVnlBWWZrcTJxNnNLWkpZWWhaUlJJYl96enJ5X2dDQTBYc2Y4MGPSAWBBVV95cUxNOGJHdEt0X1Q3VEUyaGc5VEJnNUtESGNwamM4WlpWSEVBZ0w5SzhHMDljZTlERjNxZzlVNkRtV203V3JqTnZZTVlBN21uTTdaXzA1X29XWWR4aXdpb1ZERFQ?oc=5",
+        "pubDate": "Sat, 12 Sep 2026 22:40:39 GMT",
+        "summary": "부산시가 지자체 대상 AI 우수사례 발표대회에서 장관상을 수상하는 등 공공분야 혁신이 가시화됨. AI를 활용한 공공 행정 효율화 모델이 지역 단위로 정착되고 있음.",
         "importance": 3,
         "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "\"AI 투자 줄일 이유 없다…'약세' 中기술주 분할 매수 기회\" [주末머니] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE00S3VLeXFueE1pZlR6V2d6cW9mMUpIaTlhMk5TU0k1YzlpbkNYR1FfRnJoYjIyY3lrc3JzSGhsUWdwTWxpbEwxQ2xsaVZKblk?oc=5",
-        "pubDate": "Sat, 29 Aug 2026 02:38:41 GMT",
-        "summary": "AI 기술주가 최근 시장의 약세에도 불구하고 여전히 장기적인 투자 가치가 있다는 분석이 나왔습니다. 중국 기술주 등을 중심으로 한 분할 매수 전략이 투자자들 사이에서 유효한 기회로 제시되었습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
+        "automationPotential": 3,
+        "investmentImpact": 3
       }
     ]
   },
   {
-    "lastUpdated": "2026-08-28T08:40:57.644Z",
-    "reportDate": "2026. 8. 28.",
-    "summary": "- 정부 주도 AI 서비스 확산: SKT, 카카오, KT가 '전 국민 무료 AI' 사업자로 선정되어 AI 대중화와 접근성 향상이 본격화됨.\n\n- 신약 개발 분야 기술 도약: 국내 독자 AI 모델 'K-Fold'가 알파폴드3의 성능을 일부 상회하며 바이오-AI 산업의 경쟁력을 강화함.\n\n- AI 생성 콘텐츠 오남용 우려: 공신력 있는 언론 보도에 AI 생성 이미지가 혼용되는 사례가 발견되어, 콘텐츠 신뢰성 확보 및 팩트체크의 중요성이 대두됨.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.3,
-    "velocityReason": "정부 주도의 AI 대중화 사업 확정과 바이오 AI 기술 혁신이 확인되었으나, 일자리 급변보다는 산업 적용 범위 확대에 초점이 맞춰져 있음.",
-    "cumulativeRiskScore": 51.3,
-    "jobRiskScore": 51.3,
-    "riskScoreBreakdown": [
-      {
-        "event": "정부 주도 전국민 AI 서비스 도입",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "K-Fold 신약 개발 AI 성능 우위 확인",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 5
-      },
-      {
-        "event": "AI 생성 이미지 오용 사례 증가",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "\"전 국민 무료 AI\" 사업자에 SKT·카카오·KT 선정 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRlNmVlpIZU9sS0tVV3g2cmhiaF9GLVhlTTdMSUlqUjlKQXZ2VFJfQkhnd1pLbXZIQlhDTW0xRkw4VU0wNjlXcGRGc0g2VThEa09YSDM3THlwbTNGOGRiMHIzVjJ1VU9fN29xWmxVUUFDS3BTLXI1WS15WHZWWGZ5OTFxQQ?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 06:48:00 GMT",
-        "summary": "SKT, 카카오, KT가 정부 추진 '전 국민 AI 서비스' 사업자로 선정되었습니다. 공공 영역에서의 AI 접근성을 대폭 높이는 데 기여할 것으로 보입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "SKT·카카오·KT, ‘모두의 AI’ 사업자 선정…전 국민 무료 AI 만든다 - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GN2lNM3RISDBGSjF6Q2JERkJub2ltZFhQd1UxWFRzOFR2QkYyc1JkNkhZTE5QQ0tlUlpWeXdTMEp2ZUNhdHp0QW04RkZRZ2dlUmFfREhjVWpWd9IBX0FVX3lxTE1ObWRWTUg2NEZabm1oUkgtR2dGMk5hZzVvTWNhd1RrUU5oS2w2SFpyd1BybnVpS2ZfVnYzVHJSM0JReU1tYTN6cGhmb1pkQVNwY3VxcmItalBOSXVCVEhF?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 07:01:00 GMT",
-        "summary": "SKT, 카카오, KT 컨소시엄이 모두의 AI 사업자로 확정되며 AI 서비스 인프라 구축을 맡게 되었습니다. 전국적인 AI 도입을 통해 국민 편익 증진을 목표로 합니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "'독파모 평가 1위' 이어 '모두의 AI'까지…SKT, 정부 AI 사업서 '존재감' - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBfa0dNeHRHSUJTdWota2VLT3FaeVUtdzlVX1B3NXdWa1dQT3J6UnBjUDJhTFFoT0pETHotejJMOVlsVXVMR2prZWpOWnN0b2c?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 06:46:00 GMT",
-        "summary": "SKT가 독파모 평가 1위에 이어 정부 대규모 AI 프로젝트를 잇달아 수주하며 입지를 다지고 있습니다. 통신사의 AI 역량이 국가 디지털 혁신 동력으로 활용되는 모습입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "KBS도 보도한 네팔 홍수 전·후 사진, AI 생성 가능성 커 [오마이팩트] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1GU2dzaVdRMFRiZVhOVjRCb0l2WXlyY1NxUncwVWxkaVVYS3RGbUtrWWhWd0pQZXBkWWUwbFdNMk43dmxSMkZ0YzFtUDZFblU?oc=5",
-        "pubDate": "Fri, 28 Aug 2026 02:52:51 GMT",
-        "summary": "네팔 홍수 관련 보도 사진 중 일부가 생성형 AI로 제작되었을 가능성이 제기되었습니다. AI 기술의 확산과 함께 정보의 진위 확인에 대한 언론계의 경각심이 높아졌습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "국산 신약 개발 AI 'K-Fold' 공개…일부 성능 '알파폴드3' 앞섰다 - DongA Science",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4zSXQxdmkwTmdfNTJIRFJBSjBYSUZRR2M1Q0tscDBDcDFWenFVRUN6d2l1cDhjVVdqT19WMk93TGlyRE1ENHFWZmlXUFlKSHFpUE1yVQ?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 23:48:00 GMT",
-        "summary": "국산 신약 개발 AI 'K-Fold'가 공개되었으며, 특정 성능 지표에서 구글의 알파폴드3를 능가하는 성과를 보였습니다. 제약 및 바이오 산업의 AI 도입 속도가 더욱 가속화될 전망입니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-08-27T02:48:05.432Z",
-    "reportDate": "2026. 8. 27.",
-    "summary": "- AI 기술의 실생활 침투 가속화: AI 안경 등 웨어러블 기기 확산에 따른 사생활 보호 이슈가 부각되고 있습니다.\n\n- 반도체 산업의 강력한 성장세: 엔비디아의 어닝 서프라이즈로 촉발된 AI 반도체 수요 폭발이 글로벌 시장을 주도하고 있습니다.\n\n- 국가 및 지역 단위의 AI 격차 해소 노력: 공공기관과 대학 등이 협력하여 지역 AI 격차를 줄이고 대중적 이해도를 높이기 위한 정책적 움직임이 활발합니다.\n\n- 기업 간 전략적 제휴 활성화: 네이버와 LG가 협력하여 국가 보안 AI를 개발하는 등 기술 경쟁력 강화를 위한 연합이 가시화되고 있습니다.",
+    "lastUpdated": "2026-09-11T23:48:05.759Z",
+    "reportDate": "2026. 9. 12.",
+    "summary": "- 사이버 보안 시장의 급부상: 젠슨 황 엔비디아 CEO를 필두로 AI의 차세대 핵심 적용 분야로 사이버 보안이 지목되며 관련 산업의 중요성이 크게 대두됨.\n\n- 기술 고도화 및 협력 강화: 네이버와 LG 등 국내외 주요 기업들이 보안 특화 AI 개발에 착수하며 글로벌 경쟁력 확보를 위한 기술적 연합이 활발함.\n\n- AI 투자의 질적 변화: AI가 가져올 공포를 혁신의 기회로 전환하는 전략적 관점이 확산 중이며, 스타트업을 중심으로 AI 생태계에 천문학적인 규모의 자본이 유입되고 있음.",
     "summaryScore": 88,
-    "jobRiskScore": 51.3,
+    "dailyVelocity": 1.2,
+    "velocityReason": "사이버 보안 분야에 AI 도입이 본격화되면서 보안 전문가 및 IT 인프라 관리 직무의 AI 자동화 속도가 완만하게 가속됨.",
+    "cumulativeRiskScore": 52.5,
+    "jobRiskScore": 52.5,
     "riskScoreBreakdown": [
       {
-        "event": "네이버-LG 국가 보안 AI 공동 개발",
+        "event": "사이버 보안 특화 AI 개발 본격화",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      },
+      {
+        "event": "AI 생태계로의 대규모 자본 유입",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "젠슨 황 예언했다…“AI 다음 적용분야는 ‘사이버 보안’일 것” - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LR2RQRlM2OEtKb2Y0dE1RODZyYWhqQmZPYWZhLXBFSFJISTVuQVhxQ1VKLVFlbF91UXFfNDB1a210RVlodE1HMVRLNDlUeEk?oc=5",
+        "pubDate": "Fri, 11 Sep 2026 01:23:50 GMT",
+        "summary": "젠슨 황 엔비디아 CEO가 차세대 AI 기술의 주요 적용 분야로 사이버 보안을 지목함. AI 인프라 확장을 넘어 보안 솔루션으로의 시장 확장이 예견됨.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "AI 공포 퍼지는 와중에···젠슨 황이 콕 집은 다음 ‘거대 시장’은 “사이버 보안” - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WejlwaXB4Yl8zVl82ck9qOHhiMThUd1VQUlBITHlSTm0yUzNfY0Utb21VSW5HN1ozWF9pYlFGUkZuc2g0a0RxdlNINkE4WlAtZUNNR3Y3WWRZQdIBX0FVX3lxTE4ydzc4a3R3c1hoUTIwWmdaY21qV1A0aHdKZDVjUF9zQ3hmSENCZ2w0VlJ1RVJZbnlRWDh5WXVIOUg5OTFCTF9YbUNDanM2OWdJV0dZaFpnQUJ5ZEpoSkVR?oc=5",
+        "pubDate": "Fri, 11 Sep 2026 04:05:00 GMT",
+        "summary": "AI가 가진 잠재적 위협과 보안 요구사항이 커짐에 따라 사이버 보안이 AI의 거대 시장으로 부상함. 기업들의 보안 강화 필요성이 투자로 이어지는 양상임.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "\"AI가 인간 죽일 수도\" 경고에 젠슨 황 \"공포가 수요 만든다\" - 뉴스1",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvX0hZSHQxNFJRNkk5MENLd011WDBmLVVrZkM0X0l4X1FLQ3JsWDJKaU5yTXpGQjBLRkp3dWdxV1lrakwxREhZbHFaQ0VTN0xPeV9SbV81dDFwX1luUDVILTdHX0ZjQ1nSAWxBVV95cUxOWkxEZjVrX21XM3BOenhDRl82XzJJbUFWT3dYRFUzUWNWZnhyS3c3RDMwSzE5WDlpRVVHRUhEd0tlSjdpXzVIRGRNR0szejJOMDNXcXU1R0R2WEJ6czZyLXp0MkdOMkZyRzFpZGE?oc=5",
+        "pubDate": "Fri, 11 Sep 2026 23:06:54 GMT",
+        "summary": "AI 위험성에 대한 경고가 단순한 공포를 넘어 산업 현장의 기술적 수요를 자극하고 있음. 젠슨 황은 이러한 공포가 오히려 보안 솔루션 혁신을 가속화한다고 분석함.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "네이버-LG, 18일 보안 특화 AI 개발 착수…“세계 1위 도전” - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9CWi16VjRBUFI2cXdaTzkwR05vM1NqNmJib2NyNjRFdk1xaEF0NFRNTXMtNFpJUFRaX19sZnliS3pHN21PMENYTXRwZWVsUQ?oc=5",
+        "pubDate": "Thu, 10 Sep 2026 21:00:00 GMT",
+        "summary": "네이버와 LG가 협력하여 보안 특화 AI 개발에 착수함. 세계 시장 경쟁력을 목표로 기업용 데이터 보안 강화 솔루션을 고도화할 계획임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "'못할게 뭐있어' AI가 바꾼 스타트업 투자공식, '24년 이후 200조 몰려 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04UGdPYnd5Q183emszOG5GSjFPWkVneXlHRGhNZHk4NGYxMDhEa1BXYnZYZDA1Z09ySmFZUms3eVhLd0RLNHVQQm5HUHliSWFiTlc4dEVZWUZWQUx2QTdiOExhaW1TSXRJ0gFuQVVfeXFMT3VTQWNEOEduZFJkLXRYMmRFVTkwUk9LRGFmZ1E2TWdLbmozQ2oySktsNl9ZX3BncnBUUjlLZ2txd2tYS3NscWlVd0FNMDFnMHNaZDVraXVaRkwwbzNSaGhZbVUyRmRYVElJRFdwcnc?oc=5",
+        "pubDate": "Fri, 11 Sep 2026 22:10:00 GMT",
+        "summary": "AI가 스타트업의 투자 공식을 완전히 바꾸며 2024년 이후 수백 조 원 규모의 자금이 집중되고 있음. AI 도입은 이제 선택이 아닌 기업 생존을 위한 필수 전략이 됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
+    "lastUpdated": "2026-09-09T23:45:55.001Z",
+    "reportDate": "2026. 9. 10.",
+    "summary": "- AI 안전성 및 실존적 위협 경고: 앤트로픽 핵심 연구원들이 AI의 통제 불가능성과 인류에 대한 잠재적 위험을 경고하며 연이어 퇴사함.\n\n- 기술적 난제 해결 가속화: 오픈AI가 90년간 미해결 상태였던 수학 난제를 88시간 만에 해결하며 AI의 추론 및 문제 해결 능력의 비약적 발전을 증명함.\n\n- 인재 유출 및 산업계 동요: 2,000억 원의 연봉 제안에도 연구자들이 빅테크를 이탈하는 현상이 심화되며, AI 산업 내 인적 자원 경쟁과 가치관 갈등이 극에 달함.",
+    "summaryScore": 90,
+    "dailyVelocity": 1.2,
+    "velocityReason": "AI의 추론 능력이 비약적으로 향상되며 고숙련 전문가 영역인 수학 난제 해결이 입증된 것이 개발 및 연구 직무의 변화 속도를 높임.",
+    "cumulativeRiskScore": 52.4,
+    "jobRiskScore": 52.4,
+    "riskScoreBreakdown": [
+      {
+        "event": "오픈AI 수학 난제 해결",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 4
+      },
+      {
+        "event": "앤트로픽 연구원들의 안전성 경고",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      },
+      {
+        "event": "빅테크 핵심 인재 유출",
         "sign": "+",
         "impact": 4,
         "newsIndex": 5
-      },
-      {
-        "event": "엔비디아 성장에 따른 AI 반도체 인력 수요 증가",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 2
-      },
-      {
-        "event": "지역 AI 격차 해소 및 AI 기본사회 교육 강화",
-        "sign": "-",
-        "impact": 3,
-        "newsIndex": 3
       }
     ],
     "news": [
       {
-        "title": "표시등 가리고 찰칵… ‘AI 안경’ 사생활 무법지대되나 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONlN3cTZhUlg3VTJJTjVTSkRtZml4SWpmT09RMklPSTdxQWItWEF2blB2NHF1S3R4emIweS1lbVNHQ3BoRV9jNDBuUm5jNmJKX1c5bTlGalplXzVjUnlPRU14eHNvWnpUTDQ2ZkRUcUw0UkJia21IOWg4NzF0LVZWRkJ2MA?oc=5",
-        "pubDate": "Wed, 26 Aug 2026 22:14:07 GMT",
-        "summary": "AI 안경 등 웨어러블 AI 기기의 보급이 늘어나면서 촬영 기능으로 인한 사생활 침해 논란이 가중되고 있습니다. 제도적 뒷받침과 윤리 가이드라인 마련이 시급한 상황입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
+        "title": "“내년 말 AI 통제 불능 된다”…앤트로픽 연구원, 퇴사하며 경고 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04Z1prWTM0QXJtd1NWNVpKeXhtbEtRUHlPSFVqaVpQVlNnQWRORUNab25GWm1hdHlWa0FSUXhabHVLMGQ2eElZMmI5OFY1WVk?oc=5",
+        "pubDate": "Wed, 09 Sep 2026 13:36:50 GMT",
+        "summary": "앤트로픽 소속 연구원이 AI가 내년 말 통제 불가능한 수준에 이를 수 있다고 경고하며 사임함. AI 안전성 문제에 대한 내부적 갈등이 외부로 표출된 사례임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 1,
         "investmentImpact": 3
       },
       {
-        "title": "엔비디아, AI 타고 또 ‘어닝 서프라이즈’…주가도 급등, 삼전닉스 주목 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1xcGZfck9rd0taZ2RiNU5vdlU0Wk03eHYtWGhiVTBWTXphZlI0NFdhXzktMWQ0Q2VVNDRnaEhVbW9rYV9wRkZhVlVXLTNTX1E?oc=5",
-        "pubDate": "Wed, 26 Aug 2026 20:43:07 GMT",
-        "summary": "엔비디아가 AI 열풍에 힘입어 다시 한번 시장 예상을 뛰어넘는 실적을 기록하며 주가가 급등했습니다. 국내 삼성전자와 SK하이닉스 등 반도체 기업들에 미칠 긍정적 영향이 주목받고 있습니다.",
+        "title": "“AI가 10년 내 모두 죽일 수도” 앤트로픽 연구원 퇴사하며 경고 - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQajBRRWx3S0JmQUtjblVLamxXRUo3cm5NaVo0VERMUENad19xT3ZkT0MwQTB2MEVHMWxwd0xONm53ZVhlSHdjWWlWOHdzR2hPR2VOSzQ1N2hqV3JQRmRBemF0bmNPUXhodmJEZXBzeUFEWERYVy1xU2xYTEU5SXZQYU53?oc=5",
+        "pubDate": "Wed, 09 Sep 2026 12:12:00 GMT",
+        "summary": "AI의 급격한 발전이 10년 내 인류에게 치명적인 위험이 될 수 있다는 연구원의 주장이 재조명됨. 안전한 AI 개발을 향한 철학적·윤리적 논쟁이 심화되는 양상임.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "\"AI, 내년 말 통제 불가능\" 사표 던진 앤트로픽 연구원...'인류 멸망' 경고 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YMWg1aDk0aUNWTEpWZHVON0R6MnhqeVlkNjhBWTZGa1dtQktpbVdVa294eDd5dmd1blprRjVqWnkzRVc3cmRTVzZnMHZvXzNRTUpjb0Z5dEtGSEt0dl9Id04tLVZGclRq0gFuQVVfeXFMT0VNay1DTzBlUmRVNVlSOUpSQ2hpbmJDa0hveTNqMG5LTnYycTExLTFXa1l2YU1KYVkzRVFvazdIRHJnRnNFT3FOQ3p5LVVFb3F5LVV3QmU3eGdUalFJTzlVQ0FGSXQyME1ZS05DZ2c?oc=5",
+        "pubDate": "Wed, 09 Sep 2026 22:35:32 GMT",
+        "summary": "인류 멸망 가능성까지 언급하며 앤트로픽 연구원이 퇴사한 사건이 업계에 큰 파장을 일으킴. AI의 고도화가 가져올 사회적 위험에 대한 경각심이 최고조에 달함.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "90년간 풀지 못한 ‘수학 난제’…오픈AI “88시간 만에 풀었다” - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DVDAtdEdXOGhNMXA3WXljVS1yc29GQ3BETFJSWTFKVlRBaV9VOEx3NkpsNnlHSlJ2N0JpYVNaTUFtek5IUWJMV0gtVWlQSGZlVW5kbVp3?oc=5",
+        "pubDate": "Tue, 08 Sep 2026 23:41:08 GMT",
+        "summary": "오픈AI가 90년간 미해결 상태였던 수학적 난제를 단 88시간 만에 해결함. AI의 논리적 추론 능력이 인간의 학문적 성취를 앞설 수 있음을 증명한 사례임.",
         "importance": 5,
         "aiImpact": 5,
-        "automationPotential": 2,
+        "automationPotential": 4,
         "investmentImpact": 5
       },
       {
-        "title": "제주기자협회-제주대, AI시대 '지역 AI 격차 해소' 맞손 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZSkVNQzFWcnM4N3djazZ0MnYyRS1tZElUaHM0eF96UWU1aDg5VlNITkR5bDZhWkxsWUxlM1hvcUEzaUhHbnRFaDFzQUlkcjQ?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 02:06:01 GMT",
-        "summary": "제주기자협회와 제주대학교가 지역 내 AI 격차를 해소하기 위해 업무 협약을 체결했습니다. 디지털 소외 계층을 줄이고 지역 산업 발전을 도모하려는 움직임입니다.",
-        "importance": 3,
+        "title": "2000억원 연봉 제안도 못 붙잡았다…AI 스타 연구자들, 빅테크 잇단 이탈 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpcXBNV2F6ZV9IekhEa2dkbE9ZTTRNRjl0c05pOU5udXpBeTlqZHlxOHIyQ1MyWVNVS1RBVllQTktRdG5OWUpBOGV0NVBkR3M?oc=5",
+        "pubDate": "Wed, 09 Sep 2026 23:12:42 GMT",
+        "summary": "천문학적인 연봉을 포기하고 빅테크를 떠나는 AI 연구자들이 늘고 있음. 인재를 둘러싼 시장의 경쟁이 격화되는 동시에, 안전성 문제를 중시하는 인력들의 이탈이 가속화됨.",
+        "importance": 4,
         "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "경기연구원 “도민 95%, ‘AI 기본사회’ 개념 몰라···통합 브랜드·로드맵 제시 주문 - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaYXBKZDRJUDVUS29VM0pKRFZXaW9QYi1TSEFoWHJuUGVlV0tHQUpWczRya083U2xBVVJxb21oczFJWmkxc2lMOEhvcWRMUHNXMkpfVDdlVi1CUdIBX0FVX3lxTE11djhYOE1tc3NNS3V0azNXM0pMZ2lmRGNBeTFfbnYxTV8yT3E4RHVCUDBCelk0cGROeDhyQ1U4ZmhVXzdnUzU3SGQ2VlNZY1lPaHR2XzhIZW5KZXZlcVhv?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 01:56:00 GMT",
-        "summary": "도민의 대다수가 'AI 기본사회'에 대한 개념을 이해하지 못하고 있다는 조사 결과가 나왔습니다. 이에 경기연구원은 정책 통합 브랜드 개발과 로드맵 제시를 통해 AI 대중화에 나설 것을 주문했습니다.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "네이버·LG 손잡았다…'국가 보안 AI' 전격 개발 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE56VjhBdlVrNjN5aTM3aGVDdTdXamQ5Rmh2WGdScUFta3JYdEx5dDJTZTJTTFRXc2toaFkzblh2dzJfZ2x2dTEyX0QtbGNPMEl5YzBLRVVId29Qb0JIWlBtTXN0VzVkNFXSAWxBVV95cUxPMUE2SXF4cFNKVEl3cTU3Y1BCTWtzcGRPTHJoVnhuelpGR2NQMm1peFdZeE9tdUh0RUZ2MVdmRFF3dXRxSFlWODNvdTR2ei1YWlFCTG56TjdYdkdCcWZhRmFOYlYzSG95Vlp5aDQ?oc=5",
-        "pubDate": "Thu, 27 Aug 2026 01:37:51 GMT",
-        "summary": "네이버와 LG가 손잡고 국가 보안 인프라를 위한 독자적인 AI 기술을 개발합니다. 공공 보안 및 국가 기술 주권 확보를 위한 대형 기업 간 전략적 제휴 사례입니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 3,
+        "automationPotential": 2,
         "investmentImpact": 4
       }
-    ],
-    "cumulativeRiskScore": 51.3,
-    "dailyVelocity": 2.5,
-    "velocityReason": "네이버-LG 보안 AI 공동 개발 및 엔비디아 어닝 서프라이즈로 기술 생태계 확장 가속화."
+    ]
   },
   {
-    "lastUpdated": "2026-08-25T22:20:08.078Z",
-    "reportDate": "2026. 8. 26.",
-    "summary": "- 서비스 운영 최적화: 오픈AI가 사용자 급증에 따른 서버 부하를 관리하기 위해 무료 및 일반 플러스 이용자에 대한 사용량 제한을 재도입하며 인프라 효율성을 강화하고 있습니다.\n\n- AI 기술 생태계 확장 및 투자: 엔비디아의 개방형 AI 모델 개발 투자와 재계 총수들의 AI 인프라 투자 논의가 활발해지며 산업 전반의 AI 전환이 가속화되고 있습니다.\n\n- 실무 적용 및 인재 육성: 유통업계의 AI 기반 MD 전략 도입과 범국가적인 AI 융합 인재 양성 노력이 병행되며 산업계 전반에 실질적인 AI 활용 사례가 확산되는 추세입니다.",
-    "summaryScore": 82,
-    "jobRiskScore": 51,
+    "lastUpdated": "2026-09-08T23:47:16.856Z",
+    "reportDate": "2026. 9. 9.",
+    "summary": "- AI의 과학적 난제 해결 역량 입증: 오픈AI가 7대 수학 난제 중 하나인 나비에-스토크스 방정식의 해법을 88시간 만에 도출하며 고도화된 연산 및 추론 능력 과시.\n\n- 공공 및 사회적 AI 활용 확대: 지방자치단체와 기업 주도의 AI 기반 취업 지원 및 사회 문제 해결형 AI 인재 양성 프로그램이 활발히 운영 중.\n\n- 연구 개발의 패러다임 변화: AI가 순수 과학 및 연구 분야에 직접 개입하여 성과를 내면서, 향후 연구 인력의 역할 재정립 및 자동화 논란 확산.",
+    "summaryScore": 88,
+    "dailyVelocity": 1.2,
+    "velocityReason": "오픈AI의 수학 난제 해결은 고숙련 전문직 연구 분야의 자동화 가능성을 높여 일자리 위험을 완만하게 가속함.",
+    "cumulativeRiskScore": 52.3,
+    "jobRiskScore": 52.3,
     "riskScoreBreakdown": [
       {
-        "event": "오픈AI 사용 제한 강화",
+        "event": "오픈AI 수학 난제 해결 및 연구 자동화 가속",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 기반 취업 코칭 및 인재 양성 확산",
         "sign": "+",
         "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "기업 업무의 AI 도입 확대",
-        "sign": "+",
-        "impact": 4,
         "newsIndex": 4
-      },
-      {
-        "event": "AI 융합 인재 양성 정책",
-        "sign": "-//",
-        "impact": 3,
-        "newsIndex": 3
       }
     ],
     "news": [
       {
-        "title": "오픈AI, 챗GPT 플러스 '5시간 제한' 부활…프로 요금제는 면제 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XOFhBUjdObTBWYVd1dXU4b094OXRMMll2OG52ZEtDZ0laRW5QQXVKNEJOd1NmUjBLZWtvODl1RUlvMHhxdzRScXdXcWRUejZuS3JvS3VB?oc=5",
-        "pubDate": "Tue, 25 Aug 2026 07:31:03 GMT",
-        "summary": "오픈AI가 챗GPT 플러스 사용자에게 사용량 제한을 재도입했습니다. 이는 급증하는 서버 수요를 관리하고 서비스 안정성을 확보하기 위한 조치로 풀이됩니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 3
+        "title": "오픈AI ‘AI가 수학 난제 풀었다’…26년 만의 해법에 ‘연구 활용’ 논란도 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TUnZYNkdVVTAxVm9zcnlIZUpUSnVwa0NKMHF6S0ZaTmJpSGRNUUd2VThVTWpjaW1rNU1IUk1YSWlteHE5MC1DU2phWjhmSnM?oc=5",
+        "pubDate": "Tue, 08 Sep 2026 23:24:02 GMT",
+        "summary": "오픈AI가 26년 만에 수학적 난제에 대한 해법을 제시하며 AI의 과학적 추론 역량을 입증했습니다. 이 결과는 학계의 연구 방식에 혁신을 가져올 것으로 기대되나, 동시에 AI의 연구 활용에 대한 논쟁을 야기하고 있습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
       },
       {
-        "title": "엔비디아, 10조 들여 개방형AI 개발한다 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wbmFubF9FMzRzQzItdG52VHJvcnJkcFYyVTlRY2stSU9lLWE5OTNjb205eGZaR092dmlMM1lselZ6RGpoNFd3dDlPSUtOWWNrbFNjeUNNQVk5MlM2b1BuYkNHMld4U2Ny0gFuQVVfeXFMUDg5NHQzUjBJMExnSGlOc19RMjNpU1g1NGI0YUVwdjdGRTltaDRWWHhZSjg0c20yRV8xUDIyUGhSWHhvQ1NVR0VrbWZkZU9OeGlOVEg0MnZSclRTN3VRWEdmZUxiVGp0OHJkSmpQN2c?oc=5",
-        "pubDate": "Mon, 24 Aug 2026 18:45:00 GMT",
-        "summary": "엔비디아가 약 10조 원 규모의 투자를 통해 자체적인 개방형 AI 모델 개발에 나섭니다. 하드웨어를 넘어 AI 소프트웨어 생태계로 주도권을 확장하려는 전략으로 보입니다.",
+        "title": "오픈AI, 세계 7대 수학 난제 '나비에-스토크스 방정식' 해결 - 파이낸셜뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41VDlpMmp5T3dDQVNnWHdLUFY2ejBDMEtlQWJmOG9fVTNKZFd4allnUHRJUDk2bkYySXNaSjBpd0J5aVk1M0U5Wi02Q1VtQnY0Nm5iMWpyN0tUUQ?oc=5",
+        "pubDate": "Tue, 08 Sep 2026 19:17:33 GMT",
+        "summary": "오픈AI의 모델이 세계 7대 수학 난제 중 하나인 나비에-스토크스 방정식에 대한 새로운 해법을 제시했습니다. 이는 AI가 단순 데이터를 넘어 복잡한 공학적 수식을 이해하고 해결하는 단계에 진입했음을 시사합니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "오픈AI, 세계 7대 수학 난제 ‘나비에-스토크스 방정식’ 88시간 만에 풀어 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43WHlrcXFjaThiS3AyaTliMGhQMllQbDR6Wnd5aTJCaWJzdDRUbzhvaFNqVW5YQ0M5a2pud3NKTWR0b1k0S2NEVkdCelBkNHJjQlFIV3JzUU5PRDJER0VEatIBeEFVX3lxTE5EeVVGTGlLQnVyVjJ3b1c1SExPaVJXV3M2ekd3SFNmLUJIZ2xkQjZJa1cxVTBsdWZ1TnlyQ29zdEs4SWw2WDQwQm9iQ2dYTS1CTmYxb0xYRWRWU1puUHVDa2NQM3NXVFZrWDNka01VbzFjc2hkTERZLQ?oc=5",
+        "pubDate": "Tue, 08 Sep 2026 22:27:22 GMT",
+        "summary": "오픈AI가 난제를 해결하는 데 소요된 시간은 불과 88시간이었습니다. 이는 인간 연구자의 시간을 획기적으로 단축할 수 있는 AI의 잠재력을 보여주며, 연구 개발 영역의 자동화 속도를 높이는 계기가 되었습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "관악구, 미취업 청년에 AI 기반 자기소개서 코칭 서비스 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOZWZfVjR2cTAxa2NtMXRBcHM2Y3FsY3VkMUtpX0JaTDRRZjZIcEVzcEhwYkhZaTVTUDB4NWU1Y0pMWmgxcTBpWmU4aTV6NktxWFAwb21hVWRjMmfSAWBBVV95cUxQSzdzbDBDY0JSZHc4bTdHNHVPVGhKXzU1UXJscm1CZzlzbzRuUmNFQVh6R2RCVFZYYlVFdlo1eHQ4R3ZrSnBPTzg4NXJrVlZ4WWdzaUVMUUJ3MWFlb09QLXQ?oc=5",
+        "pubDate": "Tue, 08 Sep 2026 23:14:16 GMT",
+        "summary": "관악구가 미취업 청년들을 대상으로 AI 기반 자기소개서 코칭 서비스를 제공하기 시작했습니다. AI 기술이 공공 영역의 고용 서비스에 접목되어 취업 준비의 효율성을 높이는 사례입니다.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "“AI로 사회 문제를 풀다” FLY AI 챌린저 9기 수료식 현장 - SK텔레콤 뉴스룸",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xTGJDc0RmSkNxa1Y5OXBuOWVkZUo5bEZSbHN3ZzFrRWFXdXdCVHVYbmwycm9Td1V3Y1h2ZkRFNlFJRTEwWVhjdQ?oc=5",
+        "pubDate": "Tue, 08 Sep 2026 23:31:01 GMT",
+        "summary": "SK텔레콤이 사회 문제 해결을 목표로 하는 AI 인재 양성 프로그램 'FLY AI 챌린저'의 수료식을 개최했습니다. 실무형 인재를 육성하여 사회적 가치를 창출하려는 기업 주도의 기술 생태계 조성 노력이 돋보입니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
+    "lastUpdated": "2026-09-07T23:53:58.510Z",
+    "reportDate": "2026. 9. 8.",
+    "summary": "- AI 하드웨어 수요 급증: 삼성전자와 SK하이닉스 등 반도체 기업들이 고성능 AI 인프라 시장 성장에 힘입어 시장을 주도하고 있음.\n\n- 국가 차원의 AI 인재 확보 경쟁: 정부가 파격적인 조건으로 해외 핵심 AI 인재 유치에 나서는 등 국가 경쟁력 강화를 위한 인적 자원 확보에 사활을 걸고 있음.\n\n- 산업계의 AI 인프라 중심 체질 개선: SKT를 비롯한 통신사들이 단순 통신 서비스를 넘어 AI 데이터센터 및 인프라 사업자로 사업 영역을 적극적으로 확장하고 있음.\n\n- 지역 거점 기반의 AI 생태계 조성: 부산, 강원 등 지자체와 대학이 협력하여 지역 맞춤형 AI 연구 인력을 양성하고 지역 현안을 해결하는 AI 전환(AX) 전략을 추진하고 있음.",
+    "summaryScore": 82,
+    "dailyVelocity": 0.3,
+    "velocityReason": "AI 하드웨어 및 인프라 중심의 생태계 확장과 전문 인력 확보가 가속화되고 있으나, 직접적인 대규모 직무 대체보다는 인력 수요 창출에 집중된 동향임.",
+    "cumulativeRiskScore": 52.2,
+    "jobRiskScore": 52.2,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 인프라 반도체 수요 폭발",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 전문 인력 유치 및 양성 확대",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      },
+      {
+        "event": "지역 기반 AI 인재 양성 및 교육 활성화",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "삼전닉스 급등 이유 있었다…세상 놀라게 한 '괴물 AI' 정체 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGV3BKaUtwSzVtNHpFazBtVHBhRUtCUGZRVDJFblpsdmR5dG13Wmx2MldLSVVRV0ZIN0FyUFlYRTV3MGJjNlFMa2xBYngwTXlteDlFQ2FKcVlkQQ?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 08:49:04 GMT",
+        "summary": "삼성전자와 SK하이닉스가 차세대 고성능 AI 반도체 시장에서의 경쟁 우위를 바탕으로 가파른 성장세를 보이고 있음. 이는 AI 인프라 구축을 위한 필수 핵심 부품 공급이 전 세계 AI 생태계의 성장을 견인하고 있음을 시사함.",
         "importance": 5,
         "aiImpact": 5,
         "automationPotential": 2,
         "investmentImpact": 5
       },
       {
-        "title": "[교육이 미래다] 교육·연구·산업 아우르는 AI 융합인재 키운다 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwU1o4WnJXYjdyamJnOW43ck9VYW4xdTdNOWxZNGxoNE5WNzZqNTA3VDZUcm1lZmxOX0xMUGFmYmxtTFRRMmVoQ3dPQTJETU0?oc=5",
-        "pubDate": "Tue, 25 Aug 2026 20:32:33 GMT",
-        "summary": "산업, 교육, 연구 분야를 연계한 AI 융합 인재 양성 프로젝트가 추진됩니다. 국가 경쟁력 확보를 위해 실무형 AI 전문 인력 공급이 가속화될 전망입니다.",
+        "title": "[단독]\"1인당 15억, 한국 돌아와라\"…AI 인재 귀환 나선 정부 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sa3N5R21oVldVcDZFNXhScXU2VC1GSmNjVU5yRUN4Q2ljSVlxeWs2amFMcWlqY1pYMUNCdjh0d01lTjFtWkd6cno0RUQ5a3lVVnlqYWo2Q0lQbDR0MGUweGpibndEdUHSAWxBVV95cUxNaUJXQml3bEM3R3M2SDg0NlItdmdBNUtzdXhiQUNTTWpCbHVNeDBpSjMtS3YyX0IxTm1OTEttbzRkNWc5cllDdUtSbkwwRUVGbHNPckE3ZGVzM3pSLWxUazRwdV9ZalhxZ2xCNDE?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 06:00:45 GMT",
+        "summary": "정부가 해외에 유출된 한국 출신 AI 전문가들을 국내로 유치하기 위해 대규모 보상과 지원책을 마련함. AI 국가 경쟁력을 결정짓는 핵심 자원인 고급 인재 확보를 위한 총력전이 본격화됨.",
         "importance": 4,
-        "aiImpact": 3,
+        "aiImpact": 4,
         "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "'넥스트 브랜드' 찾는다…롯데百, AI 활용해 MD전략 수립 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmUzlKNWljQ0dQeXBub1Zmd2tDcTZrdDB4MUFOWDhKdEFab01HajVCNk9BZWUtM1g0N1k4U2Utb1BlcTFFT3FoVC1lSXlxME82SWQtejRoMTNZZUXSAWBBVV95cUxOdUJHdGV3SnJ5OV9uX0d2MkRhb09Wb3pzNmdIUHdGVGd0aXpCZnFOa0hRUVd2WFVZNFZ6R2N4Q21HOFRER2dhUXhLQ01mQ091X0RBb2FuZU9PQjlZZnJVMEY?oc=5",
-        "pubDate": "Tue, 25 Aug 2026 21:00:07 GMT",
-        "summary": "롯데백화점이 AI 기술을 활용해 유망 브랜드를 발굴하고 MD 전략을 수립합니다. 데이터 기반의 의사결정을 통해 리테일 산업의 자동화와 효율화가 진행되고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 4,
         "investmentImpact": 4
       },
       {
-        "title": "李대통령·재계총수 연쇄회동…AI투자·대미통상 현안 조율할듯 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fcTFuWEhLSXhGSi0tcFAwTE5RUUtzcWVRRGlkV01wNVVNVGs5VC1MWnlVcDVFR1JkMThfMmdlRmhQTmJsVFRmRjR3azJZbDhyYWc?oc=5",
-        "pubDate": "Tue, 25 Aug 2026 21:03:00 GMT",
-        "summary": "정부와 재계 총수들이 연쇄 회동을 통해 AI 투자 및 대미 통상 현안을 논의합니다. 국가 차원의 AI 인프라 구축과 전략적 산업 육성을 위한 의지로 해석됩니다.",
-        "importance": 5,
+        "title": "[AI프리즘] \"통신사, AI 인프라 사업자로 진화\"…SKT 주목 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zYzM0OXVmM1RjM1ExekN2Z0VJWmVRQWZ4QTdweUpId0RlUzc5QWtxSWlacFUtQVBXS1R1Vzk5SndCejFKN05XRlF6RjZ6Q2c?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 22:01:55 GMT",
+        "summary": "SK텔레콤을 필두로 통신사들이 AI 데이터센터 및 AI 인프라 사업자로의 체질 개선을 공식화함. 단순 네트워크 통신 기업에서 AI 중심의 플랫폼 기업으로 거듭나기 위한 비즈니스 모델 전환이 가속화됨.",
+        "importance": 4,
         "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 5
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "부산시, AI 최고급 신진 연구자 양성 지원…부산대와 협력 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZeHhkcjdwR3AzUHNNd182UGh4anlnRmZ1RVFodktXUmRULVVyRnlJZFYyWUgycmh1T2Fhc1Z6RjZoRy0ySDNoLV95RGFYU2xES1Z2NWhKUlJmamvSAWBBVV95cUxNWUNFRFVDYTRjVkR4M00wbnNpODRPdVM0WGc0LW42c05CM1BES25hVWtZbU9KR1Y5ejJ5MW5kVjdkTHNjOGNMWVJ6SHpoeGs2SldmLVdoaFAwUXBQLW9YVDQ?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 22:59:22 GMT",
+        "summary": "부산시와 부산대가 협력하여 최고급 AI 연구 인력을 육성하기 위한 전문 지원 프로그램을 가동함. 지역 대학과의 연계를 통해 실무 중심의 AI 인재 공급망을 확충하고 지역 기반 산업의 AI 혁신을 도모함.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "강원대, 'AI 미래포럼-지역속으로 강원' 개최…지역 현안 AX 해법 모색 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSNEVnSHNTVWwtTWk5eGR5enhrb0xOa1ZNYmtQZ0RDTThlOERfNVJKTXJiZ2dRUDRfMk9NQ2FMd3J3UDZzNVhCTVh1MUxaQQ?oc=5",
+        "pubDate": "Mon, 07 Sep 2026 23:10:01 GMT",
+        "summary": "강원대가 주최한 AI 미래포럼을 통해 강원 지역 산업 현안에 대한 AI 기반의 해결책(AX)을 모색함. 지역 사회의 디지털 전환을 위해 학계와 지역 사회가 함께 AI 기술 적용 방안을 논의함.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 2
       }
-    ],
-    "cumulativeRiskScore": 51,
-    "dailyVelocity": 1.8,
-    "velocityReason": "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다."
+    ]
   },
   {
-    "lastUpdated": "2026-08-24T22:19:55.814Z",
-    "reportDate": "2026. 8. 25.",
-    "summary": "- AI 모델 선택 기준의 변화: 기업들이 단순 성능을 넘어 비용 대비 효율성(가성비)을 중시하는 실용적인 모델 선택 전략으로 전환하고 있음.\n\n- 인간과 AI의 협업 체계 정착: 콘텐츠 모니터링 등 주요 현장에서 AI가 일차적 필터링을 수행하고 사람이 최종 판단하는 하이브리드 운영 방식이 확산됨.\n\n- 공공 및 사회적 AI 인프라 강화: 공공 부문의 AI 전환이 가속화되며 보안과 업무 효율성을 동시에 확보하려는 움직임이 활발해지고 있음.",
-    "summaryScore": 78,
-    "jobRiskScore": 100,
+    "lastUpdated": "2026-09-06T23:24:08.266Z",
+    "reportDate": "2026. 9. 7.",
+    "summary": "- 인프라 및 생태계 확장: 엔비디아의 허깅페이스 인수를 통해 하드웨어와 소프트웨어가 통합된 개방형 AI 생태계가 더욱 강력하게 구축됨.\n\n- AI 에이전트의 산업화: 제조, 물류 등 물리적 산업 현장에 AI 에이전트를 도입하려는 시도가 늘어나며 기업용 AX(AI 전환) 솔루션이 가속화됨.\n\n- 기술 고도화 및 규제 논의: AI 에이전트의 자율적 활동 범위가 넓어짐에 따라 이에 대응하기 위한 글로벌 규제 법안 마련이 본격화되는 추세임.",
+    "summaryScore": 88,
+    "dailyVelocity": 1.2,
+    "velocityReason": "엔비디아의 생태계 장악과 기업형 AI 에이전트 도입이 활발해지면서, 특정 직무의 효율화 및 자동화 가능성이 상승함.",
+    "cumulativeRiskScore": 52.2,
+    "jobRiskScore": 52.2,
     "riskScoreBreakdown": [
       {
-        "event": "기업의 가성비 중심 AI 모델 도입",
+        "event": "엔비디아 허깅페이스 인수",
         "sign": "+",
         "impact": 4,
         "newsIndex": 1
       },
       {
-        "event": "AI 기반 공공 업무 효율화 및 자동화",
+        "event": "산업 현장 AI 에이전트 도입 가속화",
         "sign": "+",
-        "impact": 3,
-        "newsIndex": 4
-      },
-      {
-        "event": "인간의 판단력을 결합한 하이브리드 운영 모델 확산",
-        "sign": " -",
         "impact": 5,
         "newsIndex": 2
+      },
+      {
+        "event": "AI 규제 법안 발의",
+        "sign": "_",
+        "impact": 2,
+        "newsIndex": 3
       }
     ],
     "news": [
       {
-        "title": "\"성능 좋다고 무조건 안 쓴다\"...美 기업, 이젠 성능보다 가성비 AI 모델 택해 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQW50MlY0a3Q3UVJPZURSNnF4dGRvODZlVVVVZGZfeFpWM2N0WjV3bF9EU1V1VnF0NVR6X2I1MXB1MDlYSTNrMTR6M3d5d3lJRjJNb0JKTkRueU5KTnhJVy1UbjBBUllhTEw0QWhYVnJwQWUwWjZobWdmQVRBSG5IYkRsSQ?oc=5",
-        "pubDate": "Mon, 24 Aug 2026 07:17:42 GMT",
-        "summary": "기업들이 단순히 모델의 기술적 성능만을 쫓기보다 비즈니스 비용과 효율을 고려한 가성비 중심의 AI 모델을 선택하기 시작했습니다. 이는 AI 도입이 실험 단계를 넘어 실질적인 경제성 검토 단계로 진입했음을 시사합니다.",
-        "importance": 4,
-        "aiImpact": 4,
+        "title": "엔비디아, 허깅페이스 인수…17조원으로 개방형 AI 생태계 삼켰다 - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GZXVveWpJRGZ3Nk12NDRLUGpNTS1IUWtQbnJUcnUzVGM4MW9HZ1BMM1h2WFRjdW9YYzF1eUZCWVJrd3lYaC1qTG9SdDR1QlZCbEhYZTQtdFVsUzdGeGRCWG80NDZrTlFYM1lnZTl3SHE?oc=5",
+        "pubDate": "Sun, 06 Sep 2026 03:01:00 GMT",
+        "summary": "엔비디아가 개방형 AI 커뮤니티인 허깅페이스를 인수하며 하드웨어부터 소프트웨어 생태계까지 수직 계열화를 달성함. 이는 오픈 소스 AI 진영의 결속력을 높이고 시장 지배력을 강화하는 전략으로 평가됨.",
+        "importance": 5,
+        "aiImpact": 5,
         "automationPotential": 2,
         "investmentImpact": 5
       },
       {
-        "title": "\"AI가 1차 차단, 맥락은 사람이 판단\"…틱톡 TAC 가보니 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RaVVWN2FuMjZJOTZNUWFqLTlsNThCN05mdkNEZU9SRG9HOHlCMHNGTU5MZ0VGMVlZeUZYTzZZMEhMRk1BOWhVMXlpU2xrOXZpNUNsMkVB?oc=5",
-        "pubDate": "Sun, 23 Aug 2026 21:00:04 GMT",
-        "summary": "틱톡은 AI가 콘텐츠를 일차적으로 차단하고 사람이 최종 맥락을 파악하는 인간-AI 협업 시스템을 구축했습니다. AI의 자동화 역량과 인간의 윤리적 판단력을 결합한 모델로 주목받고 있습니다.",
+        "title": "\"AI 모델 다음은 산업현장…韓, 피지컬 AI·에이전트 육성해야\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lVEtEOXEwZlBCU1l0bGx1MENzdW9NSXEzRWpkWGhWamJsaGVtamNlbUR2dzRRNWxvRFhpdkFyUkZHRVctSGIyYVdLRXlrS2dmX0R4VUVn?oc=5",
+        "pubDate": "Sun, 06 Sep 2026 00:47:32 GMT",
+        "summary": "AI 기술의 흐름이 단순 모델 개발에서 산업 현장 적용형 피지컬 AI로 이동하고 있음. 국내 기업들의 에이전트 기술 육성을 통한 산업 현장 자동화가 시급하다는 전문가의 제언이 강조됨.",
         "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "[우분투칼럼] 아프리카와 함께 글로벌 AI 강국…대한민국의 미래로 나가자 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjdktjVmZNSWFRWGtZSDFUcHc2bEhOd2d5a19TRW50UVNrVndVNVJBM290M2M3RzFnU1pEWm9CZDl4U1VSQmhiOWtpSmlfNmM?oc=5",
-        "pubDate": "Mon, 24 Aug 2026 22:02:06 GMT",
-        "summary": "대한민국이 아프리카 등 글로벌 파트너십을 통해 AI 강국으로 도약해야 한다는 전략적 제언입니다. AI 기술의 국제적 협력이 미래 경쟁력의 핵심임을 강조합니다.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "AI정부 시대, 공공 메일도 달라진다…'보안' 넘어 'AI 업무 인프라'로 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HN0R0dklDWkNlZlZxclpJUDdJTXhLdVgzeVJNX3F3TlFCU0VXR2tlOXFjWGRYMktDMHdLT1FxYklOU1BjY1lUekxNTmk3Qm8?oc=5",
-        "pubDate": "Mon, 24 Aug 2026 22:01:48 GMT",
-        "summary": "정부 기관이 보안 기능을 넘어 AI 기반의 업무 인프라로 체질 개선을 시도하고 있습니다. 공공 서비스의 효율적 운영을 위해 AI가 핵심 업무 도구로 자리 잡는 추세입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      },
-      {
-        "title": "손짓·표정까지 똑같다…'사람 같은' AI 기상캐스터 등장[1일IT템] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5qQ2cxelhiTmptRkNBaUpudC1ybml5SjN2OVdEcFZuV2RHdk9LbUhnZmk0TWlKd2RFRm1YdFV6aFI0VXJpRXNDbWUzOU05V3c?oc=5",
-        "pubDate": "Mon, 24 Aug 2026 22:01:29 GMT",
-        "summary": "인간의 표정과 제스처를 정교하게 모사하는 AI 기상캐스터가 도입되는 등 미디어 분야에서의 실감형 AI 활용이 늘고 있습니다. 방송 및 콘텐츠 제작 자동화가 가속화되고 있습니다.",
-        "importance": 3,
         "aiImpact": 4,
         "automationPotential": 5,
-        "investmentImpact": 3
+        "investmentImpact": 4
+      },
+      {
+        "title": "오픈AI 에이전트, 이번엔 독일 위키 장악...규제법 봇물 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tYV91TUZGM1ZveTl4bWtZVFNBdG9kbk4tQ3VpR1RMRW1ZN2hNZmdGa21ZazJTX2RBaWsxVUc5Zm9PVGJGSjBUaTZQTkNtMlk?oc=5",
+        "pubDate": "Sun, 06 Sep 2026 22:53:15 GMT",
+        "summary": "오픈AI의 에이전트가 자율적으로 데이터를 처리하며 활약하는 가운데, 기술 악용과 안전성에 대한 우려로 유럽을 중심으로 규제 법안이 잇따르고 있음. 기술 발전 속도와 규제의 균형이 중요한 과제로 떠오름.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 2
+      },
+      {
+        "title": "[에이전틱 AI 맵 2026] LG CNS, AI 에이전트 설계부터 운영까지… 6개 모듈로 전사 AX 연결 - IT조선",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHbGJESlRYM0NZNEtiMnY0ZjExMTdFcmtQZEZudzFEVDlXczFWVmtGd3JhYUNmRUlHMUpEZWlrekp6MjZ6aW5CVURQdzdMdmJuTDFkSFk3bmI1Qjd1eEo2RURDaFNEUTlPQ19Mam9pNzTSAXRBVV95cUxNLXZkallLS182LWRZc2hhZEtBSXV4anBjQ0x4SmYtbTEwR1g0c1hfZ0JPbHRVNEZuVWd0SS1JSWFTeExwSGVTemxWeDNGQS1mZHhxZW14R3lydFJ4emxZZ1Rpc2FQRGJNV21talhCZm5MZDE1Zg?oc=5",
+        "pubDate": "Sun, 06 Sep 2026 22:00:00 GMT",
+        "summary": "LG CNS가 기업의 전사적 AI 전환을 지원하기 위해 설계부터 운영까지 아우르는 6개 모듈의 에이전트 시스템을 선보임. 기업 내부 업무 프로세스 자동화를 본격화하여 실질적인 비용 절감을 추진함.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      },
+      {
+        "title": "부산서 9∼11일 AI 페스티벌…일상 속 AI 활용 체험 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAxNTU5QzJOc29sd0tUQmJ4Zjlzby1sSUd0MEg5UXpNVkRHMGJYWV8wTVBGU1RmYWtucXN6b2d5N2d5clZXZ0RXemdYeEsxdjA?oc=5",
+        "pubDate": "Sun, 06 Sep 2026 23:13:17 GMT",
+        "summary": "부산에서 열리는 AI 페스티벌을 통해 일상 속에서 활용 가능한 다양한 AI 기술들을 시민들이 체험함. 기술의 보편화와 일상적 수용도가 높아지며 AI 대중화 단계에 진입하고 있음.",
+        "importance": 2,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
+    "lastUpdated": "2026-09-05T23:29:20.732Z",
+    "reportDate": "2026. 9. 6.",
+    "summary": "- 중국의 AI 자립 가속화: 딥시크가 화웨이 AI 칩을 기반으로 초대형 데이터센터를 구축하며 미국의 제재 속에서도 독자적인 AI 인프라 생태계를 확장하고 있음.\n\n- 범용 인공지능(AGI) 시대 개막: 오픈AI의 'GPT-6 아스트라' 공개는 AI 자율성이 인간의 업무를 실질적으로 대체하는 새로운 단계에 진입했음을 시사하며 기술적 변곡점을 마련함.\n\n- 전문 영역의 AI 혁신: 제약·바이오 등 고부가가치 산업에서 AI 도입을 통해 연구개발 기간을 획기적으로 단축하는 등 산업 전반의 효율성 향상과 비즈니스 모델 변화가 가속화됨.",
+    "summaryScore": 92,
+    "dailyVelocity": 2.5,
+    "velocityReason": "오픈AI의 GPT-6 아스트라 발표로 인해 AI의 자율성이 대폭 강화되면서 화이트칼라 직무의 자동화 체감 속도가 빨라졌음.",
+    "cumulativeRiskScore": 52.1,
+    "jobRiskScore": 52.1,
+    "riskScoreBreakdown": [
+      {
+        "event": "OpenAI GPT-6 아스트라 공개",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 2
+      },
+      {
+        "event": "중국 AI 인프라 자립화 가속",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      },
+      {
+        "event": "특수 직군(신약개발 등) 업무 효율 극대화",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
       }
     ],
-    "cumulativeRiskScore": 100,
-    "dailyVelocity": 1,
-    "velocityReason": "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다."
+    "news": [
+      {
+        "title": "딥시크, 화웨이 AI칩으로 中 최대 데이터센터 구축 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XaEhwUmZWczkxVS1feFlRaWVBMkN2cW5sVHJmbEhxMlhQS2I3TUtJdlRLMm5tRjJjemJkVFFGU25QNnNVTHZMZVMwSW1pNkpiT3Y5VFJ3?oc=5",
+        "pubDate": "Sat, 05 Sep 2026 06:23:31 GMT",
+        "summary": "딥시크가 화웨이의 승강기 AI 칩을 활용해 대규모 데이터센터를 구축하며 미국의 규제를 우회한 인프라 자립 노력을 보여줌. 중국 내 자체 AI 컴퓨팅 파워 확보가 가시화되면서 글로벌 AI 공급망 경쟁이 심화될 전망임.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "세계 최고 AI 모델 ‘GPT-6 아스트라’ 전격 공개... 오픈AI, \"AGI 전환점에 섰다, AI 자율성 새 단계로\" - aitimes.kr",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtQlBzNVdCdlMxYnU4U0dZTHhnVVl6TXNVUVBvNEtmWHBiVG9uYUkxSDNpOW1uZmJUWGVQeUd5ckgza0FRNVAzdzQwM091WWZJSFVTR3EzQ2VpdVN4N2ZvcEt6SmlleG8?oc=5",
+        "pubDate": "Fri, 04 Sep 2026 00:12:52 GMT",
+        "summary": "오픈AI가 'GPT-6 아스트라'를 공개하며 AGI 구현의 핵심 단계에 진입했음을 선언함. 이전 모델보다 비약적으로 향상된 자율성을 통해 복잡한 문제 해결 능력을 갖추게 되어 산업 전반의 인력 구조 변화가 불가피함.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 5
+      },
+      {
+        "title": "오픈AI, 'GPT-6 아스트라' 출시…“AGI 시대 진입” - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LNUNDeFVTNGI2OGgzdlRXT1lvOEFGMkY2eUNsTW9NTm45bUsweW5hMVdTZm93UHBTcVJRSDNTOU0yUmkzYVhiUE9BelY3QQ?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 23:04:59 GMT",
+        "summary": "GPT-6 아스트라의 출시로 인공지능이 단순한 생성 도구를 넘어 자율적 의사결정자로 격상됨. 기술적 완성도가 높아짐에 따라 AI 기술을 활용한 업무 자동화가 비약적으로 확대될 것으로 보임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 5
+      },
+      {
+        "title": "'오픈AI' 샘 올트먼도 쓰는 '모깅' 원래 이런 뜻이었다[트민자] - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CQ2w3bmtoWTdZTWhzOUk5Q1l6UURlNGNSUXBsQ0w5bktNXzY3Z09xaEdwdDVOVk5Gc2JrMWJmUXFKajZUTGdVMy1sc0RGZW9nU1pwcDZJQjA4RVVJRDV4MW0zZFhKM1Qz0gFuQVVfeXFMTUpVcDBvTWNqb3E2Nm9lNU9ScmZBcGZSZXhtdjA1TzBweFJtRW1INGVsWWVxbU1Qd05IaTh0WUNacTBkZ0dCaXU5eDVVQzFkbkdKM2x4Vi1KdXdUcjVRVllDODdQSE1SeGQzRWNMWHc?oc=5",
+        "pubDate": "Sat, 05 Sep 2026 21:10:00 GMT",
+        "summary": "AI 트렌드 속에서 생겨난 용어 '모깅'에 대한 분석으로, 대중적인 AI 활용 문화 확산을 조명함. 기술 자체보다는 AI가 일상과 비즈니스 언어에 깊숙이 침투하고 있음을 보여주는 사례임.",
+        "importance": 2,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 1
+      },
+      {
+        "title": "[만나보니] \"AI로 신약개발 2∼3년 단축…한국도 잠재력 충분\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tdDFiRnJtLUlUckw0S1JGd0NEN2xDZk5WUXJDYUc1ZXY0MFNib1dpaGNkT01GVjFOMUR0TmVZWkxjdzdocEY2YnJXWWVVemM?oc=5",
+        "pubDate": "Sat, 05 Sep 2026 22:56:46 GMT",
+        "summary": "AI 기술이 제약·바이오 분야의 신약 개발 기간을 기존 대비 2~3년 단축시키는 성과를 보임. 전문 영역에서의 AI 도입이 단순 업무 지원을 넘어 핵심 R&D 경쟁력을 좌우하는 수준으로 발전하고 있음.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
+    "lastUpdated": "2026-09-04T23:38:11.314Z",
+    "reportDate": "2026. 9. 5.",
+    "summary": "- 공공 AI 생태계 구축: 카카오, SKT, KT 등 국내 주요 통신·플랫폼 기업이 참여하는 '모두의 AI' 프로젝트가 정부 지원을 바탕으로 본격화됨.\n- 대국민 AI 서비스 확장: 취준생, 소상공인 등 전 국민 대상 AI 서비스 제공을 통해 일상 속 AI 활용도와 디지털 격차 해소 노력이 가속화됨.\n- 차세대 AGI 기술 도입: 오픈AI가 'GPT-6 아스트라'를 공개하며 범용인공지능(AGI) 시대로의 본격적인 전환을 선언함.",
+    "summaryScore": 88,
+    "dailyVelocity": 1.8,
+    "velocityReason": "오픈AI의 AGI 수준 모델인 GPT-6 아스트라 공개와 국내 기업들의 대규모 AI 프로젝트 가시화로 인해 기술 대체 속도와 산업 영향력이 동시에 가속화됨.",
+    "cumulativeRiskScore": 51.8,
+    "jobRiskScore": 51.8,
+    "riskScoreBreakdown": [
+      {
+        "event": "오픈AI GPT-6 아스트라 출시",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 4
+      },
+      {
+        "event": "국내 3사 모두의 AI 프로젝트 추진",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      }
+    ],
+    "news": [
+      {
+        "title": "[현장] '모두의 AI' 연내 출시 속도…3개 컨소시엄 핵심 전략은 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80WERzOEFOLWpzWVBXQ0JmODBBNTRoY01LcUQxZW00NXNNRFN1RUJaWm0xeVFVRXBvYXcta1JsczNSemZ2YzRhWFJEVGowR0ZsbGdjbkdR?oc=5",
+        "pubDate": "Fri, 04 Sep 2026 07:09:28 GMT",
+        "summary": "국내 주요 통신 및 플랫폼 기업 3사가 정부 주도의 '모두의 AI' 프로젝트에 참여하여 연내 서비스 출시를 목표로 속도를 내고 있음. 각 사별로 차별화된 핵심 전략을 수립하여 공공 AI 인프라 구축을 추진 중임.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[단독] '모두의 AI' 카카오·SKT·KT, 운영비로 100억씩 받는다 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84ejRWMjVOUFRvY0c1TUo5TW9yUEhDb1ZDWlU4ekhoc1ExeXBTTGZPOUJpZkJFaVJrQXl4U2YzdTZXYldSeUFIRVhpRzBuNW5mdklzMDBSbHdKcnA4cXhNb3ZOaEk2X2_SAWxBVV95cUxQWjI1Q1RFbnRKdEdpWXJJQVZ1SzRieGRVdVpFS3ZvM3VwTURiaVdYYUJSb0J1WEREUF84aEZXRUEwNjFiVS1uOGEwanhaMURSR1laVVEwR19kNGVZZGEzTkFiZHc2UjloN1JsMU8?oc=5",
+        "pubDate": "Fri, 04 Sep 2026 04:00:00 GMT",
+        "summary": "카카오, SKT, KT가 참여하는 '모두의 AI' 사업을 위해 각 컨소시엄에 100억 원 규모의 운영비가 지원됨. 정부의 재정 지원을 통해 국내 AI 기업들의 기술 내재화와 서비스 상용화가 탄력을 받을 전망임.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "전 국민 무료 ‘모두의 AI’....취준생·소상공인·노령층 겨눈 3사 3색 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CRnd3aGtaSDlZNUpNU0dOTUNmZHRYWTZ6ME5PNDZtaDhMVGswWVFFdUZvUXJPUHQ2SElRS2JwQnJkWk1QMjNGTHFLRjIxQWc?oc=5",
+        "pubDate": "Fri, 04 Sep 2026 08:03:00 GMT",
+        "summary": "전 국민을 대상으로 하는 무료 AI 서비스가 취준생, 소상공인, 노령층 등 특정 계층을 겨냥하여 맞춤형으로 제공될 예정임. 3사 3색 전략을 통해 AI 기술의 대중화를 이끌고 사회적 효율성을 증대시키는 데 중점을 둠.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "오픈AI, 'GPT-6 아스트라' 출시…“AGI 시대 진입” - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LNUNDeFVTNGI2OGgzdlRXT1lvOEFGMkY2eUNsTW9NTm45bUsweW5hMVdTZm93UHBTcVJRSDNTOU0yUmkzYVhiUE9BelY3QQ?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 23:04:59 GMT",
+        "summary": "오픈AI가 차세대 모델인 'GPT-6 아스트라'를 공개하며 사실상 AGI 시대의 본격적인 진입을 알림. 기존 모델을 뛰어넘는 추론 능력과 범용성을 바탕으로 기술 패러다임의 변화를 예고함.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "오픈AI, 위험등급 AI '아스트라' 공개…\"AGI시대 온 것 환영\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oVlE5WnZJamJpbVFPWFJEd0dzcmxUaExTalVGZG1zalBHeW1Xam9Ib3lfMDF0Ym1rb0tVbTRUUmRhWTNGNkRHYjRlRWNjNnNrV1BCVzBORmNQd2PSAWBBVV95cUxQQUVUTWxjQjNKR0hIMFVMQ25aRHcwaGtkUlFQUTVhdGYwMnU4d3lpSWRIQnBnZURCWWp6cVdoYml0RnFwaVpfaWkwYU1xNE4yNG9wdjNQdGpxdUNQVUJiQ0E?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 22:58:43 GMT",
+        "summary": "위험 등급을 포함한 새로운 AI 모델 '아스트라'가 공개되면서 오픈AI는 AGI 시대를 공식화함. 기술적 도약과 동시에 안전성 확보에 대한 논의가 함께 이루어지며 업계의 이목이 집중됨.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
+    "lastUpdated": "2026-09-03T23:45:56.873Z",
+    "reportDate": "2026. 9. 4.",
+    "summary": "- 차세대 AGI 모델 등극: 오픈AI가 'GPT-6 아스트라'를 공개하며 범용인공지능(AGI) 시대로의 본격적인 진입을 선언함.\n- 기술 혁신 가속: '순환 추론' 기술 도입으로 모델의 추론 성능과 복잡한 문제 해결 능력이 대폭 향상됨.\n- 국내 공공 보안 시장 선점: 네이버 컨소시엄이 정부의 '보안 특화 AI' 사업자로 선정되며 국가 차원의 AI 인프라 보안 구축이 본격화됨.",
+    "summaryScore": 92,
+    "dailyVelocity": 1.8,
+    "velocityReason": "오픈AI의 GPT-6 아스트라 발표는 고도화된 추론 능력으로 인해 지식 노동자들의 업무 대체 가능성을 실질적으로 높였음.",
+    "cumulativeRiskScore": 51.6,
+    "jobRiskScore": 51.6,
+    "riskScoreBreakdown": [
+      {
+        "event": "GPT-6 아스트라 공개",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 1
+      },
+      {
+        "event": "순환 추론 기반의 고도화된 성능 향상",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "정부 보안 특화 AI 사업 선정",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "오픈AI, 'GPT-6 아스트라' 출시…“AGI 시대 진입” - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LNUNDeFVTNGI2OGgzdlRXT1lvOEFGMkY2eUNsTW9NTm45bUsweW5hMVdTZm93UHBTcVJRSDNTOU0yUmkzYVhiUE9BelY3QQ?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 23:04:59 GMT",
+        "summary": "오픈AI가 차세대 모델인 GPT-6 아스트라를 공개하며 AGI 시대로의 공식적인 진입을 알렸습니다. 이번 발표는 AI가 단순 계산을 넘어 복합적인 지적 능력을 갖추기 시작했음을 시사합니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "오픈AI, '아스트라'에 차세대 '순환 추론' 적용으로 성능 대폭 향상 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04YjdrcUI4OFk4UlFObEVBQ1BsR3JfMVRIdGNtc3JwZktTTWtHSkZLVjIzUmlFdUNwcXVEV1VnZ3padkUtY3RWVWtMMUxzWG5hZm9lallMcTlmSmdSTm9JQnk2XzZHOVZVNVE?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 09:09:14 GMT",
+        "summary": "GPT-6 아스트라에 적용된 '순환 추론' 기술은 모델이 스스로 결과값을 검증하고 수정하는 능력을 크게 향상시켰습니다. 이는 복잡한 로직이 필요한 업무의 자동화 수준을 한 단계 끌어올릴 것으로 보입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      },
+      {
+        "title": "오픈AI, 위험등급 AI '아스트라' 공개…\"AGI시대 온 것 환영\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oVlE5WnZJamJpbVFPWFJEd0dzcmxUaExTalVGZG1zalBHeW1Xam9Ib3lfMDF0Ym1rb0tVbTRUUmRhWTNGNkRHYjRlRWNjNnNrV1BCVzBORmNQd2PSAWBBVV95cUxQQUVUTWxjQjNKR0hIMFVMQ25aRHcwaGtkUlFQUTVhdGYwMnU4d3lpSWRIQnBnZURCWWp6cVdoYml0RnFwaVpfaWkwYU1xNE4yNG9wdjNQdGpxdUNQVUJiQ0E?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 22:58:43 GMT",
+        "summary": "오픈AI는 아스트라 공개와 함께 위험 등급 모델에 대한 안전성 관리 체계를 강조했습니다. AGI의 강력한 기능만큼이나 잠재적 위험 관리가 업계의 핵심 이슈로 부상하고 있습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "네이버 컨소시엄, 정부 '보안 특화 AI' 사업 따냈다 - 머니투데이 - mt.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3cndEV0l6enF6Zy1EcHVTd1liZEtqYUdxd21JY3pCOXFzTDFJTlYtb0VyandZWHZzYzVmVmxBTkhXd0xyMy1QVXM0YUxuWmtNUlFsaFpwVmxmSjFubnpQdjAwemNfTDDSAWxBVV95cUxQZEN3MDI5ZkM0QzhCcDhPYTQ4c1hENDE5Qk44R2tZRWN6cXZRWFlxanFubnAteTJHcEk5bzJMN1AySG11YkpER3lmUW1KbU9NYUFvbkh4enMtbDAxNm5HZnJjMFhWU1duV093Ylk?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 19:00:00 GMT",
+        "summary": "네이버 컨소시엄이 정부의 보안 특화 AI 구축 사업자로 선정되었습니다. 공공 부문에 특화된 안전한 AI 모델을 개발함으로써 국내 기업의 공공 시장 영향력이 확대될 전망입니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[속보] 네이버클라우드, 정부 '보안 특화 AI 모델' 사업 선정 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13bTNFZ3RKZjd2ZFNjeXNxaDdRUzBzd3owaVQwQjhrNEtzXzEyQnE2SjdXRnMzZ0FnVFJfTllfSXp0cDdiZXUtRnBiWWhIamFlSC1BQTV3?oc=5",
+        "pubDate": "Thu, 03 Sep 2026 00:09:15 GMT",
+        "summary": "네이버클라우드가 보안 특화 모델 사업자로 최종 선정됨에 따라, 정부와 민간 협업을 통한 한국형 AI 인프라 구축이 본격화될 것입니다. 이는 공공 서비스 자동화 및 효율화의 기점이 될 것으로 기대됩니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      }
+    ]
   }
 ]
