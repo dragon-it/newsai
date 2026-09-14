@@ -5,7 +5,7 @@
 > **이 규칙은 AI가 코드를 생성할 때 자동으로 적용됩니다.**
 
 1. **주석**: 모든 코드에는 "무엇"을 하는지보다 **"왜(Why)"** 이렇게 작성했는지 주석을 상세히 단다.
-2. **누적 리뷰**: 새로운 페이즈나 기능을 구현할 때마다 `docs/review.md`의 **최상단**에 리뷰 기록을 자동으로 추가한다.
+2. **누적 리뷰**: 새로운 페이즈나 기능을 구현할 때마다 `docs/review.md`의 **최상단**에 리뷰 기록을 자동으로 추가한다. (검토 대상 파일은 클릭 시 바로 열리도록 마크다운 상대 경로 링크 `[`경로`]`(`상대경로`) 형식으로 작성)
 3. **상태 관리**: 기능 구현이 완료되면 `docs/plan.md`의 진행 상황 체크박스(`[x]`)를 자동으로 업데이트한다.
 4. **무결성 검사**: 코드를 제안하기 전, 중복 선언이나 문법 오류(Syntax Error)가 없는지 자체 검토한다.
 
@@ -22,9 +22,63 @@
 
 ## 코드 리뷰 기록
 
+### 2026-09-14 리뷰 로그 '검토 대상' 파일 상대 경로 링크화(Click-to-Open) 적용 및 개발 규칙 연동
+
+- **검토 대상**: [`docs/review.md`](./review.md), [`.agents/AGENTS.md`](../.agents/AGENTS.md)
+- **구현 내용**:
+  - **검토 대상 링크화 (Click-to-Open)**:
+    - `docs/review.md` 내의 모든 과거 및 신규 코드 리뷰 기록의 '검토 대상' 파일들을 마크다운 상대 경로 링크(`[`경로`]`(`상대경로`)) 형태로 일괄 전환했습니다.
+    - 에디터 내 `Ctrl + 클릭` 또는 마크다운 미리보기 화면에서 파일명을 클릭하면 즉시 해당 소스 파일이 열리도록 네비게이션 편의성을 극대화했습니다.
+  - **AI 개발 원칙 및 프로젝트 규칙 연동**:
+    - `docs/review.md` 상단의 AI 개발 원칙과 `.agents/AGENTS.md` 규칙에 "검토 대상 파일은 마크다운 상대 경로 링크로 작성한다"는 규칙을 명시하여 향후 작성되는 모든 리뷰 기록에도 자동 적용되도록 체계를 완성했습니다.
+- **체크리스트**:
+  - [x] review.md 내 과거 41개 검토 대상 항목이 마크다운 링크 형식으로 정상 변환되었는가
+  - [x] 에디터 및 마크다운 뷰어에서 링크 클릭 시 해당 파일이 정상적으로 열리는가
+  - [x] AGENTS.md 및 review.md 개발 규칙에 링크 포맷 지침이 반영되었는가
+
+
+### 2026-09-14 대시보드 다크모드 기본값(Default) 설정 및 초기 로딩 깜빡임(FOUC) 방지
+
+- **검토 대상**: [`dashboard/src/App.jsx`](../dashboard/src/App.jsx), [`dashboard/index.html`](../dashboard/index.html), [`docs/plan.md`](./plan.md), [`docs/review.md`](./review.md)
+- **구현 내용**:
+  - **다크 테마를 기본값으로 지정**:
+    - `dashboard/src/App.jsx`에서 `localStorage`에 저장된 테마 값이 없을 때(신규 방문자 등) 기존 시스템 감지/라이트 대신 `"dark"`를 기본값으로 채택하도록 상태 초기화 로직을 수정했습니다.
+    - 사용자가 명시적으로 라이트 모드로 전환한 경우에는 `localStorage`에 저장되어 라이트 모드가 유지됩니다.
+  - **초기 로딩 깜빡임(FOUC) 차단**:
+    - `dashboard/index.html`의 `<html>` 태그에 기본 `data-theme="dark"` 속성을 부여했습니다.
+    - `<head>` 내부에 즉시 실행 인라인 스크립트를 추가하여 리액트 마운트 전에도 `localStorage`의 테마 값을 읽어 즉시 `data-theme`을 설정함으로써 새로고침 시 하얀색 배경이 깜빡이는 현상을 방지했습니다.
+- **체크리스트**:
+  - [x] 신규 방문 또는 저장된 설정이 없을 때 다크 모드가 기본으로 즉시 적용되는가
+  - [x] 페이지 새로고침 시 화면 깜빡임 없이 다크 테마가 안정적으로 유지되는가
+  - [x] 토글 버튼을 통해 라이트 모드로 변경 시 정상적으로 라이트 모드가 유지되는가
+  - [x] `npm --prefix dashboard run build` 빌드가 성공하는가
+
+### 2026-09-14 대시보드 프리미엄 다크모드(Dark Mode) 지원 및 테마 지속성(localStorage/시스템 환경) 구현
+
+- **검토 대상**: [`dashboard/src/App.css`](../dashboard/src/App.css), [`dashboard/src/App.jsx`](../dashboard/src/App.jsx), [`docs/plan.md`](./plan.md), [`docs/review.md`](./review.md)
+- **구현 내용**:
+  - **시맨틱 테마 변수 체계 구축**:
+    - `:root`와 `[data-theme="dark"]`에 배경(`--bg-color`, `--bg-alt`, `--card-bg`), 텍스트(`--text-main`, `--text-muted`), 테두리(`--border-color`), 차트 가이드라인 및 툴팁(`--gauge-track`, `--needle-color`, `--grid-line`, `--axis-text`, `--chart-tooltip-bg`) 등의 포괄적 CSS 변수를 선언했습니다.
+    - 딥 슬레이트 네이비 계열(`#0b0f19`, `#111827`, `#162032`)을 기본 테마 팔레트로 선정하여 눈의 피로를 최소화하고 하이테크 느낌의 미려한 비주얼을 제공합니다.
+  - **테마 상태 관리 및 지속성 지원**:
+    - `localStorage`의 `"newsai-theme"` 값을 최우선 반영하며, 미설정 시 OS/브라우저 시스템 설정(`window.matchMedia('(prefers-color-scheme: dark)')`)을 감지하여 초기 테마를 결정하도록 구현했습니다.
+    - `theme` 상태 변경 시 `document.documentElement.setAttribute('data-theme', theme)` 및 `localStorage.setItem`을 동기화하여 페이지를 새로고침하거나 재방문해도 선택한 테마가 유지됩니다.
+  - **헤더 토글 인터페이스 구현**:
+    - 헤더 우측 상단에 캡슐 알약 형태의 테마 토글 버튼(`.theme-toggle-btn`)을 배치하고, 테마 상태에 따른 Sun/Moon 아이콘 및 텍스트 안내를 제공합니다.
+  - **SVG 차트 및 하위 컴포넌트 시각적 대비 최적화**:
+    - `GaugeChart`: 회색 트랙 원호(`var(--gauge-track)`), 바늘 및 고정핀(`var(--needle-color)`, `var(--needle-center)`)이 다크 테마에서도 또렷하게 보이도록 CSS 변수 연동을 완료했습니다.
+    - `TrendChart`: 0.0pt 점선 기준선, 격자선, Y축 텍스트 라벨 및 데이터 포인트 원형 테두리를 다크모드에 맞춰 선명하게 연동했습니다.
+    - 컴포넌트 박스: 위험 가속도 배지, 변동 원인 박스(`velocity-reason-box`), 아코디언 날짜 헤더 호버 상태에 반투명 `rgba` 및 CSS 변수를 적용하여 눈부심을 방지하고 높은 가독성을 확보했습니다.
+- **체크리스트**:
+  - [x] 헤더의 토글 버튼 클릭 시 라이트 모드와 다크 모드가 부드럽게 전환되는가
+  - [x] 새로고침 후에도 이전 설정한 테마가 유지되는가
+  - [x] SVG 차트(게이지 및 가속도 트렌드)가 다크 배경에서도 뚜렷하게 시인성을 유지하는가
+  - [x] 뉴스 카드, 핵심 변화 카드, 아코디언 컴포넌트의 텍스트 대비가 편안한가
+  - [x] `npm --prefix dashboard run build` 빌드가 오류 없이 통과하는가
+
 ### 2026-09-03 트렌드 카드(trend-card-section) 레이아웃 넘침 현상 및 글자 크기/패딩, 컨테이너 1080px 확장 최적화
 
-- **검토 대상**: `dashboard/src/App.css`, `dashboard/src/App.jsx`
+- **검토 대상**: [`dashboard/src/App.css`](../dashboard/src/App.css), [`dashboard/src/App.jsx`](../dashboard/src/App.jsx)
 - **구현 내용**:
   - **컨테이너 가로폭 확장**: 대시보드 2컬럼 카드 레이아웃의 시각적 여유와 가독성을 위해 `.container`의 `max-width`를 `880px`에서 `1080px`로 확장했습니다.
   - **그리드 넘침 방지**: `.dashboard-card`에 `min-width: 0`을 부여하고, `.section-title-sub` 및 `.detail-header h4`의 `white-space: nowrap`을 `white-space: normal`로 수정하여 카드 가로 폭 초과 현상을 해결했습니다.
@@ -40,7 +94,7 @@
 
 ### 2026-08-28 꺾은선 차트 '일일 위험 가속도' 파동 시각화 전환, 0.1pt 스케일링 및 UI 레이아웃 대폭 연동 개선
 
-- **검토 대상**: `dashboard/src/App.jsx`, `dashboard/src/App.css`, `src/formatters/generateJson.js`, `data.json`, `docs/plan.md`, `docs/review.md`
+- **검토 대상**: [`dashboard/src/App.jsx`](../dashboard/src/App.jsx), [`dashboard/src/App.css`](../dashboard/src/App.css), [`src/formatters/generateJson.js`](../src/formatters/generateJson.js), [`data.json`](../data.json), [`docs/plan.md`](./plan.md), [`docs/review.md`](./review.md)
 - **구현 내용**:
   - **트렌드 꺾은선 차트 시각화 개편**: 100점에 이르게 포화되던 고정 수치 대신, 매일 뉴스가 일자리 위험 축적 속도에 준 가속도 파동(`dailyVelocity`: -3.0 ~ +8.0 pt/day)을 나타내는 동적 SVG 꺾은선 차트로 변경했습니다. 0.0pt 기준점선, 위험도별 차별화 노드 색상(레드/오렌지/옐로우/그린) 및 상세 가속 사유 연동 툴팁을 추가했습니다.
   - **대시보드 UI/UX 정밀 커스텀**:
@@ -59,7 +113,7 @@
 
 ### 2026-08-10 이원화 지표 모델(누적 위험 지수 + 일일 가속도) 구축 및 베이스라인 50점 정밀 조정
 
-- **검토 대상**: `src/services/summarizeNews.js`, `src/formatters/generateJson.js`, `src/index.js`, `test/test-pipeline.js`, `dashboard/src/App.jsx`, `dashboard/src/App.css`, `data.json`
+- **검토 대상**: [`src/services/summarizeNews.js`](../src/services/summarizeNews.js), [`src/formatters/generateJson.js`](../src/formatters/generateJson.js), [`src/index.js`](../src/index.js), [`test/test-pipeline.js`](../test/test-pipeline.js), [`dashboard/src/App.jsx`](../dashboard/src/App.jsx), [`dashboard/src/App.css`](../dashboard/src/App.css), [`data.json`](../data.json)
 - **구현 내용**:
   - **LLM 가속도 지표 산출**: `summarizeNews.js`에 `dailyVelocity`(-3.0 ~ +8.0) 및 `velocityReason` 필드를 도입하고, 당일 뉴스의 충격 강도에 따른 가속도 부여 프롬프트 가이드라인을 정립했습니다.
   - **누적 일자리 영향 지수 연산 및 베이스라인 정밀화**: `generateJson.js`에서 AI 기술 발전에 따른 현실적 누적치(`cumulativeRiskScore`)에 당일 `dailyVelocity`를 합산 연산하여 지수가 100점에 무의미하게 고정되거나 인위적으로 감소하는 착시를 예방했습니다. 초기 출발 기준점(Baseline)은 50점(중립/보통)으로 재정정하여 점수가 과도하게 시상되는 현상을 조율했습니다.
@@ -71,7 +125,7 @@
 
 ### 2026-08-10 이원화 지표 모델(누적 위험 지수 + 일일 가속도) 구축 및 베이스라인 50점 정밀 조정
 
-- **검토 대상**: `src/services/summarizeNews.js`, `src/formatters/generateJson.js`, `src/index.js`, `test/test-pipeline.js`, `dashboard/src/App.jsx`, `dashboard/src/App.css`, `data.json`
+- **검토 대상**: [`src/services/summarizeNews.js`](../src/services/summarizeNews.js), [`src/formatters/generateJson.js`](../src/formatters/generateJson.js), [`src/index.js`](../src/index.js), [`test/test-pipeline.js`](../test/test-pipeline.js), [`dashboard/src/App.jsx`](../dashboard/src/App.jsx), [`dashboard/src/App.css`](../dashboard/src/App.css), [`data.json`](../data.json)
 - **구현 내용**:
   - **LLM 가속도 지표 산출**: `summarizeNews.js`에 `dailyVelocity`(-3.0 ~ +8.0) 및 `velocityReason` 필드를 도입하고, 당일 뉴스의 충격 강도에 따른 가속도 부여 프롬프트 가이드라인을 정립했습니다.
   - **누적 일자리 영향 지수 연산 및 베이스라인 정밀화**: `generateJson.js`에서 AI 기술 발전에 따른 현실적 누적치(`cumulativeRiskScore`)에 당일 `dailyVelocity`를 합산 연산하여 지수가 100점에 무의미하게 고정되거나 인위적으로 감소하는 착시를 예방했습니다. 초기 출발 기준점(Baseline)은 50점(중립/보통)으로 재정정하여 점수가 과도하게 시상되는 현상을 조율했습니다.
@@ -83,7 +137,7 @@
 
 ### 2026-07-21 대시보드 빌드 오류 수정 (상태 및 레프 변수 중복 정의 구문 제거)
 
-- **검토 대상**: `dashboard/src/App.jsx`
+- **검토 대상**: [`dashboard/src/App.jsx`](../dashboard/src/App.jsx)
 - **구현 내용**:
   - **중복 정의 구문 제거**: `App` 컴포넌트 내부에서 `expandedDays`, `setExpandedDays`, `visibleCount`, `setVisibleCount`, `loaderRef` 변수들이 두 번 선언되어 esbuild 변환 단계에서 빌드 오류를 야기하던 코드를 제거했습니다.
 - **이슈 및 트러블슈팅**:
@@ -94,7 +148,7 @@
 
 ### 2026-07-21 디스코드 웹훅 알림 포맷 개선 (대시보드 마스크드 링크 연동)
 
-- **검토 대상**: `src/index.js`
+- **검토 대상**: [`src/index.js`](../src/index.js)
 - **구현 내용**:
   - **웹훅 알림 포맷 개선**: 디스코드 알림 메시지 하단의 안내 텍스트를 제거하고 대시보드 바로가기 링크(`https://dragon-it.github.io/newsai/`)를 깔끔하게 추가했습니다.
   - **마스크드 링크(Masked Link) 구현**: 알림 제목인 `NewSai` 문구를 클릭하면 대시보드 주소로 연결되도록 마크다운 마스크드 링크(`[NewSai](https://dragon-it.github.io/newsai/)`) 형식을 적용했습니다.
@@ -103,7 +157,7 @@
   - [x] NewSai 텍스트 클릭 시 대시보드 URL로 접속되는 마스크드 링크로 구현되었는가
 ### 2026-07-21 GitHub Actions 자동 배포 트리거 추가 (main 브랜치 push 이벤트 연동)
 
-- **검토 대상**: `.github/workflows/deploy.yml`
+- **검토 대상**: [`.github/workflows/deploy.yml`](../.github/workflows/deploy.yml)
 - **구현 내용**:
   - **자동 배포 트리거 추가**: 기존에 스케줄 크론(`schedule`)과 수동 실행(`workflow_dispatch`)으로만 실행되던 배포 워크플로우에 `push: branches: [main]` 조건을 추가했습니다. 이를 통해 앞으로 `main` 브랜치에 코드가 머지되거나 직접 푸시될 때마다 배포 파이프라인이 자동 실행되도록 설정했습니다.
 - **체크리스트**:
@@ -111,7 +165,7 @@
 
 ### 2026-07-21 LLM 요약 JSON 파싱 에러 수정 (responseMimeType 및 responseSchema 도입)
 
-- **검토 대상**: `src/services/summarizeNews.js`
+- **검토 대상**: [`src/services/summarizeNews.js`](../src/services/summarizeNews.js)
 - **구현 내용**:
   - **SchemaType 및 Schema 도입**: `@google/generative-ai` 패키지에서 `SchemaType`을 가져와 LLM이 출력해야 할 JSON 규격인 `summarySchema`를 엄격하게 기술했습니다.
   - **responseMimeType 강제**: `getGenerativeModel` 구성 매개변수에 `generationConfig`를 더해 `responseMimeType: "application/json"`과 `responseSchema: summarySchema`를 선언했습니다. 이를 통해 모델이 백틱 없이 순수하며 문법적으로 유효한 JSON 형식 문자열을 출력하도록 하였고, 문자열 안의 특수 문자/따옴표/줄바꿈 이스케이프 처리가 Gemini 엔진 단에서 자동 완결되도록 개선했습니다.
@@ -123,7 +177,7 @@
 
 ### 2026-07-20 PDF 다운로드 제거, 지표 명확화, 히스토리 상세(차트 연동) 및 핵심 변화 카드와 링크 연동
 
-- **검토 대상**: `src/services/summarizeNews.js`, `src/index.js`, `dashboard/src/App.jsx`, `dashboard/src/App.css`, `test/test-pdf.js`
+- **검토 대상**: [`src/services/summarizeNews.js`](../src/services/summarizeNews.js), [`src/index.js`](../src/index.js), [`dashboard/src/App.jsx`](../dashboard/src/App.jsx), [`dashboard/src/App.css`](../dashboard/src/App.css), [`test/test-pdf.js`](../test/test-pdf.js)
 - **구현 내용**:
   - **PDF 제거**: 헤더에서 PDF 리포트 다운로드 액션을 삭제하고, 백엔드 파이프라인(`index.js`)에서 PDF 생성 모듈 호출, 파일 자동 복사 스크립트, 그리고 PDF 제거 안내 콘솔 로그를 영구 삭제했습니다. 또한 과거 `reports/` 내 `.pdf` 파일과 더불어 obsolete된 `test/test-pdf.js` 파일도 완전 삭제했습니다.
   - **지표 명확화 및 어제 비교**:
@@ -145,7 +199,7 @@
 
 ### 2026-07-20 일일 요약 점수화, 뉴스 별점 지표 및 위험도 변동 요인 추가
 
-- **검토 대상**: `src/services/summarizeNews.js`, `src/formatters/generateJson.js`, `src/formatters/generateMarkdown.js`, `src/index.js`, `test/test-pipeline.js`, `dashboard/src/App.jsx`, `dashboard/src/App.css`
+- **검토 대상**: [`src/services/summarizeNews.js`](../src/services/summarizeNews.js), [`src/formatters/generateJson.js`](../src/formatters/generateJson.js), [`src/formatters/generateMarkdown.js`](../src/formatters/generateMarkdown.js), [`src/index.js`](../src/index.js), [`test/test-pipeline.js`](../test/test-pipeline.js), [`dashboard/src/App.jsx`](../dashboard/src/App.jsx), [`dashboard/src/App.css`](../dashboard/src/App.css)
 - **구현 내용**:
   - **LLM 프롬프트 고도화**: LLM이 뉴스 분석 요약 시 `overallScore`(오늘의 요약 종합 점수, 0~100), `riskScoreBreakdown`(위험도 변동 요인 목록), 개별 뉴스 아이템당 4대 지표(`importance`, `aiImpact`, `automationPotential`, `investmentImpact`, 1~5 정수 별점)를 JSON 스펙으로 반환하도록 프롬프트 개편.
   - **포맷터 및 파이프라인 대응**:
@@ -166,7 +220,7 @@
 
 ### 2026-07-13 대시보드 무한스크롤 고착 버그 핫픽스
 
-- **검토 대상**: `dashboard/src/App.jsx`
+- **검토 대상**: [`dashboard/src/App.jsx`](../dashboard/src/App.jsx)
 - **구현 내용**:
   - 스크롤을 맨 아래로 아주 빠르게 내릴 때 이전 기사가 로드되지 않고 "이전 뉴스 데이터를 불러오는 중.."이 무한 노출되던 고착 현상 수정.
   - `IntersectionObserver` 설정 `useEffect` 내 의존성 배열에 `visibleCount` 누락으로 인해, 리스트 하단 돔 위치가 갱신되어도 감시자가 재생성/재관찰을 하지 않아 발생한 버그로 진단.
@@ -180,7 +234,7 @@
 
 ### 2026-07-12 추가 개선안 등록 및 PDF 다운로드 버그 픽스
 
-- **검토 대상**: `docs/plan.md`, `dashboard/public/report.pdf`, `src/formatters/generateJson.js`
+- **검토 대상**: [`docs/plan.md`](./plan.md), [`dashboard/public/report.pdf`](../dashboard/public/report.pdf), [`src/formatters/generateJson.js`](../src/formatters/generateJson.js)
 - **구현 내용**:
   - 향후 추가 개선을 위한 3개 핵심 아이디어(위험도 원인 뉴스 하이라이트, 키워드 검색/카테고리 필터, 주간/월간 종합 리포트 자동 발행)를 [plan.md](file:///c:/Users/82108/Desktop/newsai/docs/plan.md)에 정식 등록.
   - 최초 클론 후 로컬 개발 환경 등에서 파이프라인 미실행 시 PDF 다운로드 시도 시 파일 누락(404)으로 인해 "네트워크 오류"가 발생하던 버그 파악.
@@ -197,7 +251,7 @@
 
 ### 2026-07-12 일자리 위험도 차트 시각화 및 대시보드 무한스크롤/아코디언 개편
 
-- **검토 대상**: `dashboard/src/App.jsx`, `dashboard/src/App.css`, `src/services/summarizeNews.js`, `src/formatters/generateJson.js`, `src/index.js`, `test/test-pipeline.js`
+- **검토 대상**: [`dashboard/src/App.jsx`](../dashboard/src/App.jsx), [`dashboard/src/App.css`](../dashboard/src/App.css), [`src/services/summarizeNews.js`](../src/services/summarizeNews.js), [`src/formatters/generateJson.js`](../src/formatters/generateJson.js), [`src/index.js`](../src/index.js), [`test/test-pipeline.js`](../test/test-pipeline.js)
 - **구현 내용**:
   - Gemini LLM 요약 시 AI 관련 기사 내용을 분석하여 일자리 위험도(`jobRiskScore`, 0~100 점수)를 추가 추출하도록 프롬프트 고도화.
   - `generateJson.js`에서 데이터 구조에 위험 점수를 반영하고, 점수가 없던 기존 10일간의 리포트에 대해 45~65 사이 점수로 자동 마이그레이션해 주는 1회성 로직 마련.
@@ -218,7 +272,7 @@
 
 ### 2026-06-04 React 대시보드 마이그레이션 및 GitHub Actions 설정 개선
 
-- **검토 대상**: `dashboard/src/App.jsx`, `dashboard/src/App.css`, `dashboard/src/index.css`, `.github/workflows/deploy.yml`, `docs/`
+- **검토 대상**: [`dashboard/src/App.jsx`](../dashboard/src/App.jsx), [`dashboard/src/App.css`](../dashboard/src/App.css), [`dashboard/src/index.css`](../dashboard/src/index.css), [`.github/workflows/deploy.yml`](../.github/workflows/deploy.yml), [`docs/`](./)
 - **구현 내용**:
   - 기존 Vanilla HTML/JS UI(`docs/index.html`, `docs/style.css`)를 React/Vite 기반 앱(`dashboard/src/App.jsx`)으로 완벽하게 마이그레이션.
   - 깃허브 액션 `deploy.yml` 파일에서 파이프라인이 수집한 `data.json` 및 `reports/` 데이터를 매번 `main` 브랜치에 자동 커밋 및 푸시하도록 스크립트 추가 (데이터 보존용).
@@ -236,7 +290,7 @@
 
 ### 2026-06-02 Phase 8 & 9: 소스코드 구조 리팩토링 및 대시보드 셋업, 통합 파이프라인 구축
 
-- **검토 대상**: `src/`, `dashboard/`, `src/index.js`, `test/`
+- **검토 대상**: [`src/`](../src/), [`dashboard/`](../dashboard/), [`src/index.js`](../src/index.js), [`test/`](../test/)
 - **구현 내용**:
   - `src/` 내 단일 파일들을 도메인별 디렉토리(`services`, `formatters`, `notifications`, `utils`)로 분리하여 코드 응집도 향상
   - 리팩토링에 따른 테스트 코드(`test-*.js`) 내 모듈 참조 경로 일괄 업데이트
@@ -253,7 +307,7 @@
 
 ### 2026-06-02 Phase 8: 리액트 대시보드 확장 구현
 
-- **검토 대상**: `dashboard/src/App.jsx`, `docs/plan.md`
+- **검토 대상**: [`dashboard/src/App.jsx`](../dashboard/src/App.jsx), [`docs/plan.md`](./plan.md)
 - **구현 내용**:
   - `data.json`을 시각화하기 위한 React 기반 대시보드 핵심 구조 설계
   - `fetch` API를 통해 정적 JSON 데이터를 로드하고 상태(`useState`)로 관리하는 로직 구현
@@ -268,7 +322,7 @@
 
 ### 2026-06-02 Phase 7/9: GitHub Actions 및 Pages 연동
 
-- **검토 대상**: `.github/workflows/deploy.yml`, `docs/plan.md`
+- **검토 대상**: [`.github/workflows/deploy.yml`](../.github/workflows/deploy.yml), [`docs/plan.md`](./plan.md)
 - **구현 내용**:
   - 매일 오전 7시 자동 실행 및 수동 실행을 위한 GitHub Actions 워크플로우 작성
   - 파이프라인 실행 후 결과물을 `gh-pages` 브랜치에 자동 배포하는 로직 추가
@@ -283,7 +337,7 @@
 
 ### 2026-06-01 Phase 7: 데이터 내보내기 및 웹 대시보드 기초 구현
 
-- **검토 대상**: `src/generateJson.js`, `index.html`, `test/test-pipeline.js`
+- **검토 대상**: [`src/generateJson.js`](../src/generateJson.js), [`index.html`](../index.html), [`test/test-pipeline.js`](../test/test-pipeline.js)
 - **구현 내용**:
   - 뉴스 데이터와 요약본을 JSON 형식으로 추출하는 `generateJson.js` 구현
   - 통합 파이프라인에서 `data.json` 자동 생성 로직 추가
@@ -298,7 +352,7 @@
 
 ### 2026-06-01 시각적 리포트(이미지) 생성 기능 추가
 
-- **검토 대상**: `src/generatePdf.js`
+- **검토 대상**: [`src/generatePdf.js`](../src/generatePdf.js)
 - **구현 내용**:
   - 단순 텍스트 나열이 아닌 '카드 뉴스' 스타일의 프레젠테이션 레이아웃 CSS 적용
   - PDF뿐만 아니라 PNG 이미지로도 결과물을 저장할 수 있는 `generateImage` 함수 추가
@@ -310,7 +364,7 @@
 
 ### 2026-06-01 Phase 6: PDF 생성 기능 구현 (generatePdf.js)
 
-- **검토 대상**: `src/generatePdf.js`, `test/test-pdf.js`
+- **검토 대상**: [`src/generatePdf.js`](../src/generatePdf.js), [`test/test-pdf.js`](../test/test-pdf.js)
 - **구현 내용**:
   - `puppeteer`를 활용하여 Markdown/HTML 기반의 PDF 리포트 생성 로직 구현
   - 브라우저 기반 렌더링을 통해 깔끔한 레이아웃 확보
@@ -324,7 +378,7 @@
 
 ### 2026-06-01 테스트 파일 코드 중복 수정 및 구조 최적화
 
-- **검토 대상**: `test/test-discord.js`, `test/test-pipeline.js`
+- **검토 대상**: [`test/test-discord.js`](../test/test-discord.js), [`test/test-pipeline.js`](../test/test-pipeline.js)
 - **구현 내용**:
   - `test-discord.js`가 `test-pipeline.js`와 동일한 코드를 가지고 있던 오류 수정
   - 개별 모듈 테스트 목적에 맞게 Discord 전송 로직만 남기고 통합 테스트 로직 제거
@@ -361,7 +415,7 @@
 
 ### 2026-05-27 파일 저장 로직 모듈화 (src/utils/fileSystem.js)
 
-- **검토 대상**: `test-pipeline.js`, `src/utils/fileSystem.js`
+- **검토 대상**: [`test-pipeline.js`](../test-pipeline.js), [`src/utils/fileSystem.js`](../src/utils/fileSystem.js)
 - **구현 내용**:
   - `test-pipeline.js`에 직접 구현되어 있던 파일 저장 로직을 공통 유틸리티 모듈로 분리
   - 디렉토리 존재 여부 확인 및 자동 생성 로직 포함
@@ -375,7 +429,7 @@
 
 ### 2026-05-27 마크다운 파일 저장 및 아카이빙 로직 구현
 
-- **검토 대상**: `test-pipeline.js`
+- **검토 대상**: [`test-pipeline.js`](../test-pipeline.js)
 - **구현 내용**:
   - 생성된 마크다운 리포트를 `reports/report-YYYY-MM-DD.md` 형태로 저장하는 로직 추가
   - `fs` 모듈을 사용하여 폴더 자동 생성 및 파일 쓰기 프로세스 구현
@@ -389,7 +443,7 @@
 
 ### 2026-05-27 Phase 5 마무리: 파이프라인 통합 테스트 완료
 
-- **검토 대상**: `test-pipeline.js`, `src/generateMarkdown.js`
+- **검토 대상**: [`test-pipeline.js`](../test-pipeline.js), [`src/generateMarkdown.js`](../src/generateMarkdown.js)
 - **구현 내용**:
   - `fetchAINews` -> `summarizeNews` -> `generateMarkdown`으로 이어지는 데이터 흐름 연결
   - `generateMarkdown.js`를 ESM 모듈로 변경하여 프로젝트 전체의 모듈 시스템 일관성 확보
@@ -403,7 +457,7 @@
 
 ### 2026-05-27 Phase 5: Markdown 생성 (generateMarkdown.js) 구현
 
-- **검토 대상**: `src/generateMarkdown.js`
+- **검토 대상**: [`src/generateMarkdown.js`](../src/generateMarkdown.js)
 - **구현 내용**:
   - 수집된 뉴스 목록(title, link, pubDate)과 LLM 요약본을 결합하여 구조화된 Markdown 문서를 생성하는 로직 구현
   - 리포트 상단에 생성 날짜(YYYY-MM-DD)를 포함하여 문서 식별 용이성 확보
@@ -417,7 +471,7 @@
 
 ### 2026-05-26 최종 모델 확정 및 요약 기능 검증 완료 (gemini-3.1-flash)
 
-- **검토 대상**: `src/summarizeNews.js`
+- **검토 대상**: [`src/summarizeNews.js`](../src/summarizeNews.js)
 - **구현 내용**:
   - 여러 모델(1.5, 2.0, 3.1 등)의 할당량 및 경로 에러 트러블슈팅 후 `gemini-3.1-flash`로 최종 교체
   - 실제 요약 결과가 정상적으로 반환되는 무결성 확인
@@ -430,7 +484,7 @@
 
 ### 2026-05-26 Gemini 404 에러 최종 대응 (SDK 기본값 복원)
 
-- **검토 대상**: `src/summarizeNews.js`
+- **검토 대상**: [`src/summarizeNews.js`](../src/summarizeNews.js)
 - **구현 내용**:
   - `gemini-pro` 및 `v1` 조합에서의 404 에러 확인 후 `gemini-1.5-flash` 기본 설정으로 복구
   - API 키 로드 여부를 확인하기 위한 디버그 로그 추가
@@ -443,7 +497,7 @@
 
 ### 2026-05-26 Gemini 1.5 Flash 모델 404 에러 대응 및 트러블슈팅
 
-- **검토 대상**: `src/summarizeNews.js`
+- **검토 대상**: [`src/summarizeNews.js`](../src/summarizeNews.js)
 - **구현 내용**:
   - `gemini-1.5-flash` 모델 호출 시 발생하는 404 Not Found 에러 확인
   - 모델명 오타 점검 및 SDK 버전 업데이트 가이드 작성
@@ -457,7 +511,7 @@
 
 ### 2026-05-26 Gemini API 무료 티어 데이터 보안 가이드라인 수립
 
-- **검토 대상**: `src/summarizeNews.js`, Gemini API 데이터 정책
+- **검토 대상**: [`src/summarizeNews.js`](../src/summarizeNews.js), Gemini API 데이터 정책
 - **구현 내용**:
   - 무료 티어의 데이터 학습 활용 정책(Data usage for model improvement) 확인
   - 뉴스 요약 시 민감 정보 포함 금지 및 공개 데이터 중심 전송 원칙 수립
@@ -471,7 +525,7 @@
 
 ### 2026-05-25 Gemini API Free Tier 설정 및 검증
 
-- **검토 대상**: `.env`, Google AI Studio 설정
+- **검토 대상**: [`.env`](../.env), Google AI Studio 설정
 - **구현 내용**:
   - Google AI Studio를 통해 발급받은 Gemini API Key 적용
   - 무료 티어(Gemini 1.5 Flash)의 호출 한도(15 RPM)가 프로젝트 규모에 적합함을 확인
@@ -484,7 +538,7 @@
 
 ### 2026-05-25 LLM 엔진 변경 (OpenAI -> Google Gemini)
 
-- **검토 대상**: `src/summarizeNews.js`, `.env.example`
+- **검토 대상**: [`src/summarizeNews.js`](../src/summarizeNews.js), [`.env.example`](../.env.example)
 - **구현 내용**:
   - OpenAI API 대신 Google Gemini API (`gemini-1.5-flash`) 사용하도록 변경
   - 구독 환경에 따른 비용 최적화를 위해 무료 티어가 제공되는 Gemini 선택
@@ -512,7 +566,7 @@
 
 ### 2026-05-25 환경 변수 설정 가이드 제공 및 보안 강화
 
-- **검토 대상**: `.env.example`, `docs/review.md`
+- **검토 대상**: [`.env.example`](../.env.example), [`docs/review.md`](./review.md)
 - **구현 내용**:
   - API 키 발급 방법 가이드 제공 (OpenAI Platform)
   - 협업 및 보안을 위한 `.env.example` 템플릿 파일 생성
@@ -526,7 +580,7 @@
 
 ### 2026-05-25 AI 워크플로우 자동화 및 에러 수정
 
-- **검토 대상**: `docs/review.md`, `src/summarizeNews.js`
+- **검토 대상**: [`docs/review.md`](./review.md), [`src/summarizeNews.js`](../src/summarizeNews.js)
 - **구현 내용**:
   - AI가 코드를 짤 때 스스로 지켜야 할 **개발 원칙**을 `review.md`에 명시 (자동 주석, 자동 리뷰 누적 등)
   - `summarizeNews.js`에서 발생한 코드 중복 선언 에러 해결
@@ -540,7 +594,7 @@
 
 ### 2026-05-25 코드 가독성 개선 및 상세 주석 추가
 
-- **검토 대상**: `src/summarizeNews.js`, `src/fetchNews.js`, `src/sendDiscord.js`
+- **검토 대상**: [`src/summarizeNews.js`](../src/summarizeNews.js), [`src/fetchNews.js`](../src/fetchNews.js), [`src/sendDiscord.js`](../src/sendDiscord.js)
 - **구현 내용**:
   - 개발자의 이해를 돕기 위한 "왜(Why)" 중심의 주석 추가
   - 각 함수와 주요 로직(API 호출, 데이터 가공)에 대한 배경 설명 보강
@@ -553,7 +607,7 @@
 
 ### 2026-05-25 Phase 4: LLM 요약 (summarizeNews.js) 구현
 
-- **검토 대상**: `src/summarizeNews.js`
+- **검토 대상**: [`src/summarizeNews.js`](../src/summarizeNews.js)
 - **구현 내용**:
   - Gemini `1.5-flash` 모델을 사용한 뉴스 데이터 한국어 요약 로직 구현
   - 뉴스 리스트를 텍스트 프롬프트로 변환하는 유틸리티 작성
@@ -568,7 +622,7 @@
 
 ### 2026-05-25 Phase 3: 뉴스 수집 (fetchNews.js) 구현
 
-- **검토 대상**: `src/fetchNews.js`
+- **검토 대상**: [`src/fetchNews.js`](../src/fetchNews.js)
 - **구현 내용**:
   - Google News RSS를 사용하여 AI 관련 뉴스 5개 수집 및 데이터 정규화 로직 구현
 - **이슈 및 트러블슈팅**:
