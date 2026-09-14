@@ -85,6 +85,8 @@
 - [x] 이원화 지표 모델(Cumulative Level + Daily Velocity) 구축 및 대시보드 시각화 연동
 - [x] 꺾은선 차트의 '일일 위험 가속도(Velocity)' 추이 파동 시각화 전환 및 누적 점수 천장 방지 스케일링(0.1pt) 적용
 - [x] 대시보드 카드(trend-card-section) 글자 크기, 패딩 및 컴팩트 차트 레이아웃 조정을 통한 그리드 컨테이너 넘침 현상 해결
+- [x] 대시보드 다크모드(Dark Mode) 지원 및 다크 테마 기본값(Default) 설정, 초기 깜빡임 방지 인라인 스크립트 적용
+- [x] 코드 리뷰 문서(docs/review.md) 내 검토 대상 파일 마크다운 상대 경로 링크화(Click-to-Open) 적용 및 개발 규칙 연동
 
 ## Future Phase. 예정 개선 사항
 

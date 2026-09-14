@@ -28,10 +28,10 @@ function getRiskDescription(score) {
 // 가속도(dailyVelocity)에 따른 라벨 및 테마 색상 반환
 function getVelocityBadge(velocity) {
   const v = typeof velocity === "number" ? velocity : 1.0;
-  if (v >= 3.0) return { label: "급가속 🔴", color: "#ef4444", bg: "#fef2f2", sign: `+${v.toFixed(1)}pt/day` };
-  if (v >= 0.5) return { label: "상승 가속 🟠", color: "#f97316", bg: "#fff7ed", sign: `+${v.toFixed(1)}pt/day` };
-  if (v >= 0.0) return { label: "완만/유지 🟡", color: "#eab308", bg: "#fefce8", sign: `+${v.toFixed(1)}pt/day` };
-  return { label: "감속/완화 🟢", color: "#10b981", bg: "#ecfdf5", sign: `${v.toFixed(1)}pt/day` };
+  if (v >= 3.0) return { label: "급가속 🔴", color: "#ef4444", bg: "rgba(239, 68, 68, 0.12)", sign: `+${v.toFixed(1)}pt/day` };
+  if (v >= 0.5) return { label: "상승 가속 🟠", color: "#f97316", bg: "rgba(249, 115, 22, 0.12)", sign: `+${v.toFixed(1)}pt/day` };
+  if (v >= 0.0) return { label: "완만/유지 🟡", color: "#eab308", bg: "rgba(234, 179, 8, 0.12)", sign: `+${v.toFixed(1)}pt/day` };
+  return { label: "감속/완화 🟢", color: "#10b981", bg: "rgba(16, 185, 129, 0.12)", sign: `${v.toFixed(1)}pt/day` };
 }
 
 // [컴포넌트] 오늘의 일자리 위험도 반원 게이지 차트 (1번 속도계 모양)
@@ -52,11 +52,11 @@ function GaugeChart({ score }) {
           </linearGradient>
         </defs>
 
-        {/* 뒷배경 회색 가이드 원호 */}
+        {/* 뒷배경 가이드 원호 (테마 변수 연동) */}
         <path
           d="M 25 110 A 85 85 0 0 1 195 110"
           fill="none"
-          stroke="#e2e8f0"
+          stroke="var(--gauge-track, #e2e8f0)"
           strokeWidth="16"
           strokeLinecap="round"
         />
@@ -72,19 +72,19 @@ function GaugeChart({ score }) {
           strokeDashoffset="0"
         />
 
-        {/* 침/바늘 (Needle) */}
+        {/* 침/바늘 (Needle - 테마 변수 연동) */}
         <g transform="translate(110, 110)">
           <polygon
             points="-4,0 0,-85 4,0"
-            fill="#1e293b"
+            fill="var(--needle-color, #1e293b)"
             style={{
               transform: `rotate(${angle}deg)`,
               transformOrigin: "0px 0px",
               transition: "transform 1.5s cubic-bezier(0.34, 1.56, 0.64, 1)"
             }}
           />
-          <circle cx="0" cy="0" r="10" fill="#1e293b" />
-          <circle cx="0" cy="0" r="4" fill="#ffffff" />
+          <circle cx="0" cy="0" r="10" fill="var(--needle-color, #1e293b)" />
+          <circle cx="0" cy="0" r="4" fill="var(--needle-center, #ffffff)" />
         </g>
       </svg>
       <div className="gauge-score-info">
@@ -189,23 +189,23 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
           </defs>
 
           {/* 격자선 가이드라인 (상단, 중간, 0.0 기준선, 하단) */}
-          <line x1={paddingLeft} y1={paddingTop} x2={width - paddingRight} y2={paddingTop} stroke="#e2e8f0" strokeDasharray="3" />
+          <line x1={paddingLeft} y1={paddingTop} x2={width - paddingRight} y2={paddingTop} stroke="var(--grid-line, #e2e8f0)" strokeDasharray="3" />
           {midVel !== 0 && midY > paddingTop + 15 && midY < paddingTop + chartHeight - 15 && (
-            <line x1={paddingLeft} y1={midY} x2={width - paddingRight} y2={midY} stroke="#f1f5f9" strokeDasharray="2" />
+            <line x1={paddingLeft} y1={midY} x2={width - paddingRight} y2={midY} stroke="var(--grid-line-sub, #f1f5f9)" strokeDasharray="2" />
           )}
           {zeroY >= paddingTop && zeroY <= paddingTop + chartHeight && (
-            <line x1={paddingLeft} y1={zeroY} x2={width - paddingRight} y2={zeroY} stroke="#94a3b8" strokeDasharray="4" strokeWidth="1.5" />
+            <line x1={paddingLeft} y1={zeroY} x2={width - paddingRight} y2={zeroY} stroke="var(--border-alt, #94a3b8)" strokeDasharray="4" strokeWidth="1.5" />
           )}
-          <line x1={paddingLeft} y1={paddingTop + chartHeight} x2={width - paddingRight} y2={paddingTop + chartHeight} stroke="#cbd5e1" strokeWidth="1.5" />
+          <line x1={paddingLeft} y1={paddingTop + chartHeight} x2={width - paddingRight} y2={paddingTop + chartHeight} stroke="var(--border-color, #cbd5e1)" strokeWidth="1.5" />
 
           {/* Y축 선명하고 크기가 강조된 라벨 표시 */}
           <text x={paddingLeft - 10} y={paddingTop + 5} textAnchor="end" fontSize="16" fill="#dc2626" fontWeight="800">
             {maxVel > 0 ? `+${maxVel.toFixed(1)}` : maxVel.toFixed(1)}
           </text>
           {zeroY >= paddingTop + 20 && zeroY <= paddingTop + chartHeight - 20 && (
-            <text x={paddingLeft - 10} y={zeroY + 5} textAnchor="end" fontSize="16" fill="#334155" fontWeight="800">0.0</text>
+            <text x={paddingLeft - 10} y={zeroY + 5} textAnchor="end" fontSize="16" fill="var(--axis-text, #334155)" fontWeight="800">0.0</text>
           )}
-          <text x={paddingLeft - 10} y={paddingTop + chartHeight + 5} textAnchor="end" fontSize="16" fill={minVel < 0 ? "#059669" : "#64748b"} fontWeight="800">
+          <text x={paddingLeft - 10} y={paddingTop + chartHeight + 5} textAnchor="end" fontSize="16" fill={minVel < 0 ? "#059669" : "var(--text-muted, #64748b)"} fontWeight="800">
             {minVel > 0 ? `+${minVel.toFixed(1)}` : minVel.toFixed(1)}
           </text>
 
@@ -247,7 +247,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
                   cy={p.y}
                   r={isSelected ? "8.5" : (isHovered ? "7" : "5")}
                   fill={nodeColor}
-                  stroke={isSelected ? "#1e293b" : "#ffffff"}
+                  stroke={isSelected ? "var(--text-main, #1e293b)" : "var(--card-bg, #ffffff)"}
                   strokeWidth={isSelected ? "3" : "2"}
                   style={{ transition: "r 0.15s ease, stroke-width 0.15s ease", cursor: "pointer" }}
                 />
@@ -302,6 +302,23 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedDate, setSelectedDate] = useState(null);
+
+  // 테마 상태 관리 (localStorage 저장값 우선 조회, 없을 시 다크 모드를 기본값으로 적용)
+  const [theme, setTheme] = useState(() => {
+    const saved = localStorage.getItem("newsai-theme");
+    if (saved === "light" || saved === "dark") return saved;
+    return "dark";
+  });
+
+  // 테마 변경 시 HTML data-theme 속성 및 localStorage 동기화
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("newsai-theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
+  };
 
   // 아코디언 상태 관리 (날짜 string을 key로 하고 boolean 값을 value로 지정)
   const [expandedDays, setExpandedDays] = useState({});
@@ -413,7 +430,19 @@ function App() {
   return (
     <div className="container">
       <header>
-        <div className="logo">NewSai 🤖</div>
+        <div className="header-top-bar">
+          <div className="logo">NewSai 🤖</div>
+          <button
+            type="button"
+            className="theme-toggle-btn"
+            onClick={toggleTheme}
+            aria-label={theme === "dark" ? "라이트 모드로 전환" : "다크 모드로 전환"}
+            title={theme === "dark" ? "라이트 모드로 전환" : "다크 모드로 전환"}
+          >
+            <span className="theme-icon">{theme === "dark" ? "☀️" : "🌙"}</span>
+            <span className="theme-text">{theme === "dark" ? "Light" : "Dark"}</span>
+          </button>
+        </div>
         <h1>AI 데일리 리포트</h1>
         <p className="date">
           발행일: <span id="report-date">{todayData.reportDate}</span>

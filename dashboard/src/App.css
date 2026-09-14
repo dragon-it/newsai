@@ -1,5 +1,6 @@
 :root {
   --primary-color: #2563eb;
+  --primary-hover: #1d4ed8;
   --secondary-color: #475569;
   --bg-color: #f8fafc;
   --bg-alt: #f1f5f9;
@@ -9,6 +10,44 @@
   --text-muted: #64748b;
   --border-color: #e2e8f0;
   --border-alt: #cbd5e1;
+  --shadow-card: 0 4px 10px rgba(0, 0, 0, 0.05);
+  --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+  --gauge-track: #e2e8f0;
+  --needle-color: #1e293b;
+  --needle-center: #ffffff;
+  --grid-line: #e2e8f0;
+  --grid-line-sub: #f1f5f9;
+  --axis-text: #334155;
+  --reason-bg: #fff7ed;
+  --reason-border: #f97316;
+  --tip-bg: #f8fafc;
+  --chart-tooltip-bg: rgba(30, 41, 59, 0.95);
+}
+
+[data-theme="dark"] {
+  --primary-color: #3b82f6;
+  --primary-hover: #60a5fa;
+  --secondary-color: #94a3b8;
+  --bg-color: #0b0f19;
+  --bg-alt: #131b2e;
+  --card-bg: #111827;
+  --card-alt-bg: #162032;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --border-color: #1f293d;
+  --border-alt: #334155;
+  --shadow-card: 0 4px 14px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 10px 20px -3px rgba(0, 0, 0, 0.55);
+  --gauge-track: #1e293b;
+  --needle-color: #f8fafc;
+  --needle-center: #111827;
+  --grid-line: #1f293d;
+  --grid-line-sub: #162032;
+  --axis-text: #cbd5e1;
+  --reason-bg: rgba(249, 115, 22, 0.12);
+  --reason-border: #f97316;
+  --tip-bg: #131b2e;
+  --chart-tooltip-bg: rgba(15, 23, 42, 0.96);
 }
 
 body {
@@ -18,6 +57,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
@@ -28,17 +68,67 @@ body {
 }
 
 header {
+  position: relative;
   text-align: center;
   margin-bottom: 2.5rem;
   padding-bottom: 2rem;
   border-bottom: 2px solid var(--border-color);
+  transition: border-color 0.3s ease;
+}
+
+.header-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
 }
 
 .logo {
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--primary-color);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
+  letter-spacing: -0.01em;
+}
+
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background-color: var(--card-bg);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  padding: 0.4rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow-card);
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.theme-toggle-btn:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transform: translateY(-1px);
+}
+
+.theme-toggle-btn:active {
+  transform: translateY(0);
+}
+
+.theme-icon {
+  font-size: 1.05rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.theme-text {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 h1 {
@@ -147,6 +237,18 @@ h1 {
   margin-left: 2px;
 }
 
+.dashboard-card,
+.summary-section,
+.news-card,
+.past-day-block,
+.key-changes-section,
+.key-change-card,
+.scores-explanation-box,
+.trend-detail-box,
+.risk-breakdown-box {
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
 .gauge-label {
   margin-top: 0.5rem;
   font-size: 0.85rem;
@@ -156,7 +258,9 @@ h1 {
   border-radius: 20px;
   border: 1.5px solid;
   display: inline-block;
-  background-color: #fafafa;
+  background-color: var(--card-alt-bg);
+  color: var(--text-main);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .gauge-description {
@@ -172,8 +276,9 @@ h1 {
   border-radius: 12px;
   border: 1px solid;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  box-shadow: var(--shadow-card);
   width: 90%;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .velocity-title {
@@ -212,12 +317,13 @@ h1 {
   margin-top: 0.8rem;
   font-size: 0.85rem;
   color: var(--text-main);
-  background-color: #fff7ed;
+  background-color: var(--reason-bg);
   padding: 0.7rem 0.9rem;
   border-radius: 8px;
-  border-left: 4px solid #f97316;
+  border-left: 4px solid var(--reason-border);
   text-align: left;
   line-height: 1.4;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .velocity-mini-badge {
@@ -231,13 +337,13 @@ h1 {
 }
 
 .detail-velocity-badge {
-  background-color: #eff6ff;
-  color: #1d4ed8;
+  background-color: rgba(37, 99, 235, 0.1);
+  color: var(--primary-color);
   font-size: 0.8rem;
   font-weight: 700;
   padding: 0.2rem 0.7rem;
   border-radius: 12px;
-  border: 1px solid #bfdbfe;
+  border: 1px solid rgba(37, 99, 235, 0.25);
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -246,11 +352,12 @@ h1 {
   margin-top: 0.8rem;
   font-size: 0.8rem;
   color: var(--text-muted);
-  background-color: var(--bg-color);
+  background-color: var(--tip-bg);
   padding: 0.6rem;
   border-radius: 8px;
   border-left: 3px solid var(--border-alt);
   text-align: left;
+  transition: background-color 0.3s ease;
 }
 
 /* 2. Trend Chart Layout */
@@ -289,13 +396,14 @@ h1 {
 /* Interactive Chart Tooltip */
 .chart-tooltip {
   position: absolute;
-  background-color: rgba(30, 41, 59, 0.95);
+  background-color: var(--chart-tooltip-bg);
   color: white;
   padding: 0.5rem 0.75rem;
   border-radius: 6px;
   font-size: 0.75rem;
   pointer-events: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  border: 1px solid var(--border-color);
   z-index: 100;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -442,7 +550,7 @@ h2 {
 }
 
 .past-date-header:hover {
-  background-color: #e2e8f0;
+  background-color: var(--border-color);
 }
 
 .past-date {
