@@ -1,5 +1,81 @@
 [
   {
+    "lastUpdated": "2026-09-15T23:53:58.037Z",
+    "reportDate": "2026. 9. 16.",
+    "summary": "- AI 기술 경쟁 가속화: 젠슨 황 등 업계 리더들이 AI 발전 속도 조절론에 정면 반박하며 기술 주도권 유지를 강조함.\n\n- 투자 시장의 견고함: AI 개발 규제나 안전성 우려에도 불구하고 월가는 여전히 AI 분야를 강력한 성장 동력으로 평가하며 투자를 지속함.\n\n- 사회적 안전망 및 윤리 이슈: AI 의존도 심화에 따른 인간의 인지 능력 저하 경고와 함께 정치적 진영을 초월한 AI 규제 및 통제 논의가 활발해짐.",
+    "summaryScore": 88,
+    "dailyVelocity": 0.3,
+    "velocityReason": "AI 발전 속도 논쟁이 치열하게 전개되었으나 실질적인 대규모 감원 소식보다는 전략적 경쟁 및 윤리적 담론에 집중되어 속도 변화는 완만함.",
+    "cumulativeRiskScore": 52.5,
+    "jobRiskScore": 52.5,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 발전 가속화 전략 유지",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 규제 및 인지적 항복 경고",
+        "sign": "-",
+        "impact": 3,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "젠슨 황, 트럼프에 “AI 속도조절 안 된다”…앤트로픽·오픈AI에 정면 반박[이규화의 글로벌AI] - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NaDBXTEk2Y2ROVHBNTGFpcTZmaWltSFBVSFI3emdTalU2VkIwMkZYNldhX3NzTVRaTFJmZGhfNk40SDV0YmNUTlZ3SVlOaWc?oc=5",
+        "pubDate": "Mon, 14 Sep 2026 23:10:00 GMT",
+        "summary": "젠슨 황 엔비디아 CEO가 AI 기술 발전 속도를 늦추는 것은 잘못된 전략이라며 강력히 주장함. 이는 기술 패권을 유지하려는 업계의 입장을 대변하며 규제보다는 혁신에 방점을 둠.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "\"AI 개발 늦추자\" 경고 아닌 호재?...월가 여전히 'AI 투자' 후끈, 왜 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWQW0zY3JteU11WGRIRlp2c094MldUbTFfYXluTGg4XzM3N1BmZHFWZEFrNkJHc2R6UHg0RE94RDFuenhEX1I1Nm55eXJkSURJUm41Z3RPcG1pQnVOeklJYzVlMEZ4dzRu0gFuQVVfeXFMT2w3SVJtM1lzaElYVjdPLXZxOXREMzdMcVVncGN4N3g3OXpSTDRmN0JQZ2pTQTZVM1VhbDQ2NVJaZmlFdGFKUnRWSktYNDk1eDlicVNNUmR3TmlzWm9lbE9uYXhoci1KZHRDWjJFTmc?oc=5",
+        "pubDate": "Tue, 15 Sep 2026 20:30:00 GMT",
+        "summary": "AI 개발 규제 논의가 활발함에도 불구하고 월가의 투자 자금은 여전히 AI 관련 기업으로 쏠리고 있음. 시장은 AI를 단기적 유행이 아닌 산업 구조를 재편할 근본적 호재로 인식함.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "젠슨 황, 트럼프와 공개 통화⋯\"AI 늦추는 전략은 잘못\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE14NlBuVWhGcUNFNWZNV0owYmZ1eEd1aFB4dzFYMzhQSHN2WXVjLXR2M3BhWkJFTzVtU0JKN1ZSalNnYnp5WXc?oc=5",
+        "pubDate": "Tue, 15 Sep 2026 02:46:07 GMT",
+        "summary": "젠슨 황이 트럼프 당선인과의 공개 통화에서도 AI 발전의 중요성을 거듭 강조함. AI 산업의 미래가 국가 경쟁력과 직결된다는 점을 정치권에 설득하는 행보임.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "'AI 폭주 막아라'…이례적 손잡은 좌우 강성인사 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5KckNoX0NGM2JiMDhkdVFtLVFmOWVSazQxajZYWkg2eW9oWDlUMXBpZlp4bk5TbVJiMXBNUE9uN1FXVVZGeDhzOWo0blZSX28?oc=5",
+        "pubDate": "Tue, 15 Sep 2026 22:37:32 GMT",
+        "summary": "좌우 강성 인사들이 이례적으로 연합하여 AI의 위험성을 경고하고 규제 움직임을 보임. 기술 폭주를 막기 위한 초당적 거버넌스 구축이 가시화되고 있음.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "[이 시각 세계] 'AI 의존' 사고 포기‥MIT '인지적 항복' 경고 - MBC 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53LUxYRVpWUE0wcHFtUUQzcHl1R2xrd0pTeEVFVERBemhDSEwwbWphcDRRaExYTnNkTTFTMzktN2JOcjhqMXZ2cEMtbjkyRS1ZV2swRnZob2tQREhLeUEwNktjOVQ3dENUa0NGXzZwOEVBZ2hxYUQwcEpB0gF6QVVfeXFMT3VFcUF5ZGl5SEN6cDZ4b0FXUnNTeEF2a0szbjkxLVFCMTAtcHlJSHNsTUJ2bXVOckcxM3kwbGlUX3M5SDdCSUk5eGZYM1VBRUk3amFkTVlmb25ETDhSX09mLWJNS21hbE4xZmZDak5Ka3dOZjBQSFNjelE?oc=5",
+        "pubDate": "Tue, 15 Sep 2026 22:16:01 GMT",
+        "summary": "MIT 연구진이 과도한 AI 의존이 인간의 사고 능력을 감퇴시키는 '인지적 항복'을 초래할 수 있다고 경고함. 기술의 편리함 뒤에 숨겨진 인간 지능의 하향 평준화 우려가 제기됨.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 1
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-15T00:10:07.837Z",
     "reportDate": "2026. 9. 15.",
     "summary": "- 글로벌 AI 패권 경쟁 가속: 중국이 서방의 AI 발전 속도 조절 요구에 반발하며 국가적 차원의 AI 기술 주도권 확보를 선언함.\n\n- AI 거버넌스 강화: 유엔이 소수 빅테크 기업에 의존하는 AI 시장 구조의 위험성을 경고하며, 안전하고 공정한 기술 개발을 위한 국제적 긴급 조치를 촉구함.\n\n- 산업 특화 및 실무 적용 확대: 의료, 금융, 지역 교육 등 전문 영역에서의 AI 에이전트 도입과 투자 유치가 활발해지며 실제 업무 효율화가 진행 중임.",
@@ -720,82 +796,6 @@
         "summary": "AI 기술이 제약·바이오 분야의 신약 개발 기간을 기존 대비 2~3년 단축시키는 성과를 보임. 전문 영역에서의 AI 도입이 단순 업무 지원을 넘어 핵심 R&D 경쟁력을 좌우하는 수준으로 발전하고 있음.",
         "importance": 4,
         "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-04T23:38:11.314Z",
-    "reportDate": "2026. 9. 5.",
-    "summary": "- 공공 AI 생태계 구축: 카카오, SKT, KT 등 국내 주요 통신·플랫폼 기업이 참여하는 '모두의 AI' 프로젝트가 정부 지원을 바탕으로 본격화됨.\n- 대국민 AI 서비스 확장: 취준생, 소상공인 등 전 국민 대상 AI 서비스 제공을 통해 일상 속 AI 활용도와 디지털 격차 해소 노력이 가속화됨.\n- 차세대 AGI 기술 도입: 오픈AI가 'GPT-6 아스트라'를 공개하며 범용인공지능(AGI) 시대로의 본격적인 전환을 선언함.",
-    "summaryScore": 88,
-    "dailyVelocity": 1.8,
-    "velocityReason": "오픈AI의 AGI 수준 모델인 GPT-6 아스트라 공개와 국내 기업들의 대규모 AI 프로젝트 가시화로 인해 기술 대체 속도와 산업 영향력이 동시에 가속화됨.",
-    "cumulativeRiskScore": 51.8,
-    "jobRiskScore": 51.8,
-    "riskScoreBreakdown": [
-      {
-        "event": "오픈AI GPT-6 아스트라 출시",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 4
-      },
-      {
-        "event": "국내 3사 모두의 AI 프로젝트 추진",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 1
-      }
-    ],
-    "news": [
-      {
-        "title": "[현장] '모두의 AI' 연내 출시 속도…3개 컨소시엄 핵심 전략은 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80WERzOEFOLWpzWVBXQ0JmODBBNTRoY01LcUQxZW00NXNNRFN1RUJaWm0xeVFVRXBvYXcta1JsczNSemZ2YzRhWFJEVGowR0ZsbGdjbkdR?oc=5",
-        "pubDate": "Fri, 04 Sep 2026 07:09:28 GMT",
-        "summary": "국내 주요 통신 및 플랫폼 기업 3사가 정부 주도의 '모두의 AI' 프로젝트에 참여하여 연내 서비스 출시를 목표로 속도를 내고 있음. 각 사별로 차별화된 핵심 전략을 수립하여 공공 AI 인프라 구축을 추진 중임.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[단독] '모두의 AI' 카카오·SKT·KT, 운영비로 100억씩 받는다 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84ejRWMjVOUFRvY0c1TUo5TW9yUEhDb1ZDWlU4ekhoc1ExeXBTTGZPOUJpZkJFaVJrQXl4U2YzdTZXYldSeUFIRVhpRzBuNW5mdklzMDBSbHdKcnA4cXhNb3ZOaEk2X2_SAWxBVV95cUxQWjI1Q1RFbnRKdEdpWXJJQVZ1SzRieGRVdVpFS3ZvM3VwTURiaVdYYUJSb0J1WEREUF84aEZXRUEwNjFiVS1uOGEwanhaMURSR1laVVEwR19kNGVZZGEzTkFiZHc2UjloN1JsMU8?oc=5",
-        "pubDate": "Fri, 04 Sep 2026 04:00:00 GMT",
-        "summary": "카카오, SKT, KT가 참여하는 '모두의 AI' 사업을 위해 각 컨소시엄에 100억 원 규모의 운영비가 지원됨. 정부의 재정 지원을 통해 국내 AI 기업들의 기술 내재화와 서비스 상용화가 탄력을 받을 전망임.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "전 국민 무료 ‘모두의 AI’....취준생·소상공인·노령층 겨눈 3사 3색 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CRnd3aGtaSDlZNUpNU0dOTUNmZHRYWTZ6ME5PNDZtaDhMVGswWVFFdUZvUXJPUHQ2SElRS2JwQnJkWk1QMjNGTHFLRjIxQWc?oc=5",
-        "pubDate": "Fri, 04 Sep 2026 08:03:00 GMT",
-        "summary": "전 국민을 대상으로 하는 무료 AI 서비스가 취준생, 소상공인, 노령층 등 특정 계층을 겨냥하여 맞춤형으로 제공될 예정임. 3사 3색 전략을 통해 AI 기술의 대중화를 이끌고 사회적 효율성을 증대시키는 데 중점을 둠.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "오픈AI, 'GPT-6 아스트라' 출시…“AGI 시대 진입” - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LNUNDeFVTNGI2OGgzdlRXT1lvOEFGMkY2eUNsTW9NTm45bUsweW5hMVdTZm93UHBTcVJRSDNTOU0yUmkzYVhiUE9BelY3QQ?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 23:04:59 GMT",
-        "summary": "오픈AI가 차세대 모델인 'GPT-6 아스트라'를 공개하며 사실상 AGI 시대의 본격적인 진입을 알림. 기존 모델을 뛰어넘는 추론 능력과 범용성을 바탕으로 기술 패러다임의 변화를 예고함.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "오픈AI, 위험등급 AI '아스트라' 공개…\"AGI시대 온 것 환영\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oVlE5WnZJamJpbVFPWFJEd0dzcmxUaExTalVGZG1zalBHeW1Xam9Ib3lfMDF0Ym1rb0tVbTRUUmRhWTNGNkRHYjRlRWNjNnNrV1BCVzBORmNQd2PSAWBBVV95cUxQQUVUTWxjQjNKR0hIMFVMQ25aRHcwaGtkUlFQUTVhdGYwMnU4d3lpSWRIQnBnZURCWWp6cVdoYml0RnFwaVpfaWkwYU1xNE4yNG9wdjNQdGpxdUNQVUJiQ0E?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 22:58:43 GMT",
-        "summary": "위험 등급을 포함한 새로운 AI 모델 '아스트라'가 공개되면서 오픈AI는 AGI 시대를 공식화함. 기술적 도약과 동시에 안전성 확보에 대한 논의가 함께 이루어지며 업계의 이목이 집중됨.",
-        "importance": 5,
-        "aiImpact": 5,
         "automationPotential": 4,
         "investmentImpact": 4
       }
