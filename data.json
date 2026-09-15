@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-15T00:10:07.837Z",
+    "reportDate": "2026. 9. 15.",
+    "summary": "- 글로벌 AI 패권 경쟁 가속: 중국이 서방의 AI 발전 속도 조절 요구에 반발하며 국가적 차원의 AI 기술 주도권 확보를 선언함.\n\n- AI 거버넌스 강화: 유엔이 소수 빅테크 기업에 의존하는 AI 시장 구조의 위험성을 경고하며, 안전하고 공정한 기술 개발을 위한 국제적 긴급 조치를 촉구함.\n\n- 산업 특화 및 실무 적용 확대: 의료, 금융, 지역 교육 등 전문 영역에서의 AI 에이전트 도입과 투자 유치가 활발해지며 실제 업무 효율화가 진행 중임.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.3,
+    "velocityReason": "특화 분야 AI 에이전트 상용화와 글로벌 기술 패권 경쟁이 격화되었으나, 산업 현장의 점진적 도입 수준에 그쳐 완만한 영향력을 보임.",
+    "cumulativeRiskScore": 52.5,
+    "jobRiskScore": 52.5,
+    "riskScoreBreakdown": [
+      {
+        "event": "중국의 AI 개발 가속화 선언",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "유엔의 빅테크 AI 독점 위험 경고",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      },
+      {
+        "event": "전문 직군용 AI 에이전트 도입",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "AI 발전 늦추자고?‥중국 \"개발 방해하겠다는 것‥우리는 속도 낸다\" - MBC 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5POUdhTzE4b2lCaFFUajRTQkdwVldhRlhKUTUwcVlHajNMOXhyMHZhUHk5MHZ3d2p1Y3RRTGl4elZORkpQbnN1MG1UYjJaN2hmUG5YeWtmOWxhM3FjcHd0aG5uR2cwbk1UbkJOeWE0YlVhRXR6emd4NtIBeEFVX3lxTE9ZUmQ1emItdldoU1NnS0F2RUJXZ2tFSG5HZXlBdVprblRjdlRxM1NfV3hQc3hKOEZHamVJSVdJOExlTm0yTzRiM1JFWWZEV20yY3lCYzQ4cU81UllXTkJtOHN6ZnAxbU1zNHZBTGxELWtXZ2VVVUppcQ?oc=5",
+        "pubDate": "Mon, 14 Sep 2026 10:57:26 GMT",
+        "summary": "중국이 서방의 AI 개발 제한 움직임을 자국 기술 자립을 방해하려는 의도로 규정하고, 독자적인 AI 생태계 구축을 위한 기술 개발에 더욱 박차를 가하겠다고 공식 발표함.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "유엔, ‘전례 없는 위험’ AI 긴급 조치 필요…“소수 빅테크에 의존 불가” - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX0FmcEQ2SzVtbW1TNUo2NlR5ME9xQXA5SE1za3hMTU0wTktUd2Rxa0JhNXhfWFFlY0c5RWEwMlFBV096cnEyVFdDcDN3b2JBSVlBeXFrWDdIeENzcjZ2MU9tRlFybW9aaXQza002eHhoNHJNS0dFQWl3LURFbWhHaEJR?oc=5",
+        "pubDate": "Mon, 14 Sep 2026 15:48:00 GMT",
+        "summary": "유엔이 소수 글로벌 빅테크 기업이 AI 시장을 과도하게 점유하는 상황을 비판하며, 인류 안전을 위해 다자간 협력을 통한 AI 긴급 통제 체계 마련을 촉구함.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "심혈관 AI 스타트업 코로로직, 카카오벤처스·서울대기술지주서 시드 투자 유치 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fOHREUXNJVkI3Q01HMGtaWVh5aTNIS2NhZHFvcVJQc3huUjNiSm5RemlaMEpNc21SVk5FOVNNMHlXUmg5SC1RSkp1WHFqdHM?oc=5",
+        "pubDate": "Mon, 14 Sep 2026 23:15:50 GMT",
+        "summary": "심혈관 진단 AI 솔루션을 개발하는 코로로직이 카카오벤처스 등으로부터 시드 투자를 유치함. 의료 데이터 분석 효율화를 통해 향후 진단 보조 시장에서의 성장이 기대됨.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "강원대 재직자 AI 교육, 지역기업 AX·글로벌 진출 성과로 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA0SzdTYUtuZmk0c3BRbTZZMXA0UXZvcUhhaXpKaC1TWXBlQmpva0FpMExDdThoOW9xU2QwamFQMFRaaUloTUVLdjFuMmt3dw?oc=5",
+        "pubDate": "Mon, 14 Sep 2026 23:31:09 GMT",
+        "summary": "강원대가 지역 내 재직자들을 대상으로 진행한 AI 교육 프로그램이 실제 지역 기업의 디지털 전환 및 해외 시장 진출 성과로 이어지며 긍정적인 평가를 받음.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "뉴로퓨전 밸리 AI, 금융 리서치 에이전트로 데이터-판단 간극 낮춘다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2a2Vmd2w4bFFUWk0yVDBNNFVRejZCbXZCRkszaXROaGhtbjhaN2lEY0U5U09SMFlMUWpZOUZscF9JZEM2YUtHN0xhcXV6M2d0S2RzOFZR?oc=5",
+        "pubDate": "Mon, 14 Sep 2026 23:38:33 GMT",
+        "summary": "뉴로퓨전 밸리가 금융 전문 리서치 AI 에이전트를 선보임. 방대한 금융 데이터를 실시간으로 분석해 판단의 정확도를 높임으로써 금융 전문직의 업무 방식을 변화시킬 것으로 예상됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-14T08:42:58.744Z",
     "reportDate": "2026. 9. 14.",
     "summary": "- AI 개발 속도와 안전성 간의 정치적·기술적 갈등이 심화되고 있습니다. 도널드 트럼프를 필두로 한 미국 정계는 중국과의 기술 패권 경쟁에서 우위를 점하기 위해 AI 개발 가속화를 주장하고 있습니다.\n\n- 기술 업계에서는 상충하는 입장이 나타나고 있습니다. 일부 주요 AI 기업 리더들이 안전을 이유로 속도 조절을 권고하는 반면, 국가 전략적 관점에서는 기술 개발의 병목 현상을 경계하는 분위기가 지배적입니다.\n\n- 글로벌 경쟁 구도 속에서 중국 또한 오픈소스 동맹 등을 활용하여 기술 추격을 가속화하고 있어, AI 패권 경쟁이 국가 안보의 핵심 의제로 부상했습니다.",
@@ -715,88 +797,6 @@
         "importance": 5,
         "aiImpact": 5,
         "automationPotential": 4,
-        "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-03T23:45:56.873Z",
-    "reportDate": "2026. 9. 4.",
-    "summary": "- 차세대 AGI 모델 등극: 오픈AI가 'GPT-6 아스트라'를 공개하며 범용인공지능(AGI) 시대로의 본격적인 진입을 선언함.\n- 기술 혁신 가속: '순환 추론' 기술 도입으로 모델의 추론 성능과 복잡한 문제 해결 능력이 대폭 향상됨.\n- 국내 공공 보안 시장 선점: 네이버 컨소시엄이 정부의 '보안 특화 AI' 사업자로 선정되며 국가 차원의 AI 인프라 보안 구축이 본격화됨.",
-    "summaryScore": 92,
-    "dailyVelocity": 1.8,
-    "velocityReason": "오픈AI의 GPT-6 아스트라 발표는 고도화된 추론 능력으로 인해 지식 노동자들의 업무 대체 가능성을 실질적으로 높였음.",
-    "cumulativeRiskScore": 51.6,
-    "jobRiskScore": 51.6,
-    "riskScoreBreakdown": [
-      {
-        "event": "GPT-6 아스트라 공개",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 1
-      },
-      {
-        "event": "순환 추론 기반의 고도화된 성능 향상",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 2
-      },
-      {
-        "event": "정부 보안 특화 AI 사업 선정",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "오픈AI, 'GPT-6 아스트라' 출시…“AGI 시대 진입” - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LNUNDeFVTNGI2OGgzdlRXT1lvOEFGMkY2eUNsTW9NTm45bUsweW5hMVdTZm93UHBTcVJRSDNTOU0yUmkzYVhiUE9BelY3QQ?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 23:04:59 GMT",
-        "summary": "오픈AI가 차세대 모델인 GPT-6 아스트라를 공개하며 AGI 시대로의 공식적인 진입을 알렸습니다. 이번 발표는 AI가 단순 계산을 넘어 복합적인 지적 능력을 갖추기 시작했음을 시사합니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "오픈AI, '아스트라'에 차세대 '순환 추론' 적용으로 성능 대폭 향상 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE04YjdrcUI4OFk4UlFObEVBQ1BsR3JfMVRIdGNtc3JwZktTTWtHSkZLVjIzUmlFdUNwcXVEV1VnZ3padkUtY3RWVWtMMUxzWG5hZm9lallMcTlmSmdSTm9JQnk2XzZHOVZVNVE?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 09:09:14 GMT",
-        "summary": "GPT-6 아스트라에 적용된 '순환 추론' 기술은 모델이 스스로 결과값을 검증하고 수정하는 능력을 크게 향상시켰습니다. 이는 복잡한 로직이 필요한 업무의 자동화 수준을 한 단계 끌어올릴 것으로 보입니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "오픈AI, 위험등급 AI '아스트라' 공개…\"AGI시대 온 것 환영\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oVlE5WnZJamJpbVFPWFJEd0dzcmxUaExTalVGZG1zalBHeW1Xam9Ib3lfMDF0Ym1rb0tVbTRUUmRhWTNGNkRHYjRlRWNjNnNrV1BCVzBORmNQd2PSAWBBVV95cUxQQUVUTWxjQjNKR0hIMFVMQ25aRHcwaGtkUlFQUTVhdGYwMnU4d3lpSWRIQnBnZURCWWp6cVdoYml0RnFwaVpfaWkwYU1xNE4yNG9wdjNQdGpxdUNQVUJiQ0E?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 22:58:43 GMT",
-        "summary": "오픈AI는 아스트라 공개와 함께 위험 등급 모델에 대한 안전성 관리 체계를 강조했습니다. AGI의 강력한 기능만큼이나 잠재적 위험 관리가 업계의 핵심 이슈로 부상하고 있습니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "네이버 컨소시엄, 정부 '보안 특화 AI' 사업 따냈다 - 머니투데이 - mt.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3cndEV0l6enF6Zy1EcHVTd1liZEtqYUdxd21JY3pCOXFzTDFJTlYtb0VyandZWHZzYzVmVmxBTkhXd0xyMy1QVXM0YUxuWmtNUlFsaFpwVmxmSjFubnpQdjAwemNfTDDSAWxBVV95cUxQZEN3MDI5ZkM0QzhCcDhPYTQ4c1hENDE5Qk44R2tZRWN6cXZRWFlxanFubnAteTJHcEk5bzJMN1AySG11YkpER3lmUW1KbU9NYUFvbkh4enMtbDAxNm5HZnJjMFhWU1duV093Ylk?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 19:00:00 GMT",
-        "summary": "네이버 컨소시엄이 정부의 보안 특화 AI 구축 사업자로 선정되었습니다. 공공 부문에 특화된 안전한 AI 모델을 개발함으로써 국내 기업의 공공 시장 영향력이 확대될 전망입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[속보] 네이버클라우드, 정부 '보안 특화 AI 모델' 사업 선정 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13bTNFZ3RKZjd2ZFNjeXNxaDdRUzBzd3owaVQwQjhrNEtzXzEyQnE2SjdXRnMzZ0FnVFJfTllfSXp0cDdiZXUtRnBiWWhIamFlSC1BQTV3?oc=5",
-        "pubDate": "Thu, 03 Sep 2026 00:09:15 GMT",
-        "summary": "네이버클라우드가 보안 특화 모델 사업자로 최종 선정됨에 따라, 정부와 민간 협업을 통한 한국형 AI 인프라 구축이 본격화될 것입니다. 이는 공공 서비스 자동화 및 효율화의 기점이 될 것으로 기대됩니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 3,
         "investmentImpact": 4
       }
     ]
