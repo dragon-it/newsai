@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-17T23:50:51.211Z",
+    "reportDate": "2026. 9. 18.",
+    "summary": "- 글로벌 지정학적 긴장과 AI 자산화: 미국의 대중국 반도체 규제 및 AI 기술 제한이 심화되면서, 각국은 기술 주권 확보를 위한 '소버린 AI' 구축에 국가적 예산을 집중 투입하고 있음.\n\n- AI 하드웨어 인프라 공급난: AI 가속기 시장의 폭발적인 수요로 인해 기판 및 MLCC 등 핵심 부품의 수급 불균형이 장기화되고 있으며, 이는 반도체 제조사의 중장기적 실적 호재로 작용 중임.\n\n- 국가 AI 정책의 질적 도약 필요성: 국내 AI 국가 사업의 예산 배분 및 심사 방식의 한계가 지적되며, 글로벌 경쟁력 확보를 위한 체계적인 인프라 투자와 정책 효율화가 요구되는 시점임.",
+    "summaryScore": 88,
+    "dailyVelocity": 0.3,
+    "velocityReason": "지정학적 갈등에 따른 국가별 소버린 AI 투자와 하드웨어 공급난이 산업 구조의 변화를 견인하고 있음.",
+    "cumulativeRiskScore": 52.5,
+    "jobRiskScore": 52.5,
+    "riskScoreBreakdown": [
+      {
+        "event": "소버린 AI 국가 프로젝트 확산",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 5
+      },
+      {
+        "event": "AI 하드웨어 공급 부족에 따른 인프라 병목",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 기술 제한 및 통제 강화",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      }
+    ],
+    "news": [
+      {
+        "title": "반도체 막고 AI 사용 제한… 美 ‘무기화’에 각국 자체AI 속도 - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9sVWpMNmVSZ3dDaUJBdU5OeXN5VndDY3RvcERYXzB1aHFyajBpbWhseUphSTd4aVJnN1JDS0FOUGM5M1A5SWdqQ0QxOWF3bDlfQTJQQy1sdUFqUFZ3VDJ4aC0yc0hXODE2ZlhEM3pvVlNmQk3SAWZBVV95cUxOand4bFI2MUkxVFNnYTF0dDk2cTZ6QzJVSU5ZVXgyRFFVR2dtOGN2bHVhb2ZjZ01YamFtMUFWUnhFamtDNW1yaTU5ZkpwcmZBYXY1OGE2V1lUUWJ5NjdlSW9JNFFmSVE?oc=5",
+        "pubDate": "Thu, 17 Sep 2026 19:30:00 GMT",
+        "summary": "미국의 대중국 AI 기술 규제가 강화되면서 각국이 기술 주권 보호를 위한 독자적인 AI 생태계 구축에 나서고 있습니다. 이러한 지정학적 장벽은 글로벌 AI 산업의 파편화와 자국 중심의 기술 개발을 가속화하는 결과로 이어지고 있습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "\"지금 주문하면 1년 후에나\"…기판·MLCC 등 AI 부품 공급난 장기화 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1qZ0h1eWRNRW1QNHJZQXVKUEpOaldhVWExdmRDTUp3MWZnNWRCUjJpVGdvQk5UZloxdHB4U1l1aHZ4ZUlyTUNXM2owSXZwVnM?oc=5",
+        "pubDate": "Wed, 16 Sep 2026 22:01:00 GMT",
+        "summary": "AI 서버 및 데이터센터 수요 급증으로 고성능 기판과 MLCC 등 핵심 하드웨어 부품의 공급난이 장기화되고 있습니다. 주문 후 인도까지 1년 이상이 소요되는 등 공급 병목 현상이 시장의 주요 이슈로 부상했습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "“AI 속도 조절론은 메모리 수요 더 늘릴 것… 삼전닉스에 중장기 호재” - 주간동아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GSEs4Z2QxY2phOWR1dnFTbTR4dEtNR19yQVB5ZmowLWh2Z2gxdnNHOENMUUhQR2Z4R2V2WlQ4SzhqX3h4enVEMENZaFNlb2JSMzl1LVZn?oc=5",
+        "pubDate": "Thu, 17 Sep 2026 22:00:02 GMT",
+        "summary": "AI 기술 도입에 따른 에너지 및 하드웨어 수요 증가는 메모리 반도체 업계에 중장기적인 호재가 될 전망입니다. AI 속도 조절론이 제기되더라도 메모리 반도체의 필요성은 지속적으로 상승할 것으로 분석됩니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "“국가대표 키운다더니 사이좋게 하나씩”… 국가 AI 사업, 심사 방식·예산 ‘한계’ - 조선비즈 - biz.chosun.com",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaTJUNlgxUDcxRDZjZEwxMklSbHZ2cHlTbmcxcko5VFBGa3F6TE1SXzNNWlhlZjlzaDZqWE5jVUpxaUxrYTdvTUYtamFIZDVucEpaZGF4RGlaZE40b0NiNEsyMFMxVkpSUGRRMmNkRFlqenV0WTZqcEN6SUZLNTBYNXZR0gGWAUFVX3lxTE9ZYjhfeF9XcERzRXpBcDBIRUdtYmNGTnJJQ1pxaWl2ZGc5RUxxLUcycFdSUTB6MmpNd1NHd1IteWFnRUJ1WHpXeVByVVNQdFhYMzZOOVhjSFRobzQ5RXNLS05Gb04xSXJjczkyNEpKVzNwbUNnQm5wbEtrMXBJemx5MzNBVGtNNGV2Ump6MFQ2TW1La1UyQQ?oc=5",
+        "pubDate": "Wed, 16 Sep 2026 07:04:00 GMT",
+        "summary": "국가 차원의 AI 지원 사업이 예산의 파편화와 심사 방식의 한계로 비효율적인 운영을 보이고 있다는 지적이 나옵니다. 글로벌 기술 패권 경쟁에서 승리하기 위해 보다 전문적이고 전략적인 정부 지원 체계 구축이 시급합니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "[단독]AI 경쟁 ‘국가전’ 됐다…67개국이 예산으로 소버린 AI 개발 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE85NWI5bENxS3BBY3RlRlNqYkN1Vk5BOGVoRG9aM3NNYkFocUpqbXJpdE1nSTZadEJXdzhINE1fb3FEdHNfRi10aHBkY1BxZlE?oc=5",
+        "pubDate": "Thu, 17 Sep 2026 08:11:51 GMT",
+        "summary": "전 세계 67개국이 자국만의 독자적인 AI 모델과 인프라를 확보하기 위해 소버린 AI 프로젝트를 국가 전략으로 채택하고 있습니다. 이는 단순히 기업의 기술 경쟁을 넘어 국가 대항전 형태로 AI 산업 지형이 재편되고 있음을 의미합니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-17T00:00:56.962Z",
     "reportDate": "2026. 9. 17.",
     "summary": "- AI 인지 및 윤리적 이슈: MIT의 '인지적 항복' 경고를 통해 AI 의존에 따른 인간의 사고력 감퇴 문제가 공론화됨.\n\n- 기술 패권 및 하드웨어 가뭄: 미·중 간 AI 주도권 경쟁이 심화되는 가운데, HBM과 기판 등 필수 핵심 부품의 공급난이 장기화되며 AI 산업 성장의 병목 현상이 발생함.\n\n- 안전성 및 글로벌 규제: AI의 위험성에 대한 경각심이 고조되면서 유엔 등 국제 사회에서 안보 차원의 규제 논의가 본격화되는 추세임.",
@@ -715,88 +797,6 @@
         "importance": 3,
         "aiImpact": 3,
         "automationPotential": 3,
-        "investmentImpact": 2
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-06T23:24:08.266Z",
-    "reportDate": "2026. 9. 7.",
-    "summary": "- 인프라 및 생태계 확장: 엔비디아의 허깅페이스 인수를 통해 하드웨어와 소프트웨어가 통합된 개방형 AI 생태계가 더욱 강력하게 구축됨.\n\n- AI 에이전트의 산업화: 제조, 물류 등 물리적 산업 현장에 AI 에이전트를 도입하려는 시도가 늘어나며 기업용 AX(AI 전환) 솔루션이 가속화됨.\n\n- 기술 고도화 및 규제 논의: AI 에이전트의 자율적 활동 범위가 넓어짐에 따라 이에 대응하기 위한 글로벌 규제 법안 마련이 본격화되는 추세임.",
-    "summaryScore": 88,
-    "dailyVelocity": 1.2,
-    "velocityReason": "엔비디아의 생태계 장악과 기업형 AI 에이전트 도입이 활발해지면서, 특정 직무의 효율화 및 자동화 가능성이 상승함.",
-    "cumulativeRiskScore": 52.2,
-    "jobRiskScore": 52.2,
-    "riskScoreBreakdown": [
-      {
-        "event": "엔비디아 허깅페이스 인수",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "산업 현장 AI 에이전트 도입 가속화",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 2
-      },
-      {
-        "event": "AI 규제 법안 발의",
-        "sign": "_",
-        "impact": 2,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "엔비디아, 허깅페이스 인수…17조원으로 개방형 AI 생태계 삼켰다 - 연합인포맥스",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GZXVveWpJRGZ3Nk12NDRLUGpNTS1IUWtQbnJUcnUzVGM4MW9HZ1BMM1h2WFRjdW9YYzF1eUZCWVJrd3lYaC1qTG9SdDR1QlZCbEhYZTQtdFVsUzdGeGRCWG80NDZrTlFYM1lnZTl3SHE?oc=5",
-        "pubDate": "Sun, 06 Sep 2026 03:01:00 GMT",
-        "summary": "엔비디아가 개방형 AI 커뮤니티인 허깅페이스를 인수하며 하드웨어부터 소프트웨어 생태계까지 수직 계열화를 달성함. 이는 오픈 소스 AI 진영의 결속력을 높이고 시장 지배력을 강화하는 전략으로 평가됨.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"AI 모델 다음은 산업현장…韓, 피지컬 AI·에이전트 육성해야\" - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1lVEtEOXEwZlBCU1l0bGx1MENzdW9NSXEzRWpkWGhWamJsaGVtamNlbUR2dzRRNWxvRFhpdkFyUkZHRVctSGIyYVdLRXlrS2dmX0R4VUVn?oc=5",
-        "pubDate": "Sun, 06 Sep 2026 00:47:32 GMT",
-        "summary": "AI 기술의 흐름이 단순 모델 개발에서 산업 현장 적용형 피지컬 AI로 이동하고 있음. 국내 기업들의 에이전트 기술 육성을 통한 산업 현장 자동화가 시급하다는 전문가의 제언이 강조됨.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "오픈AI 에이전트, 이번엔 독일 위키 장악...규제법 봇물 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tYV91TUZGM1ZveTl4bWtZVFNBdG9kbk4tQ3VpR1RMRW1ZN2hNZmdGa21ZazJTX2RBaWsxVUc5Zm9PVGJGSjBUaTZQTkNtMlk?oc=5",
-        "pubDate": "Sun, 06 Sep 2026 22:53:15 GMT",
-        "summary": "오픈AI의 에이전트가 자율적으로 데이터를 처리하며 활약하는 가운데, 기술 악용과 안전성에 대한 우려로 유럽을 중심으로 규제 법안이 잇따르고 있음. 기술 발전 속도와 규제의 균형이 중요한 과제로 떠오름.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 2
-      },
-      {
-        "title": "[에이전틱 AI 맵 2026] LG CNS, AI 에이전트 설계부터 운영까지… 6개 모듈로 전사 AX 연결 - IT조선",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBHbGJESlRYM0NZNEtiMnY0ZjExMTdFcmtQZEZudzFEVDlXczFWVmtGd3JhYUNmRUlHMUpEZWlrekp6MjZ6aW5CVURQdzdMdmJuTDFkSFk3bmI1Qjd1eEo2RURDaFNEUTlPQ19Mam9pNzTSAXRBVV95cUxNLXZkallLS182LWRZc2hhZEtBSXV4anBjQ0x4SmYtbTEwR1g0c1hfZ0JPbHRVNEZuVWd0SS1JSWFTeExwSGVTemxWeDNGQS1mZHhxZW14R3lydFJ4emxZZ1Rpc2FQRGJNV21talhCZm5MZDE1Zg?oc=5",
-        "pubDate": "Sun, 06 Sep 2026 22:00:00 GMT",
-        "summary": "LG CNS가 기업의 전사적 AI 전환을 지원하기 위해 설계부터 운영까지 아우르는 6개 모듈의 에이전트 시스템을 선보임. 기업 내부 업무 프로세스 자동화를 본격화하여 실질적인 비용 절감을 추진함.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "부산서 9∼11일 AI 페스티벌…일상 속 AI 활용 체험 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAxNTU5QzJOc29sd0tUQmJ4Zjlzby1sSUd0MEg5UXpNVkRHMGJYWV8wTVBGU1RmYWtucXN6b2d5N2d5clZXZ0RXemdYeEsxdjA?oc=5",
-        "pubDate": "Sun, 06 Sep 2026 23:13:17 GMT",
-        "summary": "부산에서 열리는 AI 페스티벌을 통해 일상 속에서 활용 가능한 다양한 AI 기술들을 시민들이 체험함. 기술의 보편화와 일상적 수용도가 높아지며 AI 대중화 단계에 진입하고 있음.",
-        "importance": 2,
-        "aiImpact": 2,
-        "automationPotential": 1,
         "investmentImpact": 2
       }
     ]
