@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-18T23:48:22.549Z",
+    "reportDate": "2026. 9. 19.",
+    "summary": "- AI 모델 효율성 증대: 구글이 재귀적 자기개선 기술을 도입하여 복잡한 문제 해결 효율을 획기적으로 개선하며 기술 고도화를 이끎.\n\n- 저작권 및 윤리 논란 심화: 오픈AI의 대규모 기사 무단 학습 의혹이 불거지며 AI 학습 데이터 수집의 윤리적 가이드라인에 대한 사회적 비판이 고조됨.\n\n- 군사 AI 리스크 현실화: AI의 허위 보고로 인한 미·중 군사적 충돌 위기 사건이 보도되면서, 자율 무기 체계 및 군사 AI 도입의 안전성에 대한 우려가 확산됨.",
+    "summaryScore": 88,
+    "dailyVelocity": 0.8,
+    "velocityReason": "AI의 기술적 도약과 동시에 치명적인 오류 및 사회적 분쟁 사례가 드러나며 산업적 자동화 속도와 윤리적 견제가 동시에 가속화됨.",
+    "cumulativeRiskScore": 52.6,
+    "jobRiskScore": 52.6,
+    "riskScoreBreakdown": [
+      {
+        "event": "구글 재귀적 자기개선 도입",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 허위 보고 군사 리스크 노출",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 3
+      },
+      {
+        "event": "데이터 학습 저작권 소송 리스크",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      }
+    ],
+    "news": [
+      {
+        "title": "구글, AI 문제 해결에 ‘재귀적 자기개선’ 도입...탐색 비용 162배 절감 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yWVRYWWM4SzZ2cjZaczE4NkQzTWdJNENvRVJaZFNuVFZzb3pzcDVycnFqdmRObmpJWE9ZRjBvdS1jMklLNkJ0N3NQRFkxOHZlMGhvWk51V3NxRWpad3I5bnRsQmlXRTZxdXc?oc=5",
+        "pubDate": "Fri, 18 Sep 2026 09:37:07 GMT",
+        "summary": "구글이 '재귀적 자기개선' 기법을 활용해 AI의 복잡한 문제 해결 능력을 강화하고 탐색 비용을 162배 절감함. 이는 향후 AI 모델의 추론 성능 향상과 인프라 효율 최적화에 큰 변화를 예고함.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "\"인류 역사상 최대 도둑질\"...오픈AI, 기사 1천만 건 몰래 긁어갔다 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DX2ktMmhDcWR4dC1QTTJWd214ZkhVc3hESHdyaEU2d0ExQjdmRGNacEFQdzNITTVFa0J1Z1NhT0pWOGJqdmV6N1FtYzg2Rm9aR0lpM3dzdkxEcEh1Znc?oc=5",
+        "pubDate": "Fri, 18 Sep 2026 01:53:00 GMT",
+        "summary": "오픈AI가 뉴스 기사 1천만 건을 무단으로 학습 데이터에 사용했다는 의혹이 제기되며 지적 재산권 침해 논란이 가열됨. 향후 AI 기업들의 데이터 확보 방식에 대한 법적 규제가 강화될 가능성이 큼.",
+        "importance": 5,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[속보] “하마터면 미·중 전면전”…‘AI 허위 보고’에 美 군사작전 코앞서 멈췄다 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLUjR4MlFaNUV5OFlpeE9lUHNoNlNqRktENWQ0T29iWVdhWTFxVFpGQWNpamtNalZhSUVVNEZkQVFra2I2WWU0bVI4d3JId2s?oc=5",
+        "pubDate": "Fri, 18 Sep 2026 23:00:07 GMT",
+        "summary": "AI의 가짜 보고로 인해 미국과 중국이 실제 군사 충돌 위기까지 치달았던 사건이 공개됨. 군사 작전에서의 AI 도입이 가져올 수 있는 통제 불가능한 위험과 안전성 문제가 전면 부각됨.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "AI 가짜 보고에 미·중 전쟁 날뻔 - 문화일보",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhaFVKd0UtYmhKVFBrdkpLaTJoSHZTTVg2MFZkUEJZUXdVNlA4VWVJX0NwbFJ6OGd3d3ZSZ29STUhFQWFHcTVLZFQ5SFF1dWIz?oc=5",
+        "pubDate": "Fri, 18 Sep 2026 22:21:07 GMT",
+        "summary": "미·중 전쟁 위기를 초래한 AI 보고 오류 건을 상세 보도하며 AI의 판단 오류가 국가 안보에 미칠 파급력을 경고함. 기술적 결함이 치명적 상황을 만들 수 있다는 인식이 확산됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "\"미군, AI 거짓보고에 대중 군사작전 직전까지…전쟁 시작할 뻔\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xMTJnZm9ZcjZQNmQ1Zjd5elM3TWZ0WlF3Mlh1TGRCeXc2NjRBcmhBU2lRR2dPS21QbG42NHNYRG5FRjJMWGlveXBoRW42WFF1SjN3Qml4UHhvVUnSAWBBVV95cUxOZXUybEt4bDVlZEZya0lQVWhPNnBBS1NSN2R1dWxENDZHNWpyX0ZGMlA3RlNwNzJuOWVWUWo5MWdLTUtMb0d2bXlqSnVHZWxrdGQ4NmhtbjBVdGhGZkdqRUk?oc=5",
+        "pubDate": "Fri, 18 Sep 2026 20:08:47 GMT",
+        "summary": "미군 내 AI 기반 의사결정 시스템의 오류가 전쟁 도발의 단초가 될 뻔한 사실이 공식화됨. 안전장치 없는 자동화 시스템에 대한 사회적 불신이 커질 것으로 보임.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-17T23:50:51.211Z",
     "reportDate": "2026. 9. 18.",
     "summary": "- 글로벌 지정학적 긴장과 AI 자산화: 미국의 대중국 반도체 규제 및 AI 기술 제한이 심화되면서, 각국은 기술 주권 확보를 위한 '소버린 AI' 구축에 국가적 예산을 집중 투입하고 있음.\n\n- AI 하드웨어 인프라 공급난: AI 가속기 시장의 폭발적인 수요로 인해 기판 및 MLCC 등 핵심 부품의 수급 불균형이 장기화되고 있으며, 이는 반도체 제조사의 중장기적 실적 호재로 작용 중임.\n\n- 국가 AI 정책의 질적 도약 필요성: 국내 AI 국가 사업의 예산 배분 및 심사 방식의 한계가 지적되며, 글로벌 경쟁력 확보를 위한 체계적인 인프라 투자와 정책 효율화가 요구되는 시점임.",
@@ -716,88 +798,6 @@
         "aiImpact": 3,
         "automationPotential": 1,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-07T23:53:58.510Z",
-    "reportDate": "2026. 9. 8.",
-    "summary": "- AI 하드웨어 수요 급증: 삼성전자와 SK하이닉스 등 반도체 기업들이 고성능 AI 인프라 시장 성장에 힘입어 시장을 주도하고 있음.\n\n- 국가 차원의 AI 인재 확보 경쟁: 정부가 파격적인 조건으로 해외 핵심 AI 인재 유치에 나서는 등 국가 경쟁력 강화를 위한 인적 자원 확보에 사활을 걸고 있음.\n\n- 산업계의 AI 인프라 중심 체질 개선: SKT를 비롯한 통신사들이 단순 통신 서비스를 넘어 AI 데이터센터 및 인프라 사업자로 사업 영역을 적극적으로 확장하고 있음.\n\n- 지역 거점 기반의 AI 생태계 조성: 부산, 강원 등 지자체와 대학이 협력하여 지역 맞춤형 AI 연구 인력을 양성하고 지역 현안을 해결하는 AI 전환(AX) 전략을 추진하고 있음.",
-    "summaryScore": 82,
-    "dailyVelocity": 0.3,
-    "velocityReason": "AI 하드웨어 및 인프라 중심의 생태계 확장과 전문 인력 확보가 가속화되고 있으나, 직접적인 대규모 직무 대체보다는 인력 수요 창출에 집중된 동향임.",
-    "cumulativeRiskScore": 52.2,
-    "jobRiskScore": 52.2,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 인프라 반도체 수요 폭발",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 전문 인력 유치 및 양성 확대",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "지역 기반 AI 인재 양성 및 교육 활성화",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "삼전닉스 급등 이유 있었다…세상 놀라게 한 '괴물 AI' 정체 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBGV3BKaUtwSzVtNHpFazBtVHBhRUtCUGZRVDJFblpsdmR5dG13Wmx2MldLSVVRV0ZIN0FyUFlYRTV3MGJjNlFMa2xBYngwTXlteDlFQ2FKcVlkQQ?oc=5",
-        "pubDate": "Mon, 07 Sep 2026 08:49:04 GMT",
-        "summary": "삼성전자와 SK하이닉스가 차세대 고성능 AI 반도체 시장에서의 경쟁 우위를 바탕으로 가파른 성장세를 보이고 있음. 이는 AI 인프라 구축을 위한 필수 핵심 부품 공급이 전 세계 AI 생태계의 성장을 견인하고 있음을 시사함.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "[단독]\"1인당 15억, 한국 돌아와라\"…AI 인재 귀환 나선 정부 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sa3N5R21oVldVcDZFNXhScXU2VC1GSmNjVU5yRUN4Q2ljSVlxeWs2amFMcWlqY1pYMUNCdjh0d01lTjFtWkd6cno0RUQ5a3lVVnlqYWo2Q0lQbDR0MGUweGpibndEdUHSAWxBVV95cUxNaUJXQml3bEM3R3M2SDg0NlItdmdBNUtzdXhiQUNTTWpCbHVNeDBpSjMtS3YyX0IxTm1OTEttbzRkNWc5cllDdUtSbkwwRUVGbHNPckE3ZGVzM3pSLWxUazRwdV9ZalhxZ2xCNDE?oc=5",
-        "pubDate": "Mon, 07 Sep 2026 06:00:45 GMT",
-        "summary": "정부가 해외에 유출된 한국 출신 AI 전문가들을 국내로 유치하기 위해 대규모 보상과 지원책을 마련함. AI 국가 경쟁력을 결정짓는 핵심 자원인 고급 인재 확보를 위한 총력전이 본격화됨.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[AI프리즘] \"통신사, AI 인프라 사업자로 진화\"…SKT 주목 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zYzM0OXVmM1RjM1ExekN2Z0VJWmVRQWZ4QTdweUpId0RlUzc5QWtxSWlacFUtQVBXS1R1Vzk5SndCejFKN05XRlF6RjZ6Q2c?oc=5",
-        "pubDate": "Mon, 07 Sep 2026 22:01:55 GMT",
-        "summary": "SK텔레콤을 필두로 통신사들이 AI 데이터센터 및 AI 인프라 사업자로의 체질 개선을 공식화함. 단순 네트워크 통신 기업에서 AI 중심의 플랫폼 기업으로 거듭나기 위한 비즈니스 모델 전환이 가속화됨.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "부산시, AI 최고급 신진 연구자 양성 지원…부산대와 협력 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZeHhkcjdwR3AzUHNNd182UGh4anlnRmZ1RVFodktXUmRULVVyRnlJZFYyWUgycmh1T2Fhc1Z6RjZoRy0ySDNoLV95RGFYU2xES1Z2NWhKUlJmamvSAWBBVV95cUxNWUNFRFVDYTRjVkR4M00wbnNpODRPdVM0WGc0LW42c05CM1BES25hVWtZbU9KR1Y5ejJ5MW5kVjdkTHNjOGNMWVJ6SHpoeGs2SldmLVdoaFAwUXBQLW9YVDQ?oc=5",
-        "pubDate": "Mon, 07 Sep 2026 22:59:22 GMT",
-        "summary": "부산시와 부산대가 협력하여 최고급 AI 연구 인력을 육성하기 위한 전문 지원 프로그램을 가동함. 지역 대학과의 연계를 통해 실무 중심의 AI 인재 공급망을 확충하고 지역 기반 산업의 AI 혁신을 도모함.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "강원대, 'AI 미래포럼-지역속으로 강원' 개최…지역 현안 AX 해법 모색 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBSNEVnSHNTVWwtTWk5eGR5enhrb0xOa1ZNYmtQZ0RDTThlOERfNVJKTXJiZ2dRUDRfMk9NQ2FMd3J3UDZzNVhCTVh1MUxaQQ?oc=5",
-        "pubDate": "Mon, 07 Sep 2026 23:10:01 GMT",
-        "summary": "강원대가 주최한 AI 미래포럼을 통해 강원 지역 산업 현안에 대한 AI 기반의 해결책(AX)을 모색함. 지역 사회의 디지털 전환을 위해 학계와 지역 사회가 함께 AI 기술 적용 방안을 논의함.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 2
       }
     ]
   }
