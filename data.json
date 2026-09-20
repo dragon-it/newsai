@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-20T23:47:08.052Z",
+    "reportDate": "2026. 9. 21.",
+    "summary": "- 대규모 투자 및 재무 압박: 오픈AI의 막대한 컴퓨팅 비용과 이를 충당하기 위한 대규모 투자 유치 필요성이 부각되었습니다.\n\n- AI 산업 속도 조절 및 리스크 관리: 앤트로픽의 상장 연기 및 AI 해킹 취약성에 대한 경고가 이어지며, 시장의 속도 조절론이 제기되었습니다.\n\n- 기술 전략 및 사회적 기여: SKT의 AI 사회적 가치 창출과 전문가 포럼을 통한 산업 현장의 AI 전환 전략 논의가 활발히 진행되었습니다.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.2,
+    "velocityReason": "AI 기업들의 재무적 건전성 확보와 기술 리스크 관리가 우선시되면서 단기적인 일자리 대체보다는 산업 안정화에 무게가 실렸기 때문입니다.",
+    "cumulativeRiskScore": 52.6,
+    "jobRiskScore": 52.6,
+    "riskScoreBreakdown": [
+      {
+        "event": "오픈AI 재무 압박 및 컴퓨팅 비용 증가",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 기업의 시장 진입 및 상장 속도 조절",
+        "sign": "+",
+        "impact": 1,
+        "newsIndex": 2
+      },
+      {
+        "event": "기업의 AI 기술 윤리 및 선한 AI 도입",
+        "sign": "--",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "오픈AI 2030년까지 386조 소진… 컴퓨팅 비용 폭증에 투자 유치 압박 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IeHlrdHNyYnQyaFdSNnZHSWFULThQdUdTLTNza3V0SXJyU3lsWXlYeE1UeS1jb3NiSWVqUGxwUEF6SXlGaVlGVHVMelJuU2RaMXFLMHRPSVkxc014SjZvdHIwakhBRW5oZlE?oc=5",
+        "pubDate": "Sun, 20 Sep 2026 01:03:18 GMT",
+        "summary": "오픈AI가 2030년까지 수천억 달러 규모의 컴퓨팅 비용을 지출할 것으로 예상되며 막대한 자금 조달 압박을 받고 있습니다. 지속적인 모델 학습을 위한 인프라 비용 폭증이 경영의 핵심 리스크로 떠올랐습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "'AI 속도조절' 불지른 앤트로픽, 상장 한달 연기 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pNlpYUUowS194Q2d6X3A4Skd1bnFXNm5DUlR4U1VkWVV0QnhUVTQzSWdRUFdaQkY3YlJwWEVUbWg5QlBKZUxGY3cybVFZUW1lOWhUYm94dldsMDl5c0pvQ1Mwc1lsbWh40gFuQVVfeXFMTjUzM3pPRkU3bjgtSGJNdFRQdWlBa1RZMzNDb3l4WHVxaTltdW1zX1NNQlhvYlhWeHZ4TGVBWEZrd3RtekpZUVEzdGlpbVpaaWV0TS1wRzFYUzRnYVl3Rk9zc1VtMlRFNEVCcndLdFE?oc=5",
+        "pubDate": "Sun, 20 Sep 2026 18:48:00 GMT",
+        "summary": "앤트로픽이 기업공개(IPO)를 한 달가량 연기하며 시장 상황을 예의주시하고 있습니다. 최근 AI 업계 전반에서 수익성과 시장 상황을 고려한 '속도 조절론'이 힘을 얻는 추세입니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      },
+      {
+        "title": "무섭네…AI 해킹, 72시간도 안 걸렸다 - magazine.hankyung.com",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wbHFOZkxyUGwwa1dCMU5uQ1dsb0xzbEZpcjhNOTFFWEd5RWJwcWJkM3BPZVE2QndXSEtnaDd3QXRSTWRaSlJCUnhIYmN3akRxTzl4bjZWUnQtUVcyVkp0RHZHcF83cEtyal9sbQ?oc=5",
+        "pubDate": "Sun, 20 Sep 2026 22:20:00 GMT",
+        "summary": "AI 시스템에 대한 해킹 시도가 72시간 내에 성공했다는 연구 결과가 나오며 보안 취약성이 큰 이슈가 되었습니다. AI의 급격한 발전 속도가 보안 인프라 구축의 속도를 앞지르고 있다는 우려가 제기됩니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "하정우, 22일 부산미래경제포럼 강연…AI 전환 주제 발표 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5RXJ1LWJaTy1RYjhCdW4tVFZ2aWR4Sjk1WXBoVFNMNlM3ZXFtU244djc1dXBXQm1YSmVGR3hGcU9YM3VUeFJXeUV1RnZSR2M?oc=5",
+        "pubDate": "Sun, 20 Sep 2026 23:19:55 GMT",
+        "summary": "하정우 소장이 부산미래경제포럼에서 기업들의 AI 전환을 위한 구체적인 전략을 발표할 예정입니다. AI 기술 도입이 산업계 전반의 경쟁력을 어떻게 변화시킬지에 대한 논의가 확대되고 있습니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      },
+      {
+        "title": "SKT, 선한 AI로 지속가능 미래 연결한다 - SK텔레콤 뉴스룸",
+        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE50cUM2aG5rWU1tczdHai1ZZkdKNGVwWEJiN0R3cFpLU0xERUI4ZEFFcEtfNktmYm41Smd4N25naFBHNG9CbTBhcA?oc=5",
+        "pubDate": "Sun, 20 Sep 2026 23:33:46 GMT",
+        "summary": "SK텔레콤이 지속 가능한 사회를 위한 '선한 AI' 개발에 집중하고 있습니다. 기술 개발뿐만 아니라 사회적 가치와 AI 윤리를 결합하여 기업 이미지 제고 및 생태계 확장을 도모하고 있습니다.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-18T23:48:22.549Z",
     "reportDate": "2026. 9. 19.",
     "summary": "- AI 모델 효율성 증대: 구글이 재귀적 자기개선 기술을 도입하여 복잡한 문제 해결 효율을 획기적으로 개선하며 기술 고도화를 이끎.\n\n- 저작권 및 윤리 논란 심화: 오픈AI의 대규모 기사 무단 학습 의혹이 불거지며 AI 학습 데이터 수집의 윤리적 가이드라인에 대한 사회적 비판이 고조됨.\n\n- 군사 AI 리스크 현실화: AI의 허위 보고로 인한 미·중 군사적 충돌 위기 사건이 보도되면서, 자율 무기 체계 및 군사 AI 도입의 안전성에 대한 우려가 확산됨.",
@@ -722,82 +804,6 @@
         "aiImpact": 3,
         "automationPotential": 2,
         "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-08T23:47:16.856Z",
-    "reportDate": "2026. 9. 9.",
-    "summary": "- AI의 과학적 난제 해결 역량 입증: 오픈AI가 7대 수학 난제 중 하나인 나비에-스토크스 방정식의 해법을 88시간 만에 도출하며 고도화된 연산 및 추론 능력 과시.\n\n- 공공 및 사회적 AI 활용 확대: 지방자치단체와 기업 주도의 AI 기반 취업 지원 및 사회 문제 해결형 AI 인재 양성 프로그램이 활발히 운영 중.\n\n- 연구 개발의 패러다임 변화: AI가 순수 과학 및 연구 분야에 직접 개입하여 성과를 내면서, 향후 연구 인력의 역할 재정립 및 자동화 논란 확산.",
-    "summaryScore": 88,
-    "dailyVelocity": 1.2,
-    "velocityReason": "오픈AI의 수학 난제 해결은 고숙련 전문직 연구 분야의 자동화 가능성을 높여 일자리 위험을 완만하게 가속함.",
-    "cumulativeRiskScore": 52.3,
-    "jobRiskScore": 52.3,
-    "riskScoreBreakdown": [
-      {
-        "event": "오픈AI 수학 난제 해결 및 연구 자동화 가속",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 2
-      },
-      {
-        "event": "AI 기반 취업 코칭 및 인재 양성 확산",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "오픈AI ‘AI가 수학 난제 풀었다’…26년 만의 해법에 ‘연구 활용’ 논란도 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TUnZYNkdVVTAxVm9zcnlIZUpUSnVwa0NKMHF6S0ZaTmJpSGRNUUd2VThVTWpjaW1rNU1IUk1YSWlteHE5MC1DU2phWjhmSnM?oc=5",
-        "pubDate": "Tue, 08 Sep 2026 23:24:02 GMT",
-        "summary": "오픈AI가 26년 만에 수학적 난제에 대한 해법을 제시하며 AI의 과학적 추론 역량을 입증했습니다. 이 결과는 학계의 연구 방식에 혁신을 가져올 것으로 기대되나, 동시에 AI의 연구 활용에 대한 논쟁을 야기하고 있습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      },
-      {
-        "title": "오픈AI, 세계 7대 수학 난제 '나비에-스토크스 방정식' 해결 - 파이낸셜뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41VDlpMmp5T3dDQVNnWHdLUFY2ejBDMEtlQWJmOG9fVTNKZFd4allnUHRJUDk2bkYySXNaSjBpd0J5aVk1M0U5Wi02Q1VtQnY0Nm5iMWpyN0tUUQ?oc=5",
-        "pubDate": "Tue, 08 Sep 2026 19:17:33 GMT",
-        "summary": "오픈AI의 모델이 세계 7대 수학 난제 중 하나인 나비에-스토크스 방정식에 대한 새로운 해법을 제시했습니다. 이는 AI가 단순 데이터를 넘어 복잡한 공학적 수식을 이해하고 해결하는 단계에 진입했음을 시사합니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "오픈AI, 세계 7대 수학 난제 ‘나비에-스토크스 방정식’ 88시간 만에 풀어 - 뉴시스",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43WHlrcXFjaThiS3AyaTliMGhQMllQbDR6Wnd5aTJCaWJzdDRUbzhvaFNqVW5YQ0M5a2pud3NKTWR0b1k0S2NEVkdCelBkNHJjQlFIV3JzUU5PRDJER0VEatIBeEFVX3lxTE5EeVVGTGlLQnVyVjJ3b1c1SExPaVJXV3M2ekd3SFNmLUJIZ2xkQjZJa1cxVTBsdWZ1TnlyQ29zdEs4SWw2WDQwQm9iQ2dYTS1CTmYxb0xYRWRWU1puUHVDa2NQM3NXVFZrWDNka01VbzFjc2hkTERZLQ?oc=5",
-        "pubDate": "Tue, 08 Sep 2026 22:27:22 GMT",
-        "summary": "오픈AI가 난제를 해결하는 데 소요된 시간은 불과 88시간이었습니다. 이는 인간 연구자의 시간을 획기적으로 단축할 수 있는 AI의 잠재력을 보여주며, 연구 개발 영역의 자동화 속도를 높이는 계기가 되었습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      },
-      {
-        "title": "관악구, 미취업 청년에 AI 기반 자기소개서 코칭 서비스 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOZWZfVjR2cTAxa2NtMXRBcHM2Y3FsY3VkMUtpX0JaTDRRZjZIcEVzcEhwYkhZaTVTUDB4NWU1Y0pMWmgxcTBpWmU4aTV6NktxWFAwb21hVWRjMmfSAWBBVV95cUxQSzdzbDBDY0JSZHc4bTdHNHVPVGhKXzU1UXJscm1CZzlzbzRuUmNFQVh6R2RCVFZYYlVFdlo1eHQ4R3ZrSnBPTzg4NXJrVlZ4WWdzaUVMUUJ3MWFlb09QLXQ?oc=5",
-        "pubDate": "Tue, 08 Sep 2026 23:14:16 GMT",
-        "summary": "관악구가 미취업 청년들을 대상으로 AI 기반 자기소개서 코칭 서비스를 제공하기 시작했습니다. AI 기술이 공공 영역의 고용 서비스에 접목되어 취업 준비의 효율성을 높이는 사례입니다.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "“AI로 사회 문제를 풀다” FLY AI 챌린저 9기 수료식 현장 - SK텔레콤 뉴스룸",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5xTGJDc0RmSkNxa1Y5OXBuOWVkZUo5bEZSbHN3ZzFrRWFXdXdCVHVYbmwycm9Td1V3Y1h2ZkRFNlFJRTEwWVhjdQ?oc=5",
-        "pubDate": "Tue, 08 Sep 2026 23:31:01 GMT",
-        "summary": "SK텔레콤이 사회 문제 해결을 목표로 하는 AI 인재 양성 프로그램 'FLY AI 챌린저'의 수료식을 개최했습니다. 실무형 인재를 육성하여 사회적 가치를 창출하려는 기업 주도의 기술 생태계 조성 노력이 돋보입니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
       }
     ]
   }
