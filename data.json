@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-22T00:30:06.125Z",
+    "reportDate": "2026. 9. 22.",
+    "summary": "- 인간 관계의 AI 의존 심화: 생성형 AI가 개인 간 메시지 소통에까지 개입하며 인간의 지적 능력과 정서적 교류의 퇴보 가능성이 제기됨.\n\n- AI 하드웨어 시장 본격화: 구글이 퀄컴의 칩을 탑재한 AI 특화 노트북 '구글북' 출시를 통해 AI PC 시장 경쟁에 본격적으로 가세함.\n\n- 국내 기술력의 국제적 성과: ETRI가 국제 AI 교통영상 분석 대회에서 우수한 성적을 거두며 공공 및 사회 안전 분야 AI 기술 고도화 사례를 증명함.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.8,
+    "velocityReason": "AI 전용 하드웨어의 시장 출시와 범용적인 AI 활용이 확산되면서 업무 환경 내 AI 도입 가속화가 완만하게 진행 중임.",
+    "cumulativeRiskScore": 52.7,
+    "jobRiskScore": 52.7,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 기반 의사소통 자동화 확산",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 특화 하드웨어 시장 본격 도입",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "교통 분야 공공 AI 기술 고도화",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "소개팅녀에 “점심 어때요”…이 메시지조차 AI 작품이었다 [창간기획 AI발 인류지능 퇴보] - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wNVlPQWlVcFo4SnZob2NndDlfVE1QSy1HU1JpT1IzUVVhcWkzZVljTE9EUjNBYzRWMjVJTDFubW8yZWRKaENzVWVpNTNFaTNpQjhhbVh3?oc=5",
+        "pubDate": "Mon, 21 Sep 2026 20:00:03 GMT",
+        "summary": "생성형 AI가 인간 사이의 메시지 초안까지 작성해주며 인간 관계의 본질적인 소통 능력이 퇴보할 수 있다는 우려가 제기됨. 편리함 뒤에 숨겨진 인간 지적 능력의 저하 문제가 심도 있게 다뤄짐.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "구글 AI 노트북 '구글북'에 퀄컴 스냅드래곤 X 엘리트 탑재 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9uQlpPWU1XcnRkb3BMZkdOS2xpa3VxNUJIRWFnUk9yWHlwM2ZXUmVRVVZ6NmxQYWluT21rV1BOZm1MckFjQm5tQm1qakFSV3dxeEFWWThMaVI2ZGFIaFl3MEtIMkR2ZDjSAWxBVV95cUxPSjlyM0tJdGlGZmY3YUFfR3pnUjVuWmJiLW5NMWlKQkdkR3ZsSVJpUXhLU1duRHpYM3E2LVVDM3YzUFlDdXQ4bFRrSW1lOFdGQi1Tck0zbS1nNDRvdW4zcGVUN3lOMDA2VEw4V3E?oc=5",
+        "pubDate": "Tue, 22 Sep 2026 00:16:31 GMT",
+        "summary": "구글의 차세대 AI 노트북인 '구글북'에 퀄컴 스냅드래곤 X 엘리트 칩셋이 탑재될 예정임. 고성능 하드웨어 결합을 통해 온디바이스 AI 경쟁력이 한층 강화될 것으로 전망됨.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "구글, AI 특화 노트북 '구글북' 내달 정식 출시...시작가 899달러 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a0t0TVhuV1Zja1VtdUQ2REpPODZWRV9ESTFRZVVhd283d0xZTXdJNDFSeTRZMWNuM1hGZ2pFM3lHX0JuVl92YkNKLWVLcWl2TGZYQ0p3?oc=5",
+        "pubDate": "Mon, 21 Sep 2026 23:40:18 GMT",
+        "summary": "구글이 AI 기능에 최적화된 노트북 '구글북'을 다음 달 899달러의 시작가로 정식 출시함. 대중적인 가격대를 통해 AI 하드웨어의 실질적인 보급을 노리고 있음.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "구글, AI 특화 노트북 '구글북' 내달 정식 출시...시작가 899달러 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DS2dab2Q1TnNyWGx2dWVsMGQwT2piUjlEZDZCY25wZ1NiazBtZzlwWXVIeHE4M0dINXRIZnFRTEtTbHVQYUxYaWFPQk11RjQ?oc=5",
+        "pubDate": "Mon, 21 Sep 2026 23:41:00 GMT",
+        "summary": "구글북 출시와 관련하여 하드웨어 성능과 가격 정보가 주요 경제 미디어들을 통해 재차 강조됨. 온디바이스 AI 시장의 생태계 변화에 대한 시장의 높은 관심을 반영함.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "ETRI, AI 교통영상 분석 국제대회서 2개 부문 1·2위 차지 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9sQVhyMWZvTmJyRkR1dFRZVlZzb011cmxtWDMwelA5WkJsdU1nbjRBQ1dXV3NpRGxBMnFDTFhFLUZUM1ByVUsta0VveWxXUTg?oc=5",
+        "pubDate": "Tue, 22 Sep 2026 00:01:00 GMT",
+        "summary": "한국전자통신연구원(ETRI)이 국제 AI 교통영상 분석 대회에서 2개 부문 1, 2위를 차지하는 성과를 거둠. 공공 부문에서의 AI 영상 분석 기술력이 실시간 감시 및 교통 체계 고도화에 핵심적인 역할을 할 것으로 보임.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-20T23:47:08.052Z",
     "reportDate": "2026. 9. 21.",
     "summary": "- 대규모 투자 및 재무 압박: 오픈AI의 막대한 컴퓨팅 비용과 이를 충당하기 위한 대규모 투자 유치 필요성이 부각되었습니다.\n\n- AI 산업 속도 조절 및 리스크 관리: 앤트로픽의 상장 연기 및 AI 해킹 취약성에 대한 경고가 이어지며, 시장의 속도 조절론이 제기되었습니다.\n\n- 기술 전략 및 사회적 기여: SKT의 AI 사회적 가치 창출과 전문가 포럼을 통한 산업 현장의 AI 전환 전략 논의가 활발히 진행되었습니다.",
@@ -722,88 +804,6 @@
         "aiImpact": 4,
         "automationPotential": 3,
         "investmentImpact": 5
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-09T23:45:55.001Z",
-    "reportDate": "2026. 9. 10.",
-    "summary": "- AI 안전성 및 실존적 위협 경고: 앤트로픽 핵심 연구원들이 AI의 통제 불가능성과 인류에 대한 잠재적 위험을 경고하며 연이어 퇴사함.\n\n- 기술적 난제 해결 가속화: 오픈AI가 90년간 미해결 상태였던 수학 난제를 88시간 만에 해결하며 AI의 추론 및 문제 해결 능력의 비약적 발전을 증명함.\n\n- 인재 유출 및 산업계 동요: 2,000억 원의 연봉 제안에도 연구자들이 빅테크를 이탈하는 현상이 심화되며, AI 산업 내 인적 자원 경쟁과 가치관 갈등이 극에 달함.",
-    "summaryScore": 90,
-    "dailyVelocity": 1.2,
-    "velocityReason": "AI의 추론 능력이 비약적으로 향상되며 고숙련 전문가 영역인 수학 난제 해결이 입증된 것이 개발 및 연구 직무의 변화 속도를 높임.",
-    "cumulativeRiskScore": 52.4,
-    "jobRiskScore": 52.4,
-    "riskScoreBreakdown": [
-      {
-        "event": "오픈AI 수학 난제 해결",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 4
-      },
-      {
-        "event": "앤트로픽 연구원들의 안전성 경고",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 1
-      },
-      {
-        "event": "빅테크 핵심 인재 유출",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "“내년 말 AI 통제 불능 된다”…앤트로픽 연구원, 퇴사하며 경고 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04Z1prWTM0QXJtd1NWNVpKeXhtbEtRUHlPSFVqaVpQVlNnQWRORUNab25GWm1hdHlWa0FSUXhabHVLMGQ2eElZMmI5OFY1WVk?oc=5",
-        "pubDate": "Wed, 09 Sep 2026 13:36:50 GMT",
-        "summary": "앤트로픽 소속 연구원이 AI가 내년 말 통제 불가능한 수준에 이를 수 있다고 경고하며 사임함. AI 안전성 문제에 대한 내부적 갈등이 외부로 표출된 사례임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "“AI가 10년 내 모두 죽일 수도” 앤트로픽 연구원 퇴사하며 경고 - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQajBRRWx3S0JmQUtjblVLamxXRUo3cm5NaVo0VERMUENad19xT3ZkT0MwQTB2MEVHMWxwd0xONm53ZVhlSHdjWWlWOHdzR2hPR2VOSzQ1N2hqV3JQRmRBemF0bmNPUXhodmJEZXBzeUFEWERYVy1xU2xYTEU5SXZQYU53?oc=5",
-        "pubDate": "Wed, 09 Sep 2026 12:12:00 GMT",
-        "summary": "AI의 급격한 발전이 10년 내 인류에게 치명적인 위험이 될 수 있다는 연구원의 주장이 재조명됨. 안전한 AI 개발을 향한 철학적·윤리적 논쟁이 심화되는 양상임.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "\"AI, 내년 말 통제 불가능\" 사표 던진 앤트로픽 연구원...'인류 멸망' 경고 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YMWg1aDk0aUNWTEpWZHVON0R6MnhqeVlkNjhBWTZGa1dtQktpbVdVa294eDd5dmd1blprRjVqWnkzRVc3cmRTVzZnMHZvXzNRTUpjb0Z5dEtGSEt0dl9Id04tLVZGclRq0gFuQVVfeXFMT0VNay1DTzBlUmRVNVlSOUpSQ2hpbmJDa0hveTNqMG5LTnYycTExLTFXa1l2YU1KYVkzRVFvazdIRHJnRnNFT3FOQ3p5LVVFb3F5LVV3QmU3eGdUalFJTzlVQ0FGSXQyME1ZS05DZ2c?oc=5",
-        "pubDate": "Wed, 09 Sep 2026 22:35:32 GMT",
-        "summary": "인류 멸망 가능성까지 언급하며 앤트로픽 연구원이 퇴사한 사건이 업계에 큰 파장을 일으킴. AI의 고도화가 가져올 사회적 위험에 대한 경각심이 최고조에 달함.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "90년간 풀지 못한 ‘수학 난제’…오픈AI “88시간 만에 풀었다” - 중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DVDAtdEdXOGhNMXA3WXljVS1yc29GQ3BETFJSWTFKVlRBaV9VOEx3NkpsNnlHSlJ2N0JpYVNaTUFtek5IUWJMV0gtVWlQSGZlVW5kbVp3?oc=5",
-        "pubDate": "Tue, 08 Sep 2026 23:41:08 GMT",
-        "summary": "오픈AI가 90년간 미해결 상태였던 수학적 난제를 단 88시간 만에 해결함. AI의 논리적 추론 능력이 인간의 학문적 성취를 앞설 수 있음을 증명한 사례임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "2000억원 연봉 제안도 못 붙잡았다…AI 스타 연구자들, 빅테크 잇단 이탈 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpcXBNV2F6ZV9IekhEa2dkbE9ZTTRNRjl0c05pOU5udXpBeTlqZHlxOHIyQ1MyWVNVS1RBVllQTktRdG5OWUpBOGV0NVBkR3M?oc=5",
-        "pubDate": "Wed, 09 Sep 2026 23:12:42 GMT",
-        "summary": "천문학적인 연봉을 포기하고 빅테크를 떠나는 AI 연구자들이 늘고 있음. 인재를 둘러싼 시장의 경쟁이 격화되는 동시에, 안전성 문제를 중시하는 인력들의 이탈이 가속화됨.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
       }
     ]
   }
