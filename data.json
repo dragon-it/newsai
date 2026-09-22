@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-22T23:57:26.941Z",
+    "reportDate": "2026. 9. 23.",
+    "summary": "- 메타의 AI 성능 경쟁력 강화: 메타가 자사 AI 서비스의 흥행으로 기술적 위기론을 불식시키고 주가 급등을 견인하며 시장의 신뢰를 회복함.\n\n- AI 기술 확산과 신뢰성 논란: '뮤즈(Muse)' 모델 등 고성능 AI의 산업적 파급력이 커지는 한편, 데이터 보안과 신뢰성 문제로 인한 기업 간 사용 제한 등 부작용도 동시에 표출됨.\n\n- 국가적 AI 경쟁력 확보 전략: 국내외 정부 및 산업계가 AI 메가프로젝트를 통해 미래 산업 생태계를 구축하고, 기술 기반의 혁신을 가속화하려는 움직임이 뚜렷함.",
+    "summaryScore": 88,
+    "dailyVelocity": 1.2,
+    "velocityReason": "메타의 신규 AI 모델 흥행으로 인해 산업 전반의 자동화 기대감이 상승하며 기술 도입 속도가 빨라짐.",
+    "cumulativeRiskScore": 52.8,
+    "jobRiskScore": 52.8,
+    "riskScoreBreakdown": [
+      {
+        "event": "메타 AI 성능 향상 및 시장 점유 확대",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 확산에 따른 데이터 보안 및 기업 내 접속 차단",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 3
+      },
+      {
+        "event": "국가 단위 AI 메가프로젝트 추진",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "메타의 AI 비서, 챗GPT도 제쳐... 주가 11% 급등 ‘위기론’ 날렸다 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONXdCQkJPOWlPRktyRnFhTk1vQ2t1WjNJcjJKcmFfelR3MkQzdV9sTTBoeGFLQnhIY3FRNGJ2R2pCODhTVnZmOUNKUDN0azA2dWxNX09hRzZ5d3pfQjlndUtKZ1MtZGlLcnN3VGwtNVFRc0wxd1B1UGF2LXJtd1FLcC1Ydw?oc=5",
+        "pubDate": "Tue, 22 Sep 2026 08:14:19 GMT",
+        "summary": "메타의 AI 비서 서비스가 챗GPT를 앞서는 성능과 사용자 반응을 이끌어내며 시장의 우려를 잠재웠다. 이에 힘입어 메타의 주가가 11% 급등하는 등 기술 경쟁력 확보가 시장의 핵심 지표로 부상했다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 3,
+        "investmentImpact": 5
+      },
+      {
+        "title": "메타의 뮤즈 효과, AI의 산업 파괴론 재등장…반도체주는 상승 - 머니투데이 - mt.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxWnlLaHNDb0E0Q3NrRmlkR0ptb05nRTc1dEFIa0NMZFhyMExENkM3NG9ieXFYcXI1TDFVN1Ixc05PampYdHBmX1lSelluM3JndVNhUkdhQWU2LWg5NEtSejc0ZzUxdGFi0gFuQVVfeXFMT215YklLOXRmRGdCTnhOV2VJamJNV3NkZ2JjQjJXbVhrWThiWGI5djQtOGxpcmhxQk56bmhwNWdoSTk0bFEtbThtU3BRR0k5c2hzQU8wX1JhRThPNE16dTRLMV9sRjFDdEhmQmNZZXc?oc=5",
+        "pubDate": "Tue, 22 Sep 2026 23:21:49 GMT",
+        "summary": "메타의 기술적 성과가 AI 산업 전반에 걸친 파괴적 변화를 예고하며 투자 심리를 자극하고 있다. 특히 AI 연관 반도체 분야가 이러한 기술 혁신의 직접적인 수혜를 입으며 시장 강세를 보이고 있다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "메타, 뮤즈 AI 인기 폭발에도 '신뢰' 문제…아마존, 접속 차단 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TNFFfcnd2TkFOT2tJeEsyZkhCU1JUNWp4Rks5Yk9EcW8zOGtfZXU5UlhyeElENnVRa1VpNy1ZOXR5T3A4YS1CTFctblVXeThsbTlVZFUtZjRnZw?oc=5",
+        "pubDate": "Tue, 22 Sep 2026 11:57:42 GMT",
+        "summary": "메타의 AI 서비스가 대중적 인기를 얻고 있으나, 데이터 신뢰성과 보안 문제가 제기되면서 일부 기업들이 접속을 차단하고 나섰다. AI 도입 과정에서 기술적 성능과 보안 사이의 균형이 주요 과제로 부상했다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "모두의 AI, 현실이 되다…'AI페스타' 1년만에 확 달라진다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04WmhPdnRyOE9WQ3hfOVNxTXdOdGEtdy1qeTF5bTZzYUZNVzU1Y3k5cnpfZmVEaVc2Q183M0k0QU1YYnNNUUM4b3E2SkYzNWxZZUcyN2hn?oc=5",
+        "pubDate": "Tue, 22 Sep 2026 23:20:55 GMT",
+        "summary": "국내 AI 축제 및 행사들이 더욱 실용적이고 기술 중심적인 형태로 변모하며 산업 현장의 적용 사례를 확대하고 있다. AI가 실험실 수준을 넘어 실질적인 비즈니스 솔루션으로 자리 잡고 있음을 시사한다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "3대 메가프로젝트와 AI로 미래를 힘차게! - 전체 | 카드/한컷 - 정책브리핑",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa3RObVVJaXJlWWp5clEwcklkZnhtWWU4RThlYzdWejlqOWF0elFLTmJiTGp5UmRhZGlZSVNuakF1bUJqcmFPZjFUR3FkWXZkUVlhR2dlLVhYY1dHUWZpSHFXR1FkZllsU3F4R3VfdnNsSHphbTIyMmxLb0hQQjNtVHlpbTJUU3NtWXZR?oc=5",
+        "pubDate": "Tue, 22 Sep 2026 23:30:05 GMT",
+        "summary": "정부가 주도하는 AI 메가프로젝트를 통해 미래 경쟁력 확보를 위한 전방위적 지원이 이루어지고 있다. 이는 국가 차원에서 AI 기술을 차세대 성장 동력으로 삼겠다는 의지를 보여준다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-22T00:30:06.125Z",
     "reportDate": "2026. 9. 22.",
     "summary": "- 인간 관계의 AI 의존 심화: 생성형 AI가 개인 간 메시지 소통에까지 개입하며 인간의 지적 능력과 정서적 교류의 퇴보 가능성이 제기됨.\n\n- AI 하드웨어 시장 본격화: 구글이 퀄컴의 칩을 탑재한 AI 특화 노트북 '구글북' 출시를 통해 AI PC 시장 경쟁에 본격적으로 가세함.\n\n- 국내 기술력의 국제적 성과: ETRI가 국제 AI 교통영상 분석 대회에서 우수한 성적을 거두며 공공 및 사회 안전 분야 AI 기술 고도화 사례를 증명함.",
@@ -728,82 +810,6 @@
         "aiImpact": 2,
         "automationPotential": 3,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-11T23:48:05.759Z",
-    "reportDate": "2026. 9. 12.",
-    "summary": "- 사이버 보안 시장의 급부상: 젠슨 황 엔비디아 CEO를 필두로 AI의 차세대 핵심 적용 분야로 사이버 보안이 지목되며 관련 산업의 중요성이 크게 대두됨.\n\n- 기술 고도화 및 협력 강화: 네이버와 LG 등 국내외 주요 기업들이 보안 특화 AI 개발에 착수하며 글로벌 경쟁력 확보를 위한 기술적 연합이 활발함.\n\n- AI 투자의 질적 변화: AI가 가져올 공포를 혁신의 기회로 전환하는 전략적 관점이 확산 중이며, 스타트업을 중심으로 AI 생태계에 천문학적인 규모의 자본이 유입되고 있음.",
-    "summaryScore": 88,
-    "dailyVelocity": 1.2,
-    "velocityReason": "사이버 보안 분야에 AI 도입이 본격화되면서 보안 전문가 및 IT 인프라 관리 직무의 AI 자동화 속도가 완만하게 가속됨.",
-    "cumulativeRiskScore": 52.5,
-    "jobRiskScore": 52.5,
-    "riskScoreBreakdown": [
-      {
-        "event": "사이버 보안 특화 AI 개발 본격화",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 4
-      },
-      {
-        "event": "AI 생태계로의 대규모 자본 유입",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "젠슨 황 예언했다…“AI 다음 적용분야는 ‘사이버 보안’일 것” - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1LR2RQRlM2OEtKb2Y0dE1RODZyYWhqQmZPYWZhLXBFSFJISTVuQVhxQ1VKLVFlbF91UXFfNDB1a210RVlodE1HMVRLNDlUeEk?oc=5",
-        "pubDate": "Fri, 11 Sep 2026 01:23:50 GMT",
-        "summary": "젠슨 황 엔비디아 CEO가 차세대 AI 기술의 주요 적용 분야로 사이버 보안을 지목함. AI 인프라 확장을 넘어 보안 솔루션으로의 시장 확장이 예견됨.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 5
-      },
-      {
-        "title": "AI 공포 퍼지는 와중에···젠슨 황이 콕 집은 다음 ‘거대 시장’은 “사이버 보안” - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WejlwaXB4Yl8zVl82ck9qOHhiMThUd1VQUlBITHlSTm0yUzNfY0Utb21VSW5HN1ozWF9pYlFGUkZuc2g0a0RxdlNINkE4WlAtZUNNR3Y3WWRZQdIBX0FVX3lxTE4ydzc4a3R3c1hoUTIwWmdaY21qV1A0aHdKZDVjUF9zQ3hmSENCZ2w0VlJ1RVJZbnlRWDh5WXVIOUg5OTFCTF9YbUNDanM2OWdJV0dZaFpnQUJ5ZEpoSkVR?oc=5",
-        "pubDate": "Fri, 11 Sep 2026 04:05:00 GMT",
-        "summary": "AI가 가진 잠재적 위협과 보안 요구사항이 커짐에 따라 사이버 보안이 AI의 거대 시장으로 부상함. 기업들의 보안 강화 필요성이 투자로 이어지는 양상임.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"AI가 인간 죽일 수도\" 경고에 젠슨 황 \"공포가 수요 만든다\" - 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvX0hZSHQxNFJRNkk5MENLd011WDBmLVVrZkM0X0l4X1FLQ3JsWDJKaU5yTXpGQjBLRkp3dWdxV1lrakwxREhZbHFaQ0VTN0xPeV9SbV81dDFwX1luUDVILTdHX0ZjQ1nSAWxBVV95cUxOWkxEZjVrX21XM3BOenhDRl82XzJJbUFWT3dYRFUzUWNWZnhyS3c3RDMwSzE5WDlpRVVHRUhEd0tlSjdpXzVIRGRNR0szejJOMDNXcXU1R0R2WEJ6czZyLXp0MkdOMkZyRzFpZGE?oc=5",
-        "pubDate": "Fri, 11 Sep 2026 23:06:54 GMT",
-        "summary": "AI 위험성에 대한 경고가 단순한 공포를 넘어 산업 현장의 기술적 수요를 자극하고 있음. 젠슨 황은 이러한 공포가 오히려 보안 솔루션 혁신을 가속화한다고 분석함.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "네이버-LG, 18일 보안 특화 AI 개발 착수…“세계 1위 도전” - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9CWi16VjRBUFI2cXdaTzkwR05vM1NqNmJib2NyNjRFdk1xaEF0NFRNTXMtNFpJUFRaX19sZnliS3pHN21PMENYTXRwZWVsUQ?oc=5",
-        "pubDate": "Thu, 10 Sep 2026 21:00:00 GMT",
-        "summary": "네이버와 LG가 협력하여 보안 특화 AI 개발에 착수함. 세계 시장 경쟁력을 목표로 기업용 데이터 보안 강화 솔루션을 고도화할 계획임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "'못할게 뭐있어' AI가 바꾼 스타트업 투자공식, '24년 이후 200조 몰려 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04UGdPYnd5Q183emszOG5GSjFPWkVneXlHRGhNZHk4NGYxMDhEa1BXYnZYZDA1Z09ySmFZUms3eVhLd0RLNHVQQm5HUHliSWFiTlc4dEVZWUZWQUx2QTdiOExhaW1TSXRJ0gFuQVVfeXFMT3VTQWNEOEduZFJkLXRYMmRFVTkwUk9LRGFmZ1E2TWdLbmozQ2oySktsNl9ZX3BncnBUUjlLZ2txd2tYS3NscWlVd0FNMDFnMHNaZDVraXVaRkwwbzNSaGhZbVUyRmRYVElJRFdwcnc?oc=5",
-        "pubDate": "Fri, 11 Sep 2026 22:10:00 GMT",
-        "summary": "AI가 스타트업의 투자 공식을 완전히 바꾸며 2024년 이후 수백 조 원 규모의 자금이 집중되고 있음. AI 도입은 이제 선택이 아닌 기업 생존을 위한 필수 전략이 됨.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 5
       }
     ]
   }
