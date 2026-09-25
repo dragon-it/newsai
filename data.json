@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-25T00:12:24.443Z",
+    "reportDate": "2026. 9. 25.",
+    "summary": "- AI 거버넌스 및 정책 방향성: 트럼프 대통령의 규제 완화 기조와 시진핑 주석의 인간 통제 강조 등 AI 정책을 둘러싼 미·중 양국의 뚜렷한 온도 차가 확인됨.\n\n- AI 안전성 논의: 오픈AI와 앤트로픽 등 주요 AI 기업들이 UN에서 AI의 인간 통제 상실 가능성을 경고하며 안전 가드레일 마련의 필요성을 강력히 제기함.\n\n- 시장 성장세 지속: AI 및 반도체 관련 ETF의 순자산이 65조 원을 돌파하는 등 인프라 분야에 대한 투자자들의 신뢰와 자금 유입이 지속적으로 확대됨.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.2,
+    "velocityReason": "AI 정책 및 규제 논의가 주를 이루었으나, 실질적인 자동화 기술 상용화 발표보다는 국제적 거버넌스 협력 논의가 중심이 되어 속도가 완만하게 유지됨.",
+    "cumulativeRiskScore": 52.9,
+    "jobRiskScore": 52.9,
+    "riskScoreBreakdown": [
+      {
+        "event": "트럼프의 AI 규제 완화 기조",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 기업의 인간 통제 상실 경고",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      },
+      {
+        "event": "미중 AI 협력 가능성 논의",
+        "sign": "+",
+        "impact": 1,
+        "newsIndex": 3
+      }
+    ],
+    "news": [
+      {
+        "title": "트럼프 \"AI 규제 더 안 한다\"… 시진핑 \"인간이 통제해야\" - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOVcwU2VTRTJwbmwxOFJ1MTZGNUhjSjQ5S0xwSHBnbzhXSWVFc1NzbTdzdEVSVDJzZUQ4MU9mTGxJWEcyQXR2MVJBa1RsWkhHX2ZybHBBemNVTnE1eGFwWFY2Mmd3UUt5ZGxxcG9lS3o0LVR6WlZFdzN5NmVxV0dxRWpRTWpacF9HRk9XOGxqdjhmaTN0WWNFZll6eHRzUQ?oc=5",
+        "pubDate": "Thu, 24 Sep 2026 19:05:00 GMT",
+        "summary": "도널드 트럼프 대통령이 AI 규제 철폐를 예고한 반면, 시진핑 주석은 AI에 대한 인간의 통제권 유지를 강조하며 상반된 입장을 보였습니다. 이는 향후 글로벌 AI 패권 경쟁에서 규제 환경이 국가별로 다르게 전개될 것임을 시사합니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "미중 정상회담 종료...AI 규제 온도차 - YTN",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1STzB2cDhYNlI4Zng5MURMVGNUUjh2TS1ORW4zbUhlS0tsTU11TTYzem41WXctbkpUdzYtNE1NVHljRm10dllDbmlVbk1qcWNFYnNReWhlMzkzR1J5anc?oc=5",
+        "pubDate": "Thu, 24 Sep 2026 18:56:00 GMT",
+        "summary": "미·중 정상회담에서 AI 규제에 대한 양국 간의 온도 차가 재확인되었습니다. 양국은 AI 안전성 문제에 대해 서로 다른 우선순위를 두고 있어 국제적 공조에 난항이 예상됩니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "시진핑 \"美, 대만독립 반대해야\"…트럼프와 AI 협력엔 한목소리 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4weEdKRXkzdkE2ZnduM2dYaDdPMDJXNWpwdmNRUkRvRzE2cHVYX0NNOTNuVTcyRFVsZnBNeUlWVkVTTEdER1JSazBMNmhCWWVtTWFodGE4aVp0emdSdjUyLXNQcmozS3Zs0gFuQVVfeXFMT0FReEdVZDQ2WXE5OUdEbmF4dUs4ODNMOGFONTF4T2tNcDBobDl2ejVZNWhCa1FneE0xS0RzbjMwQkRqWDhWQUZUTXN6YlJkcGRra1JKejRpcm5RTVo2dXRmWjQwZGREdkRJWDU4MVE?oc=5",
+        "pubDate": "Thu, 24 Sep 2026 22:24:34 GMT",
+        "summary": "시진핑 주석은 대만 문제 등 핵심 사안에서 미국과 대립각을 세우면서도, AI 분야의 협력 가능성에 대해서는 긍정적인 입장을 취했습니다. 이는 AI 기술이 외교적 협상의 중요한 카드로 부상했음을 보여줍니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "오픈AI·앤트로픽, UN서 'AI 인간 통제 상실' 경고…美는 규제 반대 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yc2o2Q0sxbXNQeXlYeHNQNTNSSHJENWhGamxsclozVzAxSE5PZnBtVkxxNmpmeWxyckhBa1ZWQW0zQnNhWnk2OUc4TUtUdw?oc=5",
+        "pubDate": "Thu, 24 Sep 2026 04:45:32 GMT",
+        "summary": "오픈AI와 앤트로픽이 UN에서 AI 기술의 통제 불능 위험을 경고하며 안전망 구축을 촉구했습니다. 반면 미국 정부는 지나친 규제가 혁신을 저해할 수 있다며 신중한 입장을 보이고 있습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "AI·반도체 ETF, '투자 필수템' 됐다…순자산 65조 돌파 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9INzB3c2k1cWtRVXcwTW8yY3cxanQzNXVRV0d2V1ZSOWdxcTltbmk3QmRGOGpnVThkTXlUQ3BWeTNtRTM4MkZ4V0V0b1hZOTRoTW5xTUFFU3pDOVpwM0ozemQ2OVFuSDRj0gFuQVVfeXFMTk1nNUcxdlhzUHBuaVNaUEsycC1mNGZzM05KeWRtcWZaVFBtWlA3dENDSy1EUjk1WWEwdVFPcnBnY1NEa182UWkyZ180SHRwMlU3VU1GRVlBWjNCODNtd0ZQaGJYa00xMkJSVEJ6YWc?oc=5",
+        "pubDate": "Thu, 24 Sep 2026 23:41:00 GMT",
+        "summary": "AI 및 반도체 관련 ETF의 순자산 규모가 65조 원을 돌파하며 시장의 견고한 투자 수요를 증명했습니다. AI 생태계 성장에 따른 인프라 기업들의 가치가 지속적으로 상승하고 있습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-24T00:10:50.290Z",
     "reportDate": "2026. 9. 24.",
     "summary": "- 맞춤형 AI 광고 고도화: 개인 정보 및 시청 습관을 분석한 정교한 타겟 광고가 공공장소까지 확산되면서 프라이버시 이슈가 대두되고 있음.\n\n- AI 모델 가성비 경쟁 가속: 앤트로픽과 오픈AI를 중심으로 고성능 모델의 경량화 및 비용 효율화 경쟁이 심화되며 시장 진입 장벽이 낮아지고 있음.\n\n- AI 교육 투자 확대 및 사회적 책임: 통신사와 글로벌 빅테크 기업들이 AI 교육 인프라에 대규모 자본을 투입하며 AI 리터러시 강화에 나서고 있음.\n\n- AI 역기능 대응 강화: 로맨스 사기 등 AI를 악용한 사회적 범죄 사례가 구체화됨에 따라 기술적 방어와 안전한 생태계 구축이 주요 화두로 부상함.",
@@ -728,88 +810,6 @@
         "aiImpact": 4,
         "automationPotential": 5,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-14T08:42:58.744Z",
-    "reportDate": "2026. 9. 14.",
-    "summary": "- AI 개발 속도와 안전성 간의 정치적·기술적 갈등이 심화되고 있습니다. 도널드 트럼프를 필두로 한 미국 정계는 중국과의 기술 패권 경쟁에서 우위를 점하기 위해 AI 개발 가속화를 주장하고 있습니다.\n\n- 기술 업계에서는 상충하는 입장이 나타나고 있습니다. 일부 주요 AI 기업 리더들이 안전을 이유로 속도 조절을 권고하는 반면, 국가 전략적 관점에서는 기술 개발의 병목 현상을 경계하는 분위기가 지배적입니다.\n\n- 글로벌 경쟁 구도 속에서 중국 또한 오픈소스 동맹 등을 활용하여 기술 추격을 가속화하고 있어, AI 패권 경쟁이 국가 안보의 핵심 의제로 부상했습니다.",
-    "summaryScore": 88,
-    "dailyVelocity": 0.2,
-    "velocityReason": "정치권의 AI 경쟁 가속화 강조와 업계의 안전 논의가 상충하며, 직접적인 자동화 기술 공개보다는 정책적 담론 위주로 전개되어 일자리 위험 가속도가 낮게 유지되었습니다.",
-    "cumulativeRiskScore": 52.5,
-    "jobRiskScore": 52.5,
-    "riskScoreBreakdown": [
-      {
-        "event": "트럼프의 AI 속도조절론 일축 및 경쟁 우위 강조",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "AI 주요 기업 리더들의 속도 조절 제언",
-        "sign": " - ",
-        "impact": 2,
-        "newsIndex": 4
-      },
-      {
-        "event": "미-중 기술 패권 경쟁 심화",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "AI 위험론 정치권까지 번졌다…트럼프 '경쟁' vs 오바마 '안전' - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mbmtoYnZISEtXWjVDLUtxZVZWZGFLTXlXSGlZNUNLZkZyT0Y0YU5xT29rdTFuT0U1Snp0aHo4T2xwTEJuVWJSOHE3NG8zTU9iTk1uWGdB?oc=5",
-        "pubDate": "Mon, 14 Sep 2026 07:51:19 GMT",
-        "summary": "트럼프와 오바마 등 미국 정계 인물들이 AI의 속도와 안전성을 두고 서로 다른 관점을 보이고 있습니다. 이는 AI 기술이 단순한 산업 이슈를 넘어 국가적 정치 의제로 변모했음을 시사합니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "트럼프, AI 속도조절론에 \"부정적 세력…AI경쟁 승리방식 유지\"(종합) - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5vaTd0dHJSYk5NVmFqT0dQck8xRjJLMDM4ZmNyNmJpSTIyMC1tTzd3UUd5bk9SOE9vODU3bmwtVkx4Zkk1SG5Gb01qU0tDSy1wUTdNRFBhdUZkRzjSAWBBVV95cUxPQWdMU0hOY0otdHpuZUVFQXExM0ExNkYwbUxlanR3c21LdElRcGRWOFQzOVZjNzdiQmZmLVV1SWVUajhycFVEUGVUT1duWjgzYVduR2RDbkF2bmtHd2lOS0Q?oc=5",
-        "pubDate": "Sun, 13 Sep 2026 16:53:37 GMT",
-        "summary": "트럼프 전 대통령은 AI 개발 속도 조절론에 대해 부정적인 입장을 표하며, 중국과의 경쟁에서 우위를 점하기 위한 공격적인 기술 개발 유지를 주장했습니다. 그는 기술적 잠재력을 극대화하는 것이 국가 전략의 핵심임을 재확인했습니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "트럼프 “AI, 中에 앞서야” 속도조절론 일축…시진핑도 ‘오픈소스 동맹’ 가속 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9neFRUNmN1Mm1YV2szZE4zRndVeUlUUXp2YkpvUWh2dndxQUp4dTdVMGRVXzJWQlhLODN0UlF6Y3MyU3VZX2NVcmRqQkxyLUU?oc=5",
-        "pubDate": "Mon, 14 Sep 2026 06:56:00 GMT",
-        "summary": "미국은 중국의 기술 추격을 경계하며 AI 개발의 우위를 강조하고 있고, 중국은 이에 대응해 오픈소스 동맹을 가속화하고 있습니다. 양국 간의 기술 패권 다툼이 글로벌 AI 산업의 향방을 결정짓고 있습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "AI 4대 수장 \"속도 늦춰야\"…경쟁사끼리 이례적 한목소리 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QZXJLbFpUVzZWaG9WNVBWYmpaZ1dnWEMtb3lOaURkY0hJbEl2cTZvNjJHZzBjUGg3Ylg0Ujk1bVdrdGdQbzNjU0lxWjV3aGt0TlZlb0h6bmo5NzDSAWBBVV95cUxPUW1TaktyVTFMVFc5THRadnJIMVBJMzVDcWxvZTBhbVNqS2JkVU0wbTc5NmtrbWJkQ1EzYTFSZVNBMkdMRF9MU1RtVklhVDl6R0ZwWVpFLXZrdldGTF9hNVk?oc=5",
-        "pubDate": "Sun, 13 Sep 2026 22:55:43 GMT",
-        "summary": "주요 AI 기업의 수장들이 안전성을 이유로 개발 속도 조절의 필요성을 언급하며 이례적으로 목소리를 모았습니다. 경쟁사들 간의 이러한 연대는 AI 안전 확보가 단기적인 상업성보다 중요해졌음을 방증합니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "“그러다 중국이 앞서가면요?”…‘AI 개발 늦추자’는 아모데이 답변은 [이런뉴스] - KBS 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBfTFh2VVphYVVRdFBCV2paY3ltQ1RSelpnaktLXzBFeHZpVmJXOUw3SWVSM1Q2cmwxYTMybE53ZFVFQm9ZSDdHbDVkVV9obEhiUllpX2VRYWJvdHc?oc=5",
-        "pubDate": "Sun, 13 Sep 2026 21:05:00 GMT",
-        "summary": "앤스로픽의 아모데이 등 AI 리더들이 중국의 기술 격차 우려에 대해 답변하며 개발 속도 조절의 정당성을 설명했습니다. 안전한 기술 성장을 위한 담론이 업계 내에서 구체적으로 진행되고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 2
       }
     ]
   }
