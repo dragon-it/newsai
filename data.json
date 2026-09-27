@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-27T00:06:30.004Z",
+    "reportDate": "2026. 9. 27.",
+    "summary": "- 신규 모델 개발 및 확장: 오픈AI가 차세대 모델 'GPT-6 사이버'를 통해 API를 넘어선 전용 배포 전략을 추진하며 생태계 확장을 가속화하고 있습니다.\n\n- 보안 및 데이터 보호 이슈: 챗GPT 이용자 이미지 53장이 외부로 유출되는 사고가 발생하여 AI 기업의 데이터 관리 및 보안 책임론이 대두되고 있습니다.\n\n- 인프라 구축 및 공급망 강화: 1천조 원 규모의 AI 반도체 시장을 선점하기 위해 정부 차원의 공급망 지원과 제3판교와 같은 AI 클러스터 구축이 활발히 논의되고 있습니다.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.8,
+    "velocityReason": "오픈AI의 차세대 모델 발표로 기술 도약이 예고되었으나, 연이은 보안 사고로 인해 안전성 및 규제 논의가 병행되면서 완만한 가속을 보였습니다.",
+    "cumulativeRiskScore": 53.1,
+    "jobRiskScore": 53.1,
+    "riskScoreBreakdown": [
+      {
+        "event": "GPT-6 사이버 공개 임박",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "챗GPT 데이터 유출 사고",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 인프라 및 반도체 생태계 투자",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "오픈AI, 'GPT-6 사이버' 공개 임박…API 넘어 '전용 배포' 선보인다 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xcHVCeU85VUlpdkxHamJ0bmRnRjJtbkxTcUlVVTVfaDVmN3k0ZkpSM201OGxXelJUcVNMeHhLcC1qeUZmQWpDR0NyNjhhZ2ZHU0VpRWQ4VUV5UW9yZjdwMG5jVFNoMjVSOVE?oc=5",
+        "pubDate": "Fri, 25 Sep 2026 23:57:00 GMT",
+        "summary": "오픈AI가 차세대 모델인 GPT-6 사이버의 공개를 준비 중이며, 기존 API 형태를 넘어 전용 배포 방식을 도입할 예정입니다. 이는 AI 서비스의 전문화와 기업용 활용도를 대폭 높일 것으로 기대됩니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "오픈AI도 전모 모른다…챗GPT, 사용자 이미지 53장 유출 - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSHZmYWI0U1lNN0FjdUNWcG5HT21heWJXQm5yRWt2WkVNVC1SbU14SVdZczhaSjBielRnT3NYaTlMTTVHQ3g2aE1ya052bjNvbWk1MmZoTndfRTkzN0cxR0pteWVvYjc0UzBpUjVHUkdCcnE2MFdkYi1YOHR1S1R2aUhB?oc=5",
+        "pubDate": "Sat, 26 Sep 2026 02:26:00 GMT",
+        "summary": "챗GPT를 이용하는 사용자의 이미지 53장이 외부로 유출되는 보안 사고가 발생했습니다. AI 기업의 데이터 관리 능력과 개인정보 보호 조치에 대한 신뢰성 논란이 확산되고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "오픈AI 에이전트 또 사고…챗GPT 이용자 이미지 53장 외부 유출 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1NDRVdUtEeFNiMHZKMGZ0NVpWZExlblRKbTQ1TExoOXZNODFmSTJjd0FJbXVBVUJSSEtCRlhiMGdjb3VvQlZ1WVRIcmJ6VTQ?oc=5",
+        "pubDate": "Sat, 26 Sep 2026 23:42:51 GMT",
+        "summary": "이용자의 이미지 데이터 유출 사고가 반복되면서 오픈AI의 기술 관리 시스템에 대한 비판이 제기되었습니다. 데이터 보안은 AI의 신뢰성을 결정짓는 핵심 요소로 급부상했습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "1천조 시장 열리는 AI반도체…\"정부, 공급망 진출 지원해야\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHdEJ5TXA3YXU4Q2tYNEFXSEtnakZFRHR5YzZmaFpSck5RSWVlZWtxUXFsQ0xuR3gxLUVkRHlUcmhtVkR2X2RqNC1tTE5oRjQ?oc=5",
+        "pubDate": "Sat, 26 Sep 2026 22:32:52 GMT",
+        "summary": "1천조 원 규모로 성장하는 AI 반도체 시장을 선점하기 위해 정부의 적극적인 공급망 진출 지원이 필요하다는 목소리가 커지고 있습니다. 국내 기업들의 글로벌 경쟁력 확보를 위한 정책적 뒷받침이 중요해졌습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "“AI 반도체 성지 만든다”…제3판교 오피스, 후년 준공 '탄력' - 마켓인",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yZ2ZXZzQ4TEJ4aXU0TEFld3VHemFXUnRURThQSWdSVjl5UTB0ejNDQVlaVWpTc3lrMHAzcE43NWhaaGNUQUpNVFhJQVRvbnRNLXFTMVhvT3dNbTVyOHpsc3RwUTVXRjNPXzY5TEZEMWl1dTg?oc=5",
+        "pubDate": "Sat, 26 Sep 2026 22:05:07 GMT",
+        "summary": "AI 반도체 산업 육성을 위해 경기도 제3판교에 전문 오피스 및 클러스터 구축 사업이 탄력을 받고 있습니다. 인프라 조성을 통해 AI 관련 기업 유치와 생태계 활성화가 기대됩니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-26T00:19:12.222Z",
     "reportDate": "2026. 9. 26.",
     "summary": "- 미중 정상회담을 통해 AI 거버넌스에 대한 양국의 입장 차이가 확인되었으며, 기술 패권 경쟁이 지속될 전망입니다.\n- 오픈AI의 개인정보 유출 사고로 인해 데이터 보안 및 AI 윤리에 대한 경각심이 고조되고 있습니다.\n- 오픈AI의 신규 모델 공개 임박 소식은 AI 시장의 기술 혁신과 실질적인 상업화 전환을 가속화하고 있습니다.",
@@ -734,82 +816,6 @@
         "aiImpact": 4,
         "automationPotential": 2,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-15T23:53:58.037Z",
-    "reportDate": "2026. 9. 16.",
-    "summary": "- AI 기술 경쟁 가속화: 젠슨 황 등 업계 리더들이 AI 발전 속도 조절론에 정면 반박하며 기술 주도권 유지를 강조함.\n\n- 투자 시장의 견고함: AI 개발 규제나 안전성 우려에도 불구하고 월가는 여전히 AI 분야를 강력한 성장 동력으로 평가하며 투자를 지속함.\n\n- 사회적 안전망 및 윤리 이슈: AI 의존도 심화에 따른 인간의 인지 능력 저하 경고와 함께 정치적 진영을 초월한 AI 규제 및 통제 논의가 활발해짐.",
-    "summaryScore": 88,
-    "dailyVelocity": 0.3,
-    "velocityReason": "AI 발전 속도 논쟁이 치열하게 전개되었으나 실질적인 대규모 감원 소식보다는 전략적 경쟁 및 윤리적 담론에 집중되어 속도 변화는 완만함.",
-    "cumulativeRiskScore": 52.5,
-    "jobRiskScore": 52.5,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 발전 가속화 전략 유지",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 규제 및 인지적 항복 경고",
-        "sign": "-",
-        "impact": 3,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "젠슨 황, 트럼프에 “AI 속도조절 안 된다”…앤트로픽·오픈AI에 정면 반박[이규화의 글로벌AI] - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NaDBXTEk2Y2ROVHBNTGFpcTZmaWltSFBVSFI3emdTalU2VkIwMkZYNldhX3NzTVRaTFJmZGhfNk40SDV0YmNUTlZ3SVlOaWc?oc=5",
-        "pubDate": "Mon, 14 Sep 2026 23:10:00 GMT",
-        "summary": "젠슨 황 엔비디아 CEO가 AI 기술 발전 속도를 늦추는 것은 잘못된 전략이라며 강력히 주장함. 이는 기술 패권을 유지하려는 업계의 입장을 대변하며 규제보다는 혁신에 방점을 둠.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"AI 개발 늦추자\" 경고 아닌 호재?...월가 여전히 'AI 투자' 후끈, 왜 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWQW0zY3JteU11WGRIRlp2c094MldUbTFfYXluTGg4XzM3N1BmZHFWZEFrNkJHc2R6UHg0RE94RDFuenhEX1I1Nm55eXJkSURJUm41Z3RPcG1pQnVOeklJYzVlMEZ4dzRu0gFuQVVfeXFMT2w3SVJtM1lzaElYVjdPLXZxOXREMzdMcVVncGN4N3g3OXpSTDRmN0JQZ2pTQTZVM1VhbDQ2NVJaZmlFdGFKUnRWSktYNDk1eDlicVNNUmR3TmlzWm9lbE9uYXhoci1KZHRDWjJFTmc?oc=5",
-        "pubDate": "Tue, 15 Sep 2026 20:30:00 GMT",
-        "summary": "AI 개발 규제 논의가 활발함에도 불구하고 월가의 투자 자금은 여전히 AI 관련 기업으로 쏠리고 있음. 시장은 AI를 단기적 유행이 아닌 산업 구조를 재편할 근본적 호재로 인식함.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "젠슨 황, 트럼프와 공개 통화⋯\"AI 늦추는 전략은 잘못\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE14NlBuVWhGcUNFNWZNV0owYmZ1eEd1aFB4dzFYMzhQSHN2WXVjLXR2M3BhWkJFTzVtU0JKN1ZSalNnYnp5WXc?oc=5",
-        "pubDate": "Tue, 15 Sep 2026 02:46:07 GMT",
-        "summary": "젠슨 황이 트럼프 당선인과의 공개 통화에서도 AI 발전의 중요성을 거듭 강조함. AI 산업의 미래가 국가 경쟁력과 직결된다는 점을 정치권에 설득하는 행보임.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "'AI 폭주 막아라'…이례적 손잡은 좌우 강성인사 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5KckNoX0NGM2JiMDhkdVFtLVFmOWVSazQxajZYWkg2eW9oWDlUMXBpZlp4bk5TbVJiMXBNUE9uN1FXVVZGeDhzOWo0blZSX28?oc=5",
-        "pubDate": "Tue, 15 Sep 2026 22:37:32 GMT",
-        "summary": "좌우 강성 인사들이 이례적으로 연합하여 AI의 위험성을 경고하고 규제 움직임을 보임. 기술 폭주를 막기 위한 초당적 거버넌스 구축이 가시화되고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "[이 시각 세계] 'AI 의존' 사고 포기‥MIT '인지적 항복' 경고 - MBC 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE53LUxYRVpWUE0wcHFtUUQzcHl1R2xrd0pTeEVFVERBemhDSEwwbWphcDRRaExYTnNkTTFTMzktN2JOcjhqMXZ2cEMtbjkyRS1ZV2swRnZob2tQREhLeUEwNktjOVQ3dENUa0NGXzZwOEVBZ2hxYUQwcEpB0gF6QVVfeXFMT3VFcUF5ZGl5SEN6cDZ4b0FXUnNTeEF2a0szbjkxLVFCMTAtcHlJSHNsTUJ2bXVOckcxM3kwbGlUX3M5SDdCSUk5eGZYM1VBRUk3amFkTVlmb25ETDhSX09mLWJNS21hbE4xZmZDak5Ka3dOZjBQSFNjelE?oc=5",
-        "pubDate": "Tue, 15 Sep 2026 22:16:01 GMT",
-        "summary": "MIT 연구진이 과도한 AI 의존이 인간의 사고 능력을 감퇴시키는 '인지적 항복'을 초래할 수 있다고 경고함. 기술의 편리함 뒤에 숨겨진 인간 지능의 하향 평준화 우려가 제기됨.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 1
       }
     ]
   }
