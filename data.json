@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-09-30T00:57:23.279Z",
+    "reportDate": "2026. 9. 30.",
+    "summary": "- AI 에이전트 기술 가속화: 오픈AI가 추론 능력을 극대화한 신규 모델 '솔'과 자율형 에이전트 '닷'을 공개하며 AI의 실무 투입 범위가 확대됨.\n\n- 대규모 투자 및 기업 가치 상승: 오픈AI가 1,900조 원 규모의 기업 가치를 인정받으며 막대한 자금을 확보, AI 산업 내 자본 집중이 심화됨.\n\n- AI 활용 가이드라인 확산: 출판계의 AI 활용 표시 기준 도입 등 산업 전반에서 생성형 AI의 투명성을 확보하려는 자정 노력이 시작됨.\n\n- 의료 및 바이오 분야 AI 접목: SCL사이언스 등 기업들이 AI를 기반으로 암 백신 개발 및 합병 전략을 추진하며 기술 융합이 가속화됨.",
+    "summaryScore": 88,
+    "dailyVelocity": 1.8,
+    "velocityReason": "오픈AI의 자율형 AI 에이전트 '닷' 발표로 인해 화이트칼라 직무의 자동화 가능성이 실질적으로 증대됨.",
+    "cumulativeRiskScore": 53.4,
+    "jobRiskScore": 53.4,
+    "riskScoreBreakdown": [
+      {
+        "event": "OpenAI '닷' 자율 에이전트 공개",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 2
+      },
+      {
+        "event": "오픈AI 기업 가치 1,900조 돌파에 따른 공격적 R&D 가속",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 3
+      },
+      {
+        "event": "출판계 AI 활용 표시제 도입",
+        "sign": " -",
+        "impact": 1,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "오픈AI, 가성비 'GPT-6.1 솔' 공개…AI에이전트 추론 겨냥 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45YUJSR1lZX0d6ZlpOWXQ5eDhrS3hmSFZPaTlMNzY3SnpKQkQ1dWtvUDJrNmFqTjRCOEQxMkw4cURXX1FQWDZPbGJXMG1qT19mYzMxWkNMU2gwZEXSAWBBVV95cUxOUUZvZkxMTkt4QnRQek1wWUlmSXdRWC16S2ZKR3U3VWR1VDktcHV2bS1JVVF3bXo3OGxXSGZUeU96YkNqcjhlSW9qbktlZlpwdERhS25uNWVQbHRXcWY3V3o?oc=5",
+        "pubDate": "Tue, 29 Sep 2026 18:19:13 GMT",
+        "summary": "오픈AI가 추론 능력에 최적화된 가성비 모델 '솔(SOL)'을 공개함. 이는 복잡한 작업 수행을 겨냥한 에이전트 생태계 강화를 위한 전략으로 해석됨.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "오픈AI 퇴근 후에도 일하는 AI에이전트 '닷' 공개... '안전 문제' 출시 연기 하루 뒤, 개발자 콘퍼런스 개최 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSlk2Ml9ubmNOdTFvUDJfdE15dGN5SUs0SGxWNzYwR1VDR0dtUnVPZ296bl9oYmZNWHA4bGJpY0RSczJZaWZtSTJKTU9FWnoteE5yRExXc3BTLVRveHBpOUR0bzdHaDFJN0JEc04yOFRsaUVMRWw4TG5UVGpiTXVkRUh3UQ?oc=5",
+        "pubDate": "Tue, 29 Sep 2026 21:29:00 GMT",
+        "summary": "오픈AI가 사용자의 업무를 대신 처리하는 AI 에이전트 '닷'을 공개함. 안전 문제로 인한 출시 연기 후 즉시 발표하며 기술 경쟁 주도권 의지를 보임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      },
+      {
+        "title": "\"오픈AI, 기업가치 1천900조 원에 신규 투자 유치\" - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mVHlmeHNjUndCQ0UyLTF3YW1ja0tMZ3VYbmFlVjdPNGVQZnJtMHZTWDBwaDdiRVE2YTFsa280U0NGNnZYRlE3YVFBNk8xSmc?oc=5",
+        "pubDate": "Wed, 30 Sep 2026 00:27:00 GMT",
+        "summary": "오픈AI가 1,900조 원의 기업 가치로 신규 투자 유치를 추진함. 전 세계 AI 스타트업 중 압도적인 시장 영향력을 재확인함.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "책도 'AI 사용 여부' 표시한다…출판계가 만든 3단계 기준 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ydDhzVTlUQ2JoVDZ6Y2lSSE5wZUl6YVd5TW5ZZEo3R2YwcnJYR2NNWmd1RmwzcGFGWFYzLWUzMDlNTUZlOU1ieFl2LU8zYUE?oc=5",
+        "pubDate": "Tue, 29 Sep 2026 23:57:00 GMT",
+        "summary": "출판계가 AI 사용 여부를 명시하는 3단계 기준을 마련함. AI 콘텐츠 생성의 투명성 제고를 위한 업계 자율 규제 움직임이 구체화됨.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "SCL사이언스, AI 암백신 28년 첫 환자 투여 목표…네오젠로직 합병 검토 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zUnNuU2ZWQkJOZnQxd00tclcxV09rSGxENU9tWVBqN2pRQkRKX2JfcTJjdmZmZXJZR1hLZ2k1NDNlUmJEdFNHN1o4bkN6TjgxdHBOZ053UndzWGpOVjBJa2g3d1pDVlJQ0gFuQVVfeXFMTW9ybmNWbjNuUVE4WEZUNHVKempHUTByZ1hMOWl6ZDZQU2Y4ZGhpdm5NODY1dU9nX1NnWURhNTBTb3QxWnZSM3NmMkxGNWR3eW1GUURxcFdDQkxlSl9TRDRQVVVVa3Y0QUdiSEVjOXc?oc=5",
+        "pubDate": "Wed, 30 Sep 2026 00:40:39 GMT",
+        "summary": "SCL사이언스가 AI 암 백신 개발을 위해 2028년 임상을 목표로 함. 기업 간 합병 등을 통해 의료 AI 기술 고도화에 주력하고 있음.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-29T01:24:16.043Z",
     "reportDate": "2026. 9. 29.",
     "summary": "- AI 안전 및 실존 위험 경고: 저명한 AI 연구자들이 AI의 지능 폭발 가능성과 인류 통제력 상실에 대해 강력한 경고를 제기하며 AI 기술 발전에 대한 윤리적 신중함을 촉구함.\n\n- AI 인프라 투자 가속화: 삼성전자가 엔비디아와 협력하여 미국의 AI 인프라 기업에 대규모 투자를 단행하며 AI 산업 생태계 주도권 확보를 위한 자본 집중 현상을 보임.",
@@ -728,88 +810,6 @@
         "aiImpact": 2,
         "automationPotential": 1,
         "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-18T23:48:22.549Z",
-    "reportDate": "2026. 9. 19.",
-    "summary": "- AI 모델 효율성 증대: 구글이 재귀적 자기개선 기술을 도입하여 복잡한 문제 해결 효율을 획기적으로 개선하며 기술 고도화를 이끎.\n\n- 저작권 및 윤리 논란 심화: 오픈AI의 대규모 기사 무단 학습 의혹이 불거지며 AI 학습 데이터 수집의 윤리적 가이드라인에 대한 사회적 비판이 고조됨.\n\n- 군사 AI 리스크 현실화: AI의 허위 보고로 인한 미·중 군사적 충돌 위기 사건이 보도되면서, 자율 무기 체계 및 군사 AI 도입의 안전성에 대한 우려가 확산됨.",
-    "summaryScore": 88,
-    "dailyVelocity": 0.8,
-    "velocityReason": "AI의 기술적 도약과 동시에 치명적인 오류 및 사회적 분쟁 사례가 드러나며 산업적 자동화 속도와 윤리적 견제가 동시에 가속화됨.",
-    "cumulativeRiskScore": 52.6,
-    "jobRiskScore": 52.6,
-    "riskScoreBreakdown": [
-      {
-        "event": "구글 재귀적 자기개선 도입",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 허위 보고 군사 리스크 노출",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 3
-      },
-      {
-        "event": "데이터 학습 저작권 소송 리스크",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      }
-    ],
-    "news": [
-      {
-        "title": "구글, AI 문제 해결에 ‘재귀적 자기개선’ 도입...탐색 비용 162배 절감 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yWVRYWWM4SzZ2cjZaczE4NkQzTWdJNENvRVJaZFNuVFZzb3pzcDVycnFqdmRObmpJWE9ZRjBvdS1jMklLNkJ0N3NQRFkxOHZlMGhvWk51V3NxRWpad3I5bnRsQmlXRTZxdXc?oc=5",
-        "pubDate": "Fri, 18 Sep 2026 09:37:07 GMT",
-        "summary": "구글이 '재귀적 자기개선' 기법을 활용해 AI의 복잡한 문제 해결 능력을 강화하고 탐색 비용을 162배 절감함. 이는 향후 AI 모델의 추론 성능 향상과 인프라 효율 최적화에 큰 변화를 예고함.",
-        "importance": 4,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      },
-      {
-        "title": "\"인류 역사상 최대 도둑질\"...오픈AI, 기사 1천만 건 몰래 긁어갔다 - YTN",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1DX2ktMmhDcWR4dC1QTTJWd214ZkhVc3hESHdyaEU2d0ExQjdmRGNacEFQdzNITTVFa0J1Z1NhT0pWOGJqdmV6N1FtYzg2Rm9aR0lpM3dzdkxEcEh1Znc?oc=5",
-        "pubDate": "Fri, 18 Sep 2026 01:53:00 GMT",
-        "summary": "오픈AI가 뉴스 기사 1천만 건을 무단으로 학습 데이터에 사용했다는 의혹이 제기되며 지적 재산권 침해 논란이 가열됨. 향후 AI 기업들의 데이터 확보 방식에 대한 법적 규제가 강화될 가능성이 큼.",
-        "importance": 5,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[속보] “하마터면 미·중 전면전”…‘AI 허위 보고’에 美 군사작전 코앞서 멈췄다 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBLUjR4MlFaNUV5OFlpeE9lUHNoNlNqRktENWQ0T29iWVdhWTFxVFpGQWNpamtNalZhSUVVNEZkQVFra2I2WWU0bVI4d3JId2s?oc=5",
-        "pubDate": "Fri, 18 Sep 2026 23:00:07 GMT",
-        "summary": "AI의 가짜 보고로 인해 미국과 중국이 실제 군사 충돌 위기까지 치달았던 사건이 공개됨. 군사 작전에서의 AI 도입이 가져올 수 있는 통제 불가능한 위험과 안전성 문제가 전면 부각됨.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 3
-      },
-      {
-        "title": "AI 가짜 보고에 미·중 전쟁 날뻔 - 문화일보",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBhaFVKd0UtYmhKVFBrdkpLaTJoSHZTTVg2MFZkUEJZUXdVNlA4VWVJX0NwbFJ6OGd3d3ZSZ29STUhFQWFHcTVLZFQ5SFF1dWIz?oc=5",
-        "pubDate": "Fri, 18 Sep 2026 22:21:07 GMT",
-        "summary": "미·중 전쟁 위기를 초래한 AI 보고 오류 건을 상세 보도하며 AI의 판단 오류가 국가 안보에 미칠 파급력을 경고함. 기술적 결함이 치명적 상황을 만들 수 있다는 인식이 확산됨.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "\"미군, AI 거짓보고에 대중 군사작전 직전까지…전쟁 시작할 뻔\" - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xMTJnZm9ZcjZQNmQ1Zjd5elM3TWZ0WlF3Mlh1TGRCeXc2NjRBcmhBU2lRR2dPS21QbG42NHNYRG5FRjJMWGlveXBoRW42WFF1SjN3Qml4UHhvVUnSAWBBVV95cUxOZXUybEt4bDVlZEZya0lQVWhPNnBBS1NSN2R1dWxENDZHNWpyX0ZGMlA3RlNwNzJuOWVWUWo5MWdLTUtMb0d2bXlqSnVHZWxrdGQ4NmhtbjBVdGhGZkdqRUk?oc=5",
-        "pubDate": "Fri, 18 Sep 2026 20:08:47 GMT",
-        "summary": "미군 내 AI 기반 의사결정 시스템의 오류가 전쟁 도발의 단초가 될 뻔한 사실이 공식화됨. 안전장치 없는 자동화 시스템에 대한 사회적 불신이 커질 것으로 보임.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 2
       }
     ]
   }
