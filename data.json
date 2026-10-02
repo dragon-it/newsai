@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-02T01:14:29.086Z",
+    "reportDate": "2026. 10. 2.",
+    "summary": "- 실질적 수익 창출 강조: AI 기술이 개념 증명을 넘어 기업의 구체적인 수익 모델과 운영 효율화에 집중하는 단계로 진입함.\n\n- 구글의 모델 및 인프라 주도권: 최상위 모델 '아르곤' 공개와 우주 데이터센터 실험 등 AI 경쟁력과 인프라 확장성을 동시에 강화함.\n\n- 하드웨어 및 운영 효율 혁신: 우주 데이터센터 추진과 AI 서비스 토큰 처리량 최적화 기술 등을 통해 AI 인프라의 물리적, 기술적 한계 극복 시도.",
+    "summaryScore": 88,
+    "dailyVelocity": 1.2,
+    "velocityReason": "구글의 성능 최상위 모델 공개 및 통신사들의 AI 운영 효율화 기술 도입으로 인해 생산성 향상 중심의 자동화 속도가 완만하게 가속됨.",
+    "cumulativeRiskScore": 53.5,
+    "jobRiskScore": 53.5,
+    "riskScoreBreakdown": [
+      {
+        "event": "구글 최상위 모델 아르곤 공개",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "LGU+ 토큰 처리 효율화 기술 도입",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      },
+      {
+        "event": "실질적 수익성 모델 강조 산업계 흐름",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      }
+    ],
+    "news": [
+      {
+        "title": "\"개념타령 이젠 그만\"…돈 버는 AI, 한자리서 공개된다 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5VUzRHeFRkM1NQU1FTWEplb1hzVl83bXd5VUh5YXRuOW1SVHBHMVphRWZ5NjVvQXI5X3lhTHBmaG1DOHlaUDhPRmo5MU5kTVhCZm1nelVn?oc=5",
+        "pubDate": "Thu, 01 Oct 2026 02:51:50 GMT",
+        "summary": "AI 기술이 실험적 단계를 벗어나 기업의 수익 창출을 직접적으로 지원하는 단계에 진입함. 다양한 산업 분야에서 AI의 경제적 가치를 입증하는 사례들이 공개될 예정임.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "구글, 최상위 AI ‘아르곤’ 공개… 오픈AI·앤스로픽 제쳤다 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQjlQUlRQbGhqZk1PRi0yQ3BxRnZwRDVmZDhXYVQyS2duY2pDUWQzeU1TOHkydC01azBNa3JTdjRCZEVWa2Nyb0dXX3Nuc1hpUVBxaV9xOFpEQks5X28xOVVlbXZnTXAzN0prODNINkpmbTdMSHpMWldJaXFyeDFkS3Y0QQ?oc=5",
+        "pubDate": "Thu, 01 Oct 2026 04:49:53 GMT",
+        "summary": "구글이 현존하는 최상위 AI 모델인 '아르곤'을 공개하며 오픈AI와 앤스로픽을 추격하거나 앞서는 기술적 우위를 확보함. 모델 성능 경쟁이 치열해지며 시장 리더십 변화가 예상됨.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "구글 AI칩 TPU, 스페이스X 로켓타고 우주로…우주데이터센터 첫걸음 - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VV1FobFBIVDQwY3J1cHB3VFlOV3ZxaVpOck13VlhlZlRTTWhXUF93UWFNVE9XbmdPbENtazB6NGljNEx0SU9WZ3UzYThUYmQ0LWtHTmZxQWNKQQ?oc=5",
+        "pubDate": "Thu, 01 Oct 2026 14:00:54 GMT",
+        "summary": "구글이 자사의 AI 칩인 TPU를 스페이스X 로켓에 실어 우주로 보내는 실험을 진행함. 이는 지상 데이터센터의 한계를 극복하고 우주 데이터센터 시대를 열기 위한 초기 단계임.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "구글, 우주 데이터센터 첫 궤도 실험…전력난·주민 반발 속 AI 서버 우주로 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jcERlWGFZQUV6Z1l2cjltOU04NVNOZXBMT01scExUdXBVMllIcktfaFoxUzRBTUNZZ1poMWEwOUh0WVhxbFhqR2dsLXc3NHM?oc=5",
+        "pubDate": "Fri, 02 Oct 2026 01:02:11 GMT",
+        "summary": "지상 데이터센터의 전력난과 환경 규제 문제를 해결하기 위한 대안으로 우주 데이터센터 연구가 본격화됨. 물리적 공간의 제약을 뛰어넘는 차세대 인프라 구축 시도임.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "같은 GPU서 토큰 최대 4배 처리…LGU+, AI 운영 효율 높인다 - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50aXY5aFpOcG9GR21xVHJhZzc2V0Z6UGxVSDR5T0otOE1CanppNEVlWGVvV2xhM0Nzb3NueTlrX3RwT0s2bjFGbGYtaERKVkZLbUsxT0JRbkhZTXZMaXEzZNIBeEFVX3lxTE1xSTZwaUpoMGpZT1R3YVAwT3JCdHc5RXJJVnFja0tzOU5ERTFqRFNnN3hRUURfeXhvYnR5TVp1dXRaVTFMczJvVDREN3dTRjZKdEpTRDdLalpuRVpCZV9zR1ZjWTRJeE9tZkNXRFB4djBSMl9HVHFZcg?oc=5",
+        "pubDate": "Fri, 02 Oct 2026 00:18:09 GMT",
+        "summary": "LG유플러스가 기존 GPU 환경에서 토큰 처리량을 최대 4배까지 늘리는 기술을 확보함. AI 서비스의 운영 비용을 대폭 절감하고 효율성을 극대화하여 수익성 개선을 도모함.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-09-30T00:57:23.279Z",
     "reportDate": "2026. 9. 30.",
     "summary": "- AI 에이전트 기술 가속화: 오픈AI가 추론 능력을 극대화한 신규 모델 '솔'과 자율형 에이전트 '닷'을 공개하며 AI의 실무 투입 범위가 확대됨.\n\n- 대규모 투자 및 기업 가치 상승: 오픈AI가 1,900조 원 규모의 기업 가치를 인정받으며 막대한 자금을 확보, AI 산업 내 자본 집중이 심화됨.\n\n- AI 활용 가이드라인 확산: 출판계의 AI 활용 표시 기준 도입 등 산업 전반에서 생성형 AI의 투명성을 확보하려는 자정 노력이 시작됨.\n\n- 의료 및 바이오 분야 AI 접목: SCL사이언스 등 기업들이 AI를 기반으로 암 백신 개발 및 합병 전략을 추진하며 기술 융합이 가속화됨.",
@@ -727,88 +809,6 @@
         "importance": 3,
         "aiImpact": 4,
         "automationPotential": 5,
-        "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-20T23:47:08.052Z",
-    "reportDate": "2026. 9. 21.",
-    "summary": "- 대규모 투자 및 재무 압박: 오픈AI의 막대한 컴퓨팅 비용과 이를 충당하기 위한 대규모 투자 유치 필요성이 부각되었습니다.\n\n- AI 산업 속도 조절 및 리스크 관리: 앤트로픽의 상장 연기 및 AI 해킹 취약성에 대한 경고가 이어지며, 시장의 속도 조절론이 제기되었습니다.\n\n- 기술 전략 및 사회적 기여: SKT의 AI 사회적 가치 창출과 전문가 포럼을 통한 산업 현장의 AI 전환 전략 논의가 활발히 진행되었습니다.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.2,
-    "velocityReason": "AI 기업들의 재무적 건전성 확보와 기술 리스크 관리가 우선시되면서 단기적인 일자리 대체보다는 산업 안정화에 무게가 실렸기 때문입니다.",
-    "cumulativeRiskScore": 52.6,
-    "jobRiskScore": 52.6,
-    "riskScoreBreakdown": [
-      {
-        "event": "오픈AI 재무 압박 및 컴퓨팅 비용 증가",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 기업의 시장 진입 및 상장 속도 조절",
-        "sign": "+",
-        "impact": 1,
-        "newsIndex": 2
-      },
-      {
-        "event": "기업의 AI 기술 윤리 및 선한 AI 도입",
-        "sign": "--",
-        "impact": 2,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "오픈AI 2030년까지 386조 소진… 컴퓨팅 비용 폭증에 투자 유치 압박 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IeHlrdHNyYnQyaFdSNnZHSWFULThQdUdTLTNza3V0SXJyU3lsWXlYeE1UeS1jb3NiSWVqUGxwUEF6SXlGaVlGVHVMelJuU2RaMXFLMHRPSVkxc014SjZvdHIwakhBRW5oZlE?oc=5",
-        "pubDate": "Sun, 20 Sep 2026 01:03:18 GMT",
-        "summary": "오픈AI가 2030년까지 수천억 달러 규모의 컴퓨팅 비용을 지출할 것으로 예상되며 막대한 자금 조달 압박을 받고 있습니다. 지속적인 모델 학습을 위한 인프라 비용 폭증이 경영의 핵심 리스크로 떠올랐습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "'AI 속도조절' 불지른 앤트로픽, 상장 한달 연기 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pNlpYUUowS194Q2d6X3A4Skd1bnFXNm5DUlR4U1VkWVV0QnhUVTQzSWdRUFdaQkY3YlJwWEVUbWg5QlBKZUxGY3cybVFZUW1lOWhUYm94dldsMDl5c0pvQ1Mwc1lsbWh40gFuQVVfeXFMTjUzM3pPRkU3bjgtSGJNdFRQdWlBa1RZMzNDb3l4WHVxaTltdW1zX1NNQlhvYlhWeHZ4TGVBWEZrd3RtekpZUVEzdGlpbVpaaWV0TS1wRzFYUzRnYVl3Rk9zc1VtMlRFNEVCcndLdFE?oc=5",
-        "pubDate": "Sun, 20 Sep 2026 18:48:00 GMT",
-        "summary": "앤트로픽이 기업공개(IPO)를 한 달가량 연기하며 시장 상황을 예의주시하고 있습니다. 최근 AI 업계 전반에서 수익성과 시장 상황을 고려한 '속도 조절론'이 힘을 얻는 추세입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "무섭네…AI 해킹, 72시간도 안 걸렸다 - magazine.hankyung.com",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wbHFOZkxyUGwwa1dCMU5uQ1dsb0xzbEZpcjhNOTFFWEd5RWJwcWJkM3BPZVE2QndXSEtnaDd3QXRSTWRaSlJCUnhIYmN3akRxTzl4bjZWUnQtUVcyVkp0RHZHcF83cEtyal9sbQ?oc=5",
-        "pubDate": "Sun, 20 Sep 2026 22:20:00 GMT",
-        "summary": "AI 시스템에 대한 해킹 시도가 72시간 내에 성공했다는 연구 결과가 나오며 보안 취약성이 큰 이슈가 되었습니다. AI의 급격한 발전 속도가 보안 인프라 구축의 속도를 앞지르고 있다는 우려가 제기됩니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "하정우, 22일 부산미래경제포럼 강연…AI 전환 주제 발표 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5RXJ1LWJaTy1RYjhCdW4tVFZ2aWR4Sjk1WXBoVFNMNlM3ZXFtU244djc1dXBXQm1YSmVGR3hGcU9YM3VUeFJXeUV1RnZSR2M?oc=5",
-        "pubDate": "Sun, 20 Sep 2026 23:19:55 GMT",
-        "summary": "하정우 소장이 부산미래경제포럼에서 기업들의 AI 전환을 위한 구체적인 전략을 발표할 예정입니다. AI 기술 도입이 산업계 전반의 경쟁력을 어떻게 변화시킬지에 대한 논의가 확대되고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 2
-      },
-      {
-        "title": "SKT, 선한 AI로 지속가능 미래 연결한다 - SK텔레콤 뉴스룸",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE50cUM2aG5rWU1tczdHai1ZZkdKNGVwWEJiN0R3cFpLU0xERUI4ZEFFcEtfNktmYm41Smd4N25naFBHNG9CbTBhcA?oc=5",
-        "pubDate": "Sun, 20 Sep 2026 23:33:46 GMT",
-        "summary": "SK텔레콤이 지속 가능한 사회를 위한 '선한 AI' 개발에 집중하고 있습니다. 기술 개발뿐만 아니라 사회적 가치와 AI 윤리를 결합하여 기업 이미지 제고 및 생태계 확장을 도모하고 있습니다.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 1,
         "investmentImpact": 3
       }
     ]
