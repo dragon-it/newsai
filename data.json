@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-04T00:18:06.357Z",
+    "reportDate": "2026. 10. 4.",
+    "summary": "- 일상의 AI 통합: 개인 및 업무 영역 전반에서 AI 도구의 활용이 확대되며 실질적인 생산성 변화가 가시화되고 있습니다.\n\n- 전문 직무 자동화: 회계 등 복잡한 전문 영역에서 AI가 인간의 성능을 능가하는 사례가 보고되며 고숙련 직무의 자동화 가능성이 현실화되었습니다.\n\n- 전략적 기술 주도권 및 효율화: 미국과 중국 간 AI 기술 패권 경쟁이 심화되는 가운데, 바이오·제약 등 산업 현장에서는 AI를 활용해 연구 효율성을 극대화하는 사례가 증가하고 있습니다.",
+    "summaryScore": 88,
+    "dailyVelocity": 1.8,
+    "velocityReason": "회계 분야에서 AI가 인간의 업무 역량을 크게 능가했다는 실증적 사례가 발표되며 전문 직종의 일자리 대체 우려가 가속화되었습니다.",
+    "cumulativeRiskScore": 53.8,
+    "jobRiskScore": 53.8,
+    "riskScoreBreakdown": [
+      {
+        "event": "회계 업무 AI 역전 현상",
+        "sign": "+",
+        "impact": 7,
+        "newsIndex": 2
+      },
+      {
+        "event": "미·중 AI 기술 패권 경쟁 및 규제 환경 변화",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 3
+      },
+      {
+        "event": "산업별 데이터 최적화 수요 급증",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "'모두의 AI'가 일상을 바꾼다…어떤 변화 생길까 - zdnet.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Fd2lZQ181NFMzQmRLV0stMDJOb0Riay10UUFKQ0J2c0xlQ3M2VWNzek5XWDZhTl9LaDRtR2xwSUs1ZG1NczhpVHBBMDhWWjZ3bWVZRGlR?oc=5",
+        "pubDate": "Sat, 03 Oct 2026 00:11:16 GMT",
+        "summary": "AI가 개인의 일상과 업무 프로세스 전반에 깊숙이 침투하며 생산성 도구로서의 입지를 굳히고 있습니다. 이를 통해 기존의 복잡한 업무들이 보다 간소화되고 자동화되는 추세입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "회계 업무서 AI '완벽' 단계 도달…인간 '37%' 역전 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sdlJKQXJpdWdGR0o2enZaWUFWbEVkbmR6ckxHdEFvOVVYdU9nZ1NITFRFX2N3cGdkNXVzTFVoakJTR3VPUVkxc2FlWWZJTl8zZ2Fhd3VEbnFjZldPWFB2V1pfa3BrSHJieVE?oc=5",
+        "pubDate": "Sat, 03 Oct 2026 01:47:06 GMT",
+        "summary": "회계 업무 수행 시 AI가 인간보다 정확도와 속도 면에서 월등한 성과를 기록하며 업계를 놀라게 했습니다. 고숙련 전문직종도 자동화의 안전지대가 아님을 보여주는 강력한 지표입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      },
+      {
+        "title": "미 재무 \"중국에 AI 주도권 내줘선 안 돼\"…업계 자율 규제 강조 - v.daum.net",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uN0NuT1ozd1BTVzlQTXRoYWVzaTJhQzhsTVdyY3VWcVRPZ01fbVRmR3lYU2xkaUpuMHlVRGFXSnlkMUlBdEM3dmhvZWhLM1E?oc=5",
+        "pubDate": "Sat, 03 Oct 2026 22:39:00 GMT",
+        "summary": "미국 정부가 중국과의 AI 기술 격차 유지를 위해 강력한 주도권 확보 의지를 드러냈습니다. 동시에 업계 자율 규제를 강조하며 기술 발달과 보안 간의 균형을 모색하고 있습니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "국가독성데이터에 AI 활용…실험동물 사용↓ 독성평가 효율성 ↑ - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15eGRQZFRWTko4NjduMDRBODVEa01jVlpraGpyZ3dmZjZyTXdTT1l6S3VfYnE2MThFTHBkbmhESDdmUE5VeEMybm5kQ3doc09DOVE?oc=5",
+        "pubDate": "Sat, 03 Oct 2026 23:00:04 GMT",
+        "summary": "국가독성데이터에 AI를 도입하여 실험동물 사용을 줄이고 독성평가의 효율을 획기적으로 개선하고 있습니다. 공공 및 연구 분야에서의 AI 활용이 정밀하고 실질적인 성과를 내고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "\"AI가 먹기 좋게 준다\"…'데이터 밀키트'로 100억 노리는 이 회사 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ORE9fYVIwY0l2aS1mcTZuUExIcTcyeF9EV1B6el90NEVfM241OUljbzJadzhQTlVWTktXOUJRc3VjT2ZYUjRFNmw5em5sUG5va21DVXY1aGpCaUNHdlRDMmFSQXBua2dnRUHSAW9BVV95cUxNeF9GeXFPaWgwM1hReGljVjc1dUVnZnl6Y3ExNFBscjBuUi1nYkV2dDNTb3BDYmtpX2pvNzlqUjZ2MjZ5dm5fa0xYWDNYNElEcUh0Y05sRTdaOHY0U1RZZGV4U2tkZ2kwTXJaNlpXcHc?oc=5",
+        "pubDate": "Sun, 04 Oct 2026 00:00:00 GMT",
+        "summary": "AI 학습을 위한 고품질 데이터를 가공하여 제공하는 '데이터 밀키트' 시장이 급성장하고 있습니다. 기업들이 AI 도입 시 겪는 데이터 구축 비용과 시간을 절감해 주는 비즈니스가 유망 투자처로 주목받고 있습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-03T00:52:48.988Z",
     "reportDate": "2026. 10. 3.",
     "summary": "- 농업 및 산업 현장 자동화: 자율주행 트랙터와 휴머노이드를 활용한 농업 혁신이 가속화되며 전통 산업의 인력 구조 변화가 예상됨.\n\n- AI 기반 비즈니스 및 플랫폼 고도화: 크리에이터 매칭과 정산 시스템 등 복잡한 사무 영역까지 AI 자동화가 침투하여 서비스 효율성을 극대화함.\n\n- AI 시장 및 기술적 신뢰성 논란: 메모리 반도체 중심의 투자 기회는 확대되는 반면, 논문 출처 조작 등 AI 생성 콘텐츠에 대한 학계의 신뢰성 검증 이슈가 공론화됨.",
@@ -728,88 +810,6 @@
         "aiImpact": 3,
         "automationPotential": 2,
         "investmentImpact": 2
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-22T23:57:26.941Z",
-    "reportDate": "2026. 9. 23.",
-    "summary": "- 메타의 AI 성능 경쟁력 강화: 메타가 자사 AI 서비스의 흥행으로 기술적 위기론을 불식시키고 주가 급등을 견인하며 시장의 신뢰를 회복함.\n\n- AI 기술 확산과 신뢰성 논란: '뮤즈(Muse)' 모델 등 고성능 AI의 산업적 파급력이 커지는 한편, 데이터 보안과 신뢰성 문제로 인한 기업 간 사용 제한 등 부작용도 동시에 표출됨.\n\n- 국가적 AI 경쟁력 확보 전략: 국내외 정부 및 산업계가 AI 메가프로젝트를 통해 미래 산업 생태계를 구축하고, 기술 기반의 혁신을 가속화하려는 움직임이 뚜렷함.",
-    "summaryScore": 88,
-    "dailyVelocity": 1.2,
-    "velocityReason": "메타의 신규 AI 모델 흥행으로 인해 산업 전반의 자동화 기대감이 상승하며 기술 도입 속도가 빨라짐.",
-    "cumulativeRiskScore": 52.8,
-    "jobRiskScore": 52.8,
-    "riskScoreBreakdown": [
-      {
-        "event": "메타 AI 성능 향상 및 시장 점유 확대",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 확산에 따른 데이터 보안 및 기업 내 접속 차단",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 3
-      },
-      {
-        "event": "국가 단위 AI 메가프로젝트 추진",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "메타의 AI 비서, 챗GPT도 제쳐... 주가 11% 급등 ‘위기론’ 날렸다 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONXdCQkJPOWlPRktyRnFhTk1vQ2t1WjNJcjJKcmFfelR3MkQzdV9sTTBoeGFLQnhIY3FRNGJ2R2pCODhTVnZmOUNKUDN0azA2dWxNX09hRzZ5d3pfQjlndUtKZ1MtZGlLcnN3VGwtNVFRc0wxd1B1UGF2LXJtd1FLcC1Ydw?oc=5",
-        "pubDate": "Tue, 22 Sep 2026 08:14:19 GMT",
-        "summary": "메타의 AI 비서 서비스가 챗GPT를 앞서는 성능과 사용자 반응을 이끌어내며 시장의 우려를 잠재웠다. 이에 힘입어 메타의 주가가 11% 급등하는 등 기술 경쟁력 확보가 시장의 핵심 지표로 부상했다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 3,
-        "investmentImpact": 5
-      },
-      {
-        "title": "메타의 뮤즈 효과, AI의 산업 파괴론 재등장…반도체주는 상승 - 머니투데이 - mt.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxWnlLaHNDb0E0Q3NrRmlkR0ptb05nRTc1dEFIa0NMZFhyMExENkM3NG9ieXFYcXI1TDFVN1Ixc05PampYdHBmX1lSelluM3JndVNhUkdhQWU2LWg5NEtSejc0ZzUxdGFi0gFuQVVfeXFMT215YklLOXRmRGdCTnhOV2VJamJNV3NkZ2JjQjJXbVhrWThiWGI5djQtOGxpcmhxQk56bmhwNWdoSTk0bFEtbThtU3BRR0k5c2hzQU8wX1JhRThPNE16dTRLMV9sRjFDdEhmQmNZZXc?oc=5",
-        "pubDate": "Tue, 22 Sep 2026 23:21:49 GMT",
-        "summary": "메타의 기술적 성과가 AI 산업 전반에 걸친 파괴적 변화를 예고하며 투자 심리를 자극하고 있다. 특히 AI 연관 반도체 분야가 이러한 기술 혁신의 직접적인 수혜를 입으며 시장 강세를 보이고 있다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "메타, 뮤즈 AI 인기 폭발에도 '신뢰' 문제…아마존, 접속 차단 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TNFFfcnd2TkFOT2tJeEsyZkhCU1JUNWp4Rks5Yk9EcW8zOGtfZXU5UlhyeElENnVRa1VpNy1ZOXR5T3A4YS1CTFctblVXeThsbTlVZFUtZjRnZw?oc=5",
-        "pubDate": "Tue, 22 Sep 2026 11:57:42 GMT",
-        "summary": "메타의 AI 서비스가 대중적 인기를 얻고 있으나, 데이터 신뢰성과 보안 문제가 제기되면서 일부 기업들이 접속을 차단하고 나섰다. AI 도입 과정에서 기술적 성능과 보안 사이의 균형이 주요 과제로 부상했다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 3
-      },
-      {
-        "title": "모두의 AI, 현실이 되다…'AI페스타' 1년만에 확 달라진다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04WmhPdnRyOE9WQ3hfOVNxTXdOdGEtdy1qeTF5bTZzYUZNVzU1Y3k5cnpfZmVEaVc2Q183M0k0QU1YYnNNUUM4b3E2SkYzNWxZZUcyN2hn?oc=5",
-        "pubDate": "Tue, 22 Sep 2026 23:20:55 GMT",
-        "summary": "국내 AI 축제 및 행사들이 더욱 실용적이고 기술 중심적인 형태로 변모하며 산업 현장의 적용 사례를 확대하고 있다. AI가 실험실 수준을 넘어 실질적인 비즈니스 솔루션으로 자리 잡고 있음을 시사한다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "3대 메가프로젝트와 AI로 미래를 힘차게! - 전체 | 카드/한컷 - 정책브리핑",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa3RObVVJaXJlWWp5clEwcklkZnhtWWU4RThlYzdWejlqOWF0elFLTmJiTGp5UmRhZGlZSVNuakF1bUJqcmFPZjFUR3FkWXZkUVlhR2dlLVhYY1dHUWZpSHFXR1FkZllsU3F4R3VfdnNsSHphbTIyMmxLb0hQQjNtVHlpbTJUU3NtWXZR?oc=5",
-        "pubDate": "Tue, 22 Sep 2026 23:30:05 GMT",
-        "summary": "정부가 주도하는 AI 메가프로젝트를 통해 미래 경쟁력 확보를 위한 전방위적 지원이 이루어지고 있다. 이는 국가 차원에서 AI 기술을 차세대 성장 동력으로 삼겠다는 의지를 보여준다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
       }
     ]
   }
