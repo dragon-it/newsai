@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-06T02:01:31.352Z",
+    "reportDate": "2026. 10. 6.",
+    "summary": "- AI 브랜드 및 조직 재편: 일론 머스크의 xAI를 연상시키는 SI(Super Intelligence)로의 기업 정체성 변화 논의가 정치권과 연계되어 부상함.\n\n- AI 수익화 모델 강화: 구글이 제미나이 유료 요금제 구조를 개편하고 프로모션을 도입하며 AI 서비스의 유료화와 시장 점유율 확대를 동시에 꾀하고 있음.\n\n- 국방 산업 AI 실증: 마키나락스가 해군 장비 운용에 AI 참모 시스템을 도입하며 산업 현장과 국방 분야로의 AI 적용이 가속화되고 있음.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.8,
+    "velocityReason": "구글의 AI 유료화 정책 심화와 국방 분야 AI 도입 등 AI 서비스 생태계의 상업적·실무적 진입 장벽과 영역이 구체화됨.",
+    "cumulativeRiskScore": 54,
+    "jobRiskScore": 54,
+    "riskScoreBreakdown": [
+      {
+        "event": "구글 제미나이 요금제 차별화",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 2
+      },
+      {
+        "event": "마키나락스 해군 AI 참모 도입",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 5
+      },
+      {
+        "event": "AI 브랜드 및 정체성 변화 논의",
+        "sign": "+",
+        "impact": 1,
+        "newsIndex": 1
+      }
+    ],
+    "news": [
+      {
+        "title": "'AI→ SI' 머스크, 트럼프 주장 따라 회사 이름 변경 추진 - MBC 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE85SDFZUUVBeEViOG53SjJ1X1VMTmREd1VQZXN1VHZQaVpvN3liMzNKMmZMWE5abks0LTZxZWs2TFMyTUlNaFV6SEhXQXRvdndCeFlZaUJTaDRJNWtQX3p6SDMzR3R1SDd6ZDJPS2Q2NDVGZk1j0gF0QVVfeXFMTVEycGVfZmJRbTJHNEd6NTItUnVIcUprVVZCM0kwcGZhRWdQMl8xaHp4SThKeFp3Y2VfZFFMa3pZSF8yTHhvQlBaOVgzMXJScGlveVF3d0V0ZDRrcU9BSTdLNjAyQl9BOUFzd2E4NVdTS2NoLVk?oc=5",
+        "pubDate": "Mon, 05 Oct 2026 02:21:40 GMT",
+        "summary": "일론 머스크가 도널드 트럼프의 행정부 구상을 지지하며 기존 AI 사업의 성격을 SI(Super Intelligence)로 변경하려는 움직임을 보임. 이는 AI 기술의 정치적 영향력 확대와 사업 방향성의 전략적 변화를 시사함.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "구글 제미나이 AI요금 개편…월10달러 내도 '프로' 모델 못쓴다 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBZbEtjekVDdGVqTzVJMl9DT1ZlQ3RfVi1NWEdxWlBwMmo5MFppRHlqb2pfeXVPa3RfMUhxcXh3YV9mdGhOOGJWeEptM2FhN0FVb3NHQ0Q2VTVMODTSAWBBVV95cUxNRjhtcG95QlZ6a0JveHY5SHhKczNCcGZhRTI4ZzAwS213b1F3UE1mU3dqT3diTHhrX1BELXBwbkwtNkxDT05FOVk5Ul8wR0RvSEJoMmxmNnVsdGNFNjhCVV8?oc=5",
+        "pubDate": "Sun, 04 Oct 2026 17:27:55 GMT",
+        "summary": "구글이 제미나이 요금제를 개편하며 프로 모델 접근성을 제한하는 등 유료화 정책을 강화함. 사용자 경험 변화와 함께 AI 서비스의 수익 모델이 점차 견고해지는 추세임.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[IT썰]'공짜 AI' 마침표? 구글, 제미나이에 '요금제 칸막이'…고성능 '유료' - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YUGE0VkNJdDlUWEtEVzFzRXozNTd2bHZObGxyOVF6NFJ2c2dzOGJkNGQwb29OVEhybk5WZ3VkX1luSTFvT3pyT0Robk1PNXlTVENpSVhXVll3VWE5Z09wSWRPRXBxd2fSAWxBVV95cUxNekg3M0w4dGtkc0lpMUkxMktSWlJ1SkMwRTlZTFh2NTFvbnU1bEtSVFdQV3JJNHc4QmdMalJTN2RER0RaelRTUmdMbzZvNU9DVEh5aXU4c1EwWUk4eHBMSk1EeEoxTVdOcWlmZTk?oc=5",
+        "pubDate": "Mon, 05 Oct 2026 23:05:30 GMT",
+        "summary": "구글이 제미나이 고성능 모델에 유료화 칸막이를 설치하며 '공짜 AI' 시대에 변화를 주고 있음. 기업용 및 개인용 고급 기능을 유료로 분리해 수익을 극대화하려는 전략임.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "구글, 'AI 프로' 국내 한정 40% 할인...연간 구독권 프로모션 진행 - aitimes.com",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45TjdJZkVJazhhcG5URXlzdGV0cHN2WHYyM3lIR2wzaEZkVkUxVFgtclVwMXNfamVBSUpRc0RPWEpUUFVZT1FZT1hkRjdyQlBhQzZWT3drT3lYOWxDQWNjQy1TU3ZMVTV1Umc?oc=5",
+        "pubDate": "Mon, 05 Oct 2026 12:01:19 GMT",
+        "summary": "구글이 국내 한정으로 'AI 프로' 모델 연간 구독권 할인 프로모션을 진행함. 유료 구독자 확보를 통해 국내 AI 시장 점유율을 공격적으로 높이려는 의도로 풀이됨.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "마키나락스, 해군 포항함에 '장비운용 AI 참모' 탑재…실증 돌입 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1xeWVZbklzdXBpdmdXSDlOODZtVmtkaXRsR1U1QXBxb19OQXlvQWlCckpFcXVIa3JQVjI5WngyNWlTdFVJbTRMQUNWbFZqLUhOZU9zcGlsak9uOURTVHVmTWJNYUcxUVFU0gFuQVVfeXFMUEc0Sk0tbk1TaFlLVGVrak9LVzlJTWI0ZXhQZkhNZ0Z1dW9vc19IekZVdkJBOC0wb3p6ZFBKYm5hNnBkR21jelZWSTlfdmVPRS1hU1FnN2FiR0t2VGkybU12QWhwU29fTlBHRnBKaXc?oc=5",
+        "pubDate": "Tue, 06 Oct 2026 01:02:50 GMT",
+        "summary": "마키나락스가 해군 포항함에 '장비운용 AI 참모'를 탑재하여 실증을 시작함. 국방과 같은 민감한 산업 현장에 AI가 실무적인 의사결정 지원 도구로 도입되고 있음.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-05T00:23:04.520Z",
     "reportDate": "2026. 10. 5.",
     "summary": "- AI 자율성 및 경쟁 심화: 오픈AI의 생존 본능을 모방한 모델 행태와 구글의 제미나이 4를 통한 시장 공세가 이어지며 AI 모델 성능 경쟁이 격화됨.\n\n- 산업 및 교육 적용 확대: 공교육 현장의 AI 랩 개관 등 AI 기술의 실질적 적용 사례가 점차 확대되는 추세임.\n\n- 인프라 전략적 중요성 증대: 글로벌 금융권의 AI 인프라 투자 관점 변화와 국내 AI 인프라 해저케이블 노후화 문제 등 국가적 전략 자산으로서의 인프라 중요성이 강조됨.",
@@ -727,88 +809,6 @@
         "importance": 5,
         "aiImpact": 5,
         "automationPotential": 5,
-        "investmentImpact": 5
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-25T00:12:24.443Z",
-    "reportDate": "2026. 9. 25.",
-    "summary": "- AI 거버넌스 및 정책 방향성: 트럼프 대통령의 규제 완화 기조와 시진핑 주석의 인간 통제 강조 등 AI 정책을 둘러싼 미·중 양국의 뚜렷한 온도 차가 확인됨.\n\n- AI 안전성 논의: 오픈AI와 앤트로픽 등 주요 AI 기업들이 UN에서 AI의 인간 통제 상실 가능성을 경고하며 안전 가드레일 마련의 필요성을 강력히 제기함.\n\n- 시장 성장세 지속: AI 및 반도체 관련 ETF의 순자산이 65조 원을 돌파하는 등 인프라 분야에 대한 투자자들의 신뢰와 자금 유입이 지속적으로 확대됨.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.2,
-    "velocityReason": "AI 정책 및 규제 논의가 주를 이루었으나, 실질적인 자동화 기술 상용화 발표보다는 국제적 거버넌스 협력 논의가 중심이 되어 속도가 완만하게 유지됨.",
-    "cumulativeRiskScore": 52.9,
-    "jobRiskScore": 52.9,
-    "riskScoreBreakdown": [
-      {
-        "event": "트럼프의 AI 규제 완화 기조",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 기업의 인간 통제 상실 경고",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 4
-      },
-      {
-        "event": "미중 AI 협력 가능성 논의",
-        "sign": "+",
-        "impact": 1,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "트럼프 \"AI 규제 더 안 한다\"… 시진핑 \"인간이 통제해야\" - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOVcwU2VTRTJwbmwxOFJ1MTZGNUhjSjQ5S0xwSHBnbzhXSWVFc1NzbTdzdEVSVDJzZUQ4MU9mTGxJWEcyQXR2MVJBa1RsWkhHX2ZybHBBemNVTnE1eGFwWFY2Mmd3UUt5ZGxxcG9lS3o0LVR6WlZFdzN5NmVxV0dxRWpRTWpacF9HRk9XOGxqdjhmaTN0WWNFZll6eHRzUQ?oc=5",
-        "pubDate": "Thu, 24 Sep 2026 19:05:00 GMT",
-        "summary": "도널드 트럼프 대통령이 AI 규제 철폐를 예고한 반면, 시진핑 주석은 AI에 대한 인간의 통제권 유지를 강조하며 상반된 입장을 보였습니다. 이는 향후 글로벌 AI 패권 경쟁에서 규제 환경이 국가별로 다르게 전개될 것임을 시사합니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "미중 정상회담 종료...AI 규제 온도차 - YTN",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1STzB2cDhYNlI4Zng5MURMVGNUUjh2TS1ORW4zbUhlS0tsTU11TTYzem41WXctbkpUdzYtNE1NVHljRm10dllDbmlVbk1qcWNFYnNReWhlMzkzR1J5anc?oc=5",
-        "pubDate": "Thu, 24 Sep 2026 18:56:00 GMT",
-        "summary": "미·중 정상회담에서 AI 규제에 대한 양국 간의 온도 차가 재확인되었습니다. 양국은 AI 안전성 문제에 대해 서로 다른 우선순위를 두고 있어 국제적 공조에 난항이 예상됩니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "시진핑 \"美, 대만독립 반대해야\"…트럼프와 AI 협력엔 한목소리 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4weEdKRXkzdkE2ZnduM2dYaDdPMDJXNWpwdmNRUkRvRzE2cHVYX0NNOTNuVTcyRFVsZnBNeUlWVkVTTEdER1JSazBMNmhCWWVtTWFodGE4aVp0emdSdjUyLXNQcmozS3Zs0gFuQVVfeXFMT0FReEdVZDQ2WXE5OUdEbmF4dUs4ODNMOGFONTF4T2tNcDBobDl2ejVZNWhCa1FneE0xS0RzbjMwQkRqWDhWQUZUTXN6YlJkcGRra1JKejRpcm5RTVo2dXRmWjQwZGREdkRJWDU4MVE?oc=5",
-        "pubDate": "Thu, 24 Sep 2026 22:24:34 GMT",
-        "summary": "시진핑 주석은 대만 문제 등 핵심 사안에서 미국과 대립각을 세우면서도, AI 분야의 협력 가능성에 대해서는 긍정적인 입장을 취했습니다. 이는 AI 기술이 외교적 협상의 중요한 카드로 부상했음을 보여줍니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "오픈AI·앤트로픽, UN서 'AI 인간 통제 상실' 경고…美는 규제 반대 - 전자신문",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yc2o2Q0sxbXNQeXlYeHNQNTNSSHJENWhGamxsclozVzAxSE5PZnBtVkxxNmpmeWxyckhBa1ZWQW0zQnNhWnk2OUc4TUtUdw?oc=5",
-        "pubDate": "Thu, 24 Sep 2026 04:45:32 GMT",
-        "summary": "오픈AI와 앤트로픽이 UN에서 AI 기술의 통제 불능 위험을 경고하며 안전망 구축을 촉구했습니다. 반면 미국 정부는 지나친 규제가 혁신을 저해할 수 있다며 신중한 입장을 보이고 있습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 3
-      },
-      {
-        "title": "AI·반도체 ETF, '투자 필수템' 됐다…순자산 65조 돌파 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9INzB3c2k1cWtRVXcwTW8yY3cxanQzNXVRV0d2V1ZSOWdxcTltbmk3QmRGOGpnVThkTXlUQ3BWeTNtRTM4MkZ4V0V0b1hZOTRoTW5xTUFFU3pDOVpwM0ozemQ2OVFuSDRj0gFuQVVfeXFMTk1nNUcxdlhzUHBuaVNaUEsycC1mNGZzM05KeWRtcWZaVFBtWlA3dENDSy1EUjk1WWEwdVFPcnBnY1NEa182UWkyZ180SHRwMlU3VU1GRVlBWjNCODNtd0ZQaGJYa00xMkJSVEJ6YWc?oc=5",
-        "pubDate": "Thu, 24 Sep 2026 23:41:00 GMT",
-        "summary": "AI 및 반도체 관련 ETF의 순자산 규모가 65조 원을 돌파하며 시장의 견고한 투자 수요를 증명했습니다. AI 생태계 성장에 따른 인프라 기업들의 가치가 지속적으로 상승하고 있습니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
         "investmentImpact": 5
       }
     ]
