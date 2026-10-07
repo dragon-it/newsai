@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-07T01:10:49.066Z",
+    "reportDate": "2026. 10. 7.",
+    "summary": "- AI 보안 취약성 노출: 해킹 특화 AI의 등장으로 사이버 보안 위협이 급격히 가시화됨.\n\n- 모델 생태계 및 시장 경쟁: 오픈소스 AI 모델의 경쟁 격화와 반도체 시장의 변동성이 글로벌 투자 흐름에 영향을 미침.\n\n- 공공 및 산업 현장 활용: AI 시민 비서 도입 및 축산 스마트팜 등 실생활과 밀접한 AI 서비스 적용이 가속화됨.",
+    "summaryScore": 78,
+    "dailyVelocity": 1.2,
+    "velocityReason": "해킹 자동화 AI의 낮은 진입장벽과 비용 효율성이 기존 보안 직무의 자동화 가능성을 높여 위험도를 가속함.",
+    "cumulativeRiskScore": 54.1,
+    "jobRiskScore": 54.1,
+    "riskScoreBreakdown": [
+      {
+        "event": "해킹 특화 AI 저비용/고효율 공개",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "공공 서비스 AI 도입 확산",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 4
+      },
+      {
+        "event": "반도체 시장 경제 불확실성",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 3
+      }
+    ],
+    "news": [
+      {
+        "title": "[단독]‘해킹 AI’에 표적 입력하자 43초만에 뚫어…사용료 20원 - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sYkFkeHRLem5FSThaZXp5bWpVc3NuUjhzMWJyZHVfSDMzenhWd1VVeG9Xa2UzeGxQdFVIOG9pZkxvR1pENlpYX1NqNTJMeE80TXpUSExuQjV4VkxqMVNTTER1djd3UXhsdXpqQzBuRS1IZmhLVnfSAWZBVV95cUxNNWJuWGg1WWZ0VjVDVEdtQkk1OHdKMTdacURBRjF2QzNfZEtvRG1Xb01UMlFWUnZNTmtsejIwVGdCamZqTFRmc3Fab1FJZktXeGdzUWdnNzF6VGxmYnF3VzRqeWF0Q1E?oc=5",
+        "pubDate": "Tue, 06 Oct 2026 21:28:55 GMT",
+        "summary": "특정 해킹 타겟을 입력하면 1분 이내에 취약점을 찾아내는 공격형 AI가 저렴한 비용으로 등장하여 사이버 보안 경각심이 고조되고 있습니다. 공격과 방어 기술 간의 비대칭적 경쟁이 가속화될 전망입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "'미국 오픈소스 대표' 리플렉션 AI, 첫 모델 공개…반응은 엇갈려 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pQ3UyQ2Z0TmpvLTVhNmZZVU1MLV9zSDlwaXdwcWFXT0hIbjdqVTlqalVVQWJfWGZTd2tpaGNSSFJvWG5hWi1wS3JBUjA0LURXb2JaTTZMMld6eVpvc1RJVHNBdzNEdFFzSkE?oc=5",
+        "pubDate": "Tue, 06 Oct 2026 09:19:10 GMT",
+        "summary": "미국 오픈소스 진영을 대표하는 리플렉션 AI가 신규 모델을 공개했으나, 성능 평가와 기술적 검증을 두고 시장의 반응이 엇갈리고 있습니다. 모델의 신뢰성 입증 여부가 향후 시장 영향력을 결정할 것으로 보입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "엇갈리는 반도체+ 넓어지는 폭=흐름 바뀌나…AI와 금리의 치킨게임? [김현석의 월스트리트나우] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iY3NqMU5BRXdNVDNNb0lXSjJPSkVGOUNHV2x4N05vVUloZG5KcHNOb1pjR09keUlvejBkSGpBdHFzTTVBbVdmblAwZzR0MTBxLVlJQi1JOFZYZw?oc=5",
+        "pubDate": "Tue, 06 Oct 2026 22:47:33 GMT",
+        "summary": "AI 산업의 근간인 반도체 수요와 글로벌 금리 기조가 맞물리며 시장의 불확실성이 커지고 있습니다. AI 기술 발전과 경제 지표 사이의 상관관계가 투자 시장의 주요 변수로 부상했습니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "부산시 홈페이지 전면 개편…'AI 시민비서' 시범 운영 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XV2dSTnRmejl0Y0xELVJRVEk0UUFzUzgzLWU4OFYzS0dCdTdfdnh6blhSTkZuOHp3LXVEWnlxYmZ5dGlkRG5keVFSVmRmZV94ZjRQRVJ1ejVhYWPSAWBBVV95cUxNLUdaZGczaHFkaTIzRVYzaW5TdWxDZDcxVW9XcTNmYWRpM1lvMWNwWDJXc2VrUklacVBFY2k4bzdaR2ZTWk52Wk5DaGVpQWNhMHJfUVhySktJNE9xXzNfbUE?oc=5",
+        "pubDate": "Tue, 06 Oct 2026 23:05:57 GMT",
+        "summary": "부산시가 홈페이지를 전면 개편하며 AI 기반의 시민 비서 서비스를 도입합니다. 공공 행정 영역에 AI 자동화가 본격적으로 적용되어 대민 서비스 효율화가 기대됩니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      },
+      {
+        "title": "'건강 살피고 사고 막고'...한우 지키는 AI·ICT - YTN",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ZLUdIdGQxVkl0cVMzQzYybEw4bGxxcENIZTFnazF6RDFvRU5TaHFEdFFsUnJtZjc0S3FfVmNYQS1aY09vSUxhdGF2SDFlclZJQ3ltOXMtRGVCeUN4RUJUS0stTHhNRzgtdUs0RXZEOA?oc=5",
+        "pubDate": "Wed, 07 Oct 2026 00:12:00 GMT",
+        "summary": "축산 농가에 AI와 ICT를 접목하여 가축 건강 관리와 사고 예방을 수행하는 기술이 주목받고 있습니다. 전통적 산업 현장에서 노동력을 보완하고 생산성을 높이는 실용적 AI 사례가 확산 중입니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-06T02:01:31.352Z",
     "reportDate": "2026. 10. 6.",
     "summary": "- AI 브랜드 및 조직 재편: 일론 머스크의 xAI를 연상시키는 SI(Super Intelligence)로의 기업 정체성 변화 논의가 정치권과 연계되어 부상함.\n\n- AI 수익화 모델 강화: 구글이 제미나이 유료 요금제 구조를 개편하고 프로모션을 도입하며 AI 서비스의 유료화와 시장 점유율 확대를 동시에 꾀하고 있음.\n\n- 국방 산업 AI 실증: 마키나락스가 해군 장비 운용에 AI 참모 시스템을 도입하며 산업 현장과 국방 분야로의 AI 적용이 가속화되고 있음.",
@@ -728,88 +810,6 @@
         "aiImpact": 3,
         "automationPotential": 2,
         "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-26T00:19:12.222Z",
-    "reportDate": "2026. 9. 26.",
-    "summary": "- 미중 정상회담을 통해 AI 거버넌스에 대한 양국의 입장 차이가 확인되었으며, 기술 패권 경쟁이 지속될 전망입니다.\n- 오픈AI의 개인정보 유출 사고로 인해 데이터 보안 및 AI 윤리에 대한 경각심이 고조되고 있습니다.\n- 오픈AI의 신규 모델 공개 임박 소식은 AI 시장의 기술 혁신과 실질적인 상업화 전환을 가속화하고 있습니다.",
-    "summaryScore": 88,
-    "dailyVelocity": 1.2,
-    "velocityReason": "오픈AI의 차세대 모델 공개 임박 소식과 서비스 고도화 움직임이 기업들의 AI 전환 속도를 높이고 있습니다.",
-    "cumulativeRiskScore": 53,
-    "jobRiskScore": 53,
-    "riskScoreBreakdown": [
-      {
-        "event": "미중 AI 규제 입장 차이",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "오픈AI 개인정보 유출 사고",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 4
-      },
-      {
-        "event": "GPT-6 사이버 등 전용 제품 개발",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "미중 정상회담 종료...AI 규제 온도차 - YTN",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1STzB2cDhYNlI4Zng5MURMVGNUUjh2TS1ORW4zbUhlS0tsTU11TTYzem41WXctbkpUdzYtNE1NVHljRm10dllDbmlVbk1qcWNFYnNReWhlMzkzR1J5anc?oc=5",
-        "pubDate": "Thu, 24 Sep 2026 18:56:00 GMT",
-        "summary": "미중 정상회담에서 AI 기술 통제 및 규제에 대한 양국의 온도 차이가 드러났습니다. 글로벌 AI 주도권을 확보하기 위한 양국의 전략적 경쟁이 지속될 것으로 보입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "미중 정상 백악관 회담...시진핑 \"AI 통제\" vs 트럼프 \"현상 유지\" - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pZzdhc1IteVdzT1dFYk9LeDVvSklGNXRvVUttWlFraDVfRXhORk9LckFpYjRyLXlPV2trWk45a3Z6blV2SEdqYlhGbnFKai1uTHBhSVRSQ2YtX3VCamNVVzljU0pydzBrRnc?oc=5",
-        "pubDate": "Fri, 25 Sep 2026 23:01:13 GMT",
-        "summary": "시진핑 주석의 AI 통제 강화 주장과 트럼프 대통령의 현상 유지 및 자국 우선주의 입장이 충돌했습니다. 국제적인 AI 거버넌스 합의 도출이 당분간 어려울 전망입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "[미중정상회담] 美전문가들 \"취약한 무역휴전 연장…AI경쟁 본능 억제못해\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hZHNvWkpaUG5VMU9yUUFmaHNvLVppcHNTdmFuc2lYeTRTbGkxTXNURU1iOFN4QlpEVkk4cS1xemdEZ2dsMUFKN1ZnQ3FwMjQ?oc=5",
-        "pubDate": "Fri, 25 Sep 2026 16:51:53 GMT",
-        "summary": "전문가들은 이번 미중 정상회담이 일시적인 무역 휴전일 뿐, AI 기술 패권을 둘러싼 본질적인 경쟁을 억제하기에는 역부족이라고 평가했습니다. 기술 안보를 중심으로 한 갈등은 계속 심화될 것입니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "“익명화 믿었는데”…오픈AI 에이전트, 챗GPT 이용자 이미지 53장 무단 유출 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNRkU2ZjlqWUNhVTljSkM3V0NvM2N4UmlueXNlQk5vVVhfSDZXUVpwbkoyR0FJZlk4c0ZFenVWVGlwcUFxU3gzQmJDQ184ZUE?oc=5",
-        "pubDate": "Fri, 25 Sep 2026 23:08:00 GMT",
-        "summary": "오픈AI의 에이전트 시스템을 통해 챗GPT 이용자의 개인 이미지 53장이 무단으로 외부 유출되는 사고가 발생했습니다. AI 서비스의 데이터 익명화 및 보안 정책에 심각한 결함이 노출되었습니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "오픈AI, 'GPT-6 사이버' 공개 임박…API 넘어서는 '전용 배포 제품' 선보인다 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xcHVCeU85VUlpdkxHamJ0bmRnRjJtbkxTcUlVVTVfaDVmN3k0ZkpSM201OGxXelJUcVNMeHhLcC1qeUZmQWpDR0NyNjhhZ2ZHU0VpRWQ4VUV5UW9yZjdwMG5jVFNoMjVSOVE?oc=5",
-        "pubDate": "Fri, 25 Sep 2026 23:57:00 GMT",
-        "summary": "오픈AI가 차세대 모델인 'GPT-6 사이버'를 준비하며 단순 API를 넘어선 전용 배포 제품 출시를 앞두고 있습니다. 이는 AI의 실무 현장 도입과 B2B 시장 공략이 본격화됨을 의미합니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 5
       }
     ]
   }
