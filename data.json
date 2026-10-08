@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-08T01:30:11.288Z",
+    "reportDate": "2026. 10. 8.",
+    "summary": "- AI 하드웨어 생태계 강화: AMD 리사 수 회장의 방한을 통해 한국의 주요 메모리 기업들과 AI 반도체 파트너십을 공고히 하며 글로벌 AI 인프라 공급망을 재편하고 있습니다.\n\n- 연구 및 기술력 도약: 오픈AI의 수학적 난제 해결 역량이 증명되면서 AI 모델의 추론 및 지능 수준이 비약적으로 발전하고 있습니다.\n\n- 서비스 수익화 시도: 챗GPT 내 시각적 광고 도입을 통해 AI 플랫폼의 수익 모델을 다각화하려는 시도가 본격화되고 있습니다.",
+    "summaryScore": 88,
+    "dailyVelocity": 1.2,
+    "velocityReason": "AI 반도체 생태계 강화와 오픈AI의 추론 능력 향상이 결합되어 기술 고도화 속도가 완만하게 가속화되었습니다.",
+    "cumulativeRiskScore": 54.2,
+    "jobRiskScore": 54.2,
+    "riskScoreBreakdown": [
+      {
+        "event": "AMD-한국 반도체 AI 동맹 강화",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "오픈AI의 수학 난제 해결(모델 지능 비약적 상승)",
+        "sign": "+",
+        "impact": 6,
+        "newsIndex": 5
+      },
+      {
+        "event": "AI 플랫폼 수익화(광고) 도입",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "리사 수 AMD 회장 7개월 만에 방한…한국 AI반도체 동맹 넓힌다 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DaXNfRWNpT0RMQ3ZieXlVaERaczltWDhfanFqbmZjTmhVWTNDdHZ6cjlOVldQNGVDVlY2bFBOYWRRUXo0d08zNXJFSUxfTFFGM0pudUZfTEJfNzDSAWBBVV95cUxPUDFob096Sll2X3M5dWFNLU1OVUlMcy1pb0xJM0d1M0hVcmNqNHRKcjZwNk45eHlyQW91bW00emhfelNTZWF3ZFFCTGhaR1BEaUxielZvVHJxN043SXI4dnc?oc=5",
+        "pubDate": "Tue, 06 Oct 2026 20:33:00 GMT",
+        "summary": "리사 수 AMD 회장이 방한하여 한국의 주요 반도체 파트너들과 협력을 논의했습니다. 글로벌 AI 반도체 공급망 내에서 한국 기업들의 역할을 강화하는 계기가 될 것으로 보입니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "AMD 리사 수, 삼성·SK 수장 잇따라 만나 ‘AI 동맹’ - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUVVJZEpESzRLaXNScTZZVjI2ejN6VDZxVmFTSUxsSTdZU1pCdW1HbzN6YjdNRTNiVGFQbk1hQ0FJRW1CUy15ZnJ2YlBOYU9jUVNoRy1kc3pYN1NZZ2w0d1ppS2tCN3B4NVJ4TkVaQWtKc3VjNlFLdWtJNWgyMm1GNGphQQ?oc=5",
+        "pubDate": "Wed, 07 Oct 2026 06:59:00 GMT",
+        "summary": "리사 수 회장이 삼성전자와 SK하이닉스 수뇌부를 만나 AI 동맹을 강화했습니다. 차세대 메모리 및 반도체 생태계 주도권을 확보하기 위한 전략적 행보로 해석됩니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "AMD 리사 수 \"한국서 AI 연구센터 출범 기뻐…생태계 넓히고파\" - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvMk9XeERVLXFkanlMRUp6SEFNZzlRT2R1VUVEdTlJNk0wTWlhM3dhRENpazI5NDBrdVA4V2k3aXU3M2t4RHhrOVVPOXJ2bXQ2TzFuX1hZR0J1THB0MGpWOTExX3JWWVZLd044TlRjWGY?oc=5",
+        "pubDate": "Wed, 07 Oct 2026 00:46:00 GMT",
+        "summary": "AMD가 한국 내 AI 연구센터 출범 계획을 공식화하며 연구 생태계 확장에 나섰습니다. 한국 시장의 기술적 우위를 활용해 글로벌 경쟁력을 높이려는 의도입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "오픈AI, 챗GPT에 '시각적 광고' 도입…이미지 생성 옆 노출 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0MzllOEhlTVdIaVhfMXo1UV9zY1hzZVM2djBsTUZYaF8yb2Q1OGtQaDI2SkplcW5TcFB2RDh5N29CRTh6Y180Nm1NYTM0S25oNnpUdnNkUVRKUU1fWkNCd2JCZ25QTVh4bkE?oc=5",
+        "pubDate": "Tue, 06 Oct 2026 08:56:02 GMT",
+        "summary": "오픈AI가 챗GPT 내 이미지 생성 결과물 옆에 시각적 광고를 노출하는 실험을 시작했습니다. AI 서비스의 수익성 개선을 위한 비즈니스 모델 실험이 구체화되고 있습니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "“인간이 풀었다면 바로 필즈상“…오픈AI 난제풀이에 수학계 ’충격’ - 연합뉴스TV",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xZDM2ZG5IVllKNEdDQzNJXzdSUXVfZkw3SFZRdXhiM0FTQUdGTzFLRUdkUVhUQWk5T3VmNzg0Wk5zZXc3bkpLRUItUldJWjZYNHUybTRld3VhT1ByMUh4QlFfRmVRdVk?oc=5",
+        "pubDate": "Wed, 07 Oct 2026 22:52:00 GMT",
+        "summary": "오픈AI의 최신 모델이 인간 수학자의 수준에 준하는 고난도 난제를 해결했습니다. 추론 능력이 비약적으로 발전하며 학계와 산업계 전반에 큰 충격을 주고 있습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-07T01:10:49.066Z",
     "reportDate": "2026. 10. 7.",
     "summary": "- AI 보안 취약성 노출: 해킹 특화 AI의 등장으로 사이버 보안 위협이 급격히 가시화됨.\n\n- 모델 생태계 및 시장 경쟁: 오픈소스 AI 모델의 경쟁 격화와 반도체 시장의 변동성이 글로벌 투자 흐름에 영향을 미침.\n\n- 공공 및 산업 현장 활용: AI 시민 비서 도입 및 축산 스마트팜 등 실생활과 밀접한 AI 서비스 적용이 가속화됨.",
@@ -727,88 +809,6 @@
         "importance": 5,
         "aiImpact": 4,
         "automationPotential": 4,
-        "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-27T00:06:30.004Z",
-    "reportDate": "2026. 9. 27.",
-    "summary": "- 신규 모델 개발 및 확장: 오픈AI가 차세대 모델 'GPT-6 사이버'를 통해 API를 넘어선 전용 배포 전략을 추진하며 생태계 확장을 가속화하고 있습니다.\n\n- 보안 및 데이터 보호 이슈: 챗GPT 이용자 이미지 53장이 외부로 유출되는 사고가 발생하여 AI 기업의 데이터 관리 및 보안 책임론이 대두되고 있습니다.\n\n- 인프라 구축 및 공급망 강화: 1천조 원 규모의 AI 반도체 시장을 선점하기 위해 정부 차원의 공급망 지원과 제3판교와 같은 AI 클러스터 구축이 활발히 논의되고 있습니다.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.8,
-    "velocityReason": "오픈AI의 차세대 모델 발표로 기술 도약이 예고되었으나, 연이은 보안 사고로 인해 안전성 및 규제 논의가 병행되면서 완만한 가속을 보였습니다.",
-    "cumulativeRiskScore": 53.1,
-    "jobRiskScore": 53.1,
-    "riskScoreBreakdown": [
-      {
-        "event": "GPT-6 사이버 공개 임박",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "챗GPT 데이터 유출 사고",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 2
-      },
-      {
-        "event": "AI 인프라 및 반도체 생태계 투자",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "오픈AI, 'GPT-6 사이버' 공개 임박…API 넘어 '전용 배포' 선보인다 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xcHVCeU85VUlpdkxHamJ0bmRnRjJtbkxTcUlVVTVfaDVmN3k0ZkpSM201OGxXelJUcVNMeHhLcC1qeUZmQWpDR0NyNjhhZ2ZHU0VpRWQ4VUV5UW9yZjdwMG5jVFNoMjVSOVE?oc=5",
-        "pubDate": "Fri, 25 Sep 2026 23:57:00 GMT",
-        "summary": "오픈AI가 차세대 모델인 GPT-6 사이버의 공개를 준비 중이며, 기존 API 형태를 넘어 전용 배포 방식을 도입할 예정입니다. 이는 AI 서비스의 전문화와 기업용 활용도를 대폭 높일 것으로 기대됩니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "오픈AI도 전모 모른다…챗GPT, 사용자 이미지 53장 유출 - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSHZmYWI0U1lNN0FjdUNWcG5HT21heWJXQm5yRWt2WkVNVC1SbU14SVdZczhaSjBielRnT3NYaTlMTTVHQ3g2aE1ya052bjNvbWk1MmZoTndfRTkzN0cxR0pteWVvYjc0UzBpUjVHUkdCcnE2MFdkYi1YOHR1S1R2aUhB?oc=5",
-        "pubDate": "Sat, 26 Sep 2026 02:26:00 GMT",
-        "summary": "챗GPT를 이용하는 사용자의 이미지 53장이 외부로 유출되는 보안 사고가 발생했습니다. AI 기업의 데이터 관리 능력과 개인정보 보호 조치에 대한 신뢰성 논란이 확산되고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "오픈AI 에이전트 또 사고…챗GPT 이용자 이미지 53장 외부 유출 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB1NDRVdUtEeFNiMHZKMGZ0NVpWZExlblRKbTQ1TExoOXZNODFmSTJjd0FJbXVBVUJSSEtCRlhiMGdjb3VvQlZ1WVRIcmJ6VTQ?oc=5",
-        "pubDate": "Sat, 26 Sep 2026 23:42:51 GMT",
-        "summary": "이용자의 이미지 데이터 유출 사고가 반복되면서 오픈AI의 기술 관리 시스템에 대한 비판이 제기되었습니다. 데이터 보안은 AI의 신뢰성을 결정짓는 핵심 요소로 급부상했습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "1천조 시장 열리는 AI반도체…\"정부, 공급망 진출 지원해야\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHdEJ5TXA3YXU4Q2tYNEFXSEtnakZFRHR5YzZmaFpSck5RSWVlZWtxUXFsQ0xuR3gxLUVkRHlUcmhtVkR2X2RqNC1tTE5oRjQ?oc=5",
-        "pubDate": "Sat, 26 Sep 2026 22:32:52 GMT",
-        "summary": "1천조 원 규모로 성장하는 AI 반도체 시장을 선점하기 위해 정부의 적극적인 공급망 진출 지원이 필요하다는 목소리가 커지고 있습니다. 국내 기업들의 글로벌 경쟁력 확보를 위한 정책적 뒷받침이 중요해졌습니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "“AI 반도체 성지 만든다”…제3판교 오피스, 후년 준공 '탄력' - 마켓인",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5yZ2ZXZzQ4TEJ4aXU0TEFld3VHemFXUnRURThQSWdSVjl5UTB0ejNDQVlaVWpTc3lrMHAzcE43NWhaaGNUQUpNVFhJQVRvbnRNLXFTMVhvT3dNbTVyOHpsc3RwUTVXRjNPXzY5TEZEMWl1dTg?oc=5",
-        "pubDate": "Sat, 26 Sep 2026 22:05:07 GMT",
-        "summary": "AI 반도체 산업 육성을 위해 경기도 제3판교에 전문 오피스 및 클러스터 구축 사업이 탄력을 받고 있습니다. 인프라 조성을 통해 AI 관련 기업 유치와 생태계 활성화가 기대됩니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 2,
         "investmentImpact": 4
       }
     ]
