@@ -1,5 +1,81 @@
 [
   {
+    "lastUpdated": "2026-10-09T01:39:19.354Z",
+    "reportDate": "2026. 10. 9.",
+    "summary": "- AI 투자 생태계 과열: AI 칩 확보를 위한 천문학적 부채 조달이 증가하며 투자 경쟁이 심화되고 있음.\n\n- AI 수익성 우려 확대: 오픈AI의 매출 실적 부풀리기 논란과 시장 기대치 하회 전망이 제기되면서 기술주 전반의 투자 심리가 위축됨.\n\n- 지자체 AI 인프라 유치전: 국내 지자체를 중심으로 글로벌 AI 허브 유치를 위한 전략 모색 등 인프라 확충 노력이 지속됨.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.2,
+    "velocityReason": "AI 기술 자체의 발전보다는 시장의 수익성 우려와 투자 조정이 지배적인 상황임.",
+    "cumulativeRiskScore": 54.2,
+    "jobRiskScore": 54.2,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 투자 시장의 고평가 논란",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 3
+      },
+      {
+        "event": "기술주 약세 및 고용 투자 위축 가능성",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      }
+    ],
+    "news": [
+      {
+        "title": "AI 칩 사려고 수백억달러씩 빚…월가로 번진 AI 투자 경쟁 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1dESXM1b3pEXzdndEk3a00yUllKdmZVQTNaRU9UMzNTdmxnczhEQmZxWHd2ejZ1YmVOM1VnU1gtdVBXaThXUEVYdDNHWHFqRlJtMlZTTnI0Y1RHNlpMaFlraVlBN2M1UnVMei1XaTVETE9qQnNSMGlnbmgwMGhCYmlmM2RRU3p4?oc=5",
+        "pubDate": "Thu, 08 Oct 2026 20:33:00 GMT",
+        "summary": "빅테크 기업들이 AI 가속기 구매를 위해 대규모 부채를 조달하며 월가의 AI 투자 경쟁이 한계점에 도달했다는 평가가 나옵니다. 인프라 구축을 위한 막대한 자금 소모가 기업 재무 구조에 부담을 주고 있습니다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "뉴욕증시, 오픈AI 매출 우려에 기술주 약세…나스닥 1.25% 하락 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY3lqM2pkMm4zOGlUMEhZSkx5allROG1BYzhoX1JBelNKM2hxZTJ2U3F1VkFFbW50M2pHQ0YzaEFwRUZ0aTB2RVNQNU50Z3F1YUNWT1RUMThNb1lXVGMtNDBMRHV6cXJfVlRMUkZhbzNYWUhEc1hwa0VGZG9ab21WS2ktQXROeTFs?oc=5",
+        "pubDate": "Thu, 08 Oct 2026 21:20:00 GMT",
+        "summary": "오픈AI의 매출 부진 우려가 시장에 확산되며 뉴욕 증시 기술주 전반이 하락세를 보였습니다. 투자자들의 AI 수익성에 대한 의구심이 커지면서 기술주 투자 심리가 냉각되었습니다.",
+        "importance": 5,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "\"매출 27조원 부풀렸나\"…오픈AI 실적에 'AI 수익성' 의문 재점화 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1razJNdE9lQkxuT2ZSQ2h4UVNpeE44eEhuS0FMc2thS3VNZG9GcFd1OU5ON3MtcFgtNl95Z1l0Ujh4dXFaSUV2OFV5YjNLRy1JMmdVUjFDVVNKNFljUFNsMDRnUGpweTZo0gFuQVVfeXFMTW1lendPTU5DbHhOQUR5RXNpZkVkRFR2NDE5NWFPanJrWkc3MC1tZUd3ZFFGN0o0ZW1KR1V2dW14S3RveHlKdzlRbldEQ3BrVklCeHNmUDVZcDdLWVRESWY5ajBFRVpHS0lBOWpnN1E?oc=5",
+        "pubDate": "Fri, 09 Oct 2026 01:28:00 GMT",
+        "summary": "오픈AI가 매출 실적을 부풀렸다는 의혹이 제기되며 AI 모델의 실제 상업적 가치와 수익성에 대한 재평가가 이루어지고 있습니다. 시장은 AI 산업의 실질적인 수익 모델 증명을 요구하는 분위기입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "\"오픈AI 매출 기대이하\" 전망에…반도체 주 충격파 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aY1FOb1lRbkh3X2pvcmRHUzRqWFEwQmYtakhpWTA1OUJoaExQbUhrVDVfUFRZOTQ5RmNJY3VTck1GRG9fUnlFMmFubENOakhlNklYNExB?oc=5",
+        "pubDate": "Fri, 09 Oct 2026 00:45:44 GMT",
+        "summary": "오픈AI의 매출 전망치가 기대에 미치지 못할 것이라는 관측이 반도체 섹터의 주가 하락으로 이어졌습니다. AI 반도체 공급망에 대한 과도한 낙관론이 조정받는 양상입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      },
+      {
+        "title": "고양, 글로벌 AI 허브 유치 총력…유치전략 모색 포럼 개최 - 경기일보",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04YTVGeFJvY3VRbUFfaUJQdm1tb0NQYVozX0oyQlZkZzVQWkxLWVpEMVRwRDFBYUFLZ0ZxREpERkhydEljamJSUW1uNWkxOFJTUHlHc2I4eFlmaU0?oc=5",
+        "pubDate": "Fri, 09 Oct 2026 01:07:28 GMT",
+        "summary": "고양시가 글로벌 AI 허브 유치를 위해 포럼을 개최하는 등 인프라 조성을 위한 전략을 구체화하고 있습니다. 지자체 차원의 AI 생태계 구축 노력이 산업 발전의 토대가 될 것으로 기대됩니다.",
+        "importance": 2,
+        "aiImpact": 2,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-08T01:30:11.288Z",
     "reportDate": "2026. 10. 8.",
     "summary": "- AI 하드웨어 생태계 강화: AMD 리사 수 회장의 방한을 통해 한국의 주요 메모리 기업들과 AI 반도체 파트너십을 공고히 하며 글로벌 AI 인프라 공급망을 재편하고 있습니다.\n\n- 연구 및 기술력 도약: 오픈AI의 수학적 난제 해결 역량이 증명되면서 AI 모델의 추론 및 지능 수준이 비약적으로 발전하고 있습니다.\n\n- 서비스 수익화 시도: 챗GPT 내 시각적 광고 도입을 통해 AI 플랫폼의 수익 모델을 다각화하려는 시도가 본격화되고 있습니다.",
@@ -728,88 +804,6 @@
         "aiImpact": 4,
         "automationPotential": 2,
         "investmentImpact": 5
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-28T00:15:14.715Z",
-    "reportDate": "2026. 9. 28.",
-    "summary": "- AI 시대의 인문학적 가치 재조명: 단순 기술 습득을 넘어 질문하는 능력 등 철학적 소양이 AI와 공존하는 핵심 역량으로 주목받음.\n\n- 능동형 AI 에이전트로의 패러다임 전환: 단순히 대답하는 챗봇에서 벗어나 스스로 작업을 수행하는 '에이전트' 모델이 공공 및 산업 현장의 실무에 도입됨.\n\n- AI 교육 및 투자 시장의 다변화: 시니어 세대의 높은 학습 의지와 엔비디아 의존도를 탈피하려는 투자 시장의 포트폴리오 다변화 움직임이 뚜렷함.",
-    "summaryScore": 82,
-    "dailyVelocity": 0.8,
-    "velocityReason": "능동적으로 업무를 수행하는 AI 에이전트의 현장 도입 사례가 늘어나며 실무 직무의 자동화 체감도가 완만하게 상승함.",
-    "cumulativeRiskScore": 53.2,
-    "jobRiskScore": 53.2,
-    "riskScoreBreakdown": [
-      {
-        "event": "일하는 AI 에이전트 등장",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 2
-      },
-      {
-        "event": "군사 분야 AI 시스템 적용",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 5
-      },
-      {
-        "event": "인문학적 질문 능력 재평가",
-        "sign": " -",
-        "impact": 3,
-        "newsIndex": 1
-      }
-    ],
-    "news": [
-      {
-        "title": "“테스 형~ 철학과가 다시 뜬다는데 왜 그래?”···AI 시대 ‘질문하는 능력’ 중시돼 인기 - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfVlNwTHgybjlrYUR5Z0pUbDJETmd1RFNfWXhUMldYeHBDZUZ4eVIwSGJlSTNEX0h0bTk4bE1OdlR3WEp1cWxpbDhlcEZlOW1KVlBmWnRySVpJQdIBX0FVX3lxTE5lTXVkSUl3azF6RFVkUGdQOEY0dHhIbzl5UWt1ZUJwREVETFQ4NXZpWV9lZUdndUFscjFpeW9MR0IwYmtaZjU3OHRHNTlQendtNk9oU00tSUVncTBUNlZj?oc=5",
-        "pubDate": "Sun, 27 Sep 2026 06:13:00 GMT",
-        "summary": "AI가 발전함에 따라 단순 정보 처리가 아닌 근본적인 질문을 던지는 철학적 사고가 중요해지고 있음. 이에 따라 인문학적 소양을 갖춘 인재의 가치가 재발견되는 추세임.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "대답만 하는 AI는 끝…'AI페스타'서 일하는 AI 만난다 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sbXZBaXJmNWZzTDAwMU5PZUhYVkk4Q1N1QnAyeEVnMGpyT1duMVZxOFpTY1dZYlE0b1Nha2FFZVhiQkd3SzdScjVNTjNEUmRoU0FENDVR?oc=5",
-        "pubDate": "Sat, 26 Sep 2026 23:58:10 GMT",
-        "summary": "단순 대화형 AI를 넘어 사용자의 명령을 수행하고 직접 업무를 처리하는 'AI 에이전트' 시대로 진입함. 이번 페스타를 통해 공공 및 산업계에 실질적으로 적용되는 자동화 솔루션들이 공개됨.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[단독] AI 관심 큰 시니어 세대…95%가 “배워보고 싶다” - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1naWY4TW5fVU5ySl9sM0I1MXJNVzZkcjF3ZjE3c3dUQUtTdG0tWWtRa01fTDBjVk1Vdjd1MmVVSlktRnVqYXo4M0xNUGtkT25tOUZuR3J1ZUxDYmZGaThqSA?oc=5",
-        "pubDate": "Sun, 27 Sep 2026 23:12:00 GMT",
-        "summary": "AI 기술에 대한 시니어 세대의 관심과 학습 의지가 매우 높은 것으로 나타남. 디지털 격차 해소를 위한 고령층 대상 AI 교육 수요가 증가하고 있음.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "엔비디아 대신 '이 종목'...1등 PB가 찍은 AI후속주 - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MV2JiSHZrWVRSTDlmNWNTM0x1MjFEalhXWGticzFJWnpQODRqTkVKNm44YXdJVF8yUFRHbmxYNzhlemdhTUE1TDNEV200amxVcFV3MkFsM3ZHdw?oc=5",
-        "pubDate": "Sun, 27 Sep 2026 23:00:04 GMT",
-        "summary": "AI 시장이 엔비디아 중심에서 다양한 소프트웨어 및 인프라 기업으로 투자처가 다변화되고 있음. 전문가들은 AI 밸류체인 내 차세대 유망주 발굴에 집중하고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "마키나락스, 합참과 KJCCS에 AI OS '런웨이' 적용...UFS 연습서 실증 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5MUZWTHB2VU8zVXA1VnJNY0kxaGd0XzdIMi1mLVU2SVk1NTVqZW9yZEpTb1I4ZjhlVWE5cFBva0Z4R0RIZ0FUaXpxb0pLM0E?oc=5",
-        "pubDate": "Sun, 27 Sep 2026 23:04:33 GMT",
-        "summary": "마키나락스의 AI OS '런웨이'가 합동참모본부의 핵심 시스템에 적용됨. 군사 작전 효율화를 위해 AI가 실전 연습에 도입되며 국방 분야 자동화가 본격화됨.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 4
       }
     ]
   }
