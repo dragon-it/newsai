@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-11T00:37:47.477Z",
+    "reportDate": "2026. 10. 11.",
+    "summary": "- 공공 AI 생태계 구축: 정부 부처의 업무 효율화를 위해 국내외 LLM을 도입하는 등 공공 분야의 AI 인프라 확장이 가속화되고 있음.\n\n- 채용 및 산업 패러다임 변화: AI 역량이 핵심 인재 평가 지표로 부상하고 있으며, 제조 및 패션 등 전통 산업에 AI를 접목한 생산 최적화 사례가 증가함.\n\n- 윤리적 책임 및 안전 관리: AI 플랫폼의 청소년 보호 기능 미흡 등 기술 활용에 따른 부작용에 대한 사회적 우려와 규제 목소리가 높아지고 있음.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.8,
+    "velocityReason": "AI 실무 역량이 채용 시장의 핵심 기준이 되고 산업 전반으로 AI 도입이 확대되면서 기술적 적응 요구가 가속화되고 있음.",
+    "cumulativeRiskScore": 54.3,
+    "jobRiskScore": 54.3,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 실무 중심 채용 전환",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "제조/디자인 공정의 AI 대체",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 3
+      },
+      {
+        "event": "AI 안전/보호 이슈 발생",
+        "sign": "-",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "공무원 AI 플랫폼 탑재 LLM, 국산 4종·외산 6종…삼성SDS·네이버 구축 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uVHJycGlxWXBaakk2c3lKVXpEVkVKandiVzVCd2ZDZmFZdGR5RlJyWFNYUi1IM1VXQWNvU0dTaXY5YXpZdFd1SGlVN1NVR1VNQlFkXzVB?oc=5",
+        "pubDate": "Sat, 10 Oct 2026 03:29:58 GMT",
+        "summary": "정부의 공무원 업무용 AI 플랫폼에 국산과 외산 LLM 10종을 도입하는 사업이 삼성SDS와 네이버 주도로 추진된다. 공공 분야의 AI 도입을 통해 업무 생산성 향상과 인프라 확보를 동시에 노리고 있다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "나이·학벌·경력 안 본다, 오직 AI 실력만 본다 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd0p2a0VTbkZuUHBITmFnSnpneU5BLXFHU0ZtVjgyMnNySUtOX0Z4TEphb0lmMkVlQm1ERjJSdnhHVkJ5cnFwQVcza0NuVUdRWEw1OVBBUmN6R09hSllObTkya1BIN0lQZ3phaWVQSkQxN1pmVkd0OG15UlQ3bEFhZjdrcUNIU3lUN05wdG5vYw?oc=5",
+        "pubDate": "Fri, 09 Oct 2026 20:31:10 GMT",
+        "summary": "기업들이 학벌이나 경력 대신 AI 도구 활용 능력과 실제 구현 역량을 중심으로 인재를 채용하는 추세가 확산되고 있다. 기술 습득 속도가 곧 경쟁력이 되는 시대가 도래했음을 시사한다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 5,
+        "investmentImpact": 2
+      },
+      {
+        "title": "'앙드레 김' 되살린 이 기업…장인의 감각 AI에 심고 제품 생산까지 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tVkNnNjd3a0F5aWlLMUR1clM4QmQzSXVrY25LR1dadjJDN01CWWN4WTBBNnhuTjFfM1BEcXpnWElMR0lwbkFDeWtPQWlpVmtsWVRyYVRPMWZ5MHVkbXFIM1k0ekxSNU15RlHSAW9BVV95cUxPcTBfSkVzUnk5MF9RTVNSczVBcW9hM21FbXZnSlIyWmpQUU9WVHNibHZCSmUxdV9TZ3dzRzZ2Q0NzMy1FR2RTaGFhcjZlVHhhTDA1NTlyQkZoVTc4cFlXNHc2SHNCM0Uzd2o5T1F3SGM?oc=5",
+        "pubDate": "Sun, 11 Oct 2026 00:00:00 GMT",
+        "summary": "장인의 감각과 디자인 노하우를 AI에 학습시켜 생산 공정에 적용하는 사례가 패션 등 제조 분야에서 확대되고 있다. 인간의 고유 영역으로 여겨졌던 예술적 기교가 AI를 통해 자동화되고 있다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      },
+      {
+        "title": "취임 6주년 맞은 정의선…피지컬 AI 설루션 기업 전환 속도 - 매일경제 마켓",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05YTVwby1halh3aDRJbmwwYkFJWnFTejZEbklabUFWSHBTRFNZU3V3dTNtVTkzdEtLZ3JPU2JKYkkyTnNwRDZCWHBnV3dFRnFPOWc?oc=5",
+        "pubDate": "Sat, 10 Oct 2026 23:00:08 GMT",
+        "summary": "현대자동차그룹 정의선 회장이 취임 6주년을 맞아 피지컬 AI 솔루션 기업으로의 전환에 속도를 내고 있다. 소프트웨어를 넘어 하드웨어 제어까지 AI를 활용한 제조 혁신을 가속화하는 전략이다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "AI 챗봇 ‘제타’, 미성년 캐릭터 대상 부적절 대화…“청소년 보호 장치 점검해야” - KBS 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YY3pKWmFjTEdvaHNGd2hNV0lGM0xsMTJ6aXFiQnY1RVZ1U00wSmw1Qmx5QUJvZUY5dzNrUkZsMEp1Tm9NdVR0eUxiVFdoSlZncERqMGhGWXNzdlk?oc=5",
+        "pubDate": "Sun, 11 Oct 2026 00:24:00 GMT",
+        "summary": "AI 챗봇 '제타'에서 미성년자를 대상으로 한 부적절한 대화가 발생하며 기술적 안전장치 부족 문제가 제기되었다. AI의 서비스 확대와 함께 청소년 보호 및 윤리적 가이드라인 강화가 시급해지고 있다.",
+        "importance": 4,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-10T01:26:34.563Z",
     "reportDate": "2026. 10. 10.",
     "summary": "- AI 산업 수익성 논란: 오픈AI의 매출 구조와 실제 수익성에 대한 의구심이 제기되면서 시장 전반의 투자 심리가 냉각되고 있습니다.\n\n- 반도체 시장 동요: 오픈AI발 성장 둔화 우려가 엔비디아 등 주요 반도체 기업 주가에 하방 압력으로 작용하며 기술주 변동성을 키우고 있습니다.\n\n- AI의 과학적 난제 해결: AI가 수학 연구의 복잡한 난제를 해결하는 등 학술적인 성과를 내고 있으나, 전문가들 사이에서는 AI의 역할과 미래 연구 가치에 대한 복합적인 반응이 나타나고 있습니다.",
@@ -727,88 +809,6 @@
         "importance": 4,
         "aiImpact": 4,
         "automationPotential": 3,
-        "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-09-30T00:57:23.279Z",
-    "reportDate": "2026. 9. 30.",
-    "summary": "- AI 에이전트 기술 가속화: 오픈AI가 추론 능력을 극대화한 신규 모델 '솔'과 자율형 에이전트 '닷'을 공개하며 AI의 실무 투입 범위가 확대됨.\n\n- 대규모 투자 및 기업 가치 상승: 오픈AI가 1,900조 원 규모의 기업 가치를 인정받으며 막대한 자금을 확보, AI 산업 내 자본 집중이 심화됨.\n\n- AI 활용 가이드라인 확산: 출판계의 AI 활용 표시 기준 도입 등 산업 전반에서 생성형 AI의 투명성을 확보하려는 자정 노력이 시작됨.\n\n- 의료 및 바이오 분야 AI 접목: SCL사이언스 등 기업들이 AI를 기반으로 암 백신 개발 및 합병 전략을 추진하며 기술 융합이 가속화됨.",
-    "summaryScore": 88,
-    "dailyVelocity": 1.8,
-    "velocityReason": "오픈AI의 자율형 AI 에이전트 '닷' 발표로 인해 화이트칼라 직무의 자동화 가능성이 실질적으로 증대됨.",
-    "cumulativeRiskScore": 53.4,
-    "jobRiskScore": 53.4,
-    "riskScoreBreakdown": [
-      {
-        "event": "OpenAI '닷' 자율 에이전트 공개",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 2
-      },
-      {
-        "event": "오픈AI 기업 가치 1,900조 돌파에 따른 공격적 R&D 가속",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 3
-      },
-      {
-        "event": "출판계 AI 활용 표시제 도입",
-        "sign": " -",
-        "impact": 1,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "오픈AI, 가성비 'GPT-6.1 솔' 공개…AI에이전트 추론 겨냥 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45YUJSR1lZX0d6ZlpOWXQ5eDhrS3hmSFZPaTlMNzY3SnpKQkQ1dWtvUDJrNmFqTjRCOEQxMkw4cURXX1FQWDZPbGJXMG1qT19mYzMxWkNMU2gwZEXSAWBBVV95cUxOUUZvZkxMTkt4QnRQek1wWUlmSXdRWC16S2ZKR3U3VWR1VDktcHV2bS1JVVF3bXo3OGxXSGZUeU96YkNqcjhlSW9qbktlZlpwdERhS25uNWVQbHRXcWY3V3o?oc=5",
-        "pubDate": "Tue, 29 Sep 2026 18:19:13 GMT",
-        "summary": "오픈AI가 추론 능력에 최적화된 가성비 모델 '솔(SOL)'을 공개함. 이는 복잡한 작업 수행을 겨냥한 에이전트 생태계 강화를 위한 전략으로 해석됨.",
-        "importance": 4,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      },
-      {
-        "title": "오픈AI 퇴근 후에도 일하는 AI에이전트 '닷' 공개... '안전 문제' 출시 연기 하루 뒤, 개발자 콘퍼런스 개최 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSlk2Ml9ubmNOdTFvUDJfdE15dGN5SUs0SGxWNzYwR1VDR0dtUnVPZ296bl9oYmZNWHA4bGJpY0RSczJZaWZtSTJKTU9FWnoteE5yRExXc3BTLVRveHBpOUR0bzdHaDFJN0JEc04yOFRsaUVMRWw4TG5UVGpiTXVkRUh3UQ?oc=5",
-        "pubDate": "Tue, 29 Sep 2026 21:29:00 GMT",
-        "summary": "오픈AI가 사용자의 업무를 대신 처리하는 AI 에이전트 '닷'을 공개함. 안전 문제로 인한 출시 연기 후 즉시 발표하며 기술 경쟁 주도권 의지를 보임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "\"오픈AI, 기업가치 1천900조 원에 신규 투자 유치\" - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mVHlmeHNjUndCQ0UyLTF3YW1ja0tMZ3VYbmFlVjdPNGVQZnJtMHZTWDBwaDdiRVE2YTFsa280U0NGNnZYRlE3YVFBNk8xSmc?oc=5",
-        "pubDate": "Wed, 30 Sep 2026 00:27:00 GMT",
-        "summary": "오픈AI가 1,900조 원의 기업 가치로 신규 투자 유치를 추진함. 전 세계 AI 스타트업 중 압도적인 시장 영향력을 재확인함.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "책도 'AI 사용 여부' 표시한다…출판계가 만든 3단계 기준 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ydDhzVTlUQ2JoVDZ6Y2lSSE5wZUl6YVd5TW5ZZEo3R2YwcnJYR2NNWmd1RmwzcGFGWFYzLWUzMDlNTUZlOU1ieFl2LU8zYUE?oc=5",
-        "pubDate": "Tue, 29 Sep 2026 23:57:00 GMT",
-        "summary": "출판계가 AI 사용 여부를 명시하는 3단계 기준을 마련함. AI 콘텐츠 생성의 투명성 제고를 위한 업계 자율 규제 움직임이 구체화됨.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "SCL사이언스, AI 암백신 28년 첫 환자 투여 목표…네오젠로직 합병 검토 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zUnNuU2ZWQkJOZnQxd00tclcxV09rSGxENU9tWVBqN2pRQkRKX2JfcTJjdmZmZXJZR1hLZ2k1NDNlUmJEdFNHN1o4bkN6TjgxdHBOZ053UndzWGpOVjBJa2g3d1pDVlJQ0gFuQVVfeXFMTW9ybmNWbjNuUVE4WEZUNHVKempHUTByZ1hMOWl6ZDZQU2Y4ZGhpdm5NODY1dU9nX1NnWURhNTBTb3QxWnZSM3NmMkxGNWR3eW1GUURxcFdDQkxlSl9TRDRQVVVVa3Y0QUdiSEVjOXc?oc=5",
-        "pubDate": "Wed, 30 Sep 2026 00:40:39 GMT",
-        "summary": "SCL사이언스가 AI 암 백신 개발을 위해 2028년 임상을 목표로 함. 기업 간 합병 등을 통해 의료 AI 기술 고도화에 주력하고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
         "investmentImpact": 4
       }
     ]
