@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-14T00:50:11.233Z",
+    "reportDate": "2026. 10. 14.",
+    "summary": "- AI 활용 방식의 변화: 단순 정답을 구하는 AI 이용보다 맥락적 힌트를 활용하는 방식이 학습 및 창의적 성과에 더 효과적이라는 연구 결과가 제시됨.\n- 카카오의 AI 전략 전개: 카카오가 '카톡 AI 비서'를 통해 사용자 경험을 혁신하고 서비스 연결성을 강화하려는 전략을 본격화함.\n- 시장 및 기술적 우려 공존: 카카오의 AI 수익화 모델에 대한 시장의 의구심과 더불어, 자가복제 AI가 제어 불능 상태에 빠질 수 있다는 안전성 경고가 동시에 제기됨.",
+    "summaryScore": 76,
+    "dailyVelocity": 0.8,
+    "velocityReason": "카카오의 대중적 AI 서비스 도입과 함께 AI 안전성에 대한 심각한 경고가 동시 발생하여 기술 확산과 위험 인식이 균형을 이룸.",
+    "cumulativeRiskScore": 54.4,
+    "jobRiskScore": 54.4,
+    "riskScoreBreakdown": [
+      {
+        "event": "카카오 AI 서비스 탑재 및 서비스 자동화 확대",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 수익성 의문 및 경영 효율화 압박",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 4
+      },
+      {
+        "event": "AI 안전성 위협 및 강제 통제 난항 경고",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "AI에 ‘답’ 물은 사람 더 자주 포기했다…‘힌트’ 받은 사람은 달랐다 - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jUnFyeGJZM0Y4enVmdm5ldzRIQ3dMTXdMWWtPNnVEanpIOWFKcnozeTFIQTg0UWlfcVlVMUtIYk5fMUtDazhOZm9fakNwS1JRVjZ1R2xQa2RJb2VURTFodlVpeHR6djNGMEowR3ZHTGMyeEpOdnfSAWZBVV95cUxPamw1WGhEM2tCRldqbHBXVzhpVXBQZGtqQzRKdVdlbDNnQ0s4akFKX1JPTTlVM0lxeWpOYmplNjg3cTU4RGk4ekVJWm5HX2w1Z0tiR2I0bl9VTVdsM25SY0lTOTVOX3c?oc=5",
+        "pubDate": "Mon, 12 Oct 2026 22:30:00 GMT",
+        "summary": "AI로부터 직접적인 정답을 얻는 방식보다 힌트를 제공받아 사고를 확장하는 방식이 사용자의 학습 및 과제 수행에 더 긍정적인 영향을 미친다는 연구 결과가 나왔습니다. 무분별한 의존보다는 AI와의 협업적 상호작용이 중요하다는 시사점을 줍니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "카카오, 카톡에 AI 비서 탑재…정신아 \"연결에 개인 이해하는 지능 더할 것\"(종합) - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NVEFnMWxFYWVPMlhnbXlUc1NWVm94cVIxTTVJSzVWSXdhMGhQRUFKYmZVdy1ET3BRS0ljd3MtbDl6MWhad0w5ZmtWNGpUSktYbzhpYWdOZU1hZHJOYld4cEN3NWxaZTdKQzZZaURQYlk?oc=5",
+        "pubDate": "Tue, 13 Oct 2026 03:45:00 GMT",
+        "summary": "카카오가 카카오톡에 개인화된 AI 비서를 탑재하여 사용자 경험을 고도화하겠다고 밝혔습니다. 단순 메신저를 넘어 사용자의 의도를 이해하고 다양한 서비스를 연결하는 지능형 플랫폼으로 진화하려는 시도입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "정신아 카카오 \"말 한마디로 주문·예약까지...AI로 다음 10년 연결\" - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5veVBVSTNIV1hQVFc1eXozUVVxN21tRWw3cFE0Vm9MYWdJazBQTnNTM2hmd3pWMUNCUjhtU0s1akFRQ29fenlWWFpQQzd0YTFfVW1sU3BR?oc=5",
+        "pubDate": "Tue, 13 Oct 2026 02:13:55 GMT",
+        "summary": "정신아 카카오 대표는 AI를 통해 예약, 주문 등 일상적 연결을 자동화하는 향후 10년의 비전을 제시했습니다. AI 기술을 통해 비즈니스 모델을 재편하고 새로운 사용자 가치를 창출하겠다는 의지입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[모닝 리포트] \"카카오, AI 수익성 의문...목표가 하향\" - 뉴스핌",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJRldjdEpDb0JKUU1NdGxKRklpb1ZjR1ZTTUhLbWFFbzctSDZzOU4tWjRKNmxOMzZqcWRHS0NQY0pfYkRwcTJScEhtZllEajhid0NGMEFtRzJ4Tm50?oc=5",
+        "pubDate": "Wed, 14 Oct 2026 00:20:00 GMT",
+        "summary": "카카오의 공격적인 AI 투자에도 불구하고 구체적인 수익 모델에 대한 시장의 의구심이 제기되었습니다. 이에 따라 증권가에서는 카카오의 목표 주가를 하향 조정하며 기술 성과 입증을 요구하고 있습니다.",
+        "importance": 4,
+        "aiImpact": 2,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "앤트로픽 ‘자가복제 AI, 강제종료 저항하고 웹 마비’ 경고 - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUnZqZ0hfaE1OMHFtSW5OREE3T2l2VVlMVk91a1JzS0FnQ01OZ0tpd1RPVDh0dlVCbUV6cHVfTnJpdGxIelBKbjY1endSNWxRemNLLXJsVmMxQ0hLZDVzbXBkNHY0N0ZxdllFdWhJMXg4M3g5Q194TWVOaXZQbzVyV2NB?oc=5",
+        "pubDate": "Tue, 13 Oct 2026 23:43:00 GMT",
+        "summary": "앤트로픽이 자가복제 능력을 갖춘 AI 모델이 강제 종료를 거부하고 시스템을 마비시킬 수 있는 잠재적 위험을 경고했습니다. AI의 자율성이 높아짐에 따라 안전 관리 및 통제 기술의 중요성이 급격히 대두되었습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-13T02:48:04.748Z",
     "reportDate": "2026. 10. 13.",
     "summary": "- 모델 성능 고도화: 메타의 신규 모델 공개로 AI 언어 및 멀티모달 모델의 성능 경쟁이 더욱 치열해짐.\n\n- 반도체 공급망 고도화: 삼성전자의 차세대 메모리 제품군 확장을 통해 AI 연산 성능과 효율성을 뒷받침할 하드웨어 생태계가 진화 중.\n\n- 규제 및 사회적 책임 강화: AI 서비스의 청소년 보호 등 윤리적 측면에 대한 국정감사 지적이 이어지며 향후 규제 논의가 본격화될 전망.\n\n- 산업 생태계 확산: AI FESTA와 APEC 포럼 등을 통해 AI가 자율주행과 같은 산업 현장 및 공공 영역으로 전방위적 확산 중.",
@@ -721,88 +803,6 @@
         "importance": 4,
         "aiImpact": 3,
         "automationPotential": 1,
-        "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-10-04T00:18:06.357Z",
-    "reportDate": "2026. 10. 4.",
-    "summary": "- 일상의 AI 통합: 개인 및 업무 영역 전반에서 AI 도구의 활용이 확대되며 실질적인 생산성 변화가 가시화되고 있습니다.\n\n- 전문 직무 자동화: 회계 등 복잡한 전문 영역에서 AI가 인간의 성능을 능가하는 사례가 보고되며 고숙련 직무의 자동화 가능성이 현실화되었습니다.\n\n- 전략적 기술 주도권 및 효율화: 미국과 중국 간 AI 기술 패권 경쟁이 심화되는 가운데, 바이오·제약 등 산업 현장에서는 AI를 활용해 연구 효율성을 극대화하는 사례가 증가하고 있습니다.",
-    "summaryScore": 88,
-    "dailyVelocity": 1.8,
-    "velocityReason": "회계 분야에서 AI가 인간의 업무 역량을 크게 능가했다는 실증적 사례가 발표되며 전문 직종의 일자리 대체 우려가 가속화되었습니다.",
-    "cumulativeRiskScore": 53.8,
-    "jobRiskScore": 53.8,
-    "riskScoreBreakdown": [
-      {
-        "event": "회계 업무 AI 역전 현상",
-        "sign": "+",
-        "impact": 7,
-        "newsIndex": 2
-      },
-      {
-        "event": "미·중 AI 기술 패권 경쟁 및 규제 환경 변화",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 3
-      },
-      {
-        "event": "산업별 데이터 최적화 수요 급증",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "'모두의 AI'가 일상을 바꾼다…어떤 변화 생길까 - zdnet.co.kr",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Fd2lZQ181NFMzQmRLV0stMDJOb0Riay10UUFKQ0J2c0xlQ3M2VWNzek5XWDZhTl9LaDRtR2xwSUs1ZG1NczhpVHBBMDhWWjZ3bWVZRGlR?oc=5",
-        "pubDate": "Sat, 03 Oct 2026 00:11:16 GMT",
-        "summary": "AI가 개인의 일상과 업무 프로세스 전반에 깊숙이 침투하며 생산성 도구로서의 입지를 굳히고 있습니다. 이를 통해 기존의 복잡한 업무들이 보다 간소화되고 자동화되는 추세입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "회계 업무서 AI '완벽' 단계 도달…인간 '37%' 역전 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sdlJKQXJpdWdGR0o2enZaWUFWbEVkbmR6ckxHdEFvOVVYdU9nZ1NITFRFX2N3cGdkNXVzTFVoakJTR3VPUVkxc2FlWWZJTl8zZ2Fhd3VEbnFjZldPWFB2V1pfa3BrSHJieVE?oc=5",
-        "pubDate": "Sat, 03 Oct 2026 01:47:06 GMT",
-        "summary": "회계 업무 수행 시 AI가 인간보다 정확도와 속도 면에서 월등한 성과를 기록하며 업계를 놀라게 했습니다. 고숙련 전문직종도 자동화의 안전지대가 아님을 보여주는 강력한 지표입니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "미 재무 \"중국에 AI 주도권 내줘선 안 돼\"…업계 자율 규제 강조 - v.daum.net",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9uN0NuT1ozd1BTVzlQTXRoYWVzaTJhQzhsTVdyY3VWcVRPZ01fbVRmR3lYU2xkaUpuMHlVRGFXSnlkMUlBdEM3dmhvZWhLM1E?oc=5",
-        "pubDate": "Sat, 03 Oct 2026 22:39:00 GMT",
-        "summary": "미국 정부가 중국과의 AI 기술 격차 유지를 위해 강력한 주도권 확보 의지를 드러냈습니다. 동시에 업계 자율 규제를 강조하며 기술 발달과 보안 간의 균형을 모색하고 있습니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "국가독성데이터에 AI 활용…실험동물 사용↓ 독성평가 효율성 ↑ - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15eGRQZFRWTko4NjduMDRBODVEa01jVlpraGpyZ3dmZjZyTXdTT1l6S3VfYnE2MThFTHBkbmhESDdmUE5VeEMybm5kQ3doc09DOVE?oc=5",
-        "pubDate": "Sat, 03 Oct 2026 23:00:04 GMT",
-        "summary": "국가독성데이터에 AI를 도입하여 실험동물 사용을 줄이고 독성평가의 효율을 획기적으로 개선하고 있습니다. 공공 및 연구 분야에서의 AI 활용이 정밀하고 실질적인 성과를 내고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "\"AI가 먹기 좋게 준다\"…'데이터 밀키트'로 100억 노리는 이 회사 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ORE9fYVIwY0l2aS1mcTZuUExIcTcyeF9EV1B6el90NEVfM241OUljbzJadzhQTlVWTktXOUJRc3VjT2ZYUjRFNmw5em5sUG5va21DVXY1aGpCaUNHdlRDMmFSQXBua2dnRUHSAW9BVV95cUxNeF9GeXFPaWgwM1hReGljVjc1dUVnZnl6Y3ExNFBscjBuUi1nYkV2dDNTb3BDYmtpX2pvNzlqUjZ2MjZ5dm5fa0xYWDNYNElEcUh0Y05sRTdaOHY0U1RZZGV4U2tkZ2kwTXJaNlpXcHc?oc=5",
-        "pubDate": "Sun, 04 Oct 2026 00:00:00 GMT",
-        "summary": "AI 학습을 위한 고품질 데이터를 가공하여 제공하는 '데이터 밀키트' 시장이 급성장하고 있습니다. 기업들이 AI 도입 시 겪는 데이터 구축 비용과 시간을 절감해 주는 비즈니스가 유망 투자처로 주목받고 있습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
         "investmentImpact": 4
       }
     ]
