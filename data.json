@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-17T00:06:27.788Z",
+    "reportDate": "2026. 10. 17.",
+    "summary": "- 모델 경쟁 격화: 구글의 '제미나이 4 아르곤'이 오픈AI와 앤트로픽을 추격하며 AI 모델 성능 경쟁이 새로운 국면을 맞이함.\n\n- 사용자 경험 향상: 오픈AI는 챗GPT 보이스 기능을 업데이트하여 언어 처리의 자연스러움을 대폭 개선함.\n\n- AI 리스크 및 보안 이슈: 기업 내부 보안 경고와 자동화 오류로 인한 방송 사고 등 AI 운영상의 실질적 위험 사례가 지속적으로 보고됨.\n\n- 시장 심리 위축: AI 기술주에 대한 피로감과 투자 시장의 불안 심리가 확산하며 기술의 실효성에 대한 비판적 시각이 증가함.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.8,
+    "velocityReason": "AI 모델의 고도화와 현장 적용 확대가 이어지고 있으나, 동시에 운영 오류와 시장 피로감이 공존하여 속도가 완만하게 가속됨.",
+    "cumulativeRiskScore": 54.4,
+    "jobRiskScore": 54.4,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 자율 권한으로 인한 방송 데이터 손실 사고",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      },
+      {
+        "event": "AI 모델 성능 경쟁 가속화",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 시장 피로 증후군 및 투자 회의론 확산",
+        "sign": " -",
+        "impact": 2,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "\"한국어 억양 더 자연스럽게\"...오픈AI, '챗GPT 보이스' 업데이트 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BM3VSVXlwemdId0hGclRrY200OUxzU2tfTk1BTFlDaG9qazRpZEFyX2xNNHlaZkxSc1l5RlpwUFlaTDY5RUViS1BQZmV2MkFoZzVYYzBfUzFRNkZNRzRGMzB4R3hnU01aQWc?oc=5",
+        "pubDate": "Fri, 16 Oct 2026 05:33:18 GMT",
+        "summary": "오픈AI가 챗GPT 보이스 기능을 업데이트하여 한국어 억양을 더욱 자연스럽게 구현했습니다. 사용자 인터페이스의 정교화를 통해 인간과 AI 간의 음성 상호작용 품질을 높였습니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "[비즈톡톡] AI 모델 성능 평가 1위 오른 ‘제미나이 4 아르곤’… 구글, 오픈AI·앤트로픽 양강 체제에 반격 - 조선비즈 - Chosunbiz",
+        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdDBaY3B5cFJkaEpYZ0JGWmxEYVlHLXVhcXRDYUxvWGJUSWl0ZVJkTHpBMllWNjRVdjJSbnRYTURNNTZQc0ktcmsxUllVWE5tWVprczlsd09sMVRXa0gteWdZYVl4VXF5MG5GRHpVQTMxbVBGb19ubDl2YkhpMkNlSm9B0gGWAUFVX3lxTE5mU0h4SDRwRzFCSWc3b09rMnA4SHZyQzhJTXU3eWF6ZVc4N0FQZ2lGYjdfOWMzMTR3UFJXSVY1NWFvMW5TTFpxbFNMQ1NpQUdNZUdYMzA3MUdmbGdjWUdQYUhfYWFEMDRmRUVubFZGR0toZkJsRkdOMXYwUzZubmtENmNTRXdjNHJkVHNpaE1NczVvTHMydw?oc=5",
+        "pubDate": "Thu, 15 Oct 2026 06:11:00 GMT",
+        "summary": "구글이 새로운 AI 모델 '제미나이 4 아르곤'을 통해 벤치마크 성능 1위를 기록했습니다. 오픈AI와 앤트로픽이 주도하던 시장 환경에서 구글의 강력한 추격이 시작되었습니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "“호텔방 샴페인 든 女 조심하라”…오픈AI 직원들에 ‘미인계 경고’ 왜 [팩플] - 미주중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVSGR5UWJqZEhoekFPUGZLNkZleUZneTE5UnpuSWpkYlBvYnBySHA1eE5PREo3aXoxZXhYbmJyeDBld3RGNkZYNGg0Z2lmdGlYcVNRWVdkR29zTUVnSzJKVF9n?oc=5",
+        "pubDate": "Fri, 16 Oct 2026 07:22:00 GMT",
+        "summary": "오픈AI가 내부 직원들에게 보안 위험에 대한 강력한 경고 메시지를 전달했습니다. 기업 기밀 유출 방지를 위한 인적 보안 및 사이버 보안의 중요성이 강조되고 있습니다.",
+        "importance": 4,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "AI에 권한 줬더니…방송 직전 프로그램 통째 증발 ‘날벼락 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95bWJhcUFTQlhQQWp1bF9wXzlUV1BLQVZROFlQUDVHWlNPWG9SamRKRTZOSFdHdHB4SHNyVk1TSU8yMTNaMzRGSFFHck5mY3Z4QVZmS2xR?oc=5",
+        "pubDate": "Fri, 16 Oct 2026 07:51:26 GMT",
+        "summary": "자동화 도구에 과도한 권한을 부여한 결과 방송 프로그램이 삭제되는 사고가 발생했습니다. AI의 판단 오류가 실제 산업 현장에서 심각한 피해를 입힐 수 있음을 보여줍니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 2
+      },
+      {
+        "title": "하루만에 끝난 데드캣 바운스, 'AI 피로 증후군' 증폭…전쟁·청산설까지 [김현석의 월스트리트나우] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LY3lLby1DTDZMTDVIbkpoaDdWcmRfdFFNN25LWjNmYmluaGdwTHZ5cjZ0N0piYTc1YjBQWFVsa0U1TzZxd2J6SU14UWFvN1U3N0d5UE12S2w3UQ?oc=5",
+        "pubDate": "Fri, 16 Oct 2026 23:03:18 GMT",
+        "summary": "AI 기술주에 대한 투자 시장의 낙관론이 꺾이며 'AI 피로 증후군'이 확산하고 있습니다. 기술 성장에 대한 의구심과 시장 불안정성이 증대되는 양상입니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-16T00:00:24.225Z",
     "reportDate": "2026. 10. 16.",
     "summary": "- AI 산업 내 거품론 확산: AI 관련 기업들의 수익성 한계가 드러나며 캐릭터.AI의 파산 보호 신청 등 시장 기대치와 실제 수익 간의 괴리가 심화되고 있음.\n\n- 증시 및 투자 심리 위축: AI 거품 붕괴 우려로 인해 코스피 등 주요 지수가 연일 폭락하며, AI 섹터 전반에 대한 보수적인 투자 기조가 형성됨.\n\n- 출판 및 콘텐츠 산업의 AI 도입: 교보문고와 같은 전통 유통망에 AI가 생성한 도서가 대거 유입되는 등 실무 현장에서의 AI 활용 방식이 변화하고 있음.",
@@ -722,88 +804,6 @@
         "aiImpact": 5,
         "automationPotential": 4,
         "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-10-07T01:10:49.066Z",
-    "reportDate": "2026. 10. 7.",
-    "summary": "- AI 보안 취약성 노출: 해킹 특화 AI의 등장으로 사이버 보안 위협이 급격히 가시화됨.\n\n- 모델 생태계 및 시장 경쟁: 오픈소스 AI 모델의 경쟁 격화와 반도체 시장의 변동성이 글로벌 투자 흐름에 영향을 미침.\n\n- 공공 및 산업 현장 활용: AI 시민 비서 도입 및 축산 스마트팜 등 실생활과 밀접한 AI 서비스 적용이 가속화됨.",
-    "summaryScore": 78,
-    "dailyVelocity": 1.2,
-    "velocityReason": "해킹 자동화 AI의 낮은 진입장벽과 비용 효율성이 기존 보안 직무의 자동화 가능성을 높여 위험도를 가속함.",
-    "cumulativeRiskScore": 54.1,
-    "jobRiskScore": 54.1,
-    "riskScoreBreakdown": [
-      {
-        "event": "해킹 특화 AI 저비용/고효율 공개",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 1
-      },
-      {
-        "event": "공공 서비스 AI 도입 확산",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      },
-      {
-        "event": "반도체 시장 경제 불확실성",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "[단독]‘해킹 AI’에 표적 입력하자 43초만에 뚫어…사용료 20원 - 동아일보",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sYkFkeHRLem5FSThaZXp5bWpVc3NuUjhzMWJyZHVfSDMzenhWd1VVeG9Xa2UzeGxQdFVIOG9pZkxvR1pENlpYX1NqNTJMeE80TXpUSExuQjV4VkxqMVNTTER1djd3UXhsdXpqQzBuRS1IZmhLVnfSAWZBVV95cUxNNWJuWGg1WWZ0VjVDVEdtQkk1OHdKMTdacURBRjF2QzNfZEtvRG1Xb01UMlFWUnZNTmtsejIwVGdCamZqTFRmc3Fab1FJZktXeGdzUWdnNzF6VGxmYnF3VzRqeWF0Q1E?oc=5",
-        "pubDate": "Tue, 06 Oct 2026 21:28:55 GMT",
-        "summary": "특정 해킹 타겟을 입력하면 1분 이내에 취약점을 찾아내는 공격형 AI가 저렴한 비용으로 등장하여 사이버 보안 경각심이 고조되고 있습니다. 공격과 방어 기술 간의 비대칭적 경쟁이 가속화될 전망입니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "'미국 오픈소스 대표' 리플렉션 AI, 첫 모델 공개…반응은 엇갈려 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pQ3UyQ2Z0TmpvLTVhNmZZVU1MLV9zSDlwaXdwcWFXT0hIbjdqVTlqalVVQWJfWGZTd2tpaGNSSFJvWG5hWi1wS3JBUjA0LURXb2JaTTZMMld6eVpvc1RJVHNBdzNEdFFzSkE?oc=5",
-        "pubDate": "Tue, 06 Oct 2026 09:19:10 GMT",
-        "summary": "미국 오픈소스 진영을 대표하는 리플렉션 AI가 신규 모델을 공개했으나, 성능 평가와 기술적 검증을 두고 시장의 반응이 엇갈리고 있습니다. 모델의 신뢰성 입증 여부가 향후 시장 영향력을 결정할 것으로 보입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "엇갈리는 반도체+ 넓어지는 폭=흐름 바뀌나…AI와 금리의 치킨게임? [김현석의 월스트리트나우] - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iY3NqMU5BRXdNVDNNb0lXSjJPSkVGOUNHV2x4N05vVUloZG5KcHNOb1pjR09keUlvejBkSGpBdHFzTTVBbVdmblAwZzR0MTBxLVlJQi1JOFZYZw?oc=5",
-        "pubDate": "Tue, 06 Oct 2026 22:47:33 GMT",
-        "summary": "AI 산업의 근간인 반도체 수요와 글로벌 금리 기조가 맞물리며 시장의 불확실성이 커지고 있습니다. AI 기술 발전과 경제 지표 사이의 상관관계가 투자 시장의 주요 변수로 부상했습니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "부산시 홈페이지 전면 개편…'AI 시민비서' 시범 운영 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XV2dSTnRmejl0Y0xELVJRVEk0UUFzUzgzLWU4OFYzS0dCdTdfdnh6blhSTkZuOHp3LXVEWnlxYmZ5dGlkRG5keVFSVmRmZV94ZjRQRVJ1ejVhYWPSAWBBVV95cUxNLUdaZGczaHFkaTIzRVYzaW5TdWxDZDcxVW9XcTNmYWRpM1lvMWNwWDJXc2VrUklacVBFY2k4bzdaR2ZTWk52Wk5DaGVpQWNhMHJfUVhySktJNE9xXzNfbUE?oc=5",
-        "pubDate": "Tue, 06 Oct 2026 23:05:57 GMT",
-        "summary": "부산시가 홈페이지를 전면 개편하며 AI 기반의 시민 비서 서비스를 도입합니다. 공공 행정 영역에 AI 자동화가 본격적으로 적용되어 대민 서비스 효율화가 기대됩니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 2
-      },
-      {
-        "title": "'건강 살피고 사고 막고'...한우 지키는 AI·ICT - YTN",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ZLUdIdGQxVkl0cVMzQzYybEw4bGxxcENIZTFnazF6RDFvRU5TaHFEdFFsUnJtZjc0S3FfVmNYQS1aY09vSUxhdGF2SDFlclZJQ3ltOXMtRGVCeUN4RUJUS0stTHhNRzgtdUs0RXZEOA?oc=5",
-        "pubDate": "Wed, 07 Oct 2026 00:12:00 GMT",
-        "summary": "축산 농가에 AI와 ICT를 접목하여 가축 건강 관리와 사고 예방을 수행하는 기술이 주목받고 있습니다. 전통적 산업 현장에서 노동력을 보완하고 생산성을 높이는 실용적 AI 사례가 확산 중입니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
       }
     ]
   }
