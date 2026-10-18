@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-18T23:51:54.742Z",
+    "reportDate": "2026. 10. 19.",
+    "summary": "- AI 알고리즘 편향성 및 사회적 소외 문제: 생성형 AI가 학습 데이터의 불균형으로 인해 특정 소수자를 배제하거나 왜곡할 위험성이 제기됨.\n\n- 기술 혁신 및 에이전트 고도화: 오픈AI의 차세대 모델 업그레이드로 복합적인 에이전트 병렬 처리 기능이 강화되어 작업 효율성이 비약적으로 상승함.\n\n- 교육 현장의 AI 활용 격차: 교실 내 AI 도입은 일상화되었으나 관련 정책 및 가이드라인에 대한 교사들의 숙지도가 낮아 교육적 혼란 발생 우려.\n\n- AI 인프라 수급 불안정: 미국 내 데이터센터 구축 프로젝트가 지연되는 등 급격한 AI 수요를 뒷받침할 인프라 확보에 차질이 발생함.",
+    "summaryScore": 82,
+    "dailyVelocity": 1.2,
+    "velocityReason": "오픈AI의 에이전트 병렬 실행 기능 도입으로 인해 사무 및 업무 자동화의 범위와 복잡성이 한층 더 가속화됨.",
+    "cumulativeRiskScore": 54.5,
+    "jobRiskScore": 54.5,
+    "riskScoreBreakdown": [
+      {
+        "event": "오픈AI 에이전트 고도화",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 데이터센터 인프라 차질",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 4
+      },
+      {
+        "event": "AI 학습 데이터 편향성 이슈",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      }
+    ],
+    "news": [
+      {
+        "title": "[단독] AI가 만든 세계에서 ‘소수자’는 지워진다 - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iX0tOa3VFZkxrMW5PSkhqXzhiTTJleXVYaHlZMlpOVmw5VGFrVXFyalItTlhWa1dwTFo0b1FieTNSMjNtOEdDeGozTWZETHdCZ2VkOEhGWVBWenBUdlNnRDUtNkdYbWxodDEtamFqaHo1UQ?oc=5",
+        "pubDate": "Sun, 18 Oct 2026 21:45:00 GMT",
+        "summary": "AI가 학습 과정에서 데이터 불균형으로 인해 사회적 소수자를 배제하거나 지우는 문제가 발생하고 있음. 이는 AI 모델의 공정성 및 윤리적 책임에 대한 중대한 과제를 제시함.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "오픈AI, ‘GPT-6 아스트라 프로’ 업그레이드...에이전트 병렬 실행 지원 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fRjMyNFJlSnd5LTRkeElJUVEwVUJrZUtlVjlWdEdxSVV3RW4wc2NDQ0dmYllpMHVfNzdldjBtX0pKdUVHWm83dk9samtKRFhMekUxRDdBUXR4UXcyUE1rMEFZaG5aMV9uREE?oc=5",
+        "pubDate": "Sun, 18 Oct 2026 08:51:14 GMT",
+        "summary": "오픈AI가 'GPT-6 아스트라 프로'로 모델을 업그레이드하며 에이전트의 병렬 실행 기능을 강화함. 복잡한 다중 업무를 AI가 동시에 처리할 수 있게 되어 자동화 속도가 가속화될 전망임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 5,
+        "investmentImpact": 5
+      },
+      {
+        "title": "AI has become routine in classrooms… only 17% of teachers know the relevant policies - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iU0ZHaUhFWENnUFpSeEs1MlZRbUF2SndUYVdNU1huWXVhRF9ITGctU19EVnFRUlRoNUkyUW9QbUNsUXFITjN6VTdub3JDXzFnMzk2YTNnTEd5RFFWSXc?oc=5",
+        "pubDate": "Sun, 18 Oct 2026 23:22:00 GMT",
+        "summary": "학교 현장에서 AI 활용이 일상화되었으나, 교육 정책을 제대로 숙지한 교사는 17%에 불과함. 기술 도입 속도를 정책과 교육이 따라가지 못하는 괴리가 나타나고 있음.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "\"미국 데이터센터 47건 차질…AI 인프라 붐 균열 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5bmtvbXc3aXdVNlZaSm93QlBlYzZYNm5OLWZLVGNZUW83YVUzQnFJeUR2NVU5MEdGRVBVSmpPLWhfYUdUcGdyczlGcVB5c1ZLc0pVc2t2eHZNeDDSAWBBVV95cUxQWW1WQ0VpTEdid09xLVROZzh5UHlENDRrczJzTU1ucWx1T3VrQy1tNVBJeWxfa2pLLUpqX0ZVVE5FZTVIV0FRc1hVNnZjODU5WXRGZzJrYUFyd2hqWTN5UEg?oc=5",
+        "pubDate": "Sun, 18 Oct 2026 23:19:33 GMT",
+        "summary": "미국 내 47건의 데이터센터 구축 프로젝트가 차질을 빚으면서 AI 인프라 확장에 적신호가 켜짐. 전력 수급 및 공급망 문제로 인해 AI 시장 성장에 균열이 발생하고 있음.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[비바100] “소비자 속마음도 판다”⋯ AI로 영상 속 고객 목소리 읽는 ‘싱클리’ - 브릿지경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5b3dGbTBqSlhsZXdiOExFU01ZTVh6bGRMaDFQeTFITFZZOTJrRGRKRzZKZlREMWRtdm9DaUZXSnZFS1BNMVJxNlZFMW1TeGlBdDZOajRFelM1dw?oc=5",
+        "pubDate": "Sun, 18 Oct 2026 21:34:00 GMT",
+        "summary": "AI 분석 솔루션 '싱클리'가 영상 속 소비자 목소리를 분석하여 마케팅 통찰을 제공함. 고객 데이터를 정교하게 분석하는 자동화 기술이 상업적 영역으로 빠르게 확장되고 있음.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-17T23:42:26.916Z",
     "reportDate": "2026. 10. 18.",
     "summary": "- AI 윤리 및 가치 평가 논란: AI의 윤리적 의사결정 모델에 대한 인간 중심의 사회적 합의가 여전히 난제로 남아 있음.\n\n- AI 인프라 투자 과열 및 부채 리스크: 코어위브 등 GPU 클라우드 기업의 공격적인 부채 기반 인프라 확장이 시장의 재무적 우려를 가중시키고 있음.\n\n- AI 기반의 경제 성장 전망: 앤트로픽 공동창업자가 AI 기술 도입을 통해 향후 4년간 미국 GDP가 비약적으로 상승할 것이라는 낙관적 전망을 제시함.",
@@ -722,82 +804,6 @@
         "aiImpact": 5,
         "automationPotential": 5,
         "investmentImpact": 2
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-10-09T01:39:19.354Z",
-    "reportDate": "2026. 10. 9.",
-    "summary": "- AI 투자 생태계 과열: AI 칩 확보를 위한 천문학적 부채 조달이 증가하며 투자 경쟁이 심화되고 있음.\n\n- AI 수익성 우려 확대: 오픈AI의 매출 실적 부풀리기 논란과 시장 기대치 하회 전망이 제기되면서 기술주 전반의 투자 심리가 위축됨.\n\n- 지자체 AI 인프라 유치전: 국내 지자체를 중심으로 글로벌 AI 허브 유치를 위한 전략 모색 등 인프라 확충 노력이 지속됨.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.2,
-    "velocityReason": "AI 기술 자체의 발전보다는 시장의 수익성 우려와 투자 조정이 지배적인 상황임.",
-    "cumulativeRiskScore": 54.2,
-    "jobRiskScore": 54.2,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 투자 시장의 고평가 논란",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 3
-      },
-      {
-        "event": "기술주 약세 및 고용 투자 위축 가능성",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      }
-    ],
-    "news": [
-      {
-        "title": "AI 칩 사려고 수백억달러씩 빚…월가로 번진 AI 투자 경쟁 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1dESXM1b3pEXzdndEk3a00yUllKdmZVQTNaRU9UMzNTdmxnczhEQmZxWHd2ejZ1YmVOM1VnU1gtdVBXaThXUEVYdDNHWHFqRlJtMlZTTnI0Y1RHNlpMaFlraVlBN2M1UnVMei1XaTVETE9qQnNSMGlnbmgwMGhCYmlmM2RRU3p4?oc=5",
-        "pubDate": "Thu, 08 Oct 2026 20:33:00 GMT",
-        "summary": "빅테크 기업들이 AI 가속기 구매를 위해 대규모 부채를 조달하며 월가의 AI 투자 경쟁이 한계점에 도달했다는 평가가 나옵니다. 인프라 구축을 위한 막대한 자금 소모가 기업 재무 구조에 부담을 주고 있습니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "뉴욕증시, 오픈AI 매출 우려에 기술주 약세…나스닥 1.25% 하락 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY3lqM2pkMm4zOGlUMEhZSkx5allROG1BYzhoX1JBelNKM2hxZTJ2U3F1VkFFbW50M2pHQ0YzaEFwRUZ0aTB2RVNQNU50Z3F1YUNWT1RUMThNb1lXVGMtNDBMRHV6cXJfVlRMUkZhbzNYWUhEc1hwa0VGZG9ab21WS2ktQXROeTFs?oc=5",
-        "pubDate": "Thu, 08 Oct 2026 21:20:00 GMT",
-        "summary": "오픈AI의 매출 부진 우려가 시장에 확산되며 뉴욕 증시 기술주 전반이 하락세를 보였습니다. 투자자들의 AI 수익성에 대한 의구심이 커지면서 기술주 투자 심리가 냉각되었습니다.",
-        "importance": 5,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"매출 27조원 부풀렸나\"…오픈AI 실적에 'AI 수익성' 의문 재점화 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1razJNdE9lQkxuT2ZSQ2h4UVNpeE44eEhuS0FMc2thS3VNZG9GcFd1OU5ON3MtcFgtNl95Z1l0Ujh4dXFaSUV2OFV5YjNLRy1JMmdVUjFDVVNKNFljUFNsMDRnUGpweTZo0gFuQVVfeXFMTW1lendPTU5DbHhOQUR5RXNpZkVkRFR2NDE5NWFPanJrWkc3MC1tZUd3ZFFGN0o0ZW1KR1V2dW14S3RveHlKdzlRbldEQ3BrVklCeHNmUDVZcDdLWVRESWY5ajBFRVpHS0lBOWpnN1E?oc=5",
-        "pubDate": "Fri, 09 Oct 2026 01:28:00 GMT",
-        "summary": "오픈AI가 매출 실적을 부풀렸다는 의혹이 제기되며 AI 모델의 실제 상업적 가치와 수익성에 대한 재평가가 이루어지고 있습니다. 시장은 AI 산업의 실질적인 수익 모델 증명을 요구하는 분위기입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"오픈AI 매출 기대이하\" 전망에…반도체 주 충격파 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aY1FOb1lRbkh3X2pvcmRHUzRqWFEwQmYtakhpWTA1OUJoaExQbUhrVDVfUFRZOTQ5RmNJY3VTck1GRG9fUnlFMmFubENOakhlNklYNExB?oc=5",
-        "pubDate": "Fri, 09 Oct 2026 00:45:44 GMT",
-        "summary": "오픈AI의 매출 전망치가 기대에 미치지 못할 것이라는 관측이 반도체 섹터의 주가 하락으로 이어졌습니다. AI 반도체 공급망에 대한 과도한 낙관론이 조정받는 양상입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "고양, 글로벌 AI 허브 유치 총력…유치전략 모색 포럼 개최 - 경기일보",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04YTVGeFJvY3VRbUFfaUJQdm1tb0NQYVozX0oyQlZkZzVQWkxLWVpEMVRwRDFBYUFLZ0ZxREpERkhydEljamJSUW1uNWkxOFJTUHlHc2I4eFlmaU0?oc=5",
-        "pubDate": "Fri, 09 Oct 2026 01:07:28 GMT",
-        "summary": "고양시가 글로벌 AI 허브 유치를 위해 포럼을 개최하는 등 인프라 조성을 위한 전략을 구체화하고 있습니다. 지자체 차원의 AI 생태계 구축 노력이 산업 발전의 토대가 될 것으로 기대됩니다.",
-        "importance": 2,
-        "aiImpact": 2,
-        "automationPotential": 2,
-        "investmentImpact": 3
       }
     ]
   }
