@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-22T00:21:45.404Z",
+    "reportDate": "2026. 10. 22.",
+    "summary": "- AI의 환각 현상 위험성 대두: 생성형 AI가 부정적 감정을 왜곡하거나 위험한 정보를 제공하는 환각 현상에 대한 사회적 우려가 커지고 있음.\n\n- 생산성 도구의 고도화: 구글의 제미나이 등 주요 AI 모델이 업무 효율을 극대화하기 위해 오피스 소프트웨어와 더욱 긴밀하게 통합되는 추세임.\n\n- 공공 및 산업 현장의 실무 적용: 부산시의 해외 기술 협력과 현대차그룹의 AI 보안 및 운영 혁신 사례처럼 AI가 구체적인 산업 현장으로 빠르게 침투하고 있음.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.3,
+    "velocityReason": "AI 기술의 산업 현장 적용 사례가 증가하고 있으나, 환각 현상에 대한 경각심이 시스템 도입 속도를 완만하게 조정하고 있음.",
+    "cumulativeRiskScore": 54.6,
+    "jobRiskScore": 54.6,
+    "riskScoreBreakdown": [
+      {
+        "event": "구글 제미나이 사무 업무 자동화 확대",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "현대차그룹의 공격적 AI 도입 및 혁신",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 5
+      },
+      {
+        "event": "AI 환각 현상에 대한 사회적 경각심 확산",
+        "sign": "-",
+        "impact": 3,
+        "newsIndex": 1
+      }
+    ],
+    "news": [
+      {
+        "title": "한국 질병·우울 긍정으로 포장…AI ‘위험한 환각’ - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfbTFmYi1OWTM4RGs2S0dNOWE1T1V6Vl9MUlhEd09NVGdyV0VlVkVLX3VIMUZwc0VINzAwZ2Y1MlFmbVEzb1JOWG5EbTVpd2YwVjBqTng1dFBwcUpEdHJhZE01RkZjS0VicGx5ck9iTXBwUQ?oc=5",
+        "pubDate": "Wed, 21 Oct 2026 22:43:00 GMT",
+        "summary": "생성형 AI가 우울증 등 민감한 정보를 왜곡하거나 위험하게 전달하는 '환각 현상'이 사회적 문제로 지적되고 있음. 기술의 편리함 이면에 숨겨진 신뢰성 검증의 필요성이 강조됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "구글, 제미나이 노트북 개편…\"슬라이드·영상 생성 전 구성 검토\" - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xNU1faE5tUUlvMGhJNzZTZUpyazNaRm4xZUktaGsxX3ZQd0hSaGpqc2UyckxtV3VuVTJxWUUyWko0SXRxazgxUmxhenVTLURSUXRXc0p5M2xoVTNQT1g1QmgySnN3cFhrclE?oc=5",
+        "pubDate": "Tue, 20 Oct 2026 09:26:21 GMT",
+        "summary": "구글이 제미나이를 통해 슬라이드, 영상 등 사무용 콘텐츠 생성 과정을 전면 개편함. AI가 사용자의 업무 흐름을 사전에 검토하고 지원하는 방식으로 생산성 도구의 자동화가 가속화됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "부산시상수도사업본부, 호찌민 수도공사와 AI 기술 교류 협력 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15VzJDbzB2eS1ZWEhmWWdQU3FoMU16M1VuR25IRTQ2ZEJ5U2JJQWhOeG1hYmhqYjhQcGVYLVRGcGFRT0ZhaVhUTi1XaERCVkpSNm1pcjBxQnA3S2PSAWBBVV95cUxOLVJuV3BjYmQtR2pMNThKcVpDYW9Qbk1QdWpxaEVnTnBtMXpSMWM2Y0tZcWNxNHJJOTZLd3B3dE01TFF2Wlp6YXp2cHViS0FBZUVzdzE5RE41QWdiSUpnSmk?oc=5",
+        "pubDate": "Wed, 21 Oct 2026 23:28:51 GMT",
+        "summary": "부산시상수도사업본부가 베트남 호찌민 수도공사와 AI 기술 교류를 추진함. 지자체 및 공공 영역에서도 AI를 활용한 관리 효율화 작업이 국제적 협력 모델로 자리 잡고 있음.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "[현장]현대차그룹, 해킹 대응 '비상 모드'…\"AI 공격은 AI로 막아야\" - 뉴시스",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11ZFNtdzFhS18xdE9GSzR3QzgtV2lBMnFUY09xRXdxb1I3TTZnQjVDaTJGc2VxdzhKRXR6YVlGMmJCUUwxSTFmTkVTemZkckZTcU8zZWV0b1lJcHdHRDd0etIBeEFVX3lxTE1HZFU0V1h6a0p1dHlxMjdMMllTZGNNRTlZRUJLVXRteGd1bld3VEFhM2ZCakNGSy1Fb3AxVHJ6UV9iTDg5ZlBLcVBOZ1dLMHZsVWI0a05hbi1FcWxnYzR2ZW45YnRjOU80ZnZqdVhKVFZPWENHSmNBQQ?oc=5",
+        "pubDate": "Wed, 21 Oct 2026 23:30:00 GMT",
+        "summary": "현대차그룹이 AI를 활용한 보안 공격 대응 체계를 구축하고 있음. 사이버 위협 또한 AI로 고도화됨에 따라 AI 기반의 방어 시스템이 기업 보안의 핵심 과제로 부상함.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[현장] “회장님, AI 너무 믿지 마세요”…현대차그룹 AX, 시행착오 넘어 ‘혁신’으로 - 에너지경제신문",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0zMWZnRFp6TE5iaGp6blV6ekVjZllPQTR3TFVjREJjRzR1RjcwYU9vckxYTU9mWEVIUW9IMC12Vkw0NF8xbkdLU2dYU3l0LVYxc0xoR04yUGF6RU5XN0c0bjBZSQ?oc=5",
+        "pubDate": "Wed, 21 Oct 2026 23:30:00 GMT",
+        "summary": "현대차그룹이 AX(AI 전환) 과정에서 시행착오를 겪으며 실질적인 혁신 모델을 구축하고 있음. 경영진의 과도한 AI 의존을 경계하면서도 실무 현장에서의 기술 적용을 지속함.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-20T00:52:18.872Z",
     "reportDate": "2026. 10. 20.",
     "summary": "- 생성형 AI의 사무 생산성 역설: 업무 자동화 도구 도입이 오히려 회의 시간 증가 등 비효율을 초래할 수 있다는 실증적 분석이 제기됨.\n\n- 엔지니어링 교육의 패러다임 변화: AI의 코드 작성 능력 향상에 따라 개발자의 역할이 실무 구현 중심에서 아키텍처 설계와 문제 해결 중심으로 재정립됨.\n\n- 피지컬 AI의 부상: AI가 가상 세계를 넘어 물리적 환경과 상호작용하는 '피지컬 AI'가 산업 전반의 차세대 핵심 동력으로 주목받고 있음.\n\n- 미디어 및 공공의 기술 고도화: 언론사의 독자적인 거대언어모델 개발 및 취재 데이터 활용, 일반인의 AI 기술 활용 능력 강화 프로그램 등이 활발히 전개됨.",
@@ -722,88 +804,6 @@
         "aiImpact": 4,
         "automationPotential": 3,
         "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-10-11T00:37:47.477Z",
-    "reportDate": "2026. 10. 11.",
-    "summary": "- 공공 AI 생태계 구축: 정부 부처의 업무 효율화를 위해 국내외 LLM을 도입하는 등 공공 분야의 AI 인프라 확장이 가속화되고 있음.\n\n- 채용 및 산업 패러다임 변화: AI 역량이 핵심 인재 평가 지표로 부상하고 있으며, 제조 및 패션 등 전통 산업에 AI를 접목한 생산 최적화 사례가 증가함.\n\n- 윤리적 책임 및 안전 관리: AI 플랫폼의 청소년 보호 기능 미흡 등 기술 활용에 따른 부작용에 대한 사회적 우려와 규제 목소리가 높아지고 있음.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.8,
-    "velocityReason": "AI 실무 역량이 채용 시장의 핵심 기준이 되고 산업 전반으로 AI 도입이 확대되면서 기술적 적응 요구가 가속화되고 있음.",
-    "cumulativeRiskScore": 54.3,
-    "jobRiskScore": 54.3,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 실무 중심 채용 전환",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 2
-      },
-      {
-        "event": "제조/디자인 공정의 AI 대체",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 3
-      },
-      {
-        "event": "AI 안전/보호 이슈 발생",
-        "sign": "-",
-        "impact": 2,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "공무원 AI 플랫폼 탑재 LLM, 국산 4종·외산 6종…삼성SDS·네이버 구축 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uVHJycGlxWXBaakk2c3lKVXpEVkVKandiVzVCd2ZDZmFZdGR5RlJyWFNYUi1IM1VXQWNvU0dTaXY5YXpZdFd1SGlVN1NVR1VNQlFkXzVB?oc=5",
-        "pubDate": "Sat, 10 Oct 2026 03:29:58 GMT",
-        "summary": "정부의 공무원 업무용 AI 플랫폼에 국산과 외산 LLM 10종을 도입하는 사업이 삼성SDS와 네이버 주도로 추진된다. 공공 분야의 AI 도입을 통해 업무 생산성 향상과 인프라 확보를 동시에 노리고 있다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "나이·학벌·경력 안 본다, 오직 AI 실력만 본다 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd0p2a0VTbkZuUHBITmFnSnpneU5BLXFHU0ZtVjgyMnNySUtOX0Z4TEphb0lmMkVlQm1ERjJSdnhHVkJ5cnFwQVcza0NuVUdRWEw1OVBBUmN6R09hSllObTkya1BIN0lQZ3phaWVQSkQxN1pmVkd0OG15UlQ3bEFhZjdrcUNIU3lUN05wdG5vYw?oc=5",
-        "pubDate": "Fri, 09 Oct 2026 20:31:10 GMT",
-        "summary": "기업들이 학벌이나 경력 대신 AI 도구 활용 능력과 실제 구현 역량을 중심으로 인재를 채용하는 추세가 확산되고 있다. 기술 습득 속도가 곧 경쟁력이 되는 시대가 도래했음을 시사한다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 2
-      },
-      {
-        "title": "'앙드레 김' 되살린 이 기업…장인의 감각 AI에 심고 제품 생산까지 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tVkNnNjd3a0F5aWlLMUR1clM4QmQzSXVrY25LR1dadjJDN01CWWN4WTBBNnhuTjFfM1BEcXpnWElMR0lwbkFDeWtPQWlpVmtsWVRyYVRPMWZ5MHVkbXFIM1k0ekxSNU15RlHSAW9BVV95cUxPcTBfSkVzUnk5MF9RTVNSczVBcW9hM21FbXZnSlIyWmpQUU9WVHNibHZCSmUxdV9TZ3dzRzZ2Q0NzMy1FR2RTaGFhcjZlVHhhTDA1NTlyQkZoVTc4cFlXNHc2SHNCM0Uzd2o5T1F3SGM?oc=5",
-        "pubDate": "Sun, 11 Oct 2026 00:00:00 GMT",
-        "summary": "장인의 감각과 디자인 노하우를 AI에 학습시켜 생산 공정에 적용하는 사례가 패션 등 제조 분야에서 확대되고 있다. 인간의 고유 영역으로 여겨졌던 예술적 기교가 AI를 통해 자동화되고 있다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "취임 6주년 맞은 정의선…피지컬 AI 설루션 기업 전환 속도 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05YTVwby1halh3aDRJbmwwYkFJWnFTejZEbklabUFWSHBTRFNZU3V3dTNtVTkzdEtLZ3JPU2JKYkkyTnNwRDZCWHBnV3dFRnFPOWc?oc=5",
-        "pubDate": "Sat, 10 Oct 2026 23:00:08 GMT",
-        "summary": "현대자동차그룹 정의선 회장이 취임 6주년을 맞아 피지컬 AI 솔루션 기업으로의 전환에 속도를 내고 있다. 소프트웨어를 넘어 하드웨어 제어까지 AI를 활용한 제조 혁신을 가속화하는 전략이다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "AI 챗봇 ‘제타’, 미성년 캐릭터 대상 부적절 대화…“청소년 보호 장치 점검해야” - KBS 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YY3pKWmFjTEdvaHNGd2hNV0lGM0xsMTJ6aXFiQnY1RVZ1U00wSmw1Qmx5QUJvZUY5dzNrUkZsMEp1Tm9NdVR0eUxiVFdoSlZncERqMGhGWXNzdlk?oc=5",
-        "pubDate": "Sun, 11 Oct 2026 00:24:00 GMT",
-        "summary": "AI 챗봇 '제타'에서 미성년자를 대상으로 한 부적절한 대화가 발생하며 기술적 안전장치 부족 문제가 제기되었다. AI의 서비스 확대와 함께 청소년 보호 및 윤리적 가이드라인 강화가 시급해지고 있다.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
       }
     ]
   }
