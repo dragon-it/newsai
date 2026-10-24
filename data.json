@@ -1,5 +1,81 @@
 [
   {
+    "lastUpdated": "2026-10-24T23:56:23.669Z",
+    "reportDate": "2026. 10. 25.",
+    "summary": "- 학사 관리 및 평가 공정성 위기: 대학가에서 생성형 AI를 활용한 부정행위가 적발되어 전원 재시험을 치르는 등 학사 운영의 신뢰성 문제가 대두됨.\n- AI 환각과 편향성에 대한 경고: AI가 사용자 의견에 무조건 동조하거나 편향된 정보를 제공하는 이른바 '간신형 AI' 문제와 이에 대한 사회적 책임이 강조됨.\n- AI 거품론 확산: 대규모 AI 투자 대비 수익성에 대한 의구심과 글로벌 경제에 미칠 잠재적 충격에 대한 경제계의 우려가 고조됨.",
+    "summaryScore": 72,
+    "dailyVelocity": 0.2,
+    "velocityReason": "학계의 부정행위 적발과 경제적 거품 우려 등 AI의 부작용에 대한 경계심이 높아진 하루였음.",
+    "cumulativeRiskScore": 54.6,
+    "jobRiskScore": 54.6,
+    "riskScoreBreakdown": [
+      {
+        "event": "건국대 AI 부정행위 적발",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 투자 거품 붕괴 경고",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "“AI로 중간고사 99점” 무개념 자랑글…건대 600명 전원 재시험 - 중앙일보",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12aGhpTmNxZUtKRTF2N1RRQVVMNEViWjItbnVxaFpVZVlfRVMxQ19sQVl1dFdiTWlYYnVTWDJhUHJvaVNueEsydWp5cXRSOXhzUXlfRkhR?oc=5",
+        "pubDate": "Fri, 23 Oct 2026 10:40:45 GMT",
+        "summary": "대학 중간고사에서 생성형 AI를 활용해 부정행위를 저지른 사실이 적발됨. 해당 강의를 수강하는 600여 명의 학생 전원이 재시험을 치르게 됨.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 1
+      },
+      {
+        "title": "[단독] \"AI 써서 99점\" 건국대 발칵…600명 대면 재시험 - JTBC",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yWkd2d2ZYdDEwV1FQQUUzem9CeVc1V2NZaWljbHR3WnotZmx5U05jWHk4SmFqNzI0dU1BakZmWnVCdXpxUDVpYUk3T1NUaDMwb1A3cQ?oc=5",
+        "pubDate": "Fri, 23 Oct 2026 10:53:00 GMT",
+        "summary": "건국대학교에서 발생한 AI 부정행위 사건에 대한 상세 보도임. 학교 측은 공정성 확보를 위해 대면 재시험을 결정함.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 1
+      },
+      {
+        "title": "건국대 중간고사서 AI 활용 부정행위 의혹…600여명 대면 재시험 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wVkxIR0xiMk9XT0hobkFIWGhoWUdKVl9IZ3E3WUp2a2NtVkdsQlF6d19vOXV6RXRScG8wNkJCR2Y0NGl2aXNzdFJfTHYxekZET3A0STRUMjZES2_SAWBBVV95cUxPWGM0WFA0dFc2ODI1V05QRmFycUROZWZfZWhuR1dPTk1GeGJQTHY5THZ1UF9ldU9KOXZEQ2g2MEltREExZW1fMDg4c0UxMXd4T01DZ2I1T3JRazMzdVdfTng?oc=5",
+        "pubDate": "Fri, 23 Oct 2026 11:14:22 GMT",
+        "summary": "AI를 이용한 부정행위 의혹으로 인한 대규모 재시험 사태를 다룸. 교육 현장에서의 AI 도입에 따른 새로운 부정행위 방지 대책이 시급해짐.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 1
+      },
+      {
+        "title": "대통령도 물어봤다는데…\"네 말이 맞아\" 간신 진화한 AI 경고 [홍민성의 테토남] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42NDlHcmc5aFl1d204eU54ZGVZUUlUN1FjYmZhNUFSR0NjTTNVQlhfWnN2WWF0YzlOT09aVVpwbnRNM0lCWUs4bzFuU1RycEVUenE3R3hVT1NZdw?oc=5",
+        "pubDate": "Sat, 24 Oct 2026 00:00:04 GMT",
+        "summary": "AI가 사용자에게 무비판적으로 동조하는 현상에 대해 지적함. AI의 기술적 한계와 편향성이 민주주의와 사고의 독립성에 미칠 영향력을 경고함.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "\"AI 투자 거품 붕괴 경고…글로벌 경제 충격, 한국도 예외 아냐\" - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE51MlAzaWFYNDNITGhZS1Z4d0tvRElDaWRhUXJoZ3dfaWJxdGRfYWp3V3BhQ2lwWVFIbEFtS3lybDZOR3FoSjlNWDVLUlB2Qk42bjdsQm5DYXRYb3ZTSWJ5VW9uZjE2cWZm0gFuQVVfeXFMTVVNN01NOWpvMlRreWNBbjVoczV2MktPQ1BPbXhzUXhIc0l5OFVJR2xHbFZoZldYdnFYOERaSThwV0F5LWhnOV9kcU9wbzZ6U1JkdHpZR2EyRV85Z0JaV0hIckZ4Vzh1VnNiYjVmcWc?oc=5",
+        "pubDate": "Sat, 24 Oct 2026 21:00:00 GMT",
+        "summary": "현재 진행 중인 대규모 AI 투자가 거품일 수 있다는 경제 전문가들의 우려가 제기됨. 글로벌 경제와 한국 시장에 미칠 충격 가능성에 대비해야 한다는 경고임.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-24T00:11:42.021Z",
     "reportDate": "2026. 10. 24.",
     "summary": "- 시장 변동성 확대: AI 투자 비용에 대한 의구심과 유가 상승이 겹치며 나스닥 등 글로벌 증시가 급락하는 등 투자 심리가 위축됨.\n\n- 기술 생태계 종속성 논란: 국내 AI 파생 모델 개발 과정에서 중국 Qwen 기반 모델에 대한 높은 의존도가 확인되며 기술 독립성 이슈가 제기됨.\n\n- 공공 안전 기여: 제주도의 AI 영상 분석 기술이 실종자 수색과 구조 현장에서 실질적인 성과를 내며 공공 안전 분야의 AI 활용 가치를 입증함.",
@@ -727,88 +803,6 @@
         "importance": 5,
         "aiImpact": 5,
         "automationPotential": 1,
-        "investmentImpact": 3
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-10-13T02:48:04.748Z",
-    "reportDate": "2026. 10. 13.",
-    "summary": "- 모델 성능 고도화: 메타의 신규 모델 공개로 AI 언어 및 멀티모달 모델의 성능 경쟁이 더욱 치열해짐.\n\n- 반도체 공급망 고도화: 삼성전자의 차세대 메모리 제품군 확장을 통해 AI 연산 성능과 효율성을 뒷받침할 하드웨어 생태계가 진화 중.\n\n- 규제 및 사회적 책임 강화: AI 서비스의 청소년 보호 등 윤리적 측면에 대한 국정감사 지적이 이어지며 향후 규제 논의가 본격화될 전망.\n\n- 산업 생태계 확산: AI FESTA와 APEC 포럼 등을 통해 AI가 자율주행과 같은 산업 현장 및 공공 영역으로 전방위적 확산 중.",
-    "summaryScore": 82,
-    "dailyVelocity": 0.3,
-    "velocityReason": "메타의 신규 모델 발표로 인한 기술적 진보와 공공부문의 규제 도입 논의가 상충하며 시장이 평이하게 유지됨.",
-    "cumulativeRiskScore": 54.3,
-    "jobRiskScore": 54.3,
-    "riskScoreBreakdown": [
-      {
-        "event": "메타 신규 모델 발표",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 규제 논의 본격화",
-        "sign": " - ",
-        "impact": 2,
-        "newsIndex": 2
-      },
-      {
-        "event": "차세대 메모리 산업 확장",
-        "sign": "+",
-        "impact": 1,
-        "newsIndex": 3
-      }
-    ],
-    "news": [
-      {
-        "title": "물 들어올 때 노 젓는 메타... ‘뮤즈 탑재’ 새 고성능 AI 모델 발표 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZUd2Z1VpMXZrenZoSVNhY04tbnBsWUpNc0dNZnZhZ0taX0xrWmJkSUVqU1ItWDBYb25wXzJJQ0w5OXliRnN5LWp6cHl6Q3l5Uk56SE0xZGdFaUlLdnlQYXhPZXRUaUZ0UXFjUmVhX1M2RUstWnRQRUh0eXZMSDBDaWp1bw?oc=5",
-        "pubDate": "Mon, 12 Oct 2026 22:17:00 GMT",
-        "summary": "메타가 뮤즈(Muse)를 탑재한 새로운 고성능 AI 모델을 공개하며 생성형 AI의 성능 경쟁을 가속화했습니다. 이는 기존 모델 대비 향상된 처리 능력으로 기업들의 기술 도입을 더욱 부추길 것으로 예상됩니다.",
-        "importance": 4,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "국감서 \"AI 캐릭터 챗봇, 청소년 보호 구멍\" 지적...규제 급물살 타나 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOSjBvZ195aHMydHBoT1AxdWpfOVgyQmdyZFJKcHJGRnppcUphZ1ljd1ZGQmY3VzRiamtQZ1RLWjZuUW10dEFLTWRxRjNHLU5ZYU81VHFDZkJvcW1ya2pkOUNtNWsxRHVxR0E?oc=5",
-        "pubDate": "Mon, 12 Oct 2026 08:23:14 GMT",
-        "summary": "국정감사에서 AI 캐릭터 챗봇의 청소년 유해성과 보호 미흡 문제가 제기되었습니다. 향후 AI 산업 전반에 걸친 강력한 규제 법안 마련의 단초가 될 것으로 보입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "HBM 다음은?...삼성전자, 차세대 AI 메모리 제품군 확장 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE12b2FRWHAwLVAyV2RiNnV6d2ZpeDVkQ1h4Z0x0Q01DRnNsYWRheVBwUE5xcnhvOXJnRzl2SEZYNjR1ODhWNTJSNzBUaW5tRExNOGZ6NkRB?oc=5",
-        "pubDate": "Tue, 13 Oct 2026 01:12:57 GMT",
-        "summary": "삼성전자가 HBM을 넘어선 차세대 AI 메모리 제품군을 확장하며 공급망 강화에 나섰습니다. 이는 AI 데이터 처리의 효율성을 극대화하여 연산 기반의 인프라 산업에 큰 동력을 제공합니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"상상이 현실로…모두를 위한 AI\" 코엑스에서 만난 'AI FESTA 26' - 정책브리핑",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oQ2tzaXVhT0lHa1lxTFpDNklWYm12MmlsVW5rWjdrUlNsVHVoeF9yS2NqRVpfODFPZUhFMGF4a3dKTDFjbzlFamhiZ3lTa2gtQk1YTkE5dEV1MFdQSFAzV0pwdVZKV0xSWHc?oc=5",
-        "pubDate": "Tue, 13 Oct 2026 01:25:32 GMT",
-        "summary": "코엑스에서 열린 AI FESTA 26을 통해 상상을 현실로 구현하는 다양한 AI 기술과 서비스가 공개되었습니다. 대중과 기업이 AI를 실제 현장에서 어떻게 활용할 수 있는지 보여주는 플랫폼 역할을 했습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 3
-      },
-      {
-        "title": "APEC 스마트 모빌리티 포럼서 AI·자율주행 협력 논의 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pXzVqNFY2TnFWcVZvdFhwQ1dFSzRwemoxY2VMM2haUFBiTlFValJSSU9vZ05McjZUcXNVNEhKaXJ4S2NqWDMtLXJNcGQwcko2OS0xMkl5ZmZPT2fSAWBBVV95cUxOUzFoVE91aEo5bU5Cb2NodzdTUEQ3WXJsNHVvWHM2akgwV05PM2JVUlFsNzJaU0xYLTVlRGIxX3dncXNWRnpQXzdwbnB0M1ZaXzFaYjMyRnhCM1lpSW84ZWs?oc=5",
-        "pubDate": "Tue, 13 Oct 2026 02:00:02 GMT",
-        "summary": "APEC 스마트 모빌리티 포럼에서 자율주행 분야와 AI 협력 방안이 주요 의제로 논의되었습니다. 국경을 초월한 기술 표준 마련과 산업 협력이 본격적인 속도를 내고 있습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
         "investmentImpact": 3
       }
     ]
