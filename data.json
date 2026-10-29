@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-29T01:28:54.577Z",
+    "reportDate": "2026. 10. 29.",
+    "summary": "- 휴머노이드 로봇 및 AI 기술의 일상 침투: 사람과 유사한 반려 로봇과 방송 제작 AI 도입 등 일상 영역으로의 AI 확장이 가속화되고 있음.\n\n- AI 콘텐츠 차별화 경쟁: 생성형 AI의 일반화에 따라 사람의 감성을 모방하고 '사람 냄새'를 풍기는 기술이 시장의 핵심 경쟁력으로 부상함.\n\n- AI 산업의 재무적 리스크: 막대한 투자가 집행된 AI 인프라 및 기술의 수익화 시점이 다가옴에 따라 부채 부담 및 재무적 건전성에 대한 우려가 제기됨.\n\n- 공공부문 AI 도입 및 안전성 확보: 공공기관의 AI 활용이 확대되면서 제도적 기반과 안전기준 마련이 병행되는 추세임.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.8,
+    "velocityReason": "AI의 일상 및 창작 영역 확산과 함께 기업들의 재무적 압박이 동반되면서 업무 프로세스 효율화 및 고용 구조 개편의 압력이 완만하게 증가함.",
+    "cumulativeRiskScore": 54.9,
+    "jobRiskScore": 54.9,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 반려 로봇 상용화",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 1
+      },
+      {
+        "event": "인간적 감성 구현 AI 기술 선호",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 3
+      },
+      {
+        "event": "AI 투자 기업의 재무 부담 가중",
+        "sign": "+",
+        "impact": 5,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "사람 닮은 AI 반려 로봇 나왔다…가격 최대 8000만원 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBsTHE1a0QxT20ycTZGbnBYTlhIUTFXOWp6RS13NUVCVjVjVWNrTXNrejV1Y2RhaEthXzBWam5nbU43dzNvYjNqUWlDblhyckJ6UF8wa2dB?oc=5",
+        "pubDate": "Wed, 28 Oct 2026 02:09:14 GMT",
+        "summary": "사람의 외형과 행동을 닮은 반려 로봇이 상용화되었으며 가격은 최대 8천만 원 수준임. 로봇이 가정 내 보조 역할을 수행하며 관련 시장의 잠재력이 확대되고 있음.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "KT HCN, '홀로탈출' 시즌4…AI 매칭·추적 촬영 도입 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80MVh6NmNnQ0dRa1dYOEVzVVUxRGpsbmIzSFhPMTdHVmJtT1BYZXJmZUlaQzRjVWVUT2VZTXRZX0JGNk1tX094Q1ZWOHZUQQ?oc=5",
+        "pubDate": "Thu, 29 Oct 2026 01:19:17 GMT",
+        "summary": "KT HCN이 방송 제작에 AI 매칭 및 추적 촬영 기술을 도입하여 제작 효율성을 높임. 미디어 산업 현장에서 AI를 통한 자동화가 실질적으로 구현되는 사례임.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      },
+      {
+        "title": "“후배가 쓴 보고서, 대놓고 AI 썼네요”...이제 ‘사람 냄새’ 풍기는 기술이 돈 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IdEdiS3hSaGk0b0gzNHZTNFlHdHVzd3M1MEozWkw1QzFOMFlpU3gtb0xFSWM2MUMtSVpMY1pPczVENTRGam1kU2JkRTlEUQ?oc=5",
+        "pubDate": "Wed, 28 Oct 2026 08:51:55 GMT",
+        "summary": "생성형 AI의 보편화로 단순 텍스트 생성을 넘어 사람의 감성과 개성을 반영하는 기술이 차별화 요소로 주목받고 있음. 고도화된 콘텐츠 제작 능력이 시장 가치를 결정하는 핵심이 됨.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "\"AI에 쏟아부은 빚, 내년부터 만기 몰려와\" - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLWVRMEdkdk1zV1JGYnBOOXF0Rll4STd0NGtDaG12a0k1cGs2djBZVUtVQmhURHpXekNMdG55T01EeU9hSHg0TXBFV1RKUEhqbUs0RzdZUnVJWjVoZUQ5TS1Najl2aVJhVno5dS1IRnViSERSbmNDUFBfNU1QRHllZ3Jhbw?oc=5",
+        "pubDate": "Wed, 28 Oct 2026 15:52:00 GMT",
+        "summary": "AI 시장 성장을 위해 막대한 자금을 빌린 기업들의 부채 만기가 내년부터 도래함. AI 기술의 수익화 속도가 자금 회수 속도를 따라가지 못할 경우 재무적 리스크가 현실화될 전망임.",
+        "importance": 5,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "공공기관 AI 활용 확대…달라지는 제도와 안전기준은? - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWRqU0QyTEZSbzdGTzMydDlpRVc2MkxKTG1za2lqRXQzOXNHSVlGVXl5bU9NNThsc1Q0RUtRb3B2aVdEZGlUd1JVelZYclBYZ3lCYXFTWHhmc0xfX1dJbDJheXFhc3ctY2lqSHgwb25XUDNkem16dlhsQ3ViTGVYdUNrY3VxVzBNNkw0?oc=5",
+        "pubDate": "Thu, 29 Oct 2026 01:05:10 GMT",
+        "summary": "공공부문에서 AI 활용을 촉진하기 위한 제도적 기반과 안전기준이 정비되고 있음. 공공 영역의 AI 도입은 표준화된 가이드라인을 통해 안정적인 사회적 도입을 목표로 함.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-28T00:53:21.333Z",
     "reportDate": "2026. 10. 28.",
     "summary": "- 앤스로픽 기업 가치 급등: 앤스로픽의 상장 신청 및 대규모 AI 인프라 투자 계획 발표로 AI 산업 생태계의 자본 집중이 가속화됨.\n\n- AI 시장의 거시경제 연동: 글로벌 유가 하락과 AI 반도체 랠리가 맞물리며 뉴욕 증시의 상승세를 주도하고 국내 증시에도 긍정적인 기대감을 조성함.\n\n- 정책적 변수 등장: 트럼프 전 대통령의 'AI 용어 금지' 주장 등 정치적 맥락에서의 AI 정책 불확실성이 잠재적 변수로 부상함.\n\n- 미래 세대 AI 교육: 교육 현장에서의 AI 리터러시 강화 프로그램을 통해 미래 산업 역량 배양 움직임이 확산됨.",
@@ -721,88 +803,6 @@
         "importance": 4,
         "aiImpact": 3,
         "automationPotential": 2,
-        "investmentImpact": 5
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-10-16T00:00:24.225Z",
-    "reportDate": "2026. 10. 16.",
-    "summary": "- AI 산업 내 거품론 확산: AI 관련 기업들의 수익성 한계가 드러나며 캐릭터.AI의 파산 보호 신청 등 시장 기대치와 실제 수익 간의 괴리가 심화되고 있음.\n\n- 증시 및 투자 심리 위축: AI 거품 붕괴 우려로 인해 코스피 등 주요 지수가 연일 폭락하며, AI 섹터 전반에 대한 보수적인 투자 기조가 형성됨.\n\n- 출판 및 콘텐츠 산업의 AI 도입: 교보문고와 같은 전통 유통망에 AI가 생성한 도서가 대거 유입되는 등 실무 현장에서의 AI 활용 방식이 변화하고 있음.",
-    "summaryScore": 78,
-    "dailyVelocity": -1.2,
-    "velocityReason": "AI 기업의 파산 및 거품론 확산으로 인해 공격적인 기술 도입보다는 재무 건전성 점검이 우선시되며 일자리 대체 압박이 일시적으로 감속함.",
-    "cumulativeRiskScore": 54.3,
-    "jobRiskScore": 54.3,
-    "riskScoreBreakdown": [
-      {
-        "event": "캐릭터.AI 파산보호 신청",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 3
-      },
-      {
-        "event": "AI 거품론 및 증시 폭락",
-        "sign": "-",
-        "impact": 6,
-        "newsIndex": 5
-      },
-      {
-        "event": "출판 유통의 AI 도서 확대",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      }
-    ],
-    "news": [
-      {
-        "title": "[단독] AI, 새책도 노리나…교보문고에 들어온 ‘10만권’ 주문 - 중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9uVWVrWlFpaVYyYjVNbmc5TXBhb2s4UTdmaXJmU3ljbzlOT0d3cDNXNkg4bG9uNUZTRTRQSlR2VU1CRmtxNGVBcUZ0M3FBZmdPVk50UVRB?oc=5",
-        "pubDate": "Wed, 14 Oct 2026 20:00:00 GMT",
-        "summary": "교보문고 등 대형 유통망에 AI가 저술한 도서가 대규모로 유입되며 출판 시장 내 AI 창작물의 영향력이 확대되고 있음. 인간 저자의 영역이었던 출판 시장에 AI 기술이 본격적으로 침투하고 있음을 보여줌.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 2
-      },
-      {
-        "title": "'0' 두 개 빠진 거 아냐?…'4조 잭팟' AI 신화의 몰락 [허진의 테크토닉] - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aYXlZSkRZelZaWmFsUUljX0NTV1EzeVdkcHZLNHR0UnhkSFBwWmVPZHdSWE5scm55TE9DTVJFNGdLblViSTlmYmVDUU5XMWhnS05KY2JKSXV3Zw?oc=5",
-        "pubDate": "Thu, 15 Oct 2026 02:13:48 GMT",
-        "summary": "AI 스타트업들의 수익화 모델이 부재한 상황에서 거액의 투자가 무색해지는 '신화의 몰락'이 가시화되고 있음. 과도한 기업 가치 평가에 대한 경고음이 커지며 시장 재편이 예고됨.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "작년 月 이용자 2000만명 ‘캐릭터.AI’ 파산보호 신청 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRjd6ekhkbmRDQndMNlNROWk2Qnd1UDFUSzZtakRNdVU0bkRRanlZaW42RVdrdWRiQmxkRDNLNnNCOHhjU0l5c1NiYWxSTG1Nck1qM3ZzMEROekstdWFYWDVaTjUzOEcwZDhabFdjUzVfX1QtSVdXNmdmbUNrejBqQkpQcw?oc=5",
-        "pubDate": "Wed, 14 Oct 2026 15:37:17 GMT",
-        "summary": "챗GPT의 강력한 경쟁자로 주목받던 캐릭터.AI가 자금난을 이기지 못하고 파산보호를 신청함. 이는 고비용 AI 모델 유지 비용 대비 수익 창출의 어려움을 극명하게 보여주는 사례임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "[10월14일] 챗GPT와 맞먹던 캐릭터닷AI가 4년 만에 파산한 이유 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZclJ5SnNwY2plT0QyQW5KbXNlRmdBbVNLUUkwRDNNSEYzbEdhQWJFTTRHejQyUGl1Y0dVVGM2UEVrbGIzS0U5S3ZEakhoLTVhNFlkWEJuZVpoVng2TzVBT194SzFDV2ZUWlE?oc=5",
-        "pubDate": "Wed, 14 Oct 2026 22:00:00 GMT",
-        "summary": "캐릭터.AI의 몰락은 높은 운영 비용과 차별화된 수익 모델 부재가 주원인으로 분석됨. AI 산업의 지속 가능성에 대한 의문이 커지며 벤처 투자 시장의 냉각기가 시작될 것으로 보임.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "AI 거품론, ‘닷컴 버블’ 재림인가…코스피, 7거래일 연속·총 20.7% 폭락 - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwVkpoUzJNUWNnR2JBUWRLYktoTERpTnJnZ0tlOWU5eWRMeEptT2ZCTU9aME5yMlBKTWZhcE1QUUlpbFBrRzNMVF90d2FRb1ltY2FaR0lVMXl0WTFQM0FZY3pwZzF2cWc?oc=5",
-        "pubDate": "Thu, 15 Oct 2026 12:14:00 GMT",
-        "summary": "AI 산업에 대한 거품론이 확산되면서 코스피 등 증시가 7거래일 연속 급락하는 등 강력한 조정 장세가 연출됨. 투자자들의 불안 심리가 커지며 AI 관련주 전반에 대한 고평가 논란이 지속되고 있음.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 1,
         "investmentImpact": 5
       }
     ]
