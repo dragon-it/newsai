@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-10-30T01:29:49.689Z",
+    "reportDate": "2026. 10. 30.",
+    "summary": "- AI 하드웨어 및 인프라 투자 급증: 퓨리오사AI의 대규모 투자 유치 성공으로 국내 AI 반도체 생태계 경쟁력 강화 및 산업 가치 제고.\n\n- AI 활용성 및 비즈니스 고도화: LG CNS의 AI 기반 실적 견인 및 '사람 냄새' 나는 AI 기술 도입을 통해 기업 내 AI 업무 효율과 가치 창출이 가시화됨.\n\n- AI 윤리 및 공공분야 적용 확대: 동의대의 AI 윤리 가이드 제정과 공공데이터 경진대회 성과를 통해 AI의 건전한 활용 문화와 사회적 활용 범위가 점진적으로 확산됨.",
+    "summaryScore": 82,
+    "dailyVelocity": 0.8,
+    "velocityReason": "AI 기술의 기업 현장 도입과 생산성 향상 요구가 가속화되면서, 기존 업무 방식의 대체와 변화가 더욱 구체화되고 있음.",
+    "cumulativeRiskScore": 55,
+    "jobRiskScore": 55,
+    "riskScoreBreakdown": [
+      {
+        "event": "기업 내 AI 실무 도입 가속화",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "LG CNS AI 중심 실적 견인",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 3
+      },
+      {
+        "event": "AI 윤리 가이드라인 제정",
+        "sign": "-",
+        "impact": 2,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "퓨리오사AI, 8200억 규모 투자 유치...기업가치 3.8조원 돌파 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UM3BUa3RrVnAxc1BjVkV4UWZ4SF91REVmWFRCeDMzRkdZVzZTbHZibHZHUko4azJMd0RBUV81UlVxQUJSdXJNaEpkVjNIR1RpQkx5V1IwTFFxTHBGcTY5WXZpelRmTW5LV3c?oc=5",
+        "pubDate": "Thu, 29 Oct 2026 03:40:49 GMT",
+        "summary": "퓨리오사AI가 8200억 원 규모의 대규모 투자를 유치하며 기업가치 3.8조 원을 돌파했습니다. 국내 AI 반도체 설계 역량이 글로벌 시장에서 인정받고 있음을 시사합니다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "“후배가 쓴 보고서, 대놓고 AI 썼네요”...이제 ‘사람 냄새’ 풍기는 기술이 돈 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IdEdiS3hSaGk0b0gzNHZTNFlHdHVzd3M1MEozWkw1QzFOMFlpU3gtb0xFSWM2MUMtSVpMY1pPczVENTRGam1kU2JkRTlEUQ?oc=5",
+        "pubDate": "Wed, 28 Oct 2026 08:51:55 GMT",
+        "summary": "AI를 활용한 결과물에 대한 사회적 인식이 변화하며, 기계적인 결과물보다 인간의 감성과 창의성이 반영된 기술이 높은 평가를 받는 추세입니다. 이는 AI와 협업하는 방식의 새로운 기준을 제시합니다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      },
+      {
+        "title": "LG CNS, 3Q 실적 컨센서스 부합…\"AI·클라우드와 금융이 견인\"(종합) - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5Y3YyUDZUSGQwNE05Y1I5VGxGYlE2emlZb01iMHRqajhZTFM1Skg0bmRhVG9WWEF2ekhCeS1nVngyMWxFb09vNXltU19PMkF5SWFqQmxhRHM0clVxektZZ3E0bjRCVjdGRzNKdEdtOGk?oc=5",
+        "pubDate": "Fri, 30 Oct 2026 00:55:25 GMT",
+        "summary": "LG CNS의 3분기 실적이 AI와 클라우드 사업의 성장으로 인해 시장 기대치에 부합했습니다. 기업의 핵심 비즈니스 모델로서 AI 역량의 실질적인 수익화가 입증되고 있습니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[부산소식] 동의대, 'AI 윤리 및 활용정책 가이드' 제정 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9keHJDRE9LaTdLZ0REM0xqM2tXWkQ0Q2lWa2pWamtIVHNkaV9ESDRrNnRsTXlQQlA4UjN2Y0o3cFUxVlhmX3hFN011cXZ0ZVBkRFNsVXhPYnUtSlnSAWBBVV95cUxPSmphSE9lTG9sWXNTaktoTVE3ZE1HRjBoUmdKbFBhRUFhTDJLT2Y4NFYxT1VTcE5kd29GTXpDdnd5UC16SU9MNFZmRkEzZEdPWnhlbTRQRnNJLWZIRmlWcmY?oc=5",
+        "pubDate": "Fri, 30 Oct 2026 00:49:45 GMT",
+        "summary": "동의대가 AI 윤리 및 활용 정책 가이드를 제정하여 대학 내 AI 활용의 기준을 마련했습니다. 기술 발전 속도에 맞춘 올바른 가이드라인 확립이 더욱 중요해지고 있습니다.",
+        "importance": 3,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 1
+      },
+      {
+        "title": "전남대·마틸로AI, 식약처 '식의약 공공데이터·AI 경진대회' 최우수상 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1blJ2Mkt1RHpkblMzNWVNOWZoUkVsLWIzd1F3Vm9TV0lMY2RxMzJ6NkJUZG5JNURiZVZBbk1uSm5YVEZrWkZLcWM2NGVJSFBoSFhsZjVyMG4xR096czNqeVNDaTdHa1B2RkHSAW9BVV95cUxOM0tTOE5ieW04ZHZqY1c1S2U1anlZQ2Vsck1tdjI3TFpCQnNua095a0wwWkF1Y09PYkE1UENmRHlBUzc1bjRzSk1DSTFSLUtlOEFHYWRoR0xZeXVYSXc5Z3QtMUd1TFFHMWRuN3BHWDA?oc=5",
+        "pubDate": "Fri, 30 Oct 2026 01:12:24 GMT",
+        "summary": "전남대와 마틸로AI 팀이 식약처 주관 경진대회에서 최우수상을 수상하며 공공데이터와 AI의 결합 성공 사례를 만들었습니다. 공공 부문에서의 AI 활용 가능성이 꾸준히 증명되고 있습니다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-29T01:28:54.577Z",
     "reportDate": "2026. 10. 29.",
     "summary": "- 휴머노이드 로봇 및 AI 기술의 일상 침투: 사람과 유사한 반려 로봇과 방송 제작 AI 도입 등 일상 영역으로의 AI 확장이 가속화되고 있음.\n\n- AI 콘텐츠 차별화 경쟁: 생성형 AI의 일반화에 따라 사람의 감성을 모방하고 '사람 냄새'를 풍기는 기술이 시장의 핵심 경쟁력으로 부상함.\n\n- AI 산업의 재무적 리스크: 막대한 투자가 집행된 AI 인프라 및 기술의 수익화 시점이 다가옴에 따라 부채 부담 및 재무적 건전성에 대한 우려가 제기됨.\n\n- 공공부문 AI 도입 및 안전성 확보: 공공기관의 AI 활용이 확대되면서 제도적 기반과 안전기준 마련이 병행되는 추세임.",
@@ -722,88 +804,6 @@
         "aiImpact": 5,
         "automationPotential": 4,
         "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-10-17T00:06:27.788Z",
-    "reportDate": "2026. 10. 17.",
-    "summary": "- 모델 경쟁 격화: 구글의 '제미나이 4 아르곤'이 오픈AI와 앤트로픽을 추격하며 AI 모델 성능 경쟁이 새로운 국면을 맞이함.\n\n- 사용자 경험 향상: 오픈AI는 챗GPT 보이스 기능을 업데이트하여 언어 처리의 자연스러움을 대폭 개선함.\n\n- AI 리스크 및 보안 이슈: 기업 내부 보안 경고와 자동화 오류로 인한 방송 사고 등 AI 운영상의 실질적 위험 사례가 지속적으로 보고됨.\n\n- 시장 심리 위축: AI 기술주에 대한 피로감과 투자 시장의 불안 심리가 확산하며 기술의 실효성에 대한 비판적 시각이 증가함.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.8,
-    "velocityReason": "AI 모델의 고도화와 현장 적용 확대가 이어지고 있으나, 동시에 운영 오류와 시장 피로감이 공존하여 속도가 완만하게 가속됨.",
-    "cumulativeRiskScore": 54.4,
-    "jobRiskScore": 54.4,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 자율 권한으로 인한 방송 데이터 손실 사고",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 4
-      },
-      {
-        "event": "AI 모델 성능 경쟁 가속화",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "AI 시장 피로 증후군 및 투자 회의론 확산",
-        "sign": " -",
-        "impact": 2,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "\"한국어 억양 더 자연스럽게\"...오픈AI, '챗GPT 보이스' 업데이트 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BM3VSVXlwemdId0hGclRrY200OUxzU2tfTk1BTFlDaG9qazRpZEFyX2xNNHlaZkxSc1l5RlpwUFlaTDY5RUViS1BQZmV2MkFoZzVYYzBfUzFRNkZNRzRGMzB4R3hnU01aQWc?oc=5",
-        "pubDate": "Fri, 16 Oct 2026 05:33:18 GMT",
-        "summary": "오픈AI가 챗GPT 보이스 기능을 업데이트하여 한국어 억양을 더욱 자연스럽게 구현했습니다. 사용자 인터페이스의 정교화를 통해 인간과 AI 간의 음성 상호작용 품질을 높였습니다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 3
-      },
-      {
-        "title": "[비즈톡톡] AI 모델 성능 평가 1위 오른 ‘제미나이 4 아르곤’… 구글, 오픈AI·앤트로픽 양강 체제에 반격 - 조선비즈 - Chosunbiz",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdDBaY3B5cFJkaEpYZ0JGWmxEYVlHLXVhcXRDYUxvWGJUSWl0ZVJkTHpBMllWNjRVdjJSbnRYTURNNTZQc0ktcmsxUllVWE5tWVprczlsd09sMVRXa0gteWdZYVl4VXF5MG5GRHpVQTMxbVBGb19ubDl2YkhpMkNlSm9B0gGWAUFVX3lxTE5mU0h4SDRwRzFCSWc3b09rMnA4SHZyQzhJTXU3eWF6ZVc4N0FQZ2lGYjdfOWMzMTR3UFJXSVY1NWFvMW5TTFpxbFNMQ1NpQUdNZUdYMzA3MUdmbGdjWUdQYUhfYWFEMDRmRUVubFZGR0toZkJsRkdOMXYwUzZubmtENmNTRXdjNHJkVHNpaE1NczVvTHMydw?oc=5",
-        "pubDate": "Thu, 15 Oct 2026 06:11:00 GMT",
-        "summary": "구글이 새로운 AI 모델 '제미나이 4 아르곤'을 통해 벤치마크 성능 1위를 기록했습니다. 오픈AI와 앤트로픽이 주도하던 시장 환경에서 구글의 강력한 추격이 시작되었습니다.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "“호텔방 샴페인 든 女 조심하라”…오픈AI 직원들에 ‘미인계 경고’ 왜 [팩플] - 미주중앙일보",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBVSGR5UWJqZEhoekFPUGZLNkZleUZneTE5UnpuSWpkYlBvYnBySHA1eE5PREo3aXoxZXhYbmJyeDBld3RGNkZYNGg0Z2lmdGlYcVNRWVdkR29zTUVnSzJKVF9n?oc=5",
-        "pubDate": "Fri, 16 Oct 2026 07:22:00 GMT",
-        "summary": "오픈AI가 내부 직원들에게 보안 위험에 대한 강력한 경고 메시지를 전달했습니다. 기업 기밀 유출 방지를 위한 인적 보안 및 사이버 보안의 중요성이 강조되고 있습니다.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      },
-      {
-        "title": "AI에 권한 줬더니…방송 직전 프로그램 통째 증발 ‘날벼락 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95bWJhcUFTQlhQQWp1bF9wXzlUV1BLQVZROFlQUDVHWlNPWG9SamRKRTZOSFdHdHB4SHNyVk1TSU8yMTNaMzRGSFFHck5mY3Z4QVZmS2xR?oc=5",
-        "pubDate": "Fri, 16 Oct 2026 07:51:26 GMT",
-        "summary": "자동화 도구에 과도한 권한을 부여한 결과 방송 프로그램이 삭제되는 사고가 발생했습니다. AI의 판단 오류가 실제 산업 현장에서 심각한 피해를 입힐 수 있음을 보여줍니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 5,
-        "investmentImpact": 2
-      },
-      {
-        "title": "하루만에 끝난 데드캣 바운스, 'AI 피로 증후군' 증폭…전쟁·청산설까지 [김현석의 월스트리트나우] - 한국경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LY3lLby1DTDZMTDVIbkpoaDdWcmRfdFFNN25LWjNmYmluaGdwTHZ5cjZ0N0piYTc1YjBQWFVsa0U1TzZxd2J6SU14UWFvN1U3N0d5UE12S2w3UQ?oc=5",
-        "pubDate": "Fri, 16 Oct 2026 23:03:18 GMT",
-        "summary": "AI 기술주에 대한 투자 시장의 낙관론이 꺾이며 'AI 피로 증후군'이 확산하고 있습니다. 기술 성장에 대한 의구심과 시장 불안정성이 증대되는 양상입니다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 5
       }
     ]
   }
