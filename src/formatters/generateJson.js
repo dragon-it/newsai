@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-export function generateJson(newsList, summary, jobRiskScore, summaryScore, riskScoreBreakdown, dailyVelocity, velocityReason) {
+export function generateJson(newsList, summary, jobRiskScore, summaryScore, riskScoreBreakdown, dailyVelocity, velocityReason, existingHistory = null) {
   const velocity = typeof dailyVelocity === "number" ? dailyVelocity : 1.2;
 
   const newData = {
@@ -20,9 +20,9 @@ export function generateJson(newsList, summary, jobRiskScore, summaryScore, risk
   };
 
   const dataPath = path.join(process.cwd(), "data.json");
-  let history = [];
+  let history = Array.isArray(existingHistory) ? existingHistory : [];
 
-  if (fs.existsSync(dataPath)) {
+  if (!Array.isArray(existingHistory) && fs.existsSync(dataPath)) {
     try {
       const existingData = JSON.parse(fs.readFileSync(dataPath, "utf8"));
       if (Array.isArray(existingData)) {

@@ -1,16 +1,18 @@
-import fs from "fs";
-import path from "path";
 import { fetchAINews } from "./services/fetchNews.js";
 import { summarizeNews } from "./services/summarizeNews.js";
 import { generateMarkdown } from "./formatters/generateMarkdown.js";
 import { generateJson } from "./formatters/generateJson.js";
 import { sendDiscordMessage } from "./notifications/sendDiscord.js";
 import { saveToFile } from "./utils/fileSystem.js";
+import { getRecentReports, saveReport } from "./db/supabase.js";
 
 async function main() {
   console.log("🚀 NewSai 자동화 파이프라인 시작...");
 
   try {
+    // Fail before paid API calls if the database is unavailable.
+    const existingReports = await getRecentReports(10);
+
     // 1. 뉴스 수집
     console.log("\n🔄 [1/5] AI 관련 뉴스 수집 중...");
     const newsList = await fetchAINews();
@@ -44,17 +46,12 @@ async function main() {
     // 3. 마크다운 및 JSON 생성
     console.log("\n🔄 [3/5] 데이터 포맷팅 및 파일 저장 중...");
     const date = new Date().toISOString().split("T")[0];
-    const reportsDir = path.join(process.cwd(), "reports");
-
     const markdownReport = generateMarkdown(
       newsList,
       summary,
       summaryData.overallScore,
       summaryData.riskScoreBreakdown
     );
-    const mdPath = saveToFile(reportsDir, "report-" + date + ".md", markdownReport);
-    console.log("💾 Markdown 저장 완료: " + mdPath);
-
     const jsonReport = generateJson(
       newsList,
       summary,
@@ -62,9 +59,19 @@ async function main() {
       summaryData.overallScore,
       summaryData.riskScoreBreakdown,
       summaryData.dailyVelocity,
-      summaryData.velocityReason
+      summaryData.velocityReason,
+      existingReports
     );
-    const jsonPath = saveToFile(process.cwd(), "data.json", jsonReport);
+    const currentReport = JSON.parse(jsonReport)[0];
+    await saveReport(currentReport, markdownReport);
+    console.log("💾 Supabase 저장 완료: " + date);
+
+    const recentReports = await getRecentReports(10);
+    const jsonPath = saveToFile(
+      process.cwd(),
+      "data.json",
+      JSON.stringify(recentReports, null, 2),
+    );
     console.log("💾 JSON 저장 완료: " + jsonPath);
 
     // 4. Discord 알림 전송

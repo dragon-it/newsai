@@ -4,4 +4,6 @@ dist
 build
 output
 *.pdf
+data.json
+reports/
 .DS_Store
