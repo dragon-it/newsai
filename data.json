@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-11-01T00:36:46.608Z",
+    "reportDate": "2026. 11. 1.",
+    "summary": "- 공공 부문 AI 도입 가속화: 네덜란드 등 공공 영역에서 AI를 통한 업무 효율성 실험이 진행되며 행정 직무 재편 가능성이 논의되고 있음.\n\n- 온디바이스 및 우주 AI 확장: 구글의 인터넷 연결 없는 제미나이 라이브 개발과 우주 데이터센터를 통한 AI 연산 실험은 AI의 적용 범위를 지상에서 궤도까지 대폭 확장함.\n\n- AI 시장 및 기업 가치 변동: 앤스로픽 등 AI 기업의 상장 이슈가 주식 시장의 주요 화두로 떠오르며 투자자들의 AI 기업 평가에 대한 관심이 집중되고 있음.",
+    "summaryScore": 82,
+    "dailyVelocity": 1.2,
+    "velocityReason": "공공 부문의 AI 도입 실험과 온디바이스 AI 기술 진보가 결합하여 직무 자동화의 범위를 확장한 것이 핵심임.",
+    "cumulativeRiskScore": 55.2,
+    "jobRiskScore": 55.2,
+    "riskScoreBreakdown": [
+      {
+        "event": "네덜란드 공공 부문 AI 업무 대체 실험",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "온디바이스 AI(제미나이 라이브) 개발",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 2
+      },
+      {
+        "event": "AI 기업 상장으로 인한 시장 변동성 확대",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+        "pubDate": "Sat, 31 Oct 2026 01:00:00 GMT",
+        "summary": "네덜란드가 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중입니다. 이는 단순 행정 업무의 자동화와 향후 공공 일자리 구조 변화에 대한 중요한 지표가 될 전망입니다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 2
+      },
+      {
+        "title": "구글, 인터넷 없이 작동하는 '제미나이 라이브' 개발 중 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pS3pSS0VUdnlLRVRwX0ttQXhxMUxWOHdoa2k1ODdRdDhpa1JnR3doY1hmUkVXWXI2MU1JdG9XVGh3M1RTdDhqWElnd0tzZzVvXzZBQ0xWVGVaR0g2aTVuUEt4S0MzWWtUV1E?oc=5",
+        "pubDate": "Sat, 31 Oct 2026 23:13:28 GMT",
+        "summary": "구글이 인터넷 연결 없이도 구동 가능한 '제미나이 라이브'를 개발 중입니다. 이는 데이터 보안과 반응 속도를 향상시켜 모바일 기기에서의 AI 활용도를 비약적으로 높일 것으로 보입니다.",
+        "importance": 4,
+        "aiImpact": 5,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "\"아래엔 푸른 구슬\"…구글 첫 우주데이터센터 AI 응답은 시 한편 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hNFhaRXNweG5IeldpZkRzZW9uUG1sdVZCV214MmxCQXZCLTlKZ2JLVWV1QjZIN0ZEUTVvV3B2SHZPOEJEdWpGcnZoTWJyWm9qNmV2ZXdLX3lvRjjSAWBBVV95cUxOUUhwYmJmV0dJa3ZlTENabTRYdndmMGFXWnY1R3hTNFRWT1p5bGt3ZDBQbVBFaEFGeHZzSDkwRWlDVzdGUnRXRFp5bi0tSk1sWXhVb3RNcFJwNEZOMlVuSUc?oc=5",
+        "pubDate": "Sat, 31 Oct 2026 00:38:02 GMT",
+        "summary": "구글이 우주 데이터센터 환경에서 AI가 생성한 시를 공개하며 궤도 연산 실험의 성공을 알렸습니다. 우주 공간에서의 AI 연산 가능성을 입증하여 향후 우주 산업과 AI의 결합이 가속화될 것입니다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "구글 TPU 우주서 첫 ‘시’ 썼다…궤도 AI 연산 실험 본궤도 - 매일경제",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xbXlYRFFNZE9vWGMteHN1VmhjaDNUM2EtVzlDektMZWlkb2VscFdHWkJXcnlNNUs4Ym9jZzhHdVBfX2pfbC1mX2p2cmhLdw?oc=5",
+        "pubDate": "Sat, 31 Oct 2026 20:35:07 GMT",
+        "summary": "구글 TPU를 활용한 우주 공간에서의 AI 연산 실험이 본궤도에 올랐습니다. 극한 환경에서의 AI 성능 검증은 향후 우주 개발 인프라 구축의 핵심적인 기술적 이정표가 될 것입니다.",
+        "importance": 3,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 3
+      },
+      {
+        "title": "코스피 절반 넘는 AI 공룡 앤스로픽 상장… 내 주식 괜찮을까 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTk80Y2dQaXZ6bVhDTXRzNXp2RXdudFpSeTV2dDE4Q2FOM2pXU3RjMzZTeGNxYU9jUHlQWERpOTRJMDBoRjBmS3c0UWhGZ3E4eWZnVUFLSS1iMnVYU0s2VkNGS2dSSHI1ZDFRSEVlekFPQUZITnNvUzgxWlMwbXJtdVdkUlZveWdfNnZoLUJn?oc=5",
+        "pubDate": "Sat, 31 Oct 2026 23:37:00 GMT",
+        "summary": "AI 기업 앤스로픽의 상장 논의가 코스피 시장 전체에 큰 관심을 불러일으키고 있습니다. AI 산업의 성장과 기업 가치 평가에 대한 투자자들의 기대와 우려가 교차하고 있습니다.",
+        "importance": 5,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-10-31T01:21:16.698Z",
     "reportDate": "2026. 10. 31.",
     "summary": "- 콘텐츠 시장의 보상 불균형: AI 기술로 생성된 예술 및 음악 콘텐츠의 저작권과 수익 분배를 둘러싼 논란이 지속되고 있습니다.\n\n- AI 수익성 및 시장 변동성: 구글 사례처럼 AI 인프라 투자 대비 실질적 수익 모델에 대한 시장의 의구심이 기술주 전체의 변동성을 키우고 있습니다.\n\n- 실무 혁신 및 산학 협력: AI 비전 검사, 자율주행 등 산업 현장에 직접적인 효율을 가져오는 기술의 상용화와 대학 중심의 창업 활동이 활발합니다.",
@@ -728,88 +810,6 @@
         "aiImpact": 2,
         "automationPotential": 2,
         "investmentImpact": 2
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-10-18T23:51:54.742Z",
-    "reportDate": "2026. 10. 19.",
-    "summary": "- AI 알고리즘 편향성 및 사회적 소외 문제: 생성형 AI가 학습 데이터의 불균형으로 인해 특정 소수자를 배제하거나 왜곡할 위험성이 제기됨.\n\n- 기술 혁신 및 에이전트 고도화: 오픈AI의 차세대 모델 업그레이드로 복합적인 에이전트 병렬 처리 기능이 강화되어 작업 효율성이 비약적으로 상승함.\n\n- 교육 현장의 AI 활용 격차: 교실 내 AI 도입은 일상화되었으나 관련 정책 및 가이드라인에 대한 교사들의 숙지도가 낮아 교육적 혼란 발생 우려.\n\n- AI 인프라 수급 불안정: 미국 내 데이터센터 구축 프로젝트가 지연되는 등 급격한 AI 수요를 뒷받침할 인프라 확보에 차질이 발생함.",
-    "summaryScore": 82,
-    "dailyVelocity": 1.2,
-    "velocityReason": "오픈AI의 에이전트 병렬 실행 기능 도입으로 인해 사무 및 업무 자동화의 범위와 복잡성이 한층 더 가속화됨.",
-    "cumulativeRiskScore": 54.5,
-    "jobRiskScore": 54.5,
-    "riskScoreBreakdown": [
-      {
-        "event": "오픈AI 에이전트 고도화",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 2
-      },
-      {
-        "event": "AI 데이터센터 인프라 차질",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      },
-      {
-        "event": "AI 학습 데이터 편향성 이슈",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 1
-      }
-    ],
-    "news": [
-      {
-        "title": "[단독] AI가 만든 세계에서 ‘소수자’는 지워진다 - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iX0tOa3VFZkxrMW5PSkhqXzhiTTJleXVYaHlZMlpOVmw5VGFrVXFyalItTlhWa1dwTFo0b1FieTNSMjNtOEdDeGozTWZETHdCZ2VkOEhGWVBWenBUdlNnRDUtNkdYbWxodDEtamFqaHo1UQ?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 21:45:00 GMT",
-        "summary": "AI가 학습 과정에서 데이터 불균형으로 인해 사회적 소수자를 배제하거나 지우는 문제가 발생하고 있음. 이는 AI 모델의 공정성 및 윤리적 책임에 대한 중대한 과제를 제시함.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 3
-      },
-      {
-        "title": "오픈AI, ‘GPT-6 아스트라 프로’ 업그레이드...에이전트 병렬 실행 지원 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fRjMyNFJlSnd5LTRkeElJUVEwVUJrZUtlVjlWdEdxSVV3RW4wc2NDQ0dmYllpMHVfNzdldjBtX0pKdUVHWm83dk9samtKRFhMekUxRDdBUXR4UXcyUE1rMEFZaG5aMV9uREE?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 08:51:14 GMT",
-        "summary": "오픈AI가 'GPT-6 아스트라 프로'로 모델을 업그레이드하며 에이전트의 병렬 실행 기능을 강화함. 복잡한 다중 업무를 AI가 동시에 처리할 수 있게 되어 자동화 속도가 가속화될 전망임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 5
-      },
-      {
-        "title": "AI has become routine in classrooms… only 17% of teachers know the relevant policies - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iU0ZHaUhFWENnUFpSeEs1MlZRbUF2SndUYVdNU1huWXVhRF9ITGctU19EVnFRUlRoNUkyUW9QbUNsUXFITjN6VTdub3JDXzFnMzk2YTNnTEd5RFFWSXc?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 23:22:00 GMT",
-        "summary": "학교 현장에서 AI 활용이 일상화되었으나, 교육 정책을 제대로 숙지한 교사는 17%에 불과함. 기술 도입 속도를 정책과 교육이 따라가지 못하는 괴리가 나타나고 있음.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "\"미국 데이터센터 47건 차질…AI 인프라 붐 균열 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5bmtvbXc3aXdVNlZaSm93QlBlYzZYNm5OLWZLVGNZUW83YVUzQnFJeUR2NVU5MEdGRVBVSmpPLWhfYUdUcGdyczlGcVB5c1ZLc0pVc2t2eHZNeDDSAWBBVV95cUxQWW1WQ0VpTEdid09xLVROZzh5UHlENDRrczJzTU1ucWx1T3VrQy1tNVBJeWxfa2pLLUpqX0ZVVE5FZTVIV0FRc1hVNnZjODU5WXRGZzJrYUFyd2hqWTN5UEg?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 23:19:33 GMT",
-        "summary": "미국 내 47건의 데이터센터 구축 프로젝트가 차질을 빚으면서 AI 인프라 확장에 적신호가 켜짐. 전력 수급 및 공급망 문제로 인해 AI 시장 성장에 균열이 발생하고 있음.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[비바100] “소비자 속마음도 판다”⋯ AI로 영상 속 고객 목소리 읽는 ‘싱클리’ - 브릿지경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5b3dGbTBqSlhsZXdiOExFU01ZTVh6bGRMaDFQeTFITFZZOTJrRGRKRzZKZlREMWRtdm9DaUZXSnZFS1BNMVJxNlZFMW1TeGlBdDZOajRFelM1dw?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 21:34:00 GMT",
-        "summary": "AI 분석 솔루션 '싱클리'가 영상 속 소비자 목소리를 분석하여 마케팅 통찰을 제공함. 고객 데이터를 정교하게 분석하는 자동화 기술이 상업적 영역으로 빠르게 확장되고 있음.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 4
       }
     ]
   }
