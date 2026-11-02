@@ -1,5 +1,87 @@
 [
   {
+    "lastUpdated": "2026-11-02T01:10:29.518Z",
+    "reportDate": "2026. 11. 2.",
+    "summary": "- AI 모델의 신뢰성 및 한계 노출: AI가 인간의 실수를 학습하거나 모방하는 한계가 확인되며, 모델의 안정적인 활용에 대한 의문이 제기됨.\n\n- AI 시장 거품론 및 금융 우려: 앤트로픽의 상장과 관련하여 빅테크의 과도한 투자에 대한 경고와 금융권의 신용 등급 우려가 커지며 시장 변동성이 확대됨.\n\n- 산업 현장의 실질적 협력 가속: 지멘스와 네이버의 협력처럼 AI가 제조 및 물류 등 산업 현장에 직접 적용되는 구체적이고 생산적인 협력 사례가 늘고 있음.",
+    "summaryScore": 72,
+    "dailyVelocity": 0.2,
+    "velocityReason": "AI의 기술적 한계와 시장의 수익성 우려가 대두되면서 급격한 자동화보다는 내실을 다지는 흐름으로 전환되는 추세임.",
+    "cumulativeRiskScore": 55.2,
+    "jobRiskScore": 55.2,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 모델의 실적 부진 및 오류 노출",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 기업 상장 및 수익성 우려",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 2
+      },
+      {
+        "event": "산업용 AI 협업 확대",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "'밤샘 작업 시켰는데...일 안하고 잠든 AI'…\"인간 실수를 따라간다\" - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tSWtDNW56bjdRQ3lkUHNPa3NKb1ZjUGR4YUw1YzAxXzNaTUU2UjFNRkVuVUZObURPaDhaTm9ZRTlZcjRWU21tTU1zM0Z3NHVUaUoyZElWRGYwdEN4ZHZYRHhZY3l1LXJQamxfUNIBckFVX3lxTE1NQ2Zkcm9PM3NoTGcxbkdyTXROM2dJc3RWSHBXOFNYX3R4VU5Vd1NzSHJyZ29UT1RTbTdxdzEyMnlHTWtCNUkxTXJLRWtmRC1hSTJlcl9EaE5oMS1kSzJEelExenh6SmFCZUJsRk05VmY0Zw?oc=5",
+        "pubDate": "Sun, 01 Nov 2026 20:30:00 GMT",
+        "summary": "AI가 장시간 작업 중 인간의 실수를 그대로 모방하거나 기능이 저하되는 현상이 발견됨. 이는 AI의 자율적 업무 수행 시 신뢰성 문제를 제기하며 인간 관리자의 필요성을 재확인함.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "\"앤트로픽 IPO 험로…빅테크 AI 투자·현금흐름 우려\" - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1rWUxySXdFSXNLLWNZdDVYSVFWM2UyMTR3Q0QzcUdOanh4RTJhNmlySHZHeXZOdFRSTlo2Z2VQNFRtTlJhcTdUZE9vYU1YR1E1OF9PWl92dTFVSURQd19ZaDlSUXdfeXpyNkZWOHBsLWI?oc=5",
+        "pubDate": "Sun, 01 Nov 2026 22:47:54 GMT",
+        "summary": "앤트로픽의 상장 계획이 빅테크의 과도한 투자와 불투명한 현금 흐름으로 인해 험로가 예상됨. AI 시장의 거품 논란이 투자자들 사이에서 본격화되는 모습임.",
+        "importance": 5,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "AI투자 공포 속 블랙스톤 \"앤트로픽 상장 후 정크등급 전망\" 왜 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1WTkJ6X2NDWm01N2VpQzZtX3R4V3pZZmYzbzIxTGlPQ2p4dU1LRS0zczhJUnJNX3IxVFIwbF9DN3lSanBaU0c5OUFVd056RlJBSmVpby1TUEFJNTlMN1kxd1FqdU51ZHh60gFuQVVfeXFMTjQ5OTFVVVVUWmV5UXZ6R1NubHQ1QTREUmFsUHdLS3lIWFJXb2V0a0RPSVRNTW5jbTZteG9GSzZUdGtycGFaRHNBb19HU25FVWFPR3BtT0c5WUUyNnhBUUNscHFFdndjUFo2cFRMSnc?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 00:46:59 GMT",
+        "summary": "블랙스톤 등 금융권에서 앤트로픽의 상장 후 신용 등급을 낮게 평가할 수 있다는 전망이 나옴. AI 기업들의 재무 건전성이 향후 시장 평가의 핵심 변수로 떠오름.",
+        "importance": 4,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "코스피 절반 넘는 AI 공룡 앤스로픽 상장… 내 주식 괜찮을까 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTk80Y2dQaXZ6bVhDTXRzNXp2RXdudFpSeTV2dDE4Q2FOM2pXU3RjMzZTeGNxYU9jUHlQWERpOTRJMDBoRjBmS3c0UWhGZ3E4eWZnVUFLSS1iMnVYU0s2VkNGS2dSSHI1ZDFRSEVlekFPQUZITnNvUzgxWlMwbXJtdVdkUlZveWdfNnZoLUJn?oc=5",
+        "pubDate": "Sun, 01 Nov 2026 03:15:02 GMT",
+        "summary": "AI 관련주가 시장의 상당 비중을 차지하게 되면서 앤트로픽 상장이 주식 시장에 미칠 영향에 대한 우려가 확산됨. 시장 전체의 AI 의존도가 위험 요소로 작용할 가능성이 제기됨.",
+        "importance": 4,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "지멘스 회장, 네이버 1784 방문…산업용 AI·로봇 협력 논의 - 연합인포맥스",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0ZzNKdW4wMURVV2YzSWVSZl85NE1TTllTMnk3Sld2ODU3U3JpeWR1MnhQblpjclBQVjR2cWxOMXg2VXBjRjcxV181ZmJjT2FHYzFjSE9ZRkRNbzRxcUYwVmZnN0thV0Z0TDFQNEwtSUE?oc=5",
+        "pubDate": "Mon, 02 Nov 2026 01:00:40 GMT",
+        "summary": "지멘스 회장이 네이버 1784를 방문하여 산업용 AI와 로봇 분야의 협력을 논의함. 기술적 거품론을 넘어 제조 현장에서의 실질적인 자동화 도입이 활발히 추진되고 있음.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 5,
+        "investmentImpact": 3
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-11-01T00:36:46.608Z",
     "reportDate": "2026. 11. 1.",
     "summary": "- 공공 부문 AI 도입 가속화: 네덜란드 등 공공 영역에서 AI를 통한 업무 효율성 실험이 진행되며 행정 직무 재편 가능성이 논의되고 있음.\n\n- 온디바이스 및 우주 AI 확장: 구글의 인터넷 연결 없는 제미나이 라이브 개발과 우주 데이터센터를 통한 AI 연산 실험은 AI의 적용 범위를 지상에서 궤도까지 대폭 확장함.\n\n- AI 시장 및 기업 가치 변동: 앤스로픽 등 AI 기업의 상장 이슈가 주식 시장의 주요 화두로 떠오르며 투자자들의 AI 기업 평가에 대한 관심이 집중되고 있음.",
@@ -728,88 +810,6 @@
         "aiImpact": 4,
         "automationPotential": 4,
         "investmentImpact": 4
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-10-20T00:52:18.872Z",
-    "reportDate": "2026. 10. 20.",
-    "summary": "- 생성형 AI의 사무 생산성 역설: 업무 자동화 도구 도입이 오히려 회의 시간 증가 등 비효율을 초래할 수 있다는 실증적 분석이 제기됨.\n\n- 엔지니어링 교육의 패러다임 변화: AI의 코드 작성 능력 향상에 따라 개발자의 역할이 실무 구현 중심에서 아키텍처 설계와 문제 해결 중심으로 재정립됨.\n\n- 피지컬 AI의 부상: AI가 가상 세계를 넘어 물리적 환경과 상호작용하는 '피지컬 AI'가 산업 전반의 차세대 핵심 동력으로 주목받고 있음.\n\n- 미디어 및 공공의 기술 고도화: 언론사의 독자적인 거대언어모델 개발 및 취재 데이터 활용, 일반인의 AI 기술 활용 능력 강화 프로그램 등이 활발히 전개됨.",
-    "summaryScore": 78,
-    "dailyVelocity": 1.2,
-    "velocityReason": "피지컬 AI의 부상과 개발자의 역할 재정의가 산업 전반의 기술적 요구 수준을 높이며 직무 변화 속도를 가속화함.",
-    "cumulativeRiskScore": 54.6,
-    "jobRiskScore": 54.6,
-    "riskScoreBreakdown": [
-      {
-        "event": "개발자 역량 모델 재정립(CMU·MS 협업)",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "피지컬 AI로의 산업 무게중심 이동",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 3
-      },
-      {
-        "event": "AI 활용 사무 효율성 검증",
-        "sign": "+",
-        "impact": 1,
-        "newsIndex": 1
-      }
-    ],
-    "news": [
-      {
-        "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 21:39:21 GMT",
-        "summary": "AI 도구 도입이 보고서와 발표 자료 작성 시간을 줄였으나, 후속 업무 복잡성으로 인해 오히려 회의 시간이 길어지는 현상이 나타남. 기술적 생산성 향상이 실제 조직의 업무 효율성으로 직결되지는 않을 수 있다는 경고를 담고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 2
-      },
-      {
-        "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 08:11:44 GMT",
-        "summary": "AI가 코드 작성을 대체함에 따라 엔지니어의 역할이 코딩에서 문제 해결과 아키텍처 설계로 변화하고 있음. 이를 반영해 카네기멜런대와 MS는 AI 시대에 적합한 엔지니어 교육 과정을 새롭게 준비 중임.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 5,
-        "investmentImpact": 3
-      },
-      {
-        "title": "젠슨 황 \"AI 다음 물결은 피지컬 AI…다시는 이런 기회 없다\" [IT썰] - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YNllOWC1VamFwenE2ZlNBNFp5bzMzdzFuRHNKRy1COXJvS3EyQjAzellJMVU2c2ZmODVCVmRtTXpvVXh6bFNkNm5Sd2ZycHJhNnJ0aElyeFZYX1BDLXF2c3V6RWlxZGfSAWxBVV95cUxQT2Z0b2h5Y2dibTlzRE84Q1htNlhObjV2UHEydll3WjZ4azZyYV84cUxndGM5V253aVZnMUdQbU5NaUpqQVRsYl9taFBXNGh6alJIcTRESGk2cGg0YVFMMTlCeXlRQkVKNURuQ2w?oc=5",
-        "pubDate": "Mon, 19 Oct 2026 23:22:47 GMT",
-        "summary": "엔비디아 젠슨 황 CEO가 다음 AI의 물결은 물리 세계를 제어하는 '피지컬 AI'가 될 것이라 예견함. 로봇과 자율주행 등 실물 산업과의 결합이 거대한 경제적 기회를 창출할 것으로 전망함.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "연합뉴스, AI로 '취재 아카이브' 분석한다…'연합LM' 독자개발 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Kdl94ZXBwSUQxODFBWmVuY0FsSXVMcG1oUGt6WnRsc2NxVE5CQkU3NjQxTE1Ra0RnSDNMbHMta3AzYjlfb0JyWXA4V3ptM0FrcDhlSEk3OHN3cTDSAWBBVV95cUxONHBtSVMzTF9sbzlpLUF6UldVTlhrZnM5b2piaFFVWGw1ZDFBR3NQNEtuT0lZNWJMLXhHTkJpSGJnRWpYMzdkODNfd293WlpjT0ZFX21mdTlFcHlHdHFic2E?oc=5",
-        "pubDate": "Tue, 20 Oct 2026 00:00:04 GMT",
-        "summary": "연합뉴스가 뉴스 데이터를 효과적으로 분석하고 활용하기 위해 독자적인 '연합LM'을 개발함. 방대한 취재 아카이브를 AI로 구조화하여 정보 가치를 극대화하려는 전략임.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "영상·포스터 제작부터 협동 미션까지 ‘행복 AI 챌린지’ 현장 - SK텔레콤 뉴스룸",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAzYWptZzE5c1J3M1NDVUU4c1BTX1hyamVpd0pBLVJFaUJ6Y1JiakExUl8tNDhGSHlsTDZHVkVEdWk5TWNrTmpnZw?oc=5",
-        "pubDate": "Mon, 19 Oct 2026 23:31:47 GMT",
-        "summary": "SK텔레콤이 영상 및 포스터 제작 등 다양한 분야에서 AI를 활용하는 챌린지를 운영함. 대중의 AI 기술 이해도를 높이고 실질적인 창작 도구로서의 활용 가능성을 공유하는 장이 됨.",
-        "importance": 2,
-        "aiImpact": 2,
-        "automationPotential": 2,
-        "investmentImpact": 2
       }
     ]
   }
