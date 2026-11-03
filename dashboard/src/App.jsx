@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import PropTypes from "prop-types";
 import "./App.css";
 
 // 위험도 점수에 따른 테마 색상 반환
@@ -15,14 +16,6 @@ function getRiskLabel(score) {
   if (score <= 60) return "보통 🟡";
   if (score <= 80) return "경계 🟠";
   return "위험 🔴";
-}
-
-// 위험도 점수에 따른 상세 설명 반환
-function getRiskDescription(score) {
-  if (score <= 35) return "AI 기술이 인간의 일자리를 대체하기보다 보조 도구로 유용하게 활용되고 있으며, 고용 시장이 안정적인 상태입니다.";
-  if (score <= 60) return "일부 단순 반복 직무에 대한 AI 도입 시도가 포착되나, 아직은 인간 협업 기반의 생산성 향상 중심 단계입니다.";
-  if (score <= 80) return "특정 전문직 및 서비스 직무에서 AI 대체 우려 기사가 증가하고 있으며, 고용 구조의 변화가 가시화되는 경계 단계입니다.";
-  return "AI 모델 성능 급증 및 대규모 대체 소식으로 인해 고용 불안과 시장 리스크가 매우 높은 수준에 도달한 극도 위험 상태입니다.";
 }
 
 // 가속도(dailyVelocity)에 따른 라벨 및 테마 색상 반환
@@ -98,10 +91,57 @@ function GaugeChart({ score }) {
   );
 }
 
-// 뉴스 별점 별 기호 안전 렌더러 (RangeError 예방)
+GaugeChart.propTypes = {
+  score: PropTypes.number.isRequired,
+};
+
+// 기존 별 기호를 유지하면서 채운 별과 빈 별의 대비를 높인다.
 function renderStars(score) {
   const cleanScore = Math.max(0, Math.min(5, Math.round(score ?? 3)));
-  return "★".repeat(cleanScore) + "☆".repeat(5 - cleanScore);
+  return Array.from({ length: 5 }, (_, index) => (
+    <span
+      className={index < cleanScore ? "star-filled" : "star-empty"}
+      key={index}
+    >
+      {index < cleanScore ? "★" : "☆"}
+    </span>
+  ));
+}
+
+function renderSummary(summary) {
+  const items = String(summary ?? "")
+    .split(/\n+/)
+    .map((item) => item.replace(/^[-•]\s*/, "").trim())
+    .filter(Boolean);
+
+  return (
+    <ul className="summary-list">
+      {items.map((item, index) => {
+        const separatorIndex = item.indexOf(":");
+        const firstSentenceEnd = item.indexOf(".");
+
+        if (separatorIndex > 0) {
+          return (
+            <li key={index}>
+              <strong>{item.slice(0, separatorIndex + 1)}</strong>{" "}
+              {item.slice(separatorIndex + 1).trim()}
+            </li>
+          );
+        }
+
+        if (firstSentenceEnd >= 0) {
+          return (
+            <li key={index}>
+              <strong>{item.slice(0, firstSentenceEnd + 1)}</strong>{" "}
+              {item.slice(firstSentenceEnd + 1).trim()}
+            </li>
+          );
+        }
+
+        return <li key={index}><strong>{item}</strong></li>;
+      })}
+    </ul>
+  );
 }
 
 // [컴포넌트] 날짜별 위험 가속도(Daily Velocity) 추이 꺾은선 차트 (동적 스케일링 & 콤팩트 패딩 적용)
@@ -297,6 +337,20 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
   );
 }
 
+TrendChart.propTypes = {
+  historyData: PropTypes.arrayOf(
+    PropTypes.shape({
+      reportDate: PropTypes.string.isRequired,
+      dailyVelocity: PropTypes.number,
+      cumulativeRiskScore: PropTypes.number,
+      jobRiskScore: PropTypes.number,
+      velocityReason: PropTypes.string,
+    }),
+  ).isRequired,
+  selectedDate: PropTypes.string,
+  onSelectPoint: PropTypes.func.isRequired,
+};
+
 function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -406,18 +460,8 @@ function App() {
   const todayData = dataArray[0];
   const pastData = dataArray.slice(1);
 
-  // 어제 데이터와 위험도 차이 구하기
-  const yesterdayData = pastData[0];
-  const yesterdayScore = yesterdayData ? yesterdayData.jobRiskScore : null;
-  const scoreDiff = yesterdayScore !== null ? (todayData.jobRiskScore - yesterdayScore) : null;
-  const scoreDiffSign = scoreDiff !== null ? (scoreDiff >= 0 ? `+${scoreDiff}` : `${scoreDiff}`) : "";
-
   // 꺾은선 차트 클릭 연동 날짜 분석
   const selectedReport = dataArray.find((d) => d.reportDate === selectedDate) || todayData;
-  const selectedReportIndex = dataArray.findIndex((d) => d.reportDate === selectedDate);
-  const selectedYesterday = selectedReportIndex !== -1 && selectedReportIndex < dataArray.length - 1 ? dataArray[selectedReportIndex + 1] : null;
-  const selectedDiff = selectedYesterday !== null ? (selectedReport.jobRiskScore - selectedYesterday.jobRiskScore) : null;
-  const selectedDiffSign = selectedDiff !== null ? (selectedDiff >= 0 ? `+${selectedDiff}` : `${selectedDiff}`) : "";
 
   // 아코디언 토글 핸들러
   const toggleAccordion = (reportDate) => {
@@ -496,7 +540,7 @@ function App() {
                 )}
 
                 <div className="guideline-tip">
-                  💡 <strong>이원화 지표 가이드:</strong> AI 기술은 후퇴하지 않으므로 '누적 위험 지수'는 억지로 감점되지 않고 유지되며, 대시보드의 유연성은 '오늘의 가속도'로 실시간 포착합니다.
+                  💡 <strong>이원화 지표 가이드:</strong> AI 기술은 후퇴하지 않으므로 &apos;누적 위험 지수&apos;는 억지로 감점되지 않고 유지되며, 대시보드의 유연성은 &apos;오늘의 가속도&apos;로 실시간 포착합니다.
                 </div>
               </div>
             </div>
@@ -618,7 +662,7 @@ function App() {
                 </div>
               )}
             </div>
-            <div className="summary-content">{todayData.summary}</div>
+            <div className="summary-content">{renderSummary(todayData.summary)}</div>
           </section>
 
           <section className="news-section">
