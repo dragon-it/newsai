@@ -16,7 +16,7 @@ const summarySchema = {
   properties: {
     overallSummary: {
       type: SchemaType.STRING,
-      description: "오늘의 뉴스 트렌드와 주요 소식을 종합하여 작성한 요약문 (글머리 기호 형태 사용, 한국어)."
+      description: "오늘의 뉴스 트렌드와 주요 소식을 종합한 한국어 요약문. 각 글머리 항목은 반드시 '짧은 핵심 문구: 구체적인 설명' 형식으로 작성."
     },
     overallScore: {
       type: SchemaType.INTEGER,
@@ -165,7 +165,7 @@ export async function summarizeNews(newsList) {
     "",
     "조건 (가이드라인):",
     "1. 전문적이고 객관적인 말투를 유지할 것.",
-    "2. overallSummary는 전체 내용을 아우르는 요약문(불렛 포인트 사용)을 작성할 것.",
+    "2. overallSummary는 전체 내용을 아우르는 불렛 포인트 요약문으로 작성할 것. 각 항목은 반드시 '- 짧은 핵심 문구: 구체적인 설명' 형식을 지키고, 콜론 앞 핵심 문구는 간결한 명사구로 작성할 것.",
     "3. overallScore는 오늘 수집된 AI 뉴스들의 중요도, 영향력, 시급성 등을 종합적으로 평가하여 0에서 100 사이의 정수 점수로 부여해줘.",
     "4. dailyVelocity는 오늘 수집된 뉴스가 일자리 위험 축적 속도를 얼마나 더 가속시켰는가를 나타내는 가속도 점수로 -3.0에서 +8.0 사이의 소수점 첫째 자리 실수로 부여해줘:",
     "   - +3.0 ~ +8.0: 실제 대규모 감원(Layoff) 및 특정 직종 완전 대체 소식 발표 (급가속)",
