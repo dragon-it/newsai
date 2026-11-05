@@ -3,14 +3,14 @@ import { GoogleGenerativeAI, SchemaType } from "@google/generative-ai";
 import dotenv from "dotenv";
 import { fileURLToPath } from "url";
 
-// .env 파일에 저장된 환경 변수(API Key 등)를 process.env로 불러옵니다.
+// .env 환경 변수를 process.env로 로드
 dotenv.config();
 
-// Google Generative AI 클라이언트를 초기화합니다.
+// Google Generative AI 클라이언트 초기화
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
-// LLM 응답의 구조와 필드 타입을 엄격하게 정의하는 JSON 스키마입니다.
-// 이를 통해 불완전한 문자열 반환이나 이스케이프 누락으로 인한 JSON 파싱 에러를 예방합니다.
+// LLM 응답 구조와 필드 타입을 정의하는 JSON 스키마
+// 불완전한 문자열이나 이스케이프 누락으로 인한 JSON 파싱 오류 예방
 const summarySchema = {
   type: SchemaType.OBJECT,
   properties: {
@@ -95,8 +95,8 @@ const summarySchema = {
   required: ["overallSummary", "overallScore", "jobRiskScore", "dailyVelocity", "velocityReason", "riskScoreBreakdown", "newsSummaries"]
 };
 
-// 사용할 모델을 선택합니다.
-// responseMimeType을 application/json으로 설정하고 responseSchema를 전달하여 스키마 준수를 강제합니다.
+// 사용할 모델 선택
+// JSON 응답 형식과 responseSchema로 응답 구조 제한
 const model = genAI.getGenerativeModel({
   model: "gemini-3.1-flash-lite",
   generationConfig: {
@@ -117,7 +117,7 @@ export async function summarizeNews(newsList) {
     throw new Error("❌ GEMINI_API_KEY가 .env 파일에 설정되지 않았습니다.");
   }
 
-  // 데이터가 없는데 AI에게 요약을 시키면 에러가 나거나 토큰(비용)만 낭비될 수 있으므로 미리 방어합니다.
+  // 입력 데이터가 없을 때 불필요한 API 호출과 토큰 사용 방지
   if (!newsList || newsList.length === 0) {
     return {
       overallSummary: "요약할 뉴스 데이터가 없습니다.",
@@ -125,10 +125,10 @@ export async function summarizeNews(newsList) {
     };
   }
 
-  // AI가 이해할 수 있도록 뉴스 객체 배열을 하나의 긴 문자열 텍스트로 합칩니다.
+  // 뉴스 객체 배열을 프롬프트 문자열로 결합
   // 예: "1. 뉴스제목 (링크: ...)" 형태
   // 보안 팁: 무료 티어 API는 학습에 활용될 수 있으므로,
-  // 원문 전체가 아닌 제목과 링크 같은 '공개된 정보'만 요약용으로 전달합니다.
+  // 제목과 링크 등 공개된 정보를 요약 입력으로 사용
   const newsContent = newsList
     .map(
       (news, index) =>
@@ -182,8 +182,7 @@ export async function summarizeNews(newsList) {
   ].join("\n");
 
   try {
-    // Gemini 모델을 사용하여 콘텐츠를 생성합니다.
-    // OpenAI와 달리 메시지 배열 대신 텍스트 프롬프트를 바로 전달할 수 있습니다.
+    // Gemini 모델에 텍스트 프롬프트를 전달해 콘텐츠 생성
     const result = await model.generateContent(prompt);
     const response = await result.response;
     const text = response.text();
@@ -201,14 +200,13 @@ export async function summarizeNews(newsList) {
       throw e;
     }
   } catch (error) {
-    // API 호출 실패 시(한도 초과, 네트워크 오류 등) 원인을 로그로 남깁니다.
-    // 에러를 'throw' 하는 이유는 호출한 쪽(index.js 등)에서도 문제가 생겼음을 알게 하기 위함입니다.
+    // API 호출 실패 원인 기록 후 호출부로 오류 전달
     console.error("❌ LLM 요약 중 에러 발생:", error.message);
     throw error;
   }
 }
 
-// [테스트 코드]: 터미널에서 'node src/summarizeNews.js'를 입력하면 직접 실행됩니다.
+// 직접 실행 시 요약 테스트 수행
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const dummyNews = [
     { title: "OpenAI, 새로운 모델 GPT-4o 발표", link: "https://example.com/1" },

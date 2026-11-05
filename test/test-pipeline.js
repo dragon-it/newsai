@@ -6,8 +6,8 @@ import { saveToFile } from "../src/utils/fileSystem.js";
 import { generateJson } from "../src/formatters/generateJson.js";
 
 /**
- * 수집, 요약, 마크다운 생성을 하나로 연결하는 통합 테스트 함수입니다.
- * 왜 하는가? 개별 모듈이 잘 작동하더라도 서로 데이터를 주고받을 때 데이터 형식이 맞는지 확인하기 위함입니다.
+ * 수집, 요약, Markdown 생성을 연결하는 통합 테스트
+ * 모듈 간 데이터 전달 형식 호환성 확인
  */
 async function runIntegrationTest() {
   console.log("🔄 [1/3] 뉴스 수집 시작...");

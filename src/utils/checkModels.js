@@ -1,13 +1,13 @@
 import axios from "axios";
 import dotenv from "dotenv";
 
-// .env 파일의 환경 변수를 불러옵니다.
+// .env 환경 변수 로드
 dotenv.config();
 
 /**
- * 현재 API Key로 구글 AI 스튜디오에서 사용할 수 있는 모델 목록을 가져옵니다.
+ * 현재 API 키로 Google AI Studio에서 사용 가능한 모델 목록 조회
  * 왜 하는가? 코드가 틀린 게 아니라, 내 API Key가 특정 모델(1.5-flash 등)을
- * 사용할 권한이 아직 활성화되지 않았는지 확인하기 위함입니다.
+ * 모델 사용 권한 활성화 여부 확인
  */
 async function checkAvailableModels() {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -17,7 +17,7 @@ async function checkAvailableModels() {
     return;
   }
 
-  // 구글 API의 모델 목록 조회 엔드포인트입니다.
+  // Google API 모델 목록 조회 엔드포인트 사용
   const url = `https://generativelanguage.googleapis.com/v1beta/models?key=${apiKey}`;
 
   try {

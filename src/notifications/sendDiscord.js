@@ -6,7 +6,7 @@ dotenv.config();
 const DISCORD_WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL;
 
 /**
- * Discord로 메시지를 전송합니다.
+ * Discord 메시지 전송
  * @param {string} content - 전송할 메시지 본문
  * @returns {Promise<void>}
  */
@@ -33,9 +33,9 @@ export async function sendDiscordMessage(content) {
       error.response?.data || error.message,
     );
 
-    // 실제 서비스라면 여기서 실패 알림 로직(Retry 등)을 추가할 수 있습니다.
+    // 실패 알림 및 재시도 로직 추가 지점
     throw error;
   }
 }
 
-// TODO: Phase 6 이후에 PDF 파일을 첨부하는 기능을 추가할 예정입니다.
+// TODO: Phase 6 이후 PDF 첨부 기능 추가
