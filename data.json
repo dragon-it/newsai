@@ -1,5 +1,81 @@
 [
   {
+    "lastUpdated": "2026-11-05T01:57:00.701Z",
+    "reportDate": "2026. 11. 5.",
+    "summary": "- AI 서비스 시장 확장: 뤼튼과 스캐터랩이 선점한 캐릭터 챗봇 시장에 게임사들이 진입하며 서비스 경쟁과 사용자 경험 고도화가 본격화됨. - 산업 현장 AI 도입 가속: LG그룹을 중심으로 AI 기반의 실시간 안전 관리 및 설비 제어 기술이 도입되어 산업 현장의 재해 예방 체계가 고도화됨. - AI 인프라 시장 확대: 퀄컴이 스마트폰 중심의 사업 영역을 넘어 데이터센터용 AI 인프라 시장 공략을 본격화하며 시장 점유율 확대 전략을 가속함.",
+    "summaryScore": 78,
+    "dailyVelocity": 0.3,
+    "velocityReason": "산업 현장의 AI 안전 제어 솔루션 도입과 인프라 확장 등 업무 보조 및 효율화에 집중된 기술 트렌드가 주를 이루어 일자리 위험도 변동은 완만함.",
+    "cumulativeRiskScore": 55.3,
+    "jobRiskScore": 55.3,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 기반 산업 안전 자동화",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 3
+      },
+      {
+        "event": "AI 데이터센터 인프라 확장",
+        "sign": "+",
+        "impact": 1,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "뤼튼·스캐터랩 양분한 AI 캐릭터챗 시장에 게임사 가세…경쟁 본격화 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVQjJadFpoUVRyLS1iWkVHQVFYSXUxa3ZqQnhhRklUYTFCdUxrMnJCRkE4VFU4Q3V4emVaRnVYR2d6TkpTMmlSS2xBQnc5ZE5xc1B4MDhLeDFNMXpqMURDSnRQaTlGaklST1E?oc=5",
+        "pubDate": "Tue, 03 Nov 2026 08:59:14 GMT",
+        "summary": "AI 캐릭터 챗봇 시장이 대중화되면서 게임사들이 기존 강자인 뤼튼 및 스캐터랩과 본격적인 경쟁을 시작함. 차별화된 캐릭터 IP와 게임 엔진 연동이 시장 선점의 핵심 요소가 될 것으로 보임.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "LG, 그룹·협력사와 ’AI 안전관리’ 사례 공유 - 연합뉴스TV",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqeThfMERBUWl6YjFTSFhYaUlxX3RfTzdoTDZpMjVlV2t3bXVZbTd1ckFzQlh0VlhEVU1jM3p6NV9yWVVGUWY2TjRudGQ5YmRFbS1ILVRDbFhUbU5ERVZkdHh3dU5yZW8?oc=5",
+        "pubDate": "Thu, 05 Nov 2026 01:00:00 GMT",
+        "summary": "LG그룹이 계열사 및 협력사와 함께 AI 안전관리 모범 사례를 공유하며 안전 체계를 강화함. 단순 감시를 넘어 데이터 기반의 사고 예방형 시스템으로 전환하는 것이 골자임.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      },
+      {
+        "title": "위험 감지하면 AI가 설비 멈춘다…LG 안전관리, '감시'에서 '제어'로 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40bUR2MzdwaHF6RzdBV2JPQnNQN0dfZzI0MTliaVJma05ZSDV1Nkd0SWFaSUlzNEhjUHV3THpIcWRyV09xRS1VaDZIRlZVZw?oc=5",
+        "pubDate": "Thu, 05 Nov 2026 01:17:07 GMT",
+        "summary": "AI가 현장의 위험을 감지하고 설비를 즉각 정지시키는 안전 제어 시스템이 도입됨. 인적 오류를 최소화하고 공정 안전성을 높이는 효과가 기대됨.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 5,
+        "investmentImpact": 3
+      },
+      {
+        "title": "LG, AI로 사업장 위험 잡는다…16개 계열사 안전혁신 공유 - 마켓인",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5uMXpqVHBOWG9TNXZDYW1UbnJCMTRCWlYwd2sxLXBidGpONmt4Rmp6Wm9oLXR5TmJJeWpiWU94ZklEVUszQUkzZlBoT3B3T09GUVR1TFRuQzRnSzhUMjY3ZmtWNHFwbWVQNGcybE5LaFRFcVE?oc=5",
+        "pubDate": "Thu, 05 Nov 2026 01:00:02 GMT",
+        "summary": "LG가 16개 계열사의 안전 혁신 데이터를 공유하며 범그룹적 AI 안전 관리 체계를 구축함. 데이터 통합을 통해 산업 현장의 안전 표준을 수립하려는 시도로 평가됨.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 4,
+        "investmentImpact": 2
+      },
+      {
+        "title": "퀄컴, 스마트폰 넘어 AI 인프라 시장 본격 공략...AI 데이터센터 매출 50억달러 정조준 - 인공지능신문",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBiRDFPSkQ0Z2V3bFpydEN5R1MzNjRoaUtfQnduVS1MMk9OOS1hZ3VLb2pzT1B1MEZqMjJ2RHpEWkswUm1ySkxrR21JQUROak5ESGM3NGhkMXhjeWRLZ2NNaG5jTlBWTEk?oc=5",
+        "pubDate": "Thu, 05 Nov 2026 01:41:27 GMT",
+        "summary": "퀄컴이 스마트폰용 프로세서에서 벗어나 데이터센터용 AI 칩셋 시장 진출을 공식화함. 2027년까지 50억 달러 매출을 목표로 인프라 시장 점유율을 확대할 계획임.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      }
+    ]
+  },
+  {
     "lastUpdated": "2026-11-04T01:49:31.354Z",
     "reportDate": "2026. 11. 4.",
     "summary": "- 전력 인프라의 중요성 증대: AI 데이터센터 확장에 따른 전력 안정성 확보가 국가 경쟁력의 핵심으로 부상하며 한국 전력망의 우수성이 주목받음.\n\n- AI 생태계 효율화 및 표준화: 오픈AI가 서비스 사용량을 통합하고 구글이 AI 모델의 공학 설계 성능을 엄격히 검증하는 등 기술 최적화가 가속화됨.\n\n- AI 시대의 사회적 대응 전략: 중국과 한국의 지자체들이 AI 도입에 따른 일자리 변화 및 공공 서비스 혁신을 위해 사회보장 체계 재정비와 행정 연계 전략을 마련함.",
@@ -728,88 +804,6 @@
         "aiImpact": 4,
         "automationPotential": 2,
         "investmentImpact": 5
-      }
-    ]
-  },
-  {
-    "lastUpdated": "2026-10-24T00:11:42.021Z",
-    "reportDate": "2026. 10. 24.",
-    "summary": "- 시장 변동성 확대: AI 투자 비용에 대한 의구심과 유가 상승이 겹치며 나스닥 등 글로벌 증시가 급락하는 등 투자 심리가 위축됨.\n\n- 기술 생태계 종속성 논란: 국내 AI 파생 모델 개발 과정에서 중국 Qwen 기반 모델에 대한 높은 의존도가 확인되며 기술 독립성 이슈가 제기됨.\n\n- 공공 안전 기여: 제주도의 AI 영상 분석 기술이 실종자 수색과 구조 현장에서 실질적인 성과를 내며 공공 안전 분야의 AI 활용 가치를 입증함.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.2,
-    "velocityReason": "AI 산업의 투자 효율성 논란으로 인한 시장 조정이 발생했으나, 기술적 혁신보다는 거시 경제 리스크가 지배적이라 완만한 영향력에 그침.",
-    "cumulativeRiskScore": 54.6,
-    "jobRiskScore": 54.6,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 투자 비용 효율성 회의론",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 3
-      },
-      {
-        "event": "기술 생태계의 중국 모델 의존도 심화",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      },
-      {
-        "event": "AI 공공 안전 분야 현장 적용 확대",
-        "sign": "+",
-        "impact": 1,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "AI 불안 가시기도 전에 유가 '쇼크'…다우 1.23% 급락[월스트리트in] - 이데일리",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc3dWd3lwbllNVzdmVkhuVmdHeklSTDBsczR6Sm84TWRoWFRXMFZscFJUTEJkbEpfTGg2SDF5WG9rX0taMTdadmFKOUFEZjRnei1WQ3ZrYkdpbGhaS1lqSDFyU29aU0ZtRjMwcHozSkp2SkJyUWpHSE53c3hQTGlmMg?oc=5",
-        "pubDate": "Fri, 23 Oct 2026 20:51:18 GMT",
-        "summary": "AI 시장에 대한 투자 심리가 흔들리는 가운데 유가 상승까지 겹치며 다우지수가 급락함. 거시경제 지표가 AI 기술주 중심의 시장 불안을 가중시키는 상황임.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "AI 꺾이고 유가 치솟고...뉴욕 증시 '휘청'하며 출발 - YTN",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92d2lsdDc1WW1ENzFPWGJzZEVZeWxKTjJkZzRTa01RaEdsVG0tUkJqN3J4Tm1FU0Y4ZE84TG8wOFpSRzdwaGZfQWFPRGlyMVdCRFZ6ZzJYQVE2TU5IeFE?oc=5",
-        "pubDate": "Fri, 23 Oct 2026 15:55:00 GMT",
-        "summary": "AI 성장세에 대한 의구심과 에너지 비용 상승 우려가 동시에 작용하며 뉴욕 증시 전반이 하락세로 전환함. 시장은 AI 산업의 실질적인 수익 구조를 재평가하고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "AI 투자비 감당할 수 있나…나스닥 2.6% 급락 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeEtCMnJfN3NwWjZsSU1ucktWZzc4UWtIV2VlYVQ4UnFLUkdBUlQxbFc2bHNVWUszNkNOZ2tKT01naUdyeHBCZDMzR0JqNWR1UlJWa25UT1pDM1RvUE1ta19SdnFCdUZsWmF1dkJfZm1SeGZxaV96UFY2YUlGV0l6akRwajdwd2t5?oc=5",
-        "pubDate": "Thu, 22 Oct 2026 21:02:52 GMT",
-        "summary": "막대한 AI 인프라 구축 비용 대비 수익성에 대한 의문이 확산되면서 나스닥이 큰 폭으로 하락함. 투자자들은 기업들의 AI 투자 효율성에 대해 더 엄격한 잣대를 대기 시작함.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "한국의 신규 AI 파생 모델 절반 가까이가 중국 Qwen 기반임 - GeekNews - 개발/기술/스타트업 뉴스 서비스",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5tbDZkOU5FU2F3X2ZFZmlfNDlsdVpWR1NaTnRqWGpyQi1ONTNGclZobUdhX0tRLWMyZS1FUVIxa0NDQW9URXh5a0pSSQ?oc=5",
-        "pubDate": "Thu, 22 Oct 2026 00:10:02 GMT",
-        "summary": "한국의 신규 AI 파생 모델 중 상당수가 중국 알리바바의 Qwen 오픈 소스 모델을 기반으로 개발됨. 기술 생태계의 중국 종속성에 대한 보안 및 전략적 우려가 제기됨.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "제주 AI 영상검색으로 실종자 29명 발견 기여…286명 수색 지원 - 제민일보",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0WXZ4TVBNd1RySVp5UUVSb0NIVzNpQWk2Uk1VdjUxZmQxMVYyWjBKRG43dkx5Yl9XNVNsX0FwLTlYN2lLVzJMYnBKY1l2bHpqUzdIeWdEeVN5ZnVnZDgtMFBlNDYzYUk?oc=5",
-        "pubDate": "Fri, 23 Oct 2026 22:35:05 GMT",
-        "summary": "제주도에서 AI 기반 영상 검색 기술을 도입해 실종자 수색과 공공 안전 지원에 활용함. 기술이 실질적으로 사회적 문제를 해결하고 인력 효율을 높이는 성공적인 사례를 보여줌.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 2
       }
     ]
   }
