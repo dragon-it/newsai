@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { buildOccupationTracking } from "../../shared/occupationTracking.js";
 
 const archiveRoot = path.join(process.cwd(), "data");
 const reportsRoot = path.join(archiveRoot, "reports");
@@ -80,6 +81,7 @@ export function writeJsonArchive(history) {
     version: 1,
     updatedAt: new Date().toISOString(),
     reports: indexReports,
+    occupationTracking: buildOccupationTracking(history),
   };
   fs.writeFileSync(indexPath, JSON.stringify(index, null, 2), "utf8");
   return index;
@@ -91,7 +93,7 @@ export function migrateLegacyData() {
   return history.length;
 }
 
-export function generateJson(newsList, summary, jobRiskScore, summaryScore, riskScoreBreakdown, dailyVelocity, velocityReason) {
+export function generateJson(newsList, summary, jobRiskScore, summaryScore, riskScoreBreakdown, dailyVelocity, velocityReason, occupationRisks = [], occupationAnalysis = null) {
   const velocity = typeof dailyVelocity === "number" ? dailyVelocity : 1.2;
   const newData = migrateReportDefaults({
     lastUpdated: new Date().toISOString(),
@@ -104,6 +106,8 @@ export function generateJson(newsList, summary, jobRiskScore, summaryScore, risk
     jobRiskScore: jobRiskScore ?? 50,
     riskScoreBreakdown: riskScoreBreakdown ?? [],
     news: newsList,
+    occupationRisks,
+    occupationAnalysis,
   });
 
   const history = readArchiveHistory();

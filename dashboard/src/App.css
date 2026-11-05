@@ -398,6 +398,8 @@ h1 {
 /* Interactive Chart Tooltip */
 .chart-tooltip {
   position: absolute;
+  box-sizing: border-box;
+  width: min(180px, calc(100% - 16px));
   background-color: var(--chart-tooltip-bg);
   color: white;
   padding: 0.5rem 0.75rem;
@@ -407,8 +409,8 @@ h1 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
   border: 1px solid var(--border-color);
   z-index: 100;
-  transform: translateX(-50%);
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
   transition: left 0.1s ease, top 0.1s ease;
 }
 
@@ -488,6 +490,67 @@ h2 {
 .summary-list strong {
   color: var(--text-main);
   font-weight: 700;
+}
+
+.occupation-section {
+  margin-bottom: 2.5rem;
+}
+
+.occupation-period,
+.occupation-note {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin: 0 0 0.75rem;
+}
+
+.occupation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 1rem;
+}
+
+.occupation-card {
+  padding: 1.1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--bg-alt);
+  min-width: 0;
+}
+
+.occupation-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.occupation-heading h3 {
+  margin: 0;
+  color: var(--news-title-color);
+}
+
+.occupation-stage {
+  border: 1px solid var(--border-alt);
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.75rem;
+  color: var(--text-main);
+}
+
+.occupation-card p,
+.occupation-sources {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--secondary-color);
+  overflow-wrap: anywhere;
+}
+
+.occupation-sources {
+  padding-left: 1.1rem;
+}
+
+.occupation-sources a {
+  color: var(--news-title-color);
 }
 
 .news-list {
@@ -737,6 +800,19 @@ footer a:hover {
   align-items: flex-start;
   gap: 0.35rem;
   font-size: 0.85rem;
+}
+
+@media (max-width: 640px) {
+  .news-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem 0.75rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .news-metrics {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 .metric-label {
