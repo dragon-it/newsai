@@ -634,18 +634,11 @@ h2 {
 }
 
 .past-summary-section {
-  background: var(--bg-color);
-  box-shadow: none;
-  border: 1px solid var(--border-color);
-  padding: 1.25rem;
   margin-bottom: 1.5rem;
-  border-radius: 12px;
 }
 
 .past-summary-content {
-  white-space: pre-wrap;
-  font-size: 0.95rem;
-  color: var(--secondary-color);
+  font-size: inherit;
 }
 
 .past-news-card {

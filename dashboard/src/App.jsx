@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import "./App.css";
+import { reportRepository } from "./services/reportRepository";
 
 // 위험도 점수에 따른 테마 색상 반환
 function getRiskColor(score) {
@@ -95,7 +96,7 @@ GaugeChart.propTypes = {
   score: PropTypes.number.isRequired,
 };
 
-// 기존 별 기호를 유지하면서 채운 별과 빈 별의 대비를 높인다.
+// 기존 별 기호 유지 및 채운 별과 빈 별의 대비 강화
 function renderStars(score) {
   const cleanScore = Math.max(0, Math.min(5, Math.round(score ?? 3)));
   return Array.from({ length: 5 }, (_, index) => (
@@ -144,10 +145,17 @@ function renderSummary(summary) {
   );
 }
 
+function formatChartDate(reportDate) {
+  const match = String(reportDate ?? "").match(/\d{4}\D+(\d{1,2})\D+(\d{1,2})/);
+  return match
+    ? `${match[1].padStart(2, "0")}.${match[2].padStart(2, "0")}`
+    : reportDate;
+}
+
 // [컴포넌트] 날짜별 위험 가속도(Daily Velocity) 추이 꺾은선 차트 (동적 스케일링 & 콤팩트 패딩 적용)
 function TrendChart({ historyData, selectedDate, onSelectPoint }) {
-  // 날짜 오름차순 정렬 (오른쪽이 최신이 되도록)
-  const chartData = [...historyData].reverse();
+  // 최신 30개 일별 리포트를 날짜 오름차순으로 표시
+  const chartData = historyData.slice(0, 30).reverse();
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   if (chartData.length < 2) return null;
@@ -187,6 +195,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
       x,
       y,
       date: d.reportDate,
+      dateLabel: formatChartDate(d.reportDate),
       velocity: vel,
       score: d.cumulativeRiskScore ?? d.jobRiskScore ?? 50,
       reason: d.velocityReason
@@ -213,7 +222,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
   return (
     <div className="trend-chart-container">
       <div style={{ marginBottom: '0.2rem' }}>
-        <h3 className="section-title-sub" style={{ margin: 0, fontSize: '0.98rem' }}>🚀 일자리 위험 가속도(Velocity) 추이</h3>
+        <h3 className="section-title-sub" style={{ margin: 0, fontSize: '0.98rem' }}>🚀 일자리 위험 가속도(Velocity) 추이 · 최근 30일</h3>
       </div>
       <p style={{ fontSize: '0.75rem', color: '#64748b', margin: '0 0 0.35rem 0', lineHeight: '1.3' }}>
         뉴스 충격에 따른 일자별 위험 축적 속도의 동적 파동을 실시간 포착합니다.
@@ -316,7 +325,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
               top: `${Math.max(10, points[hoveredIndex].y - 55)}px`
             }}
           >
-            <div className="tooltip-date">{points[hoveredIndex].date}</div>
+            <div className="tooltip-date">{points[hoveredIndex].dateLabel}</div>
             <div className="tooltip-score">
               가속도: <strong style={{ color: getVelocityColor(points[hoveredIndex].velocity) }}>
                 {points[hoveredIndex].velocity > 0 ? `+${points[hoveredIndex].velocity}` : points[hoveredIndex].velocity} pt/day
@@ -329,9 +338,9 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
         )}
       </div>
       <div className="trend-x-labels" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <span>{chartData[0].date}</span>
+        <span>{formatChartDate(chartData[0].reportDate)}</span>
         <span style={{ fontSize: '0.78rem', color: '#64748b', fontWeight: '600' }}>(단위: pt/day)</span>
-        <span>{chartData[chartData.length - 1].date}</span>
+        <span>{formatChartDate(chartData[chartData.length - 1].reportDate)}</span>
       </div>
     </div>
   );
@@ -382,44 +391,64 @@ function App() {
   const loaderRef = useRef(null);
 
   useEffect(() => {
-    if (import.meta.env.DEV) {
-      import("../../data.json")
-        .then((module) => {
-          const list = module.default;
-          setData(list);
-          if (list && list.length > 0) {
-            setSelectedDate(list[0].reportDate);
-          }
-          setLoading(false);
-        })
-        .catch((err) => {
-          console.error(err);
-          setError("로컬 데이터를 불러오지 못했습니다. 백엔드 파이프라인을 먼저 실행해주세요.");
-          setLoading(false);
-        });
-      return;
-    }
+    reportRepository
+      .list()
+      .then(async (reports) => {
+        if (reports.length === 0) throw new Error("저장된 리포트가 없습니다.");
 
-    const fetchUrl = import.meta.env.BASE_URL + "data.json";
-
-    fetch(fetchUrl)
-      .then((res) => {
-        if (!res.ok) throw new Error("데이터를 불러오는데 실패했습니다.");
-        return res.json();
-      })
-      .then((json) => {
-        setData(json);
-        if (json && json.length > 0) {
-          setSelectedDate(json[0].reportDate);
-        }
+        const currentReport = await reportRepository.getById(
+          reports[0].id,
+          reports[0],
+        );
+        setData([{ ...reports[0], ...currentReport }, ...reports.slice(1)]);
+        setSelectedDate(currentReport.reportDate);
         setLoading(false);
       })
       .catch((err) => {
         console.error(err);
-        setError(err.message);
+        setError(
+          "리포트 아카이브를 불러오지 못했습니다. 데이터 마이그레이션을 먼저 실행해주세요.",
+        );
         setLoading(false);
       });
   }, []);
+
+  // 화면에 노출될 과거 리포트 본문을 날짜별 JSON에서 지연 로드
+  useEffect(() => {
+    if (!data || loading || error) return;
+    const missingReports = data
+      .slice(1, visibleCount + 1)
+      .filter((report) => !Array.isArray(report.news));
+    if (missingReports.length === 0) return;
+
+    let cancelled = false;
+    Promise.all(
+      missingReports.map(async (metadata) => ({
+        id: metadata.id,
+        report: await reportRepository.getById(metadata.id, metadata),
+      })),
+    )
+      .then((loadedReports) => {
+        if (cancelled) return;
+        const loadedById = new Map(
+          loadedReports.map(({ id, report }) => [id, report]),
+        );
+        setData((current) =>
+          current.map((report) =>
+            loadedById.has(report.id)
+              ? { ...report, ...loadedById.get(report.id) }
+              : report,
+          ),
+        );
+      })
+      .catch((err) => {
+        if (!cancelled) setError(err.message);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [data, error, loading, visibleCount]);
 
   // 무한스크롤 IntersectionObserver 설정
   useEffect(() => {
@@ -736,13 +765,13 @@ function App() {
                     <div className="past-day-content">
                       <section className="summary-section past-summary-section">
                         <h4 className="sub-title">지난 뉴스 요약</h4>
-                        <div className="summary-content past-summary-content">{past.summary}</div>
+                        <div className="summary-content past-summary-content">{renderSummary(past.summary)}</div>
                       </section>
 
                       <section className="news-section past-news-section">
                         <h4 className="sub-title">지난 뉴스 목록 &amp; 요약</h4>
                         <div className="news-list">
-                          {past.news.map((item, nIdx) => (
+                          {Array.isArray(past.news) && past.news.length > 0 ? past.news.map((item, nIdx) => (
                             <a href={item.link} target="_blank" rel="noopener noreferrer" className="news-card-link" key={nIdx}>
                               <div className="news-card past-news-card">
                                 <span className="pub-date">{new Date(item.pubDate).toLocaleDateString()}</span>
@@ -770,7 +799,15 @@ function App() {
                                 )}
                               </div>
                             </a>
-                          ))}
+                          )) : Array.isArray(past.news) ? (
+                            <p className="no-changes-text">
+                              이 날짜의 기사 상세 데이터는 보관되어 있지 않습니다.
+                            </p>
+                          ) : (
+                            <div className="scroll-loader">
+                              <span className="spinner"></span> 리포트 내용을 불러오는 중...
+                            </div>
+                          )}
                         </div>
                       </section>
                     </div>

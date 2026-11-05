@@ -38,7 +38,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json reports/ || echo "Files not found to add"
+          git add data.json data/ reports/ || echo "Files not found to add"
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto-update news data and reports"
           git push origin main || echo "No changes to push or push failed"
 
@@ -47,8 +47,8 @@ jobs:
           cd dashboard
           npm install
           npm run build
-          # 루트에서 생성된 data.json을 배포될 dist 폴더로 복사합니다.
-          # 만약 파이프라인이 실패해서 data.json이 없으면 빈 JSON을 제공하거나 무시합니다.
+          # 날짜별 JSON 아카이브와 호환용 data.json을 배포 폴더로 복사
+          cp -R ../data dist/data
           cp ../data.json dist/data.json || echo "[]" > dist/data.json
 
       - name: Deploy to GitHub Pages

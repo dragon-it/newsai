@@ -1,12 +1,12 @@
 /**
- * 수집된 뉴스 데이터와 LLM 요약본을 바탕으로 최종 Markdown 리포트를 생성합니다.
+ * 수집한 뉴스와 LLM 요약으로 Markdown 리포트 생성
  *
  * @param {Array} newsList - fetchNews에서 반환된 뉴스 객체 배열
  * @param {string} summary - summarizeNews에서 반환된 한국어 요약문
  * @returns {string} 완성된 Markdown 문자열
  */
 export function generateMarkdown(newsList, summary, overallScore, riskScoreBreakdown) {
-  // 리포트 생성 날짜를 명시하여 문서의 시점(Context)을 제공합니다.
+  // 리포트 생성 날짜로 문서 기준 시점 표시
   const date = new Date().toISOString().split("T")[0];
 
   const scoreText = overallScore !== undefined ? ` (오늘의 요약 종합 점수: ${overallScore}점)` : "";
