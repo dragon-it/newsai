@@ -1,3 +1,5 @@
+import { buildOccupationTracking } from "../../../shared/occupationTracking.js";
+
 const localReportModules = import.meta.glob("../../../data/reports/*.json");
 
 async function loadStaticIndex() {
@@ -38,5 +40,10 @@ export const reportRepository = {
   async getById(id, metadata) {
     const fileName = metadata?.fileName ?? `${id}.json`;
     return loadStaticReport(fileName);
+  },
+
+  async listOccupations() {
+    const index = await loadStaticIndex();
+    return index.occupationTracking ?? buildOccupationTracking(index.reports ?? []);
   },
 };

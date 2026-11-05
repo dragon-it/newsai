@@ -50,7 +50,9 @@ async function main() {
       newsList,
       summary,
       summaryData.overallScore,
-      summaryData.riskScoreBreakdown
+      summaryData.riskScoreBreakdown,
+      summaryData.occupationRisks,
+      summaryData.occupationAnalysis
     );
     const mdPath = saveToFile(reportsDir, "report-" + date + ".md", markdownReport);
     console.log("💾 Markdown 저장 완료: " + mdPath);
@@ -62,7 +64,9 @@ async function main() {
       summaryData.overallScore,
       summaryData.riskScoreBreakdown,
       summaryData.dailyVelocity,
-      summaryData.velocityReason
+      summaryData.velocityReason,
+      summaryData.occupationRisks,
+      summaryData.occupationAnalysis
     );
     const jsonPath = saveToFile(process.cwd(), "data.json", jsonReport);
     console.log("💾 JSON 저장 완료: " + jsonPath);
