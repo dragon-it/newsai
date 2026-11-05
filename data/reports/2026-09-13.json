@@ -1,0 +1,83 @@
+{
+  "lastUpdated": "2026-09-12T23:39:33.249Z",
+  "reportDate": "2026. 9. 13.",
+  "summary": "- 학계의 경고: 필즈상 수상자 25인이 AI의 수학적 문제 풀이 능력이 인간의 지적 활동 및 창의적 발전에 미칠 잠재적 위협에 대해 우려를 표명함.\n\n- 제조 분야의 확산: 데이터 활용과 AI 기술을 결합하여 지역 제조 경쟁력을 강화하는 거점 모델이 전국적으로 확산되고 있음.\n\n- 공공부문의 디지털 전환: 지자체 차원에서의 AI 도입 사례가 공공 서비스 혁신으로 이어지며 중앙정부 차원의 평가와 성과 인정을 받고 있음.",
+  "summaryScore": 72,
+  "dailyVelocity": 0.3,
+  "velocityReason": "AI의 지적 영역 진입에 대한 학계의 강력한 경고가 전문직 일자리 미래에 대한 사회적 논쟁을 가속화함.",
+  "cumulativeRiskScore": 52.5,
+  "jobRiskScore": 52.5,
+  "riskScoreBreakdown": [
+    {
+      "event": "필즈상 수상자들의 AI 위협 경고",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 1
+    },
+    {
+      "event": "지방 거점형 제조 AI 확산",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 4
+    },
+    {
+      "event": "공공부문 AI 도입 및 우수 사례 확산",
+      "sign": "+",
+      "impact": 2,
+      "newsIndex": 5
+    }
+  ],
+  "news": [
+    {
+      "title": "‘수학계 노벨상’ 필즈상 수상자 25인의 경고…“AI의 문제풀이 경쟁 우려스러워” - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IbjJpVlFlb0RBUVlCWUdGR25ZSk9ocHE3Zy1pSi02b0hMOGlReUxYbWU3ZXVkRHQyVEtDYkR4NkJOcnRTcWd6bUpIYVRfR3FCMzdlUnpNdzJRUdIBX0FVX3lxTE9JMTBBNEY2cnlJQklxNlo0N3Zld2dxYmFzcTVibmZ3YkVXcVJVUUQ3eG1wQ1RKSU5HUXlZbWVfUXJ6dDdXbWhvQ0pvRWt6ejB2U2xjZ2xkczg5UVc0Vnl3?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 06:27:00 GMT",
+      "summary": "필즈상 수상자 25인이 AI가 수학적 문제 풀이를 독점하는 현상에 대해 깊은 우려를 표명함. AI가 지적 활동의 본질을 침해할 수 있음을 경고하며 학계의 대응을 촉구함.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 2
+    },
+    {
+      "title": "\"AI가 90년 난제 해결\" 직후…우려 쏟아낸 수학자들, 왜? - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5GQm9aQzhrZTQ2ekRHN1FMZWt5dko2Z2I3TWhiY1Nsdmx0RXM1V0VLYW9Vb1VIOExEMnZwZlNLOXVqODRTWmxVV3VSUE55VFE?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 10:26:00 GMT",
+      "summary": "AI가 수학계의 오랜 난제를 해결한 성과를 두고 전문가들이 비판적 시각을 제시함. 기술적 진보와는 별개로 수학 연구의 인적 생태계가 붕괴할 수 있다는 위기감이 확산됨.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 2
+    },
+    {
+      "title": "필즈상 수상 25인, AI 수학 풀이에…‘인간 지적 활동’ 위협 우려 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbDJBZHFRZm02aUhacjRra0RNVkVYZHhfaDlmYTFqVnBhR2VpZzRHNnBEQ0U0OWN0cUxveEdBV21lb3EwbFZCekpwSW40WTNZamVMWC0xUlhXYTd2cFBoTEtKX2JDeDQ3WlVnbzY2a09KdHdscTZGcmV5WG1sbnFDdjdB?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 07:26:00 GMT",
+      "summary": "AI의 연산 능력 확장이 인간의 고유 영역인 창의적 사고와 지적 훈련을 저해할 수 있다는 점이 강조됨. 전문가들은 AI가 보조 도구를 넘어 지적 주도권을 쥐는 것에 대해 신중론을 제기함.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 1
+    },
+    {
+      "title": "데이터 쫓아 지방 간다…제조 AI 거점 확산 - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15NDUzdDRLMWczYzF6MkxURFhDRWlvR3NlWmY0bnBLRDV2S2JXS0xaMS1ERlY4eVhLMmpOcnJVcWE1M1hJZ2p4R1BnYUdSX24yT0MtbExn?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 07:13:04 GMT",
+      "summary": "제조업 기반의 지방 도시들이 데이터 거점을 구축하여 AI 기술 도입을 본격화하고 있음. 생산성 향상과 산업 디지털 전환을 위해 AI 인프라 확장이 빠르게 추진되는 추세임.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 5,
+      "investmentImpact": 4
+    },
+    {
+      "title": "부산시, 지방정부 AI 우수사례 발표대회서 행안부 장관상 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9BeE9uUnRwQzVwOEZkcGFKYjIySEZrSUF6MExrdV9ZYUlpMkE4cnF6SjV4ZDkwVnlBWWZrcTJxNnNLWkpZWWhaUlJJYl96enJ5X2dDQTBYc2Y4MGPSAWBBVV95cUxNOGJHdEt0X1Q3VEUyaGc5VEJnNUtESGNwamM4WlpWSEVBZ0w5SzhHMDljZTlERjNxZzlVNkRtV203V3JqTnZZTVlBN21uTTdaXzA1X29XWWR4aXdpb1ZERFQ?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 22:40:39 GMT",
+      "summary": "부산시가 지자체 대상 AI 우수사례 발표대회에서 장관상을 수상하는 등 공공분야 혁신이 가시화됨. AI를 활용한 공공 행정 효율화 모델이 지역 단위로 정착되고 있음.",
+      "importance": 3,
+      "aiImpact": 2,
+      "automationPotential": 3,
+      "investmentImpact": 3
+    }
+  ],
+  "id": "2026-09-13"
+}
