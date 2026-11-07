@@ -1,0 +1,84 @@
+{
+  "lastUpdated": "2026-11-07T01:30:30.263Z",
+  "reportDate": "2026. 11. 7.",
+  "summary": "- 인프라 및 자원 압박: AI 수요 급증으로 인한 반도체 가격 폭등 우려와 자동차 업계의 비상 상황 발생\n\n- 전문 인력 가치 상승: AI 시대에 핵심 기술을 다루는 특정 전문 직업의 구인난과 높은 연봉 유지\n\n- 기술 응용과 한계: 스마트 안경 등 웨어러블 AI가 고난도 문제 해결 능력을 보였으나 인간의 깊은 통찰과 종합적 역량에는 여전히 한계 존재",
+  "summaryScore": 75,
+  "dailyVelocity": 1.2,
+  "velocityReason": "AI 인프라 경쟁 심화와 전문 직업군 수요 급증 등 표준적인 업계 동향 및 기술 응용 소식이 반영됨.",
+  "cumulativeRiskScore": 52.7,
+  "jobRiskScore": 52.7,
+  "riskScoreBreakdown": [
+    {
+      "event": "AI 반도체 수요 급증 및 가격 폭등 경고",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 1
+    },
+    {
+      "event": "AI 시대 전문 직업 구인난 심화",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 2
+    }
+  ],
+  "news": [
+    {
+      "title": "AI가 반도체 쓸어가자 자동차업계 '비상'…내년 가격 폭등 경고 - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6R0FPX1NOR2xadU5ETjNIMHZXaEN6ampkY3lpVWl2SFV1ai0yN3RMS2YxMVlGREFQcXdfVkFMblBaeFpuSGxqUFR5NlNlV0Y3RV95TUxR?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 10:42:04 GMT",
+      "summary": "인공지능(AI) 확산으로 첨단 반도체 수요가 급증하면서 자동차 업계가 부품 수급에 비상을 맞았으며 내년 가격 폭등 경고가 나오고 있다. 전통 제조업 분야까지 AI 인프라 경쟁의 여파가 직접적으로 미치고 있음을 보여준다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    },
+    {
+      "title": "“연봉 19억 줘도 못 구한다”…AI 시대 귀하신 몸 된 이 직업 - 이데일리",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdV9mZ2xsUWFJSGxwMC1jcWphWXhVNTVYOEpRbHhKbTE1UFl0SFBFeXVTSmtsLWduZTRYVlBXbmFoNmJ4OEdQNGxQNzl2WWNHS3hQR29GS0ZqMktrd0p6VHZrNW11dlNOY3ZCWVp0dnJ2dG45TEFTR3BBQmlaMWlLdQ?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 01:48:31 GMT",
+      "summary": "AI 시대의 핵심 직무를 수행할 전문 인력의 품귀 현상이 심화되며 파격적인 연봉 조건에도 인재를 구하기 어려운 상황이 지속되고 있다. 기술 발전 속도에 비해 이를 뒷받침할 고급 전문 인력의 공급이 턱없이 부족함을 나타낸다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 1,
+      "investmentImpact": 4
+    },
+    {
+      "title": "금천고, 학생 주도 운영 : 네이버 블로그 - Naver Blog",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3FKaGFBdnFkVDZ2b1JNWDhQUWRhbGdHa3E1aWxTQU1weUVZc0oweEpnclkySENsRTBock5CZjY5dUhsOFBUUWd1Z3d3bDlaVkljODlXQzJhTHdzaFRUQzRQcWVxekYtYkdTdWhUbC1aYWhQY21BZmlyNmsybVVzQVB2T082X0t1ZkdhWm5uRQ?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 23:59:26 GMT",
+      "summary": "학교 현장에서 학생 주도의 자율적인 운영 사례가 조명되며 미래 교육 환경의 변화 가능성을 제시하고 있다. 기술 중심의 사회 속에서 교육 및 학생 자치 역량의 중요성이 강조되고 있다.",
+      "importance": 2,
+      "aiImpact": 1,
+      "automationPotential": 1,
+      "investmentImpact": 1
+    },
+    {
+      "title": "AI 안경 기자가 써보니… 수능 수학 고난도 문제 맞혔지만 3등급 받아 - 동아일보",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWWXlkZVdfQzFuRVJ2TGNETzNjY3NoUURabjNKYmdQbmFNay1aQVh2ZFdyOEJ4b1paWmlYTmFtbGFiMFlzVWIzQTVOcWgyMl9sQzJ4dmhQYURfVUFTTlZtbzlxVHJpZkRwSUFDNG5rZ9IBZkFVX3lxTE1jRGQ2ZWg2bkJ0OVB5TXJ1MkkwbnprbUM0bklteEIyOWlMcXU1MU5FSnczUEttRTZzSGpYYzhiVmtXU21MOHhrRjhrLWotd3lsUktLb01tSmFtamVRMWU4MHhFdjl3Zw?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 23:10:00 GMT",
+      "summary": "AI 안경을 착용한 기자가 수능 수학 고난도 문제를 풀어내는 등 기기 성능이 향상되었으나 전체 등급은 3등급에 머물렀다. 웨어러블 AI가 정보 처리 및 정답 도출에서 발전하고 있으나 복합적인 사고 영역에서는 여전히 한계가 있음을 시사한다.",
+      "importance": 3,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "서울대 물리학과 출신 조동원 신부 \"AI가 답 줄 때 인간은…\"[문화人터뷰] - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Hb1kxc1hFTTFqRGdiaERiY3d0NExVazFYYW9iQW40QXI4OVBRZWd4a0UyVHF4Q3ZMQkJIejJBdWkzQmVjNTQxT1ZON3U5d1V5dFRMaGJKM1FsQlBYOG16MtIBeEFVX3lxTE0xNTBEdW1iY2cxM0hBQU10Rm45V1EydVdHc0RvU3hxVnJ2dUVORm55clk2SmlLdkp0R0xLVDJXMVc4Wm4xMzk1QVhqeVBDV0hmWU9EME1nSlJVX2FmTno5SVlxZVBlLXVRVzRaajJQdy1URmg1ODlYRA?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 00:00:00 GMT",
+      "summary": "서울대 물리학과 출신 성직자가 AI가 제시하는 답변과 인간의 본질적 역할에 대한 통찰을 나누었다. 기술이 고도화될수록 인간 고유의 사유와 가치 정립의 중요성이 더욱 강조되고 있다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 1,
+      "investmentImpact": 2
+    }
+  ],
+  "occupationRisks": [],
+  "occupationAnalysis": {
+    "startDate": "2026-10-09",
+    "endDate": "2026-11-07",
+    "articleCount": 10,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "id": "2026-11-07"
+}

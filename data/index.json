@@ -1,7 +1,40 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-06T01:57:09.268Z",
+  "updatedAt": "2026-11-07T01:30:30.269Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-07T01:30:30.263Z",
+      "reportDate": "2026. 11. 7.",
+      "summary": "- 인프라 및 자원 압박: AI 수요 급증으로 인한 반도체 가격 폭등 우려와 자동차 업계의 비상 상황 발생\n\n- 전문 인력 가치 상승: AI 시대에 핵심 기술을 다루는 특정 전문 직업의 구인난과 높은 연봉 유지\n\n- 기술 응용과 한계: 스마트 안경 등 웨어러블 AI가 고난도 문제 해결 능력을 보였으나 인간의 깊은 통찰과 종합적 역량에는 여전히 한계 존재",
+      "summaryScore": 75,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 인프라 경쟁 심화와 전문 직업군 수요 급증 등 표준적인 업계 동향 및 기술 응용 소식이 반영됨.",
+      "cumulativeRiskScore": 52.7,
+      "jobRiskScore": 52.7,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 반도체 수요 급증 및 가격 폭등 경고",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 시대 전문 직업 구인난 심화",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-09",
+        "endDate": "2026-11-07",
+        "articleCount": 10,
+        "model": "gemini-3.5-flash-lite"
+      },
+      "id": "2026-11-07",
+      "fileName": "2026-11-07.json"
+    },
     {
       "lastUpdated": "2026-11-06T01:57:09.262Z",
       "reportDate": "2026. 11. 6.",
