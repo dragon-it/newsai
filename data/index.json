@@ -1,7 +1,46 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T01:30:30.269Z",
+  "updatedAt": "2026-11-08T01:00:16.639Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-08T01:00:16.633Z",
+      "reportDate": "2026. 11. 8.",
+      "summary": "- 증시 및 규제 동향: 뉴욕증시가 AI 기술주 폭락 이후 저가 매수세 유입으로 반등세를 보인 가운데 국내 증시에서는 미 대선과 연계된 AI 규제 논란과 코스피 반등 여부가 주목받고 있음.\n\n- 기술 활용 및 보안: AI 안경을 활용한 수능 수학 문제 풀이 시연에서 고난도 문항을 맞혔으나 전체 3등급 수준의 성능 한계를 보였으며, AI 모의해킹 테스트에서는 PHP 서버가 17분 만에 뚫리며 보안 취약점 점검의 필요성이 제기됨.",
+      "summaryScore": 75,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 안경의 고난도 문제 풀이 시연과 AI 모의해킹을 통한 보안 취약점 점검 등 표준적인 AI 신기술 활용 사례가 발표됨.",
+      "cumulativeRiskScore": 52.8,
+      "jobRiskScore": 52.8,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 안경 수능 문제 풀이 시연",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        },
+        {
+          "event": "AI 모의해킹 서버 취약점 분석",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 규제 논란 및 증시 안정화",
+          "sign": "_",
+          "impact": 2,
+          "newsIndex": 3
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-11-08",
+        "articleCount": 14,
+        "model": "gemini-3.5-flash-lite"
+      },
+      "id": "2026-11-08",
+      "fileName": "2026-11-08.json"
+    },
     {
       "lastUpdated": "2026-11-07T01:30:30.263Z",
       "reportDate": "2026. 11. 7.",
