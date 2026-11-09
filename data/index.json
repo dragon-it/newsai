@@ -1,7 +1,46 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T01:00:16.639Z",
+  "updatedAt": "2026-11-09T01:21:21.980Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-09T01:21:21.973Z",
+      "reportDate": "2026. 11. 9.",
+      "summary": "- 인프라 및 생태계 확장: 국내외 AI 반도체 및 인프라 협력이 강화되는 동시에 주요 기업들의 생태계 진입이 가속화됨.\n\n- 보안 및 안전 기술 적용: AI 해킹 방어 기술 및 철강 공장 특화 안전 솔루션 등 산업 현장 맞춤형 AI 도입이 확산됨.\n\n- 창작 및 활용 환경 변화: AI 도구 활용 능력이 강조되는 한편 디지털 기기 없이 스스로 글쓰기를 체험하는 활동 등 인간 역량에 대한 재조명도 이뤄짐.",
+      "summaryScore": 82,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 안전 솔루션 및 이미지 프롬프트 가이드 등 표준적인 기술 적용 소식이 발표되며 완만한 가속을 보임.",
+      "cumulativeRiskScore": 52.9,
+      "jobRiskScore": 52.9,
+      "riskScoreBreakdown": [
+        {
+          "event": "철강공장 특화 AI 안전 솔루션 개발",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 해킹 방어 신기술 개발",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        },
+        {
+          "event": "오픈AI 프롬프트 가이드 공개",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 2
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-11-09",
+        "articleCount": 19,
+        "model": "gemini-3.5-flash-lite"
+      },
+      "id": "2026-11-09",
+      "fileName": "2026-11-09.json"
+    },
     {
       "lastUpdated": "2026-11-08T01:00:16.633Z",
       "reportDate": "2026. 11. 8.",
