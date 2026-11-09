@@ -1,0 +1,90 @@
+{
+  "lastUpdated": "2026-11-06T01:57:09.262Z",
+  "reportDate": "2026. 11. 6.",
+  "summary": "- 시장 변동성과 AI 공포: AI 관련 시장 우려와 투자 심리 위축으로 뉴욕증시에서 대규모 자본 유출 및 증시 하락세가 발생함.\n\n- 로봇 상용화 및 모빌리티: 카카오모빌리티가 플랫폼 기반의 통합 운영을 강조하며 로봇 상용화와 물류 자동화의 기반을 다지고 있음.\n\n- 공공 및 산업 현장 AI 도입: 인텔리빅스의 수소충전소 실시간 집계 시스템과 보험사의 비즈니스 맥락 학습형 AI 전환 등 현장 적용이 확대됨.",
+  "summaryScore": 82,
+  "dailyVelocity": 1.2,
+  "velocityReason": "AI 기술의 산업 현장 도입 및 로봇 상용화 소식이 이어지며 자동화 가속도가 완만하게 증가함.",
+  "cumulativeRiskScore": 52.6,
+  "jobRiskScore": 52.6,
+  "riskScoreBreakdown": [
+    {
+      "event": "금융 시장의 AI 관련 공포 및 증시 변동",
+      "sign": "+",
+      "impact": 5,
+      "newsIndex": 2
+    },
+    {
+      "event": "물류 및 모빌리티 로봇 플랫폼 통합",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 3
+    },
+    {
+      "event": "보험사 및 공공 인프라 AI 도입",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 5
+    }
+  ],
+  "news": [
+    {
+      "title": "직장 다니고 요리하는 고양이…’AI 반려동물’ 중국서 유행 - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QVHJSZ3AtQmVfRk5HSkJVZEFPRkRCeHcydWlVdzI3em1yUXFUaEYwc3BKWlVPaDF6VEE5dFMzbEQ1ODV2N3FKWFJuZUF0ZjNyN0NoQXNvT1hCcGM2MUhnYkRHdllkaUU?oc=5",
+      "pubDate": "Wed, 04 Nov 2026 20:01:00 GMT",
+      "summary": "중국에서 직장을 다니고 요리를 하는 등 다양한 기능을 수행하는 AI 반려동물이 인기를 끌고 있다. 이는 일상 생활 영역까지 AI와 로봇 기술이 파고들고 있음을 보여준다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "\"하루 만에 4300조 증발\"…AI 공포에 뉴욕증시 무너졌다 [종합] - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5PYWJscXh5NTNTcWp4djA2RElQYlJUVmdiMERRb2RQc1g3dHpYWkRDM2xjemRLUnp3RmZ2QUh6YzU4TGxhZkFOOFdLSEZpVVdaYWhYOThiOUFxQQ?oc=5",
+      "pubDate": "Thu, 05 Nov 2026 21:46:44 GMT",
+      "summary": "AI에 대한 시장의 과도한 공포와 불확실성으로 인해 뉴욕증시에서 엄청난 규모의 시가총액이 증발하는 혼란이 발생했다. 기술 발전 속도와 대비되는 시장의 경제적 타격과 투자 심리 위축을 드러낸다.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 1,
+      "investmentImpact": 5
+    },
+    {
+      "title": "[AI픽] 카카오모빌리티 \"로봇 상용화 핵심은 플랫폼 기반 통합 운영\" - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11a3JwSW9HZ1FTb2dSZmRURTBfQ1B3SnprY0xKZ05EUmtxczViVlhWRmxzM3h0ZXdMeVEtN3ZNaUZkQWxjQjI5X1ZLM0YwNU5WZTN6SVdELXp2UHfSAWBBVV95cUxQc2VJTGwwSkF1bzhINXpUUG9HNmtkTE1RYlc0ZkhVZ0lHQTJTb0NOLVZwXzNyM0tsLUY0QWpxMlpTSnZHbUtJZjNrSndkeWpGNHdyWTVkc01FWWRrSkpaWnU?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 01:35:32 GMT",
+      "summary": "카카오모빌리티가 로봇 상용화의 핵심으로 플랫폼 기반 통합 운영의 중요성을 강조했다. 향후 물류와 이동 서비스 전반에서 로봇 및 자동화 기술의 현장 도입이 촉진될 것으로 전망된다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    },
+    {
+      "title": "인텔리빅스, 전국 수소충전소 대기차량 실시간 집계 시스템 구축... AI 영상 분석 기반 - 보안뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hMmJEUjNZeUV0QjJyWEdvZzZlMFRIWDE5N0VCRUhodXRVV092d0VqRFpVSlRmdWtEUlFrdzJxN3VFWUgwMl9LeE9ibjBVSXo4WWRPbDlMekk0R1FFQmt2MEVBa3lpLXJfMXJZ?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 01:40:29 GMT",
+      "summary": "인텔리빅스가 AI 영상 분석 기술을 활용하여 전국 수소충전소의 대기 차량을 실시간으로 집계하는 시스템을 구축했다. 공공 인프라 관리 영역에서 수동 모니터링을 대체하는 자동화가 진행 중이다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 4,
+      "investmentImpact": 3
+    },
+    {
+      "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+      "pubDate": "Fri, 06 Nov 2026 01:39:00 GMT",
+      "summary": "국내 보험사들이 단순 자동화를 넘어 복잡한 비즈니스 맥락을 학습하는 AI로 전환하기 위한 과제를 마주하고 있다. 전통적인 사무 및 심사 업무의 프로세스 재설계가 요구되고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    }
+  ],
+  "occupationRisks": [],
+  "occupationAnalysis": {
+    "startDate": "2026-10-08",
+    "endDate": "2026-11-06",
+    "articleCount": 5,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "id": "2026-11-06"
+}

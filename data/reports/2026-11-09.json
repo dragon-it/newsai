@@ -1,0 +1,90 @@
+{
+  "lastUpdated": "2026-11-09T01:21:21.973Z",
+  "reportDate": "2026. 11. 9.",
+  "summary": "- 인프라 및 생태계 확장: 국내외 AI 반도체 및 인프라 협력이 강화되는 동시에 주요 기업들의 생태계 진입이 가속화됨.\n\n- 보안 및 안전 기술 적용: AI 해킹 방어 기술 및 철강 공장 특화 안전 솔루션 등 산업 현장 맞춤형 AI 도입이 확산됨.\n\n- 창작 및 활용 환경 변화: AI 도구 활용 능력이 강조되는 한편 디지털 기기 없이 스스로 글쓰기를 체험하는 활동 등 인간 역량에 대한 재조명도 이뤄짐.",
+  "summaryScore": 82,
+  "dailyVelocity": 1.2,
+  "velocityReason": "AI 안전 솔루션 및 이미지 프롬프트 가이드 등 표준적인 기술 적용 소식이 발표되며 완만한 가속을 보임.",
+  "cumulativeRiskScore": 52.9,
+  "jobRiskScore": 52.9,
+  "riskScoreBreakdown": [
+    {
+      "event": "철강공장 특화 AI 안전 솔루션 개발",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 5
+    },
+    {
+      "event": "AI 해킹 방어 신기술 개발",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 4
+    },
+    {
+      "event": "오픈AI 프롬프트 가이드 공개",
+      "sign": "+",
+      "impact": 2,
+      "newsIndex": 2
+    }
+  ],
+  "news": [
+    {
+      "title": "AI·인터넷 없이 3시간 글쓰기… \"내 힘으로 완성하니 짜릿\" - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZWs5VnhmVTFNWU1LT3dYeVN4bXUtMzVST1p4dTFqNHNCVjNaNFRBcVVIUGJqcnMxeHU5R2lCVWc0b0pZVDlSUVUzSGNJS3BWUTdvMGMwWFhPeGpQUVBSa3kwRlhQa000M0NrOUlKc1AwQUpzNUpGdnBvVW9Uc2NxWjFULVM5Rk0?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 15:44:00 GMT",
+      "summary": "AI와 인터넷 없이 3시간 동안 온전히 자신의 힘으로 글쓰기를 완성하는 활동이 조명되었다. 기술 의존에서 벗어나 인간 주도적인 사고와 창작 과정의 가치가 강조되고 있다.",
+      "importance": 3,
+      "aiImpact": 2,
+      "automationPotential": 1,
+      "investmentImpact": 2
+    },
+    {
+      "title": "오픈AI, '이미지 2.6' 프롬프트 가이드 공개…\"바꿀 것과 유지할 것 구분하라\" - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9za0ZhRHB3VTdDLV9WbFBvbVJySW5YSXFWUWdTb2ZVdk04czZSNHN4SWpleFl3YzFYVi10OVJRMDIyemZKTXRsN3JhSkFGcExZdWl3MXJaTUxvX3BZeUJiVUN6RlMyTkdiTkE?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 00:51:29 GMT",
+      "summary": "오픈웨이브 및 이미지 생성 관련 프롬프트 가이드가 공개되어 생성형 AI 활용 시 바꿀 것과 유지할 것을 구분하는 기준이 제시되었다. 사용자의 세밀한 지시 제어 능력이 중요해지고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 3,
+      "investmentImpact": 3
+    },
+    {
+      "title": "‘엔비디아 AI 데이 서울’ 개막…삼성·LG·SK도 총출동한다는데 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzS0V3QlRxazdjSXJnaXB3b2FuR0l1ejZTdHBkSmM1ekNWQTNHRHJlMFZ3UHMtQWktUE14U2tEdnlic19IaTUzSElta0ZleEVfUW5HUU5B?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 00:27:41 GMT",
+      "summary": "서울에서 엔비디아 AI 데이가 개막하며 국내 주요 대기업인 삼성, LG, SK가 총출동하여 협력 방안을 모색하고 있다. AI 반도체 및 인프라 생태계 확장이 본격화되는 모습이다.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    },
+    {
+      "title": "\"AI해커 속여 해킹 방어\"...숭실대 AI안전성연구센터, 새 기술 개발 - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Kdl9rTHAwOEU2cF9wRE1HM0t0a3JTdndsUFVXQy01cS1NWXhPRzlocUdfQzZxMHBBVmdTMXFkSVc2ODBTejZ6VkNiZ1JhdXpIZ2VWb09n?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 00:45:05 GMT",
+      "summary": "숭실대 AI안전성연구센터가 AI 해커를 속여 해킹을 방어하는 새로운 보안 기술을 개발했다. AI를 활용한 공격에 대응하기 위한 보안 방어 체계가 고도화되고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 4
+    },
+    {
+      "title": "세아베스틸, 철강공장 특화 AI 안전 솔루션 개발 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByYll3YUhiU0VqVDl4WDltaFgyNlh6WU1JNUNYZG42UG5vQnBWY2NUaGRxd0x2dUh6VmpQQ3BNUTQ0V0o3ZTBsMmZaY1VGemNOU0lYV3FXTjJmZzjSAWBBVV95cUxPS19lbU1ValhYc2Z6NFIwZk05Y1JXalJRRlloQnZNQ1VyM0dlUVgxekRZdkxmS1NpQnpOWW1ydkl6Tm1vRGVRQklZSC05U3RKVzFEVjVVSy0xSmtTWDY5R3U?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 00:55:41 GMT",
+      "summary": "세아베스틸이 철강 공장 환경에 특화된 AI 안전 솔루션을 자체 개발하여 현장 적용을 추진한다. 위험한 산업 현장에서의 모니터링 및 안전 관리 자동화가 진전되고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    }
+  ],
+  "occupationRisks": [],
+  "occupationAnalysis": {
+    "startDate": "2026-10-11",
+    "endDate": "2026-11-09",
+    "articleCount": 19,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "id": "2026-11-09"
+}

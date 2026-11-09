@@ -1,92 +1,135 @@
 import fs from "fs";
 import path from "path";
+import { buildOccupationTracking } from "../../shared/occupationTracking.js";
 
-export function generateJson(newsList, summary, jobRiskScore, summaryScore, riskScoreBreakdown, dailyVelocity, velocityReason, existingHistory = null) {
+const archiveRoot = path.join(process.cwd(), "data");
+const reportsRoot = path.join(archiveRoot, "reports");
+const indexPath = path.join(archiveRoot, "index.json");
+const legacyDataPath = path.join(process.cwd(), "data.json");
+
+function reportDateToFileName(reportDate) {
+  const match = String(reportDate ?? "").match(/(\d{4})\D+(\d{1,2})\D+(\d{1,2})/);
+  if (!match) throw new Error(`지원하지 않는 리포트 날짜 형식입니다: ${reportDate}`);
+  return `${match[1]}-${match[2].padStart(2, "0")}-${match[3].padStart(2, "0")}.json`;
+}
+
+function reportDateToId(reportDate) {
+  return reportDateToFileName(reportDate).replace(/\.json$/, "");
+}
+
+function migrateReportDefaults(item) {
+  const report = { ...item };
+  report.cumulativeRiskScore ??= report.jobRiskScore ?? 50;
+  report.jobRiskScore ??= report.cumulativeRiskScore;
+  report.dailyVelocity ??= 1.0;
+  report.velocityReason ??= "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다.";
+  report.summaryScore ??= 80;
+  report.riskScoreBreakdown ??= [];
+  report.news = Array.isArray(report.news) ? report.news.map((newsItem) => ({
+    ...newsItem,
+    importance: newsItem.importance ?? 3,
+    aiImpact: newsItem.aiImpact ?? 3,
+    automationPotential: newsItem.automationPotential ?? 3,
+    investmentImpact: newsItem.investmentImpact ?? 3,
+  })) : [];
+  return report;
+}
+
+function readArchiveHistory() {
+  if (fs.existsSync(indexPath)) {
+    try {
+      const index = JSON.parse(fs.readFileSync(indexPath, "utf8"));
+      const entries = Array.isArray(index) ? index : index.reports;
+      if (Array.isArray(entries)) {
+        return entries.map((entry) => {
+          const fileName = entry.fileName ?? reportDateToFileName(entry.reportDate);
+          const reportPath = path.join(reportsRoot, fileName);
+          return fs.existsSync(reportPath)
+            ? migrateReportDefaults(JSON.parse(fs.readFileSync(reportPath, "utf8")))
+            : null;
+        }).filter(Boolean);
+      }
+    } catch (error) {
+      console.error("기존 JSON 아카이브를 읽을 수 없어 data.json으로 복구합니다:", error.message);
+    }
+  }
+
+  if (!fs.existsSync(legacyDataPath)) return [];
+  const legacy = JSON.parse(fs.readFileSync(legacyDataPath, "utf8"));
+  const reports = Array.isArray(legacy) ? legacy : [legacy];
+  return reports.filter(Boolean).map(migrateReportDefaults);
+}
+
+export function writeJsonArchive(history) {
+  fs.mkdirSync(reportsRoot, { recursive: true });
+
+  const indexReports = history.map((report) => {
+    const fileName = reportDateToFileName(report.reportDate);
+    const storedReport = { ...report, id: report.id ?? reportDateToId(report.reportDate) };
+    fs.writeFileSync(
+      path.join(reportsRoot, fileName),
+      JSON.stringify(storedReport, null, 2),
+      "utf8",
+    );
+
+    const metadata = { ...storedReport };
+    delete metadata.news;
+    return { ...metadata, fileName };
+  });
+
+  const index = {
+    version: 1,
+    updatedAt: new Date().toISOString(),
+    reports: indexReports,
+    occupationTracking: buildOccupationTracking(history),
+  };
+  fs.writeFileSync(indexPath, JSON.stringify(index, null, 2), "utf8");
+  return index;
+}
+
+export function migrateLegacyData() {
+  const history = readArchiveHistory();
+  writeJsonArchive(history);
+  return history.length;
+}
+
+export function generateJson(newsList, summary, jobRiskScore, summaryScore, riskScoreBreakdown, dailyVelocity, velocityReason, occupationRisks = [], occupationAnalysis = null, existingHistory = null) {
   const velocity = typeof dailyVelocity === "number" ? dailyVelocity : 1.2;
-
-  const newData = {
+  const newData = migrateReportDefaults({
     lastUpdated: new Date().toISOString(),
-    reportDate: new Date().toLocaleDateString("ko-KR", {
-      timeZone: "Asia/Seoul",
-    }),
-    summary: summary,
+    reportDate: new Date().toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul" }),
+    summary,
     summaryScore: summaryScore ?? 80,
     dailyVelocity: velocity,
     velocityReason: velocityReason || "오늘의 AI 소식을 바탕으로 분석된 가속도입니다.",
     cumulativeRiskScore: 50,
-    jobRiskScore: 50,
+    jobRiskScore: jobRiskScore ?? 50,
     riskScoreBreakdown: riskScoreBreakdown ?? [],
     news: newsList,
-  };
+    occupationRisks,
+    occupationAnalysis,
+  });
 
-  const dataPath = path.join(process.cwd(), "data.json");
-  let history = Array.isArray(existingHistory) ? existingHistory : [];
-
-  if (!Array.isArray(existingHistory) && fs.existsSync(dataPath)) {
-    try {
-      const existingData = JSON.parse(fs.readFileSync(dataPath, "utf8"));
-      if (Array.isArray(existingData)) {
-        history = existingData;
-      } else if (existingData && existingData.lastUpdated) {
-        history = [existingData];
-      }
-
-      // 과거 데이터 마이그레이션 적용
-      history.forEach((item) => {
-        if (item.cumulativeRiskScore === undefined) {
-          item.cumulativeRiskScore = item.jobRiskScore ?? 50;
-        }
-        if (item.dailyVelocity === undefined) {
-          item.dailyVelocity = 1.0;
-        }
-        if (item.velocityReason === undefined) {
-          item.velocityReason = "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다.";
-        }
-        if (item.summaryScore === undefined) {
-          item.summaryScore = Math.floor(Math.random() * 21) + 70;
-        }
-        if (item.riskScoreBreakdown === undefined) {
-          item.riskScoreBreakdown = [];
-        }
-        if (item.news && Array.isArray(item.news)) {
-          item.news.forEach((newsItem) => {
-            if (newsItem.importance === undefined) newsItem.importance = 3;
-            if (newsItem.aiImpact === undefined) newsItem.aiImpact = 3;
-            if (newsItem.automationPotential === undefined) newsItem.automationPotential = 3;
-            if (newsItem.investmentImpact === undefined) newsItem.investmentImpact = 3;
-          });
-        }
-      });
-    } catch (e) {
-      console.error("기존 data.json을 읽을 수 없습니다. 새로 생성합니다.");
-    }
-  }
-
-  // 이전 날짜(오늘 날짜와 다른 가장 최근 리포트)의 누적 위험도 점수 가져오기
-  const previousReport = history.find(
-    (item) => item.reportDate !== newData.reportDate
+  const localHistory = readArchiveHistory();
+  const history = Array.isArray(existingHistory)
+    ? [...new Map([...localHistory, ...existingHistory].map((report) => [report.reportDate, report])).values()]
+      .sort((a, b) => b.lastUpdated.localeCompare(a.lastUpdated))
+    : localHistory;
+  const previousReport = history.find((item) => item.reportDate !== newData.reportDate);
+  const previousCumulative = previousReport?.cumulativeRiskScore ?? 50.0;
+  const cumulative = Math.max(
+    0,
+    Math.min(100, Math.round((previousCumulative + velocity * 0.1) * 10) / 10),
   );
-  const prevCumulative = previousReport?.cumulativeRiskScore ?? 50.0;
+  newData.cumulativeRiskScore = cumulative;
+  newData.jobRiskScore = cumulative;
 
-  // 오늘의 누적 점수 = 이전 누적 점수 + (오늘의 가속도 * 0.1) (0 ~ 100 제한, 소수점 첫째 자리)
-  // 1.0pt 가속도당 0.1pt의 장기 누적 영향이 반영되어 100점 천장 조기 도달을 방지합니다.
-  const computedCumulative = Math.max(0, Math.min(100, Math.round((prevCumulative + velocity * 0.1) * 10) / 10));
+  const existingIndex = history.findIndex((item) => item.reportDate === newData.reportDate);
+  if (existingIndex === -1) history.unshift(newData);
+  else history[existingIndex] = newData;
 
-  newData.cumulativeRiskScore = computedCumulative;
-  newData.jobRiskScore = computedCumulative;
+  writeJsonArchive(history);
 
-  const existingIndex = history.findIndex(
-    (item) => item.reportDate === newData.reportDate,
-  );
-  if (existingIndex !== -1) {
-    history[existingIndex] = newData;
-  } else {
-    history.unshift(newData);
-  }
-
-  if (history.length > 10) {
-    history = history.slice(0, 10);
-  }
-
-  return JSON.stringify(history, null, 2);
+  // 이전 배포 호환용 최근 30일 데이터를 data.json에 유지
+  return JSON.stringify(history.slice(0, 30), null, 2);
 }

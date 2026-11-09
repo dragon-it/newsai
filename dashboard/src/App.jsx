@@ -1,5 +1,9 @@
 import { useState, useEffect, useRef } from "react";
+import PropTypes from "prop-types";
 import "./App.css";
+import { reportRepository } from "./services/reportRepository";
+import OccupationRisks from "./components/OccupationRisks";
+import { getRiskChange, formatRiskChange } from "./services/riskMetrics";
 
 // 위험도 점수에 따른 테마 색상 반환
 function getRiskColor(score) {
@@ -17,21 +21,13 @@ function getRiskLabel(score) {
   return "위험 🔴";
 }
 
-// 위험도 점수에 따른 상세 설명 반환
-function getRiskDescription(score) {
-  if (score <= 35) return "AI 기술이 인간의 일자리를 대체하기보다 보조 도구로 유용하게 활용되고 있으며, 고용 시장이 안정적인 상태입니다.";
-  if (score <= 60) return "일부 단순 반복 직무에 대한 AI 도입 시도가 포착되나, 아직은 인간 협업 기반의 생산성 향상 중심 단계입니다.";
-  if (score <= 80) return "특정 전문직 및 서비스 직무에서 AI 대체 우려 기사가 증가하고 있으며, 고용 구조의 변화가 가시화되는 경계 단계입니다.";
-  return "AI 모델 성능 급증 및 대규모 대체 소식으로 인해 고용 불안과 시장 리스크가 매우 높은 수준에 도달한 극도 위험 상태입니다.";
-}
-
-// 가속도(dailyVelocity)에 따른 라벨 및 테마 색상 반환
-function getVelocityBadge(velocity) {
-  const v = typeof velocity === "number" ? velocity : 1.0;
-  if (v >= 3.0) return { label: "급가속 🔴", color: "#ef4444", bg: "rgba(239, 68, 68, 0.12)", sign: `+${v.toFixed(1)}pt/day` };
-  if (v >= 0.5) return { label: "상승 가속 🟠", color: "#f97316", bg: "rgba(249, 115, 22, 0.12)", sign: `+${v.toFixed(1)}pt/day` };
-  if (v >= 0.0) return { label: "완만/유지 🟡", color: "#eab308", bg: "rgba(234, 179, 8, 0.12)", sign: `+${v.toFixed(1)}pt/day` };
-  return { label: "감속/완화 🟢", color: "#10b981", bg: "rgba(16, 185, 129, 0.12)", sign: `${v.toFixed(1)}pt/day` };
+// 전날 대비 실제 위험 지수 증감에 따른 배지 표시
+function getVelocityBadge(change) {
+  const sign = formatRiskChange(change);
+  if (change === null) return { label: "비교 불가", color: "#94a3b8", bg: "rgba(148, 163, 184, 0.12)", sign };
+  if (change > 0) return { label: "상승", color: "#f97316", bg: "rgba(249, 115, 22, 0.12)", sign };
+  if (change < 0) return { label: "하락", color: "#10b981", bg: "rgba(16, 185, 129, 0.12)", sign };
+  return { label: "유지", color: "#eab308", bg: "rgba(234, 179, 8, 0.12)", sign };
 }
 
 // [컴포넌트] 오늘의 일자리 위험도 반원 게이지 차트 (1번 속도계 모양)
@@ -98,19 +94,75 @@ function GaugeChart({ score }) {
   );
 }
 
-// 뉴스 별점 별 기호 안전 렌더러 (RangeError 예방)
+GaugeChart.propTypes = {
+  score: PropTypes.number.isRequired,
+};
+
+// 기존 별 기호 유지 및 채운 별과 빈 별의 대비 강화
 function renderStars(score) {
   const cleanScore = Math.max(0, Math.min(5, Math.round(score ?? 3)));
-  return "★".repeat(cleanScore) + "☆".repeat(5 - cleanScore);
+  return Array.from({ length: 5 }, (_, index) => (
+    <span
+      className={index < cleanScore ? "star-filled" : "star-empty"}
+      key={index}
+    >
+      {index < cleanScore ? "★" : "☆"}
+    </span>
+  ));
 }
 
-// [컴포넌트] 날짜별 위험 가속도(Daily Velocity) 추이 꺾은선 차트 (동적 스케일링 & 콤팩트 패딩 적용)
+function renderSummary(summary) {
+  const items = String(summary ?? "")
+    .split(/\n+/)
+    .map((item) => item.replace(/^[-•]\s*/, "").trim())
+    .filter(Boolean);
+
+  return (
+    <ul className="summary-list">
+      {items.map((item, index) => {
+        const separatorIndex = item.indexOf(":");
+        const firstSentenceEnd = item.indexOf(".");
+
+        if (separatorIndex > 0) {
+          return (
+            <li key={index}>
+              <strong>{item.slice(0, separatorIndex + 1)}</strong>{" "}
+              {item.slice(separatorIndex + 1).trim()}
+            </li>
+          );
+        }
+
+        if (firstSentenceEnd >= 0) {
+          return (
+            <li key={index}>
+              <strong>{item.slice(0, firstSentenceEnd + 1)}</strong>{" "}
+              {item.slice(firstSentenceEnd + 1).trim()}
+            </li>
+          );
+        }
+
+        return <li key={index}><strong>{item}</strong></li>;
+      })}
+    </ul>
+  );
+}
+
+function formatChartDate(reportDate) {
+  const match = String(reportDate ?? "").match(/\d{4}\D+(\d{1,2})\D+(\d{1,2})/);
+  return match
+    ? `${match[1].padStart(2, "0")}.${match[2].padStart(2, "0")}`
+    : reportDate;
+}
+
+// 전날 대비 일자리 대체 위험 지수 증감 추이 표시
 function TrendChart({ historyData, selectedDate, onSelectPoint }) {
-  // 날짜 오름차순 정렬 (오른쪽이 최신이 되도록)
-  const chartData = [...historyData].reverse();
+  // 최신 30개 일별 리포트를 날짜 오름차순으로 표시
+  const chartData = historyData.slice(0, 30)
+    .map((report) => ({ ...report, dailyVelocity: getRiskChange(report, historyData) }))
+    .filter((report) => report.dailyVelocity !== null).reverse();
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  if (chartData.length < 2) return null;
+  if (chartData.length === 0) return <p className="no-changes-text">전날과 비교할 수 있는 위험 변화 자료가 없습니다.</p>;
 
   const width = 500;
   const height = 145;
@@ -128,8 +180,8 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
   const rawMax = Math.max(...velocities);
 
   // 상하단여백을 최소화하여 가속도 파동이 차트 전체를 채우도록 설정
-  const minVel = Math.min(-0.5, Math.floor((rawMin - 0.5) * 2) / 2);
-  const maxVel = Math.max(2.5, Math.ceil((rawMax + 0.5) * 2) / 2);
+  const minVel = Math.min(-0.1, Math.floor((rawMin - 0.1) * 10) / 10);
+  const maxVel = Math.max(0.1, Math.ceil((rawMax + 0.1) * 10) / 10);
   const velRange = maxVel - minVel || 1;
   const midVel = Math.round(((maxVel + minVel) / 2) * 10) / 10;
 
@@ -139,7 +191,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
 
   // 데이터 좌표 매핑
   const points = chartData.map((d, i) => {
-    const x = paddingLeft + (i * chartWidth) / (chartData.length - 1);
+    const x = paddingLeft + (chartData.length === 1 ? chartWidth / 2 : (i * chartWidth) / (chartData.length - 1));
     const vel = typeof d.dailyVelocity === "number" ? d.dailyVelocity : 1.0;
     const clampedVel = Math.max(minVel, Math.min(maxVel, vel));
     const y = paddingTop + chartHeight - ((clampedVel - minVel) / velRange) * chartHeight;
@@ -147,6 +199,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
       x,
       y,
       date: d.reportDate,
+      dateLabel: formatChartDate(d.reportDate),
       velocity: vel,
       score: d.cumulativeRiskScore ?? d.jobRiskScore ?? 50,
       reason: d.velocityReason
@@ -162,21 +215,20 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
     linePointsStr +
     ` ${points[points.length - 1].x},${areaBaseY}`;
 
-  // 가속도별 포인트 색상 추출
+  // 위험 변화 방향별 포인트 색상 추출
   const getVelocityColor = (v) => {
-    if (v >= 3.0) return "#dc2626"; // 급가속 (레드)
-    if (v >= 1.0) return "#f97316"; // 상승 가속 (오렌지)
-    if (v > 0.0) return "#eab308";  // 완만 가속 (옐로우)
-    return "#10b981";              // 감속/안정 (그린)
+    if (v > 0) return "#f97316"; // 상승
+    if (v < 0) return "#10b981"; // 하락
+    return "#94a3b8"; // 유지
   };
 
   return (
     <div className="trend-chart-container">
       <div style={{ marginBottom: '0.2rem' }}>
-        <h3 className="section-title-sub" style={{ margin: 0, fontSize: '0.98rem' }}>🚀 일자리 위험 가속도(Velocity) 추이</h3>
+        <h3 className="section-title-sub" style={{ margin: 0, fontSize: '0.98rem' }}>일자리 대체 위험 변화 추이 · 최근 30개 리포트</h3>
       </div>
       <p style={{ fontSize: '0.75rem', color: '#64748b', margin: '0 0 0.35rem 0', lineHeight: '1.3' }}>
-        뉴스 충격에 따른 일자별 위험 축적 속도의 동적 파동을 실시간 포착합니다.
+        전날 대비 일자리 대체 위험 지수의 증감량입니다. 전날 자료가 없는 날짜는 제외합니다.
       </p>
 
       <div className="svg-wrapper">
@@ -272,36 +324,51 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
           <div
             className="chart-tooltip"
             style={{
-              left: `${Math.min(width - 150, Math.max(10, points[hoveredIndex].x - 60))}px`,
-              top: `${Math.max(10, points[hoveredIndex].y - 55)}px`
+              left: `clamp(8px, calc(${(points[hoveredIndex].x / width) * 100}% - 90px), max(8px, calc(100% - 188px)))`,
+              top: "4px"
             }}
           >
-            <div className="tooltip-date">{points[hoveredIndex].date}</div>
+            <div className="tooltip-date">{points[hoveredIndex].dateLabel}</div>
             <div className="tooltip-score">
-              가속도: <strong style={{ color: getVelocityColor(points[hoveredIndex].velocity) }}>
-                {points[hoveredIndex].velocity > 0 ? `+${points[hoveredIndex].velocity}` : points[hoveredIndex].velocity} pt/day
+              위험 변화: <strong style={{ color: getVelocityColor(points[hoveredIndex].velocity) }}>
+                {formatRiskChange(points[hoveredIndex].velocity)}
               </strong>
             </div>
             <div style={{ fontSize: '0.72rem', color: '#94a3b8', marginTop: '2px' }}>
-              누적 위험: {points[hoveredIndex].score}점
+              대체 위험 지수: {points[hoveredIndex].score}점
             </div>
           </div>
         )}
       </div>
       <div className="trend-x-labels" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <span>{chartData[0].date}</span>
-        <span style={{ fontSize: '0.78rem', color: '#64748b', fontWeight: '600' }}>(단위: pt/day)</span>
-        <span>{chartData[chartData.length - 1].date}</span>
+        <span>{formatChartDate(chartData[0].reportDate)}</span>
+        <span style={{ fontSize: '0.78rem', color: '#64748b', fontWeight: '600' }}>(전날 대비 · 점)</span>
+        <span>{formatChartDate(chartData[chartData.length - 1].reportDate)}</span>
       </div>
     </div>
   );
 }
+
+TrendChart.propTypes = {
+  historyData: PropTypes.arrayOf(
+    PropTypes.shape({
+      reportDate: PropTypes.string.isRequired,
+      dailyVelocity: PropTypes.number,
+      cumulativeRiskScore: PropTypes.number,
+      jobRiskScore: PropTypes.number,
+      velocityReason: PropTypes.string,
+    }),
+  ).isRequired,
+  selectedDate: PropTypes.string,
+  onSelectPoint: PropTypes.func.isRequired,
+};
 
 function App() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedDate, setSelectedDate] = useState(null);
+  const [occupationTracking, setOccupationTracking] = useState([]);
 
   // 테마 상태 관리 (localStorage 저장값 우선 조회, 없을 시 다크 모드를 기본값으로 적용)
   const [theme, setTheme] = useState(() => {
@@ -328,44 +395,64 @@ function App() {
   const loaderRef = useRef(null);
 
   useEffect(() => {
-    if (import.meta.env.DEV) {
-      import("../../data.json")
-        .then((module) => {
-          const list = module.default;
-          setData(list);
-          if (list && list.length > 0) {
-            setSelectedDate(list[0].reportDate);
-          }
-          setLoading(false);
-        })
-        .catch((err) => {
-          console.error(err);
-          setError("로컬 데이터를 불러오지 못했습니다. 백엔드 파이프라인을 먼저 실행해주세요.");
-          setLoading(false);
-        });
-      return;
-    }
+    Promise.all([reportRepository.list(), reportRepository.listOccupations()])
+      .then(async ([reports, occupations]) => {
+        if (reports.length === 0) throw new Error("저장된 리포트가 없습니다.");
 
-    const fetchUrl = import.meta.env.BASE_URL + "data.json";
-
-    fetch(fetchUrl)
-      .then((res) => {
-        if (!res.ok) throw new Error("데이터를 불러오는데 실패했습니다.");
-        return res.json();
-      })
-      .then((json) => {
-        setData(json);
-        if (json && json.length > 0) {
-          setSelectedDate(json[0].reportDate);
-        }
+        const currentReport = await reportRepository.getById(
+          reports[0].id,
+          reports[0],
+        );
+        setData([{ ...reports[0], ...currentReport }, ...reports.slice(1)]);
+        setSelectedDate(currentReport.reportDate);
+        setOccupationTracking(occupations);
         setLoading(false);
       })
       .catch((err) => {
         console.error(err);
-        setError(err.message);
+        setError(
+          "리포트 아카이브를 불러오지 못했습니다. 데이터 마이그레이션을 먼저 실행해주세요.",
+        );
         setLoading(false);
       });
   }, []);
+
+  // 화면에 노출될 과거 리포트 본문을 날짜별 JSON에서 지연 로드
+  useEffect(() => {
+    if (!data || loading || error) return;
+    const missingReports = data
+      .slice(1, visibleCount + 1)
+      .filter((report) => !Array.isArray(report.news));
+    if (missingReports.length === 0) return;
+
+    let cancelled = false;
+    Promise.all(
+      missingReports.map(async (metadata) => ({
+        id: metadata.id,
+        report: await reportRepository.getById(metadata.id, metadata),
+      })),
+    )
+      .then((loadedReports) => {
+        if (cancelled) return;
+        const loadedById = new Map(
+          loadedReports.map(({ id, report }) => [id, report]),
+        );
+        setData((current) =>
+          current.map((report) =>
+            loadedById.has(report.id)
+              ? { ...report, ...loadedById.get(report.id) }
+              : report,
+          ),
+        );
+      })
+      .catch((err) => {
+        if (!cancelled) setError(err.message);
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [data, error, loading, visibleCount]);
 
   // 무한스크롤 IntersectionObserver 설정
   useEffect(() => {
@@ -406,18 +493,10 @@ function App() {
   const todayData = dataArray[0];
   const pastData = dataArray.slice(1);
 
-  // 어제 데이터와 위험도 차이 구하기
-  const yesterdayData = pastData[0];
-  const yesterdayScore = yesterdayData ? yesterdayData.jobRiskScore : null;
-  const scoreDiff = yesterdayScore !== null ? (todayData.jobRiskScore - yesterdayScore) : null;
-  const scoreDiffSign = scoreDiff !== null ? (scoreDiff >= 0 ? `+${scoreDiff}` : `${scoreDiff}`) : "";
-
   // 꺾은선 차트 클릭 연동 날짜 분석
   const selectedReport = dataArray.find((d) => d.reportDate === selectedDate) || todayData;
-  const selectedReportIndex = dataArray.findIndex((d) => d.reportDate === selectedDate);
-  const selectedYesterday = selectedReportIndex !== -1 && selectedReportIndex < dataArray.length - 1 ? dataArray[selectedReportIndex + 1] : null;
-  const selectedDiff = selectedYesterday !== null ? (selectedReport.jobRiskScore - selectedYesterday.jobRiskScore) : null;
-  const selectedDiffSign = selectedDiff !== null ? (selectedDiff >= 0 ? `+${selectedDiff}` : `${selectedDiff}`) : "";
+  const todayChange = getRiskChange(todayData, dataArray);
+  const selectedChange = getRiskChange(selectedReport, dataArray);
 
   // 아코디언 토글 핸들러
   const toggleAccordion = (reportDate) => {
@@ -453,17 +532,17 @@ function App() {
         {/* 신규: 일자리 위험도 및 종합 AI 지수 보드 */}
         <div className="dashboard-grid">
           <section className="dashboard-card gauge-card-section">
-            <h2 className="section-title-sub">오늘의 AI 일자리 영향 분석 (누적 수치 &amp; 변화 가속도)</h2>
+            <h2 className="section-title-sub">일자리 대체 위험 지수 · 오늘의 위험 변화</h2>
             <div className="gauge-layout">
               <div className="gauge-left-col">
-                <GaugeChart score={todayData.cumulativeRiskScore || todayData.jobRiskScore || 75} />
+                <GaugeChart score={todayData.cumulativeRiskScore ?? todayData.jobRiskScore ?? 50} />
 
-                {/* 오늘의 가속도 하이라이트 배지 */}
+                {/* 오늘의 위험 변화 배지 */}
                 {(() => {
-                  const velocityInfo = getVelocityBadge(todayData.dailyVelocity);
+                  const velocityInfo = getVelocityBadge(todayChange);
                   return (
                     <div className="velocity-badge-card" style={{ backgroundColor: velocityInfo.bg, borderColor: velocityInfo.color }}>
-                      <span className="velocity-title">🚀 오늘의 위험 가속도</span>
+                      <span className="velocity-title">오늘의 위험 변화</span>
                       <div className="velocity-val-row">
                         <strong className="velocity-num" style={{ color: velocityInfo.color }}>{velocityInfo.sign}</strong>
                         <span className="velocity-tag" style={{ backgroundColor: velocityInfo.color }}>{velocityInfo.label}</span>
@@ -476,12 +555,12 @@ function App() {
               <div className="gauge-description">
                 <div className="scores-explanation-box">
                   <div className="score-explain-item">
-                    <span className="score-explain-title">📊 누적 일자리 영향 지수: <strong className="risk-score-text">{todayData.cumulativeRiskScore || todayData.jobRiskScore || 75} / 100</strong></span>
-                    <p className="score-explain-desc">→ AI 기술 발전에 따라 축적되는 일자리 대체 위험 수준 (지속 상승/유지)</p>
+                    <span className="score-explain-title">📊 일자리 대체 위험 지수: <strong className="risk-score-text">{todayData.cumulativeRiskScore ?? todayData.jobRiskScore ?? 50} / 100</strong></span>
+                    <p className="score-explain-desc">→ 뉴스 기반 자체 지수로 추적한 대체 위험 수준이며, 일자리 대체 비율을 의미하지 않습니다.</p>
                   </div>
                   <div className="score-explain-item">
-                    <span className="score-explain-title">⚡ 오늘의 변화 가속도: <strong className="velocity-score-text">{(todayData.dailyVelocity >= 0 ? "+" : "") + (todayData.dailyVelocity ?? 1.2).toFixed(1)} pt/day</strong></span>
-                    <p className="score-explain-desc">→ 오늘 뉴스가 위험 축적 속도를 얼마나 더 가속시켰는지 지표화</p>
+                    <span className="score-explain-title">⚡ 오늘의 위험 변화: <strong className="velocity-score-text">{formatRiskChange(todayChange)}</strong></span>
+                    <p className="score-explain-desc">→ 오늘 위험 지수에서 전날 위험 지수를 뺀 실제 증감량</p>
                   </div>
                   <div className="score-explain-item">
                     <span className="score-explain-title">📈 종합 AI 지수: <strong className="summary-score-text">{todayData.summaryScore || 50} / 100</strong></span>
@@ -491,12 +570,12 @@ function App() {
 
                 {todayData.velocityReason && (
                   <div className="velocity-reason-box">
-                    💡 <strong>오늘의 가속 원인:</strong> {todayData.velocityReason}
+                    💡 <strong>오늘의 평가 근거:</strong> {todayData.velocityReason}
                   </div>
                 )}
 
                 <div className="guideline-tip">
-                  💡 <strong>이원화 지표 가이드:</strong> AI 기술은 후퇴하지 않으므로 '누적 위험 지수'는 억지로 감점되지 않고 유지되며, 대시보드의 유연성은 '오늘의 가속도'로 실시간 포착합니다.
+                  💡 <strong>지표 안내:</strong> 일자리 대체 위험 지수는 뉴스 기반 실험용 지수입니다. 오늘의 위험 변화는 전날 대비 증감이며, 상승·유지·하락할 수 있습니다. 100점이 모든 일자리의 소멸을 뜻하지 않습니다.
                 </div>
               </div>
             </div>
@@ -513,16 +592,16 @@ function App() {
                     <h4>📅 {selectedReport.reportDate} 상세 위험 근거</h4>
                     {selectedReport.dailyVelocity !== undefined && (
                       <span className="detail-velocity-badge">
-                        가속도: {(selectedReport.dailyVelocity >= 0 ? "+" : "") + selectedReport.dailyVelocity.toFixed(1)} pt/day
+                        위험 변화: {formatRiskChange(selectedChange)}
                       </span>
                     )}
                   </div>
                   <div className="detail-scores">
                     <div className="detail-score-item">
-                      <span>누적 일자리 위험:</span> <strong>{selectedReport.cumulativeRiskScore || selectedReport.jobRiskScore}점</strong>
+                      <span>일자리 대체 위험 지수:</span> <strong>{selectedReport.cumulativeRiskScore ?? selectedReport.jobRiskScore}점</strong>
                     </div>
                     <div className="detail-score-item">
-                      <span>변화 가속도:</span> <strong>{(selectedReport.dailyVelocity >= 0 ? "+" : "") + (selectedReport.dailyVelocity ?? 1.0).toFixed(1)} pt/day</strong>
+                      <span>위험 변화:</span> <strong>{formatRiskChange(selectedChange)}</strong>
                     </div>
                     <div className="detail-score-item">
                       <span>종합 AI 지수:</span> <strong>{selectedReport.summaryScore || 50}점</strong>
@@ -608,6 +687,8 @@ function App() {
           )}
         </section>
 
+        <OccupationRisks risks={occupationTracking} analysis={todayData.occupationAnalysis} />
+
         <div className="section-group today-group">
           <section className="summary-section">
             <div className="summary-header">
@@ -618,7 +699,7 @@ function App() {
                 </div>
               )}
             </div>
-            <div className="summary-content">{todayData.summary}</div>
+            <div className="summary-content">{renderSummary(todayData.summary)}</div>
           </section>
 
           <section className="news-section">
@@ -677,11 +758,11 @@ function App() {
                         </span>
                       )}
                       <span className="job-risk-badge" style={{ backgroundColor: getRiskColor(past.cumulativeRiskScore || past.jobRiskScore || 75) }}>
-                        누적위험 {past.cumulativeRiskScore || past.jobRiskScore || 75}점
+                        대체 위험 {past.cumulativeRiskScore ?? past.jobRiskScore ?? 50}점
                       </span>
                       {past.dailyVelocity !== undefined && (
                         <span className="velocity-mini-badge">
-                          가속도 {(past.dailyVelocity >= 0 ? "+" : "") + past.dailyVelocity.toFixed(1)}pt
+                          위험 변화 {formatRiskChange(getRiskChange(past, dataArray))}
                         </span>
                       )}
                       <span className="accordion-arrow">{isExpanded ? "▲" : "▼"}</span>
@@ -692,13 +773,13 @@ function App() {
                     <div className="past-day-content">
                       <section className="summary-section past-summary-section">
                         <h4 className="sub-title">지난 뉴스 요약</h4>
-                        <div className="summary-content past-summary-content">{past.summary}</div>
+                        <div className="summary-content past-summary-content">{renderSummary(past.summary)}</div>
                       </section>
 
                       <section className="news-section past-news-section">
                         <h4 className="sub-title">지난 뉴스 목록 &amp; 요약</h4>
                         <div className="news-list">
-                          {past.news.map((item, nIdx) => (
+                          {Array.isArray(past.news) && past.news.length > 0 ? past.news.map((item, nIdx) => (
                             <a href={item.link} target="_blank" rel="noopener noreferrer" className="news-card-link" key={nIdx}>
                               <div className="news-card past-news-card">
                                 <span className="pub-date">{new Date(item.pubDate).toLocaleDateString()}</span>
@@ -726,7 +807,15 @@ function App() {
                                 )}
                               </div>
                             </a>
-                          ))}
+                          )) : Array.isArray(past.news) ? (
+                            <p className="no-changes-text">
+                              이 날짜의 기사 상세 데이터는 보관되어 있지 않습니다.
+                            </p>
+                          ) : (
+                            <div className="scroll-loader">
+                              <span className="spinner"></span> 리포트 내용을 불러오는 중...
+                            </div>
+                          )}
                         </div>
                       </section>
                     </div>

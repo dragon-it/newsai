@@ -1,0 +1,83 @@
+{
+  "lastUpdated": "2026-09-05T23:29:20.732Z",
+  "reportDate": "2026. 9. 6.",
+  "summary": "- 중국의 AI 자립 가속화: 딥시크가 화웨이 AI 칩을 기반으로 초대형 데이터센터를 구축하며 미국의 제재 속에서도 독자적인 AI 인프라 생태계를 확장하고 있음.\n\n- 범용 인공지능(AGI) 시대 개막: 오픈AI의 'GPT-6 아스트라' 공개는 AI 자율성이 인간의 업무를 실질적으로 대체하는 새로운 단계에 진입했음을 시사하며 기술적 변곡점을 마련함.\n\n- 전문 영역의 AI 혁신: 제약·바이오 등 고부가가치 산업에서 AI 도입을 통해 연구개발 기간을 획기적으로 단축하는 등 산업 전반의 효율성 향상과 비즈니스 모델 변화가 가속화됨.",
+  "summaryScore": 92,
+  "dailyVelocity": 2.5,
+  "velocityReason": "오픈AI의 GPT-6 아스트라 발표로 인해 AI의 자율성이 대폭 강화되면서 화이트칼라 직무의 자동화 체감 속도가 빨라졌음.",
+  "cumulativeRiskScore": 52.1,
+  "jobRiskScore": 52.1,
+  "riskScoreBreakdown": [
+    {
+      "event": "OpenAI GPT-6 아스트라 공개",
+      "sign": "+",
+      "impact": 5,
+      "newsIndex": 2
+    },
+    {
+      "event": "중국 AI 인프라 자립화 가속",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 1
+    },
+    {
+      "event": "특수 직군(신약개발 등) 업무 효율 극대화",
+      "sign": "+",
+      "impact": 2,
+      "newsIndex": 5
+    }
+  ],
+  "news": [
+    {
+      "title": "딥시크, 화웨이 AI칩으로 中 최대 데이터센터 구축 - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XaEhwUmZWczkxVS1feFlRaWVBMkN2cW5sVHJmbEhxMlhQS2I3TUtJdlRLMm5tRjJjemJkVFFGU25QNnNVTHZMZVMwSW1pNkpiT3Y5VFJ3?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 06:23:31 GMT",
+      "summary": "딥시크가 화웨이의 승강기 AI 칩을 활용해 대규모 데이터센터를 구축하며 미국의 규제를 우회한 인프라 자립 노력을 보여줌. 중국 내 자체 AI 컴퓨팅 파워 확보가 가시화되면서 글로벌 AI 공급망 경쟁이 심화될 전망임.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    },
+    {
+      "title": "세계 최고 AI 모델 ‘GPT-6 아스트라’ 전격 공개... 오픈AI, \"AGI 전환점에 섰다, AI 자율성 새 단계로\" - aitimes.kr",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtQlBzNVdCdlMxYnU4U0dZTHhnVVl6TXNVUVBvNEtmWHBiVG9uYUkxSDNpOW1uZmJUWGVQeUd5ckgza0FRNVAzdzQwM091WWZJSFVTR3EzQ2VpdVN4N2ZvcEt6SmlleG8?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 00:12:52 GMT",
+      "summary": "오픈AI가 'GPT-6 아스트라'를 공개하며 AGI 구현의 핵심 단계에 진입했음을 선언함. 이전 모델보다 비약적으로 향상된 자율성을 통해 복잡한 문제 해결 능력을 갖추게 되어 산업 전반의 인력 구조 변화가 불가피함.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 5,
+      "investmentImpact": 5
+    },
+    {
+      "title": "오픈AI, 'GPT-6 아스트라' 출시…“AGI 시대 진입” - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LNUNDeFVTNGI2OGgzdlRXT1lvOEFGMkY2eUNsTW9NTm45bUsweW5hMVdTZm93UHBTcVJRSDNTOU0yUmkzYVhiUE9BelY3QQ?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 23:04:59 GMT",
+      "summary": "GPT-6 아스트라의 출시로 인공지능이 단순한 생성 도구를 넘어 자율적 의사결정자로 격상됨. 기술적 완성도가 높아짐에 따라 AI 기술을 활용한 업무 자동화가 비약적으로 확대될 것으로 보임.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 5,
+      "investmentImpact": 5
+    },
+    {
+      "title": "'오픈AI' 샘 올트먼도 쓰는 '모깅' 원래 이런 뜻이었다[트민자] - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CQ2w3bmtoWTdZTWhzOUk5Q1l6UURlNGNSUXBsQ0w5bktNXzY3Z09xaEdwdDVOVk5Gc2JrMWJmUXFKajZUTGdVMy1sc0RGZW9nU1pwcDZJQjA4RVVJRDV4MW0zZFhKM1Qz0gFuQVVfeXFMTUpVcDBvTWNqb3E2Nm9lNU9ScmZBcGZSZXhtdjA1TzBweFJtRW1INGVsWWVxbU1Qd05IaTh0WUNacTBkZ0dCaXU5eDVVQzFkbkdKM2x4Vi1KdXdUcjVRVllDODdQSE1SeGQzRWNMWHc?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 21:10:00 GMT",
+      "summary": "AI 트렌드 속에서 생겨난 용어 '모깅'에 대한 분석으로, 대중적인 AI 활용 문화 확산을 조명함. 기술 자체보다는 AI가 일상과 비즈니스 언어에 깊숙이 침투하고 있음을 보여주는 사례임.",
+      "importance": 2,
+      "aiImpact": 2,
+      "automationPotential": 1,
+      "investmentImpact": 1
+    },
+    {
+      "title": "[만나보니] \"AI로 신약개발 2∼3년 단축…한국도 잠재력 충분\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tdDFiRnJtLUlUckw0S1JGd0NEN2xDZk5WUXJDYUc1ZXY0MFNib1dpaGNkT01GVjFOMUR0TmVZWkxjdzdocEY2YnJXWWVVemM?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 22:56:46 GMT",
+      "summary": "AI 기술이 제약·바이오 분야의 신약 개발 기간을 기존 대비 2~3년 단축시키는 성과를 보임. 전문 영역에서의 AI 도입이 단순 업무 지원을 넘어 핵심 R&D 경쟁력을 좌우하는 수준으로 발전하고 있음.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    }
+  ],
+  "id": "2026-09-06"
+}

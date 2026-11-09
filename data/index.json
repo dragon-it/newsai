@@ -1,0 +1,581 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-09T01:21:21.980Z",
+  "reports": [
+    {
+      "lastUpdated": "2026-11-09T01:21:21.973Z",
+      "reportDate": "2026. 11. 9.",
+      "summary": "- 인프라 및 생태계 확장: 국내외 AI 반도체 및 인프라 협력이 강화되는 동시에 주요 기업들의 생태계 진입이 가속화됨.\n\n- 보안 및 안전 기술 적용: AI 해킹 방어 기술 및 철강 공장 특화 안전 솔루션 등 산업 현장 맞춤형 AI 도입이 확산됨.\n\n- 창작 및 활용 환경 변화: AI 도구 활용 능력이 강조되는 한편 디지털 기기 없이 스스로 글쓰기를 체험하는 활동 등 인간 역량에 대한 재조명도 이뤄짐.",
+      "summaryScore": 82,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 안전 솔루션 및 이미지 프롬프트 가이드 등 표준적인 기술 적용 소식이 발표되며 완만한 가속을 보임.",
+      "cumulativeRiskScore": 52.9,
+      "jobRiskScore": 52.9,
+      "riskScoreBreakdown": [
+        {
+          "event": "철강공장 특화 AI 안전 솔루션 개발",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 해킹 방어 신기술 개발",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        },
+        {
+          "event": "오픈AI 프롬프트 가이드 공개",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 2
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-11",
+        "endDate": "2026-11-09",
+        "articleCount": 19,
+        "model": "gemini-3.5-flash-lite"
+      },
+      "id": "2026-11-09",
+      "fileName": "2026-11-09.json"
+    },
+    {
+      "lastUpdated": "2026-11-08T01:00:16.633Z",
+      "reportDate": "2026. 11. 8.",
+      "summary": "- 증시 및 규제 동향: 뉴욕증시가 AI 기술주 폭락 이후 저가 매수세 유입으로 반등세를 보인 가운데 국내 증시에서는 미 대선과 연계된 AI 규제 논란과 코스피 반등 여부가 주목받고 있음.\n\n- 기술 활용 및 보안: AI 안경을 활용한 수능 수학 문제 풀이 시연에서 고난도 문항을 맞혔으나 전체 3등급 수준의 성능 한계를 보였으며, AI 모의해킹 테스트에서는 PHP 서버가 17분 만에 뚫리며 보안 취약점 점검의 필요성이 제기됨.",
+      "summaryScore": 75,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 안경의 고난도 문제 풀이 시연과 AI 모의해킹을 통한 보안 취약점 점검 등 표준적인 AI 신기술 활용 사례가 발표됨.",
+      "cumulativeRiskScore": 52.8,
+      "jobRiskScore": 52.8,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 안경 수능 문제 풀이 시연",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        },
+        {
+          "event": "AI 모의해킹 서버 취약점 분석",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 규제 논란 및 증시 안정화",
+          "sign": "_",
+          "impact": 2,
+          "newsIndex": 3
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-10",
+        "endDate": "2026-11-08",
+        "articleCount": 14,
+        "model": "gemini-3.5-flash-lite"
+      },
+      "id": "2026-11-08",
+      "fileName": "2026-11-08.json"
+    },
+    {
+      "lastUpdated": "2026-11-07T01:30:30.263Z",
+      "reportDate": "2026. 11. 7.",
+      "summary": "- 인프라 및 자원 압박: AI 수요 급증으로 인한 반도체 가격 폭등 우려와 자동차 업계의 비상 상황 발생\n\n- 전문 인력 가치 상승: AI 시대에 핵심 기술을 다루는 특정 전문 직업의 구인난과 높은 연봉 유지\n\n- 기술 응용과 한계: 스마트 안경 등 웨어러블 AI가 고난도 문제 해결 능력을 보였으나 인간의 깊은 통찰과 종합적 역량에는 여전히 한계 존재",
+      "summaryScore": 75,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 인프라 경쟁 심화와 전문 직업군 수요 급증 등 표준적인 업계 동향 및 기술 응용 소식이 반영됨.",
+      "cumulativeRiskScore": 52.7,
+      "jobRiskScore": 52.7,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 반도체 수요 급증 및 가격 폭등 경고",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 시대 전문 직업 구인난 심화",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-09",
+        "endDate": "2026-11-07",
+        "articleCount": 10,
+        "model": "gemini-3.5-flash-lite"
+      },
+      "id": "2026-11-07",
+      "fileName": "2026-11-07.json"
+    },
+    {
+      "lastUpdated": "2026-11-06T01:57:09.262Z",
+      "reportDate": "2026. 11. 6.",
+      "summary": "- 시장 변동성과 AI 공포: AI 관련 시장 우려와 투자 심리 위축으로 뉴욕증시에서 대규모 자본 유출 및 증시 하락세가 발생함.\n\n- 로봇 상용화 및 모빌리티: 카카오모빌리티가 플랫폼 기반의 통합 운영을 강조하며 로봇 상용화와 물류 자동화의 기반을 다지고 있음.\n\n- 공공 및 산업 현장 AI 도입: 인텔리빅스의 수소충전소 실시간 집계 시스템과 보험사의 비즈니스 맥락 학습형 AI 전환 등 현장 적용이 확대됨.",
+      "summaryScore": 82,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 기술의 산업 현장 도입 및 로봇 상용화 소식이 이어지며 자동화 가속도가 완만하게 증가함.",
+      "cumulativeRiskScore": 52.6,
+      "jobRiskScore": 52.6,
+      "riskScoreBreakdown": [
+        {
+          "event": "금융 시장의 AI 관련 공포 및 증시 변동",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 2
+        },
+        {
+          "event": "물류 및 모빌리티 로봇 플랫폼 통합",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        },
+        {
+          "event": "보험사 및 공공 인프라 AI 도입",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-08",
+        "endDate": "2026-11-06",
+        "articleCount": 5,
+        "model": "gemini-3.5-flash-lite"
+      },
+      "id": "2026-11-06",
+      "fileName": "2026-11-06.json"
+    },
+    {
+      "lastUpdated": "2026-09-14T08:42:58.744Z",
+      "reportDate": "2026. 9. 14.",
+      "summary": "- AI 개발 속도와 안전성 간의 정치적·기술적 갈등이 심화되고 있습니다. 도널드 트럼프를 필두로 한 미국 정계는 중국과의 기술 패권 경쟁에서 우위를 점하기 위해 AI 개발 가속화를 주장하고 있습니다.\n\n- 기술 업계에서는 상충하는 입장이 나타나고 있습니다. 일부 주요 AI 기업 리더들이 안전을 이유로 속도 조절을 권고하는 반면, 국가 전략적 관점에서는 기술 개발의 병목 현상을 경계하는 분위기가 지배적입니다.\n\n- 글로벌 경쟁 구도 속에서 중국 또한 오픈소스 동맹 등을 활용하여 기술 추격을 가속화하고 있어, AI 패권 경쟁이 국가 안보의 핵심 의제로 부상했습니다.",
+      "summaryScore": 88,
+      "dailyVelocity": 0.2,
+      "velocityReason": "정치권의 AI 경쟁 가속화 강조와 업계의 안전 논의가 상충하며, 직접적인 자동화 기술 공개보다는 정책적 담론 위주로 전개되어 일자리 위험 가속도가 낮게 유지되었습니다.",
+      "cumulativeRiskScore": 52.5,
+      "jobRiskScore": 52.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "트럼프의 AI 속도조절론 일축 및 경쟁 우위 강조",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 주요 기업 리더들의 속도 조절 제언",
+          "sign": " - ",
+          "impact": 2,
+          "newsIndex": 4
+        },
+        {
+          "event": "미-중 기술 패권 경쟁 심화",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        }
+      ],
+      "id": "2026-09-14",
+      "fileName": "2026-09-14.json"
+    },
+    {
+      "lastUpdated": "2026-09-12T23:39:33.249Z",
+      "reportDate": "2026. 9. 13.",
+      "summary": "- 학계의 경고: 필즈상 수상자 25인이 AI의 수학적 문제 풀이 능력이 인간의 지적 활동 및 창의적 발전에 미칠 잠재적 위협에 대해 우려를 표명함.\n\n- 제조 분야의 확산: 데이터 활용과 AI 기술을 결합하여 지역 제조 경쟁력을 강화하는 거점 모델이 전국적으로 확산되고 있음.\n\n- 공공부문의 디지털 전환: 지자체 차원에서의 AI 도입 사례가 공공 서비스 혁신으로 이어지며 중앙정부 차원의 평가와 성과 인정을 받고 있음.",
+      "summaryScore": 72,
+      "dailyVelocity": 0.3,
+      "velocityReason": "AI의 지적 영역 진입에 대한 학계의 강력한 경고가 전문직 일자리 미래에 대한 사회적 논쟁을 가속화함.",
+      "cumulativeRiskScore": 52.5,
+      "jobRiskScore": 52.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "필즈상 수상자들의 AI 위협 경고",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "지방 거점형 제조 AI 확산",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        },
+        {
+          "event": "공공부문 AI 도입 및 우수 사례 확산",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-09-13",
+      "fileName": "2026-09-13.json"
+    },
+    {
+      "lastUpdated": "2026-09-11T23:48:05.759Z",
+      "reportDate": "2026. 9. 12.",
+      "summary": "- 사이버 보안 시장의 급부상: 젠슨 황 엔비디아 CEO를 필두로 AI의 차세대 핵심 적용 분야로 사이버 보안이 지목되며 관련 산업의 중요성이 크게 대두됨.\n\n- 기술 고도화 및 협력 강화: 네이버와 LG 등 국내외 주요 기업들이 보안 특화 AI 개발에 착수하며 글로벌 경쟁력 확보를 위한 기술적 연합이 활발함.\n\n- AI 투자의 질적 변화: AI가 가져올 공포를 혁신의 기회로 전환하는 전략적 관점이 확산 중이며, 스타트업을 중심으로 AI 생태계에 천문학적인 규모의 자본이 유입되고 있음.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.2,
+      "velocityReason": "사이버 보안 분야에 AI 도입이 본격화되면서 보안 전문가 및 IT 인프라 관리 직무의 AI 자동화 속도가 완만하게 가속됨.",
+      "cumulativeRiskScore": 52.5,
+      "jobRiskScore": 52.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "사이버 보안 특화 AI 개발 본격화",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 4
+        },
+        {
+          "event": "AI 생태계로의 대규모 자본 유입",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-09-12",
+      "fileName": "2026-09-12.json"
+    },
+    {
+      "lastUpdated": "2026-09-11T00:00:00.000+09:00",
+      "reportDate": "2026. 9. 11.",
+      "summary": "- 사이버 보안 시장의 급부상: 젠슨 황 엔비디아 CEO를 필두로 AI의 차세대 핵심 적용 분야로 사이버 보안이 지목되며 관련 산업의 중요성이 크게 대두됨.\n\n- 기술 고도화 및 협력 강화: 네이버와 LG 등 국내외 주요 기업들이 보안 특화 AI 개발에 착수하며 글로벌 경쟁력 확보를 위한 기술적 연합이 활발함.\n\n- AI 투자의 질적 변화: AI가 가져올 공포를 혁신의 기회로 전환하는 전략적 관점이 확산 중이며, 스타트업을 중심으로 AI 생태계에 천문학적인 규모의 자본이 유입되고 있음.",
+      "summaryScore": 88,
+      "dailyVelocity": 1,
+      "velocityReason": "Markdown 보관 리포트에서 복원된 과거 데이터입니다.",
+      "cumulativeRiskScore": 50,
+      "jobRiskScore": 50,
+      "riskScoreBreakdown": [
+        {
+          "event": "사이버 보안 특화 AI 개발 본격화",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": null
+        },
+        {
+          "event": "AI 생태계로의 대규모 자본 유입",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": null
+        }
+      ],
+      "id": "2026-09-11",
+      "fileName": "2026-09-11.json"
+    },
+    {
+      "lastUpdated": "2026-09-09T23:45:55.001Z",
+      "reportDate": "2026. 9. 10.",
+      "summary": "- AI 안전성 및 실존적 위협 경고: 앤트로픽 핵심 연구원들이 AI의 통제 불가능성과 인류에 대한 잠재적 위험을 경고하며 연이어 퇴사함.\n\n- 기술적 난제 해결 가속화: 오픈AI가 90년간 미해결 상태였던 수학 난제를 88시간 만에 해결하며 AI의 추론 및 문제 해결 능력의 비약적 발전을 증명함.\n\n- 인재 유출 및 산업계 동요: 2,000억 원의 연봉 제안에도 연구자들이 빅테크를 이탈하는 현상이 심화되며, AI 산업 내 인적 자원 경쟁과 가치관 갈등이 극에 달함.",
+      "summaryScore": 90,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI의 추론 능력이 비약적으로 향상되며 고숙련 전문가 영역인 수학 난제 해결이 입증된 것이 개발 및 연구 직무의 변화 속도를 높임.",
+      "cumulativeRiskScore": 52.4,
+      "jobRiskScore": 52.4,
+      "riskScoreBreakdown": [
+        {
+          "event": "오픈AI 수학 난제 해결",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 4
+        },
+        {
+          "event": "앤트로픽 연구원들의 안전성 경고",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        },
+        {
+          "event": "빅테크 핵심 인재 유출",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-09-10",
+      "fileName": "2026-09-10.json"
+    },
+    {
+      "lastUpdated": "2026-09-08T23:47:16.856Z",
+      "reportDate": "2026. 9. 9.",
+      "summary": "- AI의 과학적 난제 해결 역량 입증: 오픈AI가 7대 수학 난제 중 하나인 나비에-스토크스 방정식의 해법을 88시간 만에 도출하며 고도화된 연산 및 추론 능력 과시.\n\n- 공공 및 사회적 AI 활용 확대: 지방자치단체와 기업 주도의 AI 기반 취업 지원 및 사회 문제 해결형 AI 인재 양성 프로그램이 활발히 운영 중.\n\n- 연구 개발의 패러다임 변화: AI가 순수 과학 및 연구 분야에 직접 개입하여 성과를 내면서, 향후 연구 인력의 역할 재정립 및 자동화 논란 확산.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.2,
+      "velocityReason": "오픈AI의 수학 난제 해결은 고숙련 전문직 연구 분야의 자동화 가능성을 높여 일자리 위험을 완만하게 가속함.",
+      "cumulativeRiskScore": 52.3,
+      "jobRiskScore": 52.3,
+      "riskScoreBreakdown": [
+        {
+          "event": "오픈AI 수학 난제 해결 및 연구 자동화 가속",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 기반 취업 코칭 및 인재 양성 확산",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-09-09",
+      "fileName": "2026-09-09.json"
+    },
+    {
+      "lastUpdated": "2026-09-07T23:53:58.510Z",
+      "reportDate": "2026. 9. 8.",
+      "summary": "- AI 하드웨어 수요 급증: 삼성전자와 SK하이닉스 등 반도체 기업들이 고성능 AI 인프라 시장 성장에 힘입어 시장을 주도하고 있음.\n\n- 국가 차원의 AI 인재 확보 경쟁: 정부가 파격적인 조건으로 해외 핵심 AI 인재 유치에 나서는 등 국가 경쟁력 강화를 위한 인적 자원 확보에 사활을 걸고 있음.\n\n- 산업계의 AI 인프라 중심 체질 개선: SKT를 비롯한 통신사들이 단순 통신 서비스를 넘어 AI 데이터센터 및 인프라 사업자로 사업 영역을 적극적으로 확장하고 있음.\n\n- 지역 거점 기반의 AI 생태계 조성: 부산, 강원 등 지자체와 대학이 협력하여 지역 맞춤형 AI 연구 인력을 양성하고 지역 현안을 해결하는 AI 전환(AX) 전략을 추진하고 있음.",
+      "summaryScore": 82,
+      "dailyVelocity": 0.3,
+      "velocityReason": "AI 하드웨어 및 인프라 중심의 생태계 확장과 전문 인력 확보가 가속화되고 있으나, 직접적인 대규모 직무 대체보다는 인력 수요 창출에 집중된 동향임.",
+      "cumulativeRiskScore": 52.2,
+      "jobRiskScore": 52.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 인프라 반도체 수요 폭발",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 전문 인력 유치 및 양성 확대",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        },
+        {
+          "event": "지역 기반 AI 인재 양성 및 교육 활성화",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-09-08",
+      "fileName": "2026-09-08.json"
+    },
+    {
+      "lastUpdated": "2026-09-06T23:24:08.266Z",
+      "reportDate": "2026. 9. 7.",
+      "summary": "- 인프라 및 생태계 확장: 엔비디아의 허깅페이스 인수를 통해 하드웨어와 소프트웨어가 통합된 개방형 AI 생태계가 더욱 강력하게 구축됨.\n\n- AI 에이전트의 산업화: 제조, 물류 등 물리적 산업 현장에 AI 에이전트를 도입하려는 시도가 늘어나며 기업용 AX(AI 전환) 솔루션이 가속화됨.\n\n- 기술 고도화 및 규제 논의: AI 에이전트의 자율적 활동 범위가 넓어짐에 따라 이에 대응하기 위한 글로벌 규제 법안 마련이 본격화되는 추세임.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.2,
+      "velocityReason": "엔비디아의 생태계 장악과 기업형 AI 에이전트 도입이 활발해지면서, 특정 직무의 효율화 및 자동화 가능성이 상승함.",
+      "cumulativeRiskScore": 52.2,
+      "jobRiskScore": 52.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "엔비디아 허깅페이스 인수",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "산업 현장 AI 에이전트 도입 가속화",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 규제 법안 발의",
+          "sign": "_",
+          "impact": 2,
+          "newsIndex": 3
+        }
+      ],
+      "id": "2026-09-07",
+      "fileName": "2026-09-07.json"
+    },
+    {
+      "lastUpdated": "2026-09-05T23:29:20.732Z",
+      "reportDate": "2026. 9. 6.",
+      "summary": "- 중국의 AI 자립 가속화: 딥시크가 화웨이 AI 칩을 기반으로 초대형 데이터센터를 구축하며 미국의 제재 속에서도 독자적인 AI 인프라 생태계를 확장하고 있음.\n\n- 범용 인공지능(AGI) 시대 개막: 오픈AI의 'GPT-6 아스트라' 공개는 AI 자율성이 인간의 업무를 실질적으로 대체하는 새로운 단계에 진입했음을 시사하며 기술적 변곡점을 마련함.\n\n- 전문 영역의 AI 혁신: 제약·바이오 등 고부가가치 산업에서 AI 도입을 통해 연구개발 기간을 획기적으로 단축하는 등 산업 전반의 효율성 향상과 비즈니스 모델 변화가 가속화됨.",
+      "summaryScore": 92,
+      "dailyVelocity": 2.5,
+      "velocityReason": "오픈AI의 GPT-6 아스트라 발표로 인해 AI의 자율성이 대폭 강화되면서 화이트칼라 직무의 자동화 체감 속도가 빨라졌음.",
+      "cumulativeRiskScore": 52.1,
+      "jobRiskScore": 52.1,
+      "riskScoreBreakdown": [
+        {
+          "event": "OpenAI GPT-6 아스트라 공개",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 2
+        },
+        {
+          "event": "중국 AI 인프라 자립화 가속",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        },
+        {
+          "event": "특수 직군(신약개발 등) 업무 효율 극대화",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-09-06",
+      "fileName": "2026-09-06.json"
+    },
+    {
+      "lastUpdated": "2026-09-04T23:38:11.314Z",
+      "reportDate": "2026. 9. 5.",
+      "summary": "- 공공 AI 생태계 구축: 카카오, SKT, KT 등 국내 주요 통신·플랫폼 기업이 참여하는 '모두의 AI' 프로젝트가 정부 지원을 바탕으로 본격화됨.\n- 대국민 AI 서비스 확장: 취준생, 소상공인 등 전 국민 대상 AI 서비스 제공을 통해 일상 속 AI 활용도와 디지털 격차 해소 노력이 가속화됨.\n- 차세대 AGI 기술 도입: 오픈AI가 'GPT-6 아스트라'를 공개하며 범용인공지능(AGI) 시대로의 본격적인 전환을 선언함.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.8,
+      "velocityReason": "오픈AI의 AGI 수준 모델인 GPT-6 아스트라 공개와 국내 기업들의 대규모 AI 프로젝트 가시화로 인해 기술 대체 속도와 산업 영향력이 동시에 가속화됨.",
+      "cumulativeRiskScore": 51.8,
+      "jobRiskScore": 51.8,
+      "riskScoreBreakdown": [
+        {
+          "event": "오픈AI GPT-6 아스트라 출시",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 4
+        },
+        {
+          "event": "국내 3사 모두의 AI 프로젝트 추진",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        }
+      ],
+      "id": "2026-09-05",
+      "fileName": "2026-09-05.json"
+    },
+    {
+      "lastUpdated": "2026-09-03T23:45:56.873Z",
+      "reportDate": "2026. 9. 4.",
+      "summary": "- 차세대 AGI 모델 등극: 오픈AI가 'GPT-6 아스트라'를 공개하며 범용인공지능(AGI) 시대로의 본격적인 진입을 선언함.\n- 기술 혁신 가속: '순환 추론' 기술 도입으로 모델의 추론 성능과 복잡한 문제 해결 능력이 대폭 향상됨.\n- 국내 공공 보안 시장 선점: 네이버 컨소시엄이 정부의 '보안 특화 AI' 사업자로 선정되며 국가 차원의 AI 인프라 보안 구축이 본격화됨.",
+      "summaryScore": 92,
+      "dailyVelocity": 1.8,
+      "velocityReason": "오픈AI의 GPT-6 아스트라 발표는 고도화된 추론 능력으로 인해 지식 노동자들의 업무 대체 가능성을 실질적으로 높였음.",
+      "cumulativeRiskScore": 51.6,
+      "jobRiskScore": 51.6,
+      "riskScoreBreakdown": [
+        {
+          "event": "GPT-6 아스트라 공개",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 1
+        },
+        {
+          "event": "순환 추론 기반의 고도화된 성능 향상",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "정부 보안 특화 AI 사업 선정",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-09-04",
+      "fileName": "2026-09-04.json"
+    },
+    {
+      "lastUpdated": "2026-09-03T00:00:00.000+09:00",
+      "reportDate": "2026. 9. 3.",
+      "summary": "- 차세대 AGI 모델 등극: 오픈AI가 'GPT-6 아스트라'를 공개하며 범용인공지능(AGI) 시대로의 본격적인 진입을 선언함.\n- 기술 혁신 가속: '순환 추론' 기술 도입으로 모델의 추론 성능과 복잡한 문제 해결 능력이 대폭 향상됨.\n- 국내 공공 보안 시장 선점: 네이버 컨소시엄이 정부의 '보안 특화 AI' 사업자로 선정되며 국가 차원의 AI 인프라 보안 구축이 본격화됨.",
+      "summaryScore": 92,
+      "dailyVelocity": 1,
+      "velocityReason": "Markdown 보관 리포트에서 복원된 과거 데이터입니다.",
+      "cumulativeRiskScore": 50,
+      "jobRiskScore": 50,
+      "riskScoreBreakdown": [
+        {
+          "event": "GPT-6 아스트라 공개",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": null
+        },
+        {
+          "event": "순환 추론 기반의 고도화된 성능 향상",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": null
+        },
+        {
+          "event": "정부 보안 특화 AI 사업 선정",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": null
+        }
+      ],
+      "id": "2026-09-03",
+      "fileName": "2026-09-03.json"
+    },
+    {
+      "lastUpdated": "2026-09-02T00:00:00.000+09:00",
+      "reportDate": "2026. 9. 2.",
+      "summary": "- 국가 안보 및 소버린 AI 확대: 국방부가 독자적인 전장 특화 AI 모델을 개발하며 국가 안보 주권을 강화하고 소버린 AI의 중요성이 부각됨.\n- AI 성능 혁신: 앤스로픽 AI가 373년 된 난제를 단시간에 해결하는 등 AI의 논리적 추론 및 데이터 처리 능력이 비약적으로 발전함.\n- 공공 데이터 개방 및 문화 산업 전환: 정부 차원의 데이터 개방을 통해 문화, 관광 등 산업 전반의 디지털 전환이 가속화됨.\n- 교육 현장의 AI 활용 갈등: AI 기술의 급성장에 대응하여 뉴욕시 등 주요 학군이 학생들의 학습권 보호를 이유로 AI 사용을 일시 금지하며 교육적 접근을 재검토함.",
+      "summaryScore": 82,
+      "dailyVelocity": 1,
+      "velocityReason": "Markdown 보관 리포트에서 복원된 과거 데이터입니다.",
+      "cumulativeRiskScore": 50,
+      "jobRiskScore": 50,
+      "riskScoreBreakdown": [
+        {
+          "event": "소버린 AI 및 국방 AI 도입",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": null
+        },
+        {
+          "event": "AI 고도화에 따른 복합 문제 해결 능력 입증",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": null
+        },
+        {
+          "event": "교육 현장 AI 사용 금지 조치",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": null
+        }
+      ],
+      "id": "2026-09-02",
+      "fileName": "2026-09-02.json"
+    },
+    {
+      "lastUpdated": "2026-09-01T00:00:00.000+09:00",
+      "reportDate": "2026. 9. 1.",
+      "summary": "- AI 콘텐츠 시장의 냉정한 현실: 생성형 AI를 활용한 숏폼 콘텐츠가 대거 쏟아지고 있으나, 98% 이상의 대다수가 수익 창출에 실패하며 시장의 거품 논란과 실질적인 수익화 모델의 한계가 드러남.\n\n- 국가 차원의 AI 인프라 및 예산 대폭 확대: 정부가 전 국민 AI 서비스 지원과 '피지컬 AI' 분야 예산을 3배 증액하는 등 국가적 경쟁력 확보를 위한 대규모 예산 투입 계획을 발표함.\n\n- AI 하드웨어 확보 및 투자 전쟁 가속화: 글로벌 AI 패권 경쟁을 위해 GPU 1만 장 확보에 3.85조 원을 투입하며, AI와 방산 중심의 투자 전쟁이 전 세계적인 국채 금리 상승을 유발하는 등 거시 경제에 큰 영향을 미치고 있음.",
+      "summaryScore": 88,
+      "dailyVelocity": 1,
+      "velocityReason": "Markdown 보관 리포트에서 복원된 과거 데이터입니다.",
+      "cumulativeRiskScore": 50,
+      "jobRiskScore": 50,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 숏폼 수익화 실패 사례 증가",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": null
+        },
+        {
+          "event": "정부 주도 AI 산업 대규모 예산 투입",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": null
+        },
+        {
+          "event": "GPU 등 AI 하드웨어 인프라 확보",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": null
+        }
+      ],
+      "id": "2026-09-01",
+      "fileName": "2026-09-01.json"
+    }
+  ],
+  "occupationTracking": []
+}
