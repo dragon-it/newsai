@@ -1,7 +1,160 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T01:21:21.980Z",
+  "updatedAt": "2026-11-10T06:03:03.795Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-10T06:03:03.781Z",
+      "reportDate": "2026. 11. 10.",
+      "summary": "- AI 역량과 고용 시장: 취업 준비생 사이에서 AI 역량의 중요성이 강조되고 있으나, 이를 공식적으로 평가하는 기업은 일부에 불과해 괴리가 존재함.\n\n- 인프라 계약 차질과 불확실성: 대형 AI 프로젝트 계약 불발 및 사생활 논란이 겹치며 관련 산업의 신뢰 문제와 인프라 확장에 대한 우려가 확산됨.\n\n- 보안 및 AI 활용 리스크: AI 기반 모의해킹이 서버를 무력화하는 등 고도화된 공격 도구의 위험성이 대두되는 한편, 산업 현장 전반으로의 안전 솔루션 도입이 추진됨.",
+      "summaryScore": 76,
+      "dailyVelocity": 1,
+      "velocityReason": "AI 역량 평가 도입과 인프라 프로젝트 차질, 보안 리스크 등 표준적인 업계 동향과 기술 영향 소식이 복합적으로 반영됨.",
+      "cumulativeRiskScore": 53,
+      "jobRiskScore": 53,
+      "riskScoreBreakdown": [
+        {
+          "event": "취업 시장 AI 역량 중요성 대두",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 프로젝트 계약 불발 및 인프라 비상",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 산업 신뢰도 및 사생활 논란",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 3
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "소프트웨어 개발자",
+          "tasks": [
+            "코드 작성",
+            "서버 모의해킹 대응"
+          ],
+          "reason": "AI 기반 자동화 도구와 모의해킹 툴이 고도화됨에 따라 단순 코딩 및 취약점 점검 업무의 자동화 가능성이 확인되고 있으나, 보안 방어 및 아키텍처 설계 영역에서는 인간 엔지니어의 개입과 통제가 필수적임.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-9",
+              "title": "\"AI해커 속여 해킹 방어\"...숭실대 AI안전성연구센터, 새 기술 개발 - 지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Kdl9rTHAwOEU2cF9wRE1HM0t0a3JTdndsUFVXQy01cS1NWXhPRzlocUdfQzZxMHBBVmdTMXFkSVc2ODBTejZ6VkNiZ1JhdXpIZ2VWb09n?oc=5",
+              "reportDate": "2026-11-09"
+            },
+            {
+              "id": "article-15",
+              "title": "17분 만에 해골문양 등장‥PHP 서버, AI 모의해킹에 속수무책으로 뚫려 - MBC 뉴스",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvMzFCSTJPT1dIR3JmYlRBTmktcFQzLVFvMEpsOW5zN1o1c0VibkpxMzFsY19yMGMzZnFMYVRUN0NMeTVuZ2kwdEVrbkkwaHhqTUx2RGRZVjVzRTI0YmVfWndNTGRZOGFFMFB3emhsMF9EdHE5ZU9wTtIBeEFVX3lxTE5XRnRrdGRlczhiUDVabjBsSElvVDhIVGQ4QVMzemh3dEVJaDI2Z3NVeVpHckd5cWd6Ul9iWWJoTkItenlydUJPTE9NMkxOMDBfNnoxVHVKLVJGMUk5MmxYaGFJS3ZMWjRPY3FpVWIxTGZKc01BNlRxRA?oc=5",
+              "reportDate": "2026-11-08"
+            },
+            {
+              "id": "article-88",
+              "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        },
+        {
+          "occupation": "기자",
+          "tasks": [
+            "글쓰기",
+            "정보 요약 및 그래픽 제작"
+          ],
+          "reason": "AI를 활용한 정보 요약 및 콘텐츠 제작 자동화가 미디어 현장에 도입되고 있으나, 기술 의존에서 벗어나 인간 주도의 창작과 심층 분석의 가치를 재확인하는 움직임도 함께 나타남.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-6",
+              "title": "AI·인터넷 없이 3시간 글쓰기… \"내 힘으로 완성하니 짜릿\" - 조선일보",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZWs5VnhmVTFNWU1LT3dYeVN4bXUtMzVST1p4dTFqNHNCVjNaNFRBcVVIUGJqcnMxeHU5R2lCVWc0b0pZVDlSUVUzSGNJS3BWUTdvMGMwWFhPeGpQUVBSa3kwRlhQa000M0NrOUlKc1AwQUpzNUpGdnBvVW9Uc2NxWjFULVM5Rk0?oc=5",
+              "reportDate": "2026-11-09"
+            },
+            {
+              "id": "article-51",
+              "title": "매끄러운 한 줄 요약의 바깥을 그리다…‘AI시대와 언론’ 그래픽 제작기[뉴스뷰] - 경향신문",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUl8xV2R0YlZDbklKc1prbzFvNDJQZlRpSEZOcnk5cGxBMEs1STJiZi1TNDd2TEp4UkZGTy1ZN2pJYTdWYnhsemVxTFg0OHN6dUNCeW5nOWdJUXZubTJKV2t4a1YtYUlVamwtU3h1UTliZ2ZGTFM4aHpRbDRHMm55c244OVRpakFhYm9ueXJTbjJNRkFrVHpHTDUyM0NyMmE4ZURZN0RETUt6dw?oc=5",
+              "reportDate": "2026-10-31"
+            }
+          ]
+        },
+        {
+          "occupation": "공무원",
+          "tasks": [
+            "단순 행정 업무",
+            "민원 응대 및 처리"
+          ],
+          "reason": "공공 행정 영역에서 AI를 도입하여 업무 효율성을 검증하는 실험과 제도가 추진 중이며, 단순 반복 행정 업무의 자동화 가능성이 검토되고 있음.",
+          "stage": "기술 시연",
+          "evidence": [
+            {
+              "id": "article-34",
+              "title": "충남도, 2030년 ‘AI 기본사회’ 돌봄부터 교통·행정까지 연결 - 브릿지경제",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84MEIzUUNTN1k4d1lWbklQazdvanI3RFJhb1V2R2dHZXBzb1lxdE5ycWJKSzZqV1ZoRnN6MUVSSmdoUmVLZzNaSHpra3ItN015VUxfeVpVcmEtQQ?oc=5",
+              "reportDate": "2026-11-04"
+            },
+            {
+              "id": "article-45",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            },
+            {
+              "id": "article-61",
+              "title": "공공기관 AI 활용 확대…달라지는 제도와 안전기준은? - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWRqU0QyTEZSbzdGTzMydDlpRVc2MkxKTG1za2lqRXQzOXNHSVlGVXl5bU9NNThsc1Q0RUtRb3B2aVdEZGlUd1JVelZYclBYZ3lCYXFTWHhmc0xfX1dJbDJheXFhc3ctY2lqSHgwb25XUDNkem16dlhsQ3ViTGVYdUNrY3VxVzBNNkw0?oc=5",
+              "reportDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "occupation": "사무직원",
+          "tasks": [
+            "보고서 작성",
+            "PPT 발표 자료 제작",
+            "데이터 심사"
+          ],
+          "reason": "기업 내 문서 작성 및 비즈니스 프로세스에 생성형 AI가 광범위하게 도입되고 있으나, 후속 검토 과정의 복잡성으로 인해 인간 관리자의 역할이 여전히 강조됨.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-24",
+              "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+              "reportDate": "2026-11-06"
+            },
+            {
+              "id": "article-54",
+              "title": "“후배가 쓴 보고서, 대놓고 AI 썼네요”...이제 ‘사람 냄새’ 풍기는 기술이 돈 - 매일경제",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IdEdiS3hSaGk0b0gzNHZTNFlHdHVzd3M1MEozWkw1QzFOMFlpU3gtb0xFSWM2MUMtSVpMY1pPczVENTRGam1kU2JkRTlEUQ?oc=5",
+              "reportDate": "2026-10-30"
+            },
+            {
+              "id": "article-87",
+              "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-11-10",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 4,
+        "acceptedCount": 4
+      },
+      "id": "2026-11-10",
+      "fileName": "2026-11-10.json"
+    },
     {
       "lastUpdated": "2026-11-09T01:21:21.973Z",
       "reportDate": "2026. 11. 9.",
@@ -31,12 +184,107 @@
           "newsIndex": 2
         }
       ],
-      "occupationRisks": [],
+      "occupationRisks": [
+        {
+          "occupation": "공무원",
+          "tasks": [
+            "행정 업무 처리",
+            "민원 응대 및 관리"
+          ],
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이나, 단순 행정 업무의 자동화 단계이며 직업 전체의 소멸이나 대체가 확정된 것은 아님.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-40",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "occupation": "소프트웨어 개발자",
+          "tasks": [
+            "코드 작성 및 프로그래밍",
+            "서버 보안 취약점 점검"
+          ],
+          "reason": "AI가 코드 작성 및 모의해킹 등을 수행하는 기술과 에이전트 병렬 실행 기능이 고도화되고 있으나, 엔지니어의 역할이 문제 해결과 아키텍처 설계 중심으로 변화하는 단계임.",
+          "stage": "기술 시연",
+          "evidence": [
+            {
+              "id": "article-10",
+              "title": "17분 만에 해골문양 등장‥PHP 서버, AI 모의해킹에 속수무책으로 뚫려 - MBC 뉴스",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvMzFCSTJPT1dIR3JmYlRBTmktcFQzLVFvMEpsOW5zN1o1c0VibkpxMzFsY19yMGMzZnFMYVRUN0NMeTVuZ2kwdEVrbkkwaHhqTUx2RGRZVjVzRTI0YmVfWndNTGRZOGFFMFB3emhsMF9EdHE5ZU9wTtIBeEFVX3lxTE5XRnRrdGRlczhiUDVabjBsSElvVDhIVGQ4QVMzemh3dEVJaDI2Z3NVeVpHckd5cWd6Ul9iWWJoTkItenlydUJPTE9NMkxOMDBfNnoxVHVKLVJGMUk5MmxYaGFJS3ZMWjRPY3FpVWIxTGZKc01BNlRxRA?oc=5",
+              "reportDate": "2026-11-08"
+            },
+            {
+              "id": "article-83",
+              "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+              "reportDate": "2026-10-20"
+            },
+            {
+              "id": "article-88",
+              "title": "오픈AI, ‘GPT-6 아스트라 프로’ 업그레이드...에이전트 병렬 실행 지원 - AI타임스",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fRjMyNFJlSnd5LTRkeElJUVEwVUJrZUtlVjlWdEdxSVV3RW4wc2NDQ0dmYllpMHVfNzdldjBtX0pKdUVHWm83dk9samtKRFhMekUxRDdBUXR4UXcyUE1rMEFZaG5aMV9uREE?oc=5",
+              "reportDate": "2026-10-19"
+            }
+          ]
+        },
+        {
+          "occupation": "방송 제작 스태프",
+          "tasks": [
+            "프로그램 매칭 및 추적 촬영",
+            "영상 콘텐츠 편집"
+          ],
+          "reason": "방송 제작 현장에서 AI 매칭 및 추적 촬영 기술이 도입되어 제작 효율성이 높아지고 있으나, 자동화 도구 사용 시 권한 관리와 인간의 검토 필요성이 함께 대두됨.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-54",
+              "title": "KT HCN, '홀로탈출' 시즌4…AI 매칭·추적 촬영 도입 - 전자신문",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80MVh6NmNnQ0dRa1dYOEVzVVUxRGpsbmIzSFhPMTdHVmJtT1BYZXJmZUlaQzRjVWVUT2VZTXRZX0JGNk1tX094Q1ZWOHZUQQ?oc=5",
+              "reportDate": "2026-10-29"
+            },
+            {
+              "id": "article-100",
+              "title": "AI에 권한 줬더니…방송 직전 프로그램 통째 증발 ‘날벼락 - 지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95bWJhcUFTQlhQQWp1bF9wXzlUV1BLQVZROFlQUDVHWlNPWG9SamRKRTZOSFdHdHB4SHNyVk1TSU8yMTNaMzRGSFFHck5mY3Z4QVZmS2xR?oc=5",
+              "reportDate": "2026-10-17"
+            }
+          ]
+        },
+        {
+          "occupation": "사무직 근로자",
+          "tasks": [
+            "보고서 및 PPT 작성",
+            "사내 행정 및 데이터 정리"
+          ],
+          "reason": "AI 도구를 활용한 문서 및 발표 자료 작성 자동화가 확산되고 있으나, 후속 업무의 복잡성으로 인해 인간의 회의 및 검토 시간이 오히려 길어지는 등 보완적 협업 형태가 유지됨.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-19",
+              "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+              "reportDate": "2026-11-06"
+            },
+            {
+              "id": "article-82",
+              "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        }
+      ],
       "occupationAnalysis": {
         "startDate": "2026-10-11",
         "endDate": "2026-11-09",
-        "articleCount": 19,
-        "model": "gemini-3.5-flash-lite"
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 5,
+        "acceptedCount": 4
       },
       "id": "2026-11-09",
       "fileName": "2026-11-09.json"
@@ -75,7 +323,8 @@
         "startDate": "2026-10-10",
         "endDate": "2026-11-08",
         "articleCount": 14,
-        "model": "gemini-3.5-flash-lite"
+        "model": "gemini-3.5-flash-lite",
+        "acceptedCount": 0
       },
       "id": "2026-11-08",
       "fileName": "2026-11-08.json"
@@ -108,7 +357,8 @@
         "startDate": "2026-10-09",
         "endDate": "2026-11-07",
         "articleCount": 10,
-        "model": "gemini-3.5-flash-lite"
+        "model": "gemini-3.5-flash-lite",
+        "acceptedCount": 0
       },
       "id": "2026-11-07",
       "fileName": "2026-11-07.json"
@@ -147,10 +397,1507 @@
         "startDate": "2026-10-08",
         "endDate": "2026-11-06",
         "articleCount": 5,
-        "model": "gemini-3.5-flash-lite"
+        "model": "gemini-3.5-flash-lite",
+        "acceptedCount": 0
       },
       "id": "2026-11-06",
       "fileName": "2026-11-06.json"
+    },
+    {
+      "lastUpdated": "2026-11-05T01:57:00.701Z",
+      "reportDate": "2026. 11. 5.",
+      "summary": "- AI 서비스 시장 확장: 뤼튼과 스캐터랩이 선점한 캐릭터 챗봇 시장에 게임사들이 진입하며 서비스 경쟁과 사용자 경험 고도화가 본격화됨. - 산업 현장 AI 도입 가속: LG그룹을 중심으로 AI 기반의 실시간 안전 관리 및 설비 제어 기술이 도입되어 산업 현장의 재해 예방 체계가 고도화됨. - AI 인프라 시장 확대: 퀄컴이 스마트폰 중심의 사업 영역을 넘어 데이터센터용 AI 인프라 시장 공략을 본격화하며 시장 점유율 확대 전략을 가속함.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.3,
+      "velocityReason": "산업 현장의 AI 안전 제어 솔루션 도입과 인프라 확장 등 업무 보조 및 효율화에 집중된 기술 트렌드가 주를 이루어 일자리 위험도 변동은 완만함.",
+      "cumulativeRiskScore": 55.3,
+      "jobRiskScore": 55.3,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 기반 산업 안전 자동화",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 데이터센터 인프라 확장",
+          "sign": "+",
+          "impact": 1,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-11-05",
+      "fileName": "2026-11-05.json"
+    },
+    {
+      "lastUpdated": "2026-11-04T01:49:31.354Z",
+      "reportDate": "2026. 11. 4.",
+      "summary": "- 전력 인프라의 중요성 증대: AI 데이터센터 확장에 따른 전력 안정성 확보가 국가 경쟁력의 핵심으로 부상하며 한국 전력망의 우수성이 주목받음.\n\n- AI 생태계 효율화 및 표준화: 오픈AI가 서비스 사용량을 통합하고 구글이 AI 모델의 공학 설계 성능을 엄격히 검증하는 등 기술 최적화가 가속화됨.\n\n- AI 시대의 사회적 대응 전략: 중국과 한국의 지자체들이 AI 도입에 따른 일자리 변화 및 공공 서비스 혁신을 위해 사회보장 체계 재정비와 행정 연계 전략을 마련함.",
+      "summaryScore": 82,
+      "dailyVelocity": 0.8,
+      "velocityReason": "AI 도입 확산에 따른 공공 부문의 일자리 대체 우려와 시스템 통합 등 생태계 최적화 움직임이 결합되어 전반적인 사회 변화 속도가 빨라짐.",
+      "cumulativeRiskScore": 55.3,
+      "jobRiskScore": 55.3,
+      "riskScoreBreakdown": [
+        {
+          "event": "중국의 AI 일자리 대체 대비 강화",
+          "sign": "+",
+          "impact": 6,
+          "newsIndex": 4
+        },
+        {
+          "event": "공공 행정 및 돌봄 AI 도입 확대",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 모델 공학 설계 능력 검증",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 3
+        }
+      ],
+      "id": "2026-11-04",
+      "fileName": "2026-11-04.json"
+    },
+    {
+      "lastUpdated": "2026-11-03T00:00:00.000+09:00",
+      "reportDate": "2026. 11. 3.",
+      "summary": "- AI 자율성 실험: 대규모 AI 에이전트 그룹 실험을 통해 복잡한 사회적 상황에서의 의사결정 한계와 관료주의적 폐해 확인.\n\n- AI 에이전트 시장 확대: 스노우플레이크의 업무 자동화 에이전트 출시와 이스라엘 보안 기업들의 기술 피칭 등 기업용 솔루션 경쟁 심화.\n\n- 온디바이스 AI 기술 고도화: 엔씨소프트의 초경량 VLM 모델 공개를 통해 물리 기반 AI 및 경량화 모델 연구 활성화.",
+      "summaryScore": 72,
+      "dailyVelocity": null,
+      "velocityReason": "Markdown 보관 리포트에서 복원된 과거 데이터입니다.",
+      "cumulativeRiskScore": null,
+      "jobRiskScore": null,
+      "restoredFromMarkdown": true,
+      "riskScoreBreakdown": [
+        {
+          "event": "스노우플레이크 업무 자동화 에이전트 공개",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": null
+        },
+        {
+          "event": "이스라엘 기업들의 보안 AI 에이전트 소개",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": null
+        },
+        {
+          "event": "AI 사회적 실험을 통한 자율성 한계 도출",
+          "sign": "-",
+          "impact": 1,
+          "newsIndex": null
+        }
+      ],
+      "id": "2026-11-03",
+      "fileName": "2026-11-03.json"
+    },
+    {
+      "lastUpdated": "2026-11-02T01:10:29.518Z",
+      "reportDate": "2026. 11. 2.",
+      "summary": "- AI 모델의 신뢰성 및 한계 노출: AI가 인간의 실수를 학습하거나 모방하는 한계가 확인되며, 모델의 안정적인 활용에 대한 의문이 제기됨.\n\n- AI 시장 거품론 및 금융 우려: 앤트로픽의 상장과 관련하여 빅테크의 과도한 투자에 대한 경고와 금융권의 신용 등급 우려가 커지며 시장 변동성이 확대됨.\n\n- 산업 현장의 실질적 협력 가속: 지멘스와 네이버의 협력처럼 AI가 제조 및 물류 등 산업 현장에 직접 적용되는 구체적이고 생산적인 협력 사례가 늘고 있음.",
+      "summaryScore": 72,
+      "dailyVelocity": 0.2,
+      "velocityReason": "AI의 기술적 한계와 시장의 수익성 우려가 대두되면서 급격한 자동화보다는 내실을 다지는 흐름으로 전환되는 추세임.",
+      "cumulativeRiskScore": 55.2,
+      "jobRiskScore": 55.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 모델의 실적 부진 및 오류 노출",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 기업 상장 및 수익성 우려",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "산업용 AI 협업 확대",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-11-02",
+      "fileName": "2026-11-02.json"
+    },
+    {
+      "lastUpdated": "2026-11-01T00:36:46.608Z",
+      "reportDate": "2026. 11. 1.",
+      "summary": "- 공공 부문 AI 도입 가속화: 네덜란드 등 공공 영역에서 AI를 통한 업무 효율성 실험이 진행되며 행정 직무 재편 가능성이 논의되고 있음.\n\n- 온디바이스 및 우주 AI 확장: 구글의 인터넷 연결 없는 제미나이 라이브 개발과 우주 데이터센터를 통한 AI 연산 실험은 AI의 적용 범위를 지상에서 궤도까지 대폭 확장함.\n\n- AI 시장 및 기업 가치 변동: 앤스로픽 등 AI 기업의 상장 이슈가 주식 시장의 주요 화두로 떠오르며 투자자들의 AI 기업 평가에 대한 관심이 집중되고 있음.",
+      "summaryScore": 82,
+      "dailyVelocity": 1.2,
+      "velocityReason": "공공 부문의 AI 도입 실험과 온디바이스 AI 기술 진보가 결합하여 직무 자동화의 범위를 확장한 것이 핵심임.",
+      "cumulativeRiskScore": 55.2,
+      "jobRiskScore": 55.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "네덜란드 공공 부문 AI 업무 대체 실험",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "온디바이스 AI(제미나이 라이브) 개발",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 기업 상장으로 인한 시장 변동성 확대",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-11-01",
+      "fileName": "2026-11-01.json"
+    },
+    {
+      "lastUpdated": "2026-10-31T01:21:16.698Z",
+      "reportDate": "2026. 10. 31.",
+      "summary": "- 콘텐츠 시장의 보상 불균형: AI 기술로 생성된 예술 및 음악 콘텐츠의 저작권과 수익 분배를 둘러싼 논란이 지속되고 있습니다.\n\n- AI 수익성 및 시장 변동성: 구글 사례처럼 AI 인프라 투자 대비 실질적 수익 모델에 대한 시장의 의구심이 기술주 전체의 변동성을 키우고 있습니다.\n\n- 실무 혁신 및 산학 협력: AI 비전 검사, 자율주행 등 산업 현장에 직접적인 효율을 가져오는 기술의 상용화와 대학 중심의 창업 활동이 활발합니다.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.5,
+      "velocityReason": "AI 기술의 산업 적용 범위가 확대되고 있으나, 수익성 논란이 시장의 긴장감을 높이며 기술 발전과 경제적 가치 간의 불일치가 부각됨.",
+      "cumulativeRiskScore": 55.1,
+      "jobRiskScore": 55.1,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 생성 콘텐츠 수익 배분 논란",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 인프라 투자 대비 수익성 우려",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 2
+        },
+        {
+          "event": "산업 현장 AI 자동화 기술 적용",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-31",
+      "fileName": "2026-10-31.json"
+    },
+    {
+      "lastUpdated": "2026-10-30T01:29:49.689Z",
+      "reportDate": "2026. 10. 30.",
+      "summary": "- AI 하드웨어 및 인프라 투자 급증: 퓨리오사AI의 대규모 투자 유치 성공으로 국내 AI 반도체 생태계 경쟁력 강화 및 산업 가치 제고.\n\n- AI 활용성 및 비즈니스 고도화: LG CNS의 AI 기반 실적 견인 및 '사람 냄새' 나는 AI 기술 도입을 통해 기업 내 AI 업무 효율과 가치 창출이 가시화됨.\n\n- AI 윤리 및 공공분야 적용 확대: 동의대의 AI 윤리 가이드 제정과 공공데이터 경진대회 성과를 통해 AI의 건전한 활용 문화와 사회적 활용 범위가 점진적으로 확산됨.",
+      "summaryScore": 82,
+      "dailyVelocity": 0.8,
+      "velocityReason": "AI 기술의 기업 현장 도입과 생산성 향상 요구가 가속화되면서, 기존 업무 방식의 대체와 변화가 더욱 구체화되고 있음.",
+      "cumulativeRiskScore": 55,
+      "jobRiskScore": 55,
+      "riskScoreBreakdown": [
+        {
+          "event": "기업 내 AI 실무 도입 가속화",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "LG CNS AI 중심 실적 견인",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 윤리 가이드라인 제정",
+          "sign": "-",
+          "impact": 2,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-10-30",
+      "fileName": "2026-10-30.json"
+    },
+    {
+      "lastUpdated": "2026-10-29T01:28:54.577Z",
+      "reportDate": "2026. 10. 29.",
+      "summary": "- 휴머노이드 로봇 및 AI 기술의 일상 침투: 사람과 유사한 반려 로봇과 방송 제작 AI 도입 등 일상 영역으로의 AI 확장이 가속화되고 있음.\n\n- AI 콘텐츠 차별화 경쟁: 생성형 AI의 일반화에 따라 사람의 감성을 모방하고 '사람 냄새'를 풍기는 기술이 시장의 핵심 경쟁력으로 부상함.\n\n- AI 산업의 재무적 리스크: 막대한 투자가 집행된 AI 인프라 및 기술의 수익화 시점이 다가옴에 따라 부채 부담 및 재무적 건전성에 대한 우려가 제기됨.\n\n- 공공부문 AI 도입 및 안전성 확보: 공공기관의 AI 활용이 확대되면서 제도적 기반과 안전기준 마련이 병행되는 추세임.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.8,
+      "velocityReason": "AI의 일상 및 창작 영역 확산과 함께 기업들의 재무적 압박이 동반되면서 업무 프로세스 효율화 및 고용 구조 개편의 압력이 완만하게 증가함.",
+      "cumulativeRiskScore": 54.9,
+      "jobRiskScore": 54.9,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 반려 로봇 상용화",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        },
+        {
+          "event": "인간적 감성 구현 AI 기술 선호",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 투자 기업의 재무 부담 가중",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-10-29",
+      "fileName": "2026-10-29.json"
+    },
+    {
+      "lastUpdated": "2026-10-28T00:53:21.333Z",
+      "reportDate": "2026. 10. 28.",
+      "summary": "- 앤스로픽 기업 가치 급등: 앤스로픽의 상장 신청 및 대규모 AI 인프라 투자 계획 발표로 AI 산업 생태계의 자본 집중이 가속화됨.\n\n- AI 시장의 거시경제 연동: 글로벌 유가 하락과 AI 반도체 랠리가 맞물리며 뉴욕 증시의 상승세를 주도하고 국내 증시에도 긍정적인 기대감을 조성함.\n\n- 정책적 변수 등장: 트럼프 전 대통령의 'AI 용어 금지' 주장 등 정치적 맥락에서의 AI 정책 불확실성이 잠재적 변수로 부상함.\n\n- 미래 세대 AI 교육: 교육 현장에서의 AI 리터러시 강화 프로그램을 통해 미래 산업 역량 배양 움직임이 확산됨.",
+      "summaryScore": 82,
+      "dailyVelocity": 0.8,
+      "velocityReason": "앤스로픽의 대규모 인프라 투자와 기업 가치 급등으로 인해 AI 기반의 산업 효율화와 자동화 투자가 가속화되고 있음.",
+      "cumulativeRiskScore": 54.8,
+      "jobRiskScore": 54.8,
+      "riskScoreBreakdown": [
+        {
+          "event": "앤스로픽 대규모 인프라 투자",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 반도체 랠리 및 시장 자본 집중",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        },
+        {
+          "event": "정치권의 AI 용어 사용 제한 논란",
+          "sign": "-",
+          "impact": 2,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-10-28",
+      "fileName": "2026-10-28.json"
+    },
+    {
+      "lastUpdated": "2026-10-25T23:42:54.492Z",
+      "reportDate": "2026. 10. 26.",
+      "summary": "- 노동 시장 구조 변화: AI가 신입 사원의 업무 영역까지 침투하며 전통적인 경력 개발 경로가 단절될 우려가 제기됨.\n\n- AI 비서 도입 가속화: 오픈AI와 앤트로픽 등 주요 기업들이 생산성 향상을 위한 AI 에이전트 경쟁을 본격화함.\n\n- 기업 내재화 및 윤리적 갈등: 기업들의 사내 AI 도입이 공모전과 연구소 설립 등으로 활발해지는 한편, 저작권 침해 논란에 따른 법적 공방도 심화됨.",
+      "summaryScore": 82,
+      "dailyVelocity": 1.2,
+      "velocityReason": "신입 사원의 업무를 AI가 대체하는 현상이 구체화되고 기업들의 전사적 AI 도입이 증가하면서 일자리 대체 속도가 완만하게 가속됨.",
+      "cumulativeRiskScore": 54.7,
+      "jobRiskScore": 54.7,
+      "riskScoreBreakdown": [
+        {
+          "event": "신입사원 업무 AI 대체 우려",
+          "sign": "+",
+          "impact": 6,
+          "newsIndex": 1
+        },
+        {
+          "event": "기업 내 AI 전담 조직 및 활용 사례 확대",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 저작권 침해 소송 발생",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-10-26",
+      "fileName": "2026-10-26.json"
+    },
+    {
+      "lastUpdated": "2026-10-24T23:56:23.669Z",
+      "reportDate": "2026. 10. 25.",
+      "summary": "- 학사 관리 및 평가 공정성 위기: 대학가에서 생성형 AI를 활용한 부정행위가 적발되어 전원 재시험을 치르는 등 학사 운영의 신뢰성 문제가 대두됨.\n- AI 환각과 편향성에 대한 경고: AI가 사용자 의견에 무조건 동조하거나 편향된 정보를 제공하는 이른바 '간신형 AI' 문제와 이에 대한 사회적 책임이 강조됨.\n- AI 거품론 확산: 대규모 AI 투자 대비 수익성에 대한 의구심과 글로벌 경제에 미칠 잠재적 충격에 대한 경제계의 우려가 고조됨.",
+      "summaryScore": 72,
+      "dailyVelocity": 0.2,
+      "velocityReason": "학계의 부정행위 적발과 경제적 거품 우려 등 AI의 부작용에 대한 경계심이 높아진 하루였음.",
+      "cumulativeRiskScore": 54.6,
+      "jobRiskScore": 54.6,
+      "riskScoreBreakdown": [
+        {
+          "event": "건국대 AI 부정행위 적발",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 투자 거품 붕괴 경고",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-25",
+      "fileName": "2026-10-25.json"
+    },
+    {
+      "lastUpdated": "2026-10-24T00:11:42.021Z",
+      "reportDate": "2026. 10. 24.",
+      "summary": "- 시장 변동성 확대: AI 투자 비용에 대한 의구심과 유가 상승이 겹치며 나스닥 등 글로벌 증시가 급락하는 등 투자 심리가 위축됨.\n\n- 기술 생태계 종속성 논란: 국내 AI 파생 모델 개발 과정에서 중국 Qwen 기반 모델에 대한 높은 의존도가 확인되며 기술 독립성 이슈가 제기됨.\n\n- 공공 안전 기여: 제주도의 AI 영상 분석 기술이 실종자 수색과 구조 현장에서 실질적인 성과를 내며 공공 안전 분야의 AI 활용 가치를 입증함.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.2,
+      "velocityReason": "AI 산업의 투자 효율성 논란으로 인한 시장 조정이 발생했으나, 기술적 혁신보다는 거시 경제 리스크가 지배적이라 완만한 영향력에 그침.",
+      "cumulativeRiskScore": 54.6,
+      "jobRiskScore": 54.6,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 투자 비용 효율성 회의론",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        },
+        {
+          "event": "기술 생태계의 중국 모델 의존도 심화",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        },
+        {
+          "event": "AI 공공 안전 분야 현장 적용 확대",
+          "sign": "+",
+          "impact": 1,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-24",
+      "fileName": "2026-10-24.json"
+    },
+    {
+      "lastUpdated": "2026-10-22T00:21:45.404Z",
+      "reportDate": "2026. 10. 22.",
+      "summary": "- AI의 환각 현상 위험성 대두: 생성형 AI가 부정적 감정을 왜곡하거나 위험한 정보를 제공하는 환각 현상에 대한 사회적 우려가 커지고 있음.\n\n- 생산성 도구의 고도화: 구글의 제미나이 등 주요 AI 모델이 업무 효율을 극대화하기 위해 오피스 소프트웨어와 더욱 긴밀하게 통합되는 추세임.\n\n- 공공 및 산업 현장의 실무 적용: 부산시의 해외 기술 협력과 현대차그룹의 AI 보안 및 운영 혁신 사례처럼 AI가 구체적인 산업 현장으로 빠르게 침투하고 있음.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.3,
+      "velocityReason": "AI 기술의 산업 현장 적용 사례가 증가하고 있으나, 환각 현상에 대한 경각심이 시스템 도입 속도를 완만하게 조정하고 있음.",
+      "cumulativeRiskScore": 54.6,
+      "jobRiskScore": 54.6,
+      "riskScoreBreakdown": [
+        {
+          "event": "구글 제미나이 사무 업무 자동화 확대",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "현대차그룹의 공격적 AI 도입 및 혁신",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 환각 현상에 대한 사회적 경각심 확산",
+          "sign": "-",
+          "impact": 3,
+          "newsIndex": 1
+        }
+      ],
+      "id": "2026-10-22",
+      "fileName": "2026-10-22.json"
+    },
+    {
+      "lastUpdated": "2026-10-20T00:52:18.872Z",
+      "reportDate": "2026. 10. 20.",
+      "summary": "- 생성형 AI의 사무 생산성 역설: 업무 자동화 도구 도입이 오히려 회의 시간 증가 등 비효율을 초래할 수 있다는 실증적 분석이 제기됨.\n\n- 엔지니어링 교육의 패러다임 변화: AI의 코드 작성 능력 향상에 따라 개발자의 역할이 실무 구현 중심에서 아키텍처 설계와 문제 해결 중심으로 재정립됨.\n\n- 피지컬 AI의 부상: AI가 가상 세계를 넘어 물리적 환경과 상호작용하는 '피지컬 AI'가 산업 전반의 차세대 핵심 동력으로 주목받고 있음.\n\n- 미디어 및 공공의 기술 고도화: 언론사의 독자적인 거대언어모델 개발 및 취재 데이터 활용, 일반인의 AI 기술 활용 능력 강화 프로그램 등이 활발히 전개됨.",
+      "summaryScore": 78,
+      "dailyVelocity": 1.2,
+      "velocityReason": "피지컬 AI의 부상과 개발자의 역할 재정의가 산업 전반의 기술적 요구 수준을 높이며 직무 변화 속도를 가속화함.",
+      "cumulativeRiskScore": 54.6,
+      "jobRiskScore": 54.6,
+      "riskScoreBreakdown": [
+        {
+          "event": "개발자 역량 모델 재정립(CMU·MS 협업)",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        },
+        {
+          "event": "피지컬 AI로의 산업 무게중심 이동",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 활용 사무 효율성 검증",
+          "sign": "+",
+          "impact": 1,
+          "newsIndex": 1
+        }
+      ],
+      "id": "2026-10-20",
+      "fileName": "2026-10-20.json"
+    },
+    {
+      "lastUpdated": "2026-10-18T23:51:54.742Z",
+      "reportDate": "2026. 10. 19.",
+      "summary": "- AI 알고리즘 편향성 및 사회적 소외 문제: 생성형 AI가 학습 데이터의 불균형으로 인해 특정 소수자를 배제하거나 왜곡할 위험성이 제기됨.\n\n- 기술 혁신 및 에이전트 고도화: 오픈AI의 차세대 모델 업그레이드로 복합적인 에이전트 병렬 처리 기능이 강화되어 작업 효율성이 비약적으로 상승함.\n\n- 교육 현장의 AI 활용 격차: 교실 내 AI 도입은 일상화되었으나 관련 정책 및 가이드라인에 대한 교사들의 숙지도가 낮아 교육적 혼란 발생 우려.\n\n- AI 인프라 수급 불안정: 미국 내 데이터센터 구축 프로젝트가 지연되는 등 급격한 AI 수요를 뒷받침할 인프라 확보에 차질이 발생함.",
+      "summaryScore": 82,
+      "dailyVelocity": 1.2,
+      "velocityReason": "오픈AI의 에이전트 병렬 실행 기능 도입으로 인해 사무 및 업무 자동화의 범위와 복잡성이 한층 더 가속화됨.",
+      "cumulativeRiskScore": 54.5,
+      "jobRiskScore": 54.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "오픈AI 에이전트 고도화",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 데이터센터 인프라 차질",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        },
+        {
+          "event": "AI 학습 데이터 편향성 이슈",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        }
+      ],
+      "id": "2026-10-19",
+      "fileName": "2026-10-19.json"
+    },
+    {
+      "lastUpdated": "2026-10-17T23:42:26.916Z",
+      "reportDate": "2026. 10. 18.",
+      "summary": "- AI 윤리 및 가치 평가 논란: AI의 윤리적 의사결정 모델에 대한 인간 중심의 사회적 합의가 여전히 난제로 남아 있음.\n\n- AI 인프라 투자 과열 및 부채 리스크: 코어위브 등 GPU 클라우드 기업의 공격적인 부채 기반 인프라 확장이 시장의 재무적 우려를 가중시키고 있음.\n\n- AI 기반의 경제 성장 전망: 앤트로픽 공동창업자가 AI 기술 도입을 통해 향후 4년간 미국 GDP가 비약적으로 상승할 것이라는 낙관적 전망을 제시함.",
+      "summaryScore": 72,
+      "dailyVelocity": 0.3,
+      "velocityReason": "AI 인프라의 재무적 지속가능성에 대한 시장의 의구심이 제기되며 AI 성장의 속도 조절 가능성이 언급됨.",
+      "cumulativeRiskScore": 54.4,
+      "jobRiskScore": 54.4,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 인프라 부채 리스크 확산",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 주도 경제 성장 가속",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-18",
+      "fileName": "2026-10-18.json"
+    },
+    {
+      "lastUpdated": "2026-10-17T00:06:27.788Z",
+      "reportDate": "2026. 10. 17.",
+      "summary": "- 모델 경쟁 격화: 구글의 '제미나이 4 아르곤'이 오픈AI와 앤트로픽을 추격하며 AI 모델 성능 경쟁이 새로운 국면을 맞이함.\n\n- 사용자 경험 향상: 오픈AI는 챗GPT 보이스 기능을 업데이트하여 언어 처리의 자연스러움을 대폭 개선함.\n\n- AI 리스크 및 보안 이슈: 기업 내부 보안 경고와 자동화 오류로 인한 방송 사고 등 AI 운영상의 실질적 위험 사례가 지속적으로 보고됨.\n\n- 시장 심리 위축: AI 기술주에 대한 피로감과 투자 시장의 불안 심리가 확산하며 기술의 실효성에 대한 비판적 시각이 증가함.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.8,
+      "velocityReason": "AI 모델의 고도화와 현장 적용 확대가 이어지고 있으나, 동시에 운영 오류와 시장 피로감이 공존하여 속도가 완만하게 가속됨.",
+      "cumulativeRiskScore": 54.4,
+      "jobRiskScore": 54.4,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 자율 권한으로 인한 방송 데이터 손실 사고",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 4
+        },
+        {
+          "event": "AI 모델 성능 경쟁 가속화",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 시장 피로 증후군 및 투자 회의론 확산",
+          "sign": " -",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-17",
+      "fileName": "2026-10-17.json"
+    },
+    {
+      "lastUpdated": "2026-10-16T00:00:24.225Z",
+      "reportDate": "2026. 10. 16.",
+      "summary": "- AI 산업 내 거품론 확산: AI 관련 기업들의 수익성 한계가 드러나며 캐릭터.AI의 파산 보호 신청 등 시장 기대치와 실제 수익 간의 괴리가 심화되고 있음.\n\n- 증시 및 투자 심리 위축: AI 거품 붕괴 우려로 인해 코스피 등 주요 지수가 연일 폭락하며, AI 섹터 전반에 대한 보수적인 투자 기조가 형성됨.\n\n- 출판 및 콘텐츠 산업의 AI 도입: 교보문고와 같은 전통 유통망에 AI가 생성한 도서가 대거 유입되는 등 실무 현장에서의 AI 활용 방식이 변화하고 있음.",
+      "summaryScore": 78,
+      "dailyVelocity": -1.2,
+      "velocityReason": "AI 기업의 파산 및 거품론 확산으로 인해 공격적인 기술 도입보다는 재무 건전성 점검이 우선시되며 일자리 대체 압박이 일시적으로 감속함.",
+      "cumulativeRiskScore": 54.3,
+      "jobRiskScore": 54.3,
+      "riskScoreBreakdown": [
+        {
+          "event": "캐릭터.AI 파산보호 신청",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 거품론 및 증시 폭락",
+          "sign": "-",
+          "impact": 6,
+          "newsIndex": 5
+        },
+        {
+          "event": "출판 유통의 AI 도서 확대",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        }
+      ],
+      "id": "2026-10-16",
+      "fileName": "2026-10-16.json"
+    },
+    {
+      "lastUpdated": "2026-10-15T00:15:09.306Z",
+      "reportDate": "2026. 10. 15.",
+      "summary": "- 인프라 확장의 한계: AI 연산 수요가 급증하는 가운데 데이터센터 부족 현상이 산업 성장의 병목 현상으로 부각되고 있음.\n\n- AI 산업 생태계의 명암: 정부 지원 중단으로 인한 의료 AI 기업의 운영 차질과 기술 고도화로 인한 네트워크 기술 혁신이 공존하고 있음.\n\n- 현장 적용 및 안전 이슈: 공공 및 서비스 분야의 AI 도입 과정에서 현장 인력과의 갈등이 심화되고 있으며, AI 보안 사고 가능성에 대한 업계의 경고가 이어짐.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.3,
+      "velocityReason": "AI 도입 현장의 갈등과 보안 우려 등 실무적 이슈가 주로 보고되어 전반적인 산업 안정성 점검 단계로 평가됨.",
+      "cumulativeRiskScore": 54.4,
+      "jobRiskScore": 54.4,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 상담사 도입에 따른 업무 부적응 및 고충",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 4
+        },
+        {
+          "event": "의료 AI 분야 정부 지원 중단으로 인한 인력 위기",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        },
+        {
+          "event": "대형 AI 보안 사고 위험 경고",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-15",
+      "fileName": "2026-10-15.json"
+    },
+    {
+      "lastUpdated": "2026-10-14T00:50:11.233Z",
+      "reportDate": "2026. 10. 14.",
+      "summary": "- AI 활용 방식의 변화: 단순 정답을 구하는 AI 이용보다 맥락적 힌트를 활용하는 방식이 학습 및 창의적 성과에 더 효과적이라는 연구 결과가 제시됨.\n- 카카오의 AI 전략 전개: 카카오가 '카톡 AI 비서'를 통해 사용자 경험을 혁신하고 서비스 연결성을 강화하려는 전략을 본격화함.\n- 시장 및 기술적 우려 공존: 카카오의 AI 수익화 모델에 대한 시장의 의구심과 더불어, 자가복제 AI가 제어 불능 상태에 빠질 수 있다는 안전성 경고가 동시에 제기됨.",
+      "summaryScore": 76,
+      "dailyVelocity": 0.8,
+      "velocityReason": "카카오의 대중적 AI 서비스 도입과 함께 AI 안전성에 대한 심각한 경고가 동시 발생하여 기술 확산과 위험 인식이 균형을 이룸.",
+      "cumulativeRiskScore": 54.4,
+      "jobRiskScore": 54.4,
+      "riskScoreBreakdown": [
+        {
+          "event": "카카오 AI 서비스 탑재 및 서비스 자동화 확대",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 수익성 의문 및 경영 효율화 압박",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        },
+        {
+          "event": "AI 안전성 위협 및 강제 통제 난항 경고",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-14",
+      "fileName": "2026-10-14.json"
+    },
+    {
+      "lastUpdated": "2026-10-13T02:48:04.748Z",
+      "reportDate": "2026. 10. 13.",
+      "summary": "- 모델 성능 고도화: 메타의 신규 모델 공개로 AI 언어 및 멀티모달 모델의 성능 경쟁이 더욱 치열해짐.\n\n- 반도체 공급망 고도화: 삼성전자의 차세대 메모리 제품군 확장을 통해 AI 연산 성능과 효율성을 뒷받침할 하드웨어 생태계가 진화 중.\n\n- 규제 및 사회적 책임 강화: AI 서비스의 청소년 보호 등 윤리적 측면에 대한 국정감사 지적이 이어지며 향후 규제 논의가 본격화될 전망.\n\n- 산업 생태계 확산: AI FESTA와 APEC 포럼 등을 통해 AI가 자율주행과 같은 산업 현장 및 공공 영역으로 전방위적 확산 중.",
+      "summaryScore": 82,
+      "dailyVelocity": 0.3,
+      "velocityReason": "메타의 신규 모델 발표로 인한 기술적 진보와 공공부문의 규제 도입 논의가 상충하며 시장이 평이하게 유지됨.",
+      "cumulativeRiskScore": 54.3,
+      "jobRiskScore": 54.3,
+      "riskScoreBreakdown": [
+        {
+          "event": "메타 신규 모델 발표",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 규제 논의 본격화",
+          "sign": " - ",
+          "impact": 2,
+          "newsIndex": 2
+        },
+        {
+          "event": "차세대 메모리 산업 확장",
+          "sign": "+",
+          "impact": 1,
+          "newsIndex": 3
+        }
+      ],
+      "id": "2026-10-13",
+      "fileName": "2026-10-13.json"
+    },
+    {
+      "lastUpdated": "2026-10-12T00:54:22.248Z",
+      "reportDate": "2026. 10. 12.",
+      "summary": "- AI 윤리 및 안전 이슈 대두: 성착취 대화 생성 등 AI 챗봇의 부적절한 활용 사례가 발생하며 안전성 검증 강화가 요구됨.\n\n- 관계형 AI 서비스 확산: 사용자 감정 교류를 목적으로 하는 AI 캐릭터 서비스가 시장의 새로운 트렌드로 부상 중.\n\n- 의료 AI 인프라 및 에너지 수요: 의료기기 등록 증가와 함께 안전 관리의 필요성이 커지고 있으며, AI 연산 확대를 위한 에너지 확보가 산업계의 핵심 과제로 대두됨.\n\n- 바이오 헬스케어 AI 고도화: AI 기반 신약 타깃 발굴 및 실험 검증 등 실질적인 산업 적용 사례가 구체화됨.",
+      "summaryScore": 76,
+      "dailyVelocity": 0.3,
+      "velocityReason": "AI의 사회적 부작용에 대한 논란과 함께 신약 개발 및 관계형 서비스 등 산업 전반의 고도화가 진행되어 현 상태를 유지함.",
+      "cumulativeRiskScore": 54.3,
+      "jobRiskScore": 54.3,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 챗봇 부적절 활용 논란",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 의료/바이오 신약 개발 실증",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-12",
+      "fileName": "2026-10-12.json"
+    },
+    {
+      "lastUpdated": "2026-10-11T00:37:47.477Z",
+      "reportDate": "2026. 10. 11.",
+      "summary": "- 공공 AI 생태계 구축: 정부 부처의 업무 효율화를 위해 국내외 LLM을 도입하는 등 공공 분야의 AI 인프라 확장이 가속화되고 있음.\n\n- 채용 및 산업 패러다임 변화: AI 역량이 핵심 인재 평가 지표로 부상하고 있으며, 제조 및 패션 등 전통 산업에 AI를 접목한 생산 최적화 사례가 증가함.\n\n- 윤리적 책임 및 안전 관리: AI 플랫폼의 청소년 보호 기능 미흡 등 기술 활용에 따른 부작용에 대한 사회적 우려와 규제 목소리가 높아지고 있음.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.8,
+      "velocityReason": "AI 실무 역량이 채용 시장의 핵심 기준이 되고 산업 전반으로 AI 도입이 확대되면서 기술적 적응 요구가 가속화되고 있음.",
+      "cumulativeRiskScore": 54.3,
+      "jobRiskScore": 54.3,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 실무 중심 채용 전환",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "제조/디자인 공정의 AI 대체",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 안전/보호 이슈 발생",
+          "sign": "-",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-11",
+      "fileName": "2026-10-11.json"
+    },
+    {
+      "lastUpdated": "2026-10-10T01:26:34.563Z",
+      "reportDate": "2026. 10. 10.",
+      "summary": "- AI 산업 수익성 논란: 오픈AI의 매출 구조와 실제 수익성에 대한 의구심이 제기되면서 시장 전반의 투자 심리가 냉각되고 있습니다.\n\n- 반도체 시장 동요: 오픈AI발 성장 둔화 우려가 엔비디아 등 주요 반도체 기업 주가에 하방 압력으로 작용하며 기술주 변동성을 키우고 있습니다.\n\n- AI의 과학적 난제 해결: AI가 수학 연구의 복잡한 난제를 해결하는 등 학술적인 성과를 내고 있으나, 전문가들 사이에서는 AI의 역할과 미래 연구 가치에 대한 복합적인 반응이 나타나고 있습니다.",
+      "summaryScore": 72,
+      "dailyVelocity": 0.2,
+      "velocityReason": "AI의 수학 연구 성과와 수익성 논란이 혼재되어 나타나며 업계의 전반적인 기술적 기대와 재무적 현실 사이의 괴리를 확인하는 흐름이 이어졌습니다.",
+      "cumulativeRiskScore": 54.2,
+      "jobRiskScore": 54.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "오픈AI 매출 착시 논란",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        },
+        {
+          "event": "반도체 업계 투자 심리 위축",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        },
+        {
+          "event": "수학 연구 자동화 성과",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-10",
+      "fileName": "2026-10-10.json"
+    },
+    {
+      "lastUpdated": "2026-10-09T01:39:19.354Z",
+      "reportDate": "2026. 10. 9.",
+      "summary": "- AI 투자 생태계 과열: AI 칩 확보를 위한 천문학적 부채 조달이 증가하며 투자 경쟁이 심화되고 있음.\n\n- AI 수익성 우려 확대: 오픈AI의 매출 실적 부풀리기 논란과 시장 기대치 하회 전망이 제기되면서 기술주 전반의 투자 심리가 위축됨.\n\n- 지자체 AI 인프라 유치전: 국내 지자체를 중심으로 글로벌 AI 허브 유치를 위한 전략 모색 등 인프라 확충 노력이 지속됨.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.2,
+      "velocityReason": "AI 기술 자체의 발전보다는 시장의 수익성 우려와 투자 조정이 지배적인 상황임.",
+      "cumulativeRiskScore": 54.2,
+      "jobRiskScore": 54.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 투자 시장의 고평가 논란",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 3
+        },
+        {
+          "event": "기술주 약세 및 고용 투자 위축 가능성",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        }
+      ],
+      "id": "2026-10-09",
+      "fileName": "2026-10-09.json"
+    },
+    {
+      "lastUpdated": "2026-10-08T01:30:11.288Z",
+      "reportDate": "2026. 10. 8.",
+      "summary": "- AI 하드웨어 생태계 강화: AMD 리사 수 회장의 방한을 통해 한국의 주요 메모리 기업들과 AI 반도체 파트너십을 공고히 하며 글로벌 AI 인프라 공급망을 재편하고 있습니다.\n\n- 연구 및 기술력 도약: 오픈AI의 수학적 난제 해결 역량이 증명되면서 AI 모델의 추론 및 지능 수준이 비약적으로 발전하고 있습니다.\n\n- 서비스 수익화 시도: 챗GPT 내 시각적 광고 도입을 통해 AI 플랫폼의 수익 모델을 다각화하려는 시도가 본격화되고 있습니다.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 반도체 생태계 강화와 오픈AI의 추론 능력 향상이 결합되어 기술 고도화 속도가 완만하게 가속화되었습니다.",
+      "cumulativeRiskScore": 54.2,
+      "jobRiskScore": 54.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "AMD-한국 반도체 AI 동맹 강화",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "오픈AI의 수학 난제 해결(모델 지능 비약적 상승)",
+          "sign": "+",
+          "impact": 6,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 플랫폼 수익화(광고) 도입",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-10-08",
+      "fileName": "2026-10-08.json"
+    },
+    {
+      "lastUpdated": "2026-10-07T01:10:49.066Z",
+      "reportDate": "2026. 10. 7.",
+      "summary": "- AI 보안 취약성 노출: 해킹 특화 AI의 등장으로 사이버 보안 위협이 급격히 가시화됨.\n\n- 모델 생태계 및 시장 경쟁: 오픈소스 AI 모델의 경쟁 격화와 반도체 시장의 변동성이 글로벌 투자 흐름에 영향을 미침.\n\n- 공공 및 산업 현장 활용: AI 시민 비서 도입 및 축산 스마트팜 등 실생활과 밀접한 AI 서비스 적용이 가속화됨.",
+      "summaryScore": 78,
+      "dailyVelocity": 1.2,
+      "velocityReason": "해킹 자동화 AI의 낮은 진입장벽과 비용 효율성이 기존 보안 직무의 자동화 가능성을 높여 위험도를 가속함.",
+      "cumulativeRiskScore": 54.1,
+      "jobRiskScore": 54.1,
+      "riskScoreBreakdown": [
+        {
+          "event": "해킹 특화 AI 저비용/고효율 공개",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "공공 서비스 AI 도입 확산",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        },
+        {
+          "event": "반도체 시장 경제 불확실성",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 3
+        }
+      ],
+      "id": "2026-10-07",
+      "fileName": "2026-10-07.json"
+    },
+    {
+      "lastUpdated": "2026-10-06T02:01:31.352Z",
+      "reportDate": "2026. 10. 6.",
+      "summary": "- AI 브랜드 및 조직 재편: 일론 머스크의 xAI를 연상시키는 SI(Super Intelligence)로의 기업 정체성 변화 논의가 정치권과 연계되어 부상함.\n\n- AI 수익화 모델 강화: 구글이 제미나이 유료 요금제 구조를 개편하고 프로모션을 도입하며 AI 서비스의 유료화와 시장 점유율 확대를 동시에 꾀하고 있음.\n\n- 국방 산업 AI 실증: 마키나락스가 해군 장비 운용에 AI 참모 시스템을 도입하며 산업 현장과 국방 분야로의 AI 적용이 가속화되고 있음.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.8,
+      "velocityReason": "구글의 AI 유료화 정책 심화와 국방 분야 AI 도입 등 AI 서비스 생태계의 상업적·실무적 진입 장벽과 영역이 구체화됨.",
+      "cumulativeRiskScore": 54,
+      "jobRiskScore": 54,
+      "riskScoreBreakdown": [
+        {
+          "event": "구글 제미나이 요금제 차별화",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 2
+        },
+        {
+          "event": "마키나락스 해군 AI 참모 도입",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 브랜드 및 정체성 변화 논의",
+          "sign": "+",
+          "impact": 1,
+          "newsIndex": 1
+        }
+      ],
+      "id": "2026-10-06",
+      "fileName": "2026-10-06.json"
+    },
+    {
+      "lastUpdated": "2026-10-05T00:23:04.520Z",
+      "reportDate": "2026. 10. 5.",
+      "summary": "- AI 자율성 및 경쟁 심화: 오픈AI의 생존 본능을 모방한 모델 행태와 구글의 제미나이 4를 통한 시장 공세가 이어지며 AI 모델 성능 경쟁이 격화됨.\n\n- 산업 및 교육 적용 확대: 공교육 현장의 AI 랩 개관 등 AI 기술의 실질적 적용 사례가 점차 확대되는 추세임.\n\n- 인프라 전략적 중요성 증대: 글로벌 금융권의 AI 인프라 투자 관점 변화와 국내 AI 인프라 해저케이블 노후화 문제 등 국가적 전략 자산으로서의 인프라 중요성이 강조됨.",
+      "summaryScore": 88,
+      "dailyVelocity": 0.8,
+      "velocityReason": "구글의 공격적인 제미나이 업데이트와 AI 자율성 모델 보고가 전반적인 기술 생태계의 변곡점을 시사하며 고용 구조의 변화 압력을 높임.",
+      "cumulativeRiskScore": 53.9,
+      "jobRiskScore": 53.9,
+      "riskScoreBreakdown": [
+        {
+          "event": "오픈AI 모델의 생존 자율성 보고",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "구글 제미나이 4 공세",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 국가 전략 인프라 이슈 부각",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-05",
+      "fileName": "2026-10-05.json"
+    },
+    {
+      "lastUpdated": "2026-10-04T00:18:06.357Z",
+      "reportDate": "2026. 10. 4.",
+      "summary": "- 일상의 AI 통합: 개인 및 업무 영역 전반에서 AI 도구의 활용이 확대되며 실질적인 생산성 변화가 가시화되고 있습니다.\n\n- 전문 직무 자동화: 회계 등 복잡한 전문 영역에서 AI가 인간의 성능을 능가하는 사례가 보고되며 고숙련 직무의 자동화 가능성이 현실화되었습니다.\n\n- 전략적 기술 주도권 및 효율화: 미국과 중국 간 AI 기술 패권 경쟁이 심화되는 가운데, 바이오·제약 등 산업 현장에서는 AI를 활용해 연구 효율성을 극대화하는 사례가 증가하고 있습니다.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.8,
+      "velocityReason": "회계 분야에서 AI가 인간의 업무 역량을 크게 능가했다는 실증적 사례가 발표되며 전문 직종의 일자리 대체 우려가 가속화되었습니다.",
+      "cumulativeRiskScore": 53.8,
+      "jobRiskScore": 53.8,
+      "riskScoreBreakdown": [
+        {
+          "event": "회계 업무 AI 역전 현상",
+          "sign": "+",
+          "impact": 7,
+          "newsIndex": 2
+        },
+        {
+          "event": "미·중 AI 기술 패권 경쟁 및 규제 환경 변화",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 3
+        },
+        {
+          "event": "산업별 데이터 최적화 수요 급증",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-10-04",
+      "fileName": "2026-10-04.json"
+    },
+    {
+      "lastUpdated": "2026-10-03T00:52:48.988Z",
+      "reportDate": "2026. 10. 3.",
+      "summary": "- 농업 및 산업 현장 자동화: 자율주행 트랙터와 휴머노이드를 활용한 농업 혁신이 가속화되며 전통 산업의 인력 구조 변화가 예상됨.\n\n- AI 기반 비즈니스 및 플랫폼 고도화: 크리에이터 매칭과 정산 시스템 등 복잡한 사무 영역까지 AI 자동화가 침투하여 서비스 효율성을 극대화함.\n\n- AI 시장 및 기술적 신뢰성 논란: 메모리 반도체 중심의 투자 기회는 확대되는 반면, 논문 출처 조작 등 AI 생성 콘텐츠에 대한 학계의 신뢰성 검증 이슈가 공론화됨.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.8,
+      "velocityReason": "산업 현장의 AI 로봇 도입과 사무직 프로세스 자동화가 실질적인 업무 대체 가능성을 높이며 완만한 가속을 보임.",
+      "cumulativeRiskScore": 53.6,
+      "jobRiskScore": 53.6,
+      "riskScoreBreakdown": [
+        {
+          "event": "농업 자율주행 및 휴머노이드 도입",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 기반 크리에이터 정산 자동화",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 논문 출처 위조 사건",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-10-03",
+      "fileName": "2026-10-03.json"
+    },
+    {
+      "lastUpdated": "2026-10-02T01:14:29.086Z",
+      "reportDate": "2026. 10. 2.",
+      "summary": "- 실질적 수익 창출 강조: AI 기술이 개념 증명을 넘어 기업의 구체적인 수익 모델과 운영 효율화에 집중하는 단계로 진입함.\n\n- 구글의 모델 및 인프라 주도권: 최상위 모델 '아르곤' 공개와 우주 데이터센터 실험 등 AI 경쟁력과 인프라 확장성을 동시에 강화함.\n\n- 하드웨어 및 운영 효율 혁신: 우주 데이터센터 추진과 AI 서비스 토큰 처리량 최적화 기술 등을 통해 AI 인프라의 물리적, 기술적 한계 극복 시도.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.2,
+      "velocityReason": "구글의 성능 최상위 모델 공개 및 통신사들의 AI 운영 효율화 기술 도입으로 인해 생산성 향상 중심의 자동화 속도가 완만하게 가속됨.",
+      "cumulativeRiskScore": 53.5,
+      "jobRiskScore": 53.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "구글 최상위 모델 아르곤 공개",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "LGU+ 토큰 처리 효율화 기술 도입",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        },
+        {
+          "event": "실질적 수익성 모델 강조 산업계 흐름",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        }
+      ],
+      "id": "2026-10-02",
+      "fileName": "2026-10-02.json"
+    },
+    {
+      "lastUpdated": "2026-09-30T00:57:23.279Z",
+      "reportDate": "2026. 9. 30.",
+      "summary": "- AI 에이전트 기술 가속화: 오픈AI가 추론 능력을 극대화한 신규 모델 '솔'과 자율형 에이전트 '닷'을 공개하며 AI의 실무 투입 범위가 확대됨.\n\n- 대규모 투자 및 기업 가치 상승: 오픈AI가 1,900조 원 규모의 기업 가치를 인정받으며 막대한 자금을 확보, AI 산업 내 자본 집중이 심화됨.\n\n- AI 활용 가이드라인 확산: 출판계의 AI 활용 표시 기준 도입 등 산업 전반에서 생성형 AI의 투명성을 확보하려는 자정 노력이 시작됨.\n\n- 의료 및 바이오 분야 AI 접목: SCL사이언스 등 기업들이 AI를 기반으로 암 백신 개발 및 합병 전략을 추진하며 기술 융합이 가속화됨.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.8,
+      "velocityReason": "오픈AI의 자율형 AI 에이전트 '닷' 발표로 인해 화이트칼라 직무의 자동화 가능성이 실질적으로 증대됨.",
+      "cumulativeRiskScore": 53.4,
+      "jobRiskScore": 53.4,
+      "riskScoreBreakdown": [
+        {
+          "event": "OpenAI '닷' 자율 에이전트 공개",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 2
+        },
+        {
+          "event": "오픈AI 기업 가치 1,900조 돌파에 따른 공격적 R&D 가속",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 3
+        },
+        {
+          "event": "출판계 AI 활용 표시제 도입",
+          "sign": " -",
+          "impact": 1,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-09-30",
+      "fileName": "2026-09-30.json"
+    },
+    {
+      "lastUpdated": "2026-09-29T01:24:16.043Z",
+      "reportDate": "2026. 9. 29.",
+      "summary": "- AI 안전 및 실존 위험 경고: 저명한 AI 연구자들이 AI의 지능 폭발 가능성과 인류 통제력 상실에 대해 강력한 경고를 제기하며 AI 기술 발전에 대한 윤리적 신중함을 촉구함.\n\n- AI 인프라 투자 가속화: 삼성전자가 엔비디아와 협력하여 미국의 AI 인프라 기업에 대규모 투자를 단행하며 AI 산업 생태계 주도권 확보를 위한 자본 집중 현상을 보임.",
+      "summaryScore": 88,
+      "dailyVelocity": 0.2,
+      "velocityReason": "AI 안전에 관한 비판적 경고와 인프라 중심의 대규모 투자가 동시에 나타나 일자리 변화에 대한 직접적인 영향보다는 장기적인 산업 구조 재편의 신호가 강함.",
+      "cumulativeRiskScore": 53.2,
+      "jobRiskScore": 53.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 전문가들의 실존 위협 경고",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 인프라 분야 대규모 투자",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-09-29",
+      "fileName": "2026-09-29.json"
+    },
+    {
+      "lastUpdated": "2026-09-28T00:15:14.715Z",
+      "reportDate": "2026. 9. 28.",
+      "summary": "- AI 시대의 인문학적 가치 재조명: 단순 기술 습득을 넘어 질문하는 능력 등 철학적 소양이 AI와 공존하는 핵심 역량으로 주목받음.\n\n- 능동형 AI 에이전트로의 패러다임 전환: 단순히 대답하는 챗봇에서 벗어나 스스로 작업을 수행하는 '에이전트' 모델이 공공 및 산업 현장의 실무에 도입됨.\n\n- AI 교육 및 투자 시장의 다변화: 시니어 세대의 높은 학습 의지와 엔비디아 의존도를 탈피하려는 투자 시장의 포트폴리오 다변화 움직임이 뚜렷함.",
+      "summaryScore": 82,
+      "dailyVelocity": 0.8,
+      "velocityReason": "능동적으로 업무를 수행하는 AI 에이전트의 현장 도입 사례가 늘어나며 실무 직무의 자동화 체감도가 완만하게 상승함.",
+      "cumulativeRiskScore": 53.2,
+      "jobRiskScore": 53.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "일하는 AI 에이전트 등장",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 2
+        },
+        {
+          "event": "군사 분야 AI 시스템 적용",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        },
+        {
+          "event": "인문학적 질문 능력 재평가",
+          "sign": " -",
+          "impact": 3,
+          "newsIndex": 1
+        }
+      ],
+      "id": "2026-09-28",
+      "fileName": "2026-09-28.json"
+    },
+    {
+      "lastUpdated": "2026-09-27T00:06:30.004Z",
+      "reportDate": "2026. 9. 27.",
+      "summary": "- 신규 모델 개발 및 확장: 오픈AI가 차세대 모델 'GPT-6 사이버'를 통해 API를 넘어선 전용 배포 전략을 추진하며 생태계 확장을 가속화하고 있습니다.\n\n- 보안 및 데이터 보호 이슈: 챗GPT 이용자 이미지 53장이 외부로 유출되는 사고가 발생하여 AI 기업의 데이터 관리 및 보안 책임론이 대두되고 있습니다.\n\n- 인프라 구축 및 공급망 강화: 1천조 원 규모의 AI 반도체 시장을 선점하기 위해 정부 차원의 공급망 지원과 제3판교와 같은 AI 클러스터 구축이 활발히 논의되고 있습니다.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.8,
+      "velocityReason": "오픈AI의 차세대 모델 발표로 기술 도약이 예고되었으나, 연이은 보안 사고로 인해 안전성 및 규제 논의가 병행되면서 완만한 가속을 보였습니다.",
+      "cumulativeRiskScore": 53.1,
+      "jobRiskScore": 53.1,
+      "riskScoreBreakdown": [
+        {
+          "event": "GPT-6 사이버 공개 임박",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "챗GPT 데이터 유출 사고",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 인프라 및 반도체 생태계 투자",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-09-27",
+      "fileName": "2026-09-27.json"
+    },
+    {
+      "lastUpdated": "2026-09-26T00:19:12.222Z",
+      "reportDate": "2026. 9. 26.",
+      "summary": "- 미중 정상회담을 통해 AI 거버넌스에 대한 양국의 입장 차이가 확인되었으며, 기술 패권 경쟁이 지속될 전망입니다.\n- 오픈AI의 개인정보 유출 사고로 인해 데이터 보안 및 AI 윤리에 대한 경각심이 고조되고 있습니다.\n- 오픈AI의 신규 모델 공개 임박 소식은 AI 시장의 기술 혁신과 실질적인 상업화 전환을 가속화하고 있습니다.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.2,
+      "velocityReason": "오픈AI의 차세대 모델 공개 임박 소식과 서비스 고도화 움직임이 기업들의 AI 전환 속도를 높이고 있습니다.",
+      "cumulativeRiskScore": 53,
+      "jobRiskScore": 53,
+      "riskScoreBreakdown": [
+        {
+          "event": "미중 AI 규제 입장 차이",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        },
+        {
+          "event": "오픈AI 개인정보 유출 사고",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 4
+        },
+        {
+          "event": "GPT-6 사이버 등 전용 제품 개발",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-09-26",
+      "fileName": "2026-09-26.json"
+    },
+    {
+      "lastUpdated": "2026-09-25T00:12:24.443Z",
+      "reportDate": "2026. 9. 25.",
+      "summary": "- AI 거버넌스 및 정책 방향성: 트럼프 대통령의 규제 완화 기조와 시진핑 주석의 인간 통제 강조 등 AI 정책을 둘러싼 미·중 양국의 뚜렷한 온도 차가 확인됨.\n\n- AI 안전성 논의: 오픈AI와 앤트로픽 등 주요 AI 기업들이 UN에서 AI의 인간 통제 상실 가능성을 경고하며 안전 가드레일 마련의 필요성을 강력히 제기함.\n\n- 시장 성장세 지속: AI 및 반도체 관련 ETF의 순자산이 65조 원을 돌파하는 등 인프라 분야에 대한 투자자들의 신뢰와 자금 유입이 지속적으로 확대됨.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.2,
+      "velocityReason": "AI 정책 및 규제 논의가 주를 이루었으나, 실질적인 자동화 기술 상용화 발표보다는 국제적 거버넌스 협력 논의가 중심이 되어 속도가 완만하게 유지됨.",
+      "cumulativeRiskScore": 52.9,
+      "jobRiskScore": 52.9,
+      "riskScoreBreakdown": [
+        {
+          "event": "트럼프의 AI 규제 완화 기조",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 기업의 인간 통제 상실 경고",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 4
+        },
+        {
+          "event": "미중 AI 협력 가능성 논의",
+          "sign": "+",
+          "impact": 1,
+          "newsIndex": 3
+        }
+      ],
+      "id": "2026-09-25",
+      "fileName": "2026-09-25.json"
+    },
+    {
+      "lastUpdated": "2026-09-24T00:10:50.290Z",
+      "reportDate": "2026. 9. 24.",
+      "summary": "- 맞춤형 AI 광고 고도화: 개인 정보 및 시청 습관을 분석한 정교한 타겟 광고가 공공장소까지 확산되면서 프라이버시 이슈가 대두되고 있음.\n\n- AI 모델 가성비 경쟁 가속: 앤트로픽과 오픈AI를 중심으로 고성능 모델의 경량화 및 비용 효율화 경쟁이 심화되며 시장 진입 장벽이 낮아지고 있음.\n\n- AI 교육 투자 확대 및 사회적 책임: 통신사와 글로벌 빅테크 기업들이 AI 교육 인프라에 대규모 자본을 투입하며 AI 리터러시 강화에 나서고 있음.\n\n- AI 역기능 대응 강화: 로맨스 사기 등 AI를 악용한 사회적 범죄 사례가 구체화됨에 따라 기술적 방어와 안전한 생태계 구축이 주요 화두로 부상함.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.8,
+      "velocityReason": "AI 모델의 가성비 향상으로 산업 전반의 AI 도입 속도가 빨라지면서 직무 효율성 최적화에 대한 요구가 증대되고 있음.",
+      "cumulativeRiskScore": 52.9,
+      "jobRiskScore": 52.9,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 모델 가성비 경쟁(오픈AI, 앤트로픽)",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 로맨스 사기 등 역기능 증가",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        },
+        {
+          "event": "기업 주도 AI 교육 지원 확대",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-09-24",
+      "fileName": "2026-09-24.json"
+    },
+    {
+      "lastUpdated": "2026-09-22T23:57:26.941Z",
+      "reportDate": "2026. 9. 23.",
+      "summary": "- 메타의 AI 성능 경쟁력 강화: 메타가 자사 AI 서비스의 흥행으로 기술적 위기론을 불식시키고 주가 급등을 견인하며 시장의 신뢰를 회복함.\n\n- AI 기술 확산과 신뢰성 논란: '뮤즈(Muse)' 모델 등 고성능 AI의 산업적 파급력이 커지는 한편, 데이터 보안과 신뢰성 문제로 인한 기업 간 사용 제한 등 부작용도 동시에 표출됨.\n\n- 국가적 AI 경쟁력 확보 전략: 국내외 정부 및 산업계가 AI 메가프로젝트를 통해 미래 산업 생태계를 구축하고, 기술 기반의 혁신을 가속화하려는 움직임이 뚜렷함.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.2,
+      "velocityReason": "메타의 신규 AI 모델 흥행으로 인해 산업 전반의 자동화 기대감이 상승하며 기술 도입 속도가 빨라짐.",
+      "cumulativeRiskScore": 52.8,
+      "jobRiskScore": 52.8,
+      "riskScoreBreakdown": [
+        {
+          "event": "메타 AI 성능 향상 및 시장 점유 확대",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 확산에 따른 데이터 보안 및 기업 내 접속 차단",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 3
+        },
+        {
+          "event": "국가 단위 AI 메가프로젝트 추진",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-09-23",
+      "fileName": "2026-09-23.json"
+    },
+    {
+      "lastUpdated": "2026-09-22T00:30:06.125Z",
+      "reportDate": "2026. 9. 22.",
+      "summary": "- 인간 관계의 AI 의존 심화: 생성형 AI가 개인 간 메시지 소통에까지 개입하며 인간의 지적 능력과 정서적 교류의 퇴보 가능성이 제기됨.\n\n- AI 하드웨어 시장 본격화: 구글이 퀄컴의 칩을 탑재한 AI 특화 노트북 '구글북' 출시를 통해 AI PC 시장 경쟁에 본격적으로 가세함.\n\n- 국내 기술력의 국제적 성과: ETRI가 국제 AI 교통영상 분석 대회에서 우수한 성적을 거두며 공공 및 사회 안전 분야 AI 기술 고도화 사례를 증명함.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.8,
+      "velocityReason": "AI 전용 하드웨어의 시장 출시와 범용적인 AI 활용이 확산되면서 업무 환경 내 AI 도입 가속화가 완만하게 진행 중임.",
+      "cumulativeRiskScore": 52.7,
+      "jobRiskScore": 52.7,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 기반 의사소통 자동화 확산",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 특화 하드웨어 시장 본격 도입",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "교통 분야 공공 AI 기술 고도화",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-09-22",
+      "fileName": "2026-09-22.json"
+    },
+    {
+      "lastUpdated": "2026-09-20T23:47:08.052Z",
+      "reportDate": "2026. 9. 21.",
+      "summary": "- 대규모 투자 및 재무 압박: 오픈AI의 막대한 컴퓨팅 비용과 이를 충당하기 위한 대규모 투자 유치 필요성이 부각되었습니다.\n\n- AI 산업 속도 조절 및 리스크 관리: 앤트로픽의 상장 연기 및 AI 해킹 취약성에 대한 경고가 이어지며, 시장의 속도 조절론이 제기되었습니다.\n\n- 기술 전략 및 사회적 기여: SKT의 AI 사회적 가치 창출과 전문가 포럼을 통한 산업 현장의 AI 전환 전략 논의가 활발히 진행되었습니다.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.2,
+      "velocityReason": "AI 기업들의 재무적 건전성 확보와 기술 리스크 관리가 우선시되면서 단기적인 일자리 대체보다는 산업 안정화에 무게가 실렸기 때문입니다.",
+      "cumulativeRiskScore": 52.6,
+      "jobRiskScore": 52.6,
+      "riskScoreBreakdown": [
+        {
+          "event": "오픈AI 재무 압박 및 컴퓨팅 비용 증가",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 기업의 시장 진입 및 상장 속도 조절",
+          "sign": "+",
+          "impact": 1,
+          "newsIndex": 2
+        },
+        {
+          "event": "기업의 AI 기술 윤리 및 선한 AI 도입",
+          "sign": "--",
+          "impact": 2,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-09-21",
+      "fileName": "2026-09-21.json"
+    },
+    {
+      "lastUpdated": "2026-09-20T00:00:00.000+09:00",
+      "reportDate": "2026. 9. 20.",
+      "summary": "- 대규모 투자 및 재무 압박: 오픈AI의 막대한 컴퓨팅 비용과 이를 충당하기 위한 대규모 투자 유치 필요성이 부각되었습니다.\n\n- AI 산업 속도 조절 및 리스크 관리: 앤트로픽의 상장 연기 및 AI 해킹 취약성에 대한 경고가 이어지며, 시장의 속도 조절론이 제기되었습니다.\n\n- 기술 전략 및 사회적 기여: SKT의 AI 사회적 가치 창출과 전문가 포럼을 통한 산업 현장의 AI 전환 전략 논의가 활발히 진행되었습니다.",
+      "summaryScore": 78,
+      "dailyVelocity": null,
+      "velocityReason": "Markdown 보관 리포트에서 복원된 과거 데이터입니다.",
+      "cumulativeRiskScore": null,
+      "jobRiskScore": null,
+      "restoredFromMarkdown": true,
+      "riskScoreBreakdown": [
+        {
+          "event": "오픈AI 재무 압박 및 컴퓨팅 비용 증가",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": null
+        },
+        {
+          "event": "AI 기업의 시장 진입 및 상장 속도 조절",
+          "sign": "+",
+          "impact": 1,
+          "newsIndex": null
+        },
+        {
+          "event": "기업의 AI 기술 윤리 및 선한 AI 도입",
+          "sign": "-",
+          "impact": 2,
+          "newsIndex": null
+        }
+      ],
+      "id": "2026-09-20",
+      "fileName": "2026-09-20.json"
+    },
+    {
+      "lastUpdated": "2026-09-18T23:48:22.549Z",
+      "reportDate": "2026. 9. 19.",
+      "summary": "- AI 모델 효율성 증대: 구글이 재귀적 자기개선 기술을 도입하여 복잡한 문제 해결 효율을 획기적으로 개선하며 기술 고도화를 이끎.\n\n- 저작권 및 윤리 논란 심화: 오픈AI의 대규모 기사 무단 학습 의혹이 불거지며 AI 학습 데이터 수집의 윤리적 가이드라인에 대한 사회적 비판이 고조됨.\n\n- 군사 AI 리스크 현실화: AI의 허위 보고로 인한 미·중 군사적 충돌 위기 사건이 보도되면서, 자율 무기 체계 및 군사 AI 도입의 안전성에 대한 우려가 확산됨.",
+      "summaryScore": 88,
+      "dailyVelocity": 0.8,
+      "velocityReason": "AI의 기술적 도약과 동시에 치명적인 오류 및 사회적 분쟁 사례가 드러나며 산업적 자동화 속도와 윤리적 견제가 동시에 가속화됨.",
+      "cumulativeRiskScore": 52.6,
+      "jobRiskScore": 52.6,
+      "riskScoreBreakdown": [
+        {
+          "event": "구글 재귀적 자기개선 도입",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 허위 보고 군사 리스크 노출",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 3
+        },
+        {
+          "event": "데이터 학습 저작권 소송 리스크",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        }
+      ],
+      "id": "2026-09-19",
+      "fileName": "2026-09-19.json"
+    },
+    {
+      "lastUpdated": "2026-09-17T23:50:51.211Z",
+      "reportDate": "2026. 9. 18.",
+      "summary": "- 글로벌 지정학적 긴장과 AI 자산화: 미국의 대중국 반도체 규제 및 AI 기술 제한이 심화되면서, 각국은 기술 주권 확보를 위한 '소버린 AI' 구축에 국가적 예산을 집중 투입하고 있음.\n\n- AI 하드웨어 인프라 공급난: AI 가속기 시장의 폭발적인 수요로 인해 기판 및 MLCC 등 핵심 부품의 수급 불균형이 장기화되고 있으며, 이는 반도체 제조사의 중장기적 실적 호재로 작용 중임.\n\n- 국가 AI 정책의 질적 도약 필요성: 국내 AI 국가 사업의 예산 배분 및 심사 방식의 한계가 지적되며, 글로벌 경쟁력 확보를 위한 체계적인 인프라 투자와 정책 효율화가 요구되는 시점임.",
+      "summaryScore": 88,
+      "dailyVelocity": 0.3,
+      "velocityReason": "지정학적 갈등에 따른 국가별 소버린 AI 투자와 하드웨어 공급난이 산업 구조의 변화를 견인하고 있음.",
+      "cumulativeRiskScore": 52.5,
+      "jobRiskScore": 52.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "소버린 AI 국가 프로젝트 확산",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 하드웨어 공급 부족에 따른 인프라 병목",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 2
+        },
+        {
+          "event": "AI 기술 제한 및 통제 강화",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        }
+      ],
+      "id": "2026-09-18",
+      "fileName": "2026-09-18.json"
+    },
+    {
+      "lastUpdated": "2026-09-17T00:00:56.962Z",
+      "reportDate": "2026. 9. 17.",
+      "summary": "- AI 인지 및 윤리적 이슈: MIT의 '인지적 항복' 경고를 통해 AI 의존에 따른 인간의 사고력 감퇴 문제가 공론화됨.\n\n- 기술 패권 및 하드웨어 가뭄: 미·중 간 AI 주도권 경쟁이 심화되는 가운데, HBM과 기판 등 필수 핵심 부품의 공급난이 장기화되며 AI 산업 성장의 병목 현상이 발생함.\n\n- 안전성 및 글로벌 규제: AI의 위험성에 대한 경각심이 고조되면서 유엔 등 국제 사회에서 안보 차원의 규제 논의가 본격화되는 추세임.",
+      "summaryScore": 88,
+      "dailyVelocity": 0.2,
+      "velocityReason": "기술 발전과 공급망 제약이 교차하면서 전반적인 산업 구조 조정에 대한 신중론이 확산되는 양상임.",
+      "cumulativeRiskScore": 52.5,
+      "jobRiskScore": 52.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 인지적 항복 논란",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "글로벌 AI 규제 논의 가속",
+          "sign": " -",
+          "impact": 3,
+          "newsIndex": 5
+        },
+        {
+          "event": "하드웨어 공급난으로 인한 기업 투자 병목",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 4
+        }
+      ],
+      "id": "2026-09-17",
+      "fileName": "2026-09-17.json"
+    },
+    {
+      "lastUpdated": "2026-09-15T23:53:58.037Z",
+      "reportDate": "2026. 9. 16.",
+      "summary": "- AI 기술 경쟁 가속화: 젠슨 황 등 업계 리더들이 AI 발전 속도 조절론에 정면 반박하며 기술 주도권 유지를 강조함.\n\n- 투자 시장의 견고함: AI 개발 규제나 안전성 우려에도 불구하고 월가는 여전히 AI 분야를 강력한 성장 동력으로 평가하며 투자를 지속함.\n\n- 사회적 안전망 및 윤리 이슈: AI 의존도 심화에 따른 인간의 인지 능력 저하 경고와 함께 정치적 진영을 초월한 AI 규제 및 통제 논의가 활발해짐.",
+      "summaryScore": 88,
+      "dailyVelocity": 0.3,
+      "velocityReason": "AI 발전 속도 논쟁이 치열하게 전개되었으나 실질적인 대규모 감원 소식보다는 전략적 경쟁 및 윤리적 담론에 집중되어 속도 변화는 완만함.",
+      "cumulativeRiskScore": 52.5,
+      "jobRiskScore": 52.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 발전 가속화 전략 유지",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 규제 및 인지적 항복 경고",
+          "sign": "-",
+          "impact": 3,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-09-16",
+      "fileName": "2026-09-16.json"
+    },
+    {
+      "lastUpdated": "2026-09-15T00:10:07.837Z",
+      "reportDate": "2026. 9. 15.",
+      "summary": "- 글로벌 AI 패권 경쟁 가속: 중국이 서방의 AI 발전 속도 조절 요구에 반발하며 국가적 차원의 AI 기술 주도권 확보를 선언함.\n\n- AI 거버넌스 강화: 유엔이 소수 빅테크 기업에 의존하는 AI 시장 구조의 위험성을 경고하며, 안전하고 공정한 기술 개발을 위한 국제적 긴급 조치를 촉구함.\n\n- 산업 특화 및 실무 적용 확대: 의료, 금융, 지역 교육 등 전문 영역에서의 AI 에이전트 도입과 투자 유치가 활발해지며 실제 업무 효율화가 진행 중임.",
+      "summaryScore": 78,
+      "dailyVelocity": 0.3,
+      "velocityReason": "특화 분야 AI 에이전트 상용화와 글로벌 기술 패권 경쟁이 격화되었으나, 산업 현장의 점진적 도입 수준에 그쳐 완만한 영향력을 보임.",
+      "cumulativeRiskScore": 52.5,
+      "jobRiskScore": 52.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "중국의 AI 개발 가속화 선언",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "유엔의 빅테크 AI 독점 위험 경고",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        },
+        {
+          "event": "전문 직군용 AI 에이전트 도입",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 5
+        }
+      ],
+      "id": "2026-09-15",
+      "fileName": "2026-09-15.json"
     },
     {
       "lastUpdated": "2026-09-14T08:42:58.744Z",
@@ -481,101 +2228,502 @@
       "fileName": "2026-09-04.json"
     },
     {
-      "lastUpdated": "2026-09-03T00:00:00.000+09:00",
+      "lastUpdated": "2026-09-03T09:20:03.759Z",
       "reportDate": "2026. 9. 3.",
-      "summary": "- 차세대 AGI 모델 등극: 오픈AI가 'GPT-6 아스트라'를 공개하며 범용인공지능(AGI) 시대로의 본격적인 진입을 선언함.\n- 기술 혁신 가속: '순환 추론' 기술 도입으로 모델의 추론 성능과 복잡한 문제 해결 능력이 대폭 향상됨.\n- 국내 공공 보안 시장 선점: 네이버 컨소시엄이 정부의 '보안 특화 AI' 사업자로 선정되며 국가 차원의 AI 인프라 보안 구축이 본격화됨.",
-      "summaryScore": 92,
-      "dailyVelocity": 1,
-      "velocityReason": "Markdown 보관 리포트에서 복원된 과거 데이터입니다.",
-      "cumulativeRiskScore": 50,
-      "jobRiskScore": 50,
+      "summary": "- 정부 보안 특화 AI 주도권 확보: 네이버클라우드가 정부의 사이버 보안 AI 모델 개발 사업자로 선정되며 공공 분야의 AI 보안 기술 자립도가 강화될 것으로 전망됩니다.\n\n- AI 적용 영역의 확장: AI 기술이 전문 보안 영역을 넘어 일상적인 집안일과 독서 방식 변화 등 대중적인 라이프스타일 혁신으로까지 빠르게 확산하고 있습니다.\n\n- AI 활용 능력의 중요성 강조: AI가 정보를 단순 처리하는 시대를 넘어, 인간이 AI와 상호작용하며 질문을 던지는 능력이 핵심 경쟁력으로 부상하고 있습니다.",
+      "summaryScore": 82,
+      "dailyVelocity": 0.3,
+      "velocityReason": "보안 AI 사업 추진 및 생활 밀착형 AI 기술의 대중화로 기술적 완성도가 높아지고 있으나 노동 시장에 급격한 변화를 줄 이벤트는 부재함.",
+      "cumulativeRiskScore": 51.4,
+      "jobRiskScore": 51.4,
       "riskScoreBreakdown": [
         {
-          "event": "GPT-6 아스트라 공개",
-          "sign": "+",
-          "impact": 5,
-          "newsIndex": null
-        },
-        {
-          "event": "순환 추론 기반의 고도화된 성능 향상",
-          "sign": "+",
-          "impact": 4,
-          "newsIndex": null
-        },
-        {
-          "event": "정부 보안 특화 AI 사업 선정",
+          "event": "정부 보안 AI 사업 선정",
           "sign": "+",
           "impact": 2,
-          "newsIndex": null
+          "newsIndex": 1
+        },
+        {
+          "event": "가사 노동 자동화 AI 확산",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
         }
       ],
       "id": "2026-09-03",
       "fileName": "2026-09-03.json"
     },
     {
-      "lastUpdated": "2026-09-02T00:00:00.000+09:00",
+      "lastUpdated": "2026-09-01T23:44:04.835Z",
       "reportDate": "2026. 9. 2.",
-      "summary": "- 국가 안보 및 소버린 AI 확대: 국방부가 독자적인 전장 특화 AI 모델을 개발하며 국가 안보 주권을 강화하고 소버린 AI의 중요성이 부각됨.\n- AI 성능 혁신: 앤스로픽 AI가 373년 된 난제를 단시간에 해결하는 등 AI의 논리적 추론 및 데이터 처리 능력이 비약적으로 발전함.\n- 공공 데이터 개방 및 문화 산업 전환: 정부 차원의 데이터 개방을 통해 문화, 관광 등 산업 전반의 디지털 전환이 가속화됨.\n- 교육 현장의 AI 활용 갈등: AI 기술의 급성장에 대응하여 뉴욕시 등 주요 학군이 학생들의 학습권 보호를 이유로 AI 사용을 일시 금지하며 교육적 접근을 재검토함.",
-      "summaryScore": 82,
-      "dailyVelocity": 1,
-      "velocityReason": "Markdown 보관 리포트에서 복원된 과거 데이터입니다.",
-      "cumulativeRiskScore": 50,
-      "jobRiskScore": 50,
+      "summary": "- AI 콘텐츠 시장의 냉정한 현실: 생성형 AI를 활용한 숏폼 콘텐츠가 대거 쏟아지고 있으나, 98% 이상의 대다수가 수익 창출에 실패하며 시장의 거품 논란과 실질적인 수익화 모델의 한계가 드러남.\n\n- 국가 차원의 AI 인프라 및 예산 대폭 확대: 정부가 전 국민 AI 서비스 지원과 '피지컬 AI' 분야 예산을 3배 증액하는 등 국가적 경쟁력 확보를 위한 대규모 예산 투입 계획을 발표함.\n\n- AI 하드웨어 확보 및 투자 전쟁 가속화: 글로벌 AI 패권 경쟁을 위해 GPU 1만 장 확보에 3.85조 원을 투입하며, AI와 방산 중심의 투자 전쟁이 전 세계적인 국채 금리 상승을 유발하는 등 거시 경제에 큰 영향을 미치고 있음.",
+      "summaryScore": 88,
+      "dailyVelocity": 0.3,
+      "velocityReason": "국가 단위의 인프라 투자와 AI 보급 지원이 강화되었으나, 민간 영역의 콘텐츠 수익성 한계가 드러나며 일자리 대체보다는 인프라 기반의 시장 재편이 우선시되는 양상임.",
+      "cumulativeRiskScore": 51.4,
+      "jobRiskScore": 51.4,
       "riskScoreBreakdown": [
         {
-          "event": "소버린 AI 및 국방 AI 도입",
+          "event": "AI 숏폼 수익화 실패 사례 증가",
           "sign": "+",
           "impact": 4,
-          "newsIndex": null
+          "newsIndex": 1
         },
         {
-          "event": "AI 고도화에 따른 복합 문제 해결 능력 입증",
+          "event": "정부 주도 AI 산업 대규모 예산 투입",
           "sign": "+",
           "impact": 3,
-          "newsIndex": null
+          "newsIndex": 2
         },
         {
-          "event": "교육 현장 AI 사용 금지 조치",
+          "event": "GPU 등 AI 하드웨어 인프라 확보",
           "sign": "+",
-          "impact": 2,
-          "newsIndex": null
+          "impact": 3,
+          "newsIndex": 4
         }
       ],
       "id": "2026-09-02",
       "fileName": "2026-09-02.json"
     },
     {
-      "lastUpdated": "2026-09-01T00:00:00.000+09:00",
+      "lastUpdated": "2026-09-01T00:56:36.770Z",
       "reportDate": "2026. 9. 1.",
-      "summary": "- AI 콘텐츠 시장의 냉정한 현실: 생성형 AI를 활용한 숏폼 콘텐츠가 대거 쏟아지고 있으나, 98% 이상의 대다수가 수익 창출에 실패하며 시장의 거품 논란과 실질적인 수익화 모델의 한계가 드러남.\n\n- 국가 차원의 AI 인프라 및 예산 대폭 확대: 정부가 전 국민 AI 서비스 지원과 '피지컬 AI' 분야 예산을 3배 증액하는 등 국가적 경쟁력 확보를 위한 대규모 예산 투입 계획을 발표함.\n\n- AI 하드웨어 확보 및 투자 전쟁 가속화: 글로벌 AI 패권 경쟁을 위해 GPU 1만 장 확보에 3.85조 원을 투입하며, AI와 방산 중심의 투자 전쟁이 전 세계적인 국채 금리 상승을 유발하는 등 거시 경제에 큰 영향을 미치고 있음.",
-      "summaryScore": 88,
-      "dailyVelocity": 1,
-      "velocityReason": "Markdown 보관 리포트에서 복원된 과거 데이터입니다.",
-      "cumulativeRiskScore": 50,
-      "jobRiskScore": 50,
+      "summary": "- 국가 AI 리더십 강화: 하정우 부위원장 등 전문가들로 구성된 국가AI전략위원회가 공식 출범하며 AI 3대 강국 도약을 위한 국가 역량 총결집을 선언했습니다.\n\n- 기술 효율성 최적화: 오픈AI가 코덱스 모델의 효율성을 50%까지 개선하는 조치를 단행하여 개발 생산성과 운영 효율성을 높였습니다.\n\n- 공공 서비스 혁신: 일본 정부가 요양등급 판정 과정에 AI를 도입하여 행정 업무의 자동화와 효율화를 추진하고 있습니다.",
+      "summaryScore": 78,
+      "dailyVelocity": 1.2,
+      "velocityReason": "국가 차원의 AI 전략 추진과 기술 효율성 개선이 맞물려 산업 현장의 AI 도입 속도가 완만하게 가속화되었습니다.",
+      "cumulativeRiskScore": 51.4,
+      "jobRiskScore": 51.4,
       "riskScoreBreakdown": [
         {
-          "event": "AI 숏폼 수익화 실패 사례 증가",
+          "event": "국가AI전략위원회 출범",
           "sign": "+",
           "impact": 4,
-          "newsIndex": null
+          "newsIndex": 2
         },
         {
-          "event": "정부 주도 AI 산업 대규모 예산 투입",
+          "event": "오픈AI 코덱스 효율 개선",
           "sign": "+",
           "impact": 3,
-          "newsIndex": null
+          "newsIndex": 4
         },
         {
-          "event": "GPU 등 AI 하드웨어 인프라 확보",
+          "event": "일본 공공분야 AI 자동화 도입",
           "sign": "+",
-          "impact": 3,
-          "newsIndex": null
+          "impact": 4,
+          "newsIndex": 5
         }
       ],
       "id": "2026-09-01",
       "fileName": "2026-09-01.json"
     }
   ],
-  "occupationTracking": []
+  "occupationTracking": [
+    {
+      "id": "기자",
+      "occupation": "기자",
+      "tasks": [
+        "글쓰기",
+        "정보 요약 및 그래픽 제작"
+      ],
+      "reason": "AI를 활용한 정보 요약 및 콘텐츠 제작 자동화가 미디어 현장에 도입되고 있으나, 기술 의존에서 벗어나 인간 주도의 창작과 심층 분석의 가치를 재확인하는 움직임도 함께 나타남.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-10",
+      "lastObserved": "2026-11-10",
+      "lastEvidenceDate": "2026-11-09",
+      "evidence": [
+        {
+          "id": "article-6",
+          "title": "AI·인터넷 없이 3시간 글쓰기… \"내 힘으로 완성하니 짜릿\" - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZWs5VnhmVTFNWU1LT3dYeVN4bXUtMzVST1p4dTFqNHNCVjNaNFRBcVVIUGJqcnMxeHU5R2lCVWc0b0pZVDlSUVUzSGNJS3BWUTdvMGMwWFhPeGpQUVBSa3kwRlhQa000M0NrOUlKc1AwQUpzNUpGdnBvVW9Uc2NxWjFULVM5Rk0?oc=5",
+          "reportDate": "2026-11-09"
+        },
+        {
+          "id": "article-51",
+          "title": "매끄러운 한 줄 요약의 바깥을 그리다…‘AI시대와 언론’ 그래픽 제작기[뉴스뷰] - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUl8xV2R0YlZDbklKc1prbzFvNDJQZlRpSEZOcnk5cGxBMEs1STJiZi1TNDd2TEp4UkZGTy1ZN2pJYTdWYnhsemVxTFg0OHN6dUNCeW5nOWdJUXZubTJKV2t4a1YtYUlVamwtU3h1UTliZ2ZGTFM4aHpRbDRHMm55c244OVRpakFhYm9ueXJTbjJNRkFrVHpHTDUyM0NyMmE4ZURZN0RETUt6dw?oc=5",
+          "reportDate": "2026-10-31"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-10",
+          "stage": "현장 도입",
+          "reason": "AI를 활용한 정보 요약 및 콘텐츠 제작 자동화가 미디어 현장에 도입되고 있으나, 기술 의존에서 벗어나 인간 주도의 창작과 심층 분석의 가치를 재확인하는 움직임도 함께 나타남.",
+          "tasks": [
+            "글쓰기",
+            "정보 요약 및 그래픽 제작"
+          ],
+          "evidence": [
+            {
+              "id": "article-6",
+              "title": "AI·인터넷 없이 3시간 글쓰기… \"내 힘으로 완성하니 짜릿\" - 조선일보",
+              "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZWs5VnhmVTFNWU1LT3dYeVN4bXUtMzVST1p4dTFqNHNCVjNaNFRBcVVIUGJqcnMxeHU5R2lCVWc0b0pZVDlSUVUzSGNJS3BWUTdvMGMwWFhPeGpQUVBSa3kwRlhQa000M0NrOUlKc1AwQUpzNUpGdnBvVW9Uc2NxWjFULVM5Rk0?oc=5",
+              "reportDate": "2026-11-09"
+            },
+            {
+              "id": "article-51",
+              "title": "매끄러운 한 줄 요약의 바깥을 그리다…‘AI시대와 언론’ 그래픽 제작기[뉴스뷰] - 경향신문",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUl8xV2R0YlZDbklKc1prbzFvNDJQZlRpSEZOcnk5cGxBMEs1STJiZi1TNDd2TEp4UkZGTy1ZN2pJYTdWYnhsemVxTFg0OHN6dUNCeW5nOWdJUXZubTJKV2t4a1YtYUlVamwtU3h1UTliZ2ZGTFM4aHpRbDRHMm55c244OVRpakFhYm9ueXJTbjJNRkFrVHpHTDUyM0NyMmE4ZURZN0RETUt6dw?oc=5",
+              "reportDate": "2026-10-31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "소프트웨어개발자",
+      "occupation": "소프트웨어 개발자",
+      "tasks": [
+        "코드 작성 및 프로그래밍",
+        "서버 보안 취약점 점검",
+        "코드 작성",
+        "서버 모의해킹 대응"
+      ],
+      "reason": "AI 기반 자동화 도구와 모의해킹 툴이 고도화됨에 따라 단순 코딩 및 취약점 점검 업무의 자동화 가능성이 확인되고 있으나, 보안 방어 및 아키텍처 설계 영역에서는 인간 엔지니어의 개입과 통제가 필수적임.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-09",
+      "lastObserved": "2026-11-10",
+      "lastEvidenceDate": "2026-11-09",
+      "evidence": [
+        {
+          "id": "article-10",
+          "title": "17분 만에 해골문양 등장‥PHP 서버, AI 모의해킹에 속수무책으로 뚫려 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvMzFCSTJPT1dIR3JmYlRBTmktcFQzLVFvMEpsOW5zN1o1c0VibkpxMzFsY19yMGMzZnFMYVRUN0NMeTVuZ2kwdEVrbkkwaHhqTUx2RGRZVjVzRTI0YmVfWndNTGRZOGFFMFB3emhsMF9EdHE5ZU9wTtIBeEFVX3lxTE5XRnRrdGRlczhiUDVabjBsSElvVDhIVGQ4QVMzemh3dEVJaDI2Z3NVeVpHckd5cWd6Ul9iWWJoTkItenlydUJPTE9NMkxOMDBfNnoxVHVKLVJGMUk5MmxYaGFJS3ZMWjRPY3FpVWIxTGZKc01BNlRxRA?oc=5",
+          "reportDate": "2026-11-08"
+        },
+        {
+          "id": "article-83",
+          "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+          "reportDate": "2026-10-20"
+        },
+        {
+          "id": "article-88",
+          "title": "오픈AI, ‘GPT-6 아스트라 프로’ 업그레이드...에이전트 병렬 실행 지원 - AI타임스",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fRjMyNFJlSnd5LTRkeElJUVEwVUJrZUtlVjlWdEdxSVV3RW4wc2NDQ0dmYllpMHVfNzdldjBtX0pKdUVHWm83dk9samtKRFhMekUxRDdBUXR4UXcyUE1rMEFZaG5aMV9uREE?oc=5",
+          "reportDate": "2026-10-19"
+        },
+        {
+          "id": "article-9",
+          "title": "\"AI해커 속여 해킹 방어\"...숭실대 AI안전성연구센터, 새 기술 개발 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Kdl9rTHAwOEU2cF9wRE1HM0t0a3JTdndsUFVXQy01cS1NWXhPRzlocUdfQzZxMHBBVmdTMXFkSVc2ODBTejZ6VkNiZ1JhdXpIZ2VWb09n?oc=5",
+          "reportDate": "2026-11-09"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-09",
+          "stage": "기술 시연",
+          "reason": "AI가 코드 작성 및 모의해킹 등을 수행하는 기술과 에이전트 병렬 실행 기능이 고도화되고 있으나, 엔지니어의 역할이 문제 해결과 아키텍처 설계 중심으로 변화하는 단계임.",
+          "tasks": [
+            "코드 작성 및 프로그래밍",
+            "서버 보안 취약점 점검"
+          ],
+          "evidence": [
+            {
+              "id": "article-10",
+              "title": "17분 만에 해골문양 등장‥PHP 서버, AI 모의해킹에 속수무책으로 뚫려 - MBC 뉴스",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvMzFCSTJPT1dIR3JmYlRBTmktcFQzLVFvMEpsOW5zN1o1c0VibkpxMzFsY19yMGMzZnFMYVRUN0NMeTVuZ2kwdEVrbkkwaHhqTUx2RGRZVjVzRTI0YmVfWndNTGRZOGFFMFB3emhsMF9EdHE5ZU9wTtIBeEFVX3lxTE5XRnRrdGRlczhiUDVabjBsSElvVDhIVGQ4QVMzemh3dEVJaDI2Z3NVeVpHckd5cWd6Ul9iWWJoTkItenlydUJPTE9NMkxOMDBfNnoxVHVKLVJGMUk5MmxYaGFJS3ZMWjRPY3FpVWIxTGZKc01BNlRxRA?oc=5",
+              "reportDate": "2026-11-08"
+            },
+            {
+              "id": "article-83",
+              "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+              "reportDate": "2026-10-20"
+            },
+            {
+              "id": "article-88",
+              "title": "오픈AI, ‘GPT-6 아스트라 프로’ 업그레이드...에이전트 병렬 실행 지원 - AI타임스",
+              "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fRjMyNFJlSnd5LTRkeElJUVEwVUJrZUtlVjlWdEdxSVV3RW4wc2NDQ0dmYllpMHVfNzdldjBtX0pKdUVHWm83dk9samtKRFhMekUxRDdBUXR4UXcyUE1rMEFZaG5aMV9uREE?oc=5",
+              "reportDate": "2026-10-19"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "stage": "현장 도입",
+          "reason": "AI 기반 자동화 도구와 모의해킹 툴이 고도화됨에 따라 단순 코딩 및 취약점 점검 업무의 자동화 가능성이 확인되고 있으나, 보안 방어 및 아키텍처 설계 영역에서는 인간 엔지니어의 개입과 통제가 필수적임.",
+          "tasks": [
+            "코드 작성",
+            "서버 모의해킹 대응"
+          ],
+          "evidence": [
+            {
+              "id": "article-9",
+              "title": "\"AI해커 속여 해킹 방어\"...숭실대 AI안전성연구센터, 새 기술 개발 - 지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Kdl9rTHAwOEU2cF9wRE1HM0t0a3JTdndsUFVXQy01cS1NWXhPRzlocUdfQzZxMHBBVmdTMXFkSVc2ODBTejZ6VkNiZ1JhdXpIZ2VWb09n?oc=5",
+              "reportDate": "2026-11-09"
+            },
+            {
+              "id": "article-15",
+              "title": "17분 만에 해골문양 등장‥PHP 서버, AI 모의해킹에 속수무책으로 뚫려 - MBC 뉴스",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvMzFCSTJPT1dIR3JmYlRBTmktcFQzLVFvMEpsOW5zN1o1c0VibkpxMzFsY19yMGMzZnFMYVRUN0NMeTVuZ2kwdEVrbkkwaHhqTUx2RGRZVjVzRTI0YmVfWndNTGRZOGFFMFB3emhsMF9EdHE5ZU9wTtIBeEFVX3lxTE5XRnRrdGRlczhiUDVabjBsSElvVDhIVGQ4QVMzemh3dEVJaDI2Z3NVeVpHckd5cWd6Ul9iWWJoTkItenlydUJPTE9NMkxOMDBfNnoxVHVKLVJGMUk5MmxYaGFJS3ZMWjRPY3FpVWIxTGZKc01BNlRxRA?oc=5",
+              "reportDate": "2026-11-08"
+            },
+            {
+              "id": "article-88",
+              "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "사무직원",
+      "occupation": "사무직원",
+      "tasks": [
+        "보고서 작성",
+        "PPT 발표 자료 제작",
+        "데이터 심사"
+      ],
+      "reason": "기업 내 문서 작성 및 비즈니스 프로세스에 생성형 AI가 광범위하게 도입되고 있으나, 후속 검토 과정의 복잡성으로 인해 인간 관리자의 역할이 여전히 강조됨.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-10",
+      "lastObserved": "2026-11-10",
+      "lastEvidenceDate": "2026-11-06",
+      "evidence": [
+        {
+          "id": "article-24",
+          "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+          "reportDate": "2026-11-06"
+        },
+        {
+          "id": "article-54",
+          "title": "“후배가 쓴 보고서, 대놓고 AI 썼네요”...이제 ‘사람 냄새’ 풍기는 기술이 돈 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IdEdiS3hSaGk0b0gzNHZTNFlHdHVzd3M1MEozWkw1QzFOMFlpU3gtb0xFSWM2MUMtSVpMY1pPczVENTRGam1kU2JkRTlEUQ?oc=5",
+          "reportDate": "2026-10-30"
+        },
+        {
+          "id": "article-87",
+          "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
+          "reportDate": "2026-10-20"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-10",
+          "stage": "현장 도입",
+          "reason": "기업 내 문서 작성 및 비즈니스 프로세스에 생성형 AI가 광범위하게 도입되고 있으나, 후속 검토 과정의 복잡성으로 인해 인간 관리자의 역할이 여전히 강조됨.",
+          "tasks": [
+            "보고서 작성",
+            "PPT 발표 자료 제작",
+            "데이터 심사"
+          ],
+          "evidence": [
+            {
+              "id": "article-24",
+              "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+              "reportDate": "2026-11-06"
+            },
+            {
+              "id": "article-54",
+              "title": "“후배가 쓴 보고서, 대놓고 AI 썼네요”...이제 ‘사람 냄새’ 풍기는 기술이 돈 - 매일경제",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IdEdiS3hSaGk0b0gzNHZTNFlHdHVzd3M1MEozWkw1QzFOMFlpU3gtb0xFSWM2MUMtSVpMY1pPczVENTRGam1kU2JkRTlEUQ?oc=5",
+              "reportDate": "2026-10-30"
+            },
+            {
+              "id": "article-87",
+              "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "사무직근로자",
+      "occupation": "사무직 근로자",
+      "tasks": [
+        "보고서 및 PPT 작성",
+        "사내 행정 및 데이터 정리"
+      ],
+      "reason": "AI 도구를 활용한 문서 및 발표 자료 작성 자동화가 확산되고 있으나, 후속 업무의 복잡성으로 인해 인간의 회의 및 검토 시간이 오히려 길어지는 등 보완적 협업 형태가 유지됨.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-09",
+      "lastObserved": "2026-11-09",
+      "lastEvidenceDate": "2026-11-06",
+      "evidence": [
+        {
+          "id": "article-19",
+          "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+          "reportDate": "2026-11-06"
+        },
+        {
+          "id": "article-82",
+          "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
+          "reportDate": "2026-10-20"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-09",
+          "stage": "현장 도입",
+          "reason": "AI 도구를 활용한 문서 및 발표 자료 작성 자동화가 확산되고 있으나, 후속 업무의 복잡성으로 인해 인간의 회의 및 검토 시간이 오히려 길어지는 등 보완적 협업 형태가 유지됨.",
+          "tasks": [
+            "보고서 및 PPT 작성",
+            "사내 행정 및 데이터 정리"
+          ],
+          "evidence": [
+            {
+              "id": "article-19",
+              "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+              "reportDate": "2026-11-06"
+            },
+            {
+              "id": "article-82",
+              "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "공무원",
+      "occupation": "공무원",
+      "tasks": [
+        "행정 업무 처리",
+        "민원 응대 및 관리",
+        "단순 행정 업무",
+        "민원 응대 및 처리"
+      ],
+      "reason": "공공 행정 영역에서 AI를 도입하여 업무 효율성을 검증하는 실험과 제도가 추진 중이며, 단순 반복 행정 업무의 자동화 가능성이 검토되고 있음.",
+      "stage": "기술 시연",
+      "firstObserved": "2026-11-09",
+      "lastObserved": "2026-11-10",
+      "lastEvidenceDate": "2026-11-04",
+      "evidence": [
+        {
+          "id": "article-40",
+          "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+          "reportDate": "2026-11-01"
+        },
+        {
+          "id": "article-34",
+          "title": "충남도, 2030년 ‘AI 기본사회’ 돌봄부터 교통·행정까지 연결 - 브릿지경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84MEIzUUNTN1k4d1lWbklQazdvanI3RFJhb1V2R2dHZXBzb1lxdE5ycWJKSzZqV1ZoRnN6MUVSSmdoUmVLZzNaSHpra3ItN015VUxfeVpVcmEtQQ?oc=5",
+          "reportDate": "2026-11-04"
+        },
+        {
+          "id": "article-61",
+          "title": "공공기관 AI 활용 확대…달라지는 제도와 안전기준은? - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWRqU0QyTEZSbzdGTzMydDlpRVc2MkxKTG1za2lqRXQzOXNHSVlGVXl5bU9NNThsc1Q0RUtRb3B2aVdEZGlUd1JVelZYclBYZ3lCYXFTWHhmc0xfX1dJbDJheXFhc3ctY2lqSHgwb25XUDNkem16dlhsQ3ViTGVYdUNrY3VxVzBNNkw0?oc=5",
+          "reportDate": "2026-10-29"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-09",
+          "stage": "현장 도입",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이나, 단순 행정 업무의 자동화 단계이며 직업 전체의 소멸이나 대체가 확정된 것은 아님.",
+          "tasks": [
+            "행정 업무 처리",
+            "민원 응대 및 관리"
+          ],
+          "evidence": [
+            {
+              "id": "article-40",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "stage": "기술 시연",
+          "reason": "공공 행정 영역에서 AI를 도입하여 업무 효율성을 검증하는 실험과 제도가 추진 중이며, 단순 반복 행정 업무의 자동화 가능성이 검토되고 있음.",
+          "tasks": [
+            "단순 행정 업무",
+            "민원 응대 및 처리"
+          ],
+          "evidence": [
+            {
+              "id": "article-34",
+              "title": "충남도, 2030년 ‘AI 기본사회’ 돌봄부터 교통·행정까지 연결 - 브릿지경제",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84MEIzUUNTN1k4d1lWbklQazdvanI3RFJhb1V2R2dHZXBzb1lxdE5ycWJKSzZqV1ZoRnN6MUVSSmdoUmVLZzNaSHpra3ItN015VUxfeVpVcmEtQQ?oc=5",
+              "reportDate": "2026-11-04"
+            },
+            {
+              "id": "article-45",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            },
+            {
+              "id": "article-61",
+              "title": "공공기관 AI 활용 확대…달라지는 제도와 안전기준은? - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWRqU0QyTEZSbzdGTzMydDlpRVc2MkxKTG1za2lqRXQzOXNHSVlGVXl5bU9NNThsc1Q0RUtRb3B2aVdEZGlUd1JVelZYclBYZ3lCYXFTWHhmc0xfX1dJbDJheXFhc3ctY2lqSHgwb25XUDNkem16dlhsQ3ViTGVYdUNrY3VxVzBNNkw0?oc=5",
+              "reportDate": "2026-10-29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "방송제작스태프",
+      "occupation": "방송 제작 스태프",
+      "tasks": [
+        "프로그램 매칭 및 추적 촬영",
+        "영상 콘텐츠 편집"
+      ],
+      "reason": "방송 제작 현장에서 AI 매칭 및 추적 촬영 기술이 도입되어 제작 효율성이 높아지고 있으나, 자동화 도구 사용 시 권한 관리와 인간의 검토 필요성이 함께 대두됨.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-09",
+      "lastObserved": "2026-11-09",
+      "lastEvidenceDate": "2026-10-29",
+      "evidence": [
+        {
+          "id": "article-54",
+          "title": "KT HCN, '홀로탈출' 시즌4…AI 매칭·추적 촬영 도입 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80MVh6NmNnQ0dRa1dYOEVzVVUxRGpsbmIzSFhPMTdHVmJtT1BYZXJmZUlaQzRjVWVUT2VZTXRZX0JGNk1tX094Q1ZWOHZUQQ?oc=5",
+          "reportDate": "2026-10-29"
+        },
+        {
+          "id": "article-100",
+          "title": "AI에 권한 줬더니…방송 직전 프로그램 통째 증발 ‘날벼락 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95bWJhcUFTQlhQQWp1bF9wXzlUV1BLQVZROFlQUDVHWlNPWG9SamRKRTZOSFdHdHB4SHNyVk1TSU8yMTNaMzRGSFFHck5mY3Z4QVZmS2xR?oc=5",
+          "reportDate": "2026-10-17"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-09",
+          "stage": "현장 도입",
+          "reason": "방송 제작 현장에서 AI 매칭 및 추적 촬영 기술이 도입되어 제작 효율성이 높아지고 있으나, 자동화 도구 사용 시 권한 관리와 인간의 검토 필요성이 함께 대두됨.",
+          "tasks": [
+            "프로그램 매칭 및 추적 촬영",
+            "영상 콘텐츠 편집"
+          ],
+          "evidence": [
+            {
+              "id": "article-54",
+              "title": "KT HCN, '홀로탈출' 시즌4…AI 매칭·추적 촬영 도입 - 전자신문",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80MVh6NmNnQ0dRa1dYOEVzVVUxRGpsbmIzSFhPMTdHVmJtT1BYZXJmZUlaQzRjVWVUT2VZTXRZX0JGNk1tX094Q1ZWOHZUQQ?oc=5",
+              "reportDate": "2026-10-29"
+            },
+            {
+              "id": "article-100",
+              "title": "AI에 권한 줬더니…방송 직전 프로그램 통째 증발 ‘날벼락 - 지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95bWJhcUFTQlhQQWp1bF9wXzlUV1BLQVZROFlQUDVHWlNPWG9SamRKRTZOSFdHdHB4SHNyVk1TSU8yMTNaMzRGSFFHck5mY3Z4QVZmS2xR?oc=5",
+              "reportDate": "2026-10-17"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

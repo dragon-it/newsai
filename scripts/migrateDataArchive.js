@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { execFileSync } from "node:child_process";
 import { migrateLegacyData, writeJsonArchive } from "../src/formatters/generateJson.js";
 
 const workspaceRoot = process.cwd();
@@ -70,10 +71,11 @@ function parseMarkdownReport(fileName) {
     reportDate: `${year}. ${Number(month)}. ${Number(day)}.`,
     summary,
     summaryScore,
-    dailyVelocity: 1.0,
+    dailyVelocity: null,
     velocityReason: "Markdown 보관 리포트에서 복원된 과거 데이터입니다.",
-    cumulativeRiskScore: 50,
-    jobRiskScore: 50,
+    cumulativeRiskScore: null,
+    jobRiskScore: null,
+    restoredFromMarkdown: true,
     riskScoreBreakdown,
     news,
   };
@@ -91,6 +93,27 @@ migrateLegacyData();
 const reportsByDate = new Map(
   readCurrentArchive().map((report) => [report.reportDate, report]),
 );
+
+// Git 원본 JSON에서 실측 저장값 복원, Markdown 대체값보다 원본 우선
+const revisions = execFileSync("git", ["-c", "safe.directory=C:/Users/user/Desktop/newsai/newsai", "log", "--format=%H", "--", "data.json"], { encoding: "utf8" }).trim().split(/\s+/);
+const originalDates = new Set();
+for (const revision of revisions) {
+  let stored;
+  try {
+    stored = JSON.parse(execFileSync("git", ["-c", "safe.directory=C:/Users/user/Desktop/newsai/newsai", "show", `${revision}:data.json`], { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], maxBuffer: 10 * 1024 * 1024 }));
+  } catch {
+    continue;
+  }
+  for (const report of Array.isArray(stored) ? stored : [stored]) {
+    if (!report?.reportDate || reportId(report) < archiveStartDate || originalDates.has(report.reportDate)
+      || report.restoredFromMarkdown || report.velocityReason?.includes("Markdown 보관 리포트")) continue;
+    originalDates.add(report.reportDate);
+    const existing = reportsByDate.get(report.reportDate);
+    if (!existing || existing.restoredFromMarkdown || existing.velocityReason?.includes("Markdown 보관 리포트")) {
+      reportsByDate.set(report.reportDate, report);
+    }
+  }
+}
 
 if (fs.existsSync(legacyDataPath)) {
   const legacyReports = JSON.parse(fs.readFileSync(legacyDataPath, "utf8"));

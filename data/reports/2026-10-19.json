@@ -1,0 +1,83 @@
+{
+  "lastUpdated": "2026-10-18T23:51:54.742Z",
+  "reportDate": "2026. 10. 19.",
+  "summary": "- AI 알고리즘 편향성 및 사회적 소외 문제: 생성형 AI가 학습 데이터의 불균형으로 인해 특정 소수자를 배제하거나 왜곡할 위험성이 제기됨.\n\n- 기술 혁신 및 에이전트 고도화: 오픈AI의 차세대 모델 업그레이드로 복합적인 에이전트 병렬 처리 기능이 강화되어 작업 효율성이 비약적으로 상승함.\n\n- 교육 현장의 AI 활용 격차: 교실 내 AI 도입은 일상화되었으나 관련 정책 및 가이드라인에 대한 교사들의 숙지도가 낮아 교육적 혼란 발생 우려.\n\n- AI 인프라 수급 불안정: 미국 내 데이터센터 구축 프로젝트가 지연되는 등 급격한 AI 수요를 뒷받침할 인프라 확보에 차질이 발생함.",
+  "summaryScore": 82,
+  "dailyVelocity": 1.2,
+  "velocityReason": "오픈AI의 에이전트 병렬 실행 기능 도입으로 인해 사무 및 업무 자동화의 범위와 복잡성이 한층 더 가속화됨.",
+  "cumulativeRiskScore": 54.5,
+  "jobRiskScore": 54.5,
+  "riskScoreBreakdown": [
+    {
+      "event": "오픈AI 에이전트 고도화",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 2
+    },
+    {
+      "event": "AI 데이터센터 인프라 차질",
+      "sign": "+",
+      "impact": 2,
+      "newsIndex": 4
+    },
+    {
+      "event": "AI 학습 데이터 편향성 이슈",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 1
+    }
+  ],
+  "news": [
+    {
+      "title": "[단독] AI가 만든 세계에서 ‘소수자’는 지워진다 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iX0tOa3VFZkxrMW5PSkhqXzhiTTJleXVYaHlZMlpOVmw5VGFrVXFyalItTlhWa1dwTFo0b1FieTNSMjNtOEdDeGozTWZETHdCZ2VkOEhGWVBWenBUdlNnRDUtNkdYbWxodDEtamFqaHo1UQ?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 21:45:00 GMT",
+      "summary": "AI가 학습 과정에서 데이터 불균형으로 인해 사회적 소수자를 배제하거나 지우는 문제가 발생하고 있음. 이는 AI 모델의 공정성 및 윤리적 책임에 대한 중대한 과제를 제시함.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "오픈AI, ‘GPT-6 아스트라 프로’ 업그레이드...에이전트 병렬 실행 지원 - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fRjMyNFJlSnd5LTRkeElJUVEwVUJrZUtlVjlWdEdxSVV3RW4wc2NDQ0dmYllpMHVfNzdldjBtX0pKdUVHWm83dk9samtKRFhMekUxRDdBUXR4UXcyUE1rMEFZaG5aMV9uREE?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 08:51:14 GMT",
+      "summary": "오픈AI가 'GPT-6 아스트라 프로'로 모델을 업그레이드하며 에이전트의 병렬 실행 기능을 강화함. 복잡한 다중 업무를 AI가 동시에 처리할 수 있게 되어 자동화 속도가 가속화될 전망임.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 5,
+      "investmentImpact": 5
+    },
+    {
+      "title": "AI has become routine in classrooms… only 17% of teachers know the relevant policies - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iU0ZHaUhFWENnUFpSeEs1MlZRbUF2SndUYVdNU1huWXVhRF9ITGctU19EVnFRUlRoNUkyUW9QbUNsUXFITjN6VTdub3JDXzFnMzk2YTNnTEd5RFFWSXc?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:22:00 GMT",
+      "summary": "학교 현장에서 AI 활용이 일상화되었으나, 교육 정책을 제대로 숙지한 교사는 17%에 불과함. 기술 도입 속도를 정책과 교육이 따라가지 못하는 괴리가 나타나고 있음.",
+      "importance": 3,
+      "aiImpact": 2,
+      "automationPotential": 2,
+      "investmentImpact": 2
+    },
+    {
+      "title": "\"미국 데이터센터 47건 차질…AI 인프라 붐 균열 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5bmtvbXc3aXdVNlZaSm93QlBlYzZYNm5OLWZLVGNZUW83YVUzQnFJeUR2NVU5MEdGRVBVSmpPLWhfYUdUcGdyczlGcVB5c1ZLc0pVc2t2eHZNeDDSAWBBVV95cUxQWW1WQ0VpTEdid09xLVROZzh5UHlENDRrczJzTU1ucWx1T3VrQy1tNVBJeWxfa2pLLUpqX0ZVVE5FZTVIV0FRc1hVNnZjODU5WXRGZzJrYUFyd2hqWTN5UEg?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 23:19:33 GMT",
+      "summary": "미국 내 47건의 데이터센터 구축 프로젝트가 차질을 빚으면서 AI 인프라 확장에 적신호가 켜짐. 전력 수급 및 공급망 문제로 인해 AI 시장 성장에 균열이 발생하고 있음.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 1,
+      "investmentImpact": 4
+    },
+    {
+      "title": "[비바100] “소비자 속마음도 판다”⋯ AI로 영상 속 고객 목소리 읽는 ‘싱클리’ - 브릿지경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5b3dGbTBqSlhsZXdiOExFU01ZTVh6bGRMaDFQeTFITFZZOTJrRGRKRzZKZlREMWRtdm9DaUZXSnZFS1BNMVJxNlZFMW1TeGlBdDZOajRFelM1dw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 21:34:00 GMT",
+      "summary": "AI 분석 솔루션 '싱클리'가 영상 속 소비자 목소리를 분석하여 마케팅 통찰을 제공함. 고객 데이터를 정교하게 분석하는 자동화 기술이 상업적 영역으로 빠르게 확장되고 있음.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    }
+  ],
+  "id": "2026-10-19"
+}

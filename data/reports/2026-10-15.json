@@ -1,0 +1,83 @@
+{
+  "lastUpdated": "2026-10-15T00:15:09.306Z",
+  "reportDate": "2026. 10. 15.",
+  "summary": "- 인프라 확장의 한계: AI 연산 수요가 급증하는 가운데 데이터센터 부족 현상이 산업 성장의 병목 현상으로 부각되고 있음.\n\n- AI 산업 생태계의 명암: 정부 지원 중단으로 인한 의료 AI 기업의 운영 차질과 기술 고도화로 인한 네트워크 기술 혁신이 공존하고 있음.\n\n- 현장 적용 및 안전 이슈: 공공 및 서비스 분야의 AI 도입 과정에서 현장 인력과의 갈등이 심화되고 있으며, AI 보안 사고 가능성에 대한 업계의 경고가 이어짐.",
+  "summaryScore": 78,
+  "dailyVelocity": 0.3,
+  "velocityReason": "AI 도입 현장의 갈등과 보안 우려 등 실무적 이슈가 주로 보고되어 전반적인 산업 안정성 점검 단계로 평가됨.",
+  "cumulativeRiskScore": 54.4,
+  "jobRiskScore": 54.4,
+  "riskScoreBreakdown": [
+    {
+      "event": "AI 상담사 도입에 따른 업무 부적응 및 고충",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 4
+    },
+    {
+      "event": "의료 AI 분야 정부 지원 중단으로 인한 인력 위기",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 2
+    },
+    {
+      "event": "대형 AI 보안 사고 위험 경고",
+      "sign": "+",
+      "impact": 2,
+      "newsIndex": 5
+    }
+  ],
+  "news": [
+    {
+      "title": "“AI 기술은 앞서가는데 데이터센터가 없다”…세레브라스 CEO의 경고 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBtS082UGxFUW9fdlFzQlFSVTFYY2xBbmtUajR2ZFEtSW1FNWNyMURKR0JVMjdzSzNDakhSUmtXSGdzd0YxUzZEbldGWTZ6dw?oc=5",
+      "pubDate": "Tue, 13 Oct 2026 22:10:02 GMT",
+      "summary": "세레브라스 CEO는 AI 모델의 비약적인 발전 속도에 비해 이를 뒷받침할 데이터센터 인프라가 턱없이 부족함을 경고했다. 인프라 공급 부족이 AI 산업 전체의 성장을 제한할 수 있다는 지적이다.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 1,
+      "investmentImpact": 5
+    },
+    {
+      "title": "정부 지원 끊기자 의료 AI도 멈췄다 - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12bkVBMXdPbnBCcWY0TE5FVEp0ZzZ2MmRVbnY1YzB6YkhWYW1MNWEtR3dISWM4RXRpVk9LcG15UFdmOGxxYUFhYkFMWXZsQQ?oc=5",
+      "pubDate": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "summary": "정부의 지원금 지원이 중단되면서 자생력을 갖추지 못한 국내 의료 AI 기업들이 운영에 어려움을 겪고 있다. 혁신 기술이 시장에 안착하기 전 재정적 뒷받침이 끊기면서 산업 생태계가 위축될 우려가 있다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 4
+    },
+    {
+      "title": "SKT, ‘Network X 어워드’ 수상… AI 기반 네트워크 기술력 인정 - SK텔레콤 뉴스룸",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5qanRyM2FVUV9KQ0R1UFZLenFSNGZBLXJ4X1F6bXNhX1RlMlZ1V25BUjV3ajhhZ21FMWl0cWhTWGR4Nm9ZUGhETw?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 23:38:51 GMT",
+      "summary": "SK텔레콤이 AI 기반 네트워크 기술력으로 국제적인 인정을 받으며 글로벌 표준을 선도하고 있다. AI가 통신 인프라 효율성을 높이는 핵심 기술로 자리 잡고 있음을 시사한다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 3,
+      "investmentImpact": 3
+    },
+    {
+      "title": "불쑥 도입된 ‘AI 상담사’에 고충 늘었는데…사전 협의는 극소수 - KBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92N2xYbXRGWks4NjRRNTg1TlZ2cUZFVXFlbzkybHNBMkw1RlpnVUNLc1NOM0JmV3ZVemFuZTRoRTVsaXVvVjBwc2VMcDlETENERlViYzdOMDRoTWs?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 22:25:00 GMT",
+      "summary": "공공기관 및 기업이 현장 의견 수렴 없이 AI 상담사를 도입하면서 실무자의 업무 고충이 가중되고 있다. 기술 도입 과정에서 노동자와의 사전 협의 부족이 사회적 갈등 요인으로 작용하고 있다.",
+      "importance": 4,
+      "aiImpact": 2,
+      "automationPotential": 5,
+      "investmentImpact": 2
+    },
+    {
+      "title": "허사비스 \"안전 조치 미흡하면 2년내 대형 AI 보안 사고\" - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9lWWJpdVBzMGpvUXV2U09mREtTRFMwSWxqY3BoMldzY29ubDAwTFQ1Rng1czY3cHhDdXVRRzc3WmVTcXh6VWpQWmRhWFl2UlhpMDFNMEp2aEVnei1Qb1E?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 22:40:00 GMT",
+      "summary": "구글 딥마인드 허사비스 CEO가 AI 안전 조치가 미흡할 경우 2년 내 대규모 보안 사고가 발생할 수 있다고 경고했다. 기술의 발전만큼이나 보안과 안전 규제 마련이 시급하다는 목소리가 커지고 있다.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 1,
+      "investmentImpact": 3
+    }
+  ],
+  "id": "2026-10-15"
+}

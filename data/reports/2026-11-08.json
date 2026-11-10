@@ -84,7 +84,8 @@
     "startDate": "2026-10-10",
     "endDate": "2026-11-08",
     "articleCount": 14,
-    "model": "gemini-3.5-flash-lite"
+    "model": "gemini-3.5-flash-lite",
+    "acceptedCount": 0
   },
   "id": "2026-11-08"
 }

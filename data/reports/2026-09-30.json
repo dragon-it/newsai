@@ -1,0 +1,83 @@
+{
+  "lastUpdated": "2026-09-30T00:57:23.279Z",
+  "reportDate": "2026. 9. 30.",
+  "summary": "- AI 에이전트 기술 가속화: 오픈AI가 추론 능력을 극대화한 신규 모델 '솔'과 자율형 에이전트 '닷'을 공개하며 AI의 실무 투입 범위가 확대됨.\n\n- 대규모 투자 및 기업 가치 상승: 오픈AI가 1,900조 원 규모의 기업 가치를 인정받으며 막대한 자금을 확보, AI 산업 내 자본 집중이 심화됨.\n\n- AI 활용 가이드라인 확산: 출판계의 AI 활용 표시 기준 도입 등 산업 전반에서 생성형 AI의 투명성을 확보하려는 자정 노력이 시작됨.\n\n- 의료 및 바이오 분야 AI 접목: SCL사이언스 등 기업들이 AI를 기반으로 암 백신 개발 및 합병 전략을 추진하며 기술 융합이 가속화됨.",
+  "summaryScore": 88,
+  "dailyVelocity": 1.8,
+  "velocityReason": "오픈AI의 자율형 AI 에이전트 '닷' 발표로 인해 화이트칼라 직무의 자동화 가능성이 실질적으로 증대됨.",
+  "cumulativeRiskScore": 53.4,
+  "jobRiskScore": 53.4,
+  "riskScoreBreakdown": [
+    {
+      "event": "OpenAI '닷' 자율 에이전트 공개",
+      "sign": "+",
+      "impact": 5,
+      "newsIndex": 2
+    },
+    {
+      "event": "오픈AI 기업 가치 1,900조 돌파에 따른 공격적 R&D 가속",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 3
+    },
+    {
+      "event": "출판계 AI 활용 표시제 도입",
+      "sign": " -",
+      "impact": 1,
+      "newsIndex": 4
+    }
+  ],
+  "news": [
+    {
+      "title": "오픈AI, 가성비 'GPT-6.1 솔' 공개…AI에이전트 추론 겨냥 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45YUJSR1lZX0d6ZlpOWXQ5eDhrS3hmSFZPaTlMNzY3SnpKQkQ1dWtvUDJrNmFqTjRCOEQxMkw4cURXX1FQWDZPbGJXMG1qT19mYzMxWkNMU2gwZEXSAWBBVV95cUxOUUZvZkxMTkt4QnRQek1wWUlmSXdRWC16S2ZKR3U3VWR1VDktcHV2bS1JVVF3bXo3OGxXSGZUeU96YkNqcjhlSW9qbktlZlpwdERhS25uNWVQbHRXcWY3V3o?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 18:19:13 GMT",
+      "summary": "오픈AI가 추론 능력에 최적화된 가성비 모델 '솔(SOL)'을 공개함. 이는 복잡한 작업 수행을 겨냥한 에이전트 생태계 강화를 위한 전략으로 해석됨.",
+      "importance": 4,
+      "aiImpact": 5,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    },
+    {
+      "title": "오픈AI 퇴근 후에도 일하는 AI에이전트 '닷' 공개... '안전 문제' 출시 연기 하루 뒤, 개발자 콘퍼런스 개최 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSlk2Ml9ubmNOdTFvUDJfdE15dGN5SUs0SGxWNzYwR1VDR0dtUnVPZ296bl9oYmZNWHA4bGJpY0RSczJZaWZtSTJKTU9FWnoteE5yRExXc3BTLVRveHBpOUR0bzdHaDFJN0JEc04yOFRsaUVMRWw4TG5UVGpiTXVkRUh3UQ?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 21:29:00 GMT",
+      "summary": "오픈AI가 사용자의 업무를 대신 처리하는 AI 에이전트 '닷'을 공개함. 안전 문제로 인한 출시 연기 후 즉시 발표하며 기술 경쟁 주도권 의지를 보임.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 5,
+      "investmentImpact": 4
+    },
+    {
+      "title": "\"오픈AI, 기업가치 1천900조 원에 신규 투자 유치\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mVHlmeHNjUndCQ0UyLTF3YW1ja0tMZ3VYbmFlVjdPNGVQZnJtMHZTWDBwaDdiRVE2YTFsa280U0NGNnZYRlE3YVFBNk8xSmc?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 00:27:00 GMT",
+      "summary": "오픈AI가 1,900조 원의 기업 가치로 신규 투자 유치를 추진함. 전 세계 AI 스타트업 중 압도적인 시장 영향력을 재확인함.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    },
+    {
+      "title": "책도 'AI 사용 여부' 표시한다…출판계가 만든 3단계 기준 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ydDhzVTlUQ2JoVDZ6Y2lSSE5wZUl6YVd5TW5ZZEo3R2YwcnJYR2NNWmd1RmwzcGFGWFYzLWUzMDlNTUZlOU1ieFl2LU8zYUE?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 23:57:00 GMT",
+      "summary": "출판계가 AI 사용 여부를 명시하는 3단계 기준을 마련함. AI 콘텐츠 생성의 투명성 제고를 위한 업계 자율 규제 움직임이 구체화됨.",
+      "importance": 3,
+      "aiImpact": 2,
+      "automationPotential": 1,
+      "investmentImpact": 2
+    },
+    {
+      "title": "SCL사이언스, AI 암백신 28년 첫 환자 투여 목표…네오젠로직 합병 검토 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zUnNuU2ZWQkJOZnQxd00tclcxV09rSGxENU9tWVBqN2pRQkRKX2JfcTJjdmZmZXJZR1hLZ2k1NDNlUmJEdFNHN1o4bkN6TjgxdHBOZ053UndzWGpOVjBJa2g3d1pDVlJQ0gFuQVVfeXFMTW9ybmNWbjNuUVE4WEZUNHVKempHUTByZ1hMOWl6ZDZQU2Y4ZGhpdm5NODY1dU9nX1NnWURhNTBTb3QxWnZSM3NmMkxGNWR3eW1GUURxcFdDQkxlSl9TRDRQVVVVa3Y0QUdiSEVjOXc?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 00:40:39 GMT",
+      "summary": "SCL사이언스가 AI 암 백신 개발을 위해 2028년 임상을 목표로 함. 기업 간 합병 등을 통해 의료 AI 기술 고도화에 주력하고 있음.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 4
+    }
+  ],
+  "id": "2026-09-30"
+}

@@ -1,0 +1,204 @@
+{
+  "lastUpdated": "2026-11-10T06:03:03.781Z",
+  "reportDate": "2026. 11. 10.",
+  "summary": "- AI 역량과 고용 시장: 취업 준비생 사이에서 AI 역량의 중요성이 강조되고 있으나, 이를 공식적으로 평가하는 기업은 일부에 불과해 괴리가 존재함.\n\n- 인프라 계약 차질과 불확실성: 대형 AI 프로젝트 계약 불발 및 사생활 논란이 겹치며 관련 산업의 신뢰 문제와 인프라 확장에 대한 우려가 확산됨.\n\n- 보안 및 AI 활용 리스크: AI 기반 모의해킹이 서버를 무력화하는 등 고도화된 공격 도구의 위험성이 대두되는 한편, 산업 현장 전반으로의 안전 솔루션 도입이 추진됨.",
+  "summaryScore": 76,
+  "dailyVelocity": 1,
+  "velocityReason": "AI 역량 평가 도입과 인프라 프로젝트 차질, 보안 리스크 등 표준적인 업계 동향과 기술 영향 소식이 복합적으로 반영됨.",
+  "cumulativeRiskScore": 53,
+  "jobRiskScore": 53,
+  "riskScoreBreakdown": [
+    {
+      "event": "취업 시장 AI 역량 중요성 대두",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 1
+    },
+    {
+      "event": "AI 프로젝트 계약 불발 및 인프라 비상",
+      "sign": "+",
+      "impact": 5,
+      "newsIndex": 2
+    },
+    {
+      "event": "AI 산업 신뢰도 및 사생활 논란",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 3
+    }
+  ],
+  "news": [
+    {
+      "title": "취준생 77% \"취업에 AI 역량 중요\"…공식 평가하는 기업은 20% - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Vdmh5c25Ga0FfdnVmTmdRejBPU21vYlpCcE1XZDRMcmNuLXk1UGhia0E4MzVNUGZsNlZtUUpiR0ZJWVdSYmtxZlZNUklicVJBOUFFSm5UMDhSbG_SAWBBVV95cUxPTDhqZENyeVE4eU1DLUFMN1d2Mk5QemoxVGpKMGlYWWJyakkyQ2tnMkhnVGRoZFVHRnQwS2o1aXBWTDl3MEp4cXRCSWZTRFBUWTlKT1BSa044S2dmSlhNWHY?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 21:00:01 GMT",
+      "summary": "취업 준비생 대다수가 취업 시 AI 역량이 중요하다고 인식하고 있으나, 이를 공식적으로 평가하고 채용에 반영하는 기업은 상대적으로 적은 비율에 머물러 있다. 구직자의 인식과 실제 기업 채용 현장 사이의 속도 차이가 존재함을 보여준다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "한국 찾은 '큰손' 계약 불발 이유가…AI 프로젝트 '초비상' - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LQ3E5dkJPOXk4ZWloOGFab0xwcG1CMHhQVlJlRFRiTENtWjRJMVdwYVdwVURMM1NJVFh0cHoxQUtmQWwtUFRrTjVqLW5XZEYtZnF0OUZLS0gzQQ?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 00:33:00 GMT",
+      "summary": "한국을 찾은 주요 투자자의 AI 프로젝트 계약이 불발되면서 관련 인프라 및 사업 추진에 초비상이 걸렸다. 대규모 자본이 투입되는 AI 생태계에서 개별 프로젝트의 변동성이 시장에 적지 않은 충격을 주고 있다.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 3,
+      "investmentImpact": 5
+    },
+    {
+      "title": "젠슨 황, 외도 인정… 사생활이 AI산업 신뢰 문제로 확산 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYXpwNEJYbTlKaFJvcGV2MFd5N1lnU0t5bFN2bTdtOC1FaFpWc3hLOEF1aGg4Mml3ZzYtQVVGMHBuSzUyVmJndExSVklMLWVCUnZ6d1ZDUFI1RTZya25qd0ZVaWY3QThkdi1LZFhXNHVVX0tuTml3b212UURLQS1ubVM0WQ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 15:44:00 GMT",
+      "summary": "엔비디아 CEO의 사생활 논란이 불거지면서 개인의 이슈가 AI 산업 전반의 신뢰 문제로 확산되는 양상을 보이고 있다. 핵심 리더의 신뢰도가 글로벌 AI 공급망과 투자 심리에 미치는 영향이 주목받고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 1,
+      "investmentImpact": 4
+    },
+    {
+      "title": "한국 AI 산업 깊숙이 들어온 엔비디아…젠슨 황 논란 주시 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vUzRDdGo1dElRS2NrR05mZU5HQVlUalhHSUx4WVZ3S0paNUNUVXFlQ0pmTHBDaXFXZG1Ka25GUnVaRjhOcnc5R2NrbGF2YXEySElPWkFncFBKeUnSAWBBVV95cUxNOGpEWENxWHpYNGNkUEVxU3hyeDRfeU1tWEdfN3gtMDFzVzlhU1lwTDJoSFhWM2dlU3p5bHBlejlQM2h4MmxlQXd3V2VST2RnYmFVRk1CVmRwdzBqUmtkdGU?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 01:35:34 GMT",
+      "summary": "한국 AI 산업 전반에 깊숙이 관여하고 있는 엔비디아와 관련하여 최고경영자의 논란을 면밀히 주시하는 분위기가 형성되었다. 국내 주요 산업의 AI 전환이 엔비디아 인프라에 크게 의존하고 있음을 방증한다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 4
+    },
+    {
+      "title": "\"젠슨황이 부릅니다 '트러블메이커'\" 각종 AI 밈 확산 [앵커리포트] - YTN",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBla0dhX1V1OFk2ZGhGMUQzVUhzcFdjOUhjMGxNQ3hoaUZzdDEtNkJkYnF1Ujh1WGNlZDBaY2wydjNLVklnbGN6Ul9WS1JoVkxDLWp3dmtwNHhGOG5mcnp4aW9zdGNtbS1ka0FnajFnMmZUcEZuTEE?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 05:26:00 GMT",
+      "summary": "엔비디아 CEO 관련 이슈가 각종 인터넷 밈으로 확산되며 대중적인 관심과 풍자가 이어지고 있다. AI 산업의 급격한 성장 이면에 대중문화와 결합된 다양한 사회적 반응이 나타나고 있다.",
+      "importance": 3,
+      "aiImpact": 2,
+      "automationPotential": 1,
+      "investmentImpact": 2
+    }
+  ],
+  "occupationRisks": [
+    {
+      "occupation": "소프트웨어 개발자",
+      "tasks": [
+        "코드 작성",
+        "서버 모의해킹 대응"
+      ],
+      "reason": "AI 기반 자동화 도구와 모의해킹 툴이 고도화됨에 따라 단순 코딩 및 취약점 점검 업무의 자동화 가능성이 확인되고 있으나, 보안 방어 및 아키텍처 설계 영역에서는 인간 엔지니어의 개입과 통제가 필수적임.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-9",
+          "title": "\"AI해커 속여 해킹 방어\"...숭실대 AI안전성연구센터, 새 기술 개발 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Kdl9rTHAwOEU2cF9wRE1HM0t0a3JTdndsUFVXQy01cS1NWXhPRzlocUdfQzZxMHBBVmdTMXFkSVc2ODBTejZ6VkNiZ1JhdXpIZ2VWb09n?oc=5",
+          "reportDate": "2026-11-09"
+        },
+        {
+          "id": "article-15",
+          "title": "17분 만에 해골문양 등장‥PHP 서버, AI 모의해킹에 속수무책으로 뚫려 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvMzFCSTJPT1dIR3JmYlRBTmktcFQzLVFvMEpsOW5zN1o1c0VibkpxMzFsY19yMGMzZnFMYVRUN0NMeTVuZ2kwdEVrbkkwaHhqTUx2RGRZVjVzRTI0YmVfWndNTGRZOGFFMFB3emhsMF9EdHE5ZU9wTtIBeEFVX3lxTE5XRnRrdGRlczhiUDVabjBsSElvVDhIVGQ4QVMzemh3dEVJaDI2Z3NVeVpHckd5cWd6Ul9iWWJoTkItenlydUJPTE9NMkxOMDBfNnoxVHVKLVJGMUk5MmxYaGFJS3ZMWjRPY3FpVWIxTGZKc01BNlRxRA?oc=5",
+          "reportDate": "2026-11-08"
+        },
+        {
+          "id": "article-88",
+          "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+          "reportDate": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "occupation": "기자",
+      "tasks": [
+        "글쓰기",
+        "정보 요약 및 그래픽 제작"
+      ],
+      "reason": "AI를 활용한 정보 요약 및 콘텐츠 제작 자동화가 미디어 현장에 도입되고 있으나, 기술 의존에서 벗어나 인간 주도의 창작과 심층 분석의 가치를 재확인하는 움직임도 함께 나타남.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-6",
+          "title": "AI·인터넷 없이 3시간 글쓰기… \"내 힘으로 완성하니 짜릿\" - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZWs5VnhmVTFNWU1LT3dYeVN4bXUtMzVST1p4dTFqNHNCVjNaNFRBcVVIUGJqcnMxeHU5R2lCVWc0b0pZVDlSUVUzSGNJS3BWUTdvMGMwWFhPeGpQUVBSa3kwRlhQa000M0NrOUlKc1AwQUpzNUpGdnBvVW9Uc2NxWjFULVM5Rk0?oc=5",
+          "reportDate": "2026-11-09"
+        },
+        {
+          "id": "article-51",
+          "title": "매끄러운 한 줄 요약의 바깥을 그리다…‘AI시대와 언론’ 그래픽 제작기[뉴스뷰] - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUl8xV2R0YlZDbklKc1prbzFvNDJQZlRpSEZOcnk5cGxBMEs1STJiZi1TNDd2TEp4UkZGTy1ZN2pJYTdWYnhsemVxTFg0OHN6dUNCeW5nOWdJUXZubTJKV2t4a1YtYUlVamwtU3h1UTliZ2ZGTFM4aHpRbDRHMm55c244OVRpakFhYm9ueXJTbjJNRkFrVHpHTDUyM0NyMmE4ZURZN0RETUt6dw?oc=5",
+          "reportDate": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "occupation": "공무원",
+      "tasks": [
+        "단순 행정 업무",
+        "민원 응대 및 처리"
+      ],
+      "reason": "공공 행정 영역에서 AI를 도입하여 업무 효율성을 검증하는 실험과 제도가 추진 중이며, 단순 반복 행정 업무의 자동화 가능성이 검토되고 있음.",
+      "stage": "기술 시연",
+      "evidence": [
+        {
+          "id": "article-34",
+          "title": "충남도, 2030년 ‘AI 기본사회’ 돌봄부터 교통·행정까지 연결 - 브릿지경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84MEIzUUNTN1k4d1lWbklQazdvanI3RFJhb1V2R2dHZXBzb1lxdE5ycWJKSzZqV1ZoRnN6MUVSSmdoUmVLZzNaSHpra3ItN015VUxfeVpVcmEtQQ?oc=5",
+          "reportDate": "2026-11-04"
+        },
+        {
+          "id": "article-45",
+          "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+          "reportDate": "2026-11-01"
+        },
+        {
+          "id": "article-61",
+          "title": "공공기관 AI 활용 확대…달라지는 제도와 안전기준은? - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWRqU0QyTEZSbzdGTzMydDlpRVc2MkxKTG1za2lqRXQzOXNHSVlGVXl5bU9NNThsc1Q0RUtRb3B2aVdEZGlUd1JVelZYclBYZ3lCYXFTWHhmc0xfX1dJbDJheXFhc3ctY2lqSHgwb25XUDNkem16dlhsQ3ViTGVYdUNrY3VxVzBNNkw0?oc=5",
+          "reportDate": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "occupation": "사무직원",
+      "tasks": [
+        "보고서 작성",
+        "PPT 발표 자료 제작",
+        "데이터 심사"
+      ],
+      "reason": "기업 내 문서 작성 및 비즈니스 프로세스에 생성형 AI가 광범위하게 도입되고 있으나, 후속 검토 과정의 복잡성으로 인해 인간 관리자의 역할이 여전히 강조됨.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-24",
+          "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+          "reportDate": "2026-11-06"
+        },
+        {
+          "id": "article-54",
+          "title": "“후배가 쓴 보고서, 대놓고 AI 썼네요”...이제 ‘사람 냄새’ 풍기는 기술이 돈 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IdEdiS3hSaGk0b0gzNHZTNFlHdHVzd3M1MEozWkw1QzFOMFlpU3gtb0xFSWM2MUMtSVpMY1pPczVENTRGam1kU2JkRTlEUQ?oc=5",
+          "reportDate": "2026-10-30"
+        },
+        {
+          "id": "article-87",
+          "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
+          "reportDate": "2026-10-20"
+        }
+      ]
+    }
+  ],
+  "occupationAnalysis": {
+    "startDate": "2026-10-12",
+    "endDate": "2026-11-10",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 4,
+    "acceptedCount": 4
+  },
+  "id": "2026-11-10"
+}

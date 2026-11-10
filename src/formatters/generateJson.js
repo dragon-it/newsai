@@ -19,9 +19,11 @@ function reportDateToId(reportDate) {
 
 function migrateReportDefaults(item) {
   const report = { ...item };
-  report.cumulativeRiskScore ??= report.jobRiskScore ?? 50;
-  report.jobRiskScore ??= report.cumulativeRiskScore;
-  report.dailyVelocity ??= 1.0;
+  if (!report.restoredFromMarkdown) {
+    report.cumulativeRiskScore ??= report.jobRiskScore ?? 50;
+    report.jobRiskScore ??= report.cumulativeRiskScore;
+    report.dailyVelocity ??= 1.0;
+  }
   report.velocityReason ??= "지속적인 AI 성능 발전에 따른 완만한 위험 가속 상태입니다.";
   report.summaryScore ??= 80;
   report.riskScoreBreakdown ??= [];
