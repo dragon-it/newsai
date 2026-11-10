@@ -1,0 +1,83 @@
+{
+  "lastUpdated": "2026-09-25T00:12:24.443Z",
+  "reportDate": "2026. 9. 25.",
+  "summary": "- AI 거버넌스 및 정책 방향성: 트럼프 대통령의 규제 완화 기조와 시진핑 주석의 인간 통제 강조 등 AI 정책을 둘러싼 미·중 양국의 뚜렷한 온도 차가 확인됨.\n\n- AI 안전성 논의: 오픈AI와 앤트로픽 등 주요 AI 기업들이 UN에서 AI의 인간 통제 상실 가능성을 경고하며 안전 가드레일 마련의 필요성을 강력히 제기함.\n\n- 시장 성장세 지속: AI 및 반도체 관련 ETF의 순자산이 65조 원을 돌파하는 등 인프라 분야에 대한 투자자들의 신뢰와 자금 유입이 지속적으로 확대됨.",
+  "summaryScore": 78,
+  "dailyVelocity": 0.2,
+  "velocityReason": "AI 정책 및 규제 논의가 주를 이루었으나, 실질적인 자동화 기술 상용화 발표보다는 국제적 거버넌스 협력 논의가 중심이 되어 속도가 완만하게 유지됨.",
+  "cumulativeRiskScore": 52.9,
+  "jobRiskScore": 52.9,
+  "riskScoreBreakdown": [
+    {
+      "event": "트럼프의 AI 규제 완화 기조",
+      "sign": "+",
+      "impact": 2,
+      "newsIndex": 1
+    },
+    {
+      "event": "AI 기업의 인간 통제 상실 경고",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 4
+    },
+    {
+      "event": "미중 AI 협력 가능성 논의",
+      "sign": "+",
+      "impact": 1,
+      "newsIndex": 3
+    }
+  ],
+  "news": [
+    {
+      "title": "트럼프 \"AI 규제 더 안 한다\"… 시진핑 \"인간이 통제해야\" - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOVcwU2VTRTJwbmwxOFJ1MTZGNUhjSjQ5S0xwSHBnbzhXSWVFc1NzbTdzdEVSVDJzZUQ4MU9mTGxJWEcyQXR2MVJBa1RsWkhHX2ZybHBBemNVTnE1eGFwWFY2Mmd3UUt5ZGxxcG9lS3o0LVR6WlZFdzN5NmVxV0dxRWpRTWpacF9HRk9XOGxqdjhmaTN0WWNFZll6eHRzUQ?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 19:05:00 GMT",
+      "summary": "도널드 트럼프 대통령이 AI 규제 철폐를 예고한 반면, 시진핑 주석은 AI에 대한 인간의 통제권 유지를 강조하며 상반된 입장을 보였습니다. 이는 향후 글로벌 AI 패권 경쟁에서 규제 환경이 국가별로 다르게 전개될 것임을 시사합니다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 4
+    },
+    {
+      "title": "미중 정상회담 종료...AI 규제 온도차 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1STzB2cDhYNlI4Zng5MURMVGNUUjh2TS1ORW4zbUhlS0tsTU11TTYzem41WXctbkpUdzYtNE1NVHljRm10dllDbmlVbk1qcWNFYnNReWhlMzkzR1J5anc?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 18:56:00 GMT",
+      "summary": "미·중 정상회담에서 AI 규제에 대한 양국 간의 온도 차가 재확인되었습니다. 양국은 AI 안전성 문제에 대해 서로 다른 우선순위를 두고 있어 국제적 공조에 난항이 예상됩니다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 1,
+      "investmentImpact": 3
+    },
+    {
+      "title": "시진핑 \"美, 대만독립 반대해야\"…트럼프와 AI 협력엔 한목소리 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4weEdKRXkzdkE2ZnduM2dYaDdPMDJXNWpwdmNRUkRvRzE2cHVYX0NNOTNuVTcyRFVsZnBNeUlWVkVTTEdER1JSazBMNmhCWWVtTWFodGE4aVp0emdSdjUyLXNQcmozS3Zs0gFuQVVfeXFMT0FReEdVZDQ2WXE5OUdEbmF4dUs4ODNMOGFONTF4T2tNcDBobDl2ejVZNWhCa1FneE0xS0RzbjMwQkRqWDhWQUZUTXN6YlJkcGRra1JKejRpcm5RTVo2dXRmWjQwZGREdkRJWDU4MVE?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 22:24:34 GMT",
+      "summary": "시진핑 주석은 대만 문제 등 핵심 사안에서 미국과 대립각을 세우면서도, AI 분야의 협력 가능성에 대해서는 긍정적인 입장을 취했습니다. 이는 AI 기술이 외교적 협상의 중요한 카드로 부상했음을 보여줍니다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 1,
+      "investmentImpact": 3
+    },
+    {
+      "title": "오픈AI·앤트로픽, UN서 'AI 인간 통제 상실' 경고…美는 규제 반대 - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8yc2o2Q0sxbXNQeXlYeHNQNTNSSHJENWhGamxsclozVzAxSE5PZnBtVkxxNmpmeWxyckhBa1ZWQW0zQnNhWnk2OUc4TUtUdw?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 04:45:32 GMT",
+      "summary": "오픈AI와 앤트로픽이 UN에서 AI 기술의 통제 불능 위험을 경고하며 안전망 구축을 촉구했습니다. 반면 미국 정부는 지나친 규제가 혁신을 저해할 수 있다며 신중한 입장을 보이고 있습니다.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "AI·반도체 ETF, '투자 필수템' 됐다…순자산 65조 돌파 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9INzB3c2k1cWtRVXcwTW8yY3cxanQzNXVRV0d2V1ZSOWdxcTltbmk3QmRGOGpnVThkTXlUQ3BWeTNtRTM4MkZ4V0V0b1hZOTRoTW5xTUFFU3pDOVpwM0ozemQ2OVFuSDRj0gFuQVVfeXFMTk1nNUcxdlhzUHBuaVNaUEsycC1mNGZzM05KeWRtcWZaVFBtWlA3dENDSy1EUjk1WWEwdVFPcnBnY1NEa182UWkyZ180SHRwMlU3VU1GRVlBWjNCODNtd0ZQaGJYa00xMkJSVEJ6YWc?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 23:41:00 GMT",
+      "summary": "AI 및 반도체 관련 ETF의 순자산 규모가 65조 원을 돌파하며 시장의 견고한 투자 수요를 증명했습니다. AI 생태계 성장에 따른 인프라 기업들의 가치가 지속적으로 상승하고 있습니다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    }
+  ],
+  "id": "2026-09-25"
+}

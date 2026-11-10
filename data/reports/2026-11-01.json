@@ -1,0 +1,83 @@
+{
+  "lastUpdated": "2026-11-01T00:36:46.608Z",
+  "reportDate": "2026. 11. 1.",
+  "summary": "- 공공 부문 AI 도입 가속화: 네덜란드 등 공공 영역에서 AI를 통한 업무 효율성 실험이 진행되며 행정 직무 재편 가능성이 논의되고 있음.\n\n- 온디바이스 및 우주 AI 확장: 구글의 인터넷 연결 없는 제미나이 라이브 개발과 우주 데이터센터를 통한 AI 연산 실험은 AI의 적용 범위를 지상에서 궤도까지 대폭 확장함.\n\n- AI 시장 및 기업 가치 변동: 앤스로픽 등 AI 기업의 상장 이슈가 주식 시장의 주요 화두로 떠오르며 투자자들의 AI 기업 평가에 대한 관심이 집중되고 있음.",
+  "summaryScore": 82,
+  "dailyVelocity": 1.2,
+  "velocityReason": "공공 부문의 AI 도입 실험과 온디바이스 AI 기술 진보가 결합하여 직무 자동화의 범위를 확장한 것이 핵심임.",
+  "cumulativeRiskScore": 55.2,
+  "jobRiskScore": 55.2,
+  "riskScoreBreakdown": [
+    {
+      "event": "네덜란드 공공 부문 AI 업무 대체 실험",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 1
+    },
+    {
+      "event": "온디바이스 AI(제미나이 라이브) 개발",
+      "sign": "+",
+      "impact": 2,
+      "newsIndex": 2
+    },
+    {
+      "event": "AI 기업 상장으로 인한 시장 변동성 확대",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 5
+    }
+  ],
+  "news": [
+    {
+      "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 01:00:00 GMT",
+      "summary": "네덜란드가 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중입니다. 이는 단순 행정 업무의 자동화와 향후 공공 일자리 구조 변화에 대한 중요한 지표가 될 전망입니다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 5,
+      "investmentImpact": 2
+    },
+    {
+      "title": "구글, 인터넷 없이 작동하는 '제미나이 라이브' 개발 중 - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pS3pSS0VUdnlLRVRwX0ttQXhxMUxWOHdoa2k1ODdRdDhpa1JnR3doY1hmUkVXWXI2MU1JdG9XVGh3M1RTdDhqWElnd0tzZzVvXzZBQ0xWVGVaR0g2aTVuUEt4S0MzWWtUV1E?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 23:13:28 GMT",
+      "summary": "구글이 인터넷 연결 없이도 구동 가능한 '제미나이 라이브'를 개발 중입니다. 이는 데이터 보안과 반응 속도를 향상시켜 모바일 기기에서의 AI 활용도를 비약적으로 높일 것으로 보입니다.",
+      "importance": 4,
+      "aiImpact": 5,
+      "automationPotential": 3,
+      "investmentImpact": 4
+    },
+    {
+      "title": "\"아래엔 푸른 구슬\"…구글 첫 우주데이터센터 AI 응답은 시 한편 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hNFhaRXNweG5IeldpZkRzZW9uUG1sdVZCV214MmxCQXZCLTlKZ2JLVWV1QjZIN0ZEUTVvV3B2SHZPOEJEdWpGcnZoTWJyWm9qNmV2ZXdLX3lvRjjSAWBBVV95cUxOUUhwYmJmV0dJa3ZlTENabTRYdndmMGFXWnY1R3hTNFRWT1p5bGt3ZDBQbVBFaEFGeHZzSDkwRWlDVzdGUnRXRFp5bi0tSk1sWXhVb3RNcFJwNEZOMlVuSUc?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 00:38:02 GMT",
+      "summary": "구글이 우주 데이터센터 환경에서 AI가 생성한 시를 공개하며 궤도 연산 실험의 성공을 알렸습니다. 우주 공간에서의 AI 연산 가능성을 입증하여 향후 우주 산업과 AI의 결합이 가속화될 것입니다.",
+      "importance": 3,
+      "aiImpact": 4,
+      "automationPotential": 1,
+      "investmentImpact": 3
+    },
+    {
+      "title": "구글 TPU 우주서 첫 ‘시’ 썼다…궤도 AI 연산 실험 본궤도 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xbXlYRFFNZE9vWGMteHN1VmhjaDNUM2EtVzlDektMZWlkb2VscFdHWkJXcnlNNUs4Ym9jZzhHdVBfX2pfbC1mX2p2cmhLdw?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 20:35:07 GMT",
+      "summary": "구글 TPU를 활용한 우주 공간에서의 AI 연산 실험이 본궤도에 올랐습니다. 극한 환경에서의 AI 성능 검증은 향후 우주 개발 인프라 구축의 핵심적인 기술적 이정표가 될 것입니다.",
+      "importance": 3,
+      "aiImpact": 4,
+      "automationPotential": 1,
+      "investmentImpact": 3
+    },
+    {
+      "title": "코스피 절반 넘는 AI 공룡 앤스로픽 상장… 내 주식 괜찮을까 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTk80Y2dQaXZ6bVhDTXRzNXp2RXdudFpSeTV2dDE4Q2FOM2pXU3RjMzZTeGNxYU9jUHlQWERpOTRJMDBoRjBmS3c0UWhGZ3E4eWZnVUFLSS1iMnVYU0s2VkNGS2dSSHI1ZDFRSEVlekFPQUZITnNvUzgxWlMwbXJtdVdkUlZveWdfNnZoLUJn?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 23:37:00 GMT",
+      "summary": "AI 기업 앤스로픽의 상장 논의가 코스피 시장 전체에 큰 관심을 불러일으키고 있습니다. AI 산업의 성장과 기업 가치 평가에 대한 투자자들의 기대와 우려가 교차하고 있습니다.",
+      "importance": 5,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    }
+  ],
+  "id": "2026-11-01"
+}

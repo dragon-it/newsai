@@ -1,0 +1,83 @@
+{
+  "lastUpdated": "2026-09-28T00:15:14.715Z",
+  "reportDate": "2026. 9. 28.",
+  "summary": "- AI 시대의 인문학적 가치 재조명: 단순 기술 습득을 넘어 질문하는 능력 등 철학적 소양이 AI와 공존하는 핵심 역량으로 주목받음.\n\n- 능동형 AI 에이전트로의 패러다임 전환: 단순히 대답하는 챗봇에서 벗어나 스스로 작업을 수행하는 '에이전트' 모델이 공공 및 산업 현장의 실무에 도입됨.\n\n- AI 교육 및 투자 시장의 다변화: 시니어 세대의 높은 학습 의지와 엔비디아 의존도를 탈피하려는 투자 시장의 포트폴리오 다변화 움직임이 뚜렷함.",
+  "summaryScore": 82,
+  "dailyVelocity": 0.8,
+  "velocityReason": "능동적으로 업무를 수행하는 AI 에이전트의 현장 도입 사례가 늘어나며 실무 직무의 자동화 체감도가 완만하게 상승함.",
+  "cumulativeRiskScore": 53.2,
+  "jobRiskScore": 53.2,
+  "riskScoreBreakdown": [
+    {
+      "event": "일하는 AI 에이전트 등장",
+      "sign": "+",
+      "impact": 5,
+      "newsIndex": 2
+    },
+    {
+      "event": "군사 분야 AI 시스템 적용",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 5
+    },
+    {
+      "event": "인문학적 질문 능력 재평가",
+      "sign": " -",
+      "impact": 3,
+      "newsIndex": 1
+    }
+  ],
+  "news": [
+    {
+      "title": "“테스 형~ 철학과가 다시 뜬다는데 왜 그래?”···AI 시대 ‘질문하는 능력’ 중시돼 인기 - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfVlNwTHgybjlrYUR5Z0pUbDJETmd1RFNfWXhUMldYeHBDZUZ4eVIwSGJlSTNEX0h0bTk4bE1OdlR3WEp1cWxpbDhlcEZlOW1KVlBmWnRySVpJQdIBX0FVX3lxTE5lTXVkSUl3azF6RFVkUGdQOEY0dHhIbzl5UWt1ZUJwREVETFQ4NXZpWV9lZUdndUFscjFpeW9MR0IwYmtaZjU3OHRHNTlQendtNk9oU00tSUVncTBUNlZj?oc=5",
+      "pubDate": "Sun, 27 Sep 2026 06:13:00 GMT",
+      "summary": "AI가 발전함에 따라 단순 정보 처리가 아닌 근본적인 질문을 던지는 철학적 사고가 중요해지고 있음. 이에 따라 인문학적 소양을 갖춘 인재의 가치가 재발견되는 추세임.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 2
+    },
+    {
+      "title": "대답만 하는 AI는 끝…'AI페스타'서 일하는 AI 만난다 - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sbXZBaXJmNWZzTDAwMU5PZUhYVkk4Q1N1QnAyeEVnMGpyT1duMVZxOFpTY1dZYlE0b1Nha2FFZVhiQkd3SzdScjVNTjNEUmRoU0FENDVR?oc=5",
+      "pubDate": "Sat, 26 Sep 2026 23:58:10 GMT",
+      "summary": "단순 대화형 AI를 넘어 사용자의 명령을 수행하고 직접 업무를 처리하는 'AI 에이전트' 시대로 진입함. 이번 페스타를 통해 공공 및 산업계에 실질적으로 적용되는 자동화 솔루션들이 공개됨.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 5,
+      "investmentImpact": 4
+    },
+    {
+      "title": "[단독] AI 관심 큰 시니어 세대…95%가 “배워보고 싶다” - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1naWY4TW5fVU5ySl9sM0I1MXJNVzZkcjF3ZjE3c3dUQUtTdG0tWWtRa01fTDBjVk1Vdjd1MmVVSlktRnVqYXo4M0xNUGtkT25tOUZuR3J1ZUxDYmZGaThqSA?oc=5",
+      "pubDate": "Sun, 27 Sep 2026 23:12:00 GMT",
+      "summary": "AI 기술에 대한 시니어 세대의 관심과 학습 의지가 매우 높은 것으로 나타남. 디지털 격차 해소를 위한 고령층 대상 AI 교육 수요가 증가하고 있음.",
+      "importance": 3,
+      "aiImpact": 2,
+      "automationPotential": 1,
+      "investmentImpact": 2
+    },
+    {
+      "title": "엔비디아 대신 '이 종목'...1등 PB가 찍은 AI후속주 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MV2JiSHZrWVRSTDlmNWNTM0x1MjFEalhXWGticzFJWnpQODRqTkVKNm44YXdJVF8yUFRHbmxYNzhlemdhTUE1TDNEV200amxVcFV3MkFsM3ZHdw?oc=5",
+      "pubDate": "Sun, 27 Sep 2026 23:00:04 GMT",
+      "summary": "AI 시장이 엔비디아 중심에서 다양한 소프트웨어 및 인프라 기업으로 투자처가 다변화되고 있음. 전문가들은 AI 밸류체인 내 차세대 유망주 발굴에 집중하고 있음.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    },
+    {
+      "title": "마키나락스, 합참과 KJCCS에 AI OS '런웨이' 적용...UFS 연습서 실증 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5MUZWTHB2VU8zVXA1VnJNY0kxaGd0XzdIMi1mLVU2SVk1NTVqZW9yZEpTb1I4ZjhlVWE5cFBva0Z4R0RIZ0FUaXpxb0pLM0E?oc=5",
+      "pubDate": "Sun, 27 Sep 2026 23:04:33 GMT",
+      "summary": "마키나락스의 AI OS '런웨이'가 합동참모본부의 핵심 시스템에 적용됨. 군사 작전 효율화를 위해 AI가 실전 연습에 도입되며 국방 분야 자동화가 본격화됨.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    }
+  ],
+  "id": "2026-09-28"
+}

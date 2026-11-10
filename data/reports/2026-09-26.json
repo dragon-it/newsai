@@ -1,0 +1,83 @@
+{
+  "lastUpdated": "2026-09-26T00:19:12.222Z",
+  "reportDate": "2026. 9. 26.",
+  "summary": "- 미중 정상회담을 통해 AI 거버넌스에 대한 양국의 입장 차이가 확인되었으며, 기술 패권 경쟁이 지속될 전망입니다.\n- 오픈AI의 개인정보 유출 사고로 인해 데이터 보안 및 AI 윤리에 대한 경각심이 고조되고 있습니다.\n- 오픈AI의 신규 모델 공개 임박 소식은 AI 시장의 기술 혁신과 실질적인 상업화 전환을 가속화하고 있습니다.",
+  "summaryScore": 88,
+  "dailyVelocity": 1.2,
+  "velocityReason": "오픈AI의 차세대 모델 공개 임박 소식과 서비스 고도화 움직임이 기업들의 AI 전환 속도를 높이고 있습니다.",
+  "cumulativeRiskScore": 53,
+  "jobRiskScore": 53,
+  "riskScoreBreakdown": [
+    {
+      "event": "미중 AI 규제 입장 차이",
+      "sign": "+",
+      "impact": 2,
+      "newsIndex": 1
+    },
+    {
+      "event": "오픈AI 개인정보 유출 사고",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 4
+    },
+    {
+      "event": "GPT-6 사이버 등 전용 제품 개발",
+      "sign": "+",
+      "impact": 5,
+      "newsIndex": 5
+    }
+  ],
+  "news": [
+    {
+      "title": "미중 정상회담 종료...AI 규제 온도차 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1STzB2cDhYNlI4Zng5MURMVGNUUjh2TS1ORW4zbUhlS0tsTU11TTYzem41WXctbkpUdzYtNE1NVHljRm10dllDbmlVbk1qcWNFYnNReWhlMzkzR1J5anc?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 18:56:00 GMT",
+      "summary": "미중 정상회담에서 AI 기술 통제 및 규제에 대한 양국의 온도 차이가 드러났습니다. 글로벌 AI 주도권을 확보하기 위한 양국의 전략적 경쟁이 지속될 것으로 보입니다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 1,
+      "investmentImpact": 3
+    },
+    {
+      "title": "미중 정상 백악관 회담...시진핑 \"AI 통제\" vs 트럼프 \"현상 유지\" - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pZzdhc1IteVdzT1dFYk9LeDVvSklGNXRvVUttWlFraDVfRXhORk9LckFpYjRyLXlPV2trWk45a3Z6blV2SEdqYlhGbnFKai1uTHBhSVRSQ2YtX3VCamNVVzljU0pydzBrRnc?oc=5",
+      "pubDate": "Fri, 25 Sep 2026 23:01:13 GMT",
+      "summary": "시진핑 주석의 AI 통제 강화 주장과 트럼프 대통령의 현상 유지 및 자국 우선주의 입장이 충돌했습니다. 국제적인 AI 거버넌스 합의 도출이 당분간 어려울 전망입니다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 1,
+      "investmentImpact": 3
+    },
+    {
+      "title": "[미중정상회담] 美전문가들 \"취약한 무역휴전 연장…AI경쟁 본능 억제못해\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hZHNvWkpaUG5VMU9yUUFmaHNvLVppcHNTdmFuc2lYeTRTbGkxTXNURU1iOFN4QlpEVkk4cS1xemdEZ2dsMUFKN1ZnQ3FwMjQ?oc=5",
+      "pubDate": "Fri, 25 Sep 2026 16:51:53 GMT",
+      "summary": "전문가들은 이번 미중 정상회담이 일시적인 무역 휴전일 뿐, AI 기술 패권을 둘러싼 본질적인 경쟁을 억제하기에는 역부족이라고 평가했습니다. 기술 안보를 중심으로 한 갈등은 계속 심화될 것입니다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 1,
+      "investmentImpact": 3
+    },
+    {
+      "title": "“익명화 믿었는데”…오픈AI 에이전트, 챗GPT 이용자 이미지 53장 무단 유출 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBNRkU2ZjlqWUNhVTljSkM3V0NvM2N4UmlueXNlQk5vVVhfSDZXUVpwbkoyR0FJZlk4c0ZFenVWVGlwcUFxU3gzQmJDQ184ZUE?oc=5",
+      "pubDate": "Fri, 25 Sep 2026 23:08:00 GMT",
+      "summary": "오픈AI의 에이전트 시스템을 통해 챗GPT 이용자의 개인 이미지 53장이 무단으로 외부 유출되는 사고가 발생했습니다. AI 서비스의 데이터 익명화 및 보안 정책에 심각한 결함이 노출되었습니다.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 4
+    },
+    {
+      "title": "오픈AI, 'GPT-6 사이버' 공개 임박…API 넘어서는 '전용 배포 제품' 선보인다 - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xcHVCeU85VUlpdkxHamJ0bmRnRjJtbkxTcUlVVTVfaDVmN3k0ZkpSM201OGxXelJUcVNMeHhLcC1qeUZmQWpDR0NyNjhhZ2ZHU0VpRWQ4VUV5UW9yZjdwMG5jVFNoMjVSOVE?oc=5",
+      "pubDate": "Fri, 25 Sep 2026 23:57:00 GMT",
+      "summary": "오픈AI가 차세대 모델인 'GPT-6 사이버'를 준비하며 단순 API를 넘어선 전용 배포 제품 출시를 앞두고 있습니다. 이는 AI의 실무 현장 도입과 B2B 시장 공략이 본격화됨을 의미합니다.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 5,
+      "investmentImpact": 5
+    }
+  ],
+  "id": "2026-09-26"
+}

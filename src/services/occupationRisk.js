@@ -70,6 +70,7 @@ export function validateOccupationRisks(items, context) {
   return items.flatMap((item) => {
     if (!item || typeof item.occupation !== "string" || typeof item.reason !== "string") return [];
     const occupation = item.occupation.trim().slice(0, 100);
+    if (["신입사원", "직장인", "근로자", "주니어", "전문가"].includes(occupation)) return [];
     const reason = item.reason.trim().slice(0, 1000);
     const tasks = Array.isArray(item.tasks) ? item.tasks
       .filter((task) => typeof task === "string" && task.trim())
@@ -77,7 +78,7 @@ export function validateOccupationRisks(items, context) {
     const evidence = [...new Set(Array.isArray(item.evidenceIds) ? item.evidenceIds : [])]
       .map((id) => sourceMap.get(id)).filter(Boolean).slice(0, 5);
     if (!occupation || !reason || !tasks.length || !occupationStages.includes(item.stage)
-      || !evidence.some((source) => source.isToday) || occupations.has(occupation)) return [];
+      || evidence.length === 0 || occupations.has(occupation)) return [];
     occupations.add(occupation);
     return [{ occupation, tasks, reason, stage: item.stage,
       evidence: evidence.map(({ id, title, link, reportDate }) => ({ id, title, link, reportDate })) }];

@@ -31,7 +31,7 @@ test("최근 30일 자료 선택, 중복 제거 및 위험한 링크 제외", ()
   }
 });
 
-test("미등록 출처, 과거 기사만 있는 항목, 잘못된 단계 및 중복 직업 제외", () => {
+test("최근 과거 기사 근거 허용, 미등록 출처·잘못된 단계·중복 직업 제외", () => {
   const context = { sources: [
     { id: "today", title: "오늘 기사", link: "https://example.com/today", reportDate: "2026-11-05", isToday: true },
     { id: "past", title: "과거 기사", link: "https://example.com/past", reportDate: "2026-11-04", isToday: false },
@@ -43,7 +43,7 @@ test("미등록 출처, 과거 기사만 있는 항목, 잘못된 단계 및 중
     { ...item, occupation: "개발자", stage: "완전 소멸" },
     { ...item, occupation: "디자이너", evidenceIds: ["fake"] },
   ], context);
-  assert.equal(result.length, 1);
+  assert.equal(result.length, 2);
   assert.deepEqual(result[0].evidence.map((source) => source.id), ["today"]);
   const markdown = generateMarkdown([], "요약", 80, [], result,
     { startDate: "2026-10-07", endDate: "2026-11-05", articleCount: 2 });
