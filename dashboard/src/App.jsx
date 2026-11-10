@@ -228,7 +228,7 @@ function TrendChart({ historyData, selectedDate, onSelectPoint }) {
         <h3 className="section-title-sub" style={{ margin: 0, fontSize: '0.98rem' }}>일자리 대체 위험 변화 추이 · 최근 30개 리포트</h3>
       </div>
       <p style={{ fontSize: '0.75rem', color: '#64748b', margin: '0 0 0.35rem 0', lineHeight: '1.3' }}>
-        전날 대비 일자리 대체 위험 지수의 증감량입니다. 전날 자료가 없는 날짜는 제외합니다.
+        전날 대비 일자리 대체 위험 지수의 증감량입니다.
       </p>
 
       <div className="svg-wrapper">
@@ -610,6 +610,7 @@ function App() {
                   {selectedReport.riskScoreBreakdown && selectedReport.riskScoreBreakdown.length > 0 ? (
                     <div className="detail-causes">
                       <h5>주요 영향 요인 (클릭 시 원문 이동)</h5>
+                      <p className="occupation-note">강도는 사건별 LLM 평가(1~10)이며, 위험 변화나 종합 AI 지수의 합산 점수가 아닙니다.</p>
                       <ul className="detail-causes-list">
                         {selectedReport.riskScoreBreakdown.map((item, idx) => {
                           const matchedNews = item.newsIndex && selectedReport.news ? selectedReport.news[item.newsIndex - 1] : null;
@@ -617,7 +618,7 @@ function App() {
                             <>
                               <span className="factor-sign">{item.sign === "+" ? "▲" : "▼"}</span>
                               <span className="factor-event">{item.event}</span>
-                              <span className="factor-impact">({item.sign === "+" ? "+" : "-"}{item.impact})</span>
+                              <span className="factor-impact">{item.sign === "+" ? "상승" : "완화"} · 강도 {item.impact}/10</span>
                             </>
                           );
                           return matchedNews ? (
@@ -658,7 +659,7 @@ function App() {
                     <div className="card-top">
                       <span className="card-num">0{idx + 1}</span>
                       <span className={`card-impact-badge ${item.sign === "+" ? "badge-up" : "badge-down"}`}>
-                        위험도 {item.sign === "+" ? "+" : "-"}{item.impact}
+                        {item.sign === "+" ? "상승" : "완화"} 요인 · 강도 {item.impact}/10
                       </span>
                     </div>
                     <h3 className="card-title">{item.event}</h3>
@@ -742,10 +743,10 @@ function App() {
           <div className="section-group past-group">
             <h2 className="past-group-title">지난 뉴스 히스토리</h2>
             {pastData.slice(0, visibleCount).map((past, idx) => {
-              // 최근 3일은 펼쳐진 상태로 표시 (당일 제외하고 pastData의 index 0, 1까지가 오늘+과거2일=총3일)
+              // 지난 리포트는 기본 접힘 상태로 표시
               const isExpanded = expandedDays[past.reportDate] !== undefined
                 ? expandedDays[past.reportDate]
-                : idx < 2;
+                : false;
 
               return (
                 <div key={idx} className={`past-day-block ${isExpanded ? "expanded" : "collapsed"}`}>
@@ -757,8 +758,8 @@ function App() {
                           종합 {past.summaryScore}점
                         </span>
                       )}
-                      <span className="job-risk-badge" style={{ backgroundColor: getRiskColor(past.cumulativeRiskScore || past.jobRiskScore || 75) }}>
-                        대체 위험 {past.cumulativeRiskScore ?? past.jobRiskScore ?? 50}점
+                      <span className="job-risk-badge" style={{ backgroundColor: (past.cumulativeRiskScore ?? past.jobRiskScore) == null ? "#64748b" : getRiskColor(past.cumulativeRiskScore ?? past.jobRiskScore) }}>
+                        대체 위험 {(past.cumulativeRiskScore ?? past.jobRiskScore) == null ? "자료 없음" : `${past.cumulativeRiskScore ?? past.jobRiskScore}점`}
                       </span>
                       {past.dailyVelocity !== undefined && (
                         <span className="velocity-mini-badge">
