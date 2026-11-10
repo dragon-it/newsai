@@ -1,0 +1,102 @@
+{
+  "lastUpdated": "2026-11-10T03:56:07.144Z",
+  "reportDate": "2026. 11. 10.",
+  "summary": "- 인프라 및 생태계 확장: 통신사와 클라우드 기업들이 AI 데이터센터 확보와 투자를 본격화하며 인프라 경쟁이 심화되고 있음.\n\n- 기술 개방 및 고도화: 국내 연구원이 자체 AI 모델의 API를 무료로 개방하고 성능을 대폭 개선하며 글로벌 프런티어 AI를 정조준하고 있음.\n\n- 산업 및 공공 현장 적용: 금융 및 공공 영역에서 AI 모의창구와 영상 분석 시스템 등이 도입되며 서비스 자동화와 효율성이 높아지고 있음.",
+  "summaryScore": 84,
+  "dailyVelocity": 1.2,
+  "velocityReason": "AI 데이터센터 인프라 투자 확대와 금융권 등 산업 현장의 AI 에이전트/모솔루션 도입 가속화 소식이 주요 원인임.",
+  "cumulativeRiskScore": 53,
+  "jobRiskScore": 53,
+  "riskScoreBreakdown": [
+    {
+      "event": "AI 데이터센터 인프라 및 투자 확대",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 3
+    },
+    {
+      "event": "금융권 AI 모의창구 및 자동화 솔루션 도입",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 5
+    }
+  ],
+  "news": [
+    {
+      "title": "한국 찾은 '큰손' 계약 불발 이유가…AI 프로젝트 '초비상' - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LQ3E5dkJPOXk4ZWloOGFab0xwcG1CMHhQVlJlRFRiTENtWjRJMVdwYVdwVURMM1NJVFh0cHoxQUtmQWwtUFRrTjVqLW5XZEYtZnF0OUZLS0gzQQ?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 00:33:00 GMT",
+      "summary": "방한한 주요 투자자와의 계약 불발로 인해 국내 AI 프로젝트 추진에 차질이 빚어지며 비상이 걸렸다. 투자 유치와 파트너십 확보의 중요성이 커지고 있다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    },
+    {
+      "title": "실적 엇갈린 통신3사…다음 성장동력은 AI 데이터센터 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9hbzRoN21YbG45OXUwNEppcU1MVlM1OWVjSm5SaXRfc0NJSnl1cFQtb2tkYm9CR1dlS0gxcTUtemRnYkJ0Y1ZMWXBsSGIxVXJOZEE?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 02:38:45 GMT",
+      "summary": "실적이 엇갈린 통신 3사가 차세대 성장 동력으로 AI 데이터센터를 지목하고 관련 투자를 강화하고 있다. 인프라 기반의 수익 모델 다각화가 본격화되는 양상이다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 4
+    },
+    {
+      "title": "NHN클라우드, 3분기 매출 75.5% 성장…내년까지 AI 데이터센터 100MW 확보 - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yYzlrMS1tQVYyMTlWZDU0S29rZTEycHRKM3ZWbW1iWkl4aUZycURDcWR1T2ZDWXZJWHdsVnlmYmp0OGZpeWg5OC1BVHgyYnA5U0VTZGd3?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 01:32:50 GMT",
+      "summary": "NHN클라우드가 3분기 급성장세를 기록한 가운데 내년까지 대규모 AI 데이터센터 확보에 나선다. 급증하는 AI 컴퓨팅 수요에 선제적으로 대응하기 위한 조치다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 4
+    },
+    {
+      "title": "LG AI연구원, ‘K-엑사원 2.5’ API 전격 무료 개방…8주 만에 AI 성능 70%↑, 글로벌 프런티어 AI 정조준 - 인공지능신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xRW5sSWg3TnpZc2I2VG56LUt5NFBKUWxxMGxlWDZRQmVOVlNFc2FCQVFvVzliNmdES3BLdDdlOGh2MUhzUWJqcFVocVRyX01yY1ZTU1BRX0pmSDcxMlpGZXNvbkgwZlk?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 01:00:00 GMT",
+      "summary": "LG AI연구원이 K-엑사원 2.5 API를 전격 무료 개방하며 성능을 크게 끌어올렸다. 국내 생태계 활성화와 글로벌 프런티어 모델과의 경쟁을 도모하고 있다.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 3,
+      "investmentImpact": 4
+    },
+    {
+      "title": "AI 모의창구로 불완전판매 예방…한화손보, 금융AI챌린지 대상 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDeGVRNnhXcFVpZ3U0V1djTVhUYjdZUkxoQktBNWtsVUxWb0JtMEF6bzNRUzVDZktTelFXNHZYSzl4Y3FVd19QN2lEUlk1eEtXR1E?oc=5",
+      "pubDate": "Tue, 10 Nov 2026 01:16:38 GMT",
+      "summary": "한화손보가 금융AI챌린지에서 AI 모의창구를 통한 불완전판매 예방 시스템으로 대상을 수상했다. 금융 현장에서 리스크 관리 및 상담 자동화가 진전되고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 3
+    }
+  ],
+  "occupationRisks": [
+    {
+      "occupation": "금융 상담원 및 창구 직원",
+      "tasks": [
+        "상품 설명 및 불완전판매 예방 점검",
+        "고객 모의 상담 응대"
+      ],
+      "reason": "AI 모의창구 시스템이 도입되어 불완전판매 예방 등 반복적인 창구 상담 및 검증 업무를 보조·자동화하는 단계가 확인됨.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-5",
+          "title": "AI 모의창구로 불완전판매 예방…한화손보, 금융AI챌린지 대상 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDeGVRNnhXcFVpZ3U0V1djTVhUYjdZUkxoQktBNWtsVUxWb0JtMEF6bzNRUzVDZktTelFXNHZYSzl4Y3FVd19QN2lEUlk1eEtXR1E?oc=5",
+          "reportDate": "2026-11-10"
+        }
+      ]
+    }
+  ],
+  "occupationAnalysis": {
+    "startDate": "2026-10-12",
+    "endDate": "2026-11-10",
+    "articleCount": 24,
+    "model": "gemini-3.5-flash-lite"
+  },
+  "id": "2026-11-10"
+}
