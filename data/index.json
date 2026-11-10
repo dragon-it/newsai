@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T01:21:21.980Z",
+  "updatedAt": "2026-11-10T03:56:07.152Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-10T03:56:07.144Z",
+      "reportDate": "2026. 11. 10.",
+      "summary": "- 인프라 및 생태계 확장: 통신사와 클라우드 기업들이 AI 데이터센터 확보와 투자를 본격화하며 인프라 경쟁이 심화되고 있음.\n\n- 기술 개방 및 고도화: 국내 연구원이 자체 AI 모델의 API를 무료로 개방하고 성능을 대폭 개선하며 글로벌 프런티어 AI를 정조준하고 있음.\n\n- 산업 및 공공 현장 적용: 금융 및 공공 영역에서 AI 모의창구와 영상 분석 시스템 등이 도입되며 서비스 자동화와 효율성이 높아지고 있음.",
+      "summaryScore": 84,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 데이터센터 인프라 투자 확대와 금융권 등 산업 현장의 AI 에이전트/모솔루션 도입 가속화 소식이 주요 원인임.",
+      "cumulativeRiskScore": 53,
+      "jobRiskScore": 53,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 데이터센터 인프라 및 투자 확대",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        },
+        {
+          "event": "금융권 AI 모의창구 및 자동화 솔루션 도입",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "금융 상담원 및 창구 직원",
+          "tasks": [
+            "상품 설명 및 불완전판매 예방 점검",
+            "고객 모의 상담 응대"
+          ],
+          "reason": "AI 모의창구 시스템이 도입되어 불완전판매 예방 등 반복적인 창구 상담 및 검증 업무를 보조·자동화하는 단계가 확인됨.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-5",
+              "title": "AI 모의창구로 불완전판매 예방…한화손보, 금융AI챌린지 대상 - 매일경제 마켓",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDeGVRNnhXcFVpZ3U0V1djTVhUYjdZUkxoQktBNWtsVUxWb0JtMEF6bzNRUzVDZktTelFXNHZYSzl4Y3FVd19QN2lEUlk1eEtXR1E?oc=5",
+              "reportDate": "2026-11-10"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-12",
+        "endDate": "2026-11-10",
+        "articleCount": 24,
+        "model": "gemini-3.5-flash-lite"
+      },
+      "id": "2026-11-10",
+      "fileName": "2026-11-10.json"
+    },
     {
       "lastUpdated": "2026-11-09T01:21:21.973Z",
       "reportDate": "2026. 11. 9.",
@@ -577,5 +628,46 @@
       "fileName": "2026-09-01.json"
     }
   ],
-  "occupationTracking": []
+  "occupationTracking": [
+    {
+      "id": "금융상담원및창구직원",
+      "occupation": "금융 상담원 및 창구 직원",
+      "tasks": [
+        "상품 설명 및 불완전판매 예방 점검",
+        "고객 모의 상담 응대"
+      ],
+      "reason": "AI 모의창구 시스템이 도입되어 불완전판매 예방 등 반복적인 창구 상담 및 검증 업무를 보조·자동화하는 단계가 확인됨.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-10",
+      "lastObserved": "2026-11-10",
+      "lastEvidenceDate": "2026-11-10",
+      "evidence": [
+        {
+          "id": "article-5",
+          "title": "AI 모의창구로 불완전판매 예방…한화손보, 금융AI챌린지 대상 - 매일경제 마켓",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDeGVRNnhXcFVpZ3U0V1djTVhUYjdZUkxoQktBNWtsVUxWb0JtMEF6bzNRUzVDZktTelFXNHZYSzl4Y3FVd19QN2lEUlk1eEtXR1E?oc=5",
+          "reportDate": "2026-11-10"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-10",
+          "stage": "현장 도입",
+          "reason": "AI 모의창구 시스템이 도입되어 불완전판매 예방 등 반복적인 창구 상담 및 검증 업무를 보조·자동화하는 단계가 확인됨.",
+          "tasks": [
+            "상품 설명 및 불완전판매 예방 점검",
+            "고객 모의 상담 응대"
+          ],
+          "evidence": [
+            {
+              "id": "article-5",
+              "title": "AI 모의창구로 불완전판매 예방…한화손보, 금융AI챌린지 대상 - 매일경제 마켓",
+              "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDeGVRNnhXcFVpZ3U0V1djTVhUYjdZUkxoQktBNWtsVUxWb0JtMEF6bzNRUzVDZktTelFXNHZYSzl4Y3FVd19QN2lEUlk1eEtXR1E?oc=5",
+              "reportDate": "2026-11-10"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
