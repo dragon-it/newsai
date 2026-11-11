@@ -1,7 +1,94 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T06:03:03.795Z",
+  "updatedAt": "2026-11-11T01:39:46.281Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-11T01:39:46.267Z",
+      "reportDate": "2026. 11. 11.",
+      "summary": "- 인프라 및 보안 생태계 확장: KT의 KAIST 전 구성원 대상 AI 메일보안 서비스 공급 및 서버 외부 노출 보안 이슈 발생\n\n- AI 시장 및 플랫폼 경쟁: 챗GPT가 주요 AI 챗봇 이용량의 대다수를 차지하며 독주 체제를 유지하는 가운데 클로드 등과의 경쟁 심화\n\n- 공공 및 산업 현장 도입: 돌봄 서비스 및 로봇을 활용한 간병 체계 전환 등 실생활 및 공공 영역에서의 AI 적용 논의 활발",
+      "summaryScore": 82,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 메일보안 및 기업 서비스 공급 등 실무 인프라 적용 소식이 이어지며 자동화 환경이 완만하게 가속됨.",
+      "cumulativeRiskScore": 53.1,
+      "jobRiskScore": 53.1,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 보안 및 메일 솔루션 현장 공급",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        },
+        {
+          "event": "챗GPT의 시장 독주 및 플랫폼 활용도 증가",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 4
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "기자",
+          "tasks": [
+            "기사 작성 및 정보 요약",
+            "그래픽 제작 및 데이터 시각화"
+          ],
+          "reason": "언론 분야에서 AI를 활용한 그래픽 제작과 정보 요약이 시도되며 미디어의 업무 방식이 변화하고 있음을 보여줌. 단순 요약을 넘어 데이터 시각화 분야에서의 AI 역할이 중요해지고 있음.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-56",
+              "title": "매끄러운 한 줄 요약의 바깥을 그리다…‘AI시대와 언론’ 그래픽 제작기[뉴스뷰] - 경향신문",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUl8xV2R0YlZDbklKc1prbzFvNDJQZlRpSEZOcnk5cGxBMEs1STJiZi1TNDd2TEp4UkZGTy1ZN2pJYTdWYnhsemVxTFg0OHN6dUNCeW5nOWdJUXZubTJKV2t4a1YtYUlVamwtU3h1UTliZ2ZGTFM4aHpRbDRHMm55c244OVRpakFhYm9ueXJTbjJNRkFrVHpHTDUyM0NyMmE4ZURZN0RETUt6dw?oc=5",
+              "reportDate": "2026-10-31"
+            }
+          ]
+        },
+        {
+          "occupation": "소프트웨어 개발자",
+          "tasks": [
+            "코드 작성",
+            "프로그램 개발"
+          ],
+          "reason": "AI가 코드를 작성하는 비중이 높아짐에 따라 개발자의 역할이 단순 코딩에서 문제 해결과 아키텍처 설계로 변화하고 있으며, 교육 기관과 기업들이 이에 맞춘 엔지니어 육성 과정을 준비 중임.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-93",
+              "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        },
+        {
+          "occupation": "공무원",
+          "tasks": [
+            "단순 행정 업무 처리",
+            "민원 응대 및 문서 정리"
+          ],
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이며, 이는 단순 행정 업무의 자동화와 향후 공공 일자리 구조 변화에 대한 지표가 됨.",
+          "stage": "기술 시연",
+          "evidence": [
+            {
+              "id": "article-50",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-13",
+        "endDate": "2026-11-11",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 3,
+        "acceptedCount": 3
+      },
+      "id": "2026-11-11",
+      "fileName": "2026-11-11.json"
+    },
     {
       "lastUpdated": "2026-11-10T06:03:03.781Z",
       "reportDate": "2026. 11. 10.",
@@ -2324,12 +2411,14 @@
       "occupation": "기자",
       "tasks": [
         "글쓰기",
-        "정보 요약 및 그래픽 제작"
+        "정보 요약 및 그래픽 제작",
+        "기사 작성 및 정보 요약",
+        "그래픽 제작 및 데이터 시각화"
       ],
-      "reason": "AI를 활용한 정보 요약 및 콘텐츠 제작 자동화가 미디어 현장에 도입되고 있으나, 기술 의존에서 벗어나 인간 주도의 창작과 심층 분석의 가치를 재확인하는 움직임도 함께 나타남.",
+      "reason": "언론 분야에서 AI를 활용한 그래픽 제작과 정보 요약이 시도되며 미디어의 업무 방식이 변화하고 있음을 보여줌. 단순 요약을 넘어 데이터 시각화 분야에서의 AI 역할이 중요해지고 있음.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-10",
-      "lastObserved": "2026-11-10",
+      "lastObserved": "2026-11-11",
       "lastEvidenceDate": "2026-11-09",
       "evidence": [
         {
@@ -2368,6 +2457,23 @@
               "reportDate": "2026-10-31"
             }
           ]
+        },
+        {
+          "date": "2026-11-11",
+          "stage": "현장 도입",
+          "reason": "언론 분야에서 AI를 활용한 그래픽 제작과 정보 요약이 시도되며 미디어의 업무 방식이 변화하고 있음을 보여줌. 단순 요약을 넘어 데이터 시각화 분야에서의 AI 역할이 중요해지고 있음.",
+          "tasks": [
+            "기사 작성 및 정보 요약",
+            "그래픽 제작 및 데이터 시각화"
+          ],
+          "evidence": [
+            {
+              "id": "article-56",
+              "title": "매끄러운 한 줄 요약의 바깥을 그리다…‘AI시대와 언론’ 그래픽 제작기[뉴스뷰] - 경향신문",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUl8xV2R0YlZDbklKc1prbzFvNDJQZlRpSEZOcnk5cGxBMEs1STJiZi1TNDd2TEp4UkZGTy1ZN2pJYTdWYnhsemVxTFg0OHN6dUNCeW5nOWdJUXZubTJKV2t4a1YtYUlVamwtU3h1UTliZ2ZGTFM4aHpRbDRHMm55c244OVRpakFhYm9ueXJTbjJNRkFrVHpHTDUyM0NyMmE4ZURZN0RETUt6dw?oc=5",
+              "reportDate": "2026-10-31"
+            }
+          ]
         }
       ]
     },
@@ -2378,12 +2484,13 @@
         "코드 작성 및 프로그래밍",
         "서버 보안 취약점 점검",
         "코드 작성",
-        "서버 모의해킹 대응"
+        "서버 모의해킹 대응",
+        "프로그램 개발"
       ],
-      "reason": "AI 기반 자동화 도구와 모의해킹 툴이 고도화됨에 따라 단순 코딩 및 취약점 점검 업무의 자동화 가능성이 확인되고 있으나, 보안 방어 및 아키텍처 설계 영역에서는 인간 엔지니어의 개입과 통제가 필수적임.",
+      "reason": "AI가 코드를 작성하는 비중이 높아짐에 따라 개발자의 역할이 단순 코딩에서 문제 해결과 아키텍처 설계로 변화하고 있으며, 교육 기관과 기업들이 이에 맞춘 엔지니어 육성 과정을 준비 중임.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-09",
-      "lastObserved": "2026-11-10",
+      "lastObserved": "2026-11-11",
       "lastEvidenceDate": "2026-11-09",
       "evidence": [
         {
@@ -2464,6 +2571,23 @@
             },
             {
               "id": "article-88",
+              "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "stage": "현장 도입",
+          "reason": "AI가 코드를 작성하는 비중이 높아짐에 따라 개발자의 역할이 단순 코딩에서 문제 해결과 아키텍처 설계로 변화하고 있으며, 교육 기관과 기업들이 이에 맞춘 엔지니어 육성 과정을 준비 중임.",
+          "tasks": [
+            "코드 작성",
+            "프로그램 개발"
+          ],
+          "evidence": [
+            {
+              "id": "article-93",
               "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
               "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
               "reportDate": "2026-10-20"
@@ -2597,12 +2721,14 @@
         "행정 업무 처리",
         "민원 응대 및 관리",
         "단순 행정 업무",
-        "민원 응대 및 처리"
+        "민원 응대 및 처리",
+        "단순 행정 업무 처리",
+        "민원 응대 및 문서 정리"
       ],
-      "reason": "공공 행정 영역에서 AI를 도입하여 업무 효율성을 검증하는 실험과 제도가 추진 중이며, 단순 반복 행정 업무의 자동화 가능성이 검토되고 있음.",
+      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이며, 이는 단순 행정 업무의 자동화와 향후 공공 일자리 구조 변화에 대한 지표가 됨.",
       "stage": "기술 시연",
       "firstObserved": "2026-11-09",
-      "lastObserved": "2026-11-10",
+      "lastObserved": "2026-11-11",
       "lastEvidenceDate": "2026-11-04",
       "evidence": [
         {
@@ -2668,6 +2794,23 @@
               "title": "공공기관 AI 활용 확대…달라지는 제도와 안전기준은? - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑",
               "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWRqU0QyTEZSbzdGTzMydDlpRVc2MkxKTG1za2lqRXQzOXNHSVlGVXl5bU9NNThsc1Q0RUtRb3B2aVdEZGlUd1JVelZYclBYZ3lCYXFTWHhmc0xfX1dJbDJheXFhc3ctY2lqSHgwb25XUDNkem16dlhsQ3ViTGVYdUNrY3VxVzBNNkw0?oc=5",
               "reportDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "stage": "기술 시연",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이며, 이는 단순 행정 업무의 자동화와 향후 공공 일자리 구조 변화에 대한 지표가 됨.",
+          "tasks": [
+            "단순 행정 업무 처리",
+            "민원 응대 및 문서 정리"
+          ],
+          "evidence": [
+            {
+              "id": "article-50",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
             }
           ]
         }
