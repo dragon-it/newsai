@@ -1,5 +1,142 @@
 [
   {
+    "lastUpdated": "2026-11-11T01:39:46.267Z",
+    "reportDate": "2026. 11. 11.",
+    "summary": "- 인프라 및 보안 생태계 확장: KT의 KAIST 전 구성원 대상 AI 메일보안 서비스 공급 및 서버 외부 노출 보안 이슈 발생\n\n- AI 시장 및 플랫폼 경쟁: 챗GPT가 주요 AI 챗봇 이용량의 대다수를 차지하며 독주 체제를 유지하는 가운데 클로드 등과의 경쟁 심화\n\n- 공공 및 산업 현장 도입: 돌봄 서비스 및 로봇을 활용한 간병 체계 전환 등 실생활 및 공공 영역에서의 AI 적용 논의 활발",
+    "summaryScore": 82,
+    "dailyVelocity": 1.2,
+    "velocityReason": "AI 메일보안 및 기업 서비스 공급 등 실무 인프라 적용 소식이 이어지며 자동화 환경이 완만하게 가속됨.",
+    "cumulativeRiskScore": 53.1,
+    "jobRiskScore": 53.1,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 보안 및 메일 솔루션 현장 공급",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      },
+      {
+        "event": "챗GPT의 시장 독주 및 플랫폼 활용도 증가",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 4
+      }
+    ],
+    "news": [
+      {
+        "title": "[단독]“회사업무 AI, 해킹통로 될라”… 서버 8000여개 외부 인터넷 노출 - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5iV3FVRjdWZmljeWdlT2I5c1Y5T2VZSy1QdmpySUUzeENqLTB0ZUd2Sl9tVWRtZDNiMVAwV0NJUlo3NkhhWkxVYmVONmNDc3haQlk5TW5KSjByWHRFd2tIZ2VwMVFESTlMSG5RQmJfNVJZYjJkR1HSAWZBVV95cUxQdEtFdWJiTFZOOERCMVNhWUMzNlFVUXRlU1R4M0RHUEwwWHdtMmVhbFZPV3dWRzU1QXJUcktsbWF6NG9yQUtJYWVGdkNyd1lTX25iYkY4OENRajZIeFM0WWtNd0haQ3c?oc=5",
+        "pubDate": "Tue, 10 Nov 2026 19:30:00 GMT",
+        "summary": "회사업무에 사용되는 AI 관련 서버 8000여 개가 외부 인터넷에 노출되어 해킹 통로로 악용될 우려가 제기되었다. 기업 내 AI 시스템 도입에 따른 보안 관리의 허점이 드러난 사례다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "KT, KAIST 전 구성원에 'AI 메일보안' 제공…피싱·해킹 대응 강화 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NRG5NVmRFbEFYN1IzTThTUlNLQ0tGTEVBR2dVUXFib3JuV3ozSnhuakxJa0ZwZUZqTllDcWQ5c3Z5ZDY2UGE4WFBpUHNManlUa1VScWVJaWVudjlZYmNEWjJWSkFIMDTSAWxBVV95cUxNd3NoZl8wUWNBSUJLeHJNd2dlbnN3QUpaWEd1N3NtZ2JKTko3Rk9QRExOSGJqZXFWdW5TZnlrZjV0MjcxT05Ia20wLUhwc0wxTEQwQ2FJTHNJWlJQeTZhajZiM1pwN2hiV3J3TEE?oc=5",
+        "pubDate": "Wed, 11 Nov 2026 00:47:31 GMT",
+        "summary": "KT가 KAIST 전 구성원에게 'AI 메일보안' 서비스를 제공하여 피싱과 해킹 대응을 강화하기로 했다. 대학 및 연구기관 등 공공·교육 부문으로 AI 보안 솔루션 사업이 확대되고 있다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "KT 카이스트에 'AI 메일보안' 서비스 공급, 대학·연구기관으로 사업 확대 - 비즈니스포스트",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1qY2Y5NEQxb1ZiNlItUWxnVndNUXBkR2g5RmlXSDBFaGZPYTBEVi1ONlVNMEJVQjRoZGRBWDM0RTQzWTlFXzQ0NEw1dVdyWXdpN1BIX2NZaFh5ajJkYk9TOUFrSlQ3LVU3S3haZGRqUUxsamM?oc=5",
+        "pubDate": "Wed, 11 Nov 2026 01:27:08 GMT",
+        "summary": "KT가 카이스트에 AI 메일보안 서비스를 공급하며 대학 및 연구기관으로의 사업 영역을 넓히고 있다. 공공 연구 분야에서의 AI 기반 보안 인프라 채택이 증가하는 추세다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "챗GPT, 주요 AI 챗봇 이용량 81% 차지…클로드 급성장에도 독주 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tWnBYb1kwMjltZnp6TXU3d00xTGxrMm9GZl9YVzkyTGo5NzV5cGluZllLV0s5WlRjWnhYTXlxSmZQWTFrSnBaMzFpVGFvWG8zcDlJRndQX1N5QVp3ajk4VnJHa2dfcU12a1E?oc=5",
+        "pubDate": "Tue, 10 Nov 2026 09:14:53 GMT",
+        "summary": "챗GPT가 주요 AI 챗봇 이용량의 81%를 차지하며 클로드의 급성장 속에서도 독주 체제를 유지하고 있다. 생성형 AI 시장에서 선두 주자의 플랫폼 장악력이 공고함을 보여준다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "'돌봄 AI' 전환…로봇이 간병을 대신할 수 있을까 - 오피니언 | 뉴스 - 대한민국 정책브리핑",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTkdYSVkxZmpaMDhhdkVPb240Q2YwNVNPMmR4dW91NTl6RmM1TmhxbTVkYmdQdF9hNHVXbDJWVW5zXzR2LUFYUzBuR3NaSkU0aWhSZkFCZjkxU0Nmdmc1MmQxVlhJRHhLTFJvVHFRcnBDU3ZVM2VKdTZwQ2VYQzRjOWJJTzl5M1lkMUFnUEtBQlhvUQ?oc=5",
+        "pubDate": "Wed, 11 Nov 2026 01:07:30 GMT",
+        "summary": "간병 영역에서 로봇과 AI를 활용한 '돌봄 AI' 전환 논의가 이어지고 있다. 고령화 사회의 인력 부족 문제를 해결하기 위해 현장 도입 가능성이 검토되고 있다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      }
+    ],
+    "occupationRisks": [
+      {
+        "occupation": "기자",
+        "tasks": [
+          "기사 작성 및 정보 요약",
+          "그래픽 제작 및 데이터 시각화"
+        ],
+        "reason": "언론 분야에서 AI를 활용한 그래픽 제작과 정보 요약이 시도되며 미디어의 업무 방식이 변화하고 있음을 보여줌. 단순 요약을 넘어 데이터 시각화 분야에서의 AI 역할이 중요해지고 있음.",
+        "stage": "현장 도입",
+        "evidence": [
+          {
+            "id": "article-56",
+            "title": "매끄러운 한 줄 요약의 바깥을 그리다…‘AI시대와 언론’ 그래픽 제작기[뉴스뷰] - 경향신문",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUl8xV2R0YlZDbklKc1prbzFvNDJQZlRpSEZOcnk5cGxBMEs1STJiZi1TNDd2TEp4UkZGTy1ZN2pJYTdWYnhsemVxTFg0OHN6dUNCeW5nOWdJUXZubTJKV2t4a1YtYUlVamwtU3h1UTliZ2ZGTFM4aHpRbDRHMm55c244OVRpakFhYm9ueXJTbjJNRkFrVHpHTDUyM0NyMmE4ZURZN0RETUt6dw?oc=5",
+            "reportDate": "2026-10-31"
+          }
+        ]
+      },
+      {
+        "occupation": "소프트웨어 개발자",
+        "tasks": [
+          "코드 작성",
+          "프로그램 개발"
+        ],
+        "reason": "AI가 코드를 작성하는 비중이 높아짐에 따라 개발자의 역할이 단순 코딩에서 문제 해결과 아키텍처 설계로 변화하고 있으며, 교육 기관과 기업들이 이에 맞춘 엔지니어 육성 과정을 준비 중임.",
+        "stage": "현장 도입",
+        "evidence": [
+          {
+            "id": "article-93",
+            "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+            "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+            "reportDate": "2026-10-20"
+          }
+        ]
+      },
+      {
+        "occupation": "공무원",
+        "tasks": [
+          "단순 행정 업무 처리",
+          "민원 응대 및 문서 정리"
+        ],
+        "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이며, 이는 단순 행정 업무의 자동화와 향후 공공 일자리 구조 변화에 대한 지표가 됨.",
+        "stage": "기술 시연",
+        "evidence": [
+          {
+            "id": "article-50",
+            "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+            "reportDate": "2026-11-01"
+          }
+        ]
+      }
+    ],
+    "occupationAnalysis": {
+      "startDate": "2026-10-13",
+      "endDate": "2026-11-11",
+      "articleCount": 100,
+      "model": "gemini-3.5-flash-lite",
+      "proposedCount": 3,
+      "acceptedCount": 3
+    }
+  },
+  {
     "lastUpdated": "2026-11-10T06:03:03.781Z",
     "reportDate": "2026. 11. 10.",
     "summary": "- AI 역량과 고용 시장: 취업 준비생 사이에서 AI 역량의 중요성이 강조되고 있으나, 이를 공식적으로 평가하는 기업은 일부에 불과해 괴리가 존재함.\n\n- 인프라 계약 차질과 불확실성: 대형 AI 프로젝트 계약 불발 및 사생활 논란이 겹치며 관련 산업의 신뢰 문제와 인프라 확장에 대한 우려가 확산됨.\n\n- 보안 및 AI 활용 리스크: AI 기반 모의해킹이 서버를 무력화하는 등 고도화된 공격 도구의 위험성이 대두되는 한편, 산업 현장 전반으로의 안전 솔루션 도입이 추진됨.",
@@ -200,7 +337,8 @@
       "model": "gemini-3.5-flash-lite",
       "proposedCount": 4,
       "acceptedCount": 4
-    }
+    },
+    "id": "2026-11-10"
   },
   {
     "lastUpdated": "2026-11-09T01:21:21.973Z",
@@ -2622,82 +2760,5 @@
       }
     ],
     "id": "2026-10-10"
-  },
-  {
-    "lastUpdated": "2026-10-09T01:39:19.354Z",
-    "reportDate": "2026. 10. 9.",
-    "summary": "- AI 투자 생태계 과열: AI 칩 확보를 위한 천문학적 부채 조달이 증가하며 투자 경쟁이 심화되고 있음.\n\n- AI 수익성 우려 확대: 오픈AI의 매출 실적 부풀리기 논란과 시장 기대치 하회 전망이 제기되면서 기술주 전반의 투자 심리가 위축됨.\n\n- 지자체 AI 인프라 유치전: 국내 지자체를 중심으로 글로벌 AI 허브 유치를 위한 전략 모색 등 인프라 확충 노력이 지속됨.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.2,
-    "velocityReason": "AI 기술 자체의 발전보다는 시장의 수익성 우려와 투자 조정이 지배적인 상황임.",
-    "cumulativeRiskScore": 54.2,
-    "jobRiskScore": 54.2,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 투자 시장의 고평가 논란",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 3
-      },
-      {
-        "event": "기술주 약세 및 고용 투자 위축 가능성",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      }
-    ],
-    "news": [
-      {
-        "title": "AI 칩 사려고 수백억달러씩 빚…월가로 번진 AI 투자 경쟁 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM1dESXM1b3pEXzdndEk3a00yUllKdmZVQTNaRU9UMzNTdmxnczhEQmZxWHd2ejZ1YmVOM1VnU1gtdVBXaThXUEVYdDNHWHFqRlJtMlZTTnI0Y1RHNlpMaFlraVlBN2M1UnVMei1XaTVETE9qQnNSMGlnbmgwMGhCYmlmM2RRU3p4?oc=5",
-        "pubDate": "Thu, 08 Oct 2026 20:33:00 GMT",
-        "summary": "빅테크 기업들이 AI 가속기 구매를 위해 대규모 부채를 조달하며 월가의 AI 투자 경쟁이 한계점에 도달했다는 평가가 나옵니다. 인프라 구축을 위한 막대한 자금 소모가 기업 재무 구조에 부담을 주고 있습니다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "뉴욕증시, 오픈AI 매출 우려에 기술주 약세…나스닥 1.25% 하락 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY3lqM2pkMm4zOGlUMEhZSkx5allROG1BYzhoX1JBelNKM2hxZTJ2U3F1VkFFbW50M2pHQ0YzaEFwRUZ0aTB2RVNQNU50Z3F1YUNWT1RUMThNb1lXVGMtNDBMRHV6cXJfVlRMUkZhbzNYWUhEc1hwa0VGZG9ab21WS2ktQXROeTFs?oc=5",
-        "pubDate": "Thu, 08 Oct 2026 21:20:00 GMT",
-        "summary": "오픈AI의 매출 부진 우려가 시장에 확산되며 뉴욕 증시 기술주 전반이 하락세를 보였습니다. 투자자들의 AI 수익성에 대한 의구심이 커지면서 기술주 투자 심리가 냉각되었습니다.",
-        "importance": 5,
-        "aiImpact": 3,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"매출 27조원 부풀렸나\"…오픈AI 실적에 'AI 수익성' 의문 재점화 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1razJNdE9lQkxuT2ZSQ2h4UVNpeE44eEhuS0FMc2thS3VNZG9GcFd1OU5ON3MtcFgtNl95Z1l0Ujh4dXFaSUV2OFV5YjNLRy1JMmdVUjFDVVNKNFljUFNsMDRnUGpweTZo0gFuQVVfeXFMTW1lendPTU5DbHhOQUR5RXNpZkVkRFR2NDE5NWFPanJrWkc3MC1tZUd3ZFFGN0o0ZW1KR1V2dW14S3RveHlKdzlRbldEQ3BrVklCeHNmUDVZcDdLWVRESWY5ajBFRVpHS0lBOWpnN1E?oc=5",
-        "pubDate": "Fri, 09 Oct 2026 01:28:00 GMT",
-        "summary": "오픈AI가 매출 실적을 부풀렸다는 의혹이 제기되며 AI 모델의 실제 상업적 가치와 수익성에 대한 재평가가 이루어지고 있습니다. 시장은 AI 산업의 실질적인 수익 모델 증명을 요구하는 분위기입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 5
-      },
-      {
-        "title": "\"오픈AI 매출 기대이하\" 전망에…반도체 주 충격파 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aY1FOb1lRbkh3X2pvcmRHUzRqWFEwQmYtakhpWTA1OUJoaExQbUhrVDVfUFRZOTQ5RmNJY3VTck1GRG9fUnlFMmFubENOakhlNklYNExB?oc=5",
-        "pubDate": "Fri, 09 Oct 2026 00:45:44 GMT",
-        "summary": "오픈AI의 매출 전망치가 기대에 미치지 못할 것이라는 관측이 반도체 섹터의 주가 하락으로 이어졌습니다. AI 반도체 공급망에 대한 과도한 낙관론이 조정받는 양상입니다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "고양, 글로벌 AI 허브 유치 총력…유치전략 모색 포럼 개최 - 경기일보",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04YTVGeFJvY3VRbUFfaUJQdm1tb0NQYVozX0oyQlZkZzVQWkxLWVpEMVRwRDFBYUFLZ0ZxREpERkhydEljamJSUW1uNWkxOFJTUHlHc2I4eFlmaU0?oc=5",
-        "pubDate": "Fri, 09 Oct 2026 01:07:28 GMT",
-        "summary": "고양시가 글로벌 AI 허브 유치를 위해 포럼을 개최하는 등 인프라 조성을 위한 전략을 구체화하고 있습니다. 지자체 차원의 AI 생태계 구축 노력이 산업 발전의 토대가 될 것으로 기대됩니다.",
-        "importance": 2,
-        "aiImpact": 2,
-        "automationPotential": 2,
-        "investmentImpact": 3
-      }
-    ],
-    "id": "2026-10-09"
   }
 ]
