@@ -1,7 +1,131 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T01:39:46.281Z",
+  "updatedAt": "2026-11-12T02:39:18.832Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-12T02:39:18.665Z",
+      "reportDate": "2026. 11. 12.",
+      "summary": "- 노동 시장의 구조적 변화: 청년 일자리 감소세와 고령층의 고용 비중 확대 등 AI 도입에 따른 고용 구조의 변화가 가시화되고 있음.\n\n- 피지컬 AI 생태계 확장: 버추얼 트윈과 음성 분석 기술 등을 활용한 산업용 로봇과 피지컬 AI의 현장 적용 해법이 활발히 논의되고 있음.\n\n- AI 기술 확산과 명암: AI 관련 기술이 다양한 산업에 도입되는 동시에 종말론적 우려와 규제 방향성에 대한 사회적 논쟁이 이어지고 있음.",
+      "summaryScore": 78,
+      "dailyVelocity": 1.2,
+      "velocityReason": "피지컬 AI와 로봇의 산업 현장 적용 및 고용 구조 변화 소식이 완만한 위험 가속도를 유발함.",
+      "cumulativeRiskScore": 53.2,
+      "jobRiskScore": 53.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 업종 중심의 청년 일자리 감소",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 1
+        },
+        {
+          "event": "피지컬 AI 및 로봇 산업 적용 논의",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 종말론 및 규제 관련 사회적 논쟁",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 2
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "공무원",
+          "tasks": [
+            "행정 업무"
+          ],
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행하고 있으나, AI의 판단에 불확실성이 존재하여 인간 공무원의 최종 검토와 책임이 요구됨.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-55",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "occupation": "개발자",
+          "tasks": [
+            "코드 작성"
+          ],
+          "reason": "AI가 코드를 작성하는 능력이 보편화되면서 엔지니어의 역할이 코딩 단순 반복에서 문제 해결과 아키텍처 설계로 이동하고 있으며, 여전히 사람의 철저한 검토와 예외 처리가 필요함.",
+          "stage": "고용 영향 확인",
+          "evidence": [
+            {
+              "id": "article-98",
+              "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        },
+        {
+          "occupation": "언론인",
+          "tasks": [
+            "정보 요약",
+            "그래픽 제작"
+          ],
+          "reason": "AI를 활용한 정보 요약과 그래픽 제작이 도입되고 있으나, 매끄러운 요약 이외의 창의적이고 심층적인 맥락 포착에는 인간 언론인의 검토와 주도적인 판단이 반드시 필요함.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-61",
+              "title": "매끄러운 한 줄 요약의 바깥을 그리다…‘AI시대와 언론’ 그래픽 제작기[뉴스뷰] - 경향신문",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUl8xV2R0YlZDbklKc1prbzFvNDJQZlRpSEZOcnk5cGxBMEs1STJiZi1TNDd2TEp4UkZGTy1ZN2pJYTdWYnhsemVxTFg0OHN6dUNCeW5nOWdJUXZubTJKV2t4a1YtYUlVamwtU3h1UTliZ2ZGTFM4aHpRbDRHMm55c244OVRpakFhYm9ueXJTbjJNRkFrVHpHTDUyM0NyMmE4ZURZN0RETUt6dw?oc=5",
+              "reportDate": "2026-10-31"
+            }
+          ]
+        },
+        {
+          "occupation": "사무직원",
+          "tasks": [
+            "보고서 작성",
+            "PPT 작성"
+          ],
+          "reason": "AI 도구를 통한 보고서 및 발표 자료 작성 자동화가 시도되고 있으나, 후속 업무의 복잡성으로 인해 오히려 회의가 길어지는 등의 시행착오가 발생하여 인간의 세심한 최종 조율이 필수적임.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-97",
+              "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        },
+        {
+          "occupation": "간병인",
+          "tasks": [
+            "돌봄 업무"
+          ],
+          "reason": "고령화 사회의 인력 부족을 해결하기 위해 돌봄 AI 및 로봇의 현장 도입 가능성이 검토되고 있으나, 환자와의 교감이나 돌발 상황 대처에는 인간의 검토와 개입이 필수적임.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-10",
+              "title": "'돌봄 AI' 전환…로봇이 간병을 대신할 수 있을까 - 오피니언 | 뉴스 - 대한민국 정책브리핑",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTkdYSVkxZmpaMDhhdkVPb240Q2YwNVNPMmR4dW91NTl6RmM1TmhxbTVkYmdQdF9hNHVXbDJWVW5zXzR2LUFYUzBuR3NaSkU0aWhSZkFCZjkxU0Nmdmc1MmQxVlhJRHhLTFJvVHFRcnBDU3ZVM2VKdTZwQ2VYQzRjOWJJTzl5M1lkMUFnUEtBQlhvUQ?oc=5",
+              "reportDate": "2026-11-11"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-14",
+        "endDate": "2026-11-12",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 5,
+        "acceptedCount": 5
+      },
+      "id": "2026-11-12",
+      "fileName": "2026-11-12.json"
+    },
     {
       "lastUpdated": "2026-11-11T01:39:46.267Z",
       "reportDate": "2026. 11. 11.",
@@ -2407,6 +2531,44 @@
   ],
   "occupationTracking": [
     {
+      "id": "간병인",
+      "occupation": "간병인",
+      "tasks": [
+        "돌봄 업무"
+      ],
+      "reason": "고령화 사회의 인력 부족을 해결하기 위해 돌봄 AI 및 로봇의 현장 도입 가능성이 검토되고 있으나, 환자와의 교감이나 돌발 상황 대처에는 인간의 검토와 개입이 필수적임.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-12",
+      "lastObserved": "2026-11-12",
+      "lastEvidenceDate": "2026-11-11",
+      "evidence": [
+        {
+          "id": "article-10",
+          "title": "'돌봄 AI' 전환…로봇이 간병을 대신할 수 있을까 - 오피니언 | 뉴스 - 대한민국 정책브리핑",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTkdYSVkxZmpaMDhhdkVPb240Q2YwNVNPMmR4dW91NTl6RmM1TmhxbTVkYmdQdF9hNHVXbDJWVW5zXzR2LUFYUzBuR3NaSkU0aWhSZkFCZjkxU0Nmdmc1MmQxVlhJRHhLTFJvVHFRcnBDU3ZVM2VKdTZwQ2VYQzRjOWJJTzl5M1lkMUFnUEtBQlhvUQ?oc=5",
+          "reportDate": "2026-11-11"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-12",
+          "stage": "현장 도입",
+          "reason": "고령화 사회의 인력 부족을 해결하기 위해 돌봄 AI 및 로봇의 현장 도입 가능성이 검토되고 있으나, 환자와의 교감이나 돌발 상황 대처에는 인간의 검토와 개입이 필수적임.",
+          "tasks": [
+            "돌봄 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-10",
+              "title": "'돌봄 AI' 전환…로봇이 간병을 대신할 수 있을까 - 오피니언 | 뉴스 - 대한민국 정책브리핑",
+              "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTkdYSVkxZmpaMDhhdkVPb240Q2YwNVNPMmR4dW91NTl6RmM1TmhxbTVkYmdQdF9hNHVXbDJWVW5zXzR2LUFYUzBuR3NaSkU0aWhSZkFCZjkxU0Nmdmc1MmQxVlhJRHhLTFJvVHFRcnBDU3ZVM2VKdTZwQ2VYQzRjOWJJTzl5M1lkMUFnUEtBQlhvUQ?oc=5",
+              "reportDate": "2026-11-11"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "기자",
       "occupation": "기자",
       "tasks": [
@@ -2602,12 +2764,13 @@
       "tasks": [
         "보고서 작성",
         "PPT 발표 자료 제작",
-        "데이터 심사"
+        "데이터 심사",
+        "PPT 작성"
       ],
-      "reason": "기업 내 문서 작성 및 비즈니스 프로세스에 생성형 AI가 광범위하게 도입되고 있으나, 후속 검토 과정의 복잡성으로 인해 인간 관리자의 역할이 여전히 강조됨.",
+      "reason": "AI 도구를 통한 보고서 및 발표 자료 작성 자동화가 시도되고 있으나, 후속 업무의 복잡성으로 인해 오히려 회의가 길어지는 등의 시행착오가 발생하여 인간의 세심한 최종 조율이 필수적임.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-10",
-      "lastObserved": "2026-11-10",
+      "lastObserved": "2026-11-12",
       "lastEvidenceDate": "2026-11-06",
       "evidence": [
         {
@@ -2654,6 +2817,23 @@
             },
             {
               "id": "article-87",
+              "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
+              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
+              "reportDate": "2026-10-20"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "stage": "현장 도입",
+          "reason": "AI 도구를 통한 보고서 및 발표 자료 작성 자동화가 시도되고 있으나, 후속 업무의 복잡성으로 인해 오히려 회의가 길어지는 등의 시행착오가 발생하여 인간의 세심한 최종 조율이 필수적임.",
+          "tasks": [
+            "보고서 작성",
+            "PPT 작성"
+          ],
+          "evidence": [
+            {
+              "id": "article-97",
               "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
               "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
               "reportDate": "2026-10-20"
@@ -2723,12 +2903,13 @@
         "단순 행정 업무",
         "민원 응대 및 처리",
         "단순 행정 업무 처리",
-        "민원 응대 및 문서 정리"
+        "민원 응대 및 문서 정리",
+        "행정 업무"
       ],
-      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이며, 이는 단순 행정 업무의 자동화와 향후 공공 일자리 구조 변화에 대한 지표가 됨.",
-      "stage": "기술 시연",
+      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행하고 있으나, AI의 판단에 불확실성이 존재하여 인간 공무원의 최종 검토와 책임이 요구됨.",
+      "stage": "현장 도입",
       "firstObserved": "2026-11-09",
-      "lastObserved": "2026-11-11",
+      "lastObserved": "2026-11-12",
       "lastEvidenceDate": "2026-11-04",
       "evidence": [
         {
@@ -2813,6 +2994,62 @@
               "reportDate": "2026-11-01"
             }
           ]
+        },
+        {
+          "date": "2026-11-12",
+          "stage": "현장 도입",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행하고 있으나, AI의 판단에 불확실성이 존재하여 인간 공무원의 최종 검토와 책임이 요구됨.",
+          "tasks": [
+            "행정 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-55",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "언론인",
+      "occupation": "언론인",
+      "tasks": [
+        "정보 요약",
+        "그래픽 제작"
+      ],
+      "reason": "AI를 활용한 정보 요약과 그래픽 제작이 도입되고 있으나, 매끄러운 요약 이외의 창의적이고 심층적인 맥락 포착에는 인간 언론인의 검토와 주도적인 판단이 반드시 필요함.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-12",
+      "lastObserved": "2026-11-12",
+      "lastEvidenceDate": "2026-10-31",
+      "evidence": [
+        {
+          "id": "article-61",
+          "title": "매끄러운 한 줄 요약의 바깥을 그리다…‘AI시대와 언론’ 그래픽 제작기[뉴스뷰] - 경향신문",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUl8xV2R0YlZDbklKc1prbzFvNDJQZlRpSEZOcnk5cGxBMEs1STJiZi1TNDd2TEp4UkZGTy1ZN2pJYTdWYnhsemVxTFg0OHN6dUNCeW5nOWdJUXZubTJKV2t4a1YtYUlVamwtU3h1UTliZ2ZGTFM4aHpRbDRHMm55c244OVRpakFhYm9ueXJTbjJNRkFrVHpHTDUyM0NyMmE4ZURZN0RETUt6dw?oc=5",
+          "reportDate": "2026-10-31"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-12",
+          "stage": "현장 도입",
+          "reason": "AI를 활용한 정보 요약과 그래픽 제작이 도입되고 있으나, 매끄러운 요약 이외의 창의적이고 심층적인 맥락 포착에는 인간 언론인의 검토와 주도적인 판단이 반드시 필요함.",
+          "tasks": [
+            "정보 요약",
+            "그래픽 제작"
+          ],
+          "evidence": [
+            {
+              "id": "article-61",
+              "title": "매끄러운 한 줄 요약의 바깥을 그리다…‘AI시대와 언론’ 그래픽 제작기[뉴스뷰] - 경향신문",
+              "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUl8xV2R0YlZDbklKc1prbzFvNDJQZlRpSEZOcnk5cGxBMEs1STJiZi1TNDd2TEp4UkZGTy1ZN2pJYTdWYnhsemVxTFg0OHN6dUNCeW5nOWdJUXZubTJKV2t4a1YtYUlVamwtU3h1UTliZ2ZGTFM4aHpRbDRHMm55c244OVRpakFhYm9ueXJTbjJNRkFrVHpHTDUyM0NyMmE4ZURZN0RETUt6dw?oc=5",
+              "reportDate": "2026-10-31"
+            }
+          ]
         }
       ]
     },
@@ -2863,6 +3100,44 @@
               "title": "AI에 권한 줬더니…방송 직전 프로그램 통째 증발 ‘날벼락 - 지디넷코리아",
               "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE95bWJhcUFTQlhQQWp1bF9wXzlUV1BLQVZROFlQUDVHWlNPWG9SamRKRTZOSFdHdHB4SHNyVk1TSU8yMTNaMzRGSFFHck5mY3Z4QVZmS2xR?oc=5",
               "reportDate": "2026-10-17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "개발자",
+      "occupation": "개발자",
+      "tasks": [
+        "코드 작성"
+      ],
+      "reason": "AI가 코드를 작성하는 능력이 보편화되면서 엔지니어의 역할이 코딩 단순 반복에서 문제 해결과 아키텍처 설계로 이동하고 있으며, 여전히 사람의 철저한 검토와 예외 처리가 필요함.",
+      "stage": "고용 영향 확인",
+      "firstObserved": "2026-11-12",
+      "lastObserved": "2026-11-12",
+      "lastEvidenceDate": "2026-10-20",
+      "evidence": [
+        {
+          "id": "article-98",
+          "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+          "reportDate": "2026-10-20"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-12",
+          "stage": "고용 영향 확인",
+          "reason": "AI가 코드를 작성하는 능력이 보편화되면서 엔지니어의 역할이 코딩 단순 반복에서 문제 해결과 아키텍처 설계로 이동하고 있으며, 여전히 사람의 철저한 검토와 예외 처리가 필요함.",
+          "tasks": [
+            "코드 작성"
+          ],
+          "evidence": [
+            {
+              "id": "article-98",
+              "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
+              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
+              "reportDate": "2026-10-20"
             }
           ]
         }
