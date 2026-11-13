@@ -1,7 +1,76 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T02:39:18.832Z",
+  "updatedAt": "2026-11-13T02:19:45.473Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-13T02:19:45.451Z",
+      "reportDate": "2026. 11. 13.",
+      "summary": "- 인프라 및 생태계 확장: 구글의 대규모 판단 전용 AI 출시와 코난테크놀로지의 국방 정보분석 AI 공개 등 고성능 모델과 산업용 AI 도입이 활발해지고 있음.\n\n- 보안 위협 및 방어: 인공지능을 악용한 해커들의 기관 공격이 증가하는 한편, 대학 및 연구센터를 중심으로 AI 기반 보안 솔루션 도입이 강화되는 추세임.\n\n- 사회적 인식 및 편향: 역사적 사안에 대한 언어별 답변 격차와 AI 윤리 문제가 지적되며 신뢰성 검증의 중요성이 대두됨.",
+      "summaryScore": 82,
+      "dailyVelocity": 1.5,
+      "velocityReason": "구글의 판단 전용 대규모 AI 출시 등 표준적인 고성능 에이전트 및 모델 출시가 이어져 완만한 가속을 기록함.",
+      "cumulativeRiskScore": 53.4,
+      "jobRiskScore": 53.4,
+      "riskScoreBreakdown": [
+        {
+          "event": "구글 판단 전용 AI 제미나이 디시전 1 출시",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 2
+        },
+        {
+          "event": "중국 해커의 AI 활용 기관 공격",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 3
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "사무직원",
+          "tasks": [
+            "보고서 작성",
+            "일반 행정 업무"
+          ],
+          "reason": "AI 도구가 도입되면서 신입 사원 및 주니어급의 실무 기회가 줄어들고 있으나, 기술적 불확실성과 인간 검토의 필요성이 여전히 존재함.",
+          "stage": "고용 영향 확인",
+          "evidence": [
+            {
+              "id": "article-82",
+              "title": "\"취업해도 AI가 일한다\"‥신입사원 '경력 사다리' 끊기나 - MBC 뉴스",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FMkQ3cGJtdHpmZDNaYURpUWNTY2VDaGZtZ3h1emlHOGxXVUdqR0RNVUFBVVowc2hvdmN1WU9GUER0NThTc2R3bXdvaExRcms4bnVHZXVvczVSZWZBX25kbkowM2R2al91Ry1iaGVGWENsbmFzSGdKRdIBeEFVX3lxTE1Pb1czVUNrR2phd0NhMnlKYm9JYkxrTmJ5Sl9zZG5lQ1ZfNGdzV0QyMGdrVkdlQkthRkRleGI4eXAtYVNoUmVxUUNCQnhLNmtFVTI5Q0ZjTVZ3VVJzSTc4RDdQbEFoMDRKR2pXN3Rqb28yeld1S0RQbQ?oc=5",
+              "reportDate": "2026-10-26"
+            }
+          ]
+        },
+        {
+          "occupation": "공무원",
+          "tasks": [
+            "행정 처리 업무"
+          ],
+          "reason": "행정 효율성을 높이기 위한 AI 도입 실험이 진행 중이나, 정확성 확보와 최종 의사결정을 위한 인간 검토의 불확실성이 남아 있음.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-60",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-15",
+        "endDate": "2026-11-13",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 2,
+        "acceptedCount": 2
+      },
+      "id": "2026-11-13",
+      "fileName": "2026-11-13.json"
+    },
     {
       "lastUpdated": "2026-11-12T02:39:18.665Z",
       "reportDate": "2026. 11. 12.",
@@ -2765,12 +2834,13 @@
         "보고서 작성",
         "PPT 발표 자료 제작",
         "데이터 심사",
-        "PPT 작성"
+        "PPT 작성",
+        "일반 행정 업무"
       ],
-      "reason": "AI 도구를 통한 보고서 및 발표 자료 작성 자동화가 시도되고 있으나, 후속 업무의 복잡성으로 인해 오히려 회의가 길어지는 등의 시행착오가 발생하여 인간의 세심한 최종 조율이 필수적임.",
-      "stage": "현장 도입",
+      "reason": "AI 도구가 도입되면서 신입 사원 및 주니어급의 실무 기회가 줄어들고 있으나, 기술적 불확실성과 인간 검토의 필요성이 여전히 존재함.",
+      "stage": "고용 영향 확인",
       "firstObserved": "2026-11-10",
-      "lastObserved": "2026-11-12",
+      "lastObserved": "2026-11-13",
       "lastEvidenceDate": "2026-11-06",
       "evidence": [
         {
@@ -2790,6 +2860,12 @@
           "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
           "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
           "reportDate": "2026-10-20"
+        },
+        {
+          "id": "article-82",
+          "title": "\"취업해도 AI가 일한다\"‥신입사원 '경력 사다리' 끊기나 - MBC 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FMkQ3cGJtdHpmZDNaYURpUWNTY2VDaGZtZ3h1emlHOGxXVUdqR0RNVUFBVVowc2hvdmN1WU9GUER0NThTc2R3bXdvaExRcms4bnVHZXVvczVSZWZBX25kbkowM2R2al91Ry1iaGVGWENsbmFzSGdKRdIBeEFVX3lxTE1Pb1czVUNrR2phd0NhMnlKYm9JYkxrTmJ5Sl9zZG5lQ1ZfNGdzV0QyMGdrVkdlQkthRkRleGI4eXAtYVNoUmVxUUNCQnhLNmtFVTI5Q0ZjTVZ3VVJzSTc4RDdQbEFoMDRKR2pXN3Rqb28yeld1S0RQbQ?oc=5",
+          "reportDate": "2026-10-26"
         }
       ],
       "observations": [
@@ -2837,6 +2913,23 @@
               "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
               "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
               "reportDate": "2026-10-20"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "stage": "고용 영향 확인",
+          "reason": "AI 도구가 도입되면서 신입 사원 및 주니어급의 실무 기회가 줄어들고 있으나, 기술적 불확실성과 인간 검토의 필요성이 여전히 존재함.",
+          "tasks": [
+            "보고서 작성",
+            "일반 행정 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-82",
+              "title": "\"취업해도 AI가 일한다\"‥신입사원 '경력 사다리' 끊기나 - MBC 뉴스",
+              "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FMkQ3cGJtdHpmZDNaYURpUWNTY2VDaGZtZ3h1emlHOGxXVUdqR0RNVUFBVVowc2hvdmN1WU9GUER0NThTc2R3bXdvaExRcms4bnVHZXVvczVSZWZBX25kbkowM2R2al91Ry1iaGVGWENsbmFzSGdKRdIBeEFVX3lxTE1Pb1czVUNrR2phd0NhMnlKYm9JYkxrTmJ5Sl9zZG5lQ1ZfNGdzV0QyMGdrVkdlQkthRkRleGI4eXAtYVNoUmVxUUNCQnhLNmtFVTI5Q0ZjTVZ3VVJzSTc4RDdQbEFoMDRKR2pXN3Rqb28yeld1S0RQbQ?oc=5",
+              "reportDate": "2026-10-26"
             }
           ]
         }
@@ -2904,12 +2997,13 @@
         "민원 응대 및 처리",
         "단순 행정 업무 처리",
         "민원 응대 및 문서 정리",
-        "행정 업무"
+        "행정 업무",
+        "행정 처리 업무"
       ],
-      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행하고 있으나, AI의 판단에 불확실성이 존재하여 인간 공무원의 최종 검토와 책임이 요구됨.",
+      "reason": "행정 효율성을 높이기 위한 AI 도입 실험이 진행 중이나, 정확성 확보와 최종 의사결정을 위한 인간 검토의 불확실성이 남아 있음.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-09",
-      "lastObserved": "2026-11-12",
+      "lastObserved": "2026-11-13",
       "lastEvidenceDate": "2026-11-04",
       "evidence": [
         {
@@ -3005,6 +3099,22 @@
           "evidence": [
             {
               "id": "article-55",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "stage": "현장 도입",
+          "reason": "행정 효율성을 높이기 위한 AI 도입 실험이 진행 중이나, 정확성 확보와 최종 의사결정을 위한 인간 검토의 불확실성이 남아 있음.",
+          "tasks": [
+            "행정 처리 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-60",
               "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
               "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
               "reportDate": "2026-11-01"
