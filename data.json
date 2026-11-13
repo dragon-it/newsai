@@ -1,5 +1,124 @@
 [
   {
+    "lastUpdated": "2026-11-13T02:19:45.451Z",
+    "reportDate": "2026. 11. 13.",
+    "summary": "- 인프라 및 생태계 확장: 구글의 대규모 판단 전용 AI 출시와 코난테크놀로지의 국방 정보분석 AI 공개 등 고성능 모델과 산업용 AI 도입이 활발해지고 있음.\n\n- 보안 위협 및 방어: 인공지능을 악용한 해커들의 기관 공격이 증가하는 한편, 대학 및 연구센터를 중심으로 AI 기반 보안 솔루션 도입이 강화되는 추세임.\n\n- 사회적 인식 및 편향: 역사적 사안에 대한 언어별 답변 격차와 AI 윤리 문제가 지적되며 신뢰성 검증의 중요성이 대두됨.",
+    "summaryScore": 82,
+    "dailyVelocity": 1.5,
+    "velocityReason": "구글의 판단 전용 대규모 AI 출시 등 표준적인 고성능 에이전트 및 모델 출시가 이어져 완만한 가속을 기록함.",
+    "cumulativeRiskScore": 53.4,
+    "jobRiskScore": 53.4,
+    "riskScoreBreakdown": [
+      {
+        "event": "구글 판단 전용 AI 제미나이 디시전 1 출시",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 2
+      },
+      {
+        "event": "중국 해커의 AI 활용 기관 공격",
+        "sign": "+",
+        "impact": 2,
+        "newsIndex": 3
+      }
+    ],
+    "news": [
+      {
+        "title": "AI에게 일본어로 ‘위안부 강제동원’ 물었더니 56.3%만 “그렇다” 답변…한국어 94.9%와 대비 - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FVnZCRFVkWnVwUHc0bTJ4U2VvVWNtUC1UTmgzaWZNX2wyVVJPUi1TQ01TbEZrWVU1MF9GZEo4N2xsUGVQbTZ0LThyTXpVMTNhYnRxWmIta0dVZ9IBX0FVX3lxTE5DQUJYNjRyZnVyandXLU5VZ05rQmY5NXBaQkQxVlFpbGlEQThrN2I5MExzcC1pQkVmSl9TSEJVeEowOWxSWjZ1ZDRmOGRrV3VHTXdXUVZWREtlQzJKb3Br?oc=5",
+        "pubDate": "Wed, 11 Nov 2026 21:00:00 GMT",
+        "summary": "AI 모델에게 위안부 강제동원 관련 질문을 던졌을 때 언어별로 답변의 긍정 비율에 큰 차이가 나타났다. AI의 다국어 응답 편향과 신뢰성 검증의 필요성이 제기되고 있다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "구글, 판단 전용 AI '제미나이 디시전 1' 출시...질문 1000개 동시 처리 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjb2w0aTAyYTNtMVQwbE5qRGlIVjJYd1E3TG1CckFYOUpLRG9GYWdkRVFMNlhLd2RMMnBUenFMQ3ZfOWNSVTJqQnpHRXlac2psTEdpd0RjaXNQLWllbFRJNFpPTTV4ZklmaUE?oc=5",
+        "pubDate": "Thu, 12 Nov 2026 03:07:38 GMT",
+        "summary": "구글이 1000개의 질문을 동시에 처리할 수 있는 판단 전용 AI '제미나이 디시전 1'을 출시했다. 복잡한 추론과 대규모 데이터 분석 능력이 한층 강화되었다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 5
+      },
+      {
+        "title": "中 해커, AI로 각국 기관 공격 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE50ZWFPM1MxanNvV3JTSnNnLW5EejJmaHh3cVZENWFoTVM0SWs5eXV4WnNZT2RyWk9hSjBzVy1fckZpSW12dlhRQkJpTjJLQQ?oc=5",
+        "pubDate": "Fri, 13 Nov 2026 02:00:00 GMT",
+        "summary": "중국 해커들이 인공지능 기술을 악용하여 각국 주요 기관을 상대로 공격을 감행하고 있다. AI 기반 사이버 위협이 고도화되면서 보안 대책 마련이 시급해졌다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "로봇 코딩부터 딥페이크 윤리까지…대구 AI·디지털 페스타 - 연합뉴스TV",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQWnpDVzlhOWlhQk9aVlN4aUpGRUlfNi1lR05teUdscmZEdjZ3SllvRHdvMGF1SjhUQURobmNBVDdaaTZVdmU1V0pxb0JSSVBHNTBDNzZqR1JscXdBOFduNzhmd09XSjA?oc=5",
+        "pubDate": "Fri, 13 Nov 2026 02:07:00 GMT",
+        "summary": "대구에서 로봇 코딩과 딥페이크 윤리 등을 다루는 AI·디지털 페스타가 개최되었다. 지역 사회의 AI 기술 이해도를 높이고 교육 생태계를 조성하는 계기가 마련되었다.",
+        "importance": 2,
+        "aiImpact": 2,
+        "automationPotential": 1,
+        "investmentImpact": 2
+      },
+      {
+        "title": "\"국방 AI 최대 숙제는 데이터\"...코난, 정보분석 AI 첫 공개 - 지디넷코리아",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzclRxSEhEQVBOa3FBN0paRlJtNjZtYkFaNEJPNy10NVlBZTlFX2NFbUxvY245TGtRX3NSM2Vud29XeWk1NjNBb2NUODBtY2xVdmFpam1R?oc=5",
+        "pubDate": "Fri, 13 Nov 2026 02:09:16 GMT",
+        "summary": "코난테크놀로지가 국방 부문을 겨냥한 정보분석 AI를 최초로 공개했다. 국방 데이터의 중요성이 강조되는 가운데 공공 및 국방 영역의 AI 도입이 본격화되고 있다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      }
+    ],
+    "occupationRisks": [
+      {
+        "occupation": "사무직원",
+        "tasks": [
+          "보고서 작성",
+          "일반 행정 업무"
+        ],
+        "reason": "AI 도구가 도입되면서 신입 사원 및 주니어급의 실무 기회가 줄어들고 있으나, 기술적 불확실성과 인간 검토의 필요성이 여전히 존재함.",
+        "stage": "고용 영향 확인",
+        "evidence": [
+          {
+            "id": "article-82",
+            "title": "\"취업해도 AI가 일한다\"‥신입사원 '경력 사다리' 끊기나 - MBC 뉴스",
+            "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FMkQ3cGJtdHpmZDNaYURpUWNTY2VDaGZtZ3h1emlHOGxXVUdqR0RNVUFBVVowc2hvdmN1WU9GUER0NThTc2R3bXdvaExRcms4bnVHZXVvczVSZWZBX25kbkowM2R2al91Ry1iaGVGWENsbmFzSGdKRdIBeEFVX3lxTE1Pb1czVUNrR2phd0NhMnlKYm9JYkxrTmJ5Sl9zZG5lQ1ZfNGdzV0QyMGdrVkdlQkthRkRleGI4eXAtYVNoUmVxUUNCQnhLNmtFVTI5Q0ZjTVZ3VVJzSTc4RDdQbEFoMDRKR2pXN3Rqb28yeld1S0RQbQ?oc=5",
+            "reportDate": "2026-10-26"
+          }
+        ]
+      },
+      {
+        "occupation": "공무원",
+        "tasks": [
+          "행정 처리 업무"
+        ],
+        "reason": "행정 효율성을 높이기 위한 AI 도입 실험이 진행 중이나, 정확성 확보와 최종 의사결정을 위한 인간 검토의 불확실성이 남아 있음.",
+        "stage": "현장 도입",
+        "evidence": [
+          {
+            "id": "article-60",
+            "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+            "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+            "reportDate": "2026-11-01"
+          }
+        ]
+      }
+    ],
+    "occupationAnalysis": {
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-13",
+      "articleCount": 100,
+      "model": "gemini-3.5-flash-lite",
+      "proposedCount": 2,
+      "acceptedCount": 2
+    }
+  },
+  {
     "lastUpdated": "2026-11-12T02:39:18.665Z",
     "reportDate": "2026. 11. 12.",
     "summary": "- 노동 시장의 구조적 변화: 청년 일자리 감소세와 고령층의 고용 비중 확대 등 AI 도입에 따른 고용 구조의 변화가 가시화되고 있음.\n\n- 피지컬 AI 생태계 확장: 버추얼 트윈과 음성 분석 기술 등을 활용한 산업용 로봇과 피지컬 AI의 현장 적용 해법이 활발히 논의되고 있음.\n\n- AI 기술 확산과 명암: AI 관련 기술이 다양한 산업에 도입되는 동시에 종말론적 우려와 규제 방향성에 대한 사회적 논쟁이 이어지고 있음.",
@@ -171,7 +290,8 @@
       "model": "gemini-3.5-flash-lite",
       "proposedCount": 5,
       "acceptedCount": 5
-    }
+    },
+    "id": "2026-11-12"
   },
   {
     "lastUpdated": "2026-11-11T01:39:46.267Z",
@@ -2769,88 +2889,5 @@
       }
     ],
     "id": "2026-10-12"
-  },
-  {
-    "lastUpdated": "2026-10-11T00:37:47.477Z",
-    "reportDate": "2026. 10. 11.",
-    "summary": "- 공공 AI 생태계 구축: 정부 부처의 업무 효율화를 위해 국내외 LLM을 도입하는 등 공공 분야의 AI 인프라 확장이 가속화되고 있음.\n\n- 채용 및 산업 패러다임 변화: AI 역량이 핵심 인재 평가 지표로 부상하고 있으며, 제조 및 패션 등 전통 산업에 AI를 접목한 생산 최적화 사례가 증가함.\n\n- 윤리적 책임 및 안전 관리: AI 플랫폼의 청소년 보호 기능 미흡 등 기술 활용에 따른 부작용에 대한 사회적 우려와 규제 목소리가 높아지고 있음.",
-    "summaryScore": 78,
-    "dailyVelocity": 0.8,
-    "velocityReason": "AI 실무 역량이 채용 시장의 핵심 기준이 되고 산업 전반으로 AI 도입이 확대되면서 기술적 적응 요구가 가속화되고 있음.",
-    "cumulativeRiskScore": 54.3,
-    "jobRiskScore": 54.3,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 실무 중심 채용 전환",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 2
-      },
-      {
-        "event": "제조/디자인 공정의 AI 대체",
-        "sign": "+",
-        "impact": 5,
-        "newsIndex": 3
-      },
-      {
-        "event": "AI 안전/보호 이슈 발생",
-        "sign": "-",
-        "impact": 2,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "공무원 AI 플랫폼 탑재 LLM, 국산 4종·외산 6종…삼성SDS·네이버 구축 - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1uVHJycGlxWXBaakk2c3lKVXpEVkVKandiVzVCd2ZDZmFZdGR5RlJyWFNYUi1IM1VXQWNvU0dTaXY5YXpZdFd1SGlVN1NVR1VNQlFkXzVB?oc=5",
-        "pubDate": "Sat, 10 Oct 2026 03:29:58 GMT",
-        "summary": "정부의 공무원 업무용 AI 플랫폼에 국산과 외산 LLM 10종을 도입하는 사업이 삼성SDS와 네이버 주도로 추진된다. 공공 분야의 AI 도입을 통해 업무 생산성 향상과 인프라 확보를 동시에 노리고 있다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 3
-      },
-      {
-        "title": "나이·학벌·경력 안 본다, 오직 AI 실력만 본다 - 조선일보",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd0p2a0VTbkZuUHBITmFnSnpneU5BLXFHU0ZtVjgyMnNySUtOX0Z4TEphb0lmMkVlQm1ERjJSdnhHVkJ5cnFwQVcza0NuVUdRWEw1OVBBUmN6R09hSllObTkya1BIN0lQZ3phaWVQSkQxN1pmVkd0OG15UlQ3bEFhZjdrcUNIU3lUN05wdG5vYw?oc=5",
-        "pubDate": "Fri, 09 Oct 2026 20:31:10 GMT",
-        "summary": "기업들이 학벌이나 경력 대신 AI 도구 활용 능력과 실제 구현 역량을 중심으로 인재를 채용하는 추세가 확산되고 있다. 기술 습득 속도가 곧 경쟁력이 되는 시대가 도래했음을 시사한다.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 5,
-        "investmentImpact": 2
-      },
-      {
-        "title": "'앙드레 김' 되살린 이 기업…장인의 감각 AI에 심고 제품 생산까지 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tVkNnNjd3a0F5aWlLMUR1clM4QmQzSXVrY25LR1dadjJDN01CWWN4WTBBNnhuTjFfM1BEcXpnWElMR0lwbkFDeWtPQWlpVmtsWVRyYVRPMWZ5MHVkbXFIM1k0ekxSNU15RlHSAW9BVV95cUxPcTBfSkVzUnk5MF9RTVNSczVBcW9hM21FbXZnSlIyWmpQUU9WVHNibHZCSmUxdV9TZ3dzRzZ2Q0NzMy1FR2RTaGFhcjZlVHhhTDA1NTlyQkZoVTc4cFlXNHc2SHNCM0Uzd2o5T1F3SGM?oc=5",
-        "pubDate": "Sun, 11 Oct 2026 00:00:00 GMT",
-        "summary": "장인의 감각과 디자인 노하우를 AI에 학습시켜 생산 공정에 적용하는 사례가 패션 등 제조 분야에서 확대되고 있다. 인간의 고유 영역으로 여겨졌던 예술적 기교가 AI를 통해 자동화되고 있다.",
-        "importance": 3,
-        "aiImpact": 4,
-        "automationPotential": 5,
-        "investmentImpact": 4
-      },
-      {
-        "title": "취임 6주년 맞은 정의선…피지컬 AI 설루션 기업 전환 속도 - 매일경제 마켓",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05YTVwby1halh3aDRJbmwwYkFJWnFTejZEbklabUFWSHBTRFNZU3V3dTNtVTkzdEtLZ3JPU2JKYkkyTnNwRDZCWHBnV3dFRnFPOWc?oc=5",
-        "pubDate": "Sat, 10 Oct 2026 23:00:08 GMT",
-        "summary": "현대자동차그룹 정의선 회장이 취임 6주년을 맞아 피지컬 AI 솔루션 기업으로의 전환에 속도를 내고 있다. 소프트웨어를 넘어 하드웨어 제어까지 AI를 활용한 제조 혁신을 가속화하는 전략이다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "AI 챗봇 ‘제타’, 미성년 캐릭터 대상 부적절 대화…“청소년 보호 장치 점검해야” - KBS 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1YY3pKWmFjTEdvaHNGd2hNV0lGM0xsMTJ6aXFiQnY1RVZ1U00wSmw1Qmx5QUJvZUY5dzNrUkZsMEp1Tm9NdVR0eUxiVFdoSlZncERqMGhGWXNzdlk?oc=5",
-        "pubDate": "Sun, 11 Oct 2026 00:24:00 GMT",
-        "summary": "AI 챗봇 '제타'에서 미성년자를 대상으로 한 부적절한 대화가 발생하며 기술적 안전장치 부족 문제가 제기되었다. AI의 서비스 확대와 함께 청소년 보호 및 윤리적 가이드라인 강화가 시급해지고 있다.",
-        "importance": 4,
-        "aiImpact": 2,
-        "automationPotential": 1,
-        "investmentImpact": 2
-      }
-    ],
-    "id": "2026-10-11"
   }
 ]
