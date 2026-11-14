@@ -1,7 +1,42 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T02:19:45.473Z",
+  "updatedAt": "2026-11-14T01:56:11.325Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-14T01:56:11.307Z",
+      "reportDate": "2026. 11. 14.",
+      "summary": "- 인프라 및 생태계 확장: 엔비디아와의 AI 동맹 및 글로벌 반도체 공급망 재편 속에서 주요 기업들의 인프라 경쟁이 심화되는 양상을 보임.\n\n- 웨어러블 디바이스 도입: 삼성전자 등 주요 제조사가 AI 안경을 잇따라 출시하며 웨어러블 AI 시장 진입과 일상 적용이 가속화됨.\n\n- 산업 현장 및 공공 적용: AI 자율제조 시스템 및 철강 공장 특화 안전 솔루션 등이 도입되며 전통 제조 및 공공 인프라 영역으로 AI 적용 범위가 확대됨.",
+      "summaryScore": 84,
+      "dailyVelocity": 1.2,
+      "velocityReason": "삼성전자의 AI 안경 국내 출시 및 산업 현장의 AI 자율제조 시스템 도입 소식 등 표준적인 하드웨어 및 솔루션 상용화가 진행됨.",
+      "cumulativeRiskScore": 53.5,
+      "jobRiskScore": 53.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "삼성 AI 안경 국내 출시 및 웨어러블 확산",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 자율제조 및 철강 안전 솔루션 도입",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-16",
+        "endDate": "2026-11-14",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 0,
+        "acceptedCount": 0
+      },
+      "id": "2026-11-14",
+      "fileName": "2026-11-14.json"
+    },
     {
       "lastUpdated": "2026-11-13T02:19:45.451Z",
       "reportDate": "2026. 11. 13.",

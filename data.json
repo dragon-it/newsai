@@ -1,5 +1,90 @@
 [
   {
+    "lastUpdated": "2026-11-14T01:56:11.307Z",
+    "reportDate": "2026. 11. 14.",
+    "summary": "- 인프라 및 생태계 확장: 엔비디아와의 AI 동맹 및 글로벌 반도체 공급망 재편 속에서 주요 기업들의 인프라 경쟁이 심화되는 양상을 보임.\n\n- 웨어러블 디바이스 도입: 삼성전자 등 주요 제조사가 AI 안경을 잇따라 출시하며 웨어러블 AI 시장 진입과 일상 적용이 가속화됨.\n\n- 산업 현장 및 공공 적용: AI 자율제조 시스템 및 철강 공장 특화 안전 솔루션 등이 도입되며 전통 제조 및 공공 인프라 영역으로 AI 적용 범위가 확대됨.",
+    "summaryScore": 84,
+    "dailyVelocity": 1.2,
+    "velocityReason": "삼성전자의 AI 안경 국내 출시 및 산업 현장의 AI 자율제조 시스템 도입 소식 등 표준적인 하드웨어 및 솔루션 상용화가 진행됨.",
+    "cumulativeRiskScore": 53.5,
+    "jobRiskScore": 53.5,
+    "riskScoreBreakdown": [
+      {
+        "event": "삼성 AI 안경 국내 출시 및 웨어러블 확산",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 3
+      },
+      {
+        "event": "AI 자율제조 및 철강 안전 솔루션 도입",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "깐부 젠슨 황 잃었다, 위태로운 AI 동맹 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaklrNWRwQndNcG96djI1RV9GOEwzUE9yZUM3cFhZUlRvMFNQTmxFdjdfVkVGc2E5YUtWcTZqUkt2Q1poNmZ0NnlITllvZHN4empja24xc3NmMFJsNi1aQXVOVjlFNWFJZmw1cGhTbkJqMW9PdDZ4cU9CMjdXTlZFRGdibw?oc=5",
+        "pubDate": "Fri, 13 Nov 2026 15:39:00 GMT",
+        "summary": "글로벌 AI 반도체 생태계 내에서 주요 공급망 동맹 관계가 흔들리며 국내외 인프라 전략에 위기감이 고조되고 있다. 반도체 수급과 관련된 리스크가 산업 전반에 변수로 작용하는 모습이다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      },
+      {
+        "title": "AI 안경 강제 세척? 시험지에 QR?…국가 시험 관리 ’비상’ - 연합뉴스TV",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYQ01zZTc0U1VkakxwTDU3NlBaTXplcmszWWhMcnpBREVxR0VCbEd2QkRlcWs3U0ZsRlgtR1ZObjd6LXd5QThrajhfZG9CQW9NQWdBeE9waG1UNXV2MXBtTE5aNDhpZ3M?oc=5",
+        "pubDate": "Fri, 13 Nov 2026 20:01:00 GMT",
+        "summary": "국가 시험 관리 현장에서 AI 안경 등 웨어러블 기기를 이용한 부정행위 우려가 제기되며 방지 대책 마련에 비상이 걸렸다. 기술의 일상 침투가 공공 제도의 보안 기준을 흔들고 있다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "삼성 AI 안경 베일 벗었다…12월 10일 국내 출시·65만원부터 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PcEF6ckROY0c5cHF4QjBpSDF1WWNWMFhxTUN5VFVIbjFPbjlnaVZJTURtd0hhQm91RW1JWC1wOVNBVE1hR2czVVJqdTdla2VRbURCdEFzN1gteUXSAWBBVV95cUxObW9aWXVCNFFhZXRiV1VTQ0dPZjVQUGI0Z1h6VWdKNUhESGJnUDBDcWNfOWdkNXVuQU9MR3Brd2lQUTc3ZEpFZkRzODFKWGFlNjl2cUZ1WWVjRjFtb3NBcTM?oc=5",
+        "pubDate": "Thu, 12 Nov 2026 14:00:00 GMT",
+        "summary": "삼성전자가 첫 번째 AI 안경을 공개하고 12월 국내 출소를 공식화하며 웨어러블 기기 경쟁에 본격적으로 가세했다. 대중화된 AI 하드웨어 시장의 성장이 가속화될 전망이다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 4
+      },
+      {
+        "title": "[단독] 세무사 수석 합격자 한원석씨 \"AI 안경? 말도 안 된다\" - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SWjRGVWpBWVUtUXJydXFITmxtSTZNSkZKblF4REJkX1djamltMDR1dnBJWHB4OUtPa3J6cHFxemJPNWxDRjc4UzhjNG9Ec3BvYXpOZGkwamQ5dw?oc=5",
+        "pubDate": "Sat, 14 Nov 2026 00:00:10 GMT",
+        "summary": "전문 자격시험 수석 합격자가 AI 기반 웨어러블 기기의 실효성에 대해 회의적 입장을 밝히며 기존 전문직 업무 대체 논란에 선을 그었다. 실제 고난도 실무 영역에서의 AI 한계가 지적되고 있다.",
+        "importance": 3,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "초당대, 산업부 'AI 자율제조 기반 조선용 알루미늄 절단시스템 개발 과제' 선정 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aeGdaeW11N1ZFWlBvREVBbXNhNVVOdXRuQkl5TktjSjNDY0NGMDBGcVZaSG5mU3lkR1BuRHRHT29OLXpwU0RnRENmSDlTUQ?oc=5",
+        "pubDate": "Sat, 14 Nov 2026 00:00:00 GMT",
+        "summary": "초당대가 산업부의 AI 자율제조 조선용 알루미늄 절단시스템 개발 과제에 선정되어 제조업 고도화를 추진한다. 조선 및 제조업 전반에 AI 기반 제조 공정 자동화가 진전되고 있다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 3
+      }
+    ],
+    "occupationRisks": [],
+    "occupationAnalysis": {
+      "startDate": "2026-10-16",
+      "endDate": "2026-11-14",
+      "articleCount": 100,
+      "model": "gemini-3.5-flash-lite",
+      "proposedCount": 0,
+      "acceptedCount": 0
+    }
+  },
+  {
     "lastUpdated": "2026-11-13T02:19:45.451Z",
     "reportDate": "2026. 11. 13.",
     "summary": "- 인프라 및 생태계 확장: 구글의 대규모 판단 전용 AI 출시와 코난테크놀로지의 국방 정보분석 AI 공개 등 고성능 모델과 산업용 AI 도입이 활발해지고 있음.\n\n- 보안 위협 및 방어: 인공지능을 악용한 해커들의 기관 공격이 증가하는 한편, 대학 및 연구센터를 중심으로 AI 기반 보안 솔루션 도입이 강화되는 추세임.\n\n- 사회적 인식 및 편향: 역사적 사안에 대한 언어별 답변 격차와 AI 윤리 문제가 지적되며 신뢰성 검증의 중요성이 대두됨.",
@@ -116,7 +201,8 @@
       "model": "gemini-3.5-flash-lite",
       "proposedCount": 2,
       "acceptedCount": 2
-    }
+    },
+    "id": "2026-11-13"
   },
   {
     "lastUpdated": "2026-11-12T02:39:18.665Z",
@@ -2812,82 +2898,5 @@
       }
     ],
     "id": "2026-10-13"
-  },
-  {
-    "lastUpdated": "2026-10-12T00:54:22.248Z",
-    "reportDate": "2026. 10. 12.",
-    "summary": "- AI 윤리 및 안전 이슈 대두: 성착취 대화 생성 등 AI 챗봇의 부적절한 활용 사례가 발생하며 안전성 검증 강화가 요구됨.\n\n- 관계형 AI 서비스 확산: 사용자 감정 교류를 목적으로 하는 AI 캐릭터 서비스가 시장의 새로운 트렌드로 부상 중.\n\n- 의료 AI 인프라 및 에너지 수요: 의료기기 등록 증가와 함께 안전 관리의 필요성이 커지고 있으며, AI 연산 확대를 위한 에너지 확보가 산업계의 핵심 과제로 대두됨.\n\n- 바이오 헬스케어 AI 고도화: AI 기반 신약 타깃 발굴 및 실험 검증 등 실질적인 산업 적용 사례가 구체화됨.",
-    "summaryScore": 76,
-    "dailyVelocity": 0.3,
-    "velocityReason": "AI의 사회적 부작용에 대한 논란과 함께 신약 개발 및 관계형 서비스 등 산업 전반의 고도화가 진행되어 현 상태를 유지함.",
-    "cumulativeRiskScore": 54.3,
-    "jobRiskScore": 54.3,
-    "riskScoreBreakdown": [
-      {
-        "event": "AI 챗봇 부적절 활용 논란",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 1
-      },
-      {
-        "event": "AI 의료/바이오 신약 개발 실증",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 5
-      }
-    ],
-    "news": [
-      {
-        "title": "AI 챗봇 '제타', 미성년자 성착취 대화 생성 논란…차단 우회법까지 제시 - 뉴스1",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aN1ZpenJDaHhlQ01yNmxseHVMWDVhTUdvTHBMSTdubnNuREE0bDJUcDlMSy05M1dXaTlMSXNWQWF4MjdYd0plc3hDT29wTmw5S0I5YjdTZWJJd1FwSGs5ZGpXZFB0V2st?oc=5",
-        "pubDate": "Sun, 11 Oct 2026 01:22:33 GMT",
-        "summary": "AI 챗봇 '제타'가 미성년자 대상 성착취 대화 생성 논란에 휩싸임. 차단 우회법까지 유포되는 등 AI 서비스의 안전성 및 윤리적 관리 체계에 대한 우려가 확산되고 있음.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 3
-      },
-      {
-        "title": "AI 캐릭터가 친구·연인… 관계형 인공지능 뜬다 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ONUplOE55Zy15YTh5ejRCZW4yOFRhcGhDREtTcGxxRVRYbnl3TFpQc0pfNWdkT2JPdGZNZy1wMTh3NDJaV3RqN1NfLXRldw?oc=5",
-        "pubDate": "Sun, 11 Oct 2026 07:53:05 GMT",
-        "summary": "AI 캐릭터를 친구나 연인으로 인식하는 관계형 인공지능 서비스가 시장에서 주목받고 있음. 사용자와의 정서적 유대를 강화하는 방향으로 기술이 진화하고 있음.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 4
-      },
-      {
-        "title": "AI 의료기기 382건 쏟아졌는데…이상사례 보고는 '0건' - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTZlRRVXBMcUFGems2MjBuR19qTlg3UGRad19EdW55US05aWRPWUNZVHpfSlBZLXgzTGZYQnVfcDNmRlVnc3dTcVVUYkVKcUx3MFNfV01pbHRqOGvSAWBBVV95cUxPVmsyODIzT28zSU9peHU4V05NMHY4azZraXFvOU01ZlU0RnIzaklvLVFpYTZYaTZjaVFsRlBUcUU5NjNKT0pNbzY4amhUaC1KTE5MTWVVeFpNUHMzbzNpU3g?oc=5",
-        "pubDate": "Sun, 11 Oct 2026 23:05:00 GMT",
-        "summary": "AI 의료기기 허가 건수가 급증하고 있으나, 부작용 및 이상사례 보고는 전무한 실정임. 의료 분야 AI의 신뢰성 확보와 체계적인 사후 관리 시스템 구축이 시급함.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "\"에너지, 결코 다시 에너지\"…AI 시대 해법 28~30일 확인하자 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzNVh6RTFCeUpKeHlaZTNFVlBjYTIzSVRBcVNjS2xfOTlzRDhTQjVkakdDS3V2RW9STy1vTnNVaUJfalA1QV8xVjZadEM0ck9OQlprc3h4SzNDd0FKbXZrLXI1RE1XbE9OMC11WdIBckFVX3lxTE45UHkwU3lpcjd0bzdLbWQyclBXQTQ3dTZ4ekJQZXdORTRuUTU0U2lXSjNFWExJczd4SUZEM0Y0RDNaMTVyRkhJMXRFd3EwRW5FS0NBcHZWTmgwUjQzSDIxaHJBSVFwV082SXB5ZmFiTldsdw?oc=5",
-        "pubDate": "Sun, 11 Oct 2026 23:30:00 GMT",
-        "summary": "AI 산업 급성장에 따른 전력 수요 증가가 주요 화두로 떠오름. 관련 에너지 솔루션 기술과 효율적 전력 관리의 중요성이 강조되고 있음.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 5
-      },
-      {
-        "title": "지니너스, AI가 찾은 항암 신약 타깃 실험 검증 돌입…'기술이전 기반 다진다' - 팜이데일리",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWcW1GVFZOQWFQMW1kbVdpUWJkbEYwdUxDcVd2WE1QaWs0V2xCVWk5Q0ZKdHZadDlsa1hhejVTdXVBUEM3MEdnZmI4cndNcXJxdXV1UFFlNUdmcXhHUVNaMUt0a2FyYmJBM1FDazd3?oc=5",
-        "pubDate": "Sun, 11 Oct 2026 23:00:05 GMT",
-        "summary": "지니너스가 AI가 도출한 항암 신약 타깃을 실제 실험으로 검증하는 단계에 진입함. AI 기술이 신약 개발의 효율성을 높이며 실질적인 상업화 성과로 이어지고 있음.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      }
-    ],
-    "id": "2026-10-12"
   }
 ]
