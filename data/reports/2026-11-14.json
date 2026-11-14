@@ -1,0 +1,86 @@
+{
+  "lastUpdated": "2026-11-14T01:56:11.307Z",
+  "reportDate": "2026. 11. 14.",
+  "summary": "- 인프라 및 생태계 확장: 엔비디아와의 AI 동맹 및 글로벌 반도체 공급망 재편 속에서 주요 기업들의 인프라 경쟁이 심화되는 양상을 보임.\n\n- 웨어러블 디바이스 도입: 삼성전자 등 주요 제조사가 AI 안경을 잇따라 출시하며 웨어러블 AI 시장 진입과 일상 적용이 가속화됨.\n\n- 산업 현장 및 공공 적용: AI 자율제조 시스템 및 철강 공장 특화 안전 솔루션 등이 도입되며 전통 제조 및 공공 인프라 영역으로 AI 적용 범위가 확대됨.",
+  "summaryScore": 84,
+  "dailyVelocity": 1.2,
+  "velocityReason": "삼성전자의 AI 안경 국내 출시 및 산업 현장의 AI 자율제조 시스템 도입 소식 등 표준적인 하드웨어 및 솔루션 상용화가 진행됨.",
+  "cumulativeRiskScore": 53.5,
+  "jobRiskScore": 53.5,
+  "riskScoreBreakdown": [
+    {
+      "event": "삼성 AI 안경 국내 출시 및 웨어러블 확산",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 3
+    },
+    {
+      "event": "AI 자율제조 및 철강 안전 솔루션 도입",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 5
+    }
+  ],
+  "news": [
+    {
+      "title": "깐부 젠슨 황 잃었다, 위태로운 AI 동맹 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaklrNWRwQndNcG96djI1RV9GOEwzUE9yZUM3cFhZUlRvMFNQTmxFdjdfVkVGc2E5YUtWcTZqUkt2Q1poNmZ0NnlITllvZHN4empja24xc3NmMFJsNi1aQXVOVjlFNWFJZmw1cGhTbkJqMW9PdDZ4cU9CMjdXTlZFRGdibw?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 15:39:00 GMT",
+      "summary": "글로벌 AI 반도체 생태계 내에서 주요 공급망 동맹 관계가 흔들리며 국내외 인프라 전략에 위기감이 고조되고 있다. 반도체 수급과 관련된 리스크가 산업 전반에 변수로 작용하는 모습이다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    },
+    {
+      "title": "AI 안경 강제 세척? 시험지에 QR?…국가 시험 관리 ’비상’ - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYQ01zZTc0U1VkakxwTDU3NlBaTXplcmszWWhMcnpBREVxR0VCbEd2QkRlcWs3U0ZsRlgtR1ZObjd6LXd5QThrajhfZG9CQW9NQWdBeE9waG1UNXV2MXBtTE5aNDhpZ3M?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 20:01:00 GMT",
+      "summary": "국가 시험 관리 현장에서 AI 안경 등 웨어러블 기기를 이용한 부정행위 우려가 제기되며 방지 대책 마련에 비상이 걸렸다. 기술의 일상 침투가 공공 제도의 보안 기준을 흔들고 있다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 2
+    },
+    {
+      "title": "삼성 AI 안경 베일 벗었다…12월 10일 국내 출시·65만원부터 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PcEF6ckROY0c5cHF4QjBpSDF1WWNWMFhxTUN5VFVIbjFPbjlnaVZJTURtd0hhQm91RW1JWC1wOVNBVE1hR2czVVJqdTdla2VRbURCdEFzN1gteUXSAWBBVV95cUxObW9aWXVCNFFhZXRiV1VTQ0dPZjVQUGI0Z1h6VWdKNUhESGJnUDBDcWNfOWdkNXVuQU9MR3Brd2lQUTc3ZEpFZkRzODFKWGFlNjl2cUZ1WWVjRjFtb3NBcTM?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 14:00:00 GMT",
+      "summary": "삼성전자가 첫 번째 AI 안경을 공개하고 12월 국내 출소를 공식화하며 웨어러블 기기 경쟁에 본격적으로 가세했다. 대중화된 AI 하드웨어 시장의 성장이 가속화될 전망이다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 3,
+      "investmentImpact": 4
+    },
+    {
+      "title": "[단독] 세무사 수석 합격자 한원석씨 \"AI 안경? 말도 안 된다\" - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SWjRGVWpBWVUtUXJydXFITmxtSTZNSkZKblF4REJkX1djamltMDR1dnBJWHB4OUtPa3J6cHFxemJPNWxDRjc4UzhjNG9Ec3BvYXpOZGkwamQ5dw?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 00:00:10 GMT",
+      "summary": "전문 자격시험 수석 합격자가 AI 기반 웨어러블 기기의 실효성에 대해 회의적 입장을 밝히며 기존 전문직 업무 대체 논란에 선을 그었다. 실제 고난도 실무 영역에서의 AI 한계가 지적되고 있다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 2
+    },
+    {
+      "title": "초당대, 산업부 'AI 자율제조 기반 조선용 알루미늄 절단시스템 개발 과제' 선정 - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1aeGdaeW11N1ZFWlBvREVBbXNhNVVOdXRuQkl5TktjSjNDY0NGMDBGcVZaSG5mU3lkR1BuRHRHT29OLXpwU0RnRENmSDlTUQ?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 00:00:00 GMT",
+      "summary": "초당대가 산업부의 AI 자율제조 조선용 알루미늄 절단시스템 개발 과제에 선정되어 제조업 고도화를 추진한다. 조선 및 제조업 전반에 AI 기반 제조 공정 자동화가 진전되고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 3
+    }
+  ],
+  "occupationRisks": [],
+  "occupationAnalysis": {
+    "startDate": "2026-10-16",
+    "endDate": "2026-11-14",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 0,
+    "acceptedCount": 0
+  },
+  "id": "2026-11-14"
+}
