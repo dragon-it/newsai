@@ -1,0 +1,133 @@
+{
+  "lastUpdated": "2026-11-15T01:28:56.612Z",
+  "reportDate": "2026. 11. 15.",
+  "summary": "- 공공 시험 보안 비상: 국가자격시험 및 대학 시험에서 웨어러블 AI 기기를 이용한 부정행위가 잇따라 적발되며 공공 시험 관리 체계와 보안 대책에 비상이 걸림.\n\n- 반도체 공급망 및 투자 동향: 미국의 AI 반도체 수출 통제 완화 조치와 함께 엔비디아 등 주요 반도체 생태계를 둘러싼 대내외 시장 변동성이 주목받고 있음.\n\n- 웨어러블 AI 하드웨어 경쟁: 삼성전자의 AI 안경 국내 출시 공식화 등 일상 및 전문 영역으로 침투하는 AI 하드웨어 상용화가 가속화되고 있음.",
+  "summaryScore": 82,
+  "dailyVelocity": 1.2,
+  "velocityReason": "국가자격시험 등에서 AI 웨어러블 기기를 이용한 부정행위 적발 소식이 이어지며 자격 검증 및 전문 업무 영역에서의 AI 영향력이 부각됨.",
+  "cumulativeRiskScore": 53.6,
+  "jobRiskScore": 53.6,
+  "riskScoreBreakdown": [
+    {
+      "event": "국가자격시험 AI 안경 부정행위 적발",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 1
+    },
+    {
+      "event": "트럼프 AI 반도체 수출통제 완화",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 2
+    },
+    {
+      "event": "세무사 시험 AI 부정행위 자백",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 3
+    }
+  ],
+  "news": [
+    {
+      "title": "[단독]국가자격시험 AI 안경 또 적발…인스펙터 도입 첫 사례 - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBHR3JfblRNS0ctV2RjQVpxaGVyZmhjTy1mYUozbk41bXdCMWNGbXh0UUJqZUZ2RmczczR4cWlzb3ZWdWVySTByTzhicVBWd3lrYlUwTVgyeWRPbHBPcTYzetIBeEFVX3lxTFBfRkxhQi1wYjRyVnFSZnR0RXF0c2lwcHRzMFQ0M1hTbU5YY3gxMldoejBWQ2hxOGk0SWxjUjZFMEd0eDNVY3ZEanFDdUY4ZzMyblduSTFXSlNWT0RMMGR6T3l1MWp4ZnJKLUlhNUZtVnZieVNCSzdVcw?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 21:01:00 GMT",
+      "summary": "국가자격시험에서 AI 안경을 이용한 부정행위가 또다시 적발되며 감독관 인스펙터 제도가 도입되는 등 시험 관리 보안에 비상이 걸렸다. 첨단 웨어러블 기기의 시험장 유입이 공공 시험 제도의 신뢰성을 흔들고 있다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "\"트럼프, AI 반도체 수출통제 풀며 엔비디아 주식 샀다\" - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YeUhFV0JzUVZNNkIxNFFDQVkwQnktZEE5OTJudWVfeHlGb0tCaUVRbjFiODhyVm5Ma1dYWl9McDFrSFJIOUNGczBqVV8zeDZ4cFl3Znd0eHRsNDjSAWBBVV95cUxNMHhWOHJpVXdSRmhyNmhsRkwtX0EzcGlrNDlEQm8wVm9JaFhDYWVsX1RfY1lRRC1ZU0VPeVRXZzZ0NFVZYTlqYkhURDVsVUhfdEMwdzR1SWM0ZXlJYm0xbUU?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 08:29:21 GMT",
+      "summary": "트럼프 당선인이 AI 반도체 수출 통제를 완화하는 과정에서 엔비디아 주식을 매입한 사실이 알려지며 글로벌 반도체 시장의 정책 변화와 투자 흐름에 관심이 집중되고 있다. 대외 정책과 반도체 공급망의 상관관계가 시장에 큰 변수로 작용하고 있다.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    },
+    {
+      "title": "세무사 수석 합격자, 부정행위 인정·자수…\"AI 이용\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45RnJ6ZmFQX3Z6NWt3ODNEbks0STd3MHY0N0JfenRtSXlvNlN0T01xRF9KOHVjNm0tRldaVHlQY1lxdkxyMUN1SDRiRDRJRVF0VDhBNGZfWFpGRUVxakhuUdIBeEFVX3lxTE4zdjRHLWdnRlpWc3p1c01ISGRrdWZZOFhBdHVyRl9LSUd4eFNhOTdPSHBJWmN1cWFKd28tcFVudUg1ckJLb0FUR05XUWk3VjRyV3gzRHFaeDlyRHMzR3pOUi03djc1LTVGak8xWTRvMExBcExKX2I2Rw?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 00:49:55 GMT",
+      "summary": "세무사 시험 수석 합격자가 초소형 카메라와 AI를 이용해 시험 중 부정행위를 저질렀다고 자백해 큰 충격을 주었다. 전문 자격시험의 공정성과 보안 대책 마련이 시급하다는 지적이 나오고 있다.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 3,
+      "investmentImpact": 2
+    },
+    {
+      "title": "세무사 수석 충격 자백…\"초소형 카메라로 문제 찍어 AI로 전송\" - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1qTl9jNkYtb2hIbnJlRmJ2YWZCLWZVRHhFM091WHcwOHBPLWVBcm1wRHN3TTJMV3YzVHg2Tlk5djFESU5rM2FabFhKV28weVk1XzF2ODVZWWdoUQ?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 00:29:41 GMT",
+      "summary": "세무사 수석 합격자가 초소형 카메라로 문제를 촬영해 AI로 전송하는 수법으로 부정행위를 저지른 전모가 구체적으로 보도됐다. 고성능 AI와 웨어러블 기기의 결합이 기존 시험 제도의 허를 찌르고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 3,
+      "investmentImpact": 2
+    },
+    {
+      "title": "'AI 안경' 논란에 세무사 차석이 나섰다…즉석 문제풀이에 29만 조회 - 주간조선",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5ZXVEYnhPZUh4VWt5dXk0OXExRnFBOEV0QkptZDVsM0x1X0k3emQ5Wk15N3ZtdkJsSzZ2bGs2Q3JxRk9PQUJpY2dRYkE1Yk9TcTU4UEdxQTRELU14VUlSc3F2MG5XZFdIM2fSAW5BVV95cUxOQlZyM2h0azlVX2lpXzIyR3pmcW94U2NkbWhhaC01dFZUbFVTdHdoNjU1MmliTFdsaU01QXZIbkRjTW9BRFN5bXNMc0VDUDl5NURTNjZWTEphSXF0Q3JrSGp3QmV1dDZNR2ZnVktkdw?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 00:13:16 GMT",
+      "summary": "세무사 차석 합격자가 직접 방송에 출연해 AI 안경을 이용한 즉석 문제 풀이를 시연하며 높은 조회수를 기록했다. 현장 실무 영역에서의 AI 활용 가능성과 실효성에 대한 논증이 이어지고 있다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 3,
+      "investmentImpact": 2
+    }
+  ],
+  "occupationRisks": [
+    {
+      "occupation": "공무원",
+      "tasks": [
+        "행정 업무",
+        "민원 처리"
+      ],
+      "reason": "네덜란드 등에서 AI를 행정에 도입하는 실험을 진행하고 있으나, 공공 부문에서의 완전한 자동화는 아직 불확실하며 오류 가능성과 인간 검토의 필요성이 존재합니다.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-70",
+          "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+          "reportDate": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "occupation": "사무직원",
+      "tasks": [
+        "보고서 작성",
+        "일반 서류 업무"
+      ],
+      "reason": "기업들이 사내 AI 에이전트와 자동화 도구를 적극 도입하고 있으나, 기계적인 결과물에 대한 비판과 '사람 냄새' 나는 창의적 검토의 필요성으로 인해 인간의 최종 검토가 필수적입니다.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-62",
+          "title": "스노우플레이크, 기업용 AI 에이전트 공개…\"업무흐름 자동화\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xSElKb3FDWXR4bTFUZjY3al9kdm9GZHlBYjEzLUgyRHRkS2hJc3h4alZGME83emxGRDlJellGRXFNQW9DbmNKZUJEem84Wm5NMnJieDdBdnAxSm_SAWBBVV95cUxONC1qRjZ1UVh5S0tFQnl4RWNqOXMzblZ6eXRIX1dvQWRWRkhmUm9RZkFuZDdoWVdzNnRiY20tMC1GTGxSXzFfRkZKSGFMczhPLVRUTm1nbjk4QU5KSzUzdm4?oc=5",
+          "reportDate": "2026-11-03"
+        },
+        {
+          "id": "article-79",
+          "title": "“후배가 쓴 보고서, 대놓고 AI 썼네요”...이제 ‘사람 냄새’ 풍기는 기술이 돈 - 매일경제",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1IdEdiS3hSaGk0b0gzNHZTNFlHdHVzd3M1MEozWkw1QzFOMFlpU3gtb0xFSWM2MUMtSVpMY1pPczVENTRGam1kU2JkRTlEUQ?oc=5",
+          "reportDate": "2026-10-30"
+        }
+      ]
+    }
+  ],
+  "occupationAnalysis": {
+    "startDate": "2026-10-17",
+    "endDate": "2026-11-15",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 2,
+    "acceptedCount": 2
+  },
+  "id": "2026-11-15"
+}
