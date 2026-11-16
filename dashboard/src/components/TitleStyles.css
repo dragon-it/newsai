@@ -1,0 +1,25 @@
+:root {
+  --title-accent: #535b66;
+  --title-tint: rgba(63, 70, 81, 0.075);
+}
+
+[data-theme="dark"] {
+  --title-accent: #c2c9d3;
+  --title-tint: rgba(209, 213, 223, 0.085);
+}
+
+:root .container main h2,
+:root .container .trend-chart-container .risk-card-title {
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--title-accent);
+  border-bottom-color: var(--title-accent);
+  background: var(--title-tint);
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+  border-left: 0;
+  border-radius: 6px 6px 0 0;
+  font-size: 1.35rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
