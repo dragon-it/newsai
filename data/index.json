@@ -1,114 +1,60 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T01:31:32.638Z",
+  "updatedAt": "2026-11-16T12:38:52.183Z",
   "reports": [
     {
-      "lastUpdated": "2026-11-16T01:31:32.629Z",
+      "lastUpdated": "2026-11-16T12:38:52.165Z",
       "reportDate": "2026. 11. 16.",
-      "summary": "- 공공 및 시험 보안 위협: 세무사 시험 등에서 AI와 웨어러블 기기를 악용한 부정행위가 적발되어 감독관 인스펙터 제도가 도입되는 등 시험 관리 보안에 비상이 걸렸음.\n\n- 인프라 및 플랫폼 확장: 에이프리카의 AI 플랫폼이 KT클라우드 마켓플레이스에 입점하고 클라우드 및 보안 솔루션의 공공·연구기관 공급이 확대됨.\n\n- 공공 현장 안전 관리: 정부와 공공기관이 국유재산 안전 관리와 조선용 절단 시스템 등에 AI와 드론을 결합하여 위험 요소를 보완하고 있음.",
-      "summaryScore": 75,
-      "dailyVelocity": 1,
-      "velocityReason": "AI 웨어러블 기기를 활용한 시험 부정행위 및 공공 현장의 AI 보안·안전 솔루션 도입 소식이 이어지며 완만한 가속을 기록함.",
+      "summary": "- AI 하드웨어 및 기기 확산: AI 안경과 같은 웨어러블 기기가 공공 시험장과 일상에 도입되며 보안 및 활용성 논란이 고조됨.\n\n- 사이버 보안 위협 고도화: 북한 해킹조직 및 AI 모의해킹 도구들이 시스템 취약점을 빠르게 파악하는 등 보안 리스크가 증대됨.\n\n- 산업 및 공공 현장 적용: 특수교사 업무 경감, 조선용 알루미늄 자율제조 시스템 등 다양한 산업 분야에서 AI 자동화가 추진됨.",
+      "summaryScore": 82,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 안경 등 웨어러블 기기의 시험장 활용 및 공공·산업 현장의 자동화 기술 도입 소식이 이어지며 완만한 가속세를 보임.",
       "cumulativeRiskScore": 53.7,
       "jobRiskScore": 53.7,
       "riskScoreBreakdown": [
         {
-          "event": "AI 안경을 악용한 국가자격시험 부정행위 발생",
+          "event": "국가자격시험 AI 안경 부정행위 및 웨어러블 기기 확산",
           "sign": "+",
           "impact": 4,
           "newsIndex": 1
         },
         {
-          "event": "공공 인프라 및 클라우드 AI 플랫폼 공급 확대",
+          "event": "AI 기반 사이버 공격 역량 강화 및 해킹 위협",
           "sign": "+",
           "impact": 3,
-          "newsIndex": 2
+          "newsIndex": 3
         }
       ],
       "occupationRisks": [
         {
-          "occupation": "국유재산 관리원",
+          "occupation": "특수교사",
           "tasks": [
-            "국유재산 안전 관리",
-            "위험 요소 보완"
+            "행정 업무"
           ],
-          "reason": "AI와 드론이 안전 점검 및 위험 요소 보완 업무에 도입되어 효율성을 높이고 있으나, 복잡한 현장 상황에 대한 인간의 최종 검토와 불확실성 관리가 필수적입니다.",
+          "reason": "AI 기술 도입으로 특수교사의 행정 업무가 줄어들 수 있으나, 인간 교사의 직접적이고 전문적인 대면 교육 및 개별 학생 관리 영역은 여전히 인간 검토와 판단이 필수적이며 불확실성이 존재합니다.",
           "stage": "현장 도입",
           "evidence": [
-            {
-              "id": "article-4",
-              "title": "재경부, 국유재산 안전관리에 AI·드론 활용…“387건 위험 보완” - KBS 뉴스",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Cb2NudktQaWprT0NaYlh3SHQ0dGNmUlBXZ29nMWN5MTRlaGVFQnBtNnpHd0JUTHVRUGxzODA2LVh4R2JIUjdTV1o2aWpNd1pwMWxaaG9MdXdBY2s?oc=5",
-              "reportDate": "2026-11-16"
-            },
             {
               "id": "article-5",
-              "title": "재경부, 국유재산 안전관리에 AI·드론 활용…\"387건 위험 보완\" - 연합뉴스",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IdllNVVZkQkJZVDRVUDlkd1owVWt2Z1h6RkYzUmt5aHZhS3NidnlhYjBXM3dsYmdFQ0F5czVWdUNiWUpMRENMb2F0Uy1nZ3RZQXlUYnVYN1BGR3PSAWBBVV95cUxQdUxHckJTY2Q5SFNPbGdyMHVOUEltN2s3bTZQRENiY2xWZllnbzZ2OWdIbkxHbERIVngtdWdBeHpBbWZFamhVRWlWWXJMZUN0ZGZCc0RXeXFkVWZKWVA4QXg?oc=5",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
               "reportDate": "2026-11-16"
             }
           ]
         },
         {
-          "occupation": "공장 설비 안전관리자",
+          "occupation": "공무원",
           "tasks": [
-            "사업장 위험 감지",
-            "설비 제어"
+            "단순 행정 업무"
           ],
-          "reason": "AI 영상 분석 및 소리 데이터 기반의 안전 솔루션이 위험을 감지하고 설비를 직접 정지시키는 제어 단계로 진입하고 있으나, 오탐 가능성과 돌발 상황에 따른 인간 관리자의 검토가 요구됩니다.",
-          "stage": "현장 도입",
-          "evidence": [
-            {
-              "id": "article-25",
-              "title": "공장 소리도 AI 자산…'듣는' 피지컬 AI 온다 - 지디넷코리아",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Hb3VBX0hGYldzUndDc1hEY2lFaXpZVFlOTjJIZG1sLU0zWDVGT3Ffdk5KT3F3dnRjZkVpeTduMVJ0M01NU2hGZXZyeFZvYnZ6ZnhSY1dn?oc=5",
-              "reportDate": "2026-11-12"
-            },
-            {
-              "id": "article-57",
-              "title": "위험 감지하면 AI가 설비 멈춘다…LG 안전관리, '감시'에서 '제어'로 - 전자신문",
-              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40bUR2MzdwaHF6RzdBV2JPQnNQN0dfZzI0MTliaVJma05ZSDV1Nkd0SWFaSUlzNEhjUHV3THpIcWRyV09xRS1VaDZIRlZVZw?oc=5",
-              "reportDate": "2026-11-05"
-            }
-          ]
-        },
-        {
-          "occupation": "행정 공무원",
-          "tasks": [
-            "민원 처리",
-            "일반 행정 업무"
-          ],
-          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행되며 행정 효율성 검증이 이뤄지고 있으나, 공공 서비스의 특성상 법적 판단과 인간의 최종 검토가 필수적입니다.",
-          "stage": "현장 도입",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행 중이나, 복잡한 정책 결정과 민원 대응 등에는 여전히 인간의 개입과 검토가 필요합니다.",
+          "stage": "기술 시연",
           "evidence": [
             {
               "id": "article-75",
               "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
               "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
               "reportDate": "2026-11-01"
-            }
-          ]
-        },
-        {
-          "occupation": "물류 및 제조 현장 작업자",
-          "tasks": [
-            "물류 이동",
-            "제조 공정 자동화"
-          ],
-          "reason": "피지컬 AI와 로봇이 버추얼 트윈 등의 환경에서 훈련되어 산업 현장에 빠르게 도입되고 있으나, 예외적인 물리적 변수와 오류에 대해 인간의 개입이 여전히 요구됩니다.",
-          "stage": "현장 도입",
-          "evidence": [
-            {
-              "id": "article-23",
-              "title": "LG CNS, 글로벌 로봇 석학들과 피지컬 AI 산업 적용 해법 논의 - 머니투데이 - 머니투데이",
-              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hY2lGNWpWbnVfYVF6dmwtYlMxeVpJUEZoQ0diQ0taNndSN1ppSW1FLVo5dEJaTGlDSTlzckIzQTNGVDhEX2djVjFTOGJtZ1BQdVRTX0JZbXlEZzRUOVhuUWlQUGVkb2vSAWxBVV95cUxQMTlCUXVtTnBmbkpxX3hDaC1IWWdJRDB2VE1mZWxFZGJ3QWNtLTZhWGdWeENEUEwtVFR3Tk1GZzJUNlNfSDVQT3UwOWtLVTVsdWR5azJ5bE5aUXd6YmNfaXBYUk16VkkxRDhfcjE?oc=5",
-              "reportDate": "2026-11-12"
-            },
-            {
-              "id": "article-24",
-              "title": "로봇은 어디서 일을 배울까…피지컬 AI 훈련장 '버추얼 트윈' - 지디넷코리아",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wdnA2dVN2VmNSWXRqM2swVllURnRON3VOVElwNGtOZXdOVnRJeC1oak1uWFpTcWR5TnhaVDNDa2U5SXhyU2VKWFQ3NFBBeG5aWkhreFJn?oc=5",
-              "reportDate": "2026-11-12"
             }
           ]
         }
@@ -118,8 +64,8 @@
         "endDate": "2026-11-16",
         "articleCount": 100,
         "model": "gemini-3.5-flash-lite",
-        "proposedCount": 4,
-        "acceptedCount": 4
+        "proposedCount": 2,
+        "acceptedCount": 2
       },
       "id": "2026-11-16",
       "fileName": "2026-11-16.json"
@@ -2839,28 +2785,21 @@
   ],
   "occupationTracking": [
     {
-      "id": "국유재산관리원",
-      "occupation": "국유재산 관리원",
+      "id": "특수교사",
+      "occupation": "특수교사",
       "tasks": [
-        "국유재산 안전 관리",
-        "위험 요소 보완"
+        "행정 업무"
       ],
-      "reason": "AI와 드론이 안전 점검 및 위험 요소 보완 업무에 도입되어 효율성을 높이고 있으나, 복잡한 현장 상황에 대한 인간의 최종 검토와 불확실성 관리가 필수적입니다.",
+      "reason": "AI 기술 도입으로 특수교사의 행정 업무가 줄어들 수 있으나, 인간 교사의 직접적이고 전문적인 대면 교육 및 개별 학생 관리 영역은 여전히 인간 검토와 판단이 필수적이며 불확실성이 존재합니다.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-16",
       "lastObserved": "2026-11-16",
       "lastEvidenceDate": "2026-11-16",
       "evidence": [
         {
-          "id": "article-4",
-          "title": "재경부, 국유재산 안전관리에 AI·드론 활용…“387건 위험 보완” - KBS 뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Cb2NudktQaWprT0NaYlh3SHQ0dGNmUlBXZ29nMWN5MTRlaGVFQnBtNnpHd0JUTHVRUGxzODA2LVh4R2JIUjdTV1o2aWpNd1pwMWxaaG9MdXdBY2s?oc=5",
-          "reportDate": "2026-11-16"
-        },
-        {
           "id": "article-5",
-          "title": "재경부, 국유재산 안전관리에 AI·드론 활용…\"387건 위험 보완\" - 연합뉴스",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IdllNVVZkQkJZVDRVUDlkd1owVWt2Z1h6RkYzUmt5aHZhS3NidnlhYjBXM3dsYmdFQ0F5czVWdUNiWUpMRENMb2F0Uy1nZ3RZQXlUYnVYN1BGR3PSAWBBVV95cUxQdUxHckJTY2Q5SFNPbGdyMHVOUEltN2s3bTZQRENiY2xWZllnbzZ2OWdIbkxHbERIVngtdWdBeHpBbWZFamhVRWlWWXJMZUN0ZGZCc0RXeXFkVWZKWVA4QXg?oc=5",
+          "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
           "reportDate": "2026-11-16"
         }
       ],
@@ -2868,127 +2807,16 @@
         {
           "date": "2026-11-16",
           "stage": "현장 도입",
-          "reason": "AI와 드론이 안전 점검 및 위험 요소 보완 업무에 도입되어 효율성을 높이고 있으나, 복잡한 현장 상황에 대한 인간의 최종 검토와 불확실성 관리가 필수적입니다.",
+          "reason": "AI 기술 도입으로 특수교사의 행정 업무가 줄어들 수 있으나, 인간 교사의 직접적이고 전문적인 대면 교육 및 개별 학생 관리 영역은 여전히 인간 검토와 판단이 필수적이며 불확실성이 존재합니다.",
           "tasks": [
-            "국유재산 안전 관리",
-            "위험 요소 보완"
+            "행정 업무"
           ],
           "evidence": [
-            {
-              "id": "article-4",
-              "title": "재경부, 국유재산 안전관리에 AI·드론 활용…“387건 위험 보완” - KBS 뉴스",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Cb2NudktQaWprT0NaYlh3SHQ0dGNmUlBXZ29nMWN5MTRlaGVFQnBtNnpHd0JUTHVRUGxzODA2LVh4R2JIUjdTV1o2aWpNd1pwMWxaaG9MdXdBY2s?oc=5",
-              "reportDate": "2026-11-16"
-            },
             {
               "id": "article-5",
-              "title": "재경부, 국유재산 안전관리에 AI·드론 활용…\"387건 위험 보완\" - 연합뉴스",
-              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IdllNVVZkQkJZVDRVUDlkd1owVWt2Z1h6RkYzUmt5aHZhS3NidnlhYjBXM3dsYmdFQ0F5czVWdUNiWUpMRENMb2F0Uy1nZ3RZQXlUYnVYN1BGR3PSAWBBVV95cUxQdUxHckJTY2Q5SFNPbGdyMHVOUEltN2s3bTZQRENiY2xWZllnbzZ2OWdIbkxHbERIVngtdWdBeHpBbWZFamhVRWlWWXJMZUN0ZGZCc0RXeXFkVWZKWVA4QXg?oc=5",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
               "reportDate": "2026-11-16"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "공장설비안전관리자",
-      "occupation": "공장 설비 안전관리자",
-      "tasks": [
-        "사업장 위험 감지",
-        "설비 제어"
-      ],
-      "reason": "AI 영상 분석 및 소리 데이터 기반의 안전 솔루션이 위험을 감지하고 설비를 직접 정지시키는 제어 단계로 진입하고 있으나, 오탐 가능성과 돌발 상황에 따른 인간 관리자의 검토가 요구됩니다.",
-      "stage": "현장 도입",
-      "firstObserved": "2026-11-16",
-      "lastObserved": "2026-11-16",
-      "lastEvidenceDate": "2026-11-12",
-      "evidence": [
-        {
-          "id": "article-25",
-          "title": "공장 소리도 AI 자산…'듣는' 피지컬 AI 온다 - 지디넷코리아",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Hb3VBX0hGYldzUndDc1hEY2lFaXpZVFlOTjJIZG1sLU0zWDVGT3Ffdk5KT3F3dnRjZkVpeTduMVJ0M01NU2hGZXZyeFZvYnZ6ZnhSY1dn?oc=5",
-          "reportDate": "2026-11-12"
-        },
-        {
-          "id": "article-57",
-          "title": "위험 감지하면 AI가 설비 멈춘다…LG 안전관리, '감시'에서 '제어'로 - 전자신문",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40bUR2MzdwaHF6RzdBV2JPQnNQN0dfZzI0MTliaVJma05ZSDV1Nkd0SWFaSUlzNEhjUHV3THpIcWRyV09xRS1VaDZIRlZVZw?oc=5",
-          "reportDate": "2026-11-05"
-        }
-      ],
-      "observations": [
-        {
-          "date": "2026-11-16",
-          "stage": "현장 도입",
-          "reason": "AI 영상 분석 및 소리 데이터 기반의 안전 솔루션이 위험을 감지하고 설비를 직접 정지시키는 제어 단계로 진입하고 있으나, 오탐 가능성과 돌발 상황에 따른 인간 관리자의 검토가 요구됩니다.",
-          "tasks": [
-            "사업장 위험 감지",
-            "설비 제어"
-          ],
-          "evidence": [
-            {
-              "id": "article-25",
-              "title": "공장 소리도 AI 자산…'듣는' 피지컬 AI 온다 - 지디넷코리아",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Hb3VBX0hGYldzUndDc1hEY2lFaXpZVFlOTjJIZG1sLU0zWDVGT3Ffdk5KT3F3dnRjZkVpeTduMVJ0M01NU2hGZXZyeFZvYnZ6ZnhSY1dn?oc=5",
-              "reportDate": "2026-11-12"
-            },
-            {
-              "id": "article-57",
-              "title": "위험 감지하면 AI가 설비 멈춘다…LG 안전관리, '감시'에서 '제어'로 - 전자신문",
-              "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40bUR2MzdwaHF6RzdBV2JPQnNQN0dfZzI0MTliaVJma05ZSDV1Nkd0SWFaSUlzNEhjUHV3THpIcWRyV09xRS1VaDZIRlZVZw?oc=5",
-              "reportDate": "2026-11-05"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "물류및제조현장작업자",
-      "occupation": "물류 및 제조 현장 작업자",
-      "tasks": [
-        "물류 이동",
-        "제조 공정 자동화"
-      ],
-      "reason": "피지컬 AI와 로봇이 버추얼 트윈 등의 환경에서 훈련되어 산업 현장에 빠르게 도입되고 있으나, 예외적인 물리적 변수와 오류에 대해 인간의 개입이 여전히 요구됩니다.",
-      "stage": "현장 도입",
-      "firstObserved": "2026-11-16",
-      "lastObserved": "2026-11-16",
-      "lastEvidenceDate": "2026-11-12",
-      "evidence": [
-        {
-          "id": "article-23",
-          "title": "LG CNS, 글로벌 로봇 석학들과 피지컬 AI 산업 적용 해법 논의 - 머니투데이 - 머니투데이",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hY2lGNWpWbnVfYVF6dmwtYlMxeVpJUEZoQ0diQ0taNndSN1ppSW1FLVo5dEJaTGlDSTlzckIzQTNGVDhEX2djVjFTOGJtZ1BQdVRTX0JZbXlEZzRUOVhuUWlQUGVkb2vSAWxBVV95cUxQMTlCUXVtTnBmbkpxX3hDaC1IWWdJRDB2VE1mZWxFZGJ3QWNtLTZhWGdWeENEUEwtVFR3Tk1GZzJUNlNfSDVQT3UwOWtLVTVsdWR5azJ5bE5aUXd6YmNfaXBYUk16VkkxRDhfcjE?oc=5",
-          "reportDate": "2026-11-12"
-        },
-        {
-          "id": "article-24",
-          "title": "로봇은 어디서 일을 배울까…피지컬 AI 훈련장 '버추얼 트윈' - 지디넷코리아",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wdnA2dVN2VmNSWXRqM2swVllURnRON3VOVElwNGtOZXdOVnRJeC1oak1uWFpTcWR5TnhaVDNDa2U5SXhyU2VKWFQ3NFBBeG5aWkhreFJn?oc=5",
-          "reportDate": "2026-11-12"
-        }
-      ],
-      "observations": [
-        {
-          "date": "2026-11-16",
-          "stage": "현장 도입",
-          "reason": "피지컬 AI와 로봇이 버추얼 트윈 등의 환경에서 훈련되어 산업 현장에 빠르게 도입되고 있으나, 예외적인 물리적 변수와 오류에 대해 인간의 개입이 여전히 요구됩니다.",
-          "tasks": [
-            "물류 이동",
-            "제조 공정 자동화"
-          ],
-          "evidence": [
-            {
-              "id": "article-23",
-              "title": "LG CNS, 글로벌 로봇 석학들과 피지컬 AI 산업 적용 해법 논의 - 머니투데이 - 머니투데이",
-              "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hY2lGNWpWbnVfYVF6dmwtYlMxeVpJUEZoQ0diQ0taNndSN1ppSW1FLVo5dEJaTGlDSTlzckIzQTNGVDhEX2djVjFTOGJtZ1BQdVRTX0JZbXlEZzRUOVhuUWlQUGVkb2vSAWxBVV95cUxQMTlCUXVtTnBmbkpxX3hDaC1IWWdJRDB2VE1mZWxFZGJ3QWNtLTZhWGdWeENEUEwtVFR3Tk1GZzJUNlNfSDVQT3UwOWtLVTVsdWR5azJ5bE5aUXd6YmNfaXBYUk16VkkxRDhfcjE?oc=5",
-              "reportDate": "2026-11-12"
-            },
-            {
-              "id": "article-24",
-              "title": "로봇은 어디서 일을 배울까…피지컬 AI 훈련장 '버추얼 트윈' - 지디넷코리아",
-              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wdnA2dVN2VmNSWXRqM2swVllURnRON3VOVElwNGtOZXdOVnRJeC1oak1uWFpTcWR5TnhaVDNDa2U5SXhyU2VKWFQ3NFBBeG5aWkhreFJn?oc=5",
-              "reportDate": "2026-11-12"
             }
           ]
         }
@@ -3426,10 +3254,10 @@
         "행정 처리 업무",
         "민원 처리"
       ],
-      "reason": "네덜란드 등에서 AI를 행정에 도입하는 실험을 진행하고 있으나, 공공 부문에서의 완전한 자동화는 아직 불확실하며 오류 가능성과 인간 검토의 필요성이 존재합니다.",
-      "stage": "현장 도입",
+      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행 중이나, 복잡한 정책 결정과 민원 대응 등에는 여전히 인간의 개입과 검토가 필요합니다.",
+      "stage": "기술 시연",
       "firstObserved": "2026-11-09",
-      "lastObserved": "2026-11-15",
+      "lastObserved": "2026-11-16",
       "lastEvidenceDate": "2026-11-04",
       "evidence": [
         {
@@ -3563,37 +3391,13 @@
               "reportDate": "2026-11-01"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "행정공무원",
-      "occupation": "행정 공무원",
-      "tasks": [
-        "민원 처리",
-        "일반 행정 업무"
-      ],
-      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행되며 행정 효율성 검증이 이뤄지고 있으나, 공공 서비스의 특성상 법적 판단과 인간의 최종 검토가 필수적입니다.",
-      "stage": "현장 도입",
-      "firstObserved": "2026-11-16",
-      "lastObserved": "2026-11-16",
-      "lastEvidenceDate": "2026-11-01",
-      "evidence": [
-        {
-          "id": "article-75",
-          "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-          "reportDate": "2026-11-01"
-        }
-      ],
-      "observations": [
+        },
         {
           "date": "2026-11-16",
-          "stage": "현장 도입",
-          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행되며 행정 효율성 검증이 이뤄지고 있으나, 공공 서비스의 특성상 법적 판단과 인간의 최종 검토가 필수적입니다.",
+          "stage": "기술 시연",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행 중이나, 복잡한 정책 결정과 민원 대응 등에는 여전히 인간의 개입과 검토가 필요합니다.",
           "tasks": [
-            "민원 처리",
-            "일반 행정 업무"
+            "단순 행정 업무"
           ],
           "evidence": [
             {
