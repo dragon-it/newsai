@@ -1,0 +1,173 @@
+{
+  "lastUpdated": "2026-11-16T01:31:32.629Z",
+  "reportDate": "2026. 11. 16.",
+  "summary": "- 공공 및 시험 보안 위협: 세무사 시험 등에서 AI와 웨어러블 기기를 악용한 부정행위가 적발되어 감독관 인스펙터 제도가 도입되는 등 시험 관리 보안에 비상이 걸렸음.\n\n- 인프라 및 플랫폼 확장: 에이프리카의 AI 플랫폼이 KT클라우드 마켓플레이스에 입점하고 클라우드 및 보안 솔루션의 공공·연구기관 공급이 확대됨.\n\n- 공공 현장 안전 관리: 정부와 공공기관이 국유재산 안전 관리와 조선용 절단 시스템 등에 AI와 드론을 결합하여 위험 요소를 보완하고 있음.",
+  "summaryScore": 75,
+  "dailyVelocity": 1,
+  "velocityReason": "AI 웨어러블 기기를 활용한 시험 부정행위 및 공공 현장의 AI 보안·안전 솔루션 도입 소식이 이어지며 완만한 가속을 기록함.",
+  "cumulativeRiskScore": 53.7,
+  "jobRiskScore": 53.7,
+  "riskScoreBreakdown": [
+    {
+      "event": "AI 안경을 악용한 국가자격시험 부정행위 발생",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 1
+    },
+    {
+      "event": "공공 인프라 및 클라우드 AI 플랫폼 공급 확대",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 2
+    }
+  ],
+  "news": [
+    {
+      "title": "'AI 부정행위' 세무사 수석 결국 자수‥감독관 코앞에서 뚫렸다 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwUUt1aVZIdEUyaDZVRmZPRTctVlh5TWJ2RDJPNkh5SXEwNWRja2kzZWlILXZtRHJZejVCR0ZiSVFsYy1FVkRkaTRaZUFHY24xOS02a2hnWlNUVVo1ZTA2UVBJYkdmY0hIaTVTSGNsVUpLbXJrLVRqZNIBeEFVX3lxTFBfTmlLeVQxNVNNU0UtV09xbXo2X2ladUF5Nm1ZcFVydlc0Vlp5eVM5Yk0ydVJxNnVlTlBGV1hSalNHZzdRTUFlbEV0djB5RWEwQnp6NWU2Q2x0NzlXN2p5eHF2T0IxWXNuNTZBVmhrR25NNXNmeGw1Xw?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 10:57:34 GMT",
+      "summary": "세무사 시험 수석 합격자가 초소형 카메라와 AI를 이용한 부정행위를 자백하면서 국가자격시험의 보안 허점이 드러났다. 이에 따라 시험 당국은 감독관 인스펙터 제도를 도입하는 등 대책 마련에 나섰다.",
+      "importance": 5,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 2
+    },
+    {
+      "title": "에이프리카 ‘치타’, KT클라우드 마켓플레이스 입점…AI 플랫폼 공급 확대 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1dlJjdXV2S09HejRoa2lzOW9yeExHLWZXUXNiN2hJLWg5UEozaVBCQm1xTW95NmpuQ3RaSThiYTMxVnc1QVhfTlZubE9sSlhPX3c?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 23:59:15 GMT",
+      "summary": "에이프리카의 AI 플랫폼 '치타'가 KT클라우드 마켓플레이스에 입점하며 클라우드 기반 AI 플랫폼 공급을 확대하고 있다. 이를 통해 다양한 산업 현장에서의 AI 인프라 접근성이 향상될 것으로 기대된다.",
+      "importance": 3,
+      "aiImpact": 4,
+      "automationPotential": 3,
+      "investmentImpact": 4
+    },
+    {
+      "title": "AI 점역으로 교육의 장벽을 낮추다 — 스타트업 ‘누리닷’ 이야기 - SK텔레콤 뉴스룸",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBFYnhTV0lUcDVJSzhPOHp5TTE2SFhuZVYwT3RrUW04eDRHWDYzdmsxb3FTTDhDQk5OTnphSTA0QkpMRl9ZRndJdQ?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 23:34:58 GMT",
+      "summary": "스타트업 누리닷이 AI 점역 기술을 통해 교육 장벽을 낮추는 사례가 조명되었다. AI를 활용한 접근성 개선이 다양한 교육 및 공공 복지 영역으로 확산되고 있다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 3,
+      "investmentImpact": 3
+    },
+    {
+      "title": "재경부, 국유재산 안전관리에 AI·드론 활용…“387건 위험 보완” - KBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Cb2NudktQaWprT0NaYlh3SHQ0dGNmUlBXZ29nMWN5MTRlaGVFQnBtNnpHd0JUTHVRUGxzODA2LVh4R2JIUjdTV1o2aWpNd1pwMWxaaG9MdXdBY2s?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 01:10:00 GMT",
+      "summary": "재경부가 국유재산 안전 관리에 AI와 드론을 활용하여 수백 건의 위험 요소를 사전에 보완했다. 공공 자산 관리와 안전 점검 분야에서 첨단 기술의 실효성이 확인되고 있다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 4,
+      "investmentImpact": 3
+    },
+    {
+      "title": "재경부, 국유재산 안전관리에 AI·드론 활용…\"387건 위험 보완\" - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IdllNVVZkQkJZVDRVUDlkd1owVWt2Z1h6RkYzUmt5aHZhS3NidnlhYjBXM3dsYmdFQ0F5czVWdUNiWUpMRENMb2F0Uy1nZ3RZQXlUYnVYN1BGR3PSAWBBVV95cUxQdUxHckJTY2Q5SFNPbGdyMHVOUEltN2s3bTZQRENiY2xWZllnbzZ2OWdIbkxHbERIVngtdWdBeHpBbWZFamhVRWlWWXJMZUN0ZGZCc0RXeXFkVWZKWVA4QXg?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 01:00:02 GMT",
+      "summary": "재경부의 국유재산 안전 관리 AI·드론 활용 소식이 연합뉴스를 통해서도 보도되며 공공 부문의 스마트 인프라 도입 성과가 강조되었다. 반복적인 위험 점검 업무의 자동화가 진전되고 있다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 4,
+      "investmentImpact": 3
+    }
+  ],
+  "occupationRisks": [
+    {
+      "occupation": "국유재산 관리원",
+      "tasks": [
+        "국유재산 안전 관리",
+        "위험 요소 보완"
+      ],
+      "reason": "AI와 드론이 안전 점검 및 위험 요소 보완 업무에 도입되어 효율성을 높이고 있으나, 복잡한 현장 상황에 대한 인간의 최종 검토와 불확실성 관리가 필수적입니다.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-4",
+          "title": "재경부, 국유재산 안전관리에 AI·드론 활용…“387건 위험 보완” - KBS 뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Cb2NudktQaWprT0NaYlh3SHQ0dGNmUlBXZ29nMWN5MTRlaGVFQnBtNnpHd0JUTHVRUGxzODA2LVh4R2JIUjdTV1o2aWpNd1pwMWxaaG9MdXdBY2s?oc=5",
+          "reportDate": "2026-11-16"
+        },
+        {
+          "id": "article-5",
+          "title": "재경부, 국유재산 안전관리에 AI·드론 활용…\"387건 위험 보완\" - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IdllNVVZkQkJZVDRVUDlkd1owVWt2Z1h6RkYzUmt5aHZhS3NidnlhYjBXM3dsYmdFQ0F5czVWdUNiWUpMRENMb2F0Uy1nZ3RZQXlUYnVYN1BGR3PSAWBBVV95cUxQdUxHckJTY2Q5SFNPbGdyMHVOUEltN2s3bTZQRENiY2xWZllnbzZ2OWdIbkxHbERIVngtdWdBeHpBbWZFamhVRWlWWXJMZUN0ZGZCc0RXeXFkVWZKWVA4QXg?oc=5",
+          "reportDate": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "occupation": "공장 설비 안전관리자",
+      "tasks": [
+        "사업장 위험 감지",
+        "설비 제어"
+      ],
+      "reason": "AI 영상 분석 및 소리 데이터 기반의 안전 솔루션이 위험을 감지하고 설비를 직접 정지시키는 제어 단계로 진입하고 있으나, 오탐 가능성과 돌발 상황에 따른 인간 관리자의 검토가 요구됩니다.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-25",
+          "title": "공장 소리도 AI 자산…'듣는' 피지컬 AI 온다 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Hb3VBX0hGYldzUndDc1hEY2lFaXpZVFlOTjJIZG1sLU0zWDVGT3Ffdk5KT3F3dnRjZkVpeTduMVJ0M01NU2hGZXZyeFZvYnZ6ZnhSY1dn?oc=5",
+          "reportDate": "2026-11-12"
+        },
+        {
+          "id": "article-57",
+          "title": "위험 감지하면 AI가 설비 멈춘다…LG 안전관리, '감시'에서 '제어'로 - 전자신문",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40bUR2MzdwaHF6RzdBV2JPQnNQN0dfZzI0MTliaVJma05ZSDV1Nkd0SWFaSUlzNEhjUHV3THpIcWRyV09xRS1VaDZIRlZVZw?oc=5",
+          "reportDate": "2026-11-05"
+        }
+      ]
+    },
+    {
+      "occupation": "행정 공무원",
+      "tasks": [
+        "민원 처리",
+        "일반 행정 업무"
+      ],
+      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행되며 행정 효율성 검증이 이뤄지고 있으나, 공공 서비스의 특성상 법적 판단과 인간의 최종 검토가 필수적입니다.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-75",
+          "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+          "reportDate": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "occupation": "물류 및 제조 현장 작업자",
+      "tasks": [
+        "물류 이동",
+        "제조 공정 자동화"
+      ],
+      "reason": "피지컬 AI와 로봇이 버추얼 트윈 등의 환경에서 훈련되어 산업 현장에 빠르게 도입되고 있으나, 예외적인 물리적 변수와 오류에 대해 인간의 개입이 여전히 요구됩니다.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-23",
+          "title": "LG CNS, 글로벌 로봇 석학들과 피지컬 AI 산업 적용 해법 논의 - 머니투데이 - 머니투데이",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hY2lGNWpWbnVfYVF6dmwtYlMxeVpJUEZoQ0diQ0taNndSN1ppSW1FLVo5dEJaTGlDSTlzckIzQTNGVDhEX2djVjFTOGJtZ1BQdVRTX0JZbXlEZzRUOVhuUWlQUGVkb2vSAWxBVV95cUxQMTlCUXVtTnBmbkpxX3hDaC1IWWdJRDB2VE1mZWxFZGJ3QWNtLTZhWGdWeENEUEwtVFR3Tk1GZzJUNlNfSDVQT3UwOWtLVTVsdWR5azJ5bE5aUXd6YmNfaXBYUk16VkkxRDhfcjE?oc=5",
+          "reportDate": "2026-11-12"
+        },
+        {
+          "id": "article-24",
+          "title": "로봇은 어디서 일을 배울까…피지컬 AI 훈련장 '버추얼 트윈' - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wdnA2dVN2VmNSWXRqM2swVllURnRON3VOVElwNGtOZXdOVnRJeC1oak1uWFpTcWR5TnhaVDNDa2U5SXhyU2VKWFQ3NFBBeG5aWkhreFJn?oc=5",
+          "reportDate": "2026-11-12"
+        }
+      ]
+    }
+  ],
+  "occupationAnalysis": {
+    "startDate": "2026-10-18",
+    "endDate": "2026-11-16",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 4,
+    "acceptedCount": 4
+  },
+  "id": "2026-11-16"
+}
