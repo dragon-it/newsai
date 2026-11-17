@@ -1,7 +1,59 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T12:38:52.183Z",
+  "updatedAt": "2026-11-17T04:17:16.402Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-17T04:17:16.378Z",
+      "reportDate": "2026. 11. 17.",
+      "summary": "- 인프라 및 생태계 확장: 초소형 카메라와 웨어러블 AI 기기의 일상 및 시험 영역 침투가 가속화되면서 새로운 보안 과제와 규제 필요성이 대두됨.\n\n- 반도체 공급망 강화: 글로벌 반도체 수출 통제 완화 및 주요 AI 기업들의 투자 유치 흐름이 이어지며 시장 변동성이 확대됨.\n\n- 산업 현장 및 공공 적용: 피지컬 AI와 에이전트 솔루션이 제조, 공공 안전, 돌봄 영역 등 실물 경제 전반으로 도입 범위를 넓히고 있음.",
+      "summaryScore": 82,
+      "dailyVelocity": 1.5,
+      "velocityReason": "AI 웨어러블 기기와 에이전트 솔루션이 시험 보안 및 일상 업무 영역으로 빠르게 확산되면서 완만한 가속세를 보임.",
+      "cumulativeRiskScore": 53.9,
+      "jobRiskScore": 53.9,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 안경 및 웨어러블 기기를 활용한 시험 보안 도전",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 반도체 공급망 및 투자 정책 변화",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "특수교사",
+          "tasks": [
+            "행정 및 반복 업무 처리"
+          ],
+          "reason": "행정 및 반복 업무를 경감해주는 AI 솔루션이 도입되어 현장 실무 부담을 줄이는 사례가 확인됨.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-10",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-19",
+        "endDate": "2026-11-17",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 1,
+        "acceptedCount": 1
+      },
+      "id": "2026-11-17",
+      "fileName": "2026-11-17.json"
+    },
     {
       "lastUpdated": "2026-11-16T12:38:52.165Z",
       "reportDate": "2026. 11. 16.",
@@ -2788,12 +2840,13 @@
       "id": "특수교사",
       "occupation": "특수교사",
       "tasks": [
-        "행정 업무"
+        "행정 업무",
+        "행정 및 반복 업무 처리"
       ],
-      "reason": "AI 기술 도입으로 특수교사의 행정 업무가 줄어들 수 있으나, 인간 교사의 직접적이고 전문적인 대면 교육 및 개별 학생 관리 영역은 여전히 인간 검토와 판단이 필수적이며 불확실성이 존재합니다.",
+      "reason": "행정 및 반복 업무를 경감해주는 AI 솔루션이 도입되어 현장 실무 부담을 줄이는 사례가 확인됨.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-16",
-      "lastObserved": "2026-11-16",
+      "lastObserved": "2026-11-17",
       "lastEvidenceDate": "2026-11-16",
       "evidence": [
         {
@@ -2814,6 +2867,22 @@
           "evidence": [
             {
               "id": "article-5",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "stage": "현장 도입",
+          "reason": "행정 및 반복 업무를 경감해주는 AI 솔루션이 도입되어 현장 실무 부담을 줄이는 사례가 확인됨.",
+          "tasks": [
+            "행정 및 반복 업무 처리"
+          ],
+          "evidence": [
+            {
+              "id": "article-10",
               "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
               "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
               "reportDate": "2026-11-16"

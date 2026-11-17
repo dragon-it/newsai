@@ -1,0 +1,103 @@
+{
+  "lastUpdated": "2026-11-17T04:17:16.378Z",
+  "reportDate": "2026. 11. 17.",
+  "summary": "- 인프라 및 생태계 확장: 초소형 카메라와 웨어러블 AI 기기의 일상 및 시험 영역 침투가 가속화되면서 새로운 보안 과제와 규제 필요성이 대두됨.\n\n- 반도체 공급망 강화: 글로벌 반도체 수출 통제 완화 및 주요 AI 기업들의 투자 유치 흐름이 이어지며 시장 변동성이 확대됨.\n\n- 산업 현장 및 공공 적용: 피지컬 AI와 에이전트 솔루션이 제조, 공공 안전, 돌봄 영역 등 실물 경제 전반으로 도입 범위를 넓히고 있음.",
+  "summaryScore": 82,
+  "dailyVelocity": 1.5,
+  "velocityReason": "AI 웨어러블 기기와 에이전트 솔루션이 시험 보안 및 일상 업무 영역으로 빠르게 확산되면서 완만한 가속세를 보임.",
+  "cumulativeRiskScore": 53.9,
+  "jobRiskScore": 53.9,
+  "riskScoreBreakdown": [
+    {
+      "event": "AI 안경 및 웨어러블 기기를 활용한 시험 보안 도전",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 3
+    },
+    {
+      "event": "AI 반도체 공급망 및 투자 정책 변화",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 4
+    }
+  ],
+  "news": [
+    {
+      "title": "2mm 초소형 카메라 AI 연결하니…순식간에 문제 풀이 - KBS 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44eWRfcmNKQ3hORHI0aGNRRUZpS0dhb0E3emNkaV9jT3I3WWQzbDlqSWtkNXV4TFBwV0l2SGRLZUNZV0NqRXRXNGJZT2tFWHRtbVJQVm1VVnhncDdMT3A5ZzZSUFRHQQ?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 12:02:00 GMT",
+      "summary": "2mm 초소형 카메라를 AI와 연동하여 복잡한 문제 풀이에 활용하는 사례가 확인되며 기술의 일상적 악용 가능성이 제기되었습니다. 이는 공공 시험 제도의 보안 기준에 심각한 도전 과제를 안겨주고 있습니다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 3,
+      "investmentImpact": 3
+    },
+    {
+      "title": "AI로 더 빠른 성장, 일자리도 늘까…美 연준이 따져 본 세 가지 미래 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNU9GdUktM0pNb1I2dEVkY3pRTzQyZ3VlcnFMcjFHTTRPODVnN1JvRFBpSGNSYVJ5OHFIa2M5dGpMNGYyRGY0R2JUdGY5cXJxTTdxOExZY05LTzZUbEZEaURhT1VQOFpObUswY05CVnhUcXZ4YmUwTkJFMnNheDB3dWdwbk92aTFM?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 23:13:00 GMT",
+      "summary": "미국 연방준비제도가 AI 도입에 따른 경제 성장과 일자리 변화의 미래 시나리오를 분석했습니다. 기술 발전이 고용 시장에 미치는 양면적 영향에 대한 정책적 관심이 높아지고 있습니다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 3,
+      "investmentImpact": 4
+    },
+    {
+      "title": "\"AI 안경이죠?\" 감독관 묻자 도망친 수험자‥산업인력공단 수사 의뢰 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ybTJfR29BOV96TUs3SzhDOXp0bVBzOXBPa0VCRnBQQnl3Tm4waVY5RVlvMG5Sd2ZsbWJ4Sl85RzNwRjJIWFFXWmdCVFVMYm90RGV3ZkE1UTVFbFVndmhkNTRhRElFajZ4Zl93YkhlYWpZY0habnBB0gF3QVVfeXFMTkhfYzRleGY4Qk50dW50bGpOSlBFOXZZaFZLY1JScUc0V0JUUEVGaHJnenhib2pBNmVLTDR5aVdBNHpQc2JFNXExaUprOXlnSXhwZ3dJQXh1ZWh6UjRVNG9VaVZUWThJcTlqc1JZNEgwbEF6TkdlMTA?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 09:06:33 GMT",
+      "summary": "국가자격시험장에서 AI 안경을 이용한 부정행위 수험자가 적발되어 산업인력공단이 수사를 의뢰했습니다. 웨어러블 AI 기기의 발전이 기존의 시험 관리 및 공정성 유지 체계를 위협하고 있습니다.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 2
+    },
+    {
+      "title": "AI칩 투자 줄이고 앤스로픽에 50억달러 청약…거스너 “젠슨 황 복귀 서두르지 말라” - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBndVFtUkRIa2NzSmxIZmRkVTEyM2xkM1l6VS1KWXBFUXFyU0t0NmRxVEcyaHhYeWhwNThadXV6NG1xTDVJRUMzNlBibDlxQQ?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 19:58:07 GMT",
+      "summary": "AI칩 관련 투자가 일부 조정되는 한편 앤스로픽 등에 대한 대규모 청약과 자본 유치가 지속되고 있습니다. 거스너 등 업계 인사는 인프라 투자 속도 조절과 함께 리스크 관리를 주문했습니다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    },
+    {
+      "title": "AI가 식당에 전화 걸고 결제까지…AI 에이전트의 위험성과 미래 [트랜D] - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TNllOOWNnaEphTllDUHNSbk1BOG03RjdEb1liY0dKc2FrR1d1d01vVXVCdFRDVVB6XzJybFdfMTBmUlhkVlBvdGZXWnhKV3FCN3M2UDRR?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 22:00:00 GMT",
+      "summary": "AI 에이전트가 식당 예약과 결제 같은 일상적인 업무를 직접 수행하는 수준으로 발전하고 있습니다. 편리성과 함께 에이전트 기술이 가져올 잠재적 위험성과 보안 이슈가 주목받고 있습니다.",
+      "importance": 4,
+      "aiImpact": 5,
+      "automationPotential": 5,
+      "investmentImpact": 4
+    }
+  ],
+  "occupationRisks": [
+    {
+      "occupation": "특수교사",
+      "tasks": [
+        "행정 및 반복 업무 처리"
+      ],
+      "reason": "행정 및 반복 업무를 경감해주는 AI 솔루션이 도입되어 현장 실무 부담을 줄이는 사례가 확인됨.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-10",
+          "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+          "reportDate": "2026-11-16"
+        }
+      ]
+    }
+  ],
+  "occupationAnalysis": {
+    "startDate": "2026-10-19",
+    "endDate": "2026-11-17",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 1,
+    "acceptedCount": 1
+  },
+  "id": "2026-11-17"
+}
