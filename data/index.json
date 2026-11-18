@@ -1,7 +1,99 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T04:17:16.402Z",
+  "updatedAt": "2026-11-18T03:16:07.962Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-18T03:16:07.950Z",
+      "reportDate": "2026. 11. 18.",
+      "summary": "- AI 인프라 및 서비스 확장: 구글이 예약과 구매를 맡는 AI 비서를 한국에서 무료로 확대하고, 아마존 CEO가 데이터센터 투자의 중요성을 강조하는 등 인프라 경쟁이 심화되고 있음.\n\n- 웨어러블 AI와 시험 보안 위협: 초소형 카메라와 AI 안경을 결합한 부정행위가 국가자격시험에서 잇따라 적발되면서 당정이 AI 기업에 자료 제출을 의무화하는 등 규제와 보안 대책이 강화됨.\n\n- 대외 정책 및 공급망 변화: 미국 대선 이후 반도체 수출 통제 완화 및 글로벌 빅테크의 대규모 투자 흐름이 이어지며 반도체와 데이터센터 생태계가 재편되고 있음.",
+      "summaryScore": 84,
+      "dailyVelocity": 1.5,
+      "velocityReason": "구글의 AI 비서 서비스 확대와 웨어러블 AI를 활용한 시험 보안 이슈 등 AI 실생활 도입 및 규제 논란이 가속화됨.",
+      "cumulativeRiskScore": 54.1,
+      "jobRiskScore": 54.1,
+      "riskScoreBreakdown": [
+        {
+          "event": "구글 AI 비서 서비스 확대",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 안경 부정행위 및 규제 추진",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 3
+        },
+        {
+          "event": "데이터센터 및 인프라 투자 지속",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "특수교사",
+          "tasks": [
+            "행정 업무",
+            "반복 업무"
+          ],
+          "reason": "AI 솔루션이 행정 및 반복 업무를 줄여주는 방향으로 도입되고 있으나, 교육의 특성상 완전한 대체보다는 교사의 업무 경감을 돕는 보조적 역할에 그칠 가능성이 높아 인간의 검토와 개입이 필수적입니다.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-15",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "occupation": "공무원",
+          "tasks": [
+            "단순 행정 업무"
+          ],
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행되고 있으나, 행정의 정확성과 복잡한 정책 판단의 불확실성으로 인해 인간 공무원의 최종 검토와 책임이 요구됩니다.",
+          "stage": "기술 시연",
+          "evidence": [
+            {
+              "id": "article-85",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "occupation": "보험 심사원",
+          "tasks": [
+            "전통적인 사무 업무",
+            "심사 업무 프로세스"
+          ],
+          "reason": "보험사들이 복잡한 비즈니스 맥락을 학습하는 AI로의 전환을 추진하고 있으나, 예외적인 사례나 복잡한 계약 건에 대해서는 인간 심사원의 면밀한 검토가 필요하여 불확실성이 존재합니다.",
+          "stage": "기술 시연",
+          "evidence": [
+            {
+              "id": "article-64",
+              "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+              "reportDate": "2026-11-06"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-20",
+        "endDate": "2026-11-18",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 3,
+        "acceptedCount": 3
+      },
+      "id": "2026-11-18",
+      "fileName": "2026-11-18.json"
+    },
     {
       "lastUpdated": "2026-11-17T04:17:16.378Z",
       "reportDate": "2026. 11. 17.",
@@ -2841,12 +2933,13 @@
       "occupation": "특수교사",
       "tasks": [
         "행정 업무",
-        "행정 및 반복 업무 처리"
+        "행정 및 반복 업무 처리",
+        "반복 업무"
       ],
-      "reason": "행정 및 반복 업무를 경감해주는 AI 솔루션이 도입되어 현장 실무 부담을 줄이는 사례가 확인됨.",
+      "reason": "AI 솔루션이 행정 및 반복 업무를 줄여주는 방향으로 도입되고 있으나, 교육의 특성상 완전한 대체보다는 교사의 업무 경감을 돕는 보조적 역할에 그칠 가능성이 높아 인간의 검토와 개입이 필수적입니다.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-16",
-      "lastObserved": "2026-11-17",
+      "lastObserved": "2026-11-18",
       "lastEvidenceDate": "2026-11-16",
       "evidence": [
         {
@@ -2883,6 +2976,23 @@
           "evidence": [
             {
               "id": "article-10",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "stage": "현장 도입",
+          "reason": "AI 솔루션이 행정 및 반복 업무를 줄여주는 방향으로 도입되고 있으나, 교육의 특성상 완전한 대체보다는 교사의 업무 경감을 돕는 보조적 역할에 그칠 가능성이 높아 인간의 검토와 개입이 필수적입니다.",
+          "tasks": [
+            "행정 업무",
+            "반복 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-15",
               "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
               "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
               "reportDate": "2026-11-16"
@@ -3120,6 +3230,46 @@
       ]
     },
     {
+      "id": "보험심사원",
+      "occupation": "보험 심사원",
+      "tasks": [
+        "전통적인 사무 업무",
+        "심사 업무 프로세스"
+      ],
+      "reason": "보험사들이 복잡한 비즈니스 맥락을 학습하는 AI로의 전환을 추진하고 있으나, 예외적인 사례나 복잡한 계약 건에 대해서는 인간 심사원의 면밀한 검토가 필요하여 불확실성이 존재합니다.",
+      "stage": "기술 시연",
+      "firstObserved": "2026-11-18",
+      "lastObserved": "2026-11-18",
+      "lastEvidenceDate": "2026-11-06",
+      "evidence": [
+        {
+          "id": "article-64",
+          "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+          "reportDate": "2026-11-06"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-18",
+          "stage": "기술 시연",
+          "reason": "보험사들이 복잡한 비즈니스 맥락을 학습하는 AI로의 전환을 추진하고 있으나, 예외적인 사례나 복잡한 계약 건에 대해서는 인간 심사원의 면밀한 검토가 필요하여 불확실성이 존재합니다.",
+          "tasks": [
+            "전통적인 사무 업무",
+            "심사 업무 프로세스"
+          ],
+          "evidence": [
+            {
+              "id": "article-64",
+              "title": "단순자동화 너머 ’비즈니스 맥락’ 학습…韓 보험사 AI 전환 과제 By EBN - Investing.com 한국어",
+              "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA4dkh5R2JYTGVkQ1hIREhyRHVZR1JqMGtHNUxJenNFVDFicG1GTzlkdmhpNThFZEdlaWc1MzBoUjdjUWNkR24yYmNVTm5LU0g1US1xMzNpYWYxVHMtU2pyb0NPakJIbW1JcTJFZGwyY3A?oc=5",
+              "reportDate": "2026-11-06"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "사무직원",
       "occupation": "사무직원",
       "tasks": [
@@ -3323,10 +3473,10 @@
         "행정 처리 업무",
         "민원 처리"
       ],
-      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행 중이나, 복잡한 정책 결정과 민원 대응 등에는 여전히 인간의 개입과 검토가 필요합니다.",
+      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행되고 있으나, 행정의 정확성과 복잡한 정책 판단의 불확실성으로 인해 인간 공무원의 최종 검토와 책임이 요구됩니다.",
       "stage": "기술 시연",
       "firstObserved": "2026-11-09",
-      "lastObserved": "2026-11-16",
+      "lastObserved": "2026-11-18",
       "lastEvidenceDate": "2026-11-04",
       "evidence": [
         {
@@ -3471,6 +3621,22 @@
           "evidence": [
             {
               "id": "article-75",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "stage": "기술 시연",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행되고 있으나, 행정의 정확성과 복잡한 정책 판단의 불확실성으로 인해 인간 공무원의 최종 검토와 책임이 요구됩니다.",
+          "tasks": [
+            "단순 행정 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-85",
               "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
               "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
               "reportDate": "2026-11-01"
