@@ -1,0 +1,121 @@
+{
+  "lastUpdated": "2026-11-19T02:54:17.984Z",
+  "reportDate": "2026. 11. 19.",
+  "summary": "- 하드웨어 및 인프라 투자: 글로벌 AI 시장의 급성장에 대응하기 위해 데이터센터와 반도체 인프라 구축 및 지출이 대규모로 지속되고 있음.\n\n- 웨어러블 기기 및 공정 보안: AI 안경 등 첨단 웨어러블 기기를 활용한 시험 부정행위가 잇따라 적발되면서 공공 시험 제도의 보안 기준 강화와 수사가 진행됨.\n\n- 산업 현장 자동화: 제조업 및 물류 현장에서 AI와 로봇 기술을 융합한 자율제조 및 안전 관리 시스템 도입이 활발히 추진되고 있음.",
+  "summaryScore": 84,
+  "dailyVelocity": 1.2,
+  "velocityReason": "AI 안경을 악용한 부정행위 사건과 이에 따른 공공 보안 대책 강화 소식이 사회적 파장을 일으키며 웨어러블 기기 활용에 대한 경각심을 높이고 있음.",
+  "cumulativeRiskScore": 54.2,
+  "jobRiskScore": 54.2,
+  "riskScoreBreakdown": [
+    {
+      "event": "AI 안경을 악용한 국가 자격시험 부정행위 적발",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 1
+    },
+    {
+      "event": "가트너의 대규모 AI 인프라 지출 전망 발표",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 3
+    }
+  ],
+  "news": [
+    {
+      "title": "[단독] 韓 돌풍 AI 피클, 미국서 AI안경 만드려다가 가짜 논란 - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ITDYzUkYtbnRBVlNqLU5XcGNmcC1zZWtad3EyOFAwNXRhbGVUY3VnYnlCa0RXcnRMM2xpRnpmLUVVYTV6Tl9WVmZmQVJ1R0lJbGc?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 00:40:10 GMT",
+      "summary": "한국의 한 스타트업이 개발한 AI 기기 관련해 미국 현지에서 제품 진위 여부를 둘러싼 논란이 제기되었다. 관련 제품의 신뢰성과 안전성 검증 문제가 대중의 관심을 받고 있다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "'AI 부정행위' 논란에 한파까지‥이 시각 고사장 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpbDRLeE1mWWtKOE90Nkw0dzRhVmQ5WVpyb2JkdDFEUXZ0NVQyVW5OUjM4Qi05WEw5Nk9oN2dUUGRUUEVMeG0xelBxdG0wZXN4Nlg5SEJQb250dHF3SmUyYVN1cE1PM1FyWUFDSS0tWDl4a3FhR2xNeENB0gF6QVVfeXFMTVR2SzlBenc5QWd0ekhKUThRakx0WGVlNGJsSG9zZVJVQXNPMGRSeTBYZ0JjNDBsOTd1NUhSRDFMOE9BMl9IZUdnbUFTaUJLQThsdWlTSEtXeGRBbWNiV1RWU1VJcEo5M0htRExzUy1kZFkyUHR5eG5uQWc?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 22:09:59 GMT",
+      "summary": "최근 잇따르는 AI 기기 관련 논란과 한파 속에서 수험생들이 고사장에 입실하는 모습이 포착되었다. 시험 당국의 공정성 유지를 위한 대책 마련이 요구되고 있다.",
+      "importance": 4,
+      "aiImpact": 2,
+      "automationPotential": 1,
+      "investmentImpact": 2
+    },
+    {
+      "title": "가트너 \"2027년 AI 인프라 지출 2조4천억 달러 전망, 전체 AI 지출의 59%\" - 비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ydmxneDJPc3o4bk0zeHpPSFltM3BqNzVpeTZ2V1htUlNldll6ZlpjR3ZnMzNwa2RHQzA4ZDFGalNHb3doVERnRzY5cU5IcEFGdFJCNDhGVFhaa0ZQVHRNZUltV0FuUFZlVnRWT2xydXlfb3M?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 02:49:05 GMT",
+      "summary": "가트너는 2027년 전 세계 AI 인프라 지출이 전체 AI 지출의 59%에 달할 것으로 전망했다. 하드웨어 및 기반 시설에 대한 투자가 지속적으로 시장의 주류를 이룰 것으로 보인다.",
+      "importance": 4,
+      "aiImpact": 5,
+      "automationPotential": 3,
+      "investmentImpact": 5
+    },
+    {
+      "title": "초등생 한자리 모여 로봇·AI 체험… 동작구, 내달 5일 경진대회 - 문화일보",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE40UV9hb3ozUkhNNE45TFI1R2JKV1J4VVZvcXBsX0UwLXdLVjZxenNBTkRyR2pTOGkwZzR4UW9GamlreHRqOFhyTE5pcS1WVmhn?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 02:40:17 GMT",
+      "summary": "지방자치단체가 초등학생들을 대상으로 로봇과 AI 기술을 체험할 수 있는 경진대회를 개최한다. 미래 세대의 기술 이해도를 높이기 위한 지역 사회의 교육 프로그램이 운영된다.",
+      "importance": 2,
+      "aiImpact": 2,
+      "automationPotential": 1,
+      "investmentImpact": 2
+    },
+    {
+      "title": "\"AI 안경 쓰겠다\" 댓글에 경찰 진위 확인 중...이 시각 경남 - YTN",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBia2c4YXVfRGxMOEYyblJXUnhCQTlJWlBUZEhOa21pS3AtcTZPdlFXcHNPalNCWXNDRmNnMERqTEJPc09NY2g2Sm9sbVppYnZFaGVCWmd5SDBnQ1ZTSWc?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 02:45:00 GMT",
+      "summary": "AI 안경 착용 관련 댓글 및 제보와 관련하여 경찰이 진위 확인에 착수했다. 웨어러블 기기의 부작용 및 공공장소에서의 활용 규제에 대한 조사가 진행 중이다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 2
+    }
+  ],
+  "occupationRisks": [
+    {
+      "occupation": "특수교사",
+      "tasks": [
+        "행정 업무",
+        "반복적 업무 처리"
+      ],
+      "reason": "특수교사의 반복 행정 업무를 경감하는 AI 솔루션이 도입되며 업무 부담이 줄어드는 현장 적용 단계가 확인됨.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-20",
+          "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+          "reportDate": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "occupation": "공무원",
+      "tasks": [
+        "일반 행정 업무",
+        "민원 처리"
+      ],
+      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성과 대체 가능성을 검증하는 실험 단계가 진행 중임.",
+      "stage": "기술 시연",
+      "evidence": [
+        {
+          "id": "article-90",
+          "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+          "reportDate": "2026-11-01"
+        }
+      ]
+    }
+  ],
+  "occupationAnalysis": {
+    "startDate": "2026-10-21",
+    "endDate": "2026-11-19",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 2,
+    "acceptedCount": 2
+  },
+  "id": "2026-11-19"
+}
