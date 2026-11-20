@@ -1,0 +1,138 @@
+{
+  "lastUpdated": "2026-11-20T02:47:44.811Z",
+  "reportDate": "2026. 11. 20.",
+  "summary": "- 인프라 투자 및 생태계 확장: 앤스로픽의 상장 추진과 대규모 인프라 지출 전망이 이어지는 가운데, 글로벌 빅테크 기업들의 데이터센터 및 AI 칩셋 확보 경쟁이 지속됨.\n\n- 기술 성능 검증 및 공공 현장 적용: 생성형 AI가 수능 시험에서 만점을 기록하는 등 고난도 문제 해결 능력을 입증했고, 농업 및 로봇 수확 등 산업 현장 자동화가 진전됨.\n\n- 웨어러블 기기와 보안 위협: AI 안경을 활용한 자격시험 부정행위 논란이 확산되면서 국가 시험 관리 제도의 보안 강화를 위한 대책 마련이 본격화됨.",
+  "summaryScore": 84,
+  "dailyVelocity": 1.2,
+  "velocityReason": "오픈AI 및 주요 빅테크의 에이전트 서비스 확대와 고도화된 AI 모델의 실무 역량 입증 소식이 일자리 자동화 압력을 완만하게 가속시킴.",
+  "cumulativeRiskScore": 54.3,
+  "jobRiskScore": 54.3,
+  "riskScoreBreakdown": [
+    {
+      "event": "앤스로픽 상장 및 대규모 자본 유치",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 1
+    },
+    {
+      "event": "AI 수능 시험 만점 및 공공 시험 보안 위협",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 4
+    }
+  ],
+  "news": [
+    {
+      "title": "창업 5년새 기업가치 2000조원... 앤스로픽 상장, AI 불씨 살릴까 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZGZzWVVseG4yaDc2Y2VuSW9qeUp6MUN3Ymt6YTRNb0xXaHRNYWJNRTlBQWFYT2F1VS1BelR6XzhzU3c0LWY0ZUFkanRMR1QyUGREdTRLRTdWRDZSRTg1TWoxTDBvMEc5RWYyUFRtc3NZclBCQnpfMk9GYnVTeWpicjgxTGtOV2V1?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 14:52:00 GMT",
+      "summary": "창업 후 빠르게 성장한 앤스로픽의 상장 추진이 AI 생태계의 투자 열기와 불씨를 다시 지필 수 있을지 주목받고 있다. 대규모 자본 유치가 시장 전반의 밸류에이션에 미칠 영향에 관심이 쏠린다.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 3,
+      "investmentImpact": 5
+    },
+    {
+      "title": "아모데이 \"AI 개발 속도 조절…사업·정치적 압력에 굴복 안 해\" - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA4cVpoOWxlYlRTTnlDT3NWNlNrOFVJWkc0UWlhWUY1b21MQWtUZmZzUXlvYzRVMUxiSWZEam90SEZNMmoySEhhb1RsQ1NsVFd5SkxSdzJETDJJWGl6ZDBXS3VMRHoxUU9tWmc?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 22:00:23 GMT",
+      "summary": "앤스로픽의 CEO가 사업적, 정치적 압력에 굴복하지 않고 AI 개발 속도를 유지하겠다는 입장을 밝혔다. 외부의 우려에도 불구하고 독자적인 기술 개발 노선을 고수하겠다는 의지를 보였다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 4
+    },
+    {
+      "title": "앤트로픽 상장 날 곳곳에서 ’AI 중단’ 목소리…“우리 목숨 위협“ - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yZWtKMHprWnhqZmpwLURnUmZBbWx5ejlnSHVKZ2tDZEI2SG9xb055VTVhTUNKcGh6ZVBRS1BfdV9hREdnQlF0NU9hUmhoN0VBX3RJVlFub1B2MXI1VlA1OG5NVW44YjQ?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 02:34:00 GMT",
+      "summary": "앤트로픽의 상장 시점에 맞춰 AI 기술 발전의 위험성을 경고하고 개발 중단을 촉구하는 목소리가 터져 나왔다. 기술의 급격한 확산이 인간의 생존을 위협할 수 있다는 우려가 제기되고 있다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "\"이게 오늘 수능 국어야, 풀어봐\" 시켰더니…AI, 2분 만에 100점 - JTBC",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15dUtQMW5LOEFHMFBqU0F2N05ZUVlKQUpwMW9JMW0ySE1EYjhzNW1LdHh3XzQ3TXdSR082ZzBCb1hzNGVZSWNpY0FCVnZOMkg3b05iXw?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 03:54:00 GMT",
+      "summary": "최신 AI 모델에 수능 국어 문제를 풀게 한 결과 단 2분 만에 100점을 기록하며 뛰어난 추론 능력을 입증했다. 언어 이해와 논리적 분석 영역에서 인간 수준을 뛰어넘는 성능이 확인되었다.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 4,
+      "investmentImpact": 3
+    },
+    {
+      "title": "AI 로봇이 참외·딸기 수확…경북도 농업연구 153개 과제 수행 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0NDdoMnA1Wk45Mnk1MFppLUh0ZkJ1UVdXbWVPRUdGeWZyTXFuNHZUVDE1QXpaSkdwdzVvbWNPVlFyV0RSNmlBdlRIWGRWSEFoMGVTU2FjQ0wzQUHSAWBBVV95cUxQTUdINVBCeVhDeURhLXFlX2FicGF4OGU1d1MzVUdFUHpMT3RweVY4d01uTjRGYkhrYm80aWZOR28yd2trYjJZbVh0Tm5qdlFVLXZQT3B4UF82N0liVzdQT0Q?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 02:28:55 GMT",
+      "summary": "경북도가 참외와 딸기 수확 등 농업 현장에 AI 로봇을 투입하여 다양한 연구 과제를 수행하고 있다. 농촌 고령화에 따른 인력 부족 문제를 해결하기 위한 자동화 기술 도입이 활발하다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 3
+    }
+  ],
+  "occupationRisks": [
+    {
+      "occupation": "농부",
+      "tasks": [
+        "참외 수확",
+        "딸기 수확"
+      ],
+      "reason": "AI 로봇이 농작물 수확 작업을 수행하는 현장 도입 단계이나, 농업 환경의 다양성과 예외 상황 대처를 위해 인간의 최종 검토 및 관리가 여전히 요구되는 불확실성이 존재합니다.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-5",
+          "title": "AI 로봇이 참외·딸기 수확…경북도 농업연구 153개 과제 수행 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0NDdoMnA1Wk45Mnk1MFppLUh0ZkJ1UVdXbWVPRUdGeWZyTXFuNHZUVDE1QXpaSkdwdzVvbWNPVlFyV0RSNmlBdlRIWGRWSEFoMGVTU2FjQ0wzQUHSAWBBVV95cUxQTUdINVBCeVhDeURhLXFlX2FicGF4OGU1d1MzVUdFUHpMT3RweVY4d01uTjRGYkhrYm80aWZOR28yd2trYjJZbVh0Tm5qdlFVLXZQT3B4UF82N0liVzdQT0Q?oc=5",
+          "reportDate": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "occupation": "공무원",
+      "tasks": [
+        "행정 업무",
+        "일반 민원 및 행정 처리"
+      ],
+      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험이 진행되고 있으나, 정책 판단과 복잡한 민원 조율 과정에서 인간의 검토와 책임이 반드시 필요합니다.",
+      "stage": "기술 시연",
+      "evidence": [
+        {
+          "id": "article-95",
+          "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+          "reportDate": "2026-11-01"
+        }
+      ]
+    },
+    {
+      "occupation": "특수교사",
+      "tasks": [
+        "행정 업무",
+        "반복 업무"
+      ],
+      "reason": "특수교사의 반복 행정 업무를 경감하는 AI 솔루션이 도입되고 있으나, 학생 개개인에 대한 맞춤형 교육과 돌봄의 본질적 영역은 인간 교사의 면밀한 검토가 필수적입니다.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-25",
+          "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+          "reportDate": "2026-11-16"
+        }
+      ]
+    }
+  ],
+  "occupationAnalysis": {
+    "startDate": "2026-10-22",
+    "endDate": "2026-11-20",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 3,
+    "acceptedCount": 3
+  },
+  "id": "2026-11-20"
+}
