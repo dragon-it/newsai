@@ -1,7 +1,94 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T02:54:18.002Z",
+  "updatedAt": "2026-11-20T02:47:44.824Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-20T02:47:44.811Z",
+      "reportDate": "2026. 11. 20.",
+      "summary": "- 인프라 투자 및 생태계 확장: 앤스로픽의 상장 추진과 대규모 인프라 지출 전망이 이어지는 가운데, 글로벌 빅테크 기업들의 데이터센터 및 AI 칩셋 확보 경쟁이 지속됨.\n\n- 기술 성능 검증 및 공공 현장 적용: 생성형 AI가 수능 시험에서 만점을 기록하는 등 고난도 문제 해결 능력을 입증했고, 농업 및 로봇 수확 등 산업 현장 자동화가 진전됨.\n\n- 웨어러블 기기와 보안 위협: AI 안경을 활용한 자격시험 부정행위 논란이 확산되면서 국가 시험 관리 제도의 보안 강화를 위한 대책 마련이 본격화됨.",
+      "summaryScore": 84,
+      "dailyVelocity": 1.2,
+      "velocityReason": "오픈AI 및 주요 빅테크의 에이전트 서비스 확대와 고도화된 AI 모델의 실무 역량 입증 소식이 일자리 자동화 압력을 완만하게 가속시킴.",
+      "cumulativeRiskScore": 54.3,
+      "jobRiskScore": 54.3,
+      "riskScoreBreakdown": [
+        {
+          "event": "앤스로픽 상장 및 대규모 자본 유치",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 수능 시험 만점 및 공공 시험 보안 위협",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "농부",
+          "tasks": [
+            "참외 수확",
+            "딸기 수확"
+          ],
+          "reason": "AI 로봇이 농작물 수확 작업을 수행하는 현장 도입 단계이나, 농업 환경의 다양성과 예외 상황 대처를 위해 인간의 최종 검토 및 관리가 여전히 요구되는 불확실성이 존재합니다.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-5",
+              "title": "AI 로봇이 참외·딸기 수확…경북도 농업연구 153개 과제 수행 - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0NDdoMnA1Wk45Mnk1MFppLUh0ZkJ1UVdXbWVPRUdGeWZyTXFuNHZUVDE1QXpaSkdwdzVvbWNPVlFyV0RSNmlBdlRIWGRWSEFoMGVTU2FjQ0wzQUHSAWBBVV95cUxQTUdINVBCeVhDeURhLXFlX2FicGF4OGU1d1MzVUdFUHpMT3RweVY4d01uTjRGYkhrYm80aWZOR28yd2trYjJZbVh0Tm5qdlFVLXZQT3B4UF82N0liVzdQT0Q?oc=5",
+              "reportDate": "2026-11-20"
+            }
+          ]
+        },
+        {
+          "occupation": "공무원",
+          "tasks": [
+            "행정 업무",
+            "일반 민원 및 행정 처리"
+          ],
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험이 진행되고 있으나, 정책 판단과 복잡한 민원 조율 과정에서 인간의 검토와 책임이 반드시 필요합니다.",
+          "stage": "기술 시연",
+          "evidence": [
+            {
+              "id": "article-95",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "occupation": "특수교사",
+          "tasks": [
+            "행정 업무",
+            "반복 업무"
+          ],
+          "reason": "특수교사의 반복 행정 업무를 경감하는 AI 솔루션이 도입되고 있으나, 학생 개개인에 대한 맞춤형 교육과 돌봄의 본질적 영역은 인간 교사의 면밀한 검토가 필수적입니다.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-25",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-22",
+        "endDate": "2026-11-20",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 3,
+        "acceptedCount": 3
+      },
+      "id": "2026-11-20",
+      "fileName": "2026-11-20.json"
+    },
     {
       "lastUpdated": "2026-11-19T02:54:17.984Z",
       "reportDate": "2026. 11. 19.",
@@ -2999,6 +3086,46 @@
   ],
   "occupationTracking": [
     {
+      "id": "농부",
+      "occupation": "농부",
+      "tasks": [
+        "참외 수확",
+        "딸기 수확"
+      ],
+      "reason": "AI 로봇이 농작물 수확 작업을 수행하는 현장 도입 단계이나, 농업 환경의 다양성과 예외 상황 대처를 위해 인간의 최종 검토 및 관리가 여전히 요구되는 불확실성이 존재합니다.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-20",
+      "lastObserved": "2026-11-20",
+      "lastEvidenceDate": "2026-11-20",
+      "evidence": [
+        {
+          "id": "article-5",
+          "title": "AI 로봇이 참외·딸기 수확…경북도 농업연구 153개 과제 수행 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0NDdoMnA1Wk45Mnk1MFppLUh0ZkJ1UVdXbWVPRUdGeWZyTXFuNHZUVDE1QXpaSkdwdzVvbWNPVlFyV0RSNmlBdlRIWGRWSEFoMGVTU2FjQ0wzQUHSAWBBVV95cUxQTUdINVBCeVhDeURhLXFlX2FicGF4OGU1d1MzVUdFUHpMT3RweVY4d01uTjRGYkhrYm80aWZOR28yd2trYjJZbVh0Tm5qdlFVLXZQT3B4UF82N0liVzdQT0Q?oc=5",
+          "reportDate": "2026-11-20"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-20",
+          "stage": "현장 도입",
+          "reason": "AI 로봇이 농작물 수확 작업을 수행하는 현장 도입 단계이나, 농업 환경의 다양성과 예외 상황 대처를 위해 인간의 최종 검토 및 관리가 여전히 요구되는 불확실성이 존재합니다.",
+          "tasks": [
+            "참외 수확",
+            "딸기 수확"
+          ],
+          "evidence": [
+            {
+              "id": "article-5",
+              "title": "AI 로봇이 참외·딸기 수확…경북도 농업연구 153개 과제 수행 - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0NDdoMnA1Wk45Mnk1MFppLUh0ZkJ1UVdXbWVPRUdGeWZyTXFuNHZUVDE1QXpaSkdwdzVvbWNPVlFyV0RSNmlBdlRIWGRWSEFoMGVTU2FjQ0wzQUHSAWBBVV95cUxQTUdINVBCeVhDeURhLXFlX2FicGF4OGU1d1MzVUdFUHpMT3RweVY4d01uTjRGYkhrYm80aWZOR28yd2trYjJZbVh0Tm5qdlFVLXZQT3B4UF82N0liVzdQT0Q?oc=5",
+              "reportDate": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "특수교사",
       "occupation": "특수교사",
       "tasks": [
@@ -3007,10 +3134,10 @@
         "반복 업무",
         "반복적 업무 처리"
       ],
-      "reason": "특수교사의 반복 행정 업무를 경감하는 AI 솔루션이 도입되며 업무 부담이 줄어드는 현장 적용 단계가 확인됨.",
+      "reason": "특수교사의 반복 행정 업무를 경감하는 AI 솔루션이 도입되고 있으나, 학생 개개인에 대한 맞춤형 교육과 돌봄의 본질적 영역은 인간 교사의 면밀한 검토가 필수적입니다.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-16",
-      "lastObserved": "2026-11-19",
+      "lastObserved": "2026-11-20",
       "lastEvidenceDate": "2026-11-16",
       "evidence": [
         {
@@ -3081,6 +3208,23 @@
           "evidence": [
             {
               "id": "article-20",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "stage": "현장 도입",
+          "reason": "특수교사의 반복 행정 업무를 경감하는 AI 솔루션이 도입되고 있으나, 학생 개개인에 대한 맞춤형 교육과 돌봄의 본질적 영역은 인간 교사의 면밀한 검토가 필수적입니다.",
+          "tasks": [
+            "행정 업무",
+            "반복 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-25",
               "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
               "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
               "reportDate": "2026-11-16"
@@ -3560,12 +3704,13 @@
         "행정 업무",
         "행정 처리 업무",
         "민원 처리",
-        "일반 행정 업무"
+        "일반 행정 업무",
+        "일반 민원 및 행정 처리"
       ],
-      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성과 대체 가능성을 검증하는 실험 단계가 진행 중임.",
+      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험이 진행되고 있으나, 정책 판단과 복잡한 민원 조율 과정에서 인간의 검토와 책임이 반드시 필요합니다.",
       "stage": "기술 시연",
       "firstObserved": "2026-11-09",
-      "lastObserved": "2026-11-19",
+      "lastObserved": "2026-11-20",
       "lastEvidenceDate": "2026-11-04",
       "evidence": [
         {
@@ -3743,6 +3888,23 @@
           "evidence": [
             {
               "id": "article-90",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "stage": "기술 시연",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험이 진행되고 있으나, 정책 판단과 복잡한 민원 조율 과정에서 인간의 검토와 책임이 반드시 필요합니다.",
+          "tasks": [
+            "행정 업무",
+            "일반 민원 및 행정 처리"
+          ],
+          "evidence": [
+            {
+              "id": "article-95",
               "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
               "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
               "reportDate": "2026-11-01"
