@@ -1,0 +1,104 @@
+{
+  "lastUpdated": "2026-11-21T02:56:54.028Z",
+  "reportDate": "2026. 11. 21.",
+  "summary": "- 인프라 및 기술 발전: AI 모델의 고도화된 추론 능력과 리만가설 증명 주장 등 최신 기술 성과가 부각됨.\n\n- 공공 보안 및 제도 개편: AI를 활용한 시험 부정행위가 잇따라 적발되면서 국가시험제도 개편 및 관련 자료 제출 의무화가 추진됨.\n\n- 생태계 투자 및 협력: 실리콘밸리를 중심으로 한 스타트업 등용문과 빅테크 기업들의 인프라 투자 및 협력 논의가 지속됨.",
+  "summaryScore": 84,
+  "dailyVelocity": 1.5,
+  "velocityReason": "AI 모델의 고도화된 추론 및 문제 해결 능력 입증 소식이 이어지며 지식 노동 영역의 자동화 잠재력을 부각시켰음.",
+  "cumulativeRiskScore": 54.5,
+  "jobRiskScore": 54.5,
+  "riskScoreBreakdown": [
+    {
+      "event": "AI 모델의 고난도 수학 문제 및 리만가설 증명 주장",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 1
+    },
+    {
+      "event": "AI 기반 웨어러블 기기를 활용한 시험 부정행위 확산",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 23
+    }
+  ],
+  "news": [
+    {
+      "title": "\"AI 클로드, 수학 최대 난제 리만가설 증명\" 주장 나와 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pWkJUT0wxTDczbFFveG81ZFZPQWExamFSNDA0N3k3dUhia1BPSmZXTjRKbTduWS1SaGd3OENkZ0k1R1FONFJsMlZxQ0F5SWROVDc3UUxDcGJjWTjSAWBBVV95cUxOcS1SMkdFcnZBdlAweVRVdzZmeHFHSkhyWmZNMWlCN18tcDNFQ3pmQm9FejZNMmtwS1pQV1JTWk95MmpYYUh5WnZoOFRrc3VycHZvaWl1bkZrUElYQzNZbEI?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 22:04:04 GMT",
+      "summary": "AI 클로드가 수학의 최대 난제 중 하나인 리만가설을 증명했다는 주장이 제기되어 학계와 기술계의 주목을 받고 있다. 고도화된 추론 능력이 복잡한 학술적 영역까지 확장될 가능성을 보여준다.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    },
+    {
+      "title": "167년 안 풀린 수학 최대 난제 ‘리만 가설’, AI가 증명 주장 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFpvdDh3TmRDbFRLTk5kU3NZamtDeDBIUzM2UWZaTDc5M0lUSElHemlxREFIQlp2eS1USXRGN01SeDRWSzlwbnM5Q0M5QUhUMDhrUUYwZW5xUmt5aV9DUllqcVQ0NnJVZjhudHhXN2NJMDhEV0VEUUJDTy1LdXQ5X0x1UQ?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 01:39:00 GMT",
+      "summary": "167년 동안 풀리지 않았던 수학 난제인 리만 가설을 AI가 증명했다는 주장이 보도되며 AI의 논리적 분석 역량이 재조명받고 있다. 기술의 발전이 전문 연구 영역의 보조 수단으로 활용될 가능성을 시사한다.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    },
+    {
+      "title": "\"AI 클로드, 수학 최대 난제 리만가설 증명\" - 연합뉴스TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sYkphSnB5Z0JfX0JPZFE5c0JfYUV1WDRaWG1uWmtSWW9ubjhRaDl3NG15RUJqMkRLUmQ3OFQtalBBUTVzREdYZG94MTJWN045aENhdHhpTU9ULS04X3lYLXVCcmp0eHM?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 01:38:00 GMT",
+      "summary": "AI 클로드의 리만가설 증명 주장에 관한 보도가 이어지며 대중 매체와 뉴스 채널을 통해 확산되고 있다. AI의 고도화된 문제 해결 기능이 사회적 화두로 떠오르고 있음을 보여준다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 3,
+      "investmentImpact": 3
+    },
+    {
+      "title": "이 대통령 “AI 부정에 맞춰 국가시험제도 전면 개편…이미 치러진 시험 부정 엄중 단죄” - 경향신문",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tQ05VRWI3Y2d3Z3RtX3ZraG03UnNCcmNtVFg5ZTJkVnJnNlA4ekpJUlJwNk51eUdQVXVsV24ydVVVZG45cVZXZkhWY1plalJBSFFZV3hkd1FGd9IBX0FVX3lxTFB4QUc3OU9TZXRYX2pPS3RGQ1BnbzYzUzRCZG8wdDFxWV91TUF4aGRVNDRlb2xtNzY3TVd1b2NpWGtJRUUyc0hGd3pITjA2bWxlbTJ2SEZWNDZ0V2dycFdB?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 05:21:00 GMT",
+      "summary": "대통령이 AI를 악용한 부정행위에 대응하여 국가시험제도를 전면 개편하겠다는 입장을 밝혔다. 이미 치러진 시험에서의 부정행위에 대해서는 엄중한 단죄가 이뤄질 방침이다.",
+      "importance": 5,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 2
+    },
+    {
+      "title": "실리콘밸리 찐부자는 여기서 나온다…스타트업 등용문 된 이것[김인엽의 AI 프런티어] - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QWThIQm1YTko0aEFXTVlOc29vRThwODNBcVpwODNVOUg4d0hmTXBRV2tFWjZJMWJmbThkSVZiQTBKeFBrTnFxaE9oRFhTOG5ka1hVclltZHJTZw?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 01:00:08 GMT",
+      "summary": "실리콘밸리에서 스타트업들이 차세대 기술의 등용문으로 자리 잡으며 투자와 혁신이 집중되고 있다. AI 생태계 전반의 역동성이 계속해서 강화되는 모습이다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 5
+    }
+  ],
+  "occupationRisks": [
+    {
+      "occupation": "특수교사",
+      "tasks": [
+        "행정 업무",
+        "반복 업무"
+      ],
+      "reason": "특수교사의 행정 및 반복 업무를 경감해주는 AI 솔루션이 사회혁신 대상을 수상하며 교육 현장에서의 실무 부담 완화 효과가 확인됨.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-30",
+          "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+          "reportDate": "2026-11-16"
+        }
+      ]
+    }
+  ],
+  "occupationAnalysis": {
+    "startDate": "2026-10-23",
+    "endDate": "2026-11-21",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 1,
+    "acceptedCount": 1
+  },
+  "id": "2026-11-21"
+}
