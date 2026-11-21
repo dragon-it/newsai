@@ -1,5 +1,108 @@
 [
   {
+    "lastUpdated": "2026-11-21T02:56:54.028Z",
+    "reportDate": "2026. 11. 21.",
+    "summary": "- 인프라 및 기술 발전: AI 모델의 고도화된 추론 능력과 리만가설 증명 주장 등 최신 기술 성과가 부각됨.\n\n- 공공 보안 및 제도 개편: AI를 활용한 시험 부정행위가 잇따라 적발되면서 국가시험제도 개편 및 관련 자료 제출 의무화가 추진됨.\n\n- 생태계 투자 및 협력: 실리콘밸리를 중심으로 한 스타트업 등용문과 빅테크 기업들의 인프라 투자 및 협력 논의가 지속됨.",
+    "summaryScore": 84,
+    "dailyVelocity": 1.5,
+    "velocityReason": "AI 모델의 고도화된 추론 및 문제 해결 능력 입증 소식이 이어지며 지식 노동 영역의 자동화 잠재력을 부각시켰음.",
+    "cumulativeRiskScore": 54.5,
+    "jobRiskScore": 54.5,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 모델의 고난도 수학 문제 및 리만가설 증명 주장",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "AI 기반 웨어러블 기기를 활용한 시험 부정행위 확산",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 23
+      }
+    ],
+    "news": [
+      {
+        "title": "\"AI 클로드, 수학 최대 난제 리만가설 증명\" 주장 나와 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pWkJUT0wxTDczbFFveG81ZFZPQWExamFSNDA0N3k3dUhia1BPSmZXTjRKbTduWS1SaGd3OENkZ0k1R1FONFJsMlZxQ0F5SWROVDc3UUxDcGJjWTjSAWBBVV95cUxOcS1SMkdFcnZBdlAweVRVdzZmeHFHSkhyWmZNMWlCN18tcDNFQ3pmQm9FejZNMmtwS1pQV1JTWk95MmpYYUh5WnZoOFRrc3VycHZvaWl1bkZrUElYQzNZbEI?oc=5",
+        "pubDate": "Fri, 20 Nov 2026 22:04:04 GMT",
+        "summary": "AI 클로드가 수학의 최대 난제 중 하나인 리만가설을 증명했다는 주장이 제기되어 학계와 기술계의 주목을 받고 있다. 고도화된 추론 능력이 복잡한 학술적 영역까지 확장될 가능성을 보여준다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "167년 안 풀린 수학 최대 난제 ‘리만 가설’, AI가 증명 주장 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFpvdDh3TmRDbFRLTk5kU3NZamtDeDBIUzM2UWZaTDc5M0lUSElHemlxREFIQlp2eS1USXRGN01SeDRWSzlwbnM5Q0M5QUhUMDhrUUYwZW5xUmt5aV9DUllqcVQ0NnJVZjhudHhXN2NJMDhEV0VEUUJDTy1LdXQ5X0x1UQ?oc=5",
+        "pubDate": "Sat, 21 Nov 2026 01:39:00 GMT",
+        "summary": "167년 동안 풀리지 않았던 수학 난제인 리만 가설을 AI가 증명했다는 주장이 보도되며 AI의 논리적 분석 역량이 재조명받고 있다. 기술의 발전이 전문 연구 영역의 보조 수단으로 활용될 가능성을 시사한다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "\"AI 클로드, 수학 최대 난제 리만가설 증명\" - 연합뉴스TV",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5sYkphSnB5Z0JfX0JPZFE5c0JfYUV1WDRaWG1uWmtSWW9ubjhRaDl3NG15RUJqMkRLUmQ3OFQtalBBUTVzREdYZG94MTJWN045aENhdHhpTU9ULS04X3lYLXVCcmp0eHM?oc=5",
+        "pubDate": "Sat, 21 Nov 2026 01:38:00 GMT",
+        "summary": "AI 클로드의 리만가설 증명 주장에 관한 보도가 이어지며 대중 매체와 뉴스 채널을 통해 확산되고 있다. AI의 고도화된 문제 해결 기능이 사회적 화두로 떠오르고 있음을 보여준다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "이 대통령 “AI 부정에 맞춰 국가시험제도 전면 개편…이미 치러진 시험 부정 엄중 단죄” - 경향신문",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tQ05VRWI3Y2d3Z3RtX3ZraG03UnNCcmNtVFg5ZTJkVnJnNlA4ekpJUlJwNk51eUdQVXVsV24ydVVVZG45cVZXZkhWY1plalJBSFFZV3hkd1FGd9IBX0FVX3lxTFB4QUc3OU9TZXRYX2pPS3RGQ1BnbzYzUzRCZG8wdDFxWV91TUF4aGRVNDRlb2xtNzY3TVd1b2NpWGtJRUUyc0hGd3pITjA2bWxlbTJ2SEZWNDZ0V2dycFdB?oc=5",
+        "pubDate": "Fri, 20 Nov 2026 05:21:00 GMT",
+        "summary": "대통령이 AI를 악용한 부정행위에 대응하여 국가시험제도를 전면 개편하겠다는 입장을 밝혔다. 이미 치러진 시험에서의 부정행위에 대해서는 엄중한 단죄가 이뤄질 방침이다.",
+        "importance": 5,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 2
+      },
+      {
+        "title": "실리콘밸리 찐부자는 여기서 나온다…스타트업 등용문 된 이것[김인엽의 AI 프런티어] - 한국경제",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QWThIQm1YTko0aEFXTVlOc29vRThwODNBcVpwODNVOUg4d0hmTXBRV2tFWjZJMWJmbThkSVZiQTBKeFBrTnFxaE9oRFhTOG5ka1hVclltZHJTZw?oc=5",
+        "pubDate": "Sat, 21 Nov 2026 01:00:08 GMT",
+        "summary": "실리콘밸리에서 스타트업들이 차세대 기술의 등용문으로 자리 잡으며 투자와 혁신이 집중되고 있다. AI 생태계 전반의 역동성이 계속해서 강화되는 모습이다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 5
+      }
+    ],
+    "occupationRisks": [
+      {
+        "occupation": "특수교사",
+        "tasks": [
+          "행정 업무",
+          "반복 업무"
+        ],
+        "reason": "특수교사의 행정 및 반복 업무를 경감해주는 AI 솔루션이 사회혁신 대상을 수상하며 교육 현장에서의 실무 부담 완화 효과가 확인됨.",
+        "stage": "현장 도입",
+        "evidence": [
+          {
+            "id": "article-30",
+            "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+            "reportDate": "2026-11-16"
+          }
+        ]
+      }
+    ],
+    "occupationAnalysis": {
+      "startDate": "2026-10-23",
+      "endDate": "2026-11-21",
+      "articleCount": 100,
+      "model": "gemini-3.5-flash-lite",
+      "proposedCount": 1,
+      "acceptedCount": 1
+    }
+  },
+  {
     "lastUpdated": "2026-11-20T02:47:44.811Z",
     "reportDate": "2026. 11. 20.",
     "summary": "- 인프라 투자 및 생태계 확장: 앤스로픽의 상장 추진과 대규모 인프라 지출 전망이 이어지는 가운데, 글로벌 빅테크 기업들의 데이터센터 및 AI 칩셋 확보 경쟁이 지속됨.\n\n- 기술 성능 검증 및 공공 현장 적용: 생성형 AI가 수능 시험에서 만점을 기록하는 등 고난도 문제 해결 능력을 입증했고, 농업 및 로봇 수확 등 산업 현장 자동화가 진전됨.\n\n- 웨어러블 기기와 보안 위협: AI 안경을 활용한 자격시험 부정행위 논란이 확산되면서 국가 시험 관리 제도의 보안 강화를 위한 대책 마련이 본격화됨.",
@@ -134,7 +237,8 @@
       "model": "gemini-3.5-flash-lite",
       "proposedCount": 3,
       "acceptedCount": 3
-    }
+    },
+    "id": "2026-11-20"
   },
   {
     "lastUpdated": "2026-11-19T02:54:17.984Z",
@@ -3080,88 +3184,5 @@
       }
     ],
     "id": "2026-10-20"
-  },
-  {
-    "lastUpdated": "2026-10-18T23:51:54.742Z",
-    "reportDate": "2026. 10. 19.",
-    "summary": "- AI 알고리즘 편향성 및 사회적 소외 문제: 생성형 AI가 학습 데이터의 불균형으로 인해 특정 소수자를 배제하거나 왜곡할 위험성이 제기됨.\n\n- 기술 혁신 및 에이전트 고도화: 오픈AI의 차세대 모델 업그레이드로 복합적인 에이전트 병렬 처리 기능이 강화되어 작업 효율성이 비약적으로 상승함.\n\n- 교육 현장의 AI 활용 격차: 교실 내 AI 도입은 일상화되었으나 관련 정책 및 가이드라인에 대한 교사들의 숙지도가 낮아 교육적 혼란 발생 우려.\n\n- AI 인프라 수급 불안정: 미국 내 데이터센터 구축 프로젝트가 지연되는 등 급격한 AI 수요를 뒷받침할 인프라 확보에 차질이 발생함.",
-    "summaryScore": 82,
-    "dailyVelocity": 1.2,
-    "velocityReason": "오픈AI의 에이전트 병렬 실행 기능 도입으로 인해 사무 및 업무 자동화의 범위와 복잡성이 한층 더 가속화됨.",
-    "cumulativeRiskScore": 54.5,
-    "jobRiskScore": 54.5,
-    "riskScoreBreakdown": [
-      {
-        "event": "오픈AI 에이전트 고도화",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 2
-      },
-      {
-        "event": "AI 데이터센터 인프라 차질",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      },
-      {
-        "event": "AI 학습 데이터 편향성 이슈",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 1
-      }
-    ],
-    "news": [
-      {
-        "title": "[단독] AI가 만든 세계에서 ‘소수자’는 지워진다 - 한겨레",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iX0tOa3VFZkxrMW5PSkhqXzhiTTJleXVYaHlZMlpOVmw5VGFrVXFyalItTlhWa1dwTFo0b1FieTNSMjNtOEdDeGozTWZETHdCZ2VkOEhGWVBWenBUdlNnRDUtNkdYbWxodDEtamFqaHo1UQ?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 21:45:00 GMT",
-        "summary": "AI가 학습 과정에서 데이터 불균형으로 인해 사회적 소수자를 배제하거나 지우는 문제가 발생하고 있음. 이는 AI 모델의 공정성 및 윤리적 책임에 대한 중대한 과제를 제시함.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 2,
-        "investmentImpact": 3
-      },
-      {
-        "title": "오픈AI, ‘GPT-6 아스트라 프로’ 업그레이드...에이전트 병렬 실행 지원 - AI타임스",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fRjMyNFJlSnd5LTRkeElJUVEwVUJrZUtlVjlWdEdxSVV3RW4wc2NDQ0dmYllpMHVfNzdldjBtX0pKdUVHWm83dk9samtKRFhMekUxRDdBUXR4UXcyUE1rMEFZaG5aMV9uREE?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 08:51:14 GMT",
-        "summary": "오픈AI가 'GPT-6 아스트라 프로'로 모델을 업그레이드하며 에이전트의 병렬 실행 기능을 강화함. 복잡한 다중 업무를 AI가 동시에 처리할 수 있게 되어 자동화 속도가 가속화될 전망임.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 5,
-        "investmentImpact": 5
-      },
-      {
-        "title": "AI has become routine in classrooms… only 17% of teachers know the relevant policies - 경향신문",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iU0ZHaUhFWENnUFpSeEs1MlZRbUF2SndUYVdNU1huWXVhRF9ITGctU19EVnFRUlRoNUkyUW9QbUNsUXFITjN6VTdub3JDXzFnMzk2YTNnTEd5RFFWSXc?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 23:22:00 GMT",
-        "summary": "학교 현장에서 AI 활용이 일상화되었으나, 교육 정책을 제대로 숙지한 교사는 17%에 불과함. 기술 도입 속도를 정책과 교육이 따라가지 못하는 괴리가 나타나고 있음.",
-        "importance": 3,
-        "aiImpact": 2,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "\"미국 데이터센터 47건 차질…AI 인프라 붐 균열 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5bmtvbXc3aXdVNlZaSm93QlBlYzZYNm5OLWZLVGNZUW83YVUzQnFJeUR2NVU5MEdGRVBVSmpPLWhfYUdUcGdyczlGcVB5c1ZLc0pVc2t2eHZNeDDSAWBBVV95cUxQWW1WQ0VpTEdid09xLVROZzh5UHlENDRrczJzTU1ucWx1T3VrQy1tNVBJeWxfa2pLLUpqX0ZVVE5FZTVIV0FRc1hVNnZjODU5WXRGZzJrYUFyd2hqWTN5UEg?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 23:19:33 GMT",
-        "summary": "미국 내 47건의 데이터센터 구축 프로젝트가 차질을 빚으면서 AI 인프라 확장에 적신호가 켜짐. 전력 수급 및 공급망 문제로 인해 AI 시장 성장에 균열이 발생하고 있음.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "[비바100] “소비자 속마음도 판다”⋯ AI로 영상 속 고객 목소리 읽는 ‘싱클리’ - 브릿지경제",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5b3dGbTBqSlhsZXdiOExFU01ZTVh6bGRMaDFQeTFITFZZOTJrRGRKRzZKZlREMWRtdm9DaUZXSnZFS1BNMVJxNlZFMW1TeGlBdDZOajRFelM1dw?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 21:34:00 GMT",
-        "summary": "AI 분석 솔루션 '싱클리'가 영상 속 소비자 목소리를 분석하여 마케팅 통찰을 제공함. 고객 데이터를 정교하게 분석하는 자동화 기술이 상업적 영역으로 빠르게 확장되고 있음.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 4
-      }
-    ],
-    "id": "2026-10-19"
   }
 ]

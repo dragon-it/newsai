@@ -1,7 +1,60 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T02:47:44.824Z",
+  "updatedAt": "2026-11-21T02:56:54.045Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-21T02:56:54.028Z",
+      "reportDate": "2026. 11. 21.",
+      "summary": "- 인프라 및 기술 발전: AI 모델의 고도화된 추론 능력과 리만가설 증명 주장 등 최신 기술 성과가 부각됨.\n\n- 공공 보안 및 제도 개편: AI를 활용한 시험 부정행위가 잇따라 적발되면서 국가시험제도 개편 및 관련 자료 제출 의무화가 추진됨.\n\n- 생태계 투자 및 협력: 실리콘밸리를 중심으로 한 스타트업 등용문과 빅테크 기업들의 인프라 투자 및 협력 논의가 지속됨.",
+      "summaryScore": 84,
+      "dailyVelocity": 1.5,
+      "velocityReason": "AI 모델의 고도화된 추론 및 문제 해결 능력 입증 소식이 이어지며 지식 노동 영역의 자동화 잠재력을 부각시켰음.",
+      "cumulativeRiskScore": 54.5,
+      "jobRiskScore": 54.5,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 모델의 고난도 수학 문제 및 리만가설 증명 주장",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 기반 웨어러블 기기를 활용한 시험 부정행위 확산",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 23
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "특수교사",
+          "tasks": [
+            "행정 업무",
+            "반복 업무"
+          ],
+          "reason": "특수교사의 행정 및 반복 업무를 경감해주는 AI 솔루션이 사회혁신 대상을 수상하며 교육 현장에서의 실무 부담 완화 효과가 확인됨.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-30",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-23",
+        "endDate": "2026-11-21",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 1,
+        "acceptedCount": 1
+      },
+      "id": "2026-11-21",
+      "fileName": "2026-11-21.json"
+    },
     {
       "lastUpdated": "2026-11-20T02:47:44.811Z",
       "reportDate": "2026. 11. 20.",
@@ -3134,10 +3187,10 @@
         "반복 업무",
         "반복적 업무 처리"
       ],
-      "reason": "특수교사의 반복 행정 업무를 경감하는 AI 솔루션이 도입되고 있으나, 학생 개개인에 대한 맞춤형 교육과 돌봄의 본질적 영역은 인간 교사의 면밀한 검토가 필수적입니다.",
+      "reason": "특수교사의 행정 및 반복 업무를 경감해주는 AI 솔루션이 사회혁신 대상을 수상하며 교육 현장에서의 실무 부담 완화 효과가 확인됨.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-16",
-      "lastObserved": "2026-11-20",
+      "lastObserved": "2026-11-21",
       "lastEvidenceDate": "2026-11-16",
       "evidence": [
         {
@@ -3225,6 +3278,23 @@
           "evidence": [
             {
               "id": "article-25",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "stage": "현장 도입",
+          "reason": "특수교사의 행정 및 반복 업무를 경감해주는 AI 솔루션이 사회혁신 대상을 수상하며 교육 현장에서의 실무 부담 완화 효과가 확인됨.",
+          "tasks": [
+            "행정 업무",
+            "반복 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-30",
               "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
               "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
               "reportDate": "2026-11-16"
