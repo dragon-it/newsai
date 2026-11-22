@@ -1,5 +1,96 @@
 [
   {
+    "lastUpdated": "2026-11-22T01:51:45.193Z",
+    "reportDate": "2026. 11. 22.",
+    "summary": "- AI 추론 및 문제 해결 능력의 고도화: 최신 AI 모델이 수학 최대 난제인 리만 가설 증명 시도 및 고난도 시험에서 만점에 가까운 성적을 거두며 학술적·전문적 영역까지 추론 성능을 확장함.\n\n- 웨어러블 AI 기기를 악용한 보안 및 공정성 위협: AI 안경과 초소형 카메라를 결합한 국가시험 부정행위가 잇따라 적발되면서 공공 시험 제도의 보안 기준과 관리 체계에 비상이 걸림.\n\n- AI 기반 사이버 공격 및 보안 방어의 격화: AI를 활용한 해킹 및 취약점 탐지 속도가 빨라짐에 따라 대학 및 연구기관을 중심으로 AI 기반 메일 보안 및 방어 솔루션 도입이 확산됨.",
+    "summaryScore": 88,
+    "dailyVelocity": 1.2,
+    "velocityReason": "AI의 고도화된 추론 성능과 웨어러블 기기를 활용한 시험 문제 풀이 사례가 확산되면서 지식 근로 직무의 자동화 및 보안 위협 가속화 소식이 주요 원인임.",
+    "cumulativeRiskScore": 54.6,
+    "jobRiskScore": 54.6,
+    "riskScoreBreakdown": [
+      {
+        "event": "AI 안경을 활용한 국가자격시험 및 수능 부정행위 확산",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 27
+      },
+      {
+        "event": "AI 기반 해킹 및 사이버 공격 역량 고도화",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 3
+      },
+      {
+        "event": "AI 추론 능력을 통한 고난도 학술·전문 문제 해결",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 1
+      }
+    ],
+    "news": [
+      {
+        "title": "167년 안 풀린 수학 최대 난제 ‘리만 가설’, AI가 증명 주장 - 조선일보",
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFpvdDh3TmRDbFRLTk5kU3NZamtDeDBIUzM2UWZaTDc5M0lUSElHemlxREFIQlp2eS1USXRGN01SeDRWSzlwbnM5Q0M5QUhUMDhrUUYwZW5xUmt5aV9DUllqcVQ0NnJVZjhudHhXN2NJMDhEV0VEUUJDTy1LdXQ5X0x1UQ?oc=5",
+        "pubDate": "Sat, 21 Nov 2026 01:39:00 GMT",
+        "summary": "AI가 수학의 최대 난제 중 하나인 리만 가설을 증명했다는 주장이 제기되어 학계의 주목을 받고 있다. 이는 AI의 복잡한 추론 능력이 학술적 영역까지 확장되고 있음을 보여준다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "앞치마 입은 논술 시험 수험생…‘AI 커닝 꼼짝마’ [포토] - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE90cW9uNm1VOUZKMTRCczNPcUR2dkhoOF9yeGJ0MkxMMGNyTVE5WXFvajdOZGYtckxzVzI3UlNZaFVUYlNxdzgtQXBFaE82ZW5ZNEhGeXd1OHFTaHhHSzZJUVpYQ0UzeXIzdVptYUhiYjNCZw?oc=5",
+        "pubDate": "Sat, 21 Nov 2026 13:28:00 GMT",
+        "summary": "AI 안경 등 첨단 기기를 악용한 시험 부정행위를 방지하기 위해 국가시험 관리 체계가 강화되고 있다. 웨어러블 AI 기기의 급격한 보급이 공공 시험의 보안 기준에 새로운 도전을 안겨주고 있다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 3
+      },
+      {
+        "title": "[AI위클리] AI가 취약점 찾고 공격 코드까지…해킹 속도 빨라진다 - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5YaEVzWWp3aThGYXh4WjVxWnMxZjg0Nmd0aDBPMVdGazhGSDVZRS1TYkVoWkVqX01DamliZkFHRjlWYkRFc0V1NkdyZXdYZy1MNG1ZQWVCMkpnM0HSAWBBVV95cUxQaC1xT0ppeUhzRjFjSVdYcVRHRjdFTGRPSUs3bUw1QkVHUG1faWtiaDdxc3lwekpuVUF1RzZOdnh3YlQ5LVZ6LVBhallEZFM5SXdSRl9hakhKOEtSdnFQR2Q?oc=5",
+        "pubDate": "Sun, 22 Nov 2026 00:30:01 GMT",
+        "summary": "인공지능이 시스템의 취약점을 탐지하고 공격 코드까지 생성하는 등 해킹 속도가 비약적으로 빨라지고 있다. 이에 따라 전방위적인 사이버 보안 강화의 필요성이 커지고 있다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "툭하면 대형 인터넷 장애사건…\"AI 발전에 1∼2년 특히 위험\" - 연합뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0xeGhCN3BaVkQ4Si1oaWlKUWRTN1lWYllFQU9qRl82OHRHWkFxakJCT3BZWGpGYmNiS2dWQVB4b3YtaWhuOGs1bFVJSEpxYmZRaHVuX2tUb3VpR2PSAWBBVV95cUxOSkFkOGMtcG04QXFWOFJUYWgyd21jOTlGaWYyOXZ0eElVZkV2bHhiYU41Q0VramJlanlYTlVjVlg5X2otUHE2WXA2YkRFZkpFTHVGcm0zOUo0TktNeS14NjM?oc=5",
+        "pubDate": "Sat, 21 Nov 2026 23:10:08 GMT",
+        "summary": "대형 인터넷 장애 사고와 관련하여 전문가들은 향후 1~2년간 AI 발전 속도에 따른 인프라 리스크가 특히 위험하다고 경고했다. 급격한 기술 확산에 따른 시스템 안정성 확보가 주요 과제로 떠올랐다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "툭하면 대형 인터넷 장애…NYT “AI 발전에 1∼2년 특히 위험” - 동아일보",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rT01Pc2hfd29NeGdKREIxbEhaNXpGVVZhZk55em9XckxkdmpZRGJZMGtsUk1kZTdDc256YjQwUTN1dVZ5Nk9SQkhPYnl4dC04LTFwcEhEaEQ2RWMxc3ZEWXZSakJlUlRDN2kwRlF6eDdnN0HSAWZBVV95cUxPd1dub0t4cE9lem94UXRjdExSTU11dkVZZXQ3MFQ4S2NXSEdLRVM3OXE2cXRCYXZXNmsxMFZHT2k4V1pEOWtIQ2I1YkxmMmVydDhCeVQ2X1FrU0gxWm1kekVNVW9kWlE?oc=5",
+        "pubDate": "Sun, 22 Nov 2026 01:39:41 GMT",
+        "summary": "뉴욕타임스 등 주요 외신을 통해 향후 1~2년 동안 AI 발전 과정에서 발생할 수 있는 대형 인터넷 장애 등 인프라 위험성이 집중 조명되었다. 기술 도입 가속화에 따른 사전 리스크 관리의 중요성이 강조되고 있다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      }
+    ],
+    "occupationRisks": [],
+    "occupationAnalysis": {
+      "startDate": "2026-10-24",
+      "endDate": "2026-11-22",
+      "articleCount": 100,
+      "model": "gemini-3.5-flash-lite",
+      "proposedCount": 0,
+      "acceptedCount": 0
+    }
+  },
+  {
     "lastUpdated": "2026-11-21T02:56:54.028Z",
     "reportDate": "2026. 11. 21.",
     "summary": "- 인프라 및 기술 발전: AI 모델의 고도화된 추론 능력과 리만가설 증명 주장 등 최신 기술 성과가 부각됨.\n\n- 공공 보안 및 제도 개편: AI를 활용한 시험 부정행위가 잇따라 적발되면서 국가시험제도 개편 및 관련 자료 제출 의무화가 추진됨.\n\n- 생태계 투자 및 협력: 실리콘밸리를 중심으로 한 스타트업 등용문과 빅테크 기업들의 인프라 투자 및 협력 논의가 지속됨.",
@@ -100,7 +191,8 @@
       "model": "gemini-3.5-flash-lite",
       "proposedCount": 1,
       "acceptedCount": 1
-    }
+    },
+    "id": "2026-11-21"
   },
   {
     "lastUpdated": "2026-11-20T02:47:44.811Z",
@@ -3101,88 +3193,5 @@
       }
     ],
     "id": "2026-10-22"
-  },
-  {
-    "lastUpdated": "2026-10-20T00:52:18.872Z",
-    "reportDate": "2026. 10. 20.",
-    "summary": "- 생성형 AI의 사무 생산성 역설: 업무 자동화 도구 도입이 오히려 회의 시간 증가 등 비효율을 초래할 수 있다는 실증적 분석이 제기됨.\n\n- 엔지니어링 교육의 패러다임 변화: AI의 코드 작성 능력 향상에 따라 개발자의 역할이 실무 구현 중심에서 아키텍처 설계와 문제 해결 중심으로 재정립됨.\n\n- 피지컬 AI의 부상: AI가 가상 세계를 넘어 물리적 환경과 상호작용하는 '피지컬 AI'가 산업 전반의 차세대 핵심 동력으로 주목받고 있음.\n\n- 미디어 및 공공의 기술 고도화: 언론사의 독자적인 거대언어모델 개발 및 취재 데이터 활용, 일반인의 AI 기술 활용 능력 강화 프로그램 등이 활발히 전개됨.",
-    "summaryScore": 78,
-    "dailyVelocity": 1.2,
-    "velocityReason": "피지컬 AI의 부상과 개발자의 역할 재정의가 산업 전반의 기술적 요구 수준을 높이며 직무 변화 속도를 가속화함.",
-    "cumulativeRiskScore": 54.6,
-    "jobRiskScore": 54.6,
-    "riskScoreBreakdown": [
-      {
-        "event": "개발자 역량 모델 재정립(CMU·MS 협업)",
-        "sign": "+",
-        "impact": 3,
-        "newsIndex": 2
-      },
-      {
-        "event": "피지컬 AI로의 산업 무게중심 이동",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 3
-      },
-      {
-        "event": "AI 활용 사무 효율성 검증",
-        "sign": "+",
-        "impact": 1,
-        "newsIndex": 1
-      }
-    ],
-    "news": [
-      {
-        "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 21:39:21 GMT",
-        "summary": "AI 도구 도입이 보고서와 발표 자료 작성 시간을 줄였으나, 후속 업무 복잡성으로 인해 오히려 회의 시간이 길어지는 현상이 나타남. 기술적 생산성 향상이 실제 조직의 업무 효율성으로 직결되지는 않을 수 있다는 경고를 담고 있음.",
-        "importance": 4,
-        "aiImpact": 3,
-        "automationPotential": 4,
-        "investmentImpact": 2
-      },
-      {
-        "title": "“AI가 코드를 작성한다, 개발자는 무엇을 해야 할까?”…카네기멜런대·마이크로소프트, AI 시대 엔지니어 육성 나서 - 인공지능신문",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wTXNGdnFhWUFUMi1tVGVmN19Dd0V3aDBOUF9xTjZGRWJlbDYxcmM2b3VMOFR6WExpS2JTaVRuRFY5Wkp2Qm56TjRFbldjQmdqLXhSQl8za1dpUFRsdXJ1UnhjQk8xY00?oc=5",
-        "pubDate": "Sun, 18 Oct 2026 08:11:44 GMT",
-        "summary": "AI가 코드 작성을 대체함에 따라 엔지니어의 역할이 코딩에서 문제 해결과 아키텍처 설계로 변화하고 있음. 이를 반영해 카네기멜런대와 MS는 AI 시대에 적합한 엔지니어 교육 과정을 새롭게 준비 중임.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 5,
-        "investmentImpact": 3
-      },
-      {
-        "title": "젠슨 황 \"AI 다음 물결은 피지컬 AI…다시는 이런 기회 없다\" [IT썰] - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YNllOWC1VamFwenE2ZlNBNFp5bzMzdzFuRHNKRy1COXJvS3EyQjAzellJMVU2c2ZmODVCVmRtTXpvVXh6bFNkNm5Sd2ZycHJhNnJ0aElyeFZYX1BDLXF2c3V6RWlxZGfSAWxBVV95cUxQT2Z0b2h5Y2dibTlzRE84Q1htNlhObjV2UHEydll3WjZ4azZyYV84cUxndGM5V253aVZnMUdQbU5NaUpqQVRsYl9taFBXNGh6alJIcTRESGk2cGg0YVFMMTlCeXlRQkVKNURuQ2w?oc=5",
-        "pubDate": "Mon, 19 Oct 2026 23:22:47 GMT",
-        "summary": "엔비디아 젠슨 황 CEO가 다음 AI의 물결은 물리 세계를 제어하는 '피지컬 AI'가 될 것이라 예견함. 로봇과 자율주행 등 실물 산업과의 결합이 거대한 경제적 기회를 창출할 것으로 전망함.",
-        "importance": 5,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "연합뉴스, AI로 '취재 아카이브' 분석한다…'연합LM' 독자개발 - 연합뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Kdl94ZXBwSUQxODFBWmVuY0FsSXVMcG1oUGt6WnRsc2NxVE5CQkU3NjQxTE1Ra0RnSDNMbHMta3AzYjlfb0JyWXA4V3ptM0FrcDhlSEk3OHN3cTDSAWBBVV95cUxONHBtSVMzTF9sbzlpLUF6UldVTlhrZnM5b2piaFFVWGw1ZDFBR3NQNEtuT0lZNWJMLXhHTkJpSGJnRWpYMzdkODNfd293WlpjT0ZFX21mdTlFcHlHdHFic2E?oc=5",
-        "pubDate": "Tue, 20 Oct 2026 00:00:04 GMT",
-        "summary": "연합뉴스가 뉴스 데이터를 효과적으로 분석하고 활용하기 위해 독자적인 '연합LM'을 개발함. 방대한 취재 아카이브를 AI로 구조화하여 정보 가치를 극대화하려는 전략임.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      },
-      {
-        "title": "영상·포스터 제작부터 협동 미션까지 ‘행복 AI 챌린지’ 현장 - SK텔레콤 뉴스룸",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAzYWptZzE5c1J3M1NDVUU4c1BTX1hyamVpd0pBLVJFaUJ6Y1JiakExUl8tNDhGSHlsTDZHVkVEdWk5TWNrTmpnZw?oc=5",
-        "pubDate": "Mon, 19 Oct 2026 23:31:47 GMT",
-        "summary": "SK텔레콤이 영상 및 포스터 제작 등 다양한 분야에서 AI를 활용하는 챌린지를 운영함. 대중의 AI 기술 이해도를 높이고 실질적인 창작 도구로서의 활용 가능성을 공유하는 장이 됨.",
-        "importance": 2,
-        "aiImpact": 2,
-        "automationPotential": 2,
-        "investmentImpact": 2
-      }
-    ],
-    "id": "2026-10-20"
   }
 ]
