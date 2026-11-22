@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T02:56:54.045Z",
+  "updatedAt": "2026-11-22T01:51:45.207Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-22T01:51:45.193Z",
+      "reportDate": "2026. 11. 22.",
+      "summary": "- AI 추론 및 문제 해결 능력의 고도화: 최신 AI 모델이 수학 최대 난제인 리만 가설 증명 시도 및 고난도 시험에서 만점에 가까운 성적을 거두며 학술적·전문적 영역까지 추론 성능을 확장함.\n\n- 웨어러블 AI 기기를 악용한 보안 및 공정성 위협: AI 안경과 초소형 카메라를 결합한 국가시험 부정행위가 잇따라 적발되면서 공공 시험 제도의 보안 기준과 관리 체계에 비상이 걸림.\n\n- AI 기반 사이버 공격 및 보안 방어의 격화: AI를 활용한 해킹 및 취약점 탐지 속도가 빨라짐에 따라 대학 및 연구기관을 중심으로 AI 기반 메일 보안 및 방어 솔루션 도입이 확산됨.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI의 고도화된 추론 성능과 웨어러블 기기를 활용한 시험 문제 풀이 사례가 확산되면서 지식 근로 직무의 자동화 및 보안 위협 가속화 소식이 주요 원인임.",
+      "cumulativeRiskScore": 54.6,
+      "jobRiskScore": 54.6,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 안경을 활용한 국가자격시험 및 수능 부정행위 확산",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 27
+        },
+        {
+          "event": "AI 기반 해킹 및 사이버 공격 역량 고도화",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 3
+        },
+        {
+          "event": "AI 추론 능력을 통한 고난도 학술·전문 문제 해결",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 1
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-24",
+        "endDate": "2026-11-22",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 0,
+        "acceptedCount": 0
+      },
+      "id": "2026-11-22",
+      "fileName": "2026-11-22.json"
+    },
     {
       "lastUpdated": "2026-11-21T02:56:54.028Z",
       "reportDate": "2026. 11. 21.",
