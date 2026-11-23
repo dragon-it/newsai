@@ -1,0 +1,86 @@
+{
+  "lastUpdated": "2026-11-23T02:07:40.976Z",
+  "reportDate": "2026. 11. 23.",
+  "summary": "- 공공시험 보안 위협 심화: AI 안경 등 웨어러블 기기를 활용한 첨단 부정행위가 국가자격시험과 수능 등에서 잇따라 적발되며 공정성 유지에 비상이 걸림.\n\n- 인프라 및 공급망 리스크: AI 칩 수요 급증과 지정학적 갈등으로 인해 핵심 소재 공급망과 인프라 투자 안정성이 주요 화두로 부상함.\n\n- 글로벌 에이전트 및 서비스 확대: 구글과 오픈AI 등 빅테크의 에이전트 서비스가 일상 및 업무 영역으로 확장되며 기술 활용도가 가속화되고 있음.",
+  "summaryScore": 88,
+  "dailyVelocity": 1.5,
+  "velocityReason": "AI 웨어러블 기기를 활용한 고난도 시험 부정행위 및 인프라 공급망 리스크 보도가 이어지며 기술의 사회적 침투 속도가 가속화됨.",
+  "cumulativeRiskScore": 54.8,
+  "jobRiskScore": 54.8,
+  "riskScoreBreakdown": [
+    {
+      "event": "AI 안경을 통한 국가시험 부정행위 적발",
+      "sign": "+",
+      "impact": 5,
+      "newsIndex": 1
+    },
+    {
+      "event": "AI 핵심 소재 공급망 비상",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 4
+    }
+  ],
+  "news": [
+    {
+      "title": "\"저는 못할 것 같습니다\" AI 부정행위 논란 키우다 결국 사퇴 - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VTnhlNFpNWWZMX1UzZFdJN2ZMZlF3NlVvZzhKclZEWFhxWVo5T0M3LXlUdmR5Z0Y5R2VDY3JRU29wRFJ4ekZOZm5EUlJFckQ1amNnd3VvSjRpVGVVM1FPVGxVMmJZN2FpUWR0S2otTmpWVlpVMi1SMtIBeEFVX3lxTE80MGFjQk9uRkN4c193dmFVeTV3UkN3YUsxWDhVUHI4TTY5ZWRmaVFMNEplYkhRSmpkM01LeEo1TTRUV3MyQWhHdWdIWXMzSW01YXF1c1FieWVjRThCdzZIdllQdXFGWEdrSEg0NFJSQ3dTTURwX1VWeA?oc=5",
+      "pubDate": "Sun, 22 Nov 2026 10:59:36 GMT",
+      "summary": "AI를 악용한 부정행위 논란이 확산되는 가운데 관련 인물이 책임을 지고 사퇴하는 사건이 발생했다. 기술의 고도화가 공공 영역의 윤리 및 보안 기준에 심각한 도전을 제기하고 있다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "객관식? 논술·면접 다 뚫었다…“AI가 못 푸는 시험은 이것뿐” - 중앙일보",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45R1pXTmVqWFNYTGF2NGMwOFMtVTUxVTN2ZzJOdkg0ZU1pajNjcXZ1ZUhWcGZaMUlVMHBHZjdDaV81Nkd6eWVQem5SNm1wT0EtaVZ4TWhn?oc=5",
+      "pubDate": "Sun, 22 Nov 2026 20:00:04 GMT",
+      "summary": "최신 AI 모델들이 객관식은 물론 논술과 면접 등 고난도 시험 영역까지 완벽하게 소화해내는 능력을 입증했다. 인간 고유의 영역으로 여겨졌던 복잡한 평가 과정에서의 AI 대체 가능성이 커지고 있다.",
+      "importance": 5,
+      "aiImpact": 5,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    },
+    {
+      "title": "“작년 수능 시험지, 60~70% 이미 폐기”… AI 부정행위 어떻게 잡나 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUzdnVVo5Z2t4a1VNLWZoSzhWNC1HbEJYN0RXYndDLW4wYjl0ODJYTjZBN0xSeHBEVmJOcDZGZ1NLdjk2RG9SUmFSUXp4TTFlb29EdlZOU3UwYnY3S1NjV2V6TWNhaHBxS2IycXNKZjFuUzAyaEg4dXA0X0d4U3hKX2dXS3EzUFlPeVHSAZ4BQVVfeXFMTUREMThfeG9WektQWURzRFR1MWhSeGdKb3RnOHlPcEFEME4wTkZTTGtYa2xJYlNYVjlhT0ZuQjVpcDFJZkNDTUhQRlpFTk03bW9zajJtdTFoTVlYYkpueXpSSnRuM05BUHp5b2xDdFhsYnZUbVUybHRldjEyRmVZcnlibkI2RTFicGZjN1NLcXlBZi1MV2VMdWR5bjNQVXc?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 01:38:00 GMT",
+      "summary": "수능 등 주요 국가시험을 앞두고 AI 기기를 이용한 부정행위를 차단하기 위한 보안 대책이 강화되고 있다. 웨어러블 AI의 급격한 보급이 기존 시험 관리 체계 전반의 개편을 강제하고 있다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "전쟁에 광섬유값 7배 폭등, 미·중 갈등까지… AI 핵심 소재 공급망 비상 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWW1YclRfWHluTWlPRnRHVk01MnR6Um5nZk56MjZRWWMtcWt1ck05VnVGZFpUeHhaZnNEODRtQTgzU3F2bnlfelBfSEdhQ040cEZWS1hUNFRCV2cxUzdvNXNUdFI0Y0dvZnhaZzRvRjdDY3djY0hyLW5QNjVSRURhdjllOA?oc=5",
+      "pubDate": "Sun, 22 Nov 2026 21:36:41 GMT",
+      "summary": "지정학적 갈등과 전쟁 여파로 광섬유 등 AI 핵심 소재 가격이 폭등하며 공급망에 비상이 걸렸다. 하드웨어 인프라 확장을 추진하는 글로벌 빅테크 기업들의 비용 부담과 리스크가 커지고 있다.",
+      "importance": 5,
+      "aiImpact": 4,
+      "automationPotential": 1,
+      "investmentImpact": 5
+    },
+    {
+      "title": "\"브라질로 확대\"…뷰노, 현지서 안저영상 AI 출시 - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iNnpZU1B1Zy1SRmxqQ3BuOTVObmotRkdDMG16QklPSERMOVlKVTNZTTBnak84NGVkOG1pNURLX0stRWY1YVZtX3BVaUhoVi1qc3ZzbDZoZmJITmRnellwQdIBeEFVX3lxTE91VjU2VjJpTnNhQzF2VkFIUWwzT1VlQ25QLVJ6WGZXR1ZacDRFZk9ldmFkWjVvenpDbWFweDBQQkVQNTdDNHNvNVZqbHJ2a3h6UHg2Yl9MV2UyWHdrZk5BMUpxOExZYksxdE43dWp3enctT3RfaFJudw?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 01:20:35 GMT",
+      "summary": "국내 의료 AI 기업이 브라질 시장으로 안저영상 분석 솔루션 출시를 확대하며 글로벌 진출을 가속화하고 있다. 의료 분야에서 국산 AI 기술의 해외 현장 도입과 상용화가 점차 성과를 내고 있다.",
+      "importance": 3,
+      "aiImpact": 3,
+      "automationPotential": 3,
+      "investmentImpact": 4
+    }
+  ],
+  "occupationRisks": [],
+  "occupationAnalysis": {
+    "startDate": "2026-10-25",
+    "endDate": "2026-11-23",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 0,
+    "acceptedCount": 0
+  },
+  "id": "2026-11-23"
+}

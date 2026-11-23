@@ -1,7 +1,42 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T01:51:45.207Z",
+  "updatedAt": "2026-11-23T02:07:41.001Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-23T02:07:40.976Z",
+      "reportDate": "2026. 11. 23.",
+      "summary": "- 공공시험 보안 위협 심화: AI 안경 등 웨어러블 기기를 활용한 첨단 부정행위가 국가자격시험과 수능 등에서 잇따라 적발되며 공정성 유지에 비상이 걸림.\n\n- 인프라 및 공급망 리스크: AI 칩 수요 급증과 지정학적 갈등으로 인해 핵심 소재 공급망과 인프라 투자 안정성이 주요 화두로 부상함.\n\n- 글로벌 에이전트 및 서비스 확대: 구글과 오픈AI 등 빅테크의 에이전트 서비스가 일상 및 업무 영역으로 확장되며 기술 활용도가 가속화되고 있음.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.5,
+      "velocityReason": "AI 웨어러블 기기를 활용한 고난도 시험 부정행위 및 인프라 공급망 리스크 보도가 이어지며 기술의 사회적 침투 속도가 가속화됨.",
+      "cumulativeRiskScore": 54.8,
+      "jobRiskScore": 54.8,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 안경을 통한 국가시험 부정행위 적발",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 1
+        },
+        {
+          "event": "AI 핵심 소재 공급망 비상",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 4
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-25",
+        "endDate": "2026-11-23",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 0,
+        "acceptedCount": 0
+      },
+      "id": "2026-11-23",
+      "fileName": "2026-11-23.json"
+    },
     {
       "lastUpdated": "2026-11-22T01:51:45.193Z",
       "reportDate": "2026. 11. 22.",
