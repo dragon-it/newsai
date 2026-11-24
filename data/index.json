@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T02:07:41.001Z",
+  "updatedAt": "2026-11-24T05:42:29.855Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-24T05:42:29.831Z",
+      "reportDate": "2026. 11. 24.",
+      "summary": "- 일상 및 대인관계의 변화: AI 기술이 대중화되면서 개인의 가치관이나 연애 조건 등 일상 전반에 새로운 기준과 갈등 요소로 작용하고 있음.\n\n- 보안 및 인프라 리스크: 악성코드 유포와 해킹 도구 고도화로 인해 사이버 보안 위협이 커지는 동시에, 데이터센터 확장에 따른 전력망과 공급망 안정성이 주요 과제로 대두됨.\n\n- 공공 및 산업 현장 도입: 국산 AI 반도체의 금융권 실증과 음원 플랫폼의 판별 기준 마련 등 산업 전반에서 실질적인 적용과 제도 정비가 가속화되고 있음.",
+      "summaryScore": 85,
+      "dailyVelocity": 1.5,
+      "velocityReason": "구글의 AI 비서 서비스 무료 확대와 AI 에이전트 기술의 일상화로 표준적인 AI 제품 도입이 가속화되었음.",
+      "cumulativeRiskScore": 55,
+      "jobRiskScore": 55,
+      "riskScoreBreakdown": [
+        {
+          "event": "구글 AI 비서 서비스 무료 확대",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 30
+        },
+        {
+          "event": "AI 음원 및 콘텐츠 판별 기준 부재 논란",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": 5
+        },
+        {
+          "event": "AI 핵심 소재 공급망 비상 및 비용 부담",
+          "sign": "+",
+          "impact": 2,
+          "newsIndex": null
+        }
+      ],
+      "occupationRisks": [],
+      "occupationAnalysis": {
+        "startDate": "2026-10-26",
+        "endDate": "2026-11-24",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 0,
+        "acceptedCount": 0
+      },
+      "id": "2026-11-24",
+      "fileName": "2026-11-24.json"
+    },
     {
       "lastUpdated": "2026-11-23T02:07:40.976Z",
       "reportDate": "2026. 11. 23.",
