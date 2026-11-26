@@ -1,7 +1,82 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T05:42:29.855Z",
+  "updatedAt": "2026-11-26T03:53:41.758Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-26T03:53:41.710Z",
+      "reportDate": "2026. 11. 26.",
+      "summary": "- 법적 규제 및 모니터링: AI로 제작된 가짜 전문가 광고와 의사 사칭 마케팅에 대해 영업정지 등 강력한 제재 조치가 시행되며 소비자 보호와 공정 거래 질서 확립이 추진되고 있음.\n\n- 공공 및 산업 현장 자동화: 정부 행정, 발전소, 철강 공장 등 다양한 산업 현장에 AI 스마트글라스와 로봇, 영상 분석 기술이 적극적으로 도입되며 업무 효율성 제고와 현장 안전 관리가 가속화되고 있음.\n\n- 시험 보안 및 사회적 리스크: 웨어러블 AI 기기를 악용한 국가자격시험 및 수능 부정행위 사건이 연이어 적발되면서 당국이 시험 제도 전면 개편과 AI 기업의 협조를 의무화하는 등 강력한 대응 체계를 구축하고 있음.",
+      "summaryScore": 88,
+      "dailyVelocity": 1.2,
+      "velocityReason": "AI 웨어러블 기기를 악용한 자격시험 부정행위 적발과 공공·산업 현장의 AI 도입 가속화가 주요 원인임.",
+      "cumulativeRiskScore": 55.1,
+      "jobRiskScore": 55.1,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 가짜 의사 광고 금지 및 영업정지 조치",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "국가자격시험 AI 안경 부정행위 적발 및 관리 비상",
+          "sign": "+",
+          "impact": 6,
+          "newsIndex": 50
+        },
+        {
+          "event": "공공 및 산업 현장 AI 로봇·스마트글라스 투입",
+          "sign": "+",
+          "impact": 5,
+          "newsIndex": 5
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "특수교사",
+          "tasks": [
+            "행정 업무",
+            "반복 업무"
+          ],
+          "reason": "행정 및 반복 업무를 경감해 주는 AI 솔루션이 도입되어 현장 업무 부담이 줄어들고 있으나 직업 대체가 아닌 보조 수단으로 활용되는 단계임.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-49",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "occupation": "공무원",
+          "tasks": [
+            "일반 행정 지원 업무"
+          ],
+          "reason": "정부 행정 현장에 AI 보조 시스템이 도입되며 업무 방식을 지원하는 단계이나 전면적인 고용 대체로 이어지지는 않음.",
+          "stage": "기술 시연",
+          "evidence": [
+            {
+              "id": "article-4",
+              "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+              "reportDate": "2026-11-26"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-28",
+        "endDate": "2026-11-26",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 2,
+        "acceptedCount": 2
+      },
+      "id": "2026-11-26",
+      "fileName": "2026-11-26.json"
+    },
     {
       "lastUpdated": "2026-11-24T05:42:29.831Z",
       "reportDate": "2026. 11. 24.",
@@ -3256,6 +3331,251 @@
   ],
   "occupationTracking": [
     {
+      "id": "공무원",
+      "occupation": "공무원",
+      "tasks": [
+        "행정 업무 처리",
+        "민원 응대 및 관리",
+        "단순 행정 업무",
+        "민원 응대 및 처리",
+        "단순 행정 업무 처리",
+        "민원 응대 및 문서 정리",
+        "행정 업무",
+        "행정 처리 업무",
+        "민원 처리",
+        "일반 행정 업무",
+        "일반 민원 및 행정 처리",
+        "일반 행정 지원 업무"
+      ],
+      "reason": "정부 행정 현장에 AI 보조 시스템이 도입되며 업무 방식을 지원하는 단계이나 전면적인 고용 대체로 이어지지는 않음.",
+      "stage": "기술 시연",
+      "firstObserved": "2026-11-09",
+      "lastObserved": "2026-11-26",
+      "lastEvidenceDate": "2026-11-26",
+      "evidence": [
+        {
+          "id": "article-40",
+          "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+          "reportDate": "2026-11-01"
+        },
+        {
+          "id": "article-34",
+          "title": "충남도, 2030년 ‘AI 기본사회’ 돌봄부터 교통·행정까지 연결 - 브릿지경제",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84MEIzUUNTN1k4d1lWbklQazdvanI3RFJhb1V2R2dHZXBzb1lxdE5ycWJKSzZqV1ZoRnN6MUVSSmdoUmVLZzNaSHpra3ItN015VUxfeVpVcmEtQQ?oc=5",
+          "reportDate": "2026-11-04"
+        },
+        {
+          "id": "article-61",
+          "title": "공공기관 AI 활용 확대…달라지는 제도와 안전기준은? - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWRqU0QyTEZSbzdGTzMydDlpRVc2MkxKTG1za2lqRXQzOXNHSVlGVXl5bU9NNThsc1Q0RUtRb3B2aVdEZGlUd1JVelZYclBYZ3lCYXFTWHhmc0xfX1dJbDJheXFhc3ctY2lqSHgwb25XUDNkem16dlhsQ3ViTGVYdUNrY3VxVzBNNkw0?oc=5",
+          "reportDate": "2026-10-29"
+        },
+        {
+          "id": "article-4",
+          "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+          "reportDate": "2026-11-26"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-09",
+          "stage": "현장 도입",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이나, 단순 행정 업무의 자동화 단계이며 직업 전체의 소멸이나 대체가 확정된 것은 아님.",
+          "tasks": [
+            "행정 업무 처리",
+            "민원 응대 및 관리"
+          ],
+          "evidence": [
+            {
+              "id": "article-40",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "stage": "기술 시연",
+          "reason": "공공 행정 영역에서 AI를 도입하여 업무 효율성을 검증하는 실험과 제도가 추진 중이며, 단순 반복 행정 업무의 자동화 가능성이 검토되고 있음.",
+          "tasks": [
+            "단순 행정 업무",
+            "민원 응대 및 처리"
+          ],
+          "evidence": [
+            {
+              "id": "article-34",
+              "title": "충남도, 2030년 ‘AI 기본사회’ 돌봄부터 교통·행정까지 연결 - 브릿지경제",
+              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84MEIzUUNTN1k4d1lWbklQazdvanI3RFJhb1V2R2dHZXBzb1lxdE5ycWJKSzZqV1ZoRnN6MUVSSmdoUmVLZzNaSHpra3ItN015VUxfeVpVcmEtQQ?oc=5",
+              "reportDate": "2026-11-04"
+            },
+            {
+              "id": "article-45",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            },
+            {
+              "id": "article-61",
+              "title": "공공기관 AI 활용 확대…달라지는 제도와 안전기준은? - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑",
+              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWRqU0QyTEZSbzdGTzMydDlpRVc2MkxKTG1za2lqRXQzOXNHSVlGVXl5bU9NNThsc1Q0RUtRb3B2aVdEZGlUd1JVelZYclBYZ3lCYXFTWHhmc0xfX1dJbDJheXFhc3ctY2lqSHgwb25XUDNkem16dlhsQ3ViTGVYdUNrY3VxVzBNNkw0?oc=5",
+              "reportDate": "2026-10-29"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "stage": "기술 시연",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이며, 이는 단순 행정 업무의 자동화와 향후 공공 일자리 구조 변화에 대한 지표가 됨.",
+          "tasks": [
+            "단순 행정 업무 처리",
+            "민원 응대 및 문서 정리"
+          ],
+          "evidence": [
+            {
+              "id": "article-50",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "stage": "현장 도입",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행하고 있으나, AI의 판단에 불확실성이 존재하여 인간 공무원의 최종 검토와 책임이 요구됨.",
+          "tasks": [
+            "행정 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-55",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "stage": "현장 도입",
+          "reason": "행정 효율성을 높이기 위한 AI 도입 실험이 진행 중이나, 정확성 확보와 최종 의사결정을 위한 인간 검토의 불확실성이 남아 있음.",
+          "tasks": [
+            "행정 처리 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-60",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-15",
+          "stage": "현장 도입",
+          "reason": "네덜란드 등에서 AI를 행정에 도입하는 실험을 진행하고 있으나, 공공 부문에서의 완전한 자동화는 아직 불확실하며 오류 가능성과 인간 검토의 필요성이 존재합니다.",
+          "tasks": [
+            "행정 업무",
+            "민원 처리"
+          ],
+          "evidence": [
+            {
+              "id": "article-70",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-16",
+          "stage": "기술 시연",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행 중이나, 복잡한 정책 결정과 민원 대응 등에는 여전히 인간의 개입과 검토가 필요합니다.",
+          "tasks": [
+            "단순 행정 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-75",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "stage": "기술 시연",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행되고 있으나, 행정의 정확성과 복잡한 정책 판단의 불확실성으로 인해 인간 공무원의 최종 검토와 책임이 요구됩니다.",
+          "tasks": [
+            "단순 행정 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-85",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "stage": "기술 시연",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성과 대체 가능성을 검증하는 실험 단계가 진행 중임.",
+          "tasks": [
+            "일반 행정 업무",
+            "민원 처리"
+          ],
+          "evidence": [
+            {
+              "id": "article-90",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "stage": "기술 시연",
+          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험이 진행되고 있으나, 정책 판단과 복잡한 민원 조율 과정에서 인간의 검토와 책임이 반드시 필요합니다.",
+          "tasks": [
+            "행정 업무",
+            "일반 민원 및 행정 처리"
+          ],
+          "evidence": [
+            {
+              "id": "article-95",
+              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
+              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
+              "reportDate": "2026-11-01"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "stage": "기술 시연",
+          "reason": "정부 행정 현장에 AI 보조 시스템이 도입되며 업무 방식을 지원하는 단계이나 전면적인 고용 대체로 이어지지는 않음.",
+          "tasks": [
+            "일반 행정 지원 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-4",
+              "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+              "reportDate": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "농부",
       "occupation": "농부",
       "tasks": [
@@ -3304,10 +3624,10 @@
         "반복 업무",
         "반복적 업무 처리"
       ],
-      "reason": "특수교사의 행정 및 반복 업무를 경감해주는 AI 솔루션이 사회혁신 대상을 수상하며 교육 현장에서의 실무 부담 완화 효과가 확인됨.",
+      "reason": "행정 및 반복 업무를 경감해 주는 AI 솔루션이 도입되어 현장 업무 부담이 줄어들고 있으나 직업 대체가 아닌 보조 수단으로 활용되는 단계임.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-16",
-      "lastObserved": "2026-11-21",
+      "lastObserved": "2026-11-26",
       "lastEvidenceDate": "2026-11-16",
       "evidence": [
         {
@@ -3412,6 +3732,23 @@
           "evidence": [
             {
               "id": "article-30",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "stage": "현장 도입",
+          "reason": "행정 및 반복 업무를 경감해 주는 AI 솔루션이 도입되어 현장 업무 부담이 줄어들고 있으나 직업 대체가 아닌 보조 수단으로 활용되는 단계임.",
+          "tasks": [
+            "행정 업무",
+            "반복 업무"
+          ],
+          "evidence": [
+            {
+              "id": "article-49",
               "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
               "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
               "reportDate": "2026-11-16"
@@ -3873,228 +4210,6 @@
               "title": "AI로 보고서·PPT 딸깍했더니…사람들 회의시간 20% 길어졌다는데 - 매일경제",
               "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1yR01ia1JGOEJyektOelNIdGZmU3Mxd0F3MXZNNzdSNTZUYkR3a2NRWE9MY1JVcUNJZkZJeTZaSVdxT283Skt4OUh0VWFIdw?oc=5",
               "reportDate": "2026-10-20"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "공무원",
-      "occupation": "공무원",
-      "tasks": [
-        "행정 업무 처리",
-        "민원 응대 및 관리",
-        "단순 행정 업무",
-        "민원 응대 및 처리",
-        "단순 행정 업무 처리",
-        "민원 응대 및 문서 정리",
-        "행정 업무",
-        "행정 처리 업무",
-        "민원 처리",
-        "일반 행정 업무",
-        "일반 민원 및 행정 처리"
-      ],
-      "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험이 진행되고 있으나, 정책 판단과 복잡한 민원 조율 과정에서 인간의 검토와 책임이 반드시 필요합니다.",
-      "stage": "기술 시연",
-      "firstObserved": "2026-11-09",
-      "lastObserved": "2026-11-20",
-      "lastEvidenceDate": "2026-11-04",
-      "evidence": [
-        {
-          "id": "article-40",
-          "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-          "reportDate": "2026-11-01"
-        },
-        {
-          "id": "article-34",
-          "title": "충남도, 2030년 ‘AI 기본사회’ 돌봄부터 교통·행정까지 연결 - 브릿지경제",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84MEIzUUNTN1k4d1lWbklQazdvanI3RFJhb1V2R2dHZXBzb1lxdE5ycWJKSzZqV1ZoRnN6MUVSSmdoUmVLZzNaSHpra3ItN015VUxfeVpVcmEtQQ?oc=5",
-          "reportDate": "2026-11-04"
-        },
-        {
-          "id": "article-61",
-          "title": "공공기관 AI 활용 확대…달라지는 제도와 안전기준은? - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWRqU0QyTEZSbzdGTzMydDlpRVc2MkxKTG1za2lqRXQzOXNHSVlGVXl5bU9NNThsc1Q0RUtRb3B2aVdEZGlUd1JVelZYclBYZ3lCYXFTWHhmc0xfX1dJbDJheXFhc3ctY2lqSHgwb25XUDNkem16dlhsQ3ViTGVYdUNrY3VxVzBNNkw0?oc=5",
-          "reportDate": "2026-10-29"
-        }
-      ],
-      "observations": [
-        {
-          "date": "2026-11-09",
-          "stage": "현장 도입",
-          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이나, 단순 행정 업무의 자동화 단계이며 직업 전체의 소멸이나 대체가 확정된 것은 아님.",
-          "tasks": [
-            "행정 업무 처리",
-            "민원 응대 및 관리"
-          ],
-          "evidence": [
-            {
-              "id": "article-40",
-              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-              "reportDate": "2026-11-01"
-            }
-          ]
-        },
-        {
-          "date": "2026-11-10",
-          "stage": "기술 시연",
-          "reason": "공공 행정 영역에서 AI를 도입하여 업무 효율성을 검증하는 실험과 제도가 추진 중이며, 단순 반복 행정 업무의 자동화 가능성이 검토되고 있음.",
-          "tasks": [
-            "단순 행정 업무",
-            "민원 응대 및 처리"
-          ],
-          "evidence": [
-            {
-              "id": "article-34",
-              "title": "충남도, 2030년 ‘AI 기본사회’ 돌봄부터 교통·행정까지 연결 - 브릿지경제",
-              "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84MEIzUUNTN1k4d1lWbklQazdvanI3RFJhb1V2R2dHZXBzb1lxdE5ycWJKSzZqV1ZoRnN6MUVSSmdoUmVLZzNaSHpra3ItN015VUxfeVpVcmEtQQ?oc=5",
-              "reportDate": "2026-11-04"
-            },
-            {
-              "id": "article-45",
-              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-              "reportDate": "2026-11-01"
-            },
-            {
-              "id": "article-61",
-              "title": "공공기관 AI 활용 확대…달라지는 제도와 안전기준은? - 카드/한컷 | 멀티미디어 - 대한민국 정책브리핑",
-              "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPMWRqU0QyTEZSbzdGTzMydDlpRVc2MkxKTG1za2lqRXQzOXNHSVlGVXl5bU9NNThsc1Q0RUtRb3B2aVdEZGlUd1JVelZYclBYZ3lCYXFTWHhmc0xfX1dJbDJheXFhc3ctY2lqSHgwb25XUDNkem16dlhsQ3ViTGVYdUNrY3VxVzBNNkw0?oc=5",
-              "reportDate": "2026-10-29"
-            }
-          ]
-        },
-        {
-          "date": "2026-11-11",
-          "stage": "기술 시연",
-          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행 중이며, 이는 단순 행정 업무의 자동화와 향후 공공 일자리 구조 변화에 대한 지표가 됨.",
-          "tasks": [
-            "단순 행정 업무 처리",
-            "민원 응대 및 문서 정리"
-          ],
-          "evidence": [
-            {
-              "id": "article-50",
-              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-              "reportDate": "2026-11-01"
-            }
-          ]
-        },
-        {
-          "date": "2026-11-12",
-          "stage": "현장 도입",
-          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험을 진행하고 있으나, AI의 판단에 불확실성이 존재하여 인간 공무원의 최종 검토와 책임이 요구됨.",
-          "tasks": [
-            "행정 업무"
-          ],
-          "evidence": [
-            {
-              "id": "article-55",
-              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-              "reportDate": "2026-11-01"
-            }
-          ]
-        },
-        {
-          "date": "2026-11-13",
-          "stage": "현장 도입",
-          "reason": "행정 효율성을 높이기 위한 AI 도입 실험이 진행 중이나, 정확성 확보와 최종 의사결정을 위한 인간 검토의 불확실성이 남아 있음.",
-          "tasks": [
-            "행정 처리 업무"
-          ],
-          "evidence": [
-            {
-              "id": "article-60",
-              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-              "reportDate": "2026-11-01"
-            }
-          ]
-        },
-        {
-          "date": "2026-11-15",
-          "stage": "현장 도입",
-          "reason": "네덜란드 등에서 AI를 행정에 도입하는 실험을 진행하고 있으나, 공공 부문에서의 완전한 자동화는 아직 불확실하며 오류 가능성과 인간 검토의 필요성이 존재합니다.",
-          "tasks": [
-            "행정 업무",
-            "민원 처리"
-          ],
-          "evidence": [
-            {
-              "id": "article-70",
-              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-              "reportDate": "2026-11-01"
-            }
-          ]
-        },
-        {
-          "date": "2026-11-16",
-          "stage": "기술 시연",
-          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행 중이나, 복잡한 정책 결정과 민원 대응 등에는 여전히 인간의 개입과 검토가 필요합니다.",
-          "tasks": [
-            "단순 행정 업무"
-          ],
-          "evidence": [
-            {
-              "id": "article-75",
-              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-              "reportDate": "2026-11-01"
-            }
-          ]
-        },
-        {
-          "date": "2026-11-18",
-          "stage": "기술 시연",
-          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하는 실험이 진행되고 있으나, 행정의 정확성과 복잡한 정책 판단의 불확실성으로 인해 인간 공무원의 최종 검토와 책임이 요구됩니다.",
-          "tasks": [
-            "단순 행정 업무"
-          ],
-          "evidence": [
-            {
-              "id": "article-85",
-              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-              "reportDate": "2026-11-01"
-            }
-          ]
-        },
-        {
-          "date": "2026-11-19",
-          "stage": "기술 시연",
-          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성과 대체 가능성을 검증하는 실험 단계가 진행 중임.",
-          "tasks": [
-            "일반 행정 업무",
-            "민원 처리"
-          ],
-          "evidence": [
-            {
-              "id": "article-90",
-              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-              "reportDate": "2026-11-01"
-            }
-          ]
-        },
-        {
-          "date": "2026-11-20",
-          "stage": "기술 시연",
-          "reason": "네덜란드 등에서 공무원 업무에 AI를 도입하여 행정 효율성을 검증하는 실험이 진행되고 있으나, 정책 판단과 복잡한 민원 조율 과정에서 인간의 검토와 책임이 반드시 필요합니다.",
-          "tasks": [
-            "행정 업무",
-            "일반 민원 및 행정 처리"
-          ],
-          "evidence": [
-            {
-              "id": "article-95",
-              "title": "AI가 공무원을 대체한다면…네덜란드의 실험[딥다이브] - 동아일보",
-              "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56RnVJLXNjWVJRbVpULWtuY0R2ZnU0TnI2NFZVVzk3NWdrOEZEMjlpOHpDR3BCWXJLQVBDNVp0VHl6amZyODVMSXkyZzNvX1hYNXFrXzBGT3ZQbkhYOUIwbC1EUHktbE9pTWxWX3ZBRXVSNVR6WUHSAWZBVV95cUxOektsald5VkkxbGpyaVpwMXZXT0N4TFE0SE5ya2txRmNVNjUya0hUWGRXT1FQR0VvRDFlNUZLN1B3ODdNc2dmRmdpOXVLM0ZjMFI4N2xWUzJIc3NGbloxZHlFQ1NPdnc?oc=5",
-              "reportDate": "2026-11-01"
             }
           ]
         }
