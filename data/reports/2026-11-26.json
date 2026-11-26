@@ -1,0 +1,126 @@
+{
+  "lastUpdated": "2026-11-26T03:53:41.710Z",
+  "reportDate": "2026. 11. 26.",
+  "summary": "- 법적 규제 및 모니터링: AI로 제작된 가짜 전문가 광고와 의사 사칭 마케팅에 대해 영업정지 등 강력한 제재 조치가 시행되며 소비자 보호와 공정 거래 질서 확립이 추진되고 있음.\n\n- 공공 및 산업 현장 자동화: 정부 행정, 발전소, 철강 공장 등 다양한 산업 현장에 AI 스마트글라스와 로봇, 영상 분석 기술이 적극적으로 도입되며 업무 효율성 제고와 현장 안전 관리가 가속화되고 있음.\n\n- 시험 보안 및 사회적 리스크: 웨어러블 AI 기기를 악용한 국가자격시험 및 수능 부정행위 사건이 연이어 적발되면서 당국이 시험 제도 전면 개편과 AI 기업의 협조를 의무화하는 등 강력한 대응 체계를 구축하고 있음.",
+  "summaryScore": 88,
+  "dailyVelocity": 1.2,
+  "velocityReason": "AI 웨어러블 기기를 악용한 자격시험 부정행위 적발과 공공·산업 현장의 AI 도입 가속화가 주요 원인임.",
+  "cumulativeRiskScore": 55.1,
+  "jobRiskScore": 55.1,
+  "riskScoreBreakdown": [
+    {
+      "event": "AI 가짜 의사 광고 금지 및 영업정지 조치",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 1
+    },
+    {
+      "event": "국가자격시험 AI 안경 부정행위 적발 및 관리 비상",
+      "sign": "+",
+      "impact": 6,
+      "newsIndex": 50
+    },
+    {
+      "event": "공공 및 산업 현장 AI 로봇·스마트글라스 투입",
+      "sign": "+",
+      "impact": 5,
+      "newsIndex": 5
+    }
+  ],
+  "news": [
+    {
+      "title": "AI로 만든 '가짜 의사' 광고 내일부터 금지…위반시 영업정지 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13bFBtOUVHWlBacERuajNPbUx6OVN1UU9HWnhKU2NGOTRqSXFNMWc4Qmp6cUozLWpocndPSEVIYVVTamFOU2FSMklWR2Qzbmw2RnhCeEplN29ReFnSAWBBVV95cUxPT0hwZU91ODdxWEdjQk5va1NEYVhEanFUQmJ2SnFUMDl5bjBhVmRjSEN5OHJMd0M2cmF2RjRrZk95OTBaSTUtVkFRRlhlRnYwNDJtVHFEY2c4c2VsQjhKQVg?oc=5",
+      "pubDate": "Wed, 25 Nov 2026 23:35:55 GMT",
+      "summary": "인공지능 기술로 제작된 허위 의사 및 전문가 광고가 내일부터 전면 금지된다. 이를 위반할 경우 관련 규정에 따라 영업정지 등의 강력한 행정 처분이 부과된다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "의사인 척 제품 추천하던 AI ‘가짜 전문가’ 광고 내일부터 금지, 위반 땐 영업정지 - JTBC",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBOMFV2Z29oOFNqNXJMUmVJbnc4djFtWkFPRzVoZjl4VE1JeXlFUE5wREo5TnVjckxtR1doV2F2QW5PUk5tUEl5V1FGaWk0RklxSmxZWA?oc=5",
+      "pubDate": "Thu, 26 Nov 2026 02:26:00 GMT",
+      "summary": "의사나 전문가인 것처럼 소비자를 기만하여 제품을 추천하는 AI 가짜 전문가 광고가 내일부터 법적으로 금지된다. 위반 업체는 영업정지 처분을 받게 된다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "\"AI로 만든 가짜의사 광고 안돼\"…내일부터 금지 - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE51TGFHOWhfUEhGUkdqVUdWazltT0cwclZxWElPekJTeUJzYXViVUlHWkNqZDdPT21OTm9aVkR5UkVGZjBnZEdaN180aHRRVDRxVGNWSjJRZThXeGw4b2t6cdIBeEFVX3lxTFB5cHY3RHdMSzFzckZ3dzllVnNIOHBVYzdMUnBoZUFsc1Jyd0lKUUtUN0NEcnREUWpPS1IwMjcySXhxMldPNW5mUm1mTnBiaTJ4OVhBaHNIMTV5eUdlUkprZWVtbEpyR2VpMWNxb1FrLWgtOThlLWc2Sg?oc=5",
+      "pubDate": "Thu, 26 Nov 2026 00:03:43 GMT",
+      "summary": "AI를 활용한 가짜 의사 광고 행위가 사회적 문제로 대부각됨에 따라 당국이 내일부터 이를 강력하게 금지하기로 했다. 관련 광고주와 플랫폼에 대한 관리 감독이 강화된다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+      "pubDate": "Wed, 25 Nov 2026 03:04:13 GMT",
+      "summary": "정부혁신 박람회에서 공무원들의 업무를 보조하는 AI 솔루션이 선보였다. 행정 업무 전반에 AI 기반의 실무 보조 시스템 도입이 점차 가시화되고 있다.",
+      "importance": 3,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 3
+    },
+    {
+      "title": "한전KPS, 발전소에 로봇개·AI 스마트글라스 투입 추진 - 전기신문",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oMUhiMEZwS21VZ3hvcEMxVy1McmJoM1ZRMGdnQUN0TTB3RnlpR2pEUkd3T2ZZb2tqMXN4UGhQTjB6WGR2TXgyM0FiMzZ6RS0weS11a09DeUUwN1BtaHJ6Q29FeGJZRGYxamNMQ9IBcEFVX3lxTFBKMFdodTAzV2hreU5YN1cxTkhkcjNuTnM1TjNZZVlsX0pvUXg5MHkxOExTY1NiZ2RyZ0poU3FMS3pMWkNOVFNwWVF4czIyMnJ2SXF3UWN3RElEUm1uTTN6N0F3QVpvS3Y2b2hwaTN4Nk0?oc=5",
+      "pubDate": "Thu, 26 Nov 2026 02:31:09 GMT",
+      "summary": "한전KPS가 발전소 현장 안전과 점검 효율성을 높이기 위해 로봇개와 AI 스마트글라스 투입을 추진한다. 위험한 산업 현장의 모니터링 자동화가 본격화되고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 4,
+      "investmentImpact": 4
+    }
+  ],
+  "occupationRisks": [
+    {
+      "occupation": "특수교사",
+      "tasks": [
+        "행정 업무",
+        "반복 업무"
+      ],
+      "reason": "행정 및 반복 업무를 경감해 주는 AI 솔루션이 도입되어 현장 업무 부담이 줄어들고 있으나 직업 대체가 아닌 보조 수단으로 활용되는 단계임.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-49",
+          "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+          "reportDate": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "occupation": "공무원",
+      "tasks": [
+        "일반 행정 지원 업무"
+      ],
+      "reason": "정부 행정 현장에 AI 보조 시스템이 도입되며 업무 방식을 지원하는 단계이나 전면적인 고용 대체로 이어지지는 않음.",
+      "stage": "기술 시연",
+      "evidence": [
+        {
+          "id": "article-4",
+          "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+          "reportDate": "2026-11-26"
+        }
+      ]
+    }
+  ],
+  "occupationAnalysis": {
+    "startDate": "2026-10-28",
+    "endDate": "2026-11-26",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 2,
+    "acceptedCount": 2
+  },
+  "id": "2026-11-26"
+}
