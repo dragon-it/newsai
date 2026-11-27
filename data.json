@@ -1,5 +1,182 @@
 [
   {
+    "lastUpdated": "2026-11-27T03:54:18.048Z",
+    "reportDate": "2026. 11. 27.",
+    "summary": "- 인프라 및 생태계 확장: 수학과 과학 영역에서 AI의 복잡한 추론 능력이 입증되는 동시에 주요 모델의 개발 주기 지연 및 공급망 리스크가 대두됨.\n\n- 반도체 공급망 강화: 미국 주도의 대중국 우회 접근 차단 여파로 엔비디아의 서버 출하 중단 및 중국 자회사 관련 공급망 이슈가 불거짐.\n\n- 산업 현장 및 공공 적용: 웨어러블 AI 기기를 악용한 시험 부정행위가 잇따라 적발되며 공공 시험 제도의 보안 기준 강화가 시급한 현안으로 부상함.",
+    "summaryScore": 84,
+    "dailyVelocity": 1.2,
+    "velocityReason": "고난도 수학 추론 및 학술적 문제 해결 영역에서 AI의 능력이 입증되며 직무 자동화 압박이 가중됨.",
+    "cumulativeRiskScore": 55.2,
+    "jobRiskScore": 55.2,
+    "riskScoreBreakdown": [
+      {
+        "event": "수학 난제 및 고난도 시험 영역 AI 대체력 입증",
+        "sign": "+",
+        "impact": 4,
+        "newsIndex": 1
+      },
+      {
+        "event": "반도체 공급망 및 서버 출하 통제 리스크",
+        "sign": "+",
+        "impact": 3,
+        "newsIndex": 5
+      }
+    ],
+    "news": [
+      {
+        "title": "AI에 무너지는 난제들…“수학 계속 해도 될까” 수학자들도 계산이 안 선다 - 한겨레",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pOVQzUFdac21iek9ZMHpScVBnOGM5cWdPN1Vqc0s3ZXNuTWoxLS1NNXh4TEx2MjFiU2xtMmxsMHNlMXpwRWVfaFdnNEhJWEJGVUZ2UzVSZFhFOVQxXzR1VDZFVXB0b21CLUQ5Y1FDUGRoZw?oc=5",
+        "pubDate": "Fri, 27 Nov 2026 00:44:00 GMT",
+        "summary": "최신 AI 모델들이 수학의 난제 해결과 복잡한 계산 능력을 입증하면서 기존 수학 연구 및 전문 직무의 역할에 대한 근본적인 질문이 제기되고 있다. 기술의 추론 한계가 확장됨에 따라 지식 기반 업무 영역의 자동화 잠재력이 재조명되고 있다.",
+        "importance": 5,
+        "aiImpact": 5,
+        "automationPotential": 4,
+        "investmentImpact": 4
+      },
+      {
+        "title": "AI에 아기의 1,000일 경험을 학습시켰다 - 사이언스타임즈",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLVJkZVo2RHJ5aFJhMGtDTnJxVmRHVTNIcFFwaXc0X2JCaW1UcWQ4M3V4OE9WOURQc19aX0N3RmRZSmFfcjlCQ2puRHh0ZVE4R3l1LVRZRFNKbEs3YS1CU2g0MGtMam9SWXh6MDkyTWhRTzc1bXBNbEFjYWJJZlVLMEpmTjc5bTAyM19nNGktdw?oc=5",
+        "pubDate": "Thu, 26 Nov 2026 00:08:11 GMT",
+        "summary": "아기의 초기 경험 데이터를 학습시킨 새로운 형태의 인공지능 모델이 공개되어 인지 학습 및 데이터 처리 방식의 고도화를 이끌고 있다. 인간의 학습 과정을 모방한 AI 아키텍처가 다양한 실무 응용 분야로 확장될 가능성을 보여준다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 3,
+        "investmentImpact": 3
+      },
+      {
+        "title": "Z.ai 'GLM-5.5' 출시 지연…문샷 AI도 개발 주기 두배 전망 - AI타임스",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTT3gyNU44cDNHa3VFdS1EM1d2MHVnT3djUUdzQmxlZkFINUZaMFBSWndLc0dGdEZoa0JqeHJkSWNjMmt4YkE5YmVRN1ViVUVPWkg4U2dQcV9PWllrSVY3cVpsVHVOa1d2Nnc?oc=5",
+        "pubDate": "Thu, 26 Nov 2026 21:20:35 GMT",
+        "summary": "주요 AI 기업들의 신모델 출시 지연과 개발 주기 연장 전망이 제기되며 급격한 기술 발전 속도에 제동이 걸릴 수 있다는 우려가 나온다. 인프라와 자원 확보의 어려움이 생태계 전반의 투자 전략에 영향을 미치고 있다.",
+        "importance": 4,
+        "aiImpact": 3,
+        "automationPotential": 2,
+        "investmentImpact": 4
+      },
+      {
+        "title": "엔비디아 AI칩 쓸어담은 美업체…中기업 자회사였다 - 머니투데이 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE42X0ZIQ0lNQ3dFU0JqaGd6WEE0VGlzMUdzdW5KZUxBYm5pTHBUSHRqenhONXBDTzNMS0xZQkxOeFV5dktNVnJfdGhKazQzQ2NXU0p2dWtMdEEyMHUwYjhESGJwV1R4VWow0gFuQVVfeXFMUGN4cXNwMmFiM2p0OWVHS094cUhhbEtFNUltVHZmMUI0QXRTSXh4dVlHREJwSjRxRlNxdGpid2hmWEdMUkNhVHZiOEV3bWV1SW9tSDZqYjJpUHh4QTJQS3k0RnJfNmpqcHJYRmdET1E?oc=5",
+        "pubDate": "Fri, 27 Nov 2026 01:51:50 GMT",
+        "summary": "미국의 대중국 반도체 수출 통제를 우회하여 엔비디아 AI 칩을 확보하려던 중국 기업 자회사의 정황이 포착되었다. 글로벌 하드웨어 공급망을 둘러싼 지정학적 리스크와 규제 회피 차단 움직임이 강화되고 있다.",
+        "importance": 4,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      },
+      {
+        "title": "엔비디아, 동남아 4개국 AI 서버 출하 중단…美 '中 우회 접근' 차단 여파 - 전자신문",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1DbHFPd19Mc25rYWNRZ29Pdl9YMElCS2xTRmowRDZHTS16cHZicDdMcnhXZno0X0VZLV9RZEFRQUlQczl2bkN6OWxzSERRZw?oc=5",
+        "pubDate": "Thu, 26 Nov 2026 23:07:46 GMT",
+        "summary": "미국의 대중 우회 접근 차단 기조의 여파로 엔비디아가 동남아시아 4개국에 대한 AI 서버 출하를 중단했다. 글로벌 인프라 공급망 재편과 함께 지역별 수출 통제 조치가 더욱 엄격해지고 있음을 보여준다.",
+        "importance": 5,
+        "aiImpact": 4,
+        "automationPotential": 1,
+        "investmentImpact": 5
+      }
+    ],
+    "occupationRisks": [
+      {
+        "occupation": "수학자",
+        "tasks": [
+          "복잡한 계산 수행",
+          "학술적 난제 증명 분석"
+        ],
+        "reason": "AI가 리만 가설 증명 등 고난도 수학적 추론 능력을 보이고 있으나, 결과의 불확실성과 인간 수학자의 검토 및 해석이 필수적이므로 전면 대체에는 한계가 존재합니다.",
+        "stage": "기술 시연",
+        "evidence": [
+          {
+            "id": "article-1",
+            "title": "AI에 무너지는 난제들…“수학 계속 해도 될까” 수학자들도 계산이 안 선다 - 한겨레",
+            "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pOVQzUFdac21iek9ZMHpScVBnOGM5cWdPN1Vqc0s3ZXNuTWoxLS1NNXh4TEx2MjFiU2xtMmxsMHNlMXpwRWVfaFdnNEhJWEJGVUZ2UzVSZFhFOVQxXzR1VDZFVXB0b21CLUQ5Y1FDUGRoZw?oc=5",
+            "reportDate": "2026-11-27"
+          },
+          {
+            "id": "article-21",
+            "title": "167년 안 풀린 수학 최대 난제 ‘리만 가설’, AI가 증명 주장 - 조선일보",
+            "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFpvdDh3TmRDbFRLTk5kU3NZamtDeDBIUzM2UWZaTDc5M0lUSElHemlxREFIQlp2eS1USXRGN01SeDRWSzlwbnM5Q0M5QUhUMDhrUUYwZW5xUmt5aV9DUllqcVQ0NnJVZjhudHhXN2NJMDhEV0VEUUJDTy1LdXQ5X0x1UQ?oc=5",
+            "reportDate": "2026-11-22"
+          }
+        ]
+      },
+      {
+        "occupation": "공무원",
+        "tasks": [
+          "행정 업무 보조",
+          "실무 지원 처리"
+        ],
+        "reason": "정부혁신 박람회 등에서 공무원 업무를 보조하는 AI 솔루션이 도입되고 있으나, 행정 판단과 민원 응대에는 인간의 검토와 책임이 필요하여 불확실성이 존재합니다.",
+        "stage": "현장 도입",
+        "evidence": [
+          {
+            "id": "article-9",
+            "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+            "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+            "reportDate": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "occupation": "발전소 점검원",
+        "tasks": [
+          "산업 현장 안전 모니터링",
+          "발전소 설비 점검"
+        ],
+        "reason": "발전소 현장에 로봇개와 AI 스마트글라스가 투입되어 점검을 보조하고 있으나, 돌발 상황 대응과 최종 안전 확인에는 인간 검토가 반드시 필요합니다.",
+        "stage": "현장 도입",
+        "evidence": [
+          {
+            "id": "article-10",
+            "title": "한전KPS, 발전소에 로봇개·AI 스마트글라스 투입 추진 - 전기신문",
+            "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oMUhiMEZwS21VZ3hvcEMxVy1McmJoM1ZRMGdnQUN0TTB3RnlpR2pEUkd3T2ZZb2tqMXN4UGhQTjB6WGR2TXgyM0FiMzZ6RS0weS11a09DeUUwN1BtaHJ6Q29FeGJZRGYxamNMQ9IBcEFVX3lxTFBKMFdodTAzV2hreU5YN1cxTkhkcjNuTnM1TjNZZVlsX0pvUXg5MHkxOExTY1NiZ2RyZ0poU3FMS3pMWkNOVFNwWVF4czIyMnJ2SXF3UWN3RElEUm1uTTN6N0F3QVpvS3Y2b2hwaTN4Nk0?oc=5",
+            "reportDate": "2026-11-26"
+          }
+        ]
+      },
+      {
+        "occupation": "농업인",
+        "tasks": [
+          "참외 및 딸기 수확",
+          "농작업 자동화 관리"
+        ],
+        "reason": "농업 현장에 AI 로봇이 투입되어 수확 및 연구 과제를 수행하고 있으나, 현장 환경 변화에 따른 예외 상황 처리와 수동 조정 등 인간의 감독이 여전히 요구됩니다.",
+        "stage": "현장 도입",
+        "evidence": [
+          {
+            "id": "article-34",
+            "title": "AI 로봇이 참외·딸기 수확…경북도 농업연구 153개 과제 수행 - 연합뉴스",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0NDdoMnA1Wk45Mnk1MFppLUh0ZkJ1UVdXbWVPRUdGeWZyTXFuNHZUVDE1QXpaSkdwdzVvbWNPVlFyV0RSNmlBdlRIWGRWSEFoMGVTU2FjQ0wzQUHSAWBBVV95cUxQTUdINVBCeVhDeURhLXFlX2FicGF4OGU1d1MzVUdFUHpMT3RweVY4d01uTjRGYkhrYm80aWZOR28yd2trYjJZbVh0Tm5qdlFVLXZQT3B4UF82N0liVzdQT0Q?oc=5",
+            "reportDate": "2026-11-20"
+          }
+        ]
+      },
+      {
+        "occupation": "철강 공장 작업자",
+        "tasks": [
+          "철강 공장 안전 관리",
+          "위험 구역 모니터링"
+        ],
+        "reason": "철강 공장 환경에 특화된 AI 안전 솔루션이 개발되어 적용되고 있으나, 실시간 위험 상황에서의 판단과 조치에는 인간의 개입과 검토가 필수적입니다.",
+        "stage": "현장 도입",
+        "evidence": [
+          {
+            "id": "article-89",
+            "title": "세아베스틸, 철강공장 특화 AI 안전 솔루션 개발 - 연합뉴스",
+            "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByYll3YUhiU0VqVDl4WDltaFgyNlh6WU1JNUNYZG42UG5vQnBWY2NUaGRxd0x2dUh6VmpQQ3BNUTQ0V0o3ZTBsMmZaY1VGemNOU0lYV3FXTjJmZzjSAWBBVV95cUxPS19lbU1ValhYc2Z6NFIwZk05Y1JXalJRRlloQnZNQ1VyM0dlUVgxekRZdkxmS1NpQnpOWW1ydkl6Tm1vRGVRQklZSC05U3RKVzFEVjVVSy0xSmtTWDY5R3U?oc=5",
+            "reportDate": "2026-11-09"
+          }
+        ]
+      }
+    ],
+    "occupationAnalysis": {
+      "startDate": "2026-10-29",
+      "endDate": "2026-11-27",
+      "articleCount": 100,
+      "model": "gemini-3.5-flash-lite",
+      "proposedCount": 5,
+      "acceptedCount": 5
+    }
+  },
+  {
     "lastUpdated": "2026-11-26T03:53:41.710Z",
     "reportDate": "2026. 11. 26.",
     "summary": "- 법적 규제 및 모니터링: AI로 제작된 가짜 전문가 광고와 의사 사칭 마케팅에 대해 영업정지 등 강력한 제재 조치가 시행되며 소비자 보호와 공정 거래 질서 확립이 추진되고 있음.\n\n- 공공 및 산업 현장 자동화: 정부 행정, 발전소, 철강 공장 등 다양한 산업 현장에 AI 스마트글라스와 로봇, 영상 분석 기술이 적극적으로 도입되며 업무 효율성 제고와 현장 안전 관리가 가속화되고 있음.\n\n- 시험 보안 및 사회적 리스크: 웨어러블 AI 기기를 악용한 국가자격시험 및 수능 부정행위 사건이 연이어 적발되면서 당국이 시험 제도 전면 개편과 AI 기업의 협조를 의무화하는 등 강력한 대응 체계를 구축하고 있음.",
@@ -122,7 +299,8 @@
       "model": "gemini-3.5-flash-lite",
       "proposedCount": 2,
       "acceptedCount": 2
-    }
+    },
+    "id": "2026-11-26"
   },
   {
     "lastUpdated": "2026-11-24T05:42:29.831Z",
@@ -3171,88 +3349,5 @@
       }
     ],
     "id": "2026-10-28"
-  },
-  {
-    "lastUpdated": "2026-10-25T23:42:54.492Z",
-    "reportDate": "2026. 10. 26.",
-    "summary": "- 노동 시장 구조 변화: AI가 신입 사원의 업무 영역까지 침투하며 전통적인 경력 개발 경로가 단절될 우려가 제기됨.\n\n- AI 비서 도입 가속화: 오픈AI와 앤트로픽 등 주요 기업들이 생산성 향상을 위한 AI 에이전트 경쟁을 본격화함.\n\n- 기업 내재화 및 윤리적 갈등: 기업들의 사내 AI 도입이 공모전과 연구소 설립 등으로 활발해지는 한편, 저작권 침해 논란에 따른 법적 공방도 심화됨.",
-    "summaryScore": 82,
-    "dailyVelocity": 1.2,
-    "velocityReason": "신입 사원의 업무를 AI가 대체하는 현상이 구체화되고 기업들의 전사적 AI 도입이 증가하면서 일자리 대체 속도가 완만하게 가속됨.",
-    "cumulativeRiskScore": 54.7,
-    "jobRiskScore": 54.7,
-    "riskScoreBreakdown": [
-      {
-        "event": "신입사원 업무 AI 대체 우려",
-        "sign": "+",
-        "impact": 6,
-        "newsIndex": 1
-      },
-      {
-        "event": "기업 내 AI 전담 조직 및 활용 사례 확대",
-        "sign": "+",
-        "impact": 4,
-        "newsIndex": 3
-      },
-      {
-        "event": "AI 저작권 침해 소송 발생",
-        "sign": "+",
-        "impact": 2,
-        "newsIndex": 4
-      }
-    ],
-    "news": [
-      {
-        "title": "\"취업해도 AI가 일한다\"‥신입사원 '경력 사다리' 끊기나 - MBC 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FMkQ3cGJtdHpmZDNaYURpUWNTY2VDaGZtZ3h1emlHOGxXVUdqR0RNVUFBVVowc2hvdmN1WU9GUER0NThTc2R3bXdvaExRcms4bnVHZXVvczVSZWZBX25kbkowM2R2al91Ry1iaGVGWENsbmFzSGdKRdIBeEFVX3lxTE1Pb1czVUNrR2phd0NhMnlKYm9JYkxrTmJ5Sl9zZG5lQ1ZfNGdzV0QyMGdrVkdlQkthRkRleGI4eXAtYVNoUmVxUUNCQnhLNmtFVTI5Q0ZjTVZ3VVJzSTc4RDdQbEFoMDRKR2pXN3Rqb28yeld1S0RQbQ?oc=5",
-        "pubDate": "Sun, 25 Oct 2026 11:20:08 GMT",
-        "summary": "AI가 신입 사원의 주요 업무를 처리하면서 주니어급 인력의 실무 경험 기회가 줄어들고 있다. 이로 인해 전통적인 도제식 교육이나 경력 사다리 체계가 붕괴될 가능성이 커지고 있다.",
-        "importance": 5,
-        "aiImpact": 4,
-        "automationPotential": 5,
-        "investmentImpact": 3
-      },
-      {
-        "title": "오픈AI '닷츠' vs 앤트로픽 '듀엣'…내 일 맡길 AI 비서는? - 지디넷코리아",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FN25RcG9Gc2V6TWtVWTNfLW91c1I5bFZtM3BhRkpJM1A3RDJKNmFKbFVqYVhGc01YN2hsTll5aHZ5eUEzUTF0b3MxUVVMaVNhTDVzX1NR?oc=5",
-        "pubDate": "Sun, 25 Oct 2026 04:48:51 GMT",
-        "summary": "오픈AI와 앤트로픽이 각각 자사 AI 에이전트를 통해 비즈니스 생산성 도구 시장을 공략하고 있다. 단순 정보 검색을 넘어 사용자의 업무를 실질적으로 수행하는 단계로 진입 중이다.",
-        "importance": 4,
-        "aiImpact": 5,
-        "automationPotential": 4,
-        "investmentImpact": 5
-      },
-      {
-        "title": "광동제약, 사내 AI 전담조직→기업부설연구소 전환…적용 범위 확대 - 머니투데이 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qeEJ5TC03Vk4yWUlqNVFhUlJfRGExOTgyV0ZYb1I5YWg2VTRKMWdFYWtOV0dLNzVNN19UeHV6SnBOUFlWNDlIZVhCMF9FT3huRjM3WGg1Nm85XzlST19kbExaU0tNanU3TGfSAW9BVV95cUxPSXkzMmxFZC1ULXdlS1FwMG9pNmlaYWxwQlRQZy1mT1hNdFJuMU9CaHFKWHY3Rmp4MlIxWGpQWG1Zel83TnhJblYyN0NfQThNWWlTYXpoUnJrMEd5N25RSnFDSHhTbzctcGpCQ2hSN1U?oc=5",
-        "pubDate": "Sun, 25 Oct 2026 23:36:04 GMT",
-        "summary": "광동제약이 사내 AI 전담 조직을 연구소로 격상하며 기술 적용 범위를 전사적으로 확대하고 있다. 산업 현장에서 AI의 실무 도입이 선택이 아닌 필수로 자리 잡는 추세다.",
-        "importance": 3,
-        "aiImpact": 3,
-        "automationPotential": 3,
-        "investmentImpact": 4
-      },
-      {
-        "title": "“AI가 프레슬리 노래 무단학습”…앤트로픽 540억 원 피소 - KBS 뉴스",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TSFNYUkJSUDUtVGFmQnRvbGpSNE51TnJHLUpyVUNWUWVBYTVicVE2TU1oblhuMlFJVk9ZSmFTSWtiOGpxTWw3eHQ4ejJDVHd2X2lBNnNEOFRod00?oc=5",
-        "pubDate": "Sun, 25 Oct 2026 23:22:00 GMT",
-        "summary": "앤트로픽이 가수들의 노래를 허가 없이 학습 데이터로 사용했다는 이유로 거액의 소송을 당했다. AI 학습 데이터의 저작권 문제가 기업의 리스크로 부상하고 있다.",
-        "importance": 4,
-        "aiImpact": 4,
-        "automationPotential": 1,
-        "investmentImpact": 4
-      },
-      {
-        "title": "빗썸, 사내 AI 공모전…AI 활용사례 107건 발굴 - 아시아경제",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfRXpiU1g1VzB1X2c0TXhnbkkwNktyZjBjMG5ueDZScW1hZmpDVTg2aDhhN3l4ejktZFllcHBKNGZSbUtFMFl1QmsxcGNGNFdKMFVPaEhJRHNyS1o0Z3pRSg?oc=5",
-        "pubDate": "Sun, 25 Oct 2026 23:19:35 GMT",
-        "summary": "빗썸이 사내 AI 공모전을 통해 100건이 넘는 실무 활용 아이디어를 발굴했다. 금융권 내에서도 AI를 활용한 내부 업무 효율화가 빠르게 진행되고 있음을 보여준다.",
-        "importance": 2,
-        "aiImpact": 2,
-        "automationPotential": 3,
-        "investmentImpact": 2
-      }
-    ],
-    "id": "2026-10-26"
   }
 ]

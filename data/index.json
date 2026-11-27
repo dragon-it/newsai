@@ -1,7 +1,134 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-26T03:53:41.758Z",
+  "updatedAt": "2026-11-27T03:54:18.069Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-27T03:54:18.048Z",
+      "reportDate": "2026. 11. 27.",
+      "summary": "- 인프라 및 생태계 확장: 수학과 과학 영역에서 AI의 복잡한 추론 능력이 입증되는 동시에 주요 모델의 개발 주기 지연 및 공급망 리스크가 대두됨.\n\n- 반도체 공급망 강화: 미국 주도의 대중국 우회 접근 차단 여파로 엔비디아의 서버 출하 중단 및 중국 자회사 관련 공급망 이슈가 불거짐.\n\n- 산업 현장 및 공공 적용: 웨어러블 AI 기기를 악용한 시험 부정행위가 잇따라 적발되며 공공 시험 제도의 보안 기준 강화가 시급한 현안으로 부상함.",
+      "summaryScore": 84,
+      "dailyVelocity": 1.2,
+      "velocityReason": "고난도 수학 추론 및 학술적 문제 해결 영역에서 AI의 능력이 입증되며 직무 자동화 압박이 가중됨.",
+      "cumulativeRiskScore": 55.2,
+      "jobRiskScore": 55.2,
+      "riskScoreBreakdown": [
+        {
+          "event": "수학 난제 및 고난도 시험 영역 AI 대체력 입증",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 1
+        },
+        {
+          "event": "반도체 공급망 및 서버 출하 통제 리스크",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 5
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "수학자",
+          "tasks": [
+            "복잡한 계산 수행",
+            "학술적 난제 증명 분석"
+          ],
+          "reason": "AI가 리만 가설 증명 등 고난도 수학적 추론 능력을 보이고 있으나, 결과의 불확실성과 인간 수학자의 검토 및 해석이 필수적이므로 전면 대체에는 한계가 존재합니다.",
+          "stage": "기술 시연",
+          "evidence": [
+            {
+              "id": "article-1",
+              "title": "AI에 무너지는 난제들…“수학 계속 해도 될까” 수학자들도 계산이 안 선다 - 한겨레",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pOVQzUFdac21iek9ZMHpScVBnOGM5cWdPN1Vqc0s3ZXNuTWoxLS1NNXh4TEx2MjFiU2xtMmxsMHNlMXpwRWVfaFdnNEhJWEJGVUZ2UzVSZFhFOVQxXzR1VDZFVXB0b21CLUQ5Y1FDUGRoZw?oc=5",
+              "reportDate": "2026-11-27"
+            },
+            {
+              "id": "article-21",
+              "title": "167년 안 풀린 수학 최대 난제 ‘리만 가설’, AI가 증명 주장 - 조선일보",
+              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFpvdDh3TmRDbFRLTk5kU3NZamtDeDBIUzM2UWZaTDc5M0lUSElHemlxREFIQlp2eS1USXRGN01SeDRWSzlwbnM5Q0M5QUhUMDhrUUYwZW5xUmt5aV9DUllqcVQ0NnJVZjhudHhXN2NJMDhEV0VEUUJDTy1LdXQ5X0x1UQ?oc=5",
+              "reportDate": "2026-11-22"
+            }
+          ]
+        },
+        {
+          "occupation": "공무원",
+          "tasks": [
+            "행정 업무 보조",
+            "실무 지원 처리"
+          ],
+          "reason": "정부혁신 박람회 등에서 공무원 업무를 보조하는 AI 솔루션이 도입되고 있으나, 행정 판단과 민원 응대에는 인간의 검토와 책임이 필요하여 불확실성이 존재합니다.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-9",
+              "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+              "reportDate": "2026-11-26"
+            }
+          ]
+        },
+        {
+          "occupation": "발전소 점검원",
+          "tasks": [
+            "산업 현장 안전 모니터링",
+            "발전소 설비 점검"
+          ],
+          "reason": "발전소 현장에 로봇개와 AI 스마트글라스가 투입되어 점검을 보조하고 있으나, 돌발 상황 대응과 최종 안전 확인에는 인간 검토가 반드시 필요합니다.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-10",
+              "title": "한전KPS, 발전소에 로봇개·AI 스마트글라스 투입 추진 - 전기신문",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oMUhiMEZwS21VZ3hvcEMxVy1McmJoM1ZRMGdnQUN0TTB3RnlpR2pEUkd3T2ZZb2tqMXN4UGhQTjB6WGR2TXgyM0FiMzZ6RS0weS11a09DeUUwN1BtaHJ6Q29FeGJZRGYxamNMQ9IBcEFVX3lxTFBKMFdodTAzV2hreU5YN1cxTkhkcjNuTnM1TjNZZVlsX0pvUXg5MHkxOExTY1NiZ2RyZ0poU3FMS3pMWkNOVFNwWVF4czIyMnJ2SXF3UWN3RElEUm1uTTN6N0F3QVpvS3Y2b2hwaTN4Nk0?oc=5",
+              "reportDate": "2026-11-26"
+            }
+          ]
+        },
+        {
+          "occupation": "농업인",
+          "tasks": [
+            "참외 및 딸기 수확",
+            "농작업 자동화 관리"
+          ],
+          "reason": "농업 현장에 AI 로봇이 투입되어 수확 및 연구 과제를 수행하고 있으나, 현장 환경 변화에 따른 예외 상황 처리와 수동 조정 등 인간의 감독이 여전히 요구됩니다.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-34",
+              "title": "AI 로봇이 참외·딸기 수확…경북도 농업연구 153개 과제 수행 - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0NDdoMnA1Wk45Mnk1MFppLUh0ZkJ1UVdXbWVPRUdGeWZyTXFuNHZUVDE1QXpaSkdwdzVvbWNPVlFyV0RSNmlBdlRIWGRWSEFoMGVTU2FjQ0wzQUHSAWBBVV95cUxQTUdINVBCeVhDeURhLXFlX2FicGF4OGU1d1MzVUdFUHpMT3RweVY4d01uTjRGYkhrYm80aWZOR28yd2trYjJZbVh0Tm5qdlFVLXZQT3B4UF82N0liVzdQT0Q?oc=5",
+              "reportDate": "2026-11-20"
+            }
+          ]
+        },
+        {
+          "occupation": "철강 공장 작업자",
+          "tasks": [
+            "철강 공장 안전 관리",
+            "위험 구역 모니터링"
+          ],
+          "reason": "철강 공장 환경에 특화된 AI 안전 솔루션이 개발되어 적용되고 있으나, 실시간 위험 상황에서의 판단과 조치에는 인간의 개입과 검토가 필수적입니다.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-89",
+              "title": "세아베스틸, 철강공장 특화 AI 안전 솔루션 개발 - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByYll3YUhiU0VqVDl4WDltaFgyNlh6WU1JNUNYZG42UG5vQnBWY2NUaGRxd0x2dUh6VmpQQ3BNUTQ0V0o3ZTBsMmZaY1VGemNOU0lYV3FXTjJmZzjSAWBBVV95cUxPS19lbU1ValhYc2Z6NFIwZk05Y1JXalJRRlloQnZNQ1VyM0dlUVgxekRZdkxmS1NpQnpOWW1ydkl6Tm1vRGVRQklZSC05U3RKVzFEVjVVSy0xSmtTWDY5R3U?oc=5",
+              "reportDate": "2026-11-09"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-29",
+        "endDate": "2026-11-27",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 5,
+        "acceptedCount": 5
+      },
+      "id": "2026-11-27",
+      "fileName": "2026-11-27.json"
+    },
     {
       "lastUpdated": "2026-11-26T03:53:41.710Z",
       "reportDate": "2026. 11. 26.",
@@ -3331,6 +3458,58 @@
   ],
   "occupationTracking": [
     {
+      "id": "수학자",
+      "occupation": "수학자",
+      "tasks": [
+        "복잡한 계산 수행",
+        "학술적 난제 증명 분석"
+      ],
+      "reason": "AI가 리만 가설 증명 등 고난도 수학적 추론 능력을 보이고 있으나, 결과의 불확실성과 인간 수학자의 검토 및 해석이 필수적이므로 전면 대체에는 한계가 존재합니다.",
+      "stage": "기술 시연",
+      "firstObserved": "2026-11-27",
+      "lastObserved": "2026-11-27",
+      "lastEvidenceDate": "2026-11-27",
+      "evidence": [
+        {
+          "id": "article-1",
+          "title": "AI에 무너지는 난제들…“수학 계속 해도 될까” 수학자들도 계산이 안 선다 - 한겨레",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pOVQzUFdac21iek9ZMHpScVBnOGM5cWdPN1Vqc0s3ZXNuTWoxLS1NNXh4TEx2MjFiU2xtMmxsMHNlMXpwRWVfaFdnNEhJWEJGVUZ2UzVSZFhFOVQxXzR1VDZFVXB0b21CLUQ5Y1FDUGRoZw?oc=5",
+          "reportDate": "2026-11-27"
+        },
+        {
+          "id": "article-21",
+          "title": "167년 안 풀린 수학 최대 난제 ‘리만 가설’, AI가 증명 주장 - 조선일보",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFpvdDh3TmRDbFRLTk5kU3NZamtDeDBIUzM2UWZaTDc5M0lUSElHemlxREFIQlp2eS1USXRGN01SeDRWSzlwbnM5Q0M5QUhUMDhrUUYwZW5xUmt5aV9DUllqcVQ0NnJVZjhudHhXN2NJMDhEV0VEUUJDTy1LdXQ5X0x1UQ?oc=5",
+          "reportDate": "2026-11-22"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-27",
+          "stage": "기술 시연",
+          "reason": "AI가 리만 가설 증명 등 고난도 수학적 추론 능력을 보이고 있으나, 결과의 불확실성과 인간 수학자의 검토 및 해석이 필수적이므로 전면 대체에는 한계가 존재합니다.",
+          "tasks": [
+            "복잡한 계산 수행",
+            "학술적 난제 증명 분석"
+          ],
+          "evidence": [
+            {
+              "id": "article-1",
+              "title": "AI에 무너지는 난제들…“수학 계속 해도 될까” 수학자들도 계산이 안 선다 - 한겨레",
+              "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pOVQzUFdac21iek9ZMHpScVBnOGM5cWdPN1Vqc0s3ZXNuTWoxLS1NNXh4TEx2MjFiU2xtMmxsMHNlMXpwRWVfaFdnNEhJWEJGVUZ2UzVSZFhFOVQxXzR1VDZFVXB0b21CLUQ5Y1FDUGRoZw?oc=5",
+              "reportDate": "2026-11-27"
+            },
+            {
+              "id": "article-21",
+              "title": "167년 안 풀린 수학 최대 난제 ‘리만 가설’, AI가 증명 주장 - 조선일보",
+              "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaFpvdDh3TmRDbFRLTk5kU3NZamtDeDBIUzM2UWZaTDc5M0lUSElHemlxREFIQlp2eS1USXRGN01SeDRWSzlwbnM5Q0M5QUhUMDhrUUYwZW5xUmt5aV9DUllqcVQ0NnJVZjhudHhXN2NJMDhEV0VEUUJDTy1LdXQ5X0x1UQ?oc=5",
+              "reportDate": "2026-11-22"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "공무원",
       "occupation": "공무원",
       "tasks": [
@@ -3345,12 +3524,14 @@
         "민원 처리",
         "일반 행정 업무",
         "일반 민원 및 행정 처리",
-        "일반 행정 지원 업무"
+        "일반 행정 지원 업무",
+        "행정 업무 보조",
+        "실무 지원 처리"
       ],
-      "reason": "정부 행정 현장에 AI 보조 시스템이 도입되며 업무 방식을 지원하는 단계이나 전면적인 고용 대체로 이어지지는 않음.",
-      "stage": "기술 시연",
+      "reason": "정부혁신 박람회 등에서 공무원 업무를 보조하는 AI 솔루션이 도입되고 있으나, 행정 판단과 민원 응대에는 인간의 검토와 책임이 필요하여 불확실성이 존재합니다.",
+      "stage": "현장 도입",
       "firstObserved": "2026-11-09",
-      "lastObserved": "2026-11-26",
+      "lastObserved": "2026-11-27",
       "lastEvidenceDate": "2026-11-26",
       "evidence": [
         {
@@ -3572,6 +3753,103 @@
               "reportDate": "2026-11-26"
             }
           ]
+        },
+        {
+          "date": "2026-11-27",
+          "stage": "현장 도입",
+          "reason": "정부혁신 박람회 등에서 공무원 업무를 보조하는 AI 솔루션이 도입되고 있으나, 행정 판단과 민원 응대에는 인간의 검토와 책임이 필요하여 불확실성이 존재합니다.",
+          "tasks": [
+            "행정 업무 보조",
+            "실무 지원 처리"
+          ],
+          "evidence": [
+            {
+              "id": "article-9",
+              "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+              "reportDate": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "발전소점검원",
+      "occupation": "발전소 점검원",
+      "tasks": [
+        "산업 현장 안전 모니터링",
+        "발전소 설비 점검"
+      ],
+      "reason": "발전소 현장에 로봇개와 AI 스마트글라스가 투입되어 점검을 보조하고 있으나, 돌발 상황 대응과 최종 안전 확인에는 인간 검토가 반드시 필요합니다.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-27",
+      "lastObserved": "2026-11-27",
+      "lastEvidenceDate": "2026-11-26",
+      "evidence": [
+        {
+          "id": "article-10",
+          "title": "한전KPS, 발전소에 로봇개·AI 스마트글라스 투입 추진 - 전기신문",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oMUhiMEZwS21VZ3hvcEMxVy1McmJoM1ZRMGdnQUN0TTB3RnlpR2pEUkd3T2ZZb2tqMXN4UGhQTjB6WGR2TXgyM0FiMzZ6RS0weS11a09DeUUwN1BtaHJ6Q29FeGJZRGYxamNMQ9IBcEFVX3lxTFBKMFdodTAzV2hreU5YN1cxTkhkcjNuTnM1TjNZZVlsX0pvUXg5MHkxOExTY1NiZ2RyZ0poU3FMS3pMWkNOVFNwWVF4czIyMnJ2SXF3UWN3RElEUm1uTTN6N0F3QVpvS3Y2b2hwaTN4Nk0?oc=5",
+          "reportDate": "2026-11-26"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-27",
+          "stage": "현장 도입",
+          "reason": "발전소 현장에 로봇개와 AI 스마트글라스가 투입되어 점검을 보조하고 있으나, 돌발 상황 대응과 최종 안전 확인에는 인간 검토가 반드시 필요합니다.",
+          "tasks": [
+            "산업 현장 안전 모니터링",
+            "발전소 설비 점검"
+          ],
+          "evidence": [
+            {
+              "id": "article-10",
+              "title": "한전KPS, 발전소에 로봇개·AI 스마트글라스 투입 추진 - 전기신문",
+              "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9oMUhiMEZwS21VZ3hvcEMxVy1McmJoM1ZRMGdnQUN0TTB3RnlpR2pEUkd3T2ZZb2tqMXN4UGhQTjB6WGR2TXgyM0FiMzZ6RS0weS11a09DeUUwN1BtaHJ6Q29FeGJZRGYxamNMQ9IBcEFVX3lxTFBKMFdodTAzV2hreU5YN1cxTkhkcjNuTnM1TjNZZVlsX0pvUXg5MHkxOExTY1NiZ2RyZ0poU3FMS3pMWkNOVFNwWVF4czIyMnJ2SXF3UWN3RElEUm1uTTN6N0F3QVpvS3Y2b2hwaTN4Nk0?oc=5",
+              "reportDate": "2026-11-26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "농업인",
+      "occupation": "농업인",
+      "tasks": [
+        "참외 및 딸기 수확",
+        "농작업 자동화 관리"
+      ],
+      "reason": "농업 현장에 AI 로봇이 투입되어 수확 및 연구 과제를 수행하고 있으나, 현장 환경 변화에 따른 예외 상황 처리와 수동 조정 등 인간의 감독이 여전히 요구됩니다.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-27",
+      "lastObserved": "2026-11-27",
+      "lastEvidenceDate": "2026-11-20",
+      "evidence": [
+        {
+          "id": "article-34",
+          "title": "AI 로봇이 참외·딸기 수확…경북도 농업연구 153개 과제 수행 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0NDdoMnA1Wk45Mnk1MFppLUh0ZkJ1UVdXbWVPRUdGeWZyTXFuNHZUVDE1QXpaSkdwdzVvbWNPVlFyV0RSNmlBdlRIWGRWSEFoMGVTU2FjQ0wzQUHSAWBBVV95cUxQTUdINVBCeVhDeURhLXFlX2FicGF4OGU1d1MzVUdFUHpMT3RweVY4d01uTjRGYkhrYm80aWZOR28yd2trYjJZbVh0Tm5qdlFVLXZQT3B4UF82N0liVzdQT0Q?oc=5",
+          "reportDate": "2026-11-20"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-27",
+          "stage": "현장 도입",
+          "reason": "농업 현장에 AI 로봇이 투입되어 수확 및 연구 과제를 수행하고 있으나, 현장 환경 변화에 따른 예외 상황 처리와 수동 조정 등 인간의 감독이 여전히 요구됩니다.",
+          "tasks": [
+            "참외 및 딸기 수확",
+            "농작업 자동화 관리"
+          ],
+          "evidence": [
+            {
+              "id": "article-34",
+              "title": "AI 로봇이 참외·딸기 수확…경북도 농업연구 153개 과제 수행 - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0NDdoMnA1Wk45Mnk1MFppLUh0ZkJ1UVdXbWVPRUdGeWZyTXFuNHZUVDE1QXpaSkdwdzVvbWNPVlFyV0RSNmlBdlRIWGRWSEFoMGVTU2FjQ0wzQUHSAWBBVV95cUxQTUdINVBCeVhDeURhLXFlX2FicGF4OGU1d1MzVUdFUHpMT3RweVY4d01uTjRGYkhrYm80aWZOR28yd2trYjJZbVh0Tm5qdlFVLXZQT3B4UF82N0liVzdQT0Q?oc=5",
+              "reportDate": "2026-11-20"
+            }
+          ]
         }
       ]
     },
@@ -3790,6 +4068,46 @@
               "title": "'돌봄 AI' 전환…로봇이 간병을 대신할 수 있을까 - 오피니언 | 뉴스 - 대한민국 정책브리핑",
               "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTkdYSVkxZmpaMDhhdkVPb240Q2YwNVNPMmR4dW91NTl6RmM1TmhxbTVkYmdQdF9hNHVXbDJWVW5zXzR2LUFYUzBuR3NaSkU0aWhSZkFCZjkxU0Nmdmc1MmQxVlhJRHhLTFJvVHFRcnBDU3ZVM2VKdTZwQ2VYQzRjOWJJTzl5M1lkMUFnUEtBQlhvUQ?oc=5",
               "reportDate": "2026-11-11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "철강공장작업자",
+      "occupation": "철강 공장 작업자",
+      "tasks": [
+        "철강 공장 안전 관리",
+        "위험 구역 모니터링"
+      ],
+      "reason": "철강 공장 환경에 특화된 AI 안전 솔루션이 개발되어 적용되고 있으나, 실시간 위험 상황에서의 판단과 조치에는 인간의 개입과 검토가 필수적입니다.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-27",
+      "lastObserved": "2026-11-27",
+      "lastEvidenceDate": "2026-11-09",
+      "evidence": [
+        {
+          "id": "article-89",
+          "title": "세아베스틸, 철강공장 특화 AI 안전 솔루션 개발 - 연합뉴스",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByYll3YUhiU0VqVDl4WDltaFgyNlh6WU1JNUNYZG42UG5vQnBWY2NUaGRxd0x2dUh6VmpQQ3BNUTQ0V0o3ZTBsMmZaY1VGemNOU0lYV3FXTjJmZzjSAWBBVV95cUxPS19lbU1ValhYc2Z6NFIwZk05Y1JXalJRRlloQnZNQ1VyM0dlUVgxekRZdkxmS1NpQnpOWW1ydkl6Tm1vRGVRQklZSC05U3RKVzFEVjVVSy0xSmtTWDY5R3U?oc=5",
+          "reportDate": "2026-11-09"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-27",
+          "stage": "현장 도입",
+          "reason": "철강 공장 환경에 특화된 AI 안전 솔루션이 개발되어 적용되고 있으나, 실시간 위험 상황에서의 판단과 조치에는 인간의 개입과 검토가 필수적입니다.",
+          "tasks": [
+            "철강 공장 안전 관리",
+            "위험 구역 모니터링"
+          ],
+          "evidence": [
+            {
+              "id": "article-89",
+              "title": "세아베스틸, 철강공장 특화 AI 안전 솔루션 개발 - 연합뉴스",
+              "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByYll3YUhiU0VqVDl4WDltaFgyNlh6WU1JNUNYZG42UG5vQnBWY2NUaGRxd0x2dUh6VmpQQ3BNUTQ0V0o3ZTBsMmZaY1VGemNOU0lYV3FXTjJmZzjSAWBBVV95cUxPS19lbU1ValhYc2Z6NFIwZk05Y1JXalJRRlloQnZNQ1VyM0dlUVgxekRZdkxmS1NpQnpOWW1ydkl6Tm1vRGVRQklZSC05U3RKVzFEVjVVSy0xSmtTWDY5R3U?oc=5",
+              "reportDate": "2026-11-09"
             }
           ]
         }
