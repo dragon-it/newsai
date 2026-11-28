@@ -1,7 +1,75 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T03:54:18.069Z",
+  "updatedAt": "2026-11-28T03:40:56.471Z",
   "reports": [
+    {
+      "lastUpdated": "2026-11-28T03:40:56.451Z",
+      "reportDate": "2026. 11. 28.",
+      "summary": "- 인프라 및 생태계 확장: 주요 AI 기업들의 기술 개발 주기가 변동하고 반도체 공급망과 데이터센터 구축을 둘러싼 지정학적 패권 경쟁이 지속되고 있음.\n\n- 공공 및 산업 현장 적용: 정부와 기업 주도로 행정, 공장 모니터링, 농업 등 다양한 실무 영역에서 AI 솔루션과 로봇 도입이 본격화되고 있음.\n\n- 보안 및 사회적 규제 강화: 고성능 AI 모델의 고도화에 따른 해킹 위협과 웨어러블 기기를 악용한 시험 부정행위 등 부작용에 대응하기 위한 입법 및 보안 대책이 시급하게 논의됨.",
+      "summaryScore": 86,
+      "dailyVelocity": 1.5,
+      "velocityReason": "AI 모델의 고도화된 추론 능력과 실무 활용성이 부각되면서 업무 자동화 및 에이전트 도입 속도가 완만하게 가속화됨.",
+      "cumulativeRiskScore": 55.4,
+      "jobRiskScore": 55.4,
+      "riskScoreBreakdown": [
+        {
+          "event": "AI 고난도 문제 해결 및 추론 능력 입증",
+          "sign": "+",
+          "impact": 4,
+          "newsIndex": 2
+        },
+        {
+          "event": "글로벌 하드웨어 공급망 및 인프라 재편",
+          "sign": "+",
+          "impact": 3,
+          "newsIndex": 4
+        }
+      ],
+      "occupationRisks": [
+        {
+          "occupation": "교사",
+          "tasks": [
+            "특수교사 행정 및 반복 업무 처리"
+          ],
+          "reason": "특수교사의 행정 및 반복 업무를 경감하는 AI 솔루션이 도입되어 업무 보조 효과가 확인됨.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-57",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
+            }
+          ]
+        },
+        {
+          "occupation": "공무원",
+          "tasks": [
+            "행정 업무 보조 및 실무 지원"
+          ],
+          "reason": "정부혁신 박람회 등에서 공무원 업무를 보조하는 AI 솔루션이 선보이며 행정 지원 영역으로의 도입이 가시화됨.",
+          "stage": "현장 도입",
+          "evidence": [
+            {
+              "id": "article-12",
+              "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+              "reportDate": "2026-11-26"
+            }
+          ]
+        }
+      ],
+      "occupationAnalysis": {
+        "startDate": "2026-10-30",
+        "endDate": "2026-11-28",
+        "articleCount": 100,
+        "model": "gemini-3.5-flash-lite",
+        "proposedCount": 2,
+        "acceptedCount": 2
+      },
+      "id": "2026-11-28",
+      "fileName": "2026-11-28.json"
+    },
     {
       "lastUpdated": "2026-11-27T03:54:18.048Z",
       "reportDate": "2026. 11. 27.",
@@ -3526,12 +3594,13 @@
         "일반 민원 및 행정 처리",
         "일반 행정 지원 업무",
         "행정 업무 보조",
-        "실무 지원 처리"
+        "실무 지원 처리",
+        "행정 업무 보조 및 실무 지원"
       ],
-      "reason": "정부혁신 박람회 등에서 공무원 업무를 보조하는 AI 솔루션이 도입되고 있으나, 행정 판단과 민원 응대에는 인간의 검토와 책임이 필요하여 불확실성이 존재합니다.",
+      "reason": "정부혁신 박람회 등에서 공무원 업무를 보조하는 AI 솔루션이 선보이며 행정 지원 영역으로의 도입이 가시화됨.",
       "stage": "현장 도입",
       "firstObserved": "2026-11-09",
-      "lastObserved": "2026-11-27",
+      "lastObserved": "2026-11-28",
       "lastEvidenceDate": "2026-11-26",
       "evidence": [
         {
@@ -3770,6 +3839,22 @@
               "reportDate": "2026-11-26"
             }
           ]
+        },
+        {
+          "date": "2026-11-28",
+          "stage": "현장 도입",
+          "reason": "정부혁신 박람회 등에서 공무원 업무를 보조하는 AI 솔루션이 선보이며 행정 지원 영역으로의 도입이 가시화됨.",
+          "tasks": [
+            "행정 업무 보조 및 실무 지원"
+          ],
+          "evidence": [
+            {
+              "id": "article-12",
+              "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+              "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+              "reportDate": "2026-11-26"
+            }
+          ]
         }
       ]
     },
@@ -3888,6 +3973,44 @@
               "title": "AI 로봇이 참외·딸기 수확…경북도 농업연구 153개 과제 수행 - 연합뉴스",
               "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0NDdoMnA1Wk45Mnk1MFppLUh0ZkJ1UVdXbWVPRUdGeWZyTXFuNHZUVDE1QXpaSkdwdzVvbWNPVlFyV0RSNmlBdlRIWGRWSEFoMGVTU2FjQ0wzQUHSAWBBVV95cUxQTUdINVBCeVhDeURhLXFlX2FicGF4OGU1d1MzVUdFUHpMT3RweVY4d01uTjRGYkhrYm80aWZOR28yd2trYjJZbVh0Tm5qdlFVLXZQT3B4UF82N0liVzdQT0Q?oc=5",
               "reportDate": "2026-11-20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "교사",
+      "occupation": "교사",
+      "tasks": [
+        "특수교사 행정 및 반복 업무 처리"
+      ],
+      "reason": "특수교사의 행정 및 반복 업무를 경감하는 AI 솔루션이 도입되어 업무 보조 효과가 확인됨.",
+      "stage": "현장 도입",
+      "firstObserved": "2026-11-28",
+      "lastObserved": "2026-11-28",
+      "lastEvidenceDate": "2026-11-16",
+      "evidence": [
+        {
+          "id": "article-57",
+          "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+          "reportDate": "2026-11-16"
+        }
+      ],
+      "observations": [
+        {
+          "date": "2026-11-28",
+          "stage": "현장 도입",
+          "reason": "특수교사의 행정 및 반복 업무를 경감하는 AI 솔루션이 도입되어 업무 보조 효과가 확인됨.",
+          "tasks": [
+            "특수교사 행정 및 반복 업무 처리"
+          ],
+          "evidence": [
+            {
+              "id": "article-57",
+              "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+              "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+              "reportDate": "2026-11-16"
             }
           ]
         }

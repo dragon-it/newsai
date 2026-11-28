@@ -1,0 +1,119 @@
+{
+  "lastUpdated": "2026-11-28T03:40:56.451Z",
+  "reportDate": "2026. 11. 28.",
+  "summary": "- 인프라 및 생태계 확장: 주요 AI 기업들의 기술 개발 주기가 변동하고 반도체 공급망과 데이터센터 구축을 둘러싼 지정학적 패권 경쟁이 지속되고 있음.\n\n- 공공 및 산업 현장 적용: 정부와 기업 주도로 행정, 공장 모니터링, 농업 등 다양한 실무 영역에서 AI 솔루션과 로봇 도입이 본격화되고 있음.\n\n- 보안 및 사회적 규제 강화: 고성능 AI 모델의 고도화에 따른 해킹 위협과 웨어러블 기기를 악용한 시험 부정행위 등 부작용에 대응하기 위한 입법 및 보안 대책이 시급하게 논의됨.",
+  "summaryScore": 86,
+  "dailyVelocity": 1.5,
+  "velocityReason": "AI 모델의 고도화된 추론 능력과 실무 활용성이 부각되면서 업무 자동화 및 에이전트 도입 속도가 완만하게 가속화됨.",
+  "cumulativeRiskScore": 55.4,
+  "jobRiskScore": 55.4,
+  "riskScoreBreakdown": [
+    {
+      "event": "AI 고난도 문제 해결 및 추론 능력 입증",
+      "sign": "+",
+      "impact": 4,
+      "newsIndex": 2
+    },
+    {
+      "event": "글로벌 하드웨어 공급망 및 인프라 재편",
+      "sign": "+",
+      "impact": 3,
+      "newsIndex": 4
+    }
+  ],
+  "news": [
+    {
+      "title": "Z.ai 'GLM-5.5' 출시 지연…문샷 AI도 개발 주기 두배 전망 - AI타임스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTT3gyNU44cDNHa3VFdS1EM1d2MHVnT3djUUdzQmxlZkFINUZaMFBSWndLc0dGdEZoa0JqeHJkSWNjMmt4YkE5YmVRN1ViVUVPWkg4U2dQcV9PWllrSVY3cVpsVHVOa1d2Nnc?oc=5",
+      "pubDate": "Thu, 26 Nov 2026 21:20:35 GMT",
+      "summary": "Z.ai의 'GLM-5.5' 출시 지연과 문샷 AI의 개발 주기 연장 전망이 보도되었다. 대규모언어모델의 고도화 과정에서 개발 복잡성과 인프라 제약이 영향을 미치고 있음을 보여준다.",
+      "importance": 3,
+      "aiImpact": 4,
+      "automationPotential": 2,
+      "investmentImpact": 3
+    },
+    {
+      "title": "AI에 무너지는 난제들…“수학 계속 해도 될까” 수학자들도 계산이 안 선다 - 한겨레",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pOVQzUFdac21iek9ZMHpScVBnOGM5cWdPN1Vqc0s3ZXNuTWoxLS1NNXh4TEx2MjFiU2xtMmxsMHNlMXpwRWVfaFdnNEhJWEJGVUZ2UzVSZFhFOVQxXzR1VDZFVXB0b21CLUQ5Y1FDUGRoZw?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 00:44:00 GMT",
+      "summary": "AI가 고난도 수학 난제와 복잡한 계산 영역까지 해결 능력을 입증하면서 학계와 전문가들 사이에서 기존 업무 방식에 대한 재검토가 이루어지고 있다. 인간 고유의 영역으로 여겨졌던 분석 작업의 대체 가능성이 시사되고 있다.",
+      "importance": 4,
+      "aiImpact": 5,
+      "automationPotential": 4,
+      "investmentImpact": 3
+    },
+    {
+      "title": "李대통령 \"전세계 AI 경쟁서 선도국가 되도록 모든 역량 동원\" - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OUVhVOUthbk4xU3d6aUwwSzBjUFlVcmFVNE1tQ2lYVGNwWmxpNlFvT2ZDbXg1TmlpeGFPZUpjNVJvNW9SOHhVbnFtb2xacThGZThGb09Bb2g1elXSAWBBVV95cUxPcmFRRDRUY3hTV1FqeGQ2MUZ4M0xrWTRGMl90RWFfRU0zckRDV1EwZERUUkRtLXF1Q3BqTjk5T0RRMnRBT0p5Q0hxNEhNZm51TzA4OFdtLUFrNFVaOTR0TGU?oc=5",
+      "pubDate": "Sat, 28 Nov 2026 03:02:01 GMT",
+      "summary": "정부가 전 세계 AI 경쟁에서 선도국가로 도약하기 위해 모든 역량을 동원하겠다는 의지를 밝혔다. 국가 차원의 전략적 지원과 인프라 투자가 가속화될 전망이다.",
+      "importance": 4,
+      "aiImpact": 3,
+      "automationPotential": 2,
+      "investmentImpact": 4
+    },
+    {
+      "title": "\"앨리스 황 연계 중국 시설에 엔비디아 AI 칩\" - MBC 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1SQWtYU1dEQVQ3c2syMTlBZk54Y3g0NWdSTEdmT0k3bGZMakhHcmt1aHJqTE4yWTVPVG1ZWnJvUHRHLVlfRTVLQ21Zb2tqTXlEM29IanR3NnAzMEt3Z1p0QTNRQlhOZjlRWUl5anhJU1htZ21rVE4xSkNn0gF6QVVfeXFMT1M2eG02ZDhKdjdxbnFyN3FiS2F1ODN0aHhmVFNRVXlwUElpWk9iczk0ZE13cWJIdjdtMmZCX2MtbURuU0ctZVJKak9kU2k4cEpoU0taellaUFhocEhmUGJ0Z0hNTmFRdzBleHVVUFcyWm9YSnduRVlwTlE?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 22:10:25 GMT",
+      "summary": "중국 시설과 연계된 조직에 엔비디아 AI 칩이 유입된 정황이 포착되었다. 미국의 대중국 반도체 수출 통제망을 우회하는 하드웨어 공급망 리스크가 지속되고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 1,
+      "investmentImpact": 5
+    },
+    {
+      "title": "중국이 쓰던 GPU, 미국에 쏟아진다…젠슨 황 스캔들의 나비효과 [김인엽의 AI프런티어] - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pT1c3ZnN1WFJxa3FUZUZnaTZudXFDcTF3WmdEYVBIYUQwUUowRXFSd1ZGQ2dHdnVYNFgwWklIYUxSNURYaFZTcVlSVXM0UUhENUIxdDN0dE5wdw?oc=5",
+      "pubDate": "Sat, 28 Nov 2026 01:00:02 GMT",
+      "summary": "미국의 대중국 제재와 수출 통제 여파로 글로벌 반도체 공급망과 유통 경로가 재편되고 있다. 젠슨 황 관련 이슈와 맞물려 시장 전반의 하드웨어 수급 불확실성이 커지고 있다.",
+      "importance": 4,
+      "aiImpact": 4,
+      "automationPotential": 1,
+      "investmentImpact": 5
+    }
+  ],
+  "occupationRisks": [
+    {
+      "occupation": "교사",
+      "tasks": [
+        "특수교사 행정 및 반복 업무 처리"
+      ],
+      "reason": "특수교사의 행정 및 반복 업무를 경감하는 AI 솔루션이 도입되어 업무 보조 효과가 확인됨.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-57",
+          "title": "특수교사 업무 줄이는 AI ‘사회혁신’ 대상 - 서울신문",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1mY0RMNG1ZQThaMjFNbUhyUzNRM25OWHNoT3VJdXF3ZU93b1Yzb1JJaU1sWC1hc1gxVmhEeVBTS1FuMWJfZEpWaVVzT0VlaWxuRnhWQzJDa1Z0SGdyWWdPempVeDF5OVBQVDdlbG42UQ?oc=5",
+          "reportDate": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "occupation": "공무원",
+      "tasks": [
+        "행정 업무 보조 및 실무 지원"
+      ],
+      "reason": "정부혁신 박람회 등에서 공무원 업무를 보조하는 AI 솔루션이 선보이며 행정 지원 영역으로의 도입이 가시화됨.",
+      "stage": "현장 도입",
+      "evidence": [
+        {
+          "id": "article-12",
+          "title": "[르포] 공무원 옆자리에 AI가 앉는다…정부혁신 박람회 가보니 - 지디넷코리아",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04d002ak43MklPUmhNRTE4Y1N1TjZvb2t0dnFBNjJjN0ZwdWFBNXM0Z0d1ZmlWNnVVaXl6dHdmZHdFaGVzTUhEci1HaFRieTVwRVRTYlJR?oc=5",
+          "reportDate": "2026-11-26"
+        }
+      ]
+    }
+  ],
+  "occupationAnalysis": {
+    "startDate": "2026-10-30",
+    "endDate": "2026-11-28",
+    "articleCount": 100,
+    "model": "gemini-3.5-flash-lite",
+    "proposedCount": 2,
+    "acceptedCount": 2
+  },
+  "id": "2026-11-28"
+}
